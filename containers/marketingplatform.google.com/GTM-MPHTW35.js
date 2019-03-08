@@ -1,11 +1,12 @@
 data = {
 "resource": {
-  "version":"5",
+  "version":"6",
   "macros":[{
       "function":"__e"
     },{
       "function":"__u",
-      "vtp_component":"URL"
+      "vtp_component":"URL",
+      "vtp_enableMultiQueryKeys":false
     },{
       "function":"__remm",
       "vtp_setDefaultValue":true,
@@ -28,16 +29,19 @@ data = {
       "vtp_name":"eventCategory"
     },{
       "function":"__u",
-      "vtp_component":"PROTOCOL"
+      "vtp_component":"PROTOCOL",
+      "vtp_enableMultiQueryKeys":false
     },{
       "function":"__u",
-      "vtp_component":"HOST"
+      "vtp_component":"HOST",
+      "vtp_enableMultiQueryKeys":false
     },{
       "function":"__c",
       "vtp_value":["template",["macro",5],":\/\/",["macro",6]]
     },{
       "function":"__u",
-      "vtp_component":"PATH"
+      "vtp_component":"PATH",
+      "vtp_enableMultiQueryKeys":false
     },{
       "function":"__remm",
       "vtp_setDefaultValue":true,
@@ -78,7 +82,7 @@ data = {
       "vtp_replaceAfterMatch":false,
       "vtp_ignoreCase":true,
       "vtp_defaultValue":["macro",3],
-      "vtp_map":["list",["map","key",".*.\\.appspot\\.com.*","value","staging"]]
+      "vtp_map":["list",["map","key",".*(.\\.appspot\\.com|staging).*","value","staging"]]
     },{
       "function":"__f",
       "vtp_component":"URL"
@@ -117,23 +121,28 @@ data = {
     },{
       "function":"__u",
       "vtp_component":"QUERY",
-      "vtp_queryKey":"utm_source"
+      "vtp_queryKey":"utm_source",
+      "vtp_enableMultiQueryKeys":false
     },{
       "function":"__u",
       "vtp_component":"QUERY",
-      "vtp_queryKey":"utm_medium"
+      "vtp_queryKey":"utm_medium",
+      "vtp_enableMultiQueryKeys":false
     },{
       "function":"__u",
       "vtp_component":"QUERY",
-      "vtp_queryKey":"utm_content"
+      "vtp_queryKey":"utm_content",
+      "vtp_enableMultiQueryKeys":false
     },{
       "function":"__u",
       "vtp_component":"QUERY",
-      "vtp_queryKey":"utm_campaign"
+      "vtp_queryKey":"utm_campaign",
+      "vtp_enableMultiQueryKeys":false
     },{
       "function":"__u",
       "vtp_component":"QUERY",
-      "vtp_queryKey":"utm_term"
+      "vtp_queryKey":"utm_term",
+      "vtp_enableMultiQueryKeys":false
     },{
       "function":"__v",
       "vtp_dataLayerVersion":2,
@@ -197,6 +206,7 @@ data = {
       "vtp_dimension":["list",["map","index","1","dimension",["macro",25]],["map","index","2","dimension",["macro",26]],["map","index","3","dimension",["macro",27]],["map","index","6","dimension",["macro",19]],["map","index","8","dimension",["macro",29]],["map","index","29","dimension",["macro",30]],["map","index","30","dimension",["macro",31]],["map","index","4","dimension",["macro",3]],["map","index","5","dimension",["macro",32]]],
       "vtp_enableEcommerce":false,
       "vtp_trackingId":["macro",33],
+      "vtp_enableRecaptchaOption":false,
       "vtp_enableUaRlsa":false,
       "vtp_enableUseInternalVersion":false
     },{
@@ -231,7 +241,8 @@ data = {
       "vtp_setDefaultValue":true,
       "vtp_defaultValue":""
     },{
-      "function":"__u"
+      "function":"__u",
+      "vtp_enableMultiQueryKeys":false
     },{
       "function":"__v",
       "vtp_name":"gtm.scrollThreshold",
@@ -299,6 +310,7 @@ data = {
       "vtp_gaSettings":["macro",34],
       "vtp_eventAction":["macro",35],
       "vtp_eventLabel":["macro",36],
+      "vtp_enableRecaptchaOption":false,
       "vtp_enableUaRlsa":true,
       "vtp_enableUseInternalVersion":false,
       "vtp_enableFirebaseCampaignData":true,
@@ -314,6 +326,7 @@ data = {
       "vtp_gaSettings":["macro",34],
       "vtp_eventAction":["macro",39],
       "vtp_eventLabel":"off domain link",
+      "vtp_enableRecaptchaOption":false,
       "vtp_enableUaRlsa":true,
       "vtp_enableUseInternalVersion":false,
       "vtp_enableFirebaseCampaignData":true,
@@ -325,6 +338,7 @@ data = {
       "vtp_overrideGaSettings":false,
       "vtp_trackType":"TRACK_PAGEVIEW",
       "vtp_gaSettings":["macro",34],
+      "vtp_enableRecaptchaOption":false,
       "vtp_enableUaRlsa":true,
       "vtp_enableUseInternalVersion":false,
       "vtp_enableFirebaseCampaignData":true,
@@ -335,6 +349,7 @@ data = {
       "vtp_conversionId":"949204775",
       "vtp_customParamsFormat":"NONE",
       "vtp_conversionLabel":"zm2nCJ_ghIMBEKfuzsQD",
+      "vtp_enableOgtRmktParams":false,
       "vtp_url":["macro",41],
       "tag_id":4
     },{
@@ -347,6 +362,7 @@ data = {
       "vtp_gaSettings":["macro",34],
       "vtp_eventAction":"scroll depth",
       "vtp_eventLabel":["template","scroll ",["macro",42],"%"],
+      "vtp_enableRecaptchaOption":false,
       "vtp_enableUaRlsa":true,
       "vtp_enableUseInternalVersion":false,
       "vtp_enableFirebaseCampaignData":true,
@@ -362,6 +378,7 @@ data = {
       "vtp_gaSettings":["macro",34],
       "vtp_eventAction":["macro",45],
       "vtp_eventLabel":["template","video: ",["macro",46]],
+      "vtp_enableRecaptchaOption":false,
       "vtp_enableUaRlsa":true,
       "vtp_enableUseInternalVersion":false,
       "vtp_enableFirebaseCampaignData":true,
@@ -374,39 +391,48 @@ data = {
       "vtp_trackType":"DECORATE_LINK",
       "vtp_gaSettings":["macro",34],
       "vtp_useHashDecorateLink":false,
+      "vtp_enableRecaptchaOption":false,
       "vtp_enableUaRlsa":true,
       "vtp_enableUseInternalVersion":false,
       "vtp_enableFirebaseCampaignData":true,
       "vtp_trackTypeIsDecorateLink":true,
       "tag_id":7
     },{
-      "function":"__lcl",
-      "vtp_waitForTags":true,
-      "vtp_checkValidation":false,
-      "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"9326321_12",
+      "function":"__sp",
+      "once_per_event":true,
+      "vtp_conversionId":"977540931",
+      "vtp_customParamsFormat":"NONE",
+      "vtp_enableOgtRmktParams":false,
+      "vtp_url":["macro",41],
       "tag_id":8
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_checkValidation":false,
       "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"9326321_13",
+      "vtp_uniqueTriggerId":"9326321_12",
       "tag_id":9
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_checkValidation":false,
       "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"9326321_14",
+      "vtp_uniqueTriggerId":"9326321_13",
       "tag_id":10
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_checkValidation":false,
       "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"9326321_15",
+      "vtp_uniqueTriggerId":"9326321_14",
       "tag_id":11
+    },{
+      "function":"__lcl",
+      "vtp_waitForTags":true,
+      "vtp_checkValidation":false,
+      "vtp_waitForTagsTimeout":"2000",
+      "vtp_uniqueTriggerId":"9326321_15",
+      "tag_id":12
     },{
       "function":"__sdl",
       "vtp_verticalThresholdUnits":"PERCENT",
@@ -414,7 +440,8 @@ data = {
       "vtp_verticalThresholdOn":true,
       "vtp_horizontalThresholdOn":false,
       "vtp_uniqueTriggerId":"9326321_16",
-      "tag_id":12
+      "vtp_enableTriggerStartOption":true,
+      "tag_id":13
     },{
       "function":"__ytl",
       "vtp_progressThresholdsPercent":"25,50,75,100",
@@ -425,7 +452,8 @@ data = {
       "vtp_capturePause":true,
       "vtp_captureProgress":true,
       "vtp_uniqueTriggerId":"9326321_18",
-      "tag_id":13
+      "vtp_enableTriggerStartOption":true,
+      "tag_id":14
     }],
   "predicates":[{
       "function":"_eq",
@@ -506,6 +534,20 @@ data = {
       "arg0":["macro",40],
       "arg1":"(^$|((^|,)9326321_13($|,)))"
     },{
+      "function":"_re",
+      "arg0":["macro",14],
+      "arg1":"gam|staging",
+      "ignore_case":true
+    },{
+      "function":"_re",
+      "arg0":["macro",1],
+      "arg1":"published\\-dot\\-bracket\\-admanager\\-staging\\.proxy\\.preview\\.kintaro\\.goog\\\/home|admanager\\.google\\.com\\\/home",
+      "ignore_case":true
+    },{
+      "function":"_eq",
+      "arg0":["macro",14],
+      "arg1":"staging"
+    },{
       "function":"_eq",
       "arg0":["macro",14],
       "arg1":"gam"
@@ -528,14 +570,16 @@ data = {
     [["if",0],["add",0]],
     [["if",2,3],["unless",1],["add",1]],
     [["if",2,5],["unless",4],["add",1]],
-    [["if",6],["add",2,11,12]],
+    [["if",6],["add",2,12,13]],
     [["if",6,7,8],["unless",9],["add",3]],
     [["if",10,11],["add",4]],
     [["if",12,13],["add",5]],
     [["if",2,14,15],["add",6]],
     [["if",2,16,17],["add",6]],
-    [["if",6,18],["add",7]],
-    [["if",6,19],["add",8]],
-    [["if",6,20],["add",9]],
-    [["if",6,21],["add",10]]]
+    [["if",6,18,19],["add",7]],
+    [["if",6,21],["add",8]],
+    [["if",6,22],["add",9]],
+    [["if",6,23],["add",10]],
+    [["if",6,24],["add",11]],
+    [["if",6],["unless",20],["block",7]]]
 }
