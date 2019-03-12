@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"40",
+  "version":"42",
   "macros":[{
       "function":"__v",
       "vtp_dataLayerVersion":2,
@@ -419,7 +419,7 @@ data = {
       "vtp_checkValidation":true,
       "vtp_waitForTagsTimeout":"2000",
       "vtp_uniqueTriggerId":"9010567_34",
-      "tag_id":49
+      "tag_id":50
     },{
       "function":"__sdl",
       "vtp_verticalThresholdUnits":"PERCENT",
@@ -428,7 +428,7 @@ data = {
       "vtp_horizontalThresholdOn":false,
       "vtp_uniqueTriggerId":"9010567_41",
       "vtp_enableTriggerStartOption":true,
-      "tag_id":50
+      "tag_id":51
     },{
       "function":"__html",
       "setup_tags":["list",["tag",3,0]],
@@ -633,6 +633,14 @@ data = {
       "tag_id":48
     },{
       "function":"__html",
+      "once_per_event":true,
+      "vtp_html":"\u003Cscript type=\"text\/gtmscript\"\u003Evar script_url=\"\/\/inhabit-service.cdn.arkadiumhosted.com\/Widget\/v1\/\";!function(a,b,c){a.async=1;a.src=c;a.setAttribute(\"data-ark-client\",\"36d38ce9-255e-4e07-8659-5ccf0eeda0d2\");b.parentNode.insertBefore(a,b)}(document.createElement(\"script\"),document.getElementsByTagName(\"script\")[0],script_url);\u003C\/script\u003E",
+      "vtp_supportDocumentWrite":false,
+      "vtp_enableIframeMode":false,
+      "vtp_enableEditJsMacroBehavior":false,
+      "tag_id":49
+    },{
+      "function":"__html",
       "priority":-10,
       "once_per_event":true,
       "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003E(function(){var b=\"",["escape",["macro",7],7],"\";if(\"suche\"==",["escape",["macro",3],8,16],"){var a=document.createElement(\"a\");a.href=b+",["escape",["macro",14],8,16],";b=a.protocol+a.hostname+a.pathname+(a.search?a.search+\"\\x26srch\\x3d\":\"?srch\\x3d\")+a.hash.substring(1)}window._gtm.ga.trackPageview(b,\"",["escape",["macro",15],7],"\")})();\u003C\/script\u003E"],
@@ -832,20 +840,28 @@ data = {
       "arg0":["macro",30],
       "arg1":"www.stage.sport1.de"
     },{
-      "function":"_eq",
+      "function":"_re",
       "arg0":["macro",30],
-      "arg1":"www.stage.sport.de"
+      "arg1":"(^www.stage.sport1.de$|^m.stage.sport1.de$)"
+    },{
+      "function":"_re",
+      "arg0":["macro",47],
+      "arg1":"(^\\\/fussball\\\/champions-league\\\/|^\\\/fussball\\\/champions-league\\\/)[0-9][0-9][0-9][0-9]\\\/[0-9][0-9]"
+    },{
+      "function":"_ew",
+      "arg0":["macro",15],
+      "arg1":"Bildergalerie"
     }],
   "rules":[
     [["if",0],["add",8,9,17]],
     [["if",1],["add",10,13]],
     [["if",2],["add",11]],
     [["if",1,3],["add",12]],
-    [["if",4],["add",42,15]],
-    [["if",5],["add",39,16,0]],
+    [["if",4],["add",43,15]],
+    [["if",5],["add",40,16,0]],
     [["if",6],["add",4,14,30,7]],
-    [["if",7],["add",40,35]],
-    [["if",9],["add",41,34]],
+    [["if",7],["add",41,35]],
+    [["if",9],["add",42,34]],
     [["if",10],["add",5]],
     [["if",11],["add",18,32]],
     [["if",12,14],["unless",13],["add",19]],
@@ -866,6 +882,7 @@ data = {
     [["if",7,33],["add",2]],
     [["if",6,37],["add",6]],
     [["if",1,38,39],["add",37]],
-    [["if",1,40],["unless",38],["add",38]],
-    [["if",7,8],["block",40]]]
+    [["if",1,39],["unless",38],["add",38]],
+    [["if",1,40,41],["unless",42],["add",39]],
+    [["if",7,8],["block",41]]]
 }
