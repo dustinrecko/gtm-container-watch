@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"380",
+  "version":"381",
   "macros":[{
       "function":"__v",
       "vtp_dataLayerVersion":2,
@@ -744,7 +744,7 @@ data = {
       "vtp_conversionId":"980109921",
       "vtp_customParamsFormat":"DATA_LAYER",
       "vtp_conversionLabel":"nO_SCLu9vW4Q4ZSt0wM",
-      "vtp_enableOgtRmktParams":false,
+      "vtp_enableOgtRmktParams":true,
       "vtp_url":["macro",78],
       "tag_id":2
     },{
@@ -1027,41 +1027,41 @@ data = {
       "vtp_checkValidation":true,
       "vtp_waitForTagsTimeout":"2000",
       "vtp_uniqueTriggerId":"6178770_17",
-      "tag_id":136
+      "tag_id":147
     },{
       "function":"__hl",
-      "tag_id":137
+      "tag_id":148
     },{
       "function":"__cl",
-      "tag_id":138
+      "tag_id":149
     },{
       "function":"__cl",
-      "tag_id":139
+      "tag_id":150
     },{
       "function":"__cl",
-      "tag_id":140
+      "tag_id":151
     },{
       "function":"__cl",
-      "tag_id":141
+      "tag_id":152
     },{
       "function":"__lcl",
       "vtp_waitForTags":false,
       "vtp_checkValidation":false,
       "vtp_waitForTagsTimeout":"1500",
       "vtp_uniqueTriggerId":"6178770_124",
-      "tag_id":142
+      "tag_id":153
     },{
       "function":"__hl",
-      "tag_id":143
+      "tag_id":154
     },{
       "function":"__jel",
-      "tag_id":144
+      "tag_id":155
     },{
       "function":"__hl",
-      "tag_id":145
+      "tag_id":156
     },{
       "function":"__hl",
-      "tag_id":146
+      "tag_id":157
     },{
       "function":"__evl",
       "vtp_useOnScreenDuration":true,
@@ -1072,10 +1072,10 @@ data = {
       "vtp_onScreenRatio":"1",
       "vtp_onScreenDuration":"3000",
       "vtp_uniqueTriggerId":"6178770_444",
-      "tag_id":147
+      "tag_id":158
     },{
       "function":"__cl",
-      "tag_id":148
+      "tag_id":159
     },{
       "function":"__ytl",
       "vtp_captureComplete":false,
@@ -1085,7 +1085,7 @@ data = {
       "vtp_captureProgress":false,
       "vtp_uniqueTriggerId":"6178770_643",
       "vtp_enableTriggerStartOption":true,
-      "tag_id":149
+      "tag_id":160
     },{
       "function":"__ytl",
       "vtp_progressThresholdsPercent":"25, 50, 75, 100",
@@ -1097,17 +1097,17 @@ data = {
       "vtp_captureProgress":true,
       "vtp_uniqueTriggerId":"6178770_646",
       "vtp_enableTriggerStartOption":true,
-      "tag_id":150
+      "tag_id":161
     },{
       "function":"__lcl",
       "vtp_waitForTags":false,
       "vtp_checkValidation":false,
       "vtp_waitForTagsTimeout":"2000",
       "vtp_uniqueTriggerId":"6178770_705",
-      "tag_id":151
+      "tag_id":162
     },{
       "function":"__cl",
-      "tag_id":152
+      "tag_id":163
     },{
       "function":"__evl",
       "vtp_elementId":"produktinformationen",
@@ -1118,10 +1118,10 @@ data = {
       "vtp_onScreenRatio":"20",
       "vtp_onScreenDuration":"1000",
       "vtp_uniqueTriggerId":"6178770_730",
-      "tag_id":153
+      "tag_id":164
     },{
       "function":"__cl",
-      "tag_id":154
+      "tag_id":165
     },{
       "function":"__html",
       "once_per_event":true,
@@ -1259,6 +1259,14 @@ data = {
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
       "tag_id":132
+    },{
+      "function":"__html",
+      "once_per_event":true,
+      "vtp_html":"\u003Cscript type=\"text\/gtmscript\"\u003E(function(){if(\"undefined\"!=typeof document.getElementsByClassName(\"_cart\")[0]\u0026\u0026\"undefined\"!=typeof document.getElementsByClassName(\"_offer\")[0]\u0026\u0026\"undefined\"!=typeof document.getElementById(\"header_search\")\u0026\u0026\"undefined\"!=typeof document.getElementById(\"category-menu\")){var a=document.getElementsByClassName(\"_cart\")[0].childNodes[1],b=document.getElementsByClassName(\"_offer\")[0].childNodes[1],c=document.getElementById(\"header_search\"),d=document.getElementById(\"category-menu\").childNodes[1];d.addEventListener(\"click\",\nfunction(){\"subheader -unstyled-links container onlineshop -is-sticky\"!=this.parentNode.className\u0026\u0026\"subheader -unstyled-links container onlineshop -is-sticky\"!=this.parentNode.parentNode.className\u0026\u0026\"subheader -unstyled-links container onlineshop -is-sticky\"!=this.parentNode.parentNode.parentNode.parentNode.className||dataLayer.push({event:\"GAevent\",eventCategory:\"navigation\",eventAction:\"kategorie_click\",eventLabel:\"stickyNavi\"})});c.addEventListener(\"click\",function(){\"subheader -unstyled-links container onlineshop -is-sticky\"!=\nthis.parentNode.className\u0026\u0026\"subheader -unstyled-links container onlineshop -is-sticky\"!=this.parentNode.parentNode.className\u0026\u0026\"subheader -unstyled-links container onlineshop -is-sticky\"!=this.parentNode.parentNode.parentNode.parentNode.className||dataLayer.push({event:\"GAevent\",eventCategory:\"navigation\",eventAction:\"suche_click\",eventLabel:\"stickyNavi\"})});a.addEventListener(\"click\",function(){\"subheader -unstyled-links container onlineshop -is-sticky\"!=this.parentNode.className\u0026\u0026\"subheader -unstyled-links container onlineshop -is-sticky\"!=\nthis.parentNode.parentNode.className\u0026\u0026\"subheader -unstyled-links container onlineshop -is-sticky\"!=this.parentNode.parentNode.parentNode.parentNode.className||dataLayer.push({event:\"GAevent\",eventCategory:\"navigation\",eventAction:\"warenkorb_click\",eventLabel:\"stickyNavi\"})});b.addEventListener(\"mouseover\",function(){\"subheader -unstyled-links container onlineshop -is-sticky\"!=this.parentNode.className\u0026\u0026\"subheader -unstyled-links container onlineshop -is-sticky\"!=this.parentNode.parentNode.className\u0026\u0026\n\"subheader -unstyled-links container onlineshop -is-sticky\"!=this.parentNode.parentNode.parentNode.parentNode.className||dataLayer.push({event:\"GAevent\",eventCategory:\"navigation\",eventAction:this.innerText+\"_hover\",eventLabel:\"stickyNavi\"})})}})();\u003C\/script\u003E",
+      "vtp_supportDocumentWrite":false,
+      "vtp_enableIframeMode":false,
+      "vtp_enableEditJsMacroBehavior":false,
+      "tag_id":146
     }],
   "predicates":[{
       "function":"_eq",
@@ -1459,7 +1467,7 @@ data = {
     [["if",34,36],["unless",35],["add",48]],
     [["if",4,36],["add",50]],
     [["if",3],["unless",37],["add",51]],
-    [["if",9,38],["add",52,55]],
+    [["if",9,38],["add",52,55,57]],
     [["if",3,9,39],["add",53]],
     [["if",38,40],["add",54]],
     [["if",9,13,41],["add",56]],
