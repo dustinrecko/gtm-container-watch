@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"440",
+  "version":"442",
   "macros":[{
       "function":"__v",
       "vtp_dataLayerVersion":2,
@@ -1010,11 +1010,11 @@ data = {
     },{
       "function":"__remm",
       "vtp_setDefaultValue":false,
-      "vtp_input":["macro",102],
+      "vtp_input":["macro",103],
       "vtp_fullMatch":true,
       "vtp_replaceAfterMatch":true,
       "vtp_ignoreCase":true,
-      "vtp_map":["list",["map","key","www.*\\.kfzteile24.de","value","219"],["map","key","www.*\\.autoteile24.de","value",""],["map","key","beta.*\\.kfzteile24.at","value",""],["map","key","www.*\\.kfzteile24.at","value","376"],["map","key","www.*\\autoteile5000.de","value",""]]
+      "vtp_map":["list",["map","key","k24-de-live","value","219"],["map","key","a24-de-live","value",""],["map","key","k24-at-live","value","376"],["map","key","cpd-nl-live","value","466"],["map","key","cpd-fr-live","value","465"],["map","key","www.*\\autoteile5000.de","value",""]]
     },{
       "function":"__remm",
       "vtp_setDefaultValue":false,
@@ -1025,7 +1025,7 @@ data = {
       "vtp_map":["list",["map","key","pageType_catalogWithProducts","value","product"],["map","key","pageType_catalogWithoutProducts","value","category"],["map","key","pageType_homepage","value","home"],["map","key","checkout_conversionSuccess","value","conversion"],["map","key","pageType_productDetails","value","product"]]
     },{
       "function":"__c",
-      "vtp_value":["template",["macro",102],",",["macro",236]]
+      "vtp_value":["template",["macro",103],",",["macro",236]]
     },{
       "function":"__remm",
       "vtp_setDefaultValue":false,
@@ -1033,7 +1033,7 @@ data = {
       "vtp_fullMatch":true,
       "vtp_replaceAfterMatch":true,
       "vtp_ignoreCase":true,
-      "vtp_map":["list",["map","key","www.*\\.kfzteile24\\.at,home","value","d39052"],["map","key","www.*\\.kfzteile24\\.at,product","value","9864a3"],["map","key","www.*\\.kfzteile24\\.at,category","value","de9335"],["map","key","www.*\\.kfzteile24\\.at,conversion","value","43e1f7"],["map","key","www.*\\.kfzteile24\\.de,home","value","09f422"],["map","key","www.*\\.kfzteile24\\.de,product","value","1d9001"],["map","key","www.*\\.kfzteile24\\.de,category","value","bd46ce"],["map","key","www.*\\.kfzteile24\\.de,conversion","value","1fabbb"]]
+      "vtp_map":["list",["map","key","k24-de-live,home","value","09f422"],["map","key","k24-de-live,product","value","1d9001"],["map","key","k24-de-live,category","value","bd46ce"],["map","key","k24-de-live,conversion","value","1fabbb"],["map","key","k24-at-live,home","value","d39052"],["map","key","k24-at-live,product","value","9864a3"],["map","key","k24-at-live,category","value","de9335"],["map","key","k24-at-live,conversion","value","43e1f7"],["map","key","cpd-nl-live,home","value","2e4e6d"],["map","key","cpd-nl-live,product","value","6fe1b4"],["map","key","cpd-nl-live,category","value","cd6e98"],["map","key","cpd-nl-live,conversion","value","400932"],["map","key","cpd-fr-live,home","value","a15ece"],["map","key","cpd-fr-live,product","value","115046"],["map","key","cpd-fr-live,category","value","067bc3"],["map","key","cpd-fr-live,conversion","value","068982"]]
     },{
       "function":"__jsm",
       "vtp_javascript":["template","(function(){var a=",["escape",["macro",47],8,16],";a=a.slice(0,20);return a=a.join(\":\")})();"]
@@ -1047,7 +1047,7 @@ data = {
       "function":"__smm",
       "vtp_setDefaultValue":false,
       "vtp_input":["macro",109],
-      "vtp_map":["list",["map","key","pageType_homepage","value",["template","[{\"customer\":\"",["macro",235],"\",\"page\":\"home\",\"checksum\":\"",["macro",238],"\"}]"]],["map","key","pageType_catalogWithoutProducts","value",["template","[{\"customer\":\"",["macro",235],"\",\"page\":\"category\",\"checksum\":\"",["macro",238],"\"},{\"category\":{\"id\":\"",["macro",92],"\"}}]"]],["map","key","pageType_catalogWithProducts","value",["template","[{\"customer\":\"",["macro",235],"\",\"page\":\"product\",\"checksum\":\"",["macro",238],"\"},{\"product\":{\"id\":\"",["macro",239],"\"}}]"]],["map","key","checkout_conversionSuccess","value",["template","[{\"customer\":\"",["macro",235],"\",\"page\":\"conversion\",\"checksum\":\"",["macro",238],"\"},{\"conversion\":{\"id\":\"",["macro",14],"\",\"type\":\"sale\",\"value\":\"",["macro",57],"\",\"commission\":\"0.00\",\"customer\":\"\",\"subid\":\"\",\"assigned\":\"",["macro",240],"\"}}]"]],["map","key","pageType_productDetails","value",["template","[{\"customer\":\"",["macro",235],"\",\"page\":\"product\",\"checksum\":\"",["macro",238],"\"},{\"product\":{\"id\":\"",["macro",239],"\"}}]"]]]
+      "vtp_map":["list",["map","key","pageType_homepage","value",["template","[{\"customer\":\"",["macro",235],"\",\"page\":\"home\",\"checksum\":\"",["macro",238],"\"}]"]],["map","key","pageType_catalogWithoutProducts","value",["template","[{\"customer\":\"",["macro",235],"\",\"page\":\"category\",\"checksum\":\"",["macro",238],"\"},{\"category\":{\"id\":\"",["macro",92],"\"}}]"]],["map","key","pageType_catalogWithProducts","value",["template","[{\"customer\":\"",["macro",235],"\",\"page\":\"category\",\"checksum\":\"",["macro",238],"\"},{\"product\":{\"id\":\"",["macro",239],"\"}}]"]],["map","key","checkout_conversionSuccess","value",["template","[{\"customer\":\"",["macro",235],"\",\"page\":\"conversion\",\"checksum\":\"",["macro",238],"\"},{\"conversion\":{\"id\":\"",["macro",14],"\",\"type\":\"sale\",\"value\":\"",["macro",57],"\",\"commission\":\"0.00\",\"customer\":\"\",\"subid\":\"\",\"assigned\":\"",["macro",240],"\"}}]"]],["map","key","pageType_productDetails","value",["template","[{\"customer\":\"",["macro",235],"\",\"page\":\"product\",\"checksum\":\"",["macro",238],"\"},{\"product\":{\"id\":\"",["macro",239],"\"}}]"]]]
     },{
       "function":"__u",
       "vtp_component":"QUERY",
@@ -5001,8 +5001,8 @@ data = {
     [["if",32,34],["add",15]],
     [["if",32,35],["add",15]],
     [["if",36,37],["add",15,59,61,164,167,172,173,176,178,181,191]],
-    [["if",37,38],["add",15,59,61,167,173,176,178,181,191,194]],
-    [["if",37,39],["add",15,59,61,167,173,176,178,181,191,205]],
+    [["if",37,38],["add",15,59,61,164,167,173,176,178,181,191,194]],
+    [["if",37,39],["add",15,59,61,164,167,173,176,178,181,191,205]],
     [["if",37,40],["add",15,61,178]],
     [["if",37,41],["add",15,59,181]],
     [["if",37,42],["add",15,61,173,181,191]],
@@ -5185,6 +5185,14 @@ data = {
     [["if",36,184],["add",164,167,176]],
     [["if",36,182],["add",164,167,178,190]],
     [["if",36,134],["add",164,167,176,178,181]],
+    [["if",38,183],["add",164,167]],
+    [["if",39,183],["add",164,167]],
+    [["if",38,184],["add",164,167,176]],
+    [["if",39,184],["add",164,167,176]],
+    [["if",38,182],["add",164,167,178]],
+    [["if",39,182],["add",164,167,178]],
+    [["if",38,134],["add",164,167,176,178,181]],
+    [["if",39,134],["add",164,167,176,178,181]],
     [["if",2,3],["add",165]],
     [["if",2,8,185],["add",166]],
     [["if",2,149,186],["add",166]],
@@ -5192,14 +5200,6 @@ data = {
     [["if",2,38,185],["add",166]],
     [["if",2,130,185],["add",166]],
     [["if",8,187],["add",167,176,178]],
-    [["if",38,134],["add",167,176,178,181]],
-    [["if",38,182],["add",167,178]],
-    [["if",39,182],["add",167,178]],
-    [["if",39,134],["add",167,176,178,181]],
-    [["if",38,183],["add",167]],
-    [["if",39,183],["add",167]],
-    [["if",38,184],["add",167,176]],
-    [["if",39,184],["add",167,176]],
     [["if",2,8,188],["add",168]],
     [["if",2,10,188],["add",168]],
     [["if",8,189],["add",169]],
