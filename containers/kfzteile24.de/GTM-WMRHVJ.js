@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"448",
+  "version":"449",
   "macros":[{
       "function":"__v",
       "vtp_dataLayerVersion":2,
@@ -368,7 +368,7 @@ data = {
       "vtp_fullMatch":true,
       "vtp_replaceAfterMatch":true,
       "vtp_ignoreCase":true,
-      "vtp_map":["list",["map","key","www.*\\.autoteile24\\.de","value","a24-de-live"],["map","key","beta.*\\.kfzteile24\\.at","value","k24-at-beta"],["map","key","www.*\\.kfzteile24\\.at","value","k24-at-live"],["map","key","(www|staging-.*).*\\.autoteile5000\\.de","value","k24-at-stg"],["map","key","www.*\\.kfzteile24\\.de","value","k24-de-live"],["map","key","staging.*\\.kfzteile24\\.de","value","k24-de-stg"],["map","key","www.*\\.carpardoo\\.nl","value","cpd-nl-live"],["map","key","nl.*\\.autoteile5000\\.de","value","cpd-nl-stg"],["map","key","www.*\\.carpardoo\\.fr","value","cpd-fr-live"],["map","key","fr.*\\.autoteile5000\\.de","value","cpd-fr-stg"],["map","key","www.*\\.carpardoo\\.pl","value","cpd-pl-live"],["map","key","pl.*\\.autoteile5000\\.de","value","cpd-pl-stg"],["map","key","qa-.*-at\\.test-kfz42.de","value","cpd-at-qa"],["map","key","qa-.*-nl\\.test-kfz42.de","value","cpd-nl-qa"],["map","key","qa-.*-fr\\.test-kfz42.de","value","cpd-fr-qa"],["map","key","qa-.*-pl\\.test-kfz42.de","value","cpd-pl-qa"],["map","key","www.*\\.kfzteile\\.com","value","kfz-com-live"]]
+      "vtp_map":["list",["map","key","www.*\\.autoteile24\\.de","value","a24-de-live"],["map","key","beta.*\\.kfzteile24\\.at","value","k24-at-beta"],["map","key","www.*\\.kfzteile24\\.at","value","k24-at-live"],["map","key","(www|staging)\\.autoteile5000\\.de","value","k24-at-stg"],["map","key","www.*\\.kfzteile24\\.de","value","k24-de-live"],["map","key","staging.*\\.kfzteile24\\.de","value","k24-de-stg"],["map","key","www.*\\.carpardoo\\.nl","value","cpd-nl-live"],["map","key","nl.*\\.autoteile5000\\.de","value","cpd-nl-stg"],["map","key","www.*\\.carpardoo\\.fr","value","cpd-fr-live"],["map","key","fr.*\\.autoteile5000\\.de","value","cpd-fr-stg"],["map","key","www.*\\.carpardoo\\.pl","value","cpd-pl-live"],["map","key","www-.*-pl\\.autoteile5000\\.de","value","cpd-pl-stg"],["map","key","qa-.*-at\\.test-kfz42.de","value","cpd-at-qa"],["map","key","qa-.*-nl\\.test-kfz42.de","value","cpd-nl-qa"],["map","key","qa-.*-fr\\.test-kfz42.de","value","cpd-fr-qa"],["map","key","qa-.*-pl\\.test-kfz42.de","value","cpd-pl-qa"],["map","key","www.*\\.kfzteile\\.com","value","kfz-com-live"]]
     },{
       "function":"__v",
       "vtp_dataLayerVersion":2,
@@ -464,7 +464,7 @@ data = {
       "vtp_fullMatch":true,
       "vtp_replaceAfterMatch":true,
       "vtp_ignoreCase":true,
-      "vtp_map":["list",["map","key","(a24|cpd|k24|kfz)-(at|de|fr|nl|com)-(live|stg|qa)","value","EUR"]]
+      "vtp_map":["list",["map","key","(a24|cpd|k24|kfz)-(at|de|fr|nl|com)-(live|stg|qa)","value","EUR"],["map","key","cpd-pl-(live|stg|qa)","value","PLN"]]
     },{
       "function":"__k",
       "convert_undefined_to":"undefined",
@@ -829,7 +829,7 @@ data = {
       "vtp_fullMatch":true,
       "vtp_replaceAfterMatch":true,
       "vtp_ignoreCase":true,
-      "vtp_map":["list",["map","key","k24-de-live","value","true"],["map","key","k24-at-live","value","true"],["map","key","cpd-(nl|fr|pl)-(live|stg)","value","true"]]
+      "vtp_map":["list",["map","key","k24-de-live","value","true"],["map","key","k24-at-(live|stg)","value","true"],["map","key","cpd-(nl|fr|pl)-(live|stg)","value","true"]]
     },{
       "function":"__remm",
       "vtp_setDefaultValue":false,
@@ -853,7 +853,7 @@ data = {
       "vtp_fullMatch":true,
       "vtp_replaceAfterMatch":true,
       "vtp_ignoreCase":true,
-      "vtp_map":["list",["map","key","k24-de-live","value","_gcl"],["map","key","k24-at-live","value","_gcl"],["map","key","cpd-(nl|fr|pl)-(live|stg)","value","_gcl"]]
+      "vtp_map":["list",["map","key","k24-de-live","value","_gcl"],["map","key","k24-at-(live|stg)","value","_gcl"],["map","key","cpd-(nl|fr|pl)-(live|stg)","value","_gcl"]]
     },{
       "function":"__remm",
       "convert_undefined_to":"(not set)",
@@ -862,7 +862,7 @@ data = {
       "vtp_fullMatch":true,
       "vtp_replaceAfterMatch":true,
       "vtp_ignoreCase":true,
-      "vtp_map":["list",["map","key","\u003C!-- Start Config Conversion Tag","value","--\u003E"],["map","key","checkout_conversionSuccess,(k24|a24|cpd)-(de|at|nl|fr|pl|dk)-(live)","value","952328622"],["map","key","checkout_conversionSuccess,kfz-com-live","value","1060210195"],["map","key","\u003C!-- Start Config Remarketing Tag","value","--\u003E"],["map","key","frt_201809071325,(k24|a24|cpd)-(de|at|nl|fr|pl|dk)-(live)","value","952328622"],["map","key","frt_201809071325,kfz-com-live","value","1060210195"],["map","key","\u003C!-- Start Config Conversion Tag - Youtube Ads","value","--\u003E"],["map","key","((gtm.js)|(pageType_productListingPage)|(pageType_productDetails)|(checkout_addToCart)|(20190221100400)),k24-de-live","value","762607257"]]
+      "vtp_map":["list",["map","key","\u003C!-- Start Config Conversion Tag","value","--\u003E"],["map","key","checkout_conversionSuccess,(k24|a24|cpd)-(de|at|nl|fr|pl|dk)-(live|stg)","value","952328622"],["map","key","checkout_conversionSuccess,kfz-com-live","value","1060210195"],["map","key","\u003C!-- Start Config Remarketing Tag","value","--\u003E"],["map","key","frt_201809071325,(k24|a24|cpd)-(de|at|nl|fr|pl|dk)-(live)","value","952328622"],["map","key","frt_201809071325,kfz-com-live","value","1060210195"],["map","key","\u003C!-- Start Config Conversion Tag - Youtube Ads","value","--\u003E"],["map","key","((gtm.js)|(pageType_productListingPage)|(pageType_productDetails)|(checkout_addToCart)|(20190221100400)),k24-de-live","value","762607257"]]
     },{
       "function":"__remm",
       "vtp_setDefaultValue":false,
@@ -870,7 +870,7 @@ data = {
       "vtp_fullMatch":true,
       "vtp_replaceAfterMatch":true,
       "vtp_ignoreCase":true,
-      "vtp_map":["list",["map","key","\u003C!-- Start Config Conversion Tag","value","--\u003E"],["map","key","checkout_conversionSuccess,((cpd|k24)-(at|de|fr|nl)-live)","value","1HarCJ-2n18QrsONxgM"],["map","key","checkout_conversionSuccess,kfz-com-live","value","16DjCJiU4mcQk4zG-QM"],["map","key","\u003C!-- Start Config Remarketing Tag","value","--\u003E"],["map","key","frt_201809071325,((a24|cpd|k24)-(at|de|dk|fr|nl|pl)-(live))","value","1HarCJ-2n18QrsONxgM"],["map","key","\u003C!-- Start Config Conversion Tag - Youtube Ads","value","--\u003E"],["map","key","gtm.js,k24-de-live","value","NCu5CLvOrpUBEJnt0esC"],["map","key","pageType_productListingPage,k24-de-live","value","VWr7CPbNrpUBEJnt0esC"],["map","key","pageType_productDetails,k24-de-live","value","wUGICLrZrpUBEJnt0esC"],["map","key","checkout_addToCart,k24-de-live","value","nLrACIWMwpUBEJnt0esC"],["map","key","20190221100400,k24-de-live","value","6VYWCOybopUBEJnt0esC"]]
+      "vtp_map":["list",["map","key","\u003C!-- Start Config Conversion Tag","value","--\u003E"],["map","key","checkout_conversionSuccess,((cpd|k24)-(at|de|fr|nl|pl)-(live|stg))","value","1HarCJ-2n18QrsONxgM"],["map","key","checkout_conversionSuccess,kfz-com-live","value","16DjCJiU4mcQk4zG-QM"],["map","key","\u003C!-- Start Config Remarketing Tag","value","--\u003E"],["map","key","frt_201809071325,((a24|cpd|k24)-(at|de|dk|fr|nl|pl)-(live))","value","1HarCJ-2n18QrsONxgM"],["map","key","\u003C!-- Start Config Conversion Tag - Youtube Ads","value","--\u003E"],["map","key","gtm.js,k24-de-live","value","NCu5CLvOrpUBEJnt0esC"],["map","key","pageType_productListingPage,k24-de-live","value","VWr7CPbNrpUBEJnt0esC"],["map","key","pageType_productDetails,k24-de-live","value","wUGICLrZrpUBEJnt0esC"],["map","key","checkout_addToCart,k24-de-live","value","nLrACIWMwpUBEJnt0esC"],["map","key","20190221100400,k24-de-live","value","6VYWCOybopUBEJnt0esC"]]
     },{
       "function":"__u",
       "vtp_enableMultiQueryKeys":false
@@ -4002,6 +4002,11 @@ data = {
       "arg1":"20190221100400"
     },{
       "function":"_re",
+      "arg0":["macro",103],
+      "arg1":"cpd-pl-stg",
+      "ignore_case":true
+    },{
+      "function":"_re",
       "arg0":["macro",138],
       "arg1":"(\\\/artikeldetails\\?)|(rm=articleDetails)",
       "ignore_case":true
@@ -4029,11 +4034,6 @@ data = {
       "function":"_eq",
       "arg0":["macro",101],
       "arg1":"frt_201809071325"
-    },{
-      "function":"_re",
-      "arg0":["macro",103],
-      "arg1":"cpd-pl-stg",
-      "ignore_case":true
     },{
       "function":"_re",
       "arg0":["macro",102],
@@ -4594,9 +4594,9 @@ data = {
     [["if",36,37],["add",15,45,47,149,152,157,158,161,163,166,176]],
     [["if",37,38],["add",15,45,47,149,152,158,161,163,166,176,179]],
     [["if",37,39],["add",15,45,47,149,152,158,161,163,166,176,190]],
-    [["if",37,40],["add",15,47,163]],
+    [["if",37,40],["add",15,45,47,163]],
     [["if",37,41],["add",15,45,166]],
-    [["if",37,42],["add",15,47,158,166,176]],
+    [["if",37,42],["add",15,45,47,158,166,176]],
     [["if",32,43],["add",15]],
     [["if",0,7],["unless",1],["add",16,118,121,124,125]],
     [["if",47,48,49],["add",17]],
@@ -4693,15 +4693,15 @@ data = {
     [["if",8,37],["add",45,47,117,149,152,158,161,163,166]],
     [["if",10,37],["add",45,163]],
     [["if",8,121],["add",45]],
-    [["if",42,127],["add",46]],
-    [["if",36,127],["add",46]],
-    [["if",38,127],["add",46]],
-    [["if",39,127],["add",46]],
-    [["if",41,127],["add",46]],
+    [["if",37,122],["add",45,47]],
+    [["if",42,128],["add",46]],
+    [["if",36,128],["add",46]],
+    [["if",38,128],["add",46]],
+    [["if",39,128],["add",46]],
+    [["if",41,128],["add",46]],
     [["if",37,93],["add",47,158,166]],
     [["if",37,112],["add",47,158]],
     [["if",37,114],["add",47,158,190]],
-    [["if",37,128],["add",47]],
     [["if",2,129],["add",51,52]],
     [["if",2,130],["add",54,55,56,70,71]],
     [["if",2,131],["add",72,73]],
@@ -4733,34 +4733,34 @@ data = {
     [["if",12,160],["add",143]],
     [["if",12,161],["add",144]],
     [["if",12,162,163],["add",145]],
-    [["if",2,8,125],["unless",164],["add",146]],
-    [["if",2,36,125],["unless",164],["add",146]],
-    [["if",2,93,125],["unless",164],["add",146]],
-    [["if",2,42,125],["unless",164],["add",146]],
-    [["if",2,38,125],["unless",164],["add",146]],
-    [["if",2,112,125],["unless",164],["add",146]],
-    [["if",2,39,125],["unless",164],["add",146]],
-    [["if",2,114,125],["unless",164],["add",146]],
-    [["if",2,40,125],["unless",164],["add",146]],
-    [["if",2,125,128],["unless",164],["add",146]],
-    [["if",2,8],["unless",123,124],["add",147,186],["block",45,158,166]],
+    [["if",2,8,126],["unless",164],["add",146]],
+    [["if",2,36,126],["unless",164],["add",146]],
+    [["if",2,93,126],["unless",164],["add",146]],
+    [["if",2,42,126],["unless",164],["add",146]],
+    [["if",2,38,126],["unless",164],["add",146]],
+    [["if",2,112,126],["unless",164],["add",146]],
+    [["if",2,39,126],["unless",164],["add",146]],
+    [["if",2,114,126],["unless",164],["add",146]],
+    [["if",2,40,126],["unless",164],["add",146]],
+    [["if",2,122,126],["unless",164],["add",146]],
+    [["if",2,8],["unless",124,125],["add",147,186],["block",45,158,166]],
     [["if",2,36],["unless",1,45],["add",147],["block",158,166]],
     [["if",2,93],["unless",1,45],["add",147],["block",158,166]],
     [["if",2,165],["unless",1,45],["add",147],["block",158,166]],
-    [["if",2,10],["unless",123,124],["add",147]],
+    [["if",2,10],["unless",124,125],["add",147]],
     [["if",2,112],["unless",1,45],["add",147],["block",158]],
     [["if",2,38],["unless",1,45],["add",147],["block",158,166]],
     [["if",2,39],["unless",1,45],["add",147],["block",158,166]],
-    [["if",2,128],["unless",1,45],["add",147]],
+    [["if",2,122],["unless",1,45],["add",147]],
     [["if",2,40],["unless",1,45],["add",147]],
     [["if",2,166],["unless",1,45],["add",147]],
     [["if",2,41],["unless",1,45],["add",147],["block",166]],
     [["if",2,114],["unless",1,45],["add",147],["block",158]],
-    [["if",2,8,122],["add",148],["block",45,166]],
+    [["if",2,8,123],["add",148],["block",45,166]],
     [["if",2,36],["unless",167],["add",148],["block",166]],
     [["if",2,42],["unless",167],["add",148],["block",166]],
-    [["if",2,10,122],["add",148]],
-    [["if",2,93,122],["add",148],["block",166]],
+    [["if",2,10,123],["add",148]],
+    [["if",2,93,123],["add",148],["block",166]],
     [["if",2,38],["unless",167],["add",148],["block",166]],
     [["if",2,39],["unless",167],["add",148],["block",166]],
     [["if",2,41],["unless",167],["add",148],["block",166]],
@@ -4800,7 +4800,7 @@ data = {
     [["if",114,175],["add",154]],
     [["if",41,175],["add",154,166]],
     [["if",40,175],["add",154]],
-    [["if",128,175],["add",154]],
+    [["if",122,175],["add",154]],
     [["if",7,8,176,177],["add",155]],
     [["if",2,36,177,178],["add",155]],
     [["if",2,38,177,178],["add",155]],
@@ -4836,7 +4836,7 @@ data = {
     [["if",48,197,198,207,208],["unless",199],["add",162]],
     [["if",10,48,197,198,209],["unless",199],["add",162]],
     [["if",40,48,194,195,210],["add",162]],
-    [["if",48,128,194,195,211],["add",162]],
+    [["if",48,122,194,195,211],["add",162]],
     [["if",133,168],["add",163,175]],
     [["if",9,36],["add",163,166]],
     [["if",36,212],["add",163,166]],
@@ -4862,21 +4862,21 @@ data = {
     [["if",41,120],["add",166]],
     [["if",41,212],["add",166]],
     [["if",9,41],["add",166]],
-    [["if",2,125,214,216],["add",167],["block",166]],
-    [["if",2,125,214,217],["add",167],["block",166]],
-    [["if",2,125,214,218],["add",167],["block",166]],
-    [["if",2,125,214,220],["add",167]],
-    [["if",2,125,214,221],["add",167]],
-    [["if",2,125,214,219],["add",167],["block",166]],
-    [["if",2,42,125,215],["add",168],["block",166]],
-    [["if",2,36,125,215],["add",168],["block",166]],
-    [["if",2,8,125,126],["add",168],["block",45,166]],
-    [["if",2,93,125,126],["add",168],["block",166]],
-    [["if",2,10,125,126],["add",168]],
-    [["if",2,38,125,215],["add",168],["block",166]],
-    [["if",2,39,125,215],["add",168],["block",166]],
-    [["if",2,40,125,215],["add",168]],
-    [["if",2,41,125,215],["add",168],["block",166]],
+    [["if",2,126,214,216],["add",167],["block",166]],
+    [["if",2,126,214,217],["add",167],["block",166]],
+    [["if",2,126,214,218],["add",167],["block",166]],
+    [["if",2,126,214,220],["add",167]],
+    [["if",2,126,214,221],["add",167]],
+    [["if",2,126,214,219],["add",167],["block",166]],
+    [["if",2,42,126,215],["add",168],["block",166]],
+    [["if",2,36,126,215],["add",168],["block",166]],
+    [["if",2,8,126,127],["add",168],["block",45,166]],
+    [["if",2,93,126,127],["add",168],["block",166]],
+    [["if",2,10,126,127],["add",168]],
+    [["if",2,38,126,215],["add",168],["block",166]],
+    [["if",2,39,126,215],["add",168],["block",166]],
+    [["if",2,40,126,215],["add",168]],
+    [["if",2,41,126,215],["add",168],["block",166]],
     [["if",7,223],["unless",222],["add",169]],
     [["if",12,223,224],["add",170]],
     [["if",12,223,225],["add",171]],
@@ -4912,8 +4912,8 @@ data = {
     [["if",7],["unless",46],["block",16]],
     [["if",7],["unless",140],["block",121]],
     [["if",192,193],["block",161]],
-    [["if",10,99,122],["block",163]],
-    [["if",8,99,122],["block",163]],
-    [["if",2,42,125,214],["block",166]],
+    [["if",10,99,123],["block",163]],
+    [["if",8,99,123],["block",163]],
+    [["if",2,42,126,214],["block",166]],
     [["if",193,232],["block",175]]]
 }
