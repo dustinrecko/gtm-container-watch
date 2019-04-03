@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"6",
+  "version":"7",
   "macros":[{
       "function":"__e"
     },{
@@ -349,7 +349,7 @@ data = {
       "vtp_conversionId":"949204775",
       "vtp_customParamsFormat":"NONE",
       "vtp_conversionLabel":"zm2nCJ_ghIMBEKfuzsQD",
-      "vtp_enableOgtRmktParams":false,
+      "vtp_enableOgtRmktParams":true,
       "vtp_url":["macro",41],
       "tag_id":4
     },{
@@ -402,37 +402,47 @@ data = {
       "once_per_event":true,
       "vtp_conversionId":"977540931",
       "vtp_customParamsFormat":"NONE",
-      "vtp_enableOgtRmktParams":false,
+      "vtp_enableOgtRmktParams":true,
       "vtp_url":["macro",41],
       "tag_id":8
     },{
-      "function":"__lcl",
-      "vtp_waitForTags":true,
-      "vtp_checkValidation":false,
-      "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"9326321_12",
+      "function":"__awct",
+      "once_per_event":true,
+      "vtp_enableConversionLinker":true,
+      "vtp_conversionCookiePrefix":"_gcl",
+      "vtp_conversionId":"977540931",
+      "vtp_conversionLabel":"q4DjCMLRhpIBEMOukNID",
+      "vtp_url":["macro",41],
+      "vtp_enableProductReportingCheckbox":false,
       "tag_id":9
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_checkValidation":false,
       "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"9326321_13",
+      "vtp_uniqueTriggerId":"9326321_12",
       "tag_id":10
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_checkValidation":false,
       "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"9326321_14",
+      "vtp_uniqueTriggerId":"9326321_13",
       "tag_id":11
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_checkValidation":false,
       "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"9326321_15",
+      "vtp_uniqueTriggerId":"9326321_14",
       "tag_id":12
+    },{
+      "function":"__lcl",
+      "vtp_waitForTags":true,
+      "vtp_checkValidation":false,
+      "vtp_waitForTagsTimeout":"2000",
+      "vtp_uniqueTriggerId":"9326321_15",
+      "tag_id":13
     },{
       "function":"__sdl",
       "vtp_verticalThresholdUnits":"PERCENT",
@@ -441,7 +451,7 @@ data = {
       "vtp_horizontalThresholdOn":false,
       "vtp_uniqueTriggerId":"9326321_16",
       "vtp_enableTriggerStartOption":true,
-      "tag_id":13
+      "tag_id":14
     },{
       "function":"__ytl",
       "vtp_progressThresholdsPercent":"25,50,75,100",
@@ -453,7 +463,7 @@ data = {
       "vtp_captureProgress":true,
       "vtp_uniqueTriggerId":"9326321_18",
       "vtp_enableTriggerStartOption":true,
-      "tag_id":14
+      "tag_id":15
     }],
   "predicates":[{
       "function":"_eq",
@@ -548,6 +558,11 @@ data = {
       "arg0":["macro",14],
       "arg1":"staging"
     },{
+      "function":"_re",
+      "arg0":["macro",1],
+      "arg1":"\\\/contact\\-us\\\/thank-you",
+      "ignore_case":true
+    },{
       "function":"_eq",
       "arg0":["macro",14],
       "arg1":"gam"
@@ -570,16 +585,17 @@ data = {
     [["if",0],["add",0]],
     [["if",2,3],["unless",1],["add",1]],
     [["if",2,5],["unless",4],["add",1]],
-    [["if",6],["add",2,12,13]],
+    [["if",6],["add",2,13,14]],
     [["if",6,7,8],["unless",9],["add",3]],
     [["if",10,11],["add",4]],
     [["if",12,13],["add",5]],
     [["if",2,14,15],["add",6]],
     [["if",2,16,17],["add",6]],
     [["if",6,18,19],["add",7]],
-    [["if",6,21],["add",8]],
+    [["if",6,18,21],["add",8]],
     [["if",6,22],["add",9]],
     [["if",6,23],["add",10]],
     [["if",6,24],["add",11]],
-    [["if",6],["unless",20],["block",7]]]
+    [["if",6,25],["add",12]],
+    [["if",6],["unless",20],["block",7,8]]]
 }
