@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"43",
+  "version":"44",
   "macros":[{
       "function":"__v",
       "vtp_dataLayerVersion":2,
@@ -847,6 +847,10 @@ data = {
       "function":"_ew",
       "arg0":["macro",15],
       "arg1":"Bildergalerie"
+    },{
+      "function":"_re",
+      "arg0":["macro",30],
+      "arg1":"(^www.sport1.de$|^m.sport1.de$)"
     }],
   "rules":[
     [["if",0],["add",8,9,17]],
@@ -880,5 +884,6 @@ data = {
     [["if",1,38],["add",37]],
     [["if",1],["unless",38],["add",38]],
     [["if",1,39,40],["unless",41],["add",39]],
+    [["if",1,40,42],["unless",41],["add",39]],
     [["if",7,8],["block",41]]]
 }
