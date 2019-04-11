@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"394",
+  "version":"395",
   "macros":[{
       "function":"__v",
       "vtp_dataLayerVersion":2,
@@ -920,6 +920,7 @@ data = {
       "once_per_event":true,
       "vtp_enableCookieOverrides":false,
       "vtp_enableCrossDomainFeature":true,
+      "vtp_enableCookieUpdateFeature":false,
       "tag_id":85
     },{
       "function":"__ua",
@@ -1102,7 +1103,7 @@ data = {
       "vtp_trackType":"TRACK_EVENT",
       "vtp_gaSettings":["macro",118],
       "vtp_eventAction":"activate",
-      "vtp_eventLabel":["macro",76],
+      "vtp_eventLabel":["macro",77],
       "vtp_enableRecaptchaOption":false,
       "vtp_enableUaRlsa":false,
       "vtp_enableUseInternalVersion":false,
@@ -1398,7 +1399,7 @@ data = {
     },{
       "function":"__html",
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003Evoid 0!==",["escape",["macro",76],8,16],"\u0026\u00261==\/7SxfChgLRZ26L8lu-hh12A.*\/.test(",["escape",["macro",76],8,16],".join(\"!\"))\u0026\u0026dataLayer.push({event:\"optimize.activate\"});\u003C\/script\u003E"],
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003Evoid 0!==",["escape",["macro",76],8,16],"\u0026\u00261==\/(7SxfChgLRZ26L8lu-hh12A.*)|(kjEXGR4_S52rAVMLE1bjvA.*)\/.test(",["escape",["macro",76],8,16],".join(\"!\"))\u0026\u0026dataLayer.push({event:\"optimize.activate\"});\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
