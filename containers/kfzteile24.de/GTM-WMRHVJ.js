@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"456",
+  "version":"457",
   "macros":[{
       "function":"__v",
       "vtp_dataLayerVersion":2,
@@ -1309,7 +1309,7 @@ data = {
       "vtp_fullMatch":true,
       "vtp_replaceAfterMatch":true,
       "vtp_ignoreCase":true,
-      "vtp_map":["list",["map","key","\u003C!-- regex_pattern --\u003E","value","\u003C!-- tradedoubler_config_args_uri --\u003E"],["map","key","checkout_conversionSuccess,(k24|cpd)-(at||fr)-(live|stg)","value",["template","https:\/\/tbs.tradedoubler.com\/report?type=iframe\u0026organization=",["macro",280],"\u0026event=",["macro",281],"\u0026orderNumber=",["macro",14],"\u0026orderValue=",["macro",205],"\u0026currency=",["macro",125],"\u0026voucher=\u0026tduid=",["macro",279],"\u0026extid=2bdaed79164b05b2b94bf259602654bcefb7e9e2b7722f00fa2e140ec39e9c37\u0026exttype=1\u0026reportInfo=",["macro",282]]]]
+      "vtp_map":["list",["map","key","\u003C!-- regex_pattern --\u003E","value","\u003C!-- tradedoubler_config_args_uri --\u003E"],["map","key","checkout_conversionSuccess,(k24|cpd)-(at|fr|pl)-(live|stg)","value",["template","https:\/\/tbs.tradedoubler.com\/report?type=iframe\u0026organization=",["macro",280],"\u0026event=",["macro",281],"\u0026orderNumber=",["macro",14],"\u0026orderValue=",["macro",205],"\u0026currency=",["macro",125],"\u0026voucher=\u0026tduid=",["macro",279],"\u0026extid=2bdaed79164b05b2b94bf259602654bcefb7e9e2b7722f00fa2e140ec39e9c37\u0026exttype=1\u0026reportInfo=",["macro",282]]]]
     },{
       "function":"__u",
       "convert_undefined_to":"(not set)",
@@ -4938,6 +4938,8 @@ data = {
     [["if",36,37],["unless",233],["add",178]],
     [["if",37,42],["unless",233],["add",178]],
     [["if",37,39],["unless",233],["add",178]],
+    [["if",37,40],["unless",233],["add",178]],
+    [["if",37,44],["unless",233],["add",178]],
     [["if",2,36],["unless",234],["add",179]],
     [["if",2,39],["unless",234],["add",179]],
     [["if",2,42],["unless",234],["add",179]],
