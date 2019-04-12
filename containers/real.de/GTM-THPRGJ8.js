@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"395",
+  "version":"397",
   "macros":[{
       "function":"__v",
       "vtp_dataLayerVersion":2,
