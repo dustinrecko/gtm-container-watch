@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"457",
+  "version":"459",
   "macros":[{
       "function":"__v",
       "vtp_dataLayerVersion":2,
@@ -708,7 +708,7 @@ data = {
       "vtp_fullMatch":true,
       "vtp_replaceAfterMatch":true,
       "vtp_ignoreCase":true,
-      "vtp_map":["list",["map","key","www.*\\.kfzteile24\\.de","value","kfzteile24.de"],["map","key","www.*\\.autoteile24\\.de","value","autoteile24.de"],["map","key","beta.*\\.kfzteile24\\.at","value","kfzteile24.de"],["map","key","www.*\\.kfzteile24\\.at","value","kfzteile24.at"],["map","key","www.*\\autoteile5000\\.de","value","autoteile5000.de"]]
+      "vtp_map":["list",["map","key","www.*\\.kfzteile24\\.de","value","kfzteile24.de"],["map","key","www.*\\.autoteile24\\.de","value","autoteile24.de"],["map","key","beta.*\\.kfzteile24\\.at","value","kfzteile24.de"],["map","key","www.*\\.kfzteile24\\.at","value","kfzteile24.at"],["map","key","www.*\\.carpardoo\\.fr","value","carpardoo.fr"],["map","key","www.*\\.carpardoo\\.pl","value","carpardoo.pl"],["map","key","www.*\\autoteile5000\\.de","value","autoteile5000.de"]]
     },{
       "function":"__jsm",
       "vtp_javascript":["template","(function(){return function(){var a=\"\";",["escape",["macro",14],8,16],"\u0026\u0026(",["escape",["macro",13],8,16],"\u0026\u0026(a=",["escape",["macro",13],8,16],"+\",\"),",["escape",["macro",29],8,16],"(\"tmc_tri\",a+",["escape",["macro",14],8,16],",void 0,\"\/\",",["escape",["macro",168],8,16],"))}})();"]
@@ -3450,7 +3450,7 @@ data = {
     },{
       "function":"__html",
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003Etry{OptiMonk.Visitor.createAdapter()}catch(a){var err=1}\nif(1==err)document.getElementsByTagName(\"html\")[0].addEventListener(\"optimonk#ready\",function(){var a=\"",["escape",["macro",133],7],"\";a=JSON.parse(a);for(var d=OptiMonk.Visitor.createAdapter(),c=0;c\u003Ca.length;c++)d.attr(a[c][0],a[c][1])}),function(a,d){var c=a.getElementsByTagName(\"head\")[0],e=a.location.protocol;var b=a.createElement(\"script\");b.type=\"text\/javascript\";b.charset=\"utf-8\";b.id=",["escape",["macro",287],8,16],";b.async=!0;b.defer=!0;b.src=e+\"\/\/front.optimonk.com\/public\/\"+d+\"\/js\/preload.js\";c.appendChild(b)}(document,\n\"36468\");else for(var str=\"",["escape",["macro",133],7],"\",args=JSON.parse(str),adapter=OptiMonk.Visitor.createAdapter(),i=0;i\u003Cargs.length;i++)adapter.attr(args[i][0],args[i][1]);\u003C\/script\u003E"],
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003Etry{OptiMonk.Visitor.createAdapter()}catch(a){var err=1}\nif(1==err)document.getElementsByTagName(\"html\")[0].addEventListener(\"optimonk#ready\",function(){var a=\"",["escape",["macro",133],7],"\";a=JSON.parse(a);for(var d=OptiMonk.Visitor.createAdapter(),c=0;c\u003Ca.length;c++)d.attr(a[c][0],a[c][1])}),function(a,d){var c=a.getElementsByTagName(\"head\")[0],e=a.location.protocol;var b=a.createElement(\"script\");b.type=\"text\/javascript\";b.charset=\"utf-8\";b.id=",["escape",["macro",287],8,16],";b.async=!0;b.defer=!0;b.src=e+\"\/\/front.optimonk.com\/public\/\"+d+\"\/js\/preload.js\";c.appendChild(b)}(document,\n\"53926\");else for(var str=\"",["escape",["macro",133],7],"\",args=JSON.parse(str),adapter=OptiMonk.Visitor.createAdapter(),i=0;i\u003Cargs.length;i++)adapter.attr(args[i][0],args[i][1]);\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
@@ -3482,7 +3482,7 @@ data = {
     },{
       "function":"__html",
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003Evar confObj=JSON.parse(",["escape",["macro",133],8,16],");function getAdapter(){return OptiMonk.Visitor.createAdapter()}function applyAdapter(){for(j=0;j\u003CfuncArr.length;j++)for(i=0;i\u003CargsArr[j].length;i++)funcArr[j]()}function createDomElement(b,c){var d=b.getElementsByTagName(\"head\")[0],e=b.location.protocol;var a=b.createElement(\"script\");a.type=\"text\/javascript\";a.charset=\"utf-8\";a.id=",["escape",["macro",287],8,16],";a.async=!0;a.defer=!0;a.src=e+\"\/\/front.optimonk.com\/public\/\"+c+\"\/js\/preload.js\";d.appendChild(a)}\nif(\"\"!=confObj.functionBody){var funcArr=\"undefined\"!=typeof funcArr?funcArr:[];funcArr.push(new Function(confObj.functionBody));var argsArr=\"undefined\"!=typeof argsArr?argsArr:[];argsArr.push(\"\"!=confObj.args?confObj.args:",["escape",["macro",46],8,16],");if(!addedEventListener){document.getElementsByTagName(\"html\")[0].addEventListener(\"optimonk#ready\",function(){applyAdapter()},!0);var addedEventListener=!0}}try{getAdapter()}catch(b){var err=!0}\nif(1!=err)OptiMonk.triggerEvent(document.getElementsByTagName(\"html\")[0],\"optimonk#ready\");else if(!createdDomElementBool){createDomElement(document,\"36468\");var createdDomElementBool=!0};\u003C\/script\u003E"],
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003Evar confObj=JSON.parse(",["escape",["macro",133],8,16],");function getAdapter(){return OptiMonk.Visitor.createAdapter()}function applyAdapter(){for(j=0;j\u003CfuncArr.length;j++)for(i=0;i\u003CargsArr[j].length;i++)funcArr[j]()}function createDomElement(b,c){var d=b.getElementsByTagName(\"head\")[0],e=b.location.protocol;var a=b.createElement(\"script\");a.type=\"text\/javascript\";a.charset=\"utf-8\";a.id=",["escape",["macro",287],8,16],";a.async=!0;a.defer=!0;a.src=e+\"\/\/front.optimonk.com\/public\/\"+c+\"\/js\/preload.js\";d.appendChild(a)}\nif(\"\"!=confObj.functionBody){var funcArr=\"undefined\"!=typeof funcArr?funcArr:[];funcArr.push(new Function(confObj.functionBody));var argsArr=\"undefined\"!=typeof argsArr?argsArr:[];argsArr.push(\"\"!=confObj.args?confObj.args:",["escape",["macro",46],8,16],");if(!addedEventListener){document.getElementsByTagName(\"html\")[0].addEventListener(\"optimonk#ready\",function(){applyAdapter()},!0);var addedEventListener=!0}}try{getAdapter()}catch(b){var err=!0}\nif(1!=err)OptiMonk.triggerEvent(document.getElementsByTagName(\"html\")[0],\"optimonk#ready\");else if(!createdDomElementBool){createDomElement(document,\"53926\");var createdDomElementBool=!0};\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
@@ -4943,6 +4943,8 @@ data = {
     [["if",2,36],["unless",234],["add",179]],
     [["if",2,39],["unless",234],["add",179]],
     [["if",2,42],["unless",234],["add",179]],
+    [["if",2,40],["unless",234],["add",179]],
+    [["if",2,44],["unless",234],["add",179]],
     [["if",2,8,235,236],["add",181]],
     [["if",8,237],["add",182]],
     [["if",2,238,239],["add",183]],
