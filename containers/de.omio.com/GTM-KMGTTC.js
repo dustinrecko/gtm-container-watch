@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"638",
+  "version":"640",
   "macros":[{
       "function":"__jsm",
       "vtp_javascript":["template","(function(){return 1280\u003C=screen.availWidth?\"d\":1280\u003Escreen.availWidth\u0026\u0026768\u003C=screen.availWidth?\"t\":\"m\"})();"]
@@ -2929,7 +2929,7 @@ data = {
     },{
       "function":"__html",
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript\u003Efunction getObjectLength(b){var c=0,d;for(d in b)b.hasOwnProperty(d)\u0026\u0026c++;return c}function waitForAll(b){var c={};return function(d){var a=Date.now();c[a]=d;return function(){delete c[a];0===getObjectLength(c)\u0026\u0026b()}}}\nfunction get(b,c,d){try{var a=new XMLHttpRequest;a.open(\"GET\",b,!0);a.setRequestHeader(\"Content-Type\",\"application\/json\");a.setRequestHeader(\"Accept\",\"application\/json\");a.timeout=3E3;a.ontimeout=function(){c(\"\")};a.onerror=function(){c(\"\")};a.onreadystatechange=function(){if(4===a.readyState\u0026\u0026200===a.status){var b=JSON.parse(a.responseText);c(b)}};a.send()}catch(e){c(d||\"\")}}\nfunction getSuggesterValues(b,c){var d=\"\/suggester-api\/v5\/position?locale\\x3den\\x26id\\x3d\"+b;get(d,function(a){var b={cityNameInEnglish:\"\",iataCode:\"\"};if(!a)return c(b);a=a[0];if(!a)return c(b);b.cityNameInEnglish=a.defaultName||\"\";b.iataCode=a.code||\"\";return c(b)})}\nfunction resolvePositionData(b,c,d,a){var e=a(getSuggesterValues(b,function(a){c[d+\"CityNameInEnglish\"]=a.cityNameInEnglish;if(a.iataCode)return c[d+\"IataCodes\"]=[a.iataCode],e();a=\"\/mzn-position-resolver\/positions\/\"+b+\"\/iata\";get(a,function(a){c[d+\"IataCodes\"]=a;return e()},\"\")}))}\nfunction pushAttributesToDataLayer(){var b={event:\"mzn-attrs-fetched\"},c=waitForAll(function(){dataLayer.push(b);console.log(\"affirmative\",b)});resolvePositionData(",["escape",["macro",55],8,16],",b,\"departure\",c);resolvePositionData(",["escape",["macro",56],8,16],",b,\"arrival\",c)}var script=document.createElement(\"script\");script.text=\"pushAttributesToDataLayer()\";document.write(script.outerHTML);\u003C\/script\u003E\n"],
+      "vtp_html":["template","\u003Cscript\u003Efunction getObjectLength(b){var c=0,d;for(d in b)b.hasOwnProperty(d)\u0026\u0026c++;return c}function waitForAll(b){var c={};return function(d){var a=Date.now();c[a]=d;return function(){delete c[a];0===getObjectLength(c)\u0026\u0026b()}}}\nfunction get(b,c,d){try{var a=new XMLHttpRequest;a.open(\"GET\",b,!0);a.setRequestHeader(\"Content-Type\",\"application\/json\");a.setRequestHeader(\"Accept\",\"application\/json\");a.timeout=3E3;a.ontimeout=function(){c(\"\")};a.onerror=function(){c(\"\")};a.onreadystatechange=function(){if(4===a.readyState\u0026\u0026200===a.status){var b=JSON.parse(a.responseText);c(b)}};a.send()}catch(e){c(d||\"\")}}\nfunction getSuggesterValues(b,c){var d=\"\/suggester-api\/v5\/position?locale\\x3den\\x26id\\x3d\"+b;get(d,function(a){var b={cityNameInEnglish:\"\",iataCode:\"\"};if(!a)return c(b);a=a[0];if(!a)return c(b);b.cityNameInEnglish=a.defaultName||\"\";b.iataCode=a.code||\"\";return c(b)})}\nfunction resolvePositionData(b,c,d,a){var e=a(getSuggesterValues(b,function(a){c[d+\"CityNameInEnglish\"]=a.cityNameInEnglish;if(a.iataCode)return c[d+\"IataCodes\"]=[a.iataCode],e();a=\"\/mzn-position-resolver\/positions\/\"+b+\"\/iata\";get(a,function(a){c[d+\"IataCodes\"]=a;return e()},\"\")}))}\nfunction pushAttributesToDataLayer(){var b={event:\"mzn-attrs-fetched\"},c=waitForAll(function(){dataLayer.push(b)});resolvePositionData(",["escape",["macro",55],8,16],",b,\"departure\",c);resolvePositionData(",["escape",["macro",56],8,16],",b,\"arrival\",c)}var script=document.createElement(\"script\");script.text=\"pushAttributesToDataLayer()\";document.write(script.outerHTML);\u003C\/script\u003E\n"],
       "vtp_supportDocumentWrite":true,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
@@ -3649,15 +3649,15 @@ data = {
     },{
       "function":"_eq",
       "arg0":["macro",122],
-      "arg1":"flight"
-    },{
-      "function":"_eq",
-      "arg0":["macro",122],
       "arg1":"bus"
     },{
       "function":"_eq",
       "arg0":["macro",122],
       "arg1":"train"
+    },{
+      "function":"_eq",
+      "arg0":["macro",122],
+      "arg1":"flight"
     },{
       "function":"_cn",
       "arg0":["macro",105],
@@ -3822,14 +3822,14 @@ data = {
     [["if",172,173],["add",195]],
     [["if",128,174],["add",196,201,206],["block",197,198,204]],
     [["if",129,174],["add",196,204,206],["block",197,198,201]],
+    [["if",120,175],["add",196,204],["block",198,201]],
+    [["if",120,176],["add",196,201],["block",198,204]],
     [["if",121,174],["add",197,198,206],["block",196,201,204]],
-    [["if",120,175],["add",198],["block",201,204]],
+    [["if",120,177],["add",197,198],["block",201,204]],
     [["if",178,179],["add",199]],
     [["if",179],["unless",178],["add",200]],
-    [["if",120,177],["add",201],["block",198,204]],
     [["if",180],["unless",178],["add",202]],
     [["if",178,180],["add",203]],
-    [["if",120,176],["add",204],["block",198,201]],
     [["if",37,124],["add",205,211]],
     [["if",20,181],["add",206,208]],
     [["if",20,182],["add",206,207]],
