@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"407",
+  "version":"410",
   "macros":[{
       "function":"__v",
       "vtp_dataLayerVersion":2,
@@ -1068,7 +1068,7 @@ data = {
     },{
       "function":"__ua",
       "once_per_event":true,
-      "vtp_nonInteraction":false,
+      "vtp_nonInteraction":true,
       "vtp_overrideGaSettings":false,
       "vtp_eventCategory":"engagement",
       "vtp_trackType":"TRACK_EVENT",
@@ -1130,41 +1130,41 @@ data = {
       "vtp_checkValidation":true,
       "vtp_waitForTagsTimeout":"2000",
       "vtp_uniqueTriggerId":"6178770_17",
-      "tag_id":164
+      "tag_id":169
     },{
       "function":"__hl",
-      "tag_id":165
+      "tag_id":170
     },{
       "function":"__cl",
-      "tag_id":166
+      "tag_id":171
     },{
       "function":"__cl",
-      "tag_id":167
+      "tag_id":172
     },{
       "function":"__cl",
-      "tag_id":168
+      "tag_id":173
     },{
       "function":"__cl",
-      "tag_id":169
+      "tag_id":174
     },{
       "function":"__lcl",
       "vtp_waitForTags":false,
       "vtp_checkValidation":false,
       "vtp_waitForTagsTimeout":"1500",
       "vtp_uniqueTriggerId":"6178770_124",
-      "tag_id":170
+      "tag_id":175
     },{
       "function":"__hl",
-      "tag_id":171
+      "tag_id":176
     },{
       "function":"__jel",
-      "tag_id":172
+      "tag_id":177
     },{
       "function":"__hl",
-      "tag_id":173
+      "tag_id":178
     },{
       "function":"__hl",
-      "tag_id":174
+      "tag_id":179
     },{
       "function":"__evl",
       "vtp_useOnScreenDuration":true,
@@ -1175,10 +1175,10 @@ data = {
       "vtp_onScreenRatio":"1",
       "vtp_onScreenDuration":"3000",
       "vtp_uniqueTriggerId":"6178770_444",
-      "tag_id":175
+      "tag_id":180
     },{
       "function":"__cl",
-      "tag_id":176
+      "tag_id":181
     },{
       "function":"__ytl",
       "vtp_captureComplete":false,
@@ -1188,7 +1188,7 @@ data = {
       "vtp_captureProgress":false,
       "vtp_uniqueTriggerId":"6178770_643",
       "vtp_enableTriggerStartOption":true,
-      "tag_id":177
+      "tag_id":182
     },{
       "function":"__ytl",
       "vtp_progressThresholdsPercent":"25, 50, 75, 100",
@@ -1200,17 +1200,17 @@ data = {
       "vtp_captureProgress":true,
       "vtp_uniqueTriggerId":"6178770_646",
       "vtp_enableTriggerStartOption":true,
-      "tag_id":178
+      "tag_id":183
     },{
       "function":"__lcl",
       "vtp_waitForTags":false,
       "vtp_checkValidation":false,
       "vtp_waitForTagsTimeout":"2000",
       "vtp_uniqueTriggerId":"6178770_705",
-      "tag_id":179
+      "tag_id":184
     },{
       "function":"__cl",
-      "tag_id":180
+      "tag_id":185
     },{
       "function":"__evl",
       "vtp_elementId":"produktinformationen",
@@ -1221,10 +1221,10 @@ data = {
       "vtp_onScreenRatio":"20",
       "vtp_onScreenDuration":"1000",
       "vtp_uniqueTriggerId":"6178770_730",
-      "tag_id":181
+      "tag_id":186
     },{
       "function":"__cl",
-      "tag_id":182
+      "tag_id":187
     },{
       "function":"__sdl",
       "vtp_verticalThresholdUnits":"PERCENT",
@@ -1234,13 +1234,20 @@ data = {
       "vtp_horizontalThresholdOn":false,
       "vtp_uniqueTriggerId":"6178770_780",
       "vtp_enableTriggerStartOption":true,
-      "tag_id":183
+      "tag_id":188
     },{
       "function":"__cl",
-      "tag_id":184
+      "tag_id":189
     },{
       "function":"__cl",
-      "tag_id":185
+      "tag_id":190
+    },{
+      "function":"__lcl",
+      "vtp_waitForTags":false,
+      "vtp_checkValidation":false,
+      "vtp_waitForTagsTimeout":"2000",
+      "vtp_uniqueTriggerId":"6178770_843",
+      "tag_id":191
     },{
       "function":"__html",
       "once_per_event":true,
@@ -1426,6 +1433,22 @@ data = {
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
       "tag_id":163
+    },{
+      "function":"__html",
+      "once_per_event":true,
+      "vtp_html":"\u003Cscript type=\"text\/gtmscript\"\u003E(function(){var a=document.getElementsByClassName(\"elementor-image\")[0];\"undefined\"!=typeof a\u0026\u0026a.addEventListener(\"click\",function(){dataLayer.push({event:\"GAevent\",eventCategory:\"engagement\",eventAction:\"product link click\",eventLabel:this.childNodes[1].href})})})();\u003C\/script\u003E",
+      "vtp_supportDocumentWrite":false,
+      "vtp_enableIframeMode":false,
+      "vtp_enableEditJsMacroBehavior":false,
+      "tag_id":167
+    },{
+      "function":"__html",
+      "once_per_event":true,
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003E(function(){dataLayer.push({event:\"GAevent\",eventCategory:\"engagement\",eventAction:\"product link click\",eventLabel:",["escape",["macro",142],8,16],".href})})();\u003C\/script\u003E\n"],
+      "vtp_supportDocumentWrite":false,
+      "vtp_enableIframeMode":false,
+      "vtp_enableEditJsMacroBehavior":false,
+      "tag_id":168
     }],
   "predicates":[{
       "function":"_eq",
@@ -1651,17 +1674,29 @@ data = {
       "function":"_eq",
       "arg0":["macro",81],
       "arg1":"gtm.dom"
+    },{
+      "function":"_cn",
+      "arg0":["macro",135],
+      "arg1":"elementor-button-link elementor-button elementor-size-sm"
+    },{
+      "function":"_sw",
+      "arg0":["macro",48],
+      "arg1":"\/realtv\/"
+    },{
+      "function":"_re",
+      "arg0":["macro",136],
+      "arg1":"(^$|((^|,)6178770_843($|,)))"
     }],
   "rules":[
-    [["if",0],["add",0,1,9,10,12,47,48,56,58]],
-    [["if",1],["add",1,47,56]],
+    [["if",0],["add",0,1,9,10,12,48,49,57,59]],
+    [["if",1],["add",1,48,57]],
     [["if",2],["add",1]],
-    [["if",3],["add",1,55,3,11,13,47,56,68]],
+    [["if",3],["add",1,56,3,11,13,48,57,69]],
     [["if",6],["add",2]],
-    [["if",7],["add",2,47,52]],
+    [["if",7],["add",2,48,53]],
     [["if",8,9,10,11],["add",2]],
     [["if",12],["add",4]],
-    [["if",0,13],["add",5,51,54]],
+    [["if",0,13],["add",5,52,55]],
     [["if",14],["add",6]],
     [["if",3,15],["add",7]],
     [["if",0,4],["add",8]],
@@ -1673,30 +1708,31 @@ data = {
     [["if",17,26,27],["add",19]],
     [["if",3,28],["add",20]],
     [["if",29,30,31],["add",21]],
-    [["if",32,33],["add",22]],
+    [["if",32,33],["add",22,56,71]],
     [["if",10,17,34],["add",23]],
     [["if",35],["add",24]],
     [["if",33],["unless",36,37],["add",25]],
-    [["if",33],["add",26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,45,46]],
+    [["if",33],["add",26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,45,46,47]],
     [["if",38],["add",44]],
-    [["if",17,40],["add",49]],
-    [["if",17,41],["add",50]],
-    [["if",3,13],["add",51]],
-    [["if",42,43],["add",51]],
-    [["if",0,42],["add",51]],
-    [["if",3,44],["add",53]],
-    [["if",45,47],["unless",46],["add",55]],
-    [["if",4,47],["add",57]],
-    [["if",3],["unless",48],["add",58]],
-    [["if",13,38],["add",59,62,64]],
-    [["if",3,13,49],["add",60]],
-    [["if",38,50],["add",61]],
-    [["if",13,17,51],["add",63]],
-    [["if",29,38],["add",65,66]],
-    [["if",17,29,52],["add",67]],
-    [["if",54,55],["unless",53],["add",69]],
-    [["if",4,5],["block",1,68]],
+    [["if",17,40],["add",50]],
+    [["if",17,41],["add",51]],
+    [["if",3,13],["add",52]],
+    [["if",42,43],["add",52]],
+    [["if",0,42],["add",52]],
+    [["if",3,44],["add",54]],
+    [["if",45,47],["unless",46],["add",56]],
+    [["if",4,47],["add",58]],
+    [["if",3],["unless",48],["add",59]],
+    [["if",13,38],["add",60,63,65]],
+    [["if",3,13,49],["add",61]],
+    [["if",38,50],["add",62]],
+    [["if",13,17,51],["add",64]],
+    [["if",29,38],["add",66,67]],
+    [["if",17,29,52],["add",68]],
+    [["if",54,55],["unless",53],["add",70]],
+    [["if",22,56,57,58],["add",72]],
+    [["if",4,5],["block",1,69]],
     [["if",3,4],["block",1]],
-    [["if",7,39],["block",47]],
-    [["if",5,42],["block",56]]]
+    [["if",7,39],["block",48]],
+    [["if",5,42],["block",57]]]
 }
