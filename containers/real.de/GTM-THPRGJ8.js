@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"410",
+  "version":"411",
   "macros":[{
       "function":"__v",
       "vtp_dataLayerVersion":2,
@@ -663,6 +663,10 @@ data = {
     },{
       "function":"__aev",
       "vtp_varType":"TEXT"
+    },{
+      "function":"__k",
+      "vtp_decodeCookie":false,
+      "vtp_name":"coopPartner"
     },{
       "function":"__u",
       "vtp_component":"QUERY",
@@ -1388,6 +1392,22 @@ data = {
     },{
       "function":"__html",
       "once_per_event":true,
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003Evar _mo=_mo||[];_mo.push([\"_key\",\"21e55062-f619-458f-9eb6-9e7c5eb9b17c\"]);_mo.push([\"_umsatz\",\"",["escape",["macro",82],7],"\"]);_mo.push([\"_versandkosten\",\"\"]);_mo.push([\"_artikelliste\",\"\"]);(function(){var a=document.createElement(\"script\");a.type=\"text\/javascript\";a.async=!0;a.src=\"https:\/\/sales1.moebel.de\/asyndic.js\";var b=document.getElementsByTagName(\"script\")[0];b.parentNode.insertBefore(a,b)})();\u003C\/script\u003E"],
+      "vtp_supportDocumentWrite":false,
+      "vtp_enableIframeMode":false,
+      "vtp_enableEditJsMacroBehavior":false,
+      "tag_id":141
+    },{
+      "function":"__html",
+      "once_per_event":true,
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003Eif(\"moebel.de\"==",["escape",["macro",122],8,16],"){var cookieName=\"coopPartner\",cookieValue=\"moebel.de\",expirationTime=604800;expirationTime*=1E3;var date=new Date,dateTimeNow=date.getTime();date.setTime(dateTimeNow+expirationTime);date=date.toUTCString();document.cookie=cookieName+\"\\x3d\"+cookieValue+\"; expires\\x3d\"+date+\"; path\\x3d\/; domain\\x3d.\"+location.hostname.replace(\/^www\\.\/i,\"\")};\u003C\/script\u003E"],
+      "vtp_supportDocumentWrite":false,
+      "vtp_enableIframeMode":false,
+      "vtp_enableEditJsMacroBehavior":false,
+      "tag_id":142
+    },{
+      "function":"__html",
+      "once_per_event":true,
       "vtp_html":"\u003Cscript type=\"text\/gtmscript\"\u003E(function(){function b(a){return\"subheader -unstyled-links container onlineshop -is-sticky\"==a.parentNode.className||\"subheader -unstyled-links container onlineshop -is-sticky\"==a.parentNode.parentNode.className||\"subheader -unstyled-links container onlineshop -is-sticky\"==a.parentNode.parentNode.parentNode.parentNode.className?\"stickyHeader\":\"staticHeader\"}if(\"undefined\"!=typeof document.getElementsByClassName(\"_cart\")[0]\u0026\u0026\"undefined\"!=typeof document.getElementById(\"header_search\")){var c=document.getElementsByClassName(\"_cart\")[0].childNodes[1],\nd=document.getElementById(\"header_search\");d.addEventListener(\"click\",function(){dataLayer.push({event:\"GAevent\",eventCategory:\"navigation\",eventAction:\"suche_click\",eventLabel:b(this)})});c.addEventListener(\"click\",function(){dataLayer.push({event:\"GAevent\",eventCategory:\"navigation\",eventAction:\"warenkorb_click\",eventLabel:b(this)})})}})();\u003C\/script\u003E",
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
@@ -1659,6 +1679,10 @@ data = {
       "arg0":["macro",135],
       "arg1":".*?_link animate-in.*?|.*?_link -has-subcategory animate-in.*?"
     },{
+      "function":"_eq",
+      "arg0":["macro",153],
+      "arg1":"moebel.de"
+    },{
       "function":"_cn",
       "arg0":["macro",135],
       "arg1":"videoads-link-target"
@@ -1691,7 +1715,7 @@ data = {
     [["if",0],["add",0,1,9,10,12,48,49,57,59]],
     [["if",1],["add",1,48,57]],
     [["if",2],["add",1]],
-    [["if",3],["add",1,56,3,11,13,48,57,69]],
+    [["if",3],["add",1,56,3,11,13,48,57,71]],
     [["if",6],["add",2]],
     [["if",7],["add",2,48,53]],
     [["if",8,9,10,11],["add",2]],
@@ -1708,11 +1732,11 @@ data = {
     [["if",17,26,27],["add",19]],
     [["if",3,28],["add",20]],
     [["if",29,30,31],["add",21]],
-    [["if",32,33],["add",22,56,71]],
+    [["if",32,33],["add",22,56,73]],
     [["if",10,17,34],["add",23]],
     [["if",35],["add",24]],
     [["if",33],["unless",36,37],["add",25]],
-    [["if",33],["add",26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,45,46,47]],
+    [["if",33],["add",26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,45,46,47,66]],
     [["if",38],["add",44]],
     [["if",17,40],["add",50]],
     [["if",17,41],["add",51]],
@@ -1723,15 +1747,16 @@ data = {
     [["if",45,47],["unless",46],["add",56]],
     [["if",4,47],["add",58]],
     [["if",3],["unless",48],["add",59]],
-    [["if",13,38],["add",60,63,65]],
+    [["if",13,38],["add",60,63,67]],
     [["if",3,13,49],["add",61]],
     [["if",38,50],["add",62]],
     [["if",13,17,51],["add",64]],
-    [["if",29,38],["add",66,67]],
-    [["if",17,29,52],["add",68]],
-    [["if",54,55],["unless",53],["add",70]],
-    [["if",22,56,57,58],["add",72]],
-    [["if",4,5],["block",1,69]],
+    [["if",0,13,52],["add",65]],
+    [["if",29,38],["add",68,69]],
+    [["if",17,29,53],["add",70]],
+    [["if",55,56],["unless",54],["add",72]],
+    [["if",22,57,58,59],["add",74]],
+    [["if",4,5],["block",1,71]],
     [["if",3,4],["block",1]],
     [["if",7,39],["block",48]],
     [["if",5,42],["block",57]]]
