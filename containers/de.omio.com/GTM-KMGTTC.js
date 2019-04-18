@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"640",
+  "version":"641",
   "macros":[{
       "function":"__jsm",
       "vtp_javascript":["template","(function(){return 1280\u003C=screen.availWidth?\"d\":1280\u003Escreen.availWidth\u0026\u0026768\u003C=screen.availWidth?\"t\":\"m\"})();"]
@@ -2889,7 +2889,7 @@ data = {
     },{
       "function":"__html",
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003E(function(){var b=1;\"flight\"==",["escape",["macro",138],8,16],"\u0026\u0026(b=5);\"train\"==",["escape",["macro",138],8,16],"\u0026\u0026(b=7);\"bus\"==",["escape",["macro",138],8,16],"\u0026\u0026(b=8);var a=a||[];a.push([\"_setAccount\",\"GOE\"]);a.push([\"_setDataSource\",\"dp\"]);a.push([\"_setLevel\",\"1\"]);a.push([\"_setProduct\",b]);a.push([\"_setLanguage\",\"",["escape",["macro",44],7],"\"]);a.push([\"_track\"])})();\u003C\/script\u003E\n"],
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003Evar travelAudienceTravelMode=1;\"flight\"==",["escape",["macro",138],8,16],"\u0026\u0026(travelAudienceTravelMode=5);\"train\"==",["escape",["macro",138],8,16],"\u0026\u0026(travelAudienceTravelMode=7);\"bus\"==",["escape",["macro",138],8,16],"\u0026\u0026(travelAudienceTravelMode=8);var _ttq=_ttq||[];_ttq.push([\"_setAccount\",\"GOE\"]);_ttq.push([\"_setDataSource\",\"dp\"]);_ttq.push([\"_setLevel\",\"1\"]);_ttq.push([\"_setProduct\",travelAudienceTravelMode]);_ttq.push([\"_setLanguage\",\"",["escape",["macro",44],7],"\"]);_ttq.push([\"_track\"]);\u003C\/script\u003E\n"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
