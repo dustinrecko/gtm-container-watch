@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"44",
+  "version":"45",
   "macros":[{
       "function":"__v",
       "vtp_dataLayerVersion":2,
@@ -33,7 +33,8 @@ data = {
     },{
       "function":"__u",
       "vtp_component":"URL",
-      "vtp_enableMultiQueryKeys":false
+      "vtp_enableMultiQueryKeys":false,
+      "vtp_enableIgnoreEmptyQueryParam":false
     },{
       "function":"__jsm",
       "vtp_javascript":["template","(function(){var a=",["escape",["macro",7],8,16],";return a.replace(\/(newslettermail=)([a-zA-Z0-9.!#$%\u0026'*+\/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\\.[a-zA-Z0-9-]+)*)(.*)\/,\"$1email$3\").replace(\/(email=)([a-zA-Z0-9.!#$%\u0026'*+\/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\\.[a-zA-Z0-9-]+)*)(.*)\/,\"$1email$3\")})();"]
@@ -133,7 +134,8 @@ data = {
     },{
       "function":"__u",
       "vtp_component":"HOST",
-      "vtp_enableMultiQueryKeys":false
+      "vtp_enableMultiQueryKeys":false,
+      "vtp_enableIgnoreEmptyQueryParam":false
     },{
       "function":"__v",
       "vtp_name":"gtm.triggers",
@@ -224,7 +226,8 @@ data = {
     },{
       "function":"__u",
       "vtp_component":"PATH",
-      "vtp_enableMultiQueryKeys":false
+      "vtp_enableMultiQueryKeys":false,
+      "vtp_enableIgnoreEmptyQueryParam":false
     },{
       "function":"__v",
       "vtp_dataLayerVersion":2,
@@ -842,7 +845,7 @@ data = {
     },{
       "function":"_re",
       "arg0":["macro",47],
-      "arg1":"(^\\\/fussball\\\/champions-league\\\/|^\\\/fussball\\\/champions-league\\\/)[0-9][0-9][0-9][0-9]\\\/[0-9][0-9]"
+      "arg1":"(^\\\/fussball\\\/champions-league\\\/|^\\\/fussball\\\/europa-league\\\/|^\\\/internationaler-fussball\\\/premier-league\\\/)[0-9][0-9][0-9][0-9]\\\/[0-9][0-9]"
     },{
       "function":"_ew",
       "arg0":["macro",15],
