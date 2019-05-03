@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"419",
+  "version":"420",
   "macros":[{
       "function":"__v",
       "vtp_dataLayerVersion":2,
@@ -969,16 +969,16 @@ data = {
       "tag_id":158
     },{
       "function":"__cl",
-      "tag_id":169
-    },{
-      "function":"__cl",
       "tag_id":170
     },{
-      "function":"__jel",
+      "function":"__cl",
       "tag_id":171
     },{
-      "function":"__hl",
+      "function":"__jel",
       "tag_id":172
+    },{
+      "function":"__hl",
+      "tag_id":173
     },{
       "function":"__ytl",
       "vtp_captureComplete":false,
@@ -989,7 +989,7 @@ data = {
       "vtp_captureProgress":false,
       "vtp_uniqueTriggerId":"6178770_643",
       "vtp_enableTriggerStartOption":true,
-      "tag_id":173
+      "tag_id":174
     },{
       "function":"__ytl",
       "vtp_progressThresholdsPercent":"25, 50, 75, 100",
@@ -1002,17 +1002,17 @@ data = {
       "vtp_captureProgress":true,
       "vtp_uniqueTriggerId":"6178770_646",
       "vtp_enableTriggerStartOption":true,
-      "tag_id":174
+      "tag_id":175
     },{
       "function":"__lcl",
       "vtp_waitForTags":false,
       "vtp_checkValidation":false,
       "vtp_waitForTagsTimeout":"2000",
       "vtp_uniqueTriggerId":"6178770_705",
-      "tag_id":175
+      "tag_id":176
     },{
       "function":"__cl",
-      "tag_id":176
+      "tag_id":177
     },{
       "function":"__evl",
       "vtp_elementId":"produktinformationen",
@@ -1023,10 +1023,10 @@ data = {
       "vtp_onScreenRatio":"20",
       "vtp_onScreenDuration":"1000",
       "vtp_uniqueTriggerId":"6178770_730",
-      "tag_id":177
+      "tag_id":178
     },{
       "function":"__cl",
-      "tag_id":178
+      "tag_id":179
     },{
       "function":"__sdl",
       "vtp_verticalThresholdUnits":"PERCENT",
@@ -1036,17 +1036,27 @@ data = {
       "vtp_horizontalThresholdOn":false,
       "vtp_uniqueTriggerId":"6178770_780",
       "vtp_enableTriggerStartOption":true,
-      "tag_id":179
+      "tag_id":180
     },{
       "function":"__cl",
-      "tag_id":180
+      "tag_id":181
     },{
       "function":"__lcl",
       "vtp_waitForTags":false,
       "vtp_checkValidation":false,
       "vtp_waitForTagsTimeout":"2000",
       "vtp_uniqueTriggerId":"6178770_843",
-      "tag_id":181
+      "tag_id":182
+    },{
+      "function":"__evl",
+      "vtp_elementId":"1f37fdce",
+      "vtp_useOnScreenDuration":false,
+      "vtp_useDomChangeListener":true,
+      "vtp_firingFrequency":"ONCE_PER_ELEMENT",
+      "vtp_selectorType":"ID",
+      "vtp_onScreenRatio":"1",
+      "vtp_uniqueTriggerId":"6178770_861",
+      "tag_id":183
     },{
       "function":"__html",
       "once_per_event":true,
@@ -1256,6 +1266,14 @@ data = {
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
       "tag_id":168
+    },{
+      "function":"__html",
+      "once_per_event":true,
+      "vtp_html":"\u003Cscript type=\"text\/gtmscript\" id=\"gtmctagid\"\u003EdataLayer.push({event:\"CRO 610\"});\u003C\/script\u003E",
+      "vtp_supportDocumentWrite":false,
+      "vtp_enableIframeMode":false,
+      "vtp_enableEditJsMacroBehavior":false,
+      "tag_id":169
     }],
   "predicates":[{
       "function":"_eq",
@@ -1481,17 +1499,21 @@ data = {
       "function":"_re",
       "arg0":["macro",118],
       "arg1":"(^$|((^|,)6178770_843($|,)))"
+    },{
+      "function":"_re",
+      "arg0":["macro",118],
+      "arg1":"(^$|((^|,)6178770_861($|,)))"
     }],
   "rules":[
-    [["if",0],["add",0,1,9,10,35,36,44,46]],
-    [["if",1],["add",1,35,44]],
+    [["if",0],["add",0,1,9,10,36,37,45,47]],
+    [["if",1],["add",1,36,45]],
     [["if",2],["add",1]],
-    [["if",3],["add",1,3,11,12,35,43,44,57]],
+    [["if",3],["add",1,3,11,12,36,44,45,58]],
     [["if",6],["add",2]],
-    [["if",7],["add",2,35,40]],
+    [["if",7],["add",2,36,41]],
     [["if",8,9,10,11],["add",2]],
     [["if",12],["add",4]],
-    [["if",0,13],["add",5,39,42]],
+    [["if",0,13],["add",5,40,43]],
     [["if",14],["add",6]],
     [["if",3,15],["add",7]],
     [["if",0,4],["add",8]],
@@ -1502,31 +1524,32 @@ data = {
     [["if",24,25,26],["add",17]],
     [["if",3,27],["add",18]],
     [["if",28,29,30],["add",19]],
-    [["if",31,32],["add",20,59]],
+    [["if",31,32],["add",20,60]],
     [["if",33],["add",21]],
-    [["if",32],["add",22,23,24,25,28,29,30,31,33,34]],
+    [["if",32],["add",22,23,24,25,28,29,30,31,33,34,35]],
     [["if",34],["add",26,27]],
     [["if",35],["add",32]],
-    [["if",26,37],["add",37]],
-    [["if",26,38],["add",38]],
-    [["if",3,13],["add",39,52]],
-    [["if",39,40],["add",39]],
-    [["if",0,39],["add",39]],
-    [["if",3,41],["add",41]],
-    [["if",42,44],["unless",43],["add",43]],
-    [["if",3,45],["add",45]],
-    [["if",3],["unless",46],["add",46]],
-    [["if",3,13,47],["add",47]],
-    [["if",35,48],["add",48]],
-    [["if",13,35],["add",49,53]],
-    [["if",13,26,49],["add",50]],
-    [["if",0,13,50],["add",51]],
-    [["if",28,35],["add",54,55]],
-    [["if",26,28,51],["add",56]],
-    [["if",34,45],["unless",52],["add",58]],
-    [["if",20,53,54,55],["add",60]],
-    [["if",4,5],["block",1,57]],
+    [["if",26,37],["add",38]],
+    [["if",26,38],["add",39]],
+    [["if",3,13],["add",40,53]],
+    [["if",39,40],["add",40]],
+    [["if",0,39],["add",40]],
+    [["if",3,41],["add",42]],
+    [["if",42,44],["unless",43],["add",44]],
+    [["if",3,45],["add",46]],
+    [["if",3],["unless",46],["add",47]],
+    [["if",3,13,47],["add",48]],
+    [["if",35,48],["add",49]],
+    [["if",13,35],["add",50,54]],
+    [["if",13,26,49],["add",51]],
+    [["if",0,13,50],["add",52]],
+    [["if",28,35],["add",55,56]],
+    [["if",26,28,51],["add",57]],
+    [["if",34,45],["unless",52],["add",59]],
+    [["if",20,53,54,55],["add",61]],
+    [["if",22,56],["add",62]],
+    [["if",4,5],["block",1,58]],
     [["if",3,4],["block",1]],
-    [["if",7,36],["block",35]],
-    [["if",5,39],["block",44]]]
+    [["if",7,36],["block",36]],
+    [["if",5,39],["block",45]]]
 }
