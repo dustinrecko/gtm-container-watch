@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"422",
+  "version":"424",
   "macros":[{
       "function":"__v",
       "vtp_dataLayerVersion":2,
@@ -257,22 +257,22 @@ data = {
       "vtp_javascript":["template","(function(){try{vt=",["escape",["macro",66],8,16],".view_type;ev=",["escape",["macro",8],8,16],";if(vt==\"Category\"|vt==\"Search\"){maxItems=4;idList=",["escape",["macro",3],8,16],";r={\"ecomm_prodid\":",["escape",["macro",3],8,16],",\"ecomm_pagetype\":\"category\"}}else if(vt==\"Item\")r={\"ecomm_prodid\":",["escape",["macro",36],8,16],".id,\"ecomm_pagetype\":\"product\",\"ecomm_totalvalue\":",["escape",["macro",36],8,16],".offers.length\u003E0?",["escape",["macro",36],8,16],".offers[0].price:undefined};else if(ev==\"addToCart\"|vt==\"Cart\"|ev==\"RemoveFromCart\"|ev==\"Sale\"){if(ev==\"Sale\"){var pt=\n\"purchase\";var tv=",["escape",["macro",0],8,16],".revenue;var idList=",["escape",["macro",1],8,16],"}else{var pt=\"cart\";var tv=",["escape",["macro",5],8,16],";var idList=",["escape",["macro",6],8,16],"}r={\"ecomm_prodid\":idList,\"ecomm_pagetype\":pt,\"ecomm_totalvalue\":tv}}else r={\"ecomm_prodid\":\"\",\"ecomm_pagetype\":\"other\"};return r}catch(err){return{\"ecomm_prodid\":\"\",\"ecomm_pagetype\":\"other\"}}})();"]
     },{
       "function":"__v",
-      "vtp_dataLayerVersion":2,
+      "vtp_dataLayerVersion":1,
       "vtp_setDefaultValue":false,
       "vtp_name":"banners"
     },{
       "function":"__v",
-      "vtp_dataLayerVersion":2,
+      "vtp_dataLayerVersion":1,
       "vtp_setDefaultValue":false,
       "vtp_name":"promos"
     },{
       "function":"__v",
-      "vtp_dataLayerVersion":2,
+      "vtp_dataLayerVersion":1,
       "vtp_setDefaultValue":false,
       "vtp_name":"promo"
     },{
       "function":"__v",
-      "vtp_dataLayerVersion":2,
+      "vtp_dataLayerVersion":1,
       "vtp_setDefaultValue":false,
       "vtp_name":"banner"
     },{
@@ -451,7 +451,7 @@ data = {
       "vtp_name":"_gaexp"
     },{
       "function":"__c",
-      "vtp_value":"UA-27218006-4"
+      "vtp_value":"UA-27218006-5"
     },{
       "function":"__gas",
       "vtp_useDebugVersion":false,
@@ -614,7 +614,7 @@ data = {
       "vtp_value":"real.de"
     },{
       "function":"__c",
-      "vtp_value":"UA-27218006-5"
+      "vtp_value":"UA-27218006-4"
     },{
       "function":"__v",
       "vtp_dataLayerVersion":2,
@@ -638,7 +638,7 @@ data = {
       "vtp_enableLinkId":false,
       "vtp_dimension":["list",["map","index","1","dimension",["macro",14]]],
       "vtp_enableEcommerce":false,
-      "vtp_trackingId":["macro",108],
+      "vtp_trackingId":["macro",139],
       "vtp_enableRecaptchaOption":false,
       "vtp_enableUaRlsa":false,
       "vtp_enableUseInternalVersion":false
