@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"467",
+  "version":"468",
   "macros":[{
       "function":"__v",
       "vtp_dataLayerVersion":2,
@@ -453,7 +453,7 @@ data = {
       "vtp_fullMatch":true,
       "vtp_replaceAfterMatch":true,
       "vtp_ignoreCase":true,
-      "vtp_map":["list",["map","key","Shop Environment Code","value","| tradetracker_campaignID | tradetracker_descrMerchant | tradetracker_tagType |"],["map","key","k24-de-live","value","26570;39058;sales"],["map","key","k24-at-live","value","27659;41097;sales"],["map","key","cpd-nl-live","value","29059;43965;sales"],["map","key","cpd-nl-stg","value","29059-cpd-nl-stg;43965-cpd-nl-stg;sales-cpd-nl-stg"]]
+      "vtp_map":["list",["map","key","Shop Environment Code","value","| tradetracker_campaignID | tradetracker_descrMerchant | tradetracker_tagType |"],["map","key","k24-de-live","value","26570;39058;sales"],["map","key","k24-at-live","value","27659;41097;sales"],["map","key","cpd-nl-live","value","29059;43965;sales"]]
     },{
       "function":"__jsm",
       "vtp_javascript":["template","(function(){return ",["escape",["macro",122],8,16],".split(\";\")[2]})();"]
@@ -1023,12 +1023,12 @@ data = {
     },{
       "function":"__remm",
       "vtp_setDefaultValue":true,
-      "vtp_input":["macro",135],
+      "vtp_input":["macro",106],
       "vtp_fullMatch":true,
       "vtp_replaceAfterMatch":true,
       "vtp_ignoreCase":true,
       "vtp_defaultValue":"46206",
-      "vtp_map":["list",["map","key","gtm.js,(a24|k24)-de-(live|stg)","value",["macro",227]],["map","key","gtm.js,(cpd|k24|kfz)-(at|com|dk|fr|nl|pl)-(live|stg)","value",["macro",228]]]
+      "vtp_map":["list",["map","key","(a24|k24)-de-(live|stg)","value",["macro",227]],["map","key","(cpd|k24|kfz)-(at|com|dk|fr|nl|pl)-(live|stg)","value",["macro",228]]]
     },{
       "function":"__d",
       "vtp_elementSelector":"#carMismatchModal[class*=visible]",
@@ -4854,7 +4854,6 @@ data = {
     [["if",37,38,156],["add",136,173]],
     [["if",8,37,156],["add",136,173]],
     [["if",36,37,156],["add",136,173]],
-    [["if",37,114,156],["add",136,173]],
     [["if",2,157],["add",137]],
     [["if",12,158,159],["add",138]],
     [["if",12,158,160],["add",139]],
