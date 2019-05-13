@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"424",
+  "version":"425",
   "macros":[{
       "function":"__v",
       "vtp_dataLayerVersion":2,
@@ -610,6 +610,10 @@ data = {
       "vtp_name":"gtm.elementUrl",
       "vtp_dataLayerVersion":1
     },{
+      "function":"__v",
+      "vtp_name":"gtm.elementId",
+      "vtp_dataLayerVersion":1
+    },{
       "function":"__c",
       "vtp_value":"real.de"
     },{
@@ -638,17 +642,13 @@ data = {
       "vtp_enableLinkId":false,
       "vtp_dimension":["list",["map","index","1","dimension",["macro",14]]],
       "vtp_enableEcommerce":false,
-      "vtp_trackingId":["macro",139],
+      "vtp_trackingId":["macro",140],
       "vtp_enableRecaptchaOption":false,
       "vtp_enableUaRlsa":false,
       "vtp_enableUseInternalVersion":false
     },{
       "function":"__c",
       "vtp_value":"real-foto.de, real-blumen.de, real.de"
-    },{
-      "function":"__v",
-      "vtp_name":"gtm.elementId",
-      "vtp_dataLayerVersion":1
     },{
       "function":"__v",
       "vtp_name":"gtm.elementTarget",
@@ -1044,12 +1044,15 @@ data = {
       "function":"__cl",
       "tag_id":180
     },{
+      "function":"__cl",
+      "tag_id":181
+    },{
       "function":"__lcl",
       "vtp_waitForTags":false,
       "vtp_checkValidation":false,
       "vtp_waitForTagsTimeout":"2000",
       "vtp_uniqueTriggerId":"6178770_843",
-      "tag_id":181
+      "tag_id":182
     },{
       "function":"__html",
       "once_per_event":true,
@@ -1235,6 +1238,14 @@ data = {
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
       "tag_id":159
+    },{
+      "function":"__html",
+      "once_per_event":true,
+      "vtp_html":"\u003Cscript type=\"text\/gtmscript\"\u003E(function(){var a=document.getElementById(\"s_plugin_container\");\"undefined\"!=typeof a\u0026\u0026null!=a\u0026\u0026\"s_active\"==a.className\u0026\u0026dataLayer.push({event:\"GAevent\",eventCategory:\"engagement\",eventAction:\"insurance sale\",eventLabel:document.getElementsByClassName(\"s_period\")[0].innerText})})();\u003C\/script\u003E",
+      "vtp_supportDocumentWrite":false,
+      "vtp_enableIframeMode":false,
+      "vtp_enableEditJsMacroBehavior":false,
+      "tag_id":161
     },{
       "function":"__html",
       "once_per_event":true,
@@ -1469,6 +1480,10 @@ data = {
       "arg0":["macro",123],
       "arg1":"videoads-link-target"
     },{
+      "function":"_cn",
+      "arg0":["macro",138],
+      "arg1":"payment_method"
+    },{
       "function":"_eq",
       "arg0":["macro",56],
       "arg1":"reload"
@@ -1486,15 +1501,15 @@ data = {
       "arg1":"(^$|((^|,)6178770_843($|,)))"
     }],
   "rules":[
-    [["if",0],["add",0,1,9,10,35,36,44,46]],
-    [["if",1],["add",1,35,44]],
+    [["if",0],["add",0,1,9,10,36,37,45,47]],
+    [["if",1],["add",1,36,45]],
     [["if",2],["add",1]],
-    [["if",3],["add",1,3,11,12,35,43,44,57]],
+    [["if",3],["add",1,3,11,12,36,44,45,58]],
     [["if",6],["add",2]],
-    [["if",7],["add",2,35,40]],
+    [["if",7],["add",2,36,41]],
     [["if",8,9,10,11],["add",2]],
     [["if",12],["add",4]],
-    [["if",0,13],["add",5,39,42]],
+    [["if",0,13],["add",5,40,43]],
     [["if",14],["add",6]],
     [["if",3,15],["add",7]],
     [["if",0,4],["add",8]],
@@ -1505,31 +1520,32 @@ data = {
     [["if",24,25,26],["add",17]],
     [["if",3,27],["add",18]],
     [["if",28,29,30],["add",19]],
-    [["if",31,32],["add",20,59]],
+    [["if",31,32],["add",20,61]],
     [["if",33],["add",21]],
-    [["if",32],["add",22,23,24,25,28,29,30,31,33,34]],
+    [["if",32],["add",22,23,24,25,28,29,30,31,33,34,35]],
     [["if",34],["add",26,27]],
     [["if",35],["add",32]],
-    [["if",26,37],["add",37]],
-    [["if",26,38],["add",38]],
-    [["if",3,13],["add",39,52]],
-    [["if",39,40],["add",39]],
-    [["if",0,39],["add",39]],
-    [["if",3,41],["add",41]],
-    [["if",42,44],["unless",43],["add",43]],
-    [["if",3,45],["add",45]],
-    [["if",3],["unless",46],["add",46]],
-    [["if",3,13,47],["add",47]],
-    [["if",35,48],["add",48]],
-    [["if",13,35],["add",49,53]],
-    [["if",13,26,49],["add",50]],
-    [["if",0,13,50],["add",51]],
-    [["if",28,35],["add",54,55]],
-    [["if",26,28,51],["add",56]],
-    [["if",34,45],["unless",52],["add",58]],
-    [["if",20,53,54,55],["add",60]],
-    [["if",4,5],["block",1,57]],
+    [["if",26,37],["add",38]],
+    [["if",26,38],["add",39]],
+    [["if",3,13],["add",40,53]],
+    [["if",39,40],["add",40]],
+    [["if",0,39],["add",40]],
+    [["if",3,41],["add",42]],
+    [["if",42,44],["unless",43],["add",44]],
+    [["if",3,45],["add",46]],
+    [["if",3],["unless",46],["add",47]],
+    [["if",3,13,47],["add",48]],
+    [["if",35,48],["add",49]],
+    [["if",13,35],["add",50,54]],
+    [["if",13,26,49],["add",51]],
+    [["if",0,13,50],["add",52]],
+    [["if",28,35],["add",55,56]],
+    [["if",26,28,51],["add",57]],
+    [["if",26,52],["add",59]],
+    [["if",34,45],["unless",53],["add",60]],
+    [["if",20,54,55,56],["add",62]],
+    [["if",4,5],["block",1,58]],
     [["if",3,4],["block",1]],
-    [["if",7,36],["block",35]],
-    [["if",5,39],["block",44]]]
+    [["if",7,36],["block",36]],
+    [["if",5,39],["block",45]]]
 }
