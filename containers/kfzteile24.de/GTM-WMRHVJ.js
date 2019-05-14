@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"468",
+  "version":"469",
   "macros":[{
       "function":"__v",
       "vtp_dataLayerVersion":2,
@@ -1227,7 +1227,7 @@ data = {
       "vtp_map":["list",["map","key","k24-de-live","value",""],["map","key","(k24|a24|cpd)-(de|at)-stg","value","0"],["map","key","a24-de-live","value","1"],["map","key","k24-at-live","value","2"],["map","key","cpd-nl-live","value","3"],["map","key","cpd-fr-live","value","4"],["map","key","cpd-fr-live","value","5"],["map","key","cpd-dk-live","value","6"]]
     },{
       "function":"__jsm",
-      "vtp_javascript":["template","(function(){return ",["escape",["macro",47],8,16],".slice(0,10)})();"]
+      "vtp_javascript":["template","(function(){return JSON.stringify(",["escape",["macro",47],8,16],".slice(0,10))})();"]
     },{
       "function":"__jsm",
       "vtp_javascript":["template","(function(){if(\"_ecommerce.impressions_\"==",["escape",["macro",254],8,16],")var a=",["escape",["macro",46],8,16],";\"_ecommerce.detail.products_\"==",["escape",["macro",254],8,16],"\u0026\u0026(a=",["escape",["macro",231],8,16],");\"_ecommerce.add.products_\"==",["escape",["macro",254],8,16],"\u0026\u0026(a=",["escape",["macro",64],8,16],");\"_page.products_\"==",["escape",["macro",254],8,16],"\u0026\u0026(a=",["escape",["macro",49],8,16],");\"_ecommerce.purchase.products_\"==",["escape",["macro",254],8,16],"\u0026\u0026(a=",["escape",["macro",62],8,16],");return a=a.map(function(a){return a.id}).join()})();"]
@@ -1249,7 +1249,7 @@ data = {
       "vtp_fullMatch":true,
       "vtp_replaceAfterMatch":true,
       "vtp_ignoreCase":true,
-      "vtp_map":["list",["map","key","\u003C! regex_pattern --\u003E","value","\u003C!- criteo_q_push_args --\u003E"],["map","key","pageType_homepage,(k24|a24|cpd)-(de|at|fr|nl|pl|dk)-(live|stg)","value",["template","[[{\"event\":\"setAccount\",\"account\":\"",["macro",262],"\"},{\"event\":\"setSiteType\",\"type\":\"\"},{\"event\":\"setEmail\",\"email\":\"\"},{\"event\":\"viewHome\",\"user_segment\":\"",["macro",263],"\"}]]"]],["map","key","(pageType_productListingPage|pageType_searchResults),(k24|a24|cpd)-(de|at|fr|nl|pl|dk)-(live|stg)","value",["template","[[{\"event\":\"setAccount\",\"account\":\"",["macro",262],"\"},{\"event\":\"setSiteType\",\"type\":\"\"},{\"event\":\"setEmail\",\"email\":\"\"},{\"event\":\"viewList\",\"item\":\"",["macro",264],"\",\"user_segment\":\"",["macro",263],"\"}]]"]],["map","key","pageType_productDetails,(k24|a24|cpd)-(de|at|fr|nl|pl|dk)-(live|stg)","value",["template","[[{\"event\":\"setAccount\",\"account\":\"",["macro",262],"\"},{\"event\":\"setSiteType\",\"type\":\"\"},{\"event\":\"setEmail\",\"email\":\"\"},{\"event\":\"viewItem\",\"item\":\"",["macro",265],"\",\"user_segment\":\"",["macro",263],"\"}]]"]],["map","key","checkout_addToCart,(k24|a24|cpd)-(de|at|fr|nl|pl|dk)-(live|stg)","value",["template","[[{\"event\":\"setAccount\",\"account\":\"",["macro",262],"\"},{\"event\":\"setSiteType\",\"type\":\"\"},{\"event\":\"setEmail\",\"email\":\"\"},{\"event\":\"viewBasket\",\"item\":",["macro",267],",\"user_segment\":\"",["macro",263],"\"}]]"]],["map","key","\u003C!-- 2018-11-09: pushing the ecommerce.add object on addToCart event is buggy on DESHOP - thats why we send product data also on cart --\u003E","value",""],["map","key","pageType_cart,(a24|k24)-de-(live|stg)","value",["template","[[{\"event\":\"setAccount\",\"account\":\"",["macro",262],"\"},{\"event\":\"setSiteType\",\"type\":\"\"},{\"event\":\"setEmail\",\"email\":\"\"},{\"event\":\"viewBasket\",\"item\":",["macro",267],",\"user_segment\":\"",["macro",263],"\"}]]"]],["map","key","checkout_conversionSuccess,(k24|a24|cpd)-(de|at|fr|nl|pl|dk)-(live|stg)","value",["template","[[{\"event\":\"setAccount\",\"account\":\"",["macro",262],"\"},{\"event\":\"setSiteType\",\"type\":\"\"},{\"event\":\"setEmail\",\"email\":\"\"},{\"event\":\"trackTransaction\",\"id\":\"",["macro",14],"\",\"item\":",["macro",267],",\"user_segment\":\"",["macro",263],"\"}]]"]]]
+      "vtp_map":["list",["map","key","\u003C! regex_pattern --\u003E","value","\u003C!- criteo_q_push_args --\u003E"],["map","key","pageType_homepage,(k24|a24|cpd)-(de|at|fr|nl|pl|dk)-(live|stg)","value",["template","[[{\"event\":\"setAccount\",\"account\":\"",["macro",262],"\"},{\"event\":\"setSiteType\",\"type\":\"\"},{\"event\":\"setEmail\",\"email\":\"\"},{\"event\":\"viewHome\",\"user_segment\":\"",["macro",263],"\"}]]"]],["map","key","(pageType_productListingPage|pageType_searchResults),(k24|a24|cpd)-(de|at|fr|nl|pl|dk)-(live|stg)","value",["template","[[{\"event\":\"setAccount\",\"account\":\"",["macro",262],"\"},{\"event\":\"setSiteType\",\"type\":\"\"},{\"event\":\"setEmail\",\"email\":\"\"},{\"event\":\"viewList\",\"item\":",["macro",264],",\"user_segment\":\"",["macro",263],"\"}]]"]],["map","key","pageType_productDetails,(k24|a24|cpd)-(de|at|fr|nl|pl|dk)-(live|stg)","value",["template","[[{\"event\":\"setAccount\",\"account\":\"",["macro",262],"\"},{\"event\":\"setSiteType\",\"type\":\"\"},{\"event\":\"setEmail\",\"email\":\"\"},{\"event\":\"viewItem\",\"item\":\"",["macro",265],"\",\"user_segment\":\"",["macro",263],"\"}]]"]],["map","key","checkout_addToCart,(k24|a24|cpd)-(de|at|fr|nl|pl|dk)-(live|stg)","value",["template","[[{\"event\":\"setAccount\",\"account\":\"",["macro",262],"\"},{\"event\":\"setSiteType\",\"type\":\"\"},{\"event\":\"setEmail\",\"email\":\"\"},{\"event\":\"viewBasket\",\"item\":",["macro",267],",\"user_segment\":\"",["macro",263],"\"}]]"]],["map","key","\u003C!-- 2018-11-09: pushing the ecommerce.add object on addToCart event is buggy on DESHOP - thats why we send product data also on cart --\u003E","value",""],["map","key","pageType_cart,(a24|k24)-de-(live|stg)","value",["template","[[{\"event\":\"setAccount\",\"account\":\"",["macro",262],"\"},{\"event\":\"setSiteType\",\"type\":\"\"},{\"event\":\"setEmail\",\"email\":\"\"},{\"event\":\"viewBasket\",\"item\":",["macro",267],",\"user_segment\":\"",["macro",263],"\"}]]"]],["map","key","checkout_conversionSuccess,(k24|a24|cpd)-(de|at|fr|nl|pl|dk)-(live|stg)","value",["template","[[{\"event\":\"setAccount\",\"account\":\"",["macro",262],"\"},{\"event\":\"setSiteType\",\"type\":\"\"},{\"event\":\"setEmail\",\"email\":\"\"},{\"event\":\"trackTransaction\",\"id\":\"",["macro",14],"\",\"item\":",["macro",267],",\"user_segment\":\"",["macro",263],"\"}]]"]]]
     },{
       "function":"__v",
       "vtp_dataLayerVersion":2,
@@ -4981,6 +4981,9 @@ data = {
     [["if",39,215],["add",163,166]],
     [["if",40,215],["add",163,166]],
     [["if",182,215],["add",163]],
+    [["if",9,116],["add",163]],
+    [["if",116,215],["add",163]],
+    [["if",116,124],["add",163]],
     [["if",37,95],["unless",216],["add",164,165]],
     [["if",8,37],["unless",216],["add",165],["block",164]],
     [["if",42,124],["add",166]],
@@ -5016,6 +5019,7 @@ data = {
     [["if",2,39,129,218],["add",168],["block",166]],
     [["if",2,40,129,218],["add",168],["block",166]],
     [["if",2,41,129,218],["add",168],["block",166]],
+    [["if",2,116,129,218],["add",168]],
     [["if",7,226],["unless",225],["add",169]],
     [["if",12,226,227],["add",170]],
     [["if",12,226,228],["add",171]],
