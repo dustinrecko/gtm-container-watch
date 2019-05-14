@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"425",
+  "version":"427",
   "macros":[{
       "function":"__v",
       "vtp_dataLayerVersion":2,
@@ -599,9 +599,6 @@ data = {
       "vtp_setDefaultValue":false,
       "vtp_name":"search.items"
     },{
-      "function":"__aev",
-      "vtp_varType":"TEXT"
-    },{
       "function":"__k",
       "vtp_decodeCookie":false,
       "vtp_name":"coopPartner"
@@ -642,7 +639,7 @@ data = {
       "vtp_enableLinkId":false,
       "vtp_dimension":["list",["map","index","1","dimension",["macro",14]]],
       "vtp_enableEcommerce":false,
-      "vtp_trackingId":["macro",140],
+      "vtp_trackingId":["macro",139],
       "vtp_enableRecaptchaOption":false,
       "vtp_enableUaRlsa":false,
       "vtp_enableUseInternalVersion":false
@@ -653,6 +650,9 @@ data = {
       "function":"__v",
       "vtp_name":"gtm.elementTarget",
       "vtp_dataLayerVersion":1
+    },{
+      "function":"__aev",
+      "vtp_varType":"TEXT"
     },{
       "function":"__r"
     },{
@@ -1014,9 +1014,6 @@ data = {
       "vtp_uniqueTriggerId":"6178770_705",
       "tag_id":175
     },{
-      "function":"__cl",
-      "tag_id":176
-    },{
       "function":"__evl",
       "vtp_elementId":"produktinformationen",
       "vtp_useOnScreenDuration":true,
@@ -1026,10 +1023,10 @@ data = {
       "vtp_onScreenRatio":"20",
       "vtp_onScreenDuration":"1000",
       "vtp_uniqueTriggerId":"6178770_730",
-      "tag_id":177
+      "tag_id":176
     },{
       "function":"__cl",
-      "tag_id":178
+      "tag_id":177
     },{
       "function":"__sdl",
       "vtp_verticalThresholdUnits":"PERCENT",
@@ -1039,20 +1036,20 @@ data = {
       "vtp_horizontalThresholdOn":false,
       "vtp_uniqueTriggerId":"6178770_780",
       "vtp_enableTriggerStartOption":true,
+      "tag_id":178
+    },{
+      "function":"__cl",
       "tag_id":179
     },{
       "function":"__cl",
       "tag_id":180
-    },{
-      "function":"__cl",
-      "tag_id":181
     },{
       "function":"__lcl",
       "vtp_waitForTags":false,
       "vtp_checkValidation":false,
       "vtp_waitForTagsTimeout":"2000",
       "vtp_uniqueTriggerId":"6178770_843",
-      "tag_id":182
+      "tag_id":181
     },{
       "function":"__html",
       "once_per_event":true,
@@ -1161,30 +1158,6 @@ data = {
     },{
       "function":"__html",
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\" id=\"gtmctagid\"\u003E(function(){var a=document.getElementById(\"write_review\");\"undefined\"!=typeof a\u0026\u0026null!=a\u0026\u0026a.addEventListener(\"click\",function(){dataLayer.push({event:\"GAevent\",eventCategory:\"engagement\",eventAction:\"ranking button_click\",eventLabel:\"",["escape",["macro",35],7],"\"})});a=document.getElementsByClassName(\"_description\");for(var b=0;b\u003Ca.length;b++)\"Produktbewertung verfassen\"==a[b].innerHTML\u0026\u0026a[b].addEventListener(\"click\",function(){dataLayer.push({event:\"GAevent\",eventCategory:\"engagement\",eventAction:\"ranking button_click\",\neventLabel:\"",["escape",["macro",35],7],"\"})})})();\u003C\/script\u003E"],
-      "vtp_supportDocumentWrite":false,
-      "vtp_enableIframeMode":false,
-      "vtp_enableEditJsMacroBehavior":false,
-      "tag_id":115
-    },{
-      "function":"__html",
-      "once_per_event":true,
-      "vtp_html":"\u003Cscript type=\"text\/gtmscript\" id=\"gtmctagid\"\u003E(function(){for(var b=document.getElementsByClassName(\"_link -right-arrow\"),a=0;a\u003Cb.length;a++)b[a].addEventListener(\"click\",function(){dataLayer.push({event:\"GAevent\",channel:\"onlineshop\",eventCategory:\"navigation\",eventAction:\"1 level navigation click\",eventLabel:this.innerHTML})});b=document.getElementsByClassName(\"h3\");for(a=0;a\u003Cb.length;a++)b[a].addEventListener(\"click\",function(){dataLayer.push({event:\"GAevent\",channel:\"onlineshop\",eventCategory:\"navigation\",eventAction:\"2 level navigation click\",\neventLabel:this.innerText})});b=document.getElementsByClassName(\"list -unstyled -has-icon _sublink-list\");for(a=0;a\u003Cb.length;a++)for(var d=b[a].childNodes,c=0;c\u003Cd.length;c++)d[c].addEventListener(\"click\",function(){dataLayer.push({event:\"GAevent\",channel:\"onlineshop\",eventCategory:\"navigation\",eventAction:\"3 level navigation click\",eventLabel:this.innerText})});b=document.getElementsByClassName(\"footer-col\");if(\"undefined\"!=typeof b\u0026\u00260\u003Cb.length)for(a=0;2\u003Ea;a++)if(d=b[a].childNodes,\"undefined\"!=typeof d)for(c=\n0;c\u003Cd.length;c++)if(\"-unstyled\"==d[c].className)for(var f=d[c].childNodes,e=0;e\u003Cf.length;e++)\"LI\"==f[e].tagName\u0026\u0026f[e].addEventListener(\"click\",function(){dataLayer.push({event:\"GAevent\",channel:\"onlineshop\",eventCategory:\"navigation\",eventAction:\"footer navigation click\",eventLabel:this.innerText})})})();\u003C\/script\u003E",
-      "vtp_supportDocumentWrite":false,
-      "vtp_enableIframeMode":false,
-      "vtp_enableEditJsMacroBehavior":false,
-      "tag_id":117
-    },{
-      "function":"__html",
-      "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\" id=\"gtmctagid\"\u003E(function(){dataLayer.push({event:\"GAevent\",channel:\"onlineshop\",eventCategory:\"navigation\",eventAction:\"mobile navigation click\",eventLabel:",["escape",["macro",135],8,16],"})})();\u003C\/script\u003E"],
-      "vtp_supportDocumentWrite":false,
-      "vtp_enableIframeMode":false,
-      "vtp_enableEditJsMacroBehavior":false,
-      "tag_id":132
-    },{
-      "function":"__html",
-      "once_per_event":true,
       "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\" id=\"gtmctagid\"\u003Evar _mo=_mo||[];_mo.push([\"_key\",\"21e55062-f619-458f-9eb6-9e7c5eb9b17c\"]);_mo.push([\"_umsatz\",\"",["escape",["macro",64],7],"\"]);_mo.push([\"_versandkosten\",\"\"]);_mo.push([\"_artikelliste\",\"\"]);(function(){var a=document.createElement(\"script\");a.type=\"text\/javascript\";a.async=!0;a.src=\"https:\/\/sales1.moebel.de\/asyndic.js\";var b=document.getElementsByTagName(\"script\")[0];b.parentNode.insertBefore(a,b)})();\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
@@ -1225,7 +1198,7 @@ data = {
     },{
       "function":"__html",
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\" id=\"gtmctagid\"\u003E(function(){dataLayer.push({event:\"GAevent\",eventCategory:\"engagement\",eventAction:\"video spot click\",eventLabel:",["escape",["macro",137],8,16],"})})();\u003C\/script\u003E"],
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\" id=\"gtmctagid\"\u003E(function(){dataLayer.push({event:\"GAevent\",eventCategory:\"engagement\",eventAction:\"video spot click\",eventLabel:",["escape",["macro",136],8,16],"})})();\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
@@ -1464,16 +1437,8 @@ data = {
       "arg0":["macro",35],
       "arg1":"Search"
     },{
-      "function":"_re",
-      "arg0":["macro",35],
-      "arg1":"(^Item$)|(^Account$)"
-    },{
-      "function":"_re",
-      "arg0":["macro",123],
-      "arg1":".*?_link animate-in.*?|.*?_link -has-subcategory animate-in.*?"
-    },{
       "function":"_eq",
-      "arg0":["macro",136],
+      "arg0":["macro",135],
       "arg1":"moebel.de"
     },{
       "function":"_cn",
@@ -1481,7 +1446,7 @@ data = {
       "arg1":"videoads-link-target"
     },{
       "function":"_cn",
-      "arg0":["macro",138],
+      "arg0":["macro",137],
       "arg1":"payment_method"
     },{
       "function":"_eq",
@@ -1501,15 +1466,15 @@ data = {
       "arg1":"(^$|((^|,)6178770_843($|,)))"
     }],
   "rules":[
-    [["if",0],["add",0,1,9,10,36,37,45,47]],
-    [["if",1],["add",1,36,45]],
+    [["if",0],["add",0,1,9,10,35,36,44,46]],
+    [["if",1],["add",1,35,44]],
     [["if",2],["add",1]],
-    [["if",3],["add",1,3,11,12,36,44,45,58]],
+    [["if",3],["add",1,3,11,12,35,43,44,54]],
     [["if",6],["add",2]],
-    [["if",7],["add",2,36,41]],
+    [["if",7],["add",2,35,40]],
     [["if",8,9,10,11],["add",2]],
     [["if",12],["add",4]],
-    [["if",0,13],["add",5,40,43]],
+    [["if",0,13],["add",5,39,42]],
     [["if",14],["add",6]],
     [["if",3,15],["add",7]],
     [["if",0,4],["add",8]],
@@ -1520,32 +1485,30 @@ data = {
     [["if",24,25,26],["add",17]],
     [["if",3,27],["add",18]],
     [["if",28,29,30],["add",19]],
-    [["if",31,32],["add",20,61]],
+    [["if",31,32],["add",20,57]],
     [["if",33],["add",21]],
-    [["if",32],["add",22,23,24,25,28,29,30,31,33,34,35]],
+    [["if",32],["add",22,23,24,25,28,29,30,32,33,34]],
     [["if",34],["add",26,27]],
-    [["if",35],["add",32]],
-    [["if",26,37],["add",38]],
-    [["if",26,38],["add",39]],
-    [["if",3,13],["add",40,53]],
-    [["if",39,40],["add",40]],
-    [["if",0,39],["add",40]],
-    [["if",3,41],["add",42]],
-    [["if",42,44],["unless",43],["add",44]],
-    [["if",3,45],["add",46]],
-    [["if",3],["unless",46],["add",47]],
-    [["if",3,13,47],["add",48]],
-    [["if",35,48],["add",49]],
-    [["if",13,35],["add",50,54]],
-    [["if",13,26,49],["add",51]],
-    [["if",0,13,50],["add",52]],
-    [["if",28,35],["add",55,56]],
-    [["if",26,28,51],["add",57]],
-    [["if",26,52],["add",59]],
-    [["if",34,45],["unless",53],["add",60]],
-    [["if",20,54,55,56],["add",62]],
-    [["if",4,5],["block",1,58]],
+    [["if",35],["add",31]],
+    [["if",26,37],["add",37]],
+    [["if",26,38],["add",38]],
+    [["if",3,13],["add",39,49]],
+    [["if",39,40],["add",39]],
+    [["if",0,39],["add",39]],
+    [["if",3,41],["add",41]],
+    [["if",42,44],["unless",43],["add",43]],
+    [["if",3,45],["add",45]],
+    [["if",3],["unless",46],["add",46]],
+    [["if",3,13,47],["add",47]],
+    [["if",0,13,48],["add",48]],
+    [["if",13,35],["add",50]],
+    [["if",28,35],["add",51,52]],
+    [["if",26,28,49],["add",53]],
+    [["if",26,50],["add",55]],
+    [["if",34,45],["unless",51],["add",56]],
+    [["if",20,52,53,54],["add",58]],
+    [["if",4,5],["block",1,54]],
     [["if",3,4],["block",1]],
-    [["if",7,36],["block",36]],
-    [["if",5,39],["block",45]]]
+    [["if",7,36],["block",35]],
+    [["if",5,39],["block",44]]]
 }
