@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"653",
+  "version":"654",
   "macros":[{
       "function":"__jsm",
       "vtp_javascript":["template","(function(){return 1280\u003C=screen.availWidth?\"d\":1280\u003Escreen.availWidth\u0026\u0026768\u003C=screen.availWidth?\"t\":\"m\"})();"]
@@ -481,7 +481,7 @@ data = {
       "vtp_setDefaultValue":true,
       "vtp_input":["macro",37],
       "vtp_defaultValue":"none",
-      "vtp_map":["list",["map","key","goeuro.es","value","25106"],["map","key","goeuro.com","value","53268"],["map","key","omio.es","value","25106"],["map","key","omio.com","value","53268"]]
+      "vtp_map":["list",["map","key","goeuro.es","value","25106"],["map","key","goeuro.com","value","53268"],["map","key","omio.es","value","25106"],["map","key","omio.com","value","53268"],["map","key","omio.fr","value","28133"]]
     },{
       "function":"__f",
       "vtp_component":"URL"
