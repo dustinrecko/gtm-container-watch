@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"474",
+  "version":"475",
   "macros":[{
       "function":"__v",
       "vtp_dataLayerVersion":2,
@@ -1373,11 +1373,35 @@ data = {
     },{
       "function":"__remm",
       "vtp_setDefaultValue":false,
+      "vtp_input":["macro",104],
+      "vtp_fullMatch":true,
+      "vtp_replaceAfterMatch":true,
+      "vtp_ignoreCase":true,
+      "vtp_map":["list",["map","key","cpd-nl-live","value","126344547"],["map","key","cpd-fr-live","value","126364718"],["map","key","cpd-pl-live","value","131250180"],["map","key","cpd-dk-live","value","131250177"],["map","key","k24-at-live","value","126366811"],["map","key","kfz-com-live","value","7179507"],["map","key","","value",""]]
+    },{
+      "function":"__remm",
+      "vtp_setDefaultValue":false,
+      "vtp_input":["macro",104],
+      "vtp_fullMatch":true,
+      "vtp_replaceAfterMatch":true,
+      "vtp_ignoreCase":true,
+      "vtp_map":["list",["map","key","cpd-nl-live","value","NL"],["map","key","cpd-fr-live","value","FR"],["map","key","cpd-pl-live","value","PL"],["map","key","cpd-dk-live","value","DK"],["map","key","k24-at-live","value","AT"],["map","key","kfz-com-live","value","DE"],["map","key","","value",""]]
+    },{
+      "function":"__remm",
+      "vtp_setDefaultValue":false,
+      "vtp_input":["macro",104],
+      "vtp_fullMatch":true,
+      "vtp_replaceAfterMatch":true,
+      "vtp_ignoreCase":true,
+      "vtp_map":["list",["map","key","cpd-nl-live","value","nl"],["map","key","cpd-fr-live","value","fr"],["map","key","cpd-pl-live","value","pl"],["map","key","cpd-dk-live","value","dk"],["map","key","k24-at-live","value","de"],["map","key","kfz-com-live","value","de"],["map","key","","value",""]]
+    },{
+      "function":"__remm",
+      "vtp_setDefaultValue":false,
       "vtp_input":["macro",133],
       "vtp_fullMatch":true,
       "vtp_replaceAfterMatch":true,
       "vtp_ignoreCase":true,
-      "vtp_map":["list",["map","key","\u003C\u003Cregex_pattern\u003E\u003E","value","\u003C\u003Cmerchant_id@@order_id@@customer_email@@delivery_country@@estimated_delivery_date_offset_days@@opt_in_style@@lang\u003E\u003E"],["map","key","checkout_conversionSuccess,cpd-nl-live","value",["template","126344547@@",["macro",14],"@@document.querySelector('ul[class^=\"kfzOrderConfirmation\"][class$=\"__list\"] strong').innerText.trim()@@NL@@10@@CENTER_DIALOG@@nl"]],["map","key","__placeholder__,cpd-nl-live","value","126344547@@foo123@@[\"foo@carpardoo.nl\"].toString()@@NL@@10@@CENTER_DIALOG@@nl"]]
+      "vtp_map":["list",["map","key","\u003C\u003Cregex_pattern\u003E\u003E","value","\u003C\u003Cmerchant_id@@order_id@@customer_email@@delivery_country@@estimated_delivery_date_offset_days@@opt_in_style@@lang\u003E\u003E"],["map","key","checkout_conversionSuccess,(k24|cpd|kfz)-(at|fr|nl|pl|dk|com)-(live|stg)","value",["template",["macro",289],"@@",["macro",14],"@@document.querySelector('ul[class^=\"kfzOrderConfirmation\"][class$=\"__list\"] strong').innerText.trim()@@",["macro",290],"@@10@@CENTER_DIALOG@@",["macro",291]]],["map","key","__placeholder__,cpd-nl-live","value","126344547@@foo123@@[\"foo@carpardoo.nl\"].toString()@@NL@@10@@CENTER_DIALOG@@nl"]]
     },{
       "function":"__cid"
     },{
@@ -1543,13 +1567,13 @@ data = {
       "vtp_selectorType":"CSS"
     },{
       "function":"__jsm",
-      "vtp_javascript":["template","(function(){var a=",["escape",["macro",323],8,16],".slice(0,20).join();return a})();"]
+      "vtp_javascript":["template","(function(){var a=",["escape",["macro",326],8,16],".slice(0,20).join();return a})();"]
     },{
       "function":"__jsm",
       "vtp_javascript":["template","(function(){for(var b=[],d=",["escape",["macro",240],8,16],",e=",["escape",["macro",169],8,16],",c=",["escape",["macro",63],8,16],",a=0;a\u003Cc.length;a++)b.push(d+\":\/\/www.\"+e+\"\/artikeldetails?search\\x3d\"+c[a]);return b})();"]
     },{
       "function":"__jsm",
-      "vtp_javascript":["template","(function(){var a=",["escape",["macro",331],8,16],".slice(0,20).join();return a})();"]
+      "vtp_javascript":["template","(function(){var a=",["escape",["macro",334],8,16],".slice(0,20).join();return a})();"]
     },{
       "function":"__v",
       "vtp_dataLayerVersion":2,
@@ -3481,7 +3505,7 @@ data = {
     },{
       "function":"__html",
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003Eif(null!==document.querySelector('ul[class^\\x3d\"kfzOrderConfirmation\"][class$\\x3d\"__list\"] strong')){var merchantId=",["escape",["macro",289],8,16],".split(\"@@\")[0],orderId=",["escape",["macro",289],8,16],".split(\"@@\")[1],customerEmail=eval(",["escape",["macro",289],8,16],".split(\"@@\")[2]),deliveryCountry=",["escape",["macro",289],8,16],".split(\"@@\")[3],deliveryDateOffsetDays=parseFloat(",["escape",["macro",289],8,16],".split(\"@@\")[4]),optInStyle=",["escape",["macro",289],8,16],".split(\"@@\")[5],lang=",["escape",["macro",289],8,16],".split(\"@@\")[6],d=new Date;d.setDate(d.getDate()+\ndeliveryDateOffsetDays);var month=\"\"+(d.getMonth()+1),day=\"\"+d.getDate(),year=d.getFullYear();2\u003Emonth.length\u0026\u0026(month=\"0\"+month);2\u003Eday.length\u0026\u0026(day=\"0\"+day);var estimatedDeliveryDate=[year,month,day].join(\"-\"),check=-1\u003CcustomerEmail.indexOf(\"@\")\u0026\u0026merchantId\u0026\u0026orderId\u0026\u0026deliveryDateOffsetDays\u0026\u0026estimatedDeliveryDate\u0026\u0026lang\u0026\u0026estimatedDeliveryDate;check\u0026\u0026(function(b,c){var e=b.getElementsByTagName(c)[0],f=b.location.protocol;var a=b.createElement(\"script\");a.type=\"text\/javascript\";a.charset=\"utf-8\";a.async=\n!0;a.defer=!0;a.src=f+\"\/\/apis.google.com\/js\/platform.js?onload\\x3drenderOptIn\";a.addEventListener(\"load\",function(){window.google_tag_manager[",["escape",["macro",290],8,16],"].onHtmlSuccess(",["escape",["macro",291],8,16],")});e.appendChild(a)}(document,\"body\"),window.renderOptIn=function(){window.gapi.load(\"surveyoptin\",function(){window.gapi.surveyoptin.render({merchant_id:merchantId,order_id:orderId,email:customerEmail,delivery_country:deliveryCountry,estimated_delivery_date:estimatedDeliveryDate})})},window.___gcfg=\n{lang:lang})};\u003C\/script\u003E"],
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003Eif(null!==document.querySelector('ul[class^\\x3d\"kfzOrderConfirmation\"][class$\\x3d\"__list\"] strong')){var merchantId=",["escape",["macro",292],8,16],".split(\"@@\")[0],orderId=",["escape",["macro",292],8,16],".split(\"@@\")[1],customerEmail=eval(",["escape",["macro",292],8,16],".split(\"@@\")[2]),deliveryCountry=",["escape",["macro",292],8,16],".split(\"@@\")[3],deliveryDateOffsetDays=parseFloat(",["escape",["macro",292],8,16],".split(\"@@\")[4]),optInStyle=",["escape",["macro",292],8,16],".split(\"@@\")[5],lang=",["escape",["macro",292],8,16],".split(\"@@\")[6],d=new Date;d.setDate(d.getDate()+\ndeliveryDateOffsetDays);var month=\"\"+(d.getMonth()+1),day=\"\"+d.getDate(),year=d.getFullYear();2\u003Emonth.length\u0026\u0026(month=\"0\"+month);2\u003Eday.length\u0026\u0026(day=\"0\"+day);var estimatedDeliveryDate=[year,month,day].join(\"-\"),check=-1\u003CcustomerEmail.indexOf(\"@\")\u0026\u0026merchantId\u0026\u0026orderId\u0026\u0026deliveryDateOffsetDays\u0026\u0026estimatedDeliveryDate\u0026\u0026lang\u0026\u0026estimatedDeliveryDate;check\u0026\u0026(function(b,c){var e=b.getElementsByTagName(c)[0],f=b.location.protocol;var a=b.createElement(\"script\");a.type=\"text\/javascript\";a.charset=\"utf-8\";a.async=\n!0;a.defer=!0;a.src=f+\"\/\/apis.google.com\/js\/platform.js?onload\\x3drenderOptIn\";a.addEventListener(\"load\",function(){window.google_tag_manager[",["escape",["macro",293],8,16],"].onHtmlSuccess(",["escape",["macro",294],8,16],")});e.appendChild(a)}(document,\"body\"),window.renderOptIn=function(){window.gapi.load(\"surveyoptin\",function(){window.gapi.surveyoptin.render({merchant_id:merchantId,order_id:orderId,email:customerEmail,delivery_country:deliveryCountry,estimated_delivery_date:estimatedDeliveryDate})})},window.___gcfg=\n{lang:lang})};\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
@@ -3497,7 +3521,7 @@ data = {
     },{
       "function":"__html",
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003Etry{OptiMonk.Visitor.createAdapter()}catch(a){var err=1}\nif(1==err)document.getElementsByTagName(\"html\")[0].addEventListener(\"optimonk#ready\",function(){var a=\"",["escape",["macro",134],7],"\";a=JSON.parse(a);for(var d=OptiMonk.Visitor.createAdapter(),c=0;c\u003Ca.length;c++)d.attr(a[c][0],a[c][1])}),function(a,d){var c=a.getElementsByTagName(\"head\")[0],e=a.location.protocol;var b=a.createElement(\"script\");b.type=\"text\/javascript\";b.charset=\"utf-8\";b.id=",["escape",["macro",291],8,16],";b.async=!0;b.defer=!0;b.src=e+\"\/\/front.optimonk.com\/public\/\"+d+\"\/js\/preload.js\";c.appendChild(b)}(document,\n\"53926\");else for(var str=\"",["escape",["macro",134],7],"\",args=JSON.parse(str),adapter=OptiMonk.Visitor.createAdapter(),i=0;i\u003Cargs.length;i++)adapter.attr(args[i][0],args[i][1]);\u003C\/script\u003E"],
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003Etry{OptiMonk.Visitor.createAdapter()}catch(a){var err=1}\nif(1==err)document.getElementsByTagName(\"html\")[0].addEventListener(\"optimonk#ready\",function(){var a=\"",["escape",["macro",134],7],"\";a=JSON.parse(a);for(var d=OptiMonk.Visitor.createAdapter(),c=0;c\u003Ca.length;c++)d.attr(a[c][0],a[c][1])}),function(a,d){var c=a.getElementsByTagName(\"head\")[0],e=a.location.protocol;var b=a.createElement(\"script\");b.type=\"text\/javascript\";b.charset=\"utf-8\";b.id=",["escape",["macro",294],8,16],";b.async=!0;b.defer=!0;b.src=e+\"\/\/front.optimonk.com\/public\/\"+d+\"\/js\/preload.js\";c.appendChild(b)}(document,\n\"53926\");else for(var str=\"",["escape",["macro",134],7],"\",args=JSON.parse(str),adapter=OptiMonk.Visitor.createAdapter(),i=0;i\u003Cargs.length;i++)adapter.attr(args[i][0],args[i][1]);\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
@@ -3505,7 +3529,7 @@ data = {
     },{
       "function":"__html",
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003Ewindow.dataLayer.push({event:",["escape",["macro",292],8,16],"});\u003C\/script\u003E"],
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003Ewindow.dataLayer.push({event:",["escape",["macro",295],8,16],"});\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
@@ -3529,7 +3553,7 @@ data = {
     },{
       "function":"__html",
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003Evar confObj=JSON.parse(",["escape",["macro",134],8,16],");function getAdapter(){return OptiMonk.Visitor.createAdapter()}function applyAdapter(){for(j=0;j\u003CfuncArr.length;j++)for(i=0;i\u003CargsArr[j].length;i++)funcArr[j]()}function createDomElement(b,c){var d=b.getElementsByTagName(\"head\")[0],e=b.location.protocol;var a=b.createElement(\"script\");a.type=\"text\/javascript\";a.charset=\"utf-8\";a.id=",["escape",["macro",291],8,16],";a.async=!0;a.defer=!0;a.src=e+\"\/\/front.optimonk.com\/public\/\"+c+\"\/js\/preload.js\";d.appendChild(a)}\nif(\"\"!=confObj.functionBody){var funcArr=\"undefined\"!=typeof funcArr?funcArr:[];funcArr.push(new Function(confObj.functionBody));var argsArr=\"undefined\"!=typeof argsArr?argsArr:[];argsArr.push(\"\"!=confObj.args?confObj.args:",["escape",["macro",44],8,16],");if(!addedEventListener){document.getElementsByTagName(\"html\")[0].addEventListener(\"optimonk#ready\",function(){applyAdapter()},!0);var addedEventListener=!0}}try{getAdapter()}catch(b){var err=!0}\nif(1!=err)OptiMonk.triggerEvent(document.getElementsByTagName(\"html\")[0],\"optimonk#ready\");else if(!createdDomElementBool){createDomElement(document,\"53926\");var createdDomElementBool=!0};\u003C\/script\u003E"],
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003Evar confObj=JSON.parse(",["escape",["macro",134],8,16],");function getAdapter(){return OptiMonk.Visitor.createAdapter()}function applyAdapter(){for(j=0;j\u003CfuncArr.length;j++)for(i=0;i\u003CargsArr[j].length;i++)funcArr[j]()}function createDomElement(b,c){var d=b.getElementsByTagName(\"head\")[0],e=b.location.protocol;var a=b.createElement(\"script\");a.type=\"text\/javascript\";a.charset=\"utf-8\";a.id=",["escape",["macro",294],8,16],";a.async=!0;a.defer=!0;a.src=e+\"\/\/front.optimonk.com\/public\/\"+c+\"\/js\/preload.js\";d.appendChild(a)}\nif(\"\"!=confObj.functionBody){var funcArr=\"undefined\"!=typeof funcArr?funcArr:[];funcArr.push(new Function(confObj.functionBody));var argsArr=\"undefined\"!=typeof argsArr?argsArr:[];argsArr.push(\"\"!=confObj.args?confObj.args:",["escape",["macro",44],8,16],");if(!addedEventListener){document.getElementsByTagName(\"html\")[0].addEventListener(\"optimonk#ready\",function(){applyAdapter()},!0);var addedEventListener=!0}}try{getAdapter()}catch(b){var err=!0}\nif(1!=err)OptiMonk.triggerEvent(document.getElementsByTagName(\"html\")[0],\"optimonk#ready\");else if(!createdDomElementBool){createDomElement(document,\"53926\");var createdDomElementBool=!0};\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
@@ -4714,7 +4738,7 @@ data = {
       "ignore_case":true
     },{
       "function":"_re",
-      "arg0":["macro",293],
+      "arg0":["macro",296],
       "arg1":"true",
       "ignore_case":true
     }],
@@ -4746,9 +4770,9 @@ data = {
     [["if",37,38],["add",15]],
     [["if",37,39],["add",15]],
     [["if",37,40],["add",15]],
-    [["if",11,41],["add",15,45,47,48,149,152,157,160,162,165,175]],
+    [["if",11,41],["add",15,45,47,48,149,152,157,160,162,165,175,178]],
     [["if",12,41],["add",15,45,47,48,149,152,157,160,162,165,175,178]],
-    [["if",13,41],["add",15,45,47,149,152,157,160,162,165,175,189]],
+    [["if",13,41],["add",15,45,47,149,152,157,160,162,165,175,178,189]],
     [["if",15,41],["add",15,45,47,162,165]],
     [["if",14,41],["add",15,45,165]],
     [["if",41,42],["add",15,45,47,48,157,165,175]],
