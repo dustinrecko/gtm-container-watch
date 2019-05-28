@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"429",
+  "version":"430",
   "macros":[{
       "function":"__v",
       "vtp_dataLayerVersion":2,
@@ -673,6 +673,7 @@ data = {
       "vtp_conversionLabel":["macro",29],
       "vtp_url":["macro",67],
       "vtp_enableProductReportingCheckbox":true,
+      "vtp_enableEnhancedConversionsCheckbox":false,
       "tag_id":1
     },{
       "function":"__sp",
@@ -974,17 +975,32 @@ data = {
       "vtp_trackTypeIsEvent":true,
       "tag_id":158
     },{
-      "function":"__cl",
-      "tag_id":169
-    },{
-      "function":"__cl",
+      "function":"__ua",
+      "once_per_event":true,
+      "vtp_nonInteraction":true,
+      "vtp_overrideGaSettings":false,
+      "vtp_eventCategory":"feature",
+      "vtp_trackType":"TRACK_EVENT",
+      "vtp_gaSettings":["macro",111],
+      "vtp_eventAction":"ratgeber viewed",
+      "vtp_enableRecaptchaOption":false,
+      "vtp_enableUaRlsa":false,
+      "vtp_enableUseInternalVersion":false,
+      "vtp_enableFirebaseCampaignData":true,
+      "vtp_trackTypeIsEvent":true,
       "tag_id":170
     },{
-      "function":"__jel",
+      "function":"__cl",
       "tag_id":171
     },{
-      "function":"__hl",
+      "function":"__cl",
       "tag_id":172
+    },{
+      "function":"__jel",
+      "tag_id":173
+    },{
+      "function":"__hl",
+      "tag_id":174
     },{
       "function":"__ytl",
       "vtp_captureComplete":false,
@@ -995,7 +1011,7 @@ data = {
       "vtp_captureProgress":false,
       "vtp_uniqueTriggerId":"6178770_643",
       "vtp_enableTriggerStartOption":true,
-      "tag_id":173
+      "tag_id":175
     },{
       "function":"__ytl",
       "vtp_progressThresholdsPercent":"25, 50, 75, 100",
@@ -1008,14 +1024,14 @@ data = {
       "vtp_captureProgress":true,
       "vtp_uniqueTriggerId":"6178770_646",
       "vtp_enableTriggerStartOption":true,
-      "tag_id":174
+      "tag_id":176
     },{
       "function":"__lcl",
       "vtp_waitForTags":false,
       "vtp_checkValidation":false,
       "vtp_waitForTagsTimeout":"2000",
       "vtp_uniqueTriggerId":"6178770_705",
-      "tag_id":175
+      "tag_id":177
     },{
       "function":"__evl",
       "vtp_elementId":"produktinformationen",
@@ -1026,10 +1042,10 @@ data = {
       "vtp_onScreenRatio":"20",
       "vtp_onScreenDuration":"1000",
       "vtp_uniqueTriggerId":"6178770_730",
-      "tag_id":176
+      "tag_id":178
     },{
       "function":"__cl",
-      "tag_id":177
+      "tag_id":179
     },{
       "function":"__sdl",
       "vtp_verticalThresholdUnits":"PERCENT",
@@ -1039,20 +1055,31 @@ data = {
       "vtp_horizontalThresholdOn":false,
       "vtp_uniqueTriggerId":"6178770_780",
       "vtp_enableTriggerStartOption":true,
-      "tag_id":178
-    },{
-      "function":"__cl",
-      "tag_id":179
-    },{
-      "function":"__cl",
       "tag_id":180
+    },{
+      "function":"__cl",
+      "tag_id":181
+    },{
+      "function":"__cl",
+      "tag_id":182
     },{
       "function":"__lcl",
       "vtp_waitForTags":false,
       "vtp_checkValidation":false,
       "vtp_waitForTagsTimeout":"2000",
       "vtp_uniqueTriggerId":"6178770_843",
-      "tag_id":181
+      "tag_id":183
+    },{
+      "function":"__evl",
+      "vtp_elementId":"ratgeber",
+      "vtp_useOnScreenDuration":true,
+      "vtp_useDomChangeListener":true,
+      "vtp_firingFrequency":"ONCE_PER_ELEMENT",
+      "vtp_selectorType":"ID",
+      "vtp_onScreenRatio":"5",
+      "vtp_onScreenDuration":"1000",
+      "vtp_uniqueTriggerId":"6178770_879",
+      "tag_id":184
     },{
       "function":"__html",
       "once_per_event":true,
@@ -1385,6 +1412,14 @@ data = {
       "arg1":"optimize.activate"
     },{
       "function":"_eq",
+      "arg0":["macro",31],
+      "arg1":"\/fernseher\/"
+    },{
+      "function":"_re",
+      "arg0":["macro",120],
+      "arg1":"(^$|((^|,)6178770_879($|,)))"
+    },{
+      "function":"_eq",
       "arg0":["macro",65],
       "arg1":"gtm.dom"
     },{
@@ -1469,15 +1504,15 @@ data = {
       "arg1":"(^$|((^|,)6178770_843($|,)))"
     }],
   "rules":[
-    [["if",0],["add",0,1,9,10,35,36,44,46]],
-    [["if",1],["add",1,35,44]],
+    [["if",0],["add",0,1,9,10,37,38,46,48]],
+    [["if",1],["add",1,37,46]],
     [["if",2],["add",1]],
-    [["if",3],["add",1,3,11,12,35,43,44,54]],
+    [["if",3],["add",1,3,11,12,37,45,46,56]],
     [["if",6],["add",2]],
-    [["if",7],["add",2,35,40]],
+    [["if",7],["add",2,37,42]],
     [["if",8,9,10,11],["add",2]],
     [["if",12],["add",4]],
-    [["if",0,13],["add",5,39,42]],
+    [["if",0,13],["add",5,41,44]],
     [["if",14],["add",6]],
     [["if",3,15],["add",7]],
     [["if",0,4],["add",8]],
@@ -1488,30 +1523,31 @@ data = {
     [["if",24,25,26],["add",17]],
     [["if",3,27],["add",18]],
     [["if",28,29,30],["add",19]],
-    [["if",31,32],["add",20,43,57]],
+    [["if",31,32],["add",20,45,59]],
     [["if",33],["add",21]],
-    [["if",32],["add",22,23,24,25,28,29,30,32,33,34]],
-    [["if",34],["add",26,27]],
-    [["if",35],["add",31]],
-    [["if",26,37],["add",37]],
-    [["if",26,38],["add",38]],
-    [["if",3,13],["add",39,49]],
-    [["if",39,40],["add",39]],
-    [["if",0,39],["add",39]],
-    [["if",3,41],["add",41]],
-    [["if",42,44],["unless",43],["add",43]],
-    [["if",3,45],["add",45]],
-    [["if",3],["unless",46],["add",46]],
-    [["if",3,13,47],["add",47]],
-    [["if",0,13,48],["add",48]],
-    [["if",13,35],["add",50]],
-    [["if",28,35],["add",51,52]],
-    [["if",26,28,49],["add",53]],
-    [["if",26,50],["add",55]],
-    [["if",34,45],["unless",51],["add",56]],
-    [["if",20,52,53,54],["add",58]],
-    [["if",4,5],["block",1,54]],
+    [["if",22,34,35],["add",22]],
+    [["if",32],["add",23,24,25,26,29,30,31,33,34,35,36]],
+    [["if",36],["add",27,28]],
+    [["if",37],["add",32]],
+    [["if",26,39],["add",39]],
+    [["if",26,40],["add",40]],
+    [["if",3,13],["add",41,51]],
+    [["if",41,42],["add",41]],
+    [["if",0,41],["add",41]],
+    [["if",3,43],["add",43]],
+    [["if",44,46],["unless",45],["add",45]],
+    [["if",3,47],["add",47]],
+    [["if",3],["unless",48],["add",48]],
+    [["if",3,13,49],["add",49]],
+    [["if",0,13,50],["add",50]],
+    [["if",13,37],["add",52]],
+    [["if",28,37],["add",53,54]],
+    [["if",26,28,51],["add",55]],
+    [["if",26,52],["add",57]],
+    [["if",36,47],["unless",53],["add",58]],
+    [["if",20,54,55,56],["add",60]],
+    [["if",4,5],["block",1,56]],
     [["if",3,4],["block",1]],
-    [["if",7,36],["block",35]],
-    [["if",5,39],["block",44]]]
+    [["if",7,38],["block",37]],
+    [["if",5,41],["block",46]]]
 }
