@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"430",
+  "version":"434",
   "macros":[{
       "function":"__v",
       "vtp_dataLayerVersion":2,
@@ -1072,12 +1072,11 @@ data = {
     },{
       "function":"__evl",
       "vtp_elementId":"ratgeber",
-      "vtp_useOnScreenDuration":true,
+      "vtp_useOnScreenDuration":false,
       "vtp_useDomChangeListener":true,
       "vtp_firingFrequency":"ONCE_PER_ELEMENT",
       "vtp_selectorType":"ID",
-      "vtp_onScreenRatio":"5",
-      "vtp_onScreenDuration":"1000",
+      "vtp_onScreenRatio":"1",
       "vtp_uniqueTriggerId":"6178770_879",
       "tag_id":184
     },{
@@ -1180,7 +1179,7 @@ data = {
     },{
       "function":"__html",
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\" id=\"gtmctagid\"\u003E(function(){if(\"onlineshop\"==",["escape",["macro",14],8,16],"\u0026\u0026\"Search\"==",["escape",["macro",35],8,16],"){var b=",["escape",["macro",135],8,16],",c=[];b.forEach(function(a){c.push({id:a.id,name:a.name,position:a.position,category:a.category,brand:a.brand,list:",["escape",["macro",35],8,16],"+\"_\"+a.list,price:a.price})});20\u003Ec.length?dataLayer.push({event:\"listView\",channel:\"onlineshop\",currencyCode:\"EUR\",impressions:c}):(b=c.slice(0,20),dataLayer.push({event:\"listView\",channel:\"onlineshop\",currencyCode:\"EUR\",impressions:b}),dataLayer.push({impressions:void 0}),\nb=c.slice(20),dataLayer.push({event:\"listView_part2\",channel:\"onlineshop\",currencyCode:\"EUR\",impressions:b}))}})();\u003C\/script\u003E"],
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\" id=\"gtmctagid\"\u003E(function(){if(\"onlineshop\"==",["escape",["macro",14],8,16],"\u0026\u0026\"Search\"==",["escape",["macro",35],8,16],")if(20\u003E",["escape",["macro",135],8,16],".length)dataLayer.push({event:\"listView\",channel:\"onlineshop\",currencyCode:\"EUR\",impressions:",["escape",["macro",135],8,16],"});else{var a=",["escape",["macro",135],8,16],".slice(0,20);dataLayer.push({event:\"listView\",channel:\"onlineshop\",currencyCode:\"EUR\",impressions:a});dataLayer.push({impressions:void 0});a=",["escape",["macro",135],8,16],".slice(20);dataLayer.push({event:\"listView_part2\",channel:\"onlineshop\",currencyCode:\"EUR\",\nimpressions:a})}})();\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
