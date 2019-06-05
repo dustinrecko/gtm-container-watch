@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"8",
+  "version":"9",
   "macros":[{
       "function":"__e"
     },{
@@ -417,6 +417,7 @@ data = {
     },{
       "function":"__sp",
       "once_per_event":true,
+      "vtp_enableDynamicRemarketing":false,
       "vtp_conversionId":"977540931",
       "vtp_customParamsFormat":"NONE",
       "vtp_enableOgtRmktParams":true,
@@ -431,6 +432,7 @@ data = {
       "vtp_conversionLabel":"q4DjCMLRhpIBEMOukNID",
       "vtp_url":["macro",42],
       "vtp_enableProductReportingCheckbox":false,
+      "vtp_enableEnhancedConversionsCheckbox":false,
       "tag_id":9
     },{
       "function":"__lcl",
@@ -571,10 +573,6 @@ data = {
       "arg1":"published\\-dot\\-bracket\\-admanager\\-staging\\.proxy\\.preview\\.kintaro\\.goog\\\/home|admanager\\.google\\.com\\\/home",
       "ignore_case":true
     },{
-      "function":"_eq",
-      "arg0":["macro",14],
-      "arg1":"staging"
-    },{
       "function":"_re",
       "arg0":["macro",1],
       "arg1":"\\\/contact\\-us\\\/thank-you",
@@ -609,10 +607,9 @@ data = {
     [["if",2,14,15],["add",6]],
     [["if",2,16,17],["add",6]],
     [["if",6,18,19],["add",7]],
-    [["if",6,18,21],["add",8]],
-    [["if",6,22],["add",9]],
-    [["if",6,23],["add",10]],
-    [["if",6,24],["add",11]],
-    [["if",6,25],["add",12]],
-    [["if",6],["unless",20],["block",7,8]]]
+    [["if",6,18,20],["add",8]],
+    [["if",6,21],["add",9]],
+    [["if",6,22],["add",10]],
+    [["if",6,23],["add",11]],
+    [["if",6,24],["add",12]]]
 }
