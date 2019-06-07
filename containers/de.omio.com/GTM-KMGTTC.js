@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"656",
+  "version":"658",
   "macros":[{
       "function":"__jsm",
       "vtp_javascript":["template","(function(){return 1280\u003C=screen.availWidth?\"d\":1280\u003Escreen.availWidth\u0026\u0026768\u003C=screen.availWidth?\"t\":\"m\"})();"]
@@ -455,7 +455,7 @@ data = {
       "function":"__smm",
       "vtp_setDefaultValue":false,
       "vtp_input":["macro",37],
-      "vtp_map":["list",["map","key","omio.co.uk","value","9291825"],["map","key","de.omio.com","value","9361021"]]
+      "vtp_map":["list",["map","key","omio.co.uk","value","9291825"],["map","key","de.omio.com","value","9361021"],["map","key","omio.it","value","9391959"],["map","key","omio.fr","value","9391542"],["map","key","omio.es","value","9433168"]]
     },{
       "function":"__v",
       "vtp_dataLayerVersion":2,
@@ -3751,11 +3751,11 @@ data = {
       "arg0":["macro",33],
       "arg1":"catalog|search"
     },{
-      "function":"_eq",
+      "function":"_cn",
       "arg0":["macro",71],
       "arg1":"google"
     },{
-      "function":"_eq",
+      "function":"_cn",
       "arg0":["macro",104],
       "arg1":"google"
     },{
