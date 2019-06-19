@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"49",
+  "version":"50",
   "macros":[{
       "function":"__v",
       "vtp_dataLayerVersion":2,
@@ -471,7 +471,7 @@ data = {
       "vtp_checkValidation":true,
       "vtp_waitForTagsTimeout":"2000",
       "vtp_uniqueTriggerId":"9010567_34",
-      "tag_id":67
+      "tag_id":69
     },{
       "function":"__sdl",
       "vtp_verticalThresholdUnits":"PERCENT",
@@ -480,7 +480,7 @@ data = {
       "vtp_horizontalThresholdOn":false,
       "vtp_uniqueTriggerId":"9010567_41",
       "vtp_enableTriggerStartOption":true,
-      "tag_id":68
+      "tag_id":70
     },{
       "function":"__html",
       "setup_tags":["list",["tag",2,0]],
@@ -741,6 +741,14 @@ data = {
       "tag_id":66
     },{
       "function":"__html",
+      "once_per_event":true,
+      "vtp_html":"\n\u003Cscript type=\"text\/gtmscript\"\u003E(function(a,c,e,f,d,b){a.hj=a.hj||function(){(a.hj.q=a.hj.q||[]).push(arguments)};a._hjSettings={hjid:921216,hjsv:6};d=c.getElementsByTagName(\"head\")[0];b=c.createElement(\"script\");b.async=1;b.src=e+a._hjSettings.hjid+f+a._hjSettings.hjsv;d.appendChild(b)})(window,document,\"https:\/\/static.hotjar.com\/c\/hotjar-\",\".js?sv\\x3d\");\u003C\/script\u003E",
+      "vtp_supportDocumentWrite":false,
+      "vtp_enableIframeMode":false,
+      "vtp_enableEditJsMacroBehavior":false,
+      "tag_id":68
+    },{
+      "function":"__html",
       "priority":-10,
       "once_per_event":true,
       "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003E(function(){var b=\"",["escape",["macro",7],7],"\";if(\"suche\"==",["escape",["macro",3],8,16],"){var a=document.createElement(\"a\");a.href=b+",["escape",["macro",29],8,16],";b=a.protocol+a.hostname+a.pathname+(a.search?a.search+\"\\x26srch\\x3d\":\"?srch\\x3d\")+a.hash.substring(1)}window._gtm.ga.trackPageview(b,\"",["escape",["macro",30],7],"\")})();\u003C\/script\u003E"],
@@ -982,13 +990,13 @@ data = {
     }],
   "rules":[
     [["if",0],["add",8,14,43]],
-    [["if",1],["add",9,11]],
+    [["if",1],["add",9,44,11]],
     [["if",1,2],["add",10]],
-    [["if",3],["add",47,13]],
-    [["if",4],["add",44]],
+    [["if",3],["add",48,13]],
+    [["if",4],["add",45]],
     [["if",5],["add",4,12,27,7]],
-    [["if",6],["add",45,35]],
-    [["if",8],["add",46,42]],
+    [["if",6],["add",46,35]],
+    [["if",8],["add",47,42]],
     [["if",9],["add",5]],
     [["if",10],["add",15,29,39]],
     [["if",11,13],["unless",12],["add",16]],
@@ -1018,5 +1026,5 @@ data = {
     [["if",46],["add",38]],
     [["if",0,47],["add",40]],
     [["if",0,44,48,49],["add",41]],
-    [["if",6,7],["block",45]]]
+    [["if",6,7],["block",46]]]
 }
