@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"483",
+  "version":"484",
   "macros":[{
       "function":"__v",
       "vtp_dataLayerVersion":2,
@@ -3705,7 +3705,7 @@ data = {
     },{
       "function":"__html",
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003E_etmc.push([\"setOrgId\",\"7279409\"]);_etmc.push([\"setUserInfo\",{Subscriber_key:\"",["escape",["macro",303],7],"\",gender:\"",["escape",["macro",304],7],"\"}]);_etmc.push([\"trackPageView\"]);\u003C\/script\u003E"],
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003E_etmc.push([\"setOrgId\",\"7279409\"]);_etmc.push([\"setUserInfo\",{email:\"",["escape",["macro",303],7],"\",details:{gender:\"",["escape",["macro",304],7],"\"}}]);_etmc.push([\"trackPageView\"]);\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
@@ -5083,7 +5083,7 @@ data = {
     [["if",2,36],["unless",172],["add",150],["block",167]],
     [["if",2,40],["unless",172],["add",150],["block",167]],
     [["if",95,173],["add",151,154,164,176]],
-    [["if",95,174],["add",151,154,192,199]],
+    [["if",95,174],["add",151,154,199]],
     [["if",95,175],["add",151,154,162,192,199]],
     [["if",32,174],["add",151,154]],
     [["if",32,175],["add",151,154,162]],
