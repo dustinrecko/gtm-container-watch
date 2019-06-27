@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"490",
+  "version":"491",
   "macros":[{
       "function":"__v",
       "vtp_dataLayerVersion":2,
@@ -4908,10 +4908,6 @@ data = {
       "arg1":"gclsrc\\=aw.ds",
       "ignore_case":true
     },{
-      "function":"_eq",
-      "arg0":["macro",89],
-      "arg1":"\\\/"
-    },{
       "function":"_re",
       "arg0":["macro",147],
       "arg1":"zum Retourenformular|zum Rücksendeaufkleber|Gewährleistungsantrag",
@@ -5301,7 +5297,7 @@ data = {
     [["if",5,95,254,255],["add",202]],
     [["if",5,232,233,256],["add",202]],
     [["if",2,256,257],["add",207]],
-    [["if",50,259,260,261],["add",208]],
+    [["if",50,258,259,260],["add",208]],
     [["if",6,7],["block",1,14,121,122,124]],
     [["if",2,34,46],["block",13]],
     [["if",2,35,46],["block",13]],
@@ -5319,6 +5315,5 @@ data = {
     [["if",95,103,130],["block",165]],
     [["if",2,38,133,218],["block",168]],
     [["if",2,40,133,219],["block",168]],
-    [["if",196,239],["block",177]],
-    [["if",2,95,258],["block",207]]]
+    [["if",196,239],["block",177]]]
 }
