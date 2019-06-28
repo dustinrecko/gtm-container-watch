@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"491",
+  "version":"493",
   "macros":[{
       "function":"__v",
       "vtp_dataLayerVersion":2,
@@ -480,7 +480,7 @@ data = {
       "vtp_fullMatch":true,
       "vtp_replaceAfterMatch":true,
       "vtp_ignoreCase":true,
-      "vtp_map":["list",["map","key","(a24|cpd|k24|kfz)-(at|de|fr|nl|com)-(live|stg|qa)","value","EUR"],["map","key","cpd-pl-(live|stg|qa)","value","PLN"]]
+      "vtp_map":["list",["map","key","(a24|cpd|k24|kfz)-(at|de|fr|nl|com)-(live|stg|qa)","value","EUR"],["map","key","cpd-pl-(live|stg|qa)","value","PLN"],["map","key","cpd-dk-(live|stg|qa)","value","DKK"]]
     },{
       "function":"__k",
       "convert_undefined_to":"undefined",
@@ -929,7 +929,7 @@ data = {
       "vtp_fullMatch":true,
       "vtp_replaceAfterMatch":true,
       "vtp_ignoreCase":true,
-      "vtp_map":["list",["map","key","\u003C!-- Start Config Conversion Tag","value","--\u003E"],["map","key","checkout_conversionSuccess,((cpd|k24)-(at|de|fr|nl|pl)-(live|stg))","value","1HarCJ-2n18QrsONxgM"],["map","key","checkout_conversionSuccess,kfz-com-live","value","16DjCJiU4mcQk4zG-QM"],["map","key","\u003C!-- Start Config Remarketing Tag","value","--\u003E"],["map","key","frt_201809071325,((a24|cpd|k24)-(at|de|dk|fr|nl|pl)-(live|stg))","value","1HarCJ-2n18QrsONxgM"],["map","key","\u003C!-- Start Config Conversion Tag - Youtube Ads","value","--\u003E"],["map","key","gtm.js,k24-de-live","value","NCu5CLvOrpUBEJnt0esC"],["map","key","pageType_productListingPage,k24-de-live","value","VWr7CPbNrpUBEJnt0esC"],["map","key","pageType_productDetails,k24-de-live","value","wUGICLrZrpUBEJnt0esC"],["map","key","checkout_addToCart,k24-de-live","value","nLrACIWMwpUBEJnt0esC"],["map","key","20190221100400,k24-de-live","value","6VYWCOybopUBEJnt0esC"]]
+      "vtp_map":["list",["map","key","\u003C!-- Start Config Conversion Tag","value","--\u003E"],["map","key","checkout_conversionSuccess,((cpd|k24)-(at|de|dk|fr|nl|pl)-(live|stg))","value","1HarCJ-2n18QrsONxgM"],["map","key","checkout_conversionSuccess,kfz-com-live","value","16DjCJiU4mcQk4zG-QM"],["map","key","\u003C!-- Start Config Remarketing Tag","value","--\u003E"],["map","key","frt_201809071325,((a24|cpd|k24)-(at|de|dk|fr|nl|pl)-(live|stg))","value","1HarCJ-2n18QrsONxgM"],["map","key","frt_201809071325,kfz-com-live","value","16DjCJiU4mcQk4zG-QM"],["map","key","\u003C!-- Start Config Conversion Tag - Youtube Ads","value","--\u003E"],["map","key","gtm.js,k24-de-live","value","NCu5CLvOrpUBEJnt0esC"],["map","key","pageType_productListingPage,k24-de-live","value","VWr7CPbNrpUBEJnt0esC"],["map","key","pageType_productDetails,k24-de-live","value","wUGICLrZrpUBEJnt0esC"],["map","key","checkout_addToCart,k24-de-live","value","nLrACIWMwpUBEJnt0esC"],["map","key","20190221100400,k24-de-live","value","6VYWCOybopUBEJnt0esC"]]
     },{
       "function":"__u",
       "vtp_enableMultiQueryKeys":false,
@@ -1453,7 +1453,7 @@ data = {
       "vtp_map":["list",["map","key","checkout_addToCart,(k24|a24)-de-(live|stg)","value","1"],["map","key","pageType_cart,(k24|a24)-de-(live|stg)","value","1"],["map","key","checkout_addToCart,k24-at-(live|stg)","value",["macro",259]],["map","key","checkout_addToCart,cpd-nl-(live|stg)","value",["macro",259]],["map","key","checkout_addToCart,cpd-fr-(live|stg)","value",["macro",259]],["map","key","checkout_addToCart,cpd-pl-(live|stg)","value",["macro",259]],["map","key","checkout_conversionSuccess,.*","value",["macro",259]]]
     },{
       "function":"__jsm",
-      "vtp_javascript":["template","(function(){var c=[];if(\"_ecommerce.impressions_\"==",["escape",["macro",258],8,16],")var a=",["escape",["macro",44],8,16],";\"_ecommerce.detail.products_\"==",["escape",["macro",258],8,16],"\u0026\u0026(a=",["escape",["macro",235],8,16],");\"_ecommerce.add.products_\"==",["escape",["macro",258],8,16],"\u0026\u0026(a=",["escape",["macro",62],8,16],");\"_page.products_\"==",["escape",["macro",258],8,16],"\u0026\u0026(a=",["escape",["macro",47],8,16],");\"_ecommerce.purchase.products_\"==",["escape",["macro",258],8,16],"\u0026\u0026(a=",["escape",["macro",60],8,16],");if(\"undefined\"!=typeof a)for(var b=0;b\u003Ca.length;b++)c.push({item:a[b].id,price:Math.round(a[b].price\/\n",["escape",["macro",305],8,16],"*100)\/100+\"\",quantity:(\"undefined\"!=typeof a[b].quantity?a[b].quantity:1)+\"\"});return c})();"]
+      "vtp_javascript":["template","(function(){var c=[];if(\"_ecommerce.impressions_\"==",["escape",["macro",258],8,16],")var a=",["escape",["macro",44],8,16],";\"_ecommerce.detail.products_\"==",["escape",["macro",258],8,16],"\u0026\u0026(a=",["escape",["macro",235],8,16],");\"_ecommerce.add.products_\"==",["escape",["macro",258],8,16],"\u0026\u0026(a=",["escape",["macro",62],8,16],");\"_page.products_\"==",["escape",["macro",258],8,16],"\u0026\u0026(a=",["escape",["macro",47],8,16],");\"_ecommerce.purchase.products_\"==",["escape",["macro",258],8,16],"\u0026\u0026(a=",["escape",["macro",60],8,16],");if(\"undefined\"!=typeof a)for(var b=0;b\u003Ca.length;b++)c.push({item:a[b].id+\"_www-kfzteile24-de_de\",\nprice:Math.round(a[b].price\/",["escape",["macro",305],8,16],"*100)\/100+\"\",quantity:(\"undefined\"!=typeof a[b].quantity?a[b].quantity:1)+\"\"});return c})();"]
     },{
       "function":"__jsm",
       "vtp_javascript":["template","(function(){var a={};a.items=",["escape",["macro",306],8,16],";a.order_number=\"",["escape",["macro",14],7],"\";a.shipping=\"",["escape",["macro",58],7],"\";return a})();"]
@@ -4716,12 +4716,12 @@ data = {
     },{
       "function":"_re",
       "arg0":["macro",107],
-      "arg1":"Search Results",
+      "arg1":"Product Listing Page",
       "ignore_case":true
     },{
       "function":"_re",
       "arg0":["macro",107],
-      "arg1":"Product Listing Page",
+      "arg1":"Search Results",
       "ignore_case":true
     },{
       "function":"_re",
@@ -4953,8 +4953,8 @@ data = {
     [["if",28,41],["add",13]],
     [["if",28,42],["add",13]],
     [["if",28,43],["add",13]],
-    [["if",33,44],["add",13]],
-    [["if",33,45],["add",13]],
+    [["if",33,44],["add",13,43,168]],
+    [["if",33,45],["add",13,43]],
     [["if",0,7],["unless",1],["add",14,122,124,127,128]],
     [["if",49,50,51],["add",15]],
     [["if",50,52,53],["add",16]],
@@ -5047,7 +5047,7 @@ data = {
     [["if",123,124],["add",42]],
     [["if",124],["unless",123,125],["add",42]],
     [["if",126],["add",42]],
-    [["if",44,103],["add",42]],
+    [["if",44,103],["add",42,168]],
     [["if",12,44],["add",42]],
     [["if",44,109],["unless",107,108],["add",42]],
     [["if",44,102],["add",42]],
@@ -5065,6 +5065,7 @@ data = {
     [["if",37,135],["add",44]],
     [["if",36,135],["add",44]],
     [["if",40,135],["add",44]],
+    [["if",44,135],["add",44]],
     [["if",33,96],["add",45,160,168,194,204]],
     [["if",33,116],["add",45,46,160,199]],
     [["if",33,118],["add",45,160,192]],
@@ -5121,7 +5122,7 @@ data = {
     [["if",2,172],["unless",1,47],["add",150]],
     [["if",2,37],["unless",1,47],["add",150],["block",168]],
     [["if",2,118],["unless",1,47],["add",150],["block",160]],
-    [["if",2,44],["unless",1,47],["add",150]],
+    [["if",2,44],["unless",1,47],["add",150],["block",168]],
     [["if",2,45],["unless",1,47],["add",150]],
     [["if",2,95,130],["add",151],["block",43,168]],
     [["if",2,32],["unless",173],["add",151],["block",168]],
@@ -5133,7 +5134,7 @@ data = {
     [["if",2,37],["unless",173],["add",151],["block",168]],
     [["if",2,36],["unless",173],["add",151],["block",168]],
     [["if",2,40],["unless",173],["add",151],["block",168]],
-    [["if",2,44],["unless",173],["add",151]],
+    [["if",2,44],["unless",173],["add",151],["block",168]],
     [["if",95,174],["add",152,155,165,177]],
     [["if",95,175],["add",152,155,200]],
     [["if",95,176],["add",152,155,163,193,200]],
@@ -5222,7 +5223,7 @@ data = {
     [["if",97,179],["add",165]],
     [["if",21,35],["add",165,168]],
     [["if",21,36],["add",165,168]],
-    [["if",21,44],["add",165]],
+    [["if",21,44],["add",165,168]],
     [["if",8,118],["add",165]],
     [["if",21,118],["add",165]],
     [["if",118,128],["add",165]],
@@ -5246,23 +5247,26 @@ data = {
     [["if",8,36],["add",168]],
     [["if",8,40],["add",168]],
     [["if",21,40],["add",168]],
-    [["if",2,133,218,220],["add",169],["block",168]],
-    [["if",2,133,218,221],["add",169],["block",168]],
-    [["if",2,133,218,222],["add",169],["block",168]],
-    [["if",2,133,218,224],["add",169],["block",168]],
-    [["if",2,133,218,225],["add",169]],
-    [["if",2,133,218,223],["add",169],["block",168]],
-    [["if",2,38,133,219],["add",170],["block",168]],
-    [["if",2,32,133,219],["add",170],["block",168]],
+    [["if",2,44],["add",168]],
+    [["if",44,128],["add",168]],
+    [["if",8,44],["add",168]],
+    [["if",2,133,219,220],["add",169],["block",168]],
+    [["if",2,133,219,221],["add",169],["block",168]],
+    [["if",2,133,219,222],["add",169],["block",168]],
+    [["if",2,133,219,224],["add",169],["block",168]],
+    [["if",2,133,219,225],["add",169],["block",168]],
+    [["if",2,133,219,223],["add",169],["block",168]],
+    [["if",2,38,133,218],["add",170],["block",168]],
+    [["if",2,32,133,218],["add",170],["block",168]],
     [["if",2,95,133,134],["add",170],["block",43,168]],
     [["if",2,96,133,134],["add",170],["block",168]],
     [["if",2,97,133,134],["add",170]],
-    [["if",2,34,133,219],["add",170],["block",168]],
-    [["if",2,35,133,219],["add",170],["block",168]],
-    [["if",2,36,133,219],["add",170],["block",168]],
-    [["if",2,37,133,219],["add",170],["block",168]],
-    [["if",2,118,133,219],["add",170]],
-    [["if",2,44,133,219],["add",170]],
+    [["if",2,34,133,218],["add",170],["block",168]],
+    [["if",2,35,133,218],["add",170],["block",168]],
+    [["if",2,36,133,218],["add",170],["block",168]],
+    [["if",2,37,133,218],["add",170],["block",168]],
+    [["if",2,118,133,218],["add",170]],
+    [["if",2,44,133,218],["add",170],["block",168]],
     [["if",7,227],["unless",226],["add",171]],
     [["if",12,227,228],["add",172]],
     [["if",12,227,229],["add",173]],
@@ -5313,7 +5317,6 @@ data = {
     [["if",195,196],["block",163]],
     [["if",97,103,130],["block",165]],
     [["if",95,103,130],["block",165]],
-    [["if",2,38,133,218],["block",168]],
-    [["if",2,40,133,219],["block",168]],
+    [["if",2,40,133,218],["block",168]],
     [["if",196,239],["block",177]]]
 }
