@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"50",
+  "version":"51",
   "macros":[{
       "function":"__v",
       "vtp_dataLayerVersion":2,
@@ -471,7 +471,7 @@ data = {
       "vtp_checkValidation":true,
       "vtp_waitForTagsTimeout":"2000",
       "vtp_uniqueTriggerId":"9010567_34",
-      "tag_id":69
+      "tag_id":71
     },{
       "function":"__sdl",
       "vtp_verticalThresholdUnits":"PERCENT",
@@ -480,7 +480,7 @@ data = {
       "vtp_horizontalThresholdOn":false,
       "vtp_uniqueTriggerId":"9010567_41",
       "vtp_enableTriggerStartOption":true,
-      "tag_id":70
+      "tag_id":72
     },{
       "function":"__html",
       "setup_tags":["list",["tag",2,0]],
@@ -749,6 +749,14 @@ data = {
       "tag_id":68
     },{
       "function":"__html",
+      "once_per_event":true,
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003Eif(\"www.stage.sport1.de\"===",["escape",["macro",41],8,16],")var script_url=\"\/\/cdn.taboola.com\/libtrc\/sport1de-sport1-desktop0\/loader.js\";else\"m.stage.sport1.de\"===",["escape",["macro",41],8,16],"\u0026\u0026(script_url=\"\/\/cdn.taboola.com\/libtrc\/sport1de-sport1\/loader.js\");script_url\u0026\u0026(!function(a,b,c){a.async=1;a.src=c;b.parentNode.insertBefore(a,b)}(document.createElement(\"script\"),document.getElementsByTagName(\"script\")[0],script_url),window._taboola=window._taboola||[],_taboola.push({photo:\"auto\",visible:\"false\"}));\u003C\/script\u003E"],
+      "vtp_supportDocumentWrite":false,
+      "vtp_enableIframeMode":false,
+      "vtp_enableEditJsMacroBehavior":false,
+      "tag_id":70
+    },{
+      "function":"__html",
       "priority":-10,
       "once_per_event":true,
       "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003E(function(){var b=\"",["escape",["macro",7],7],"\";if(\"suche\"==",["escape",["macro",3],8,16],"){var a=document.createElement(\"a\");a.href=b+",["escape",["macro",29],8,16],";b=a.protocol+a.hostname+a.pathname+(a.search?a.search+\"\\x26srch\\x3d\":\"?srch\\x3d\")+a.hash.substring(1)}window._gtm.ga.trackPageview(b,\"",["escape",["macro",30],7],"\")})();\u003C\/script\u003E"],
@@ -987,16 +995,29 @@ data = {
       "function":"_eq",
       "arg0":["macro",65],
       "arg1":"false"
+    },{
+      "function":"_eq",
+      "arg0":["macro",2],
+      "arg1":"bildergalerien"
+    },{
+      "function":"_re",
+      "arg0":["macro",41],
+      "arg1":"^m\\.stage\\.sport1\\.de$|^www\\.stage\\.sport1\\.de$",
+      "ignore_case":true
+    },{
+      "function":"_re",
+      "arg0":["macro",28],
+      "arg1":"^view\\.ivw$"
     }],
   "rules":[
     [["if",0],["add",8,14,43]],
     [["if",1],["add",9,44,11]],
     [["if",1,2],["add",10]],
-    [["if",3],["add",48,13]],
-    [["if",4],["add",45]],
+    [["if",3],["add",49,13]],
+    [["if",4],["add",46]],
     [["if",5],["add",4,12,27,7]],
-    [["if",6],["add",46,35]],
-    [["if",8],["add",47,42]],
+    [["if",6],["add",47,35]],
+    [["if",8],["add",48,42]],
     [["if",9],["add",5]],
     [["if",10],["add",15,29,39]],
     [["if",11,13],["unless",12],["add",16]],
@@ -1026,5 +1047,7 @@ data = {
     [["if",46],["add",38]],
     [["if",0,47],["add",40]],
     [["if",0,44,48,49],["add",41]],
-    [["if",6,7],["block",46]]]
+    [["if",4,50,51],["add",45]],
+    [["if",50,51,52],["add",45]],
+    [["if",6,7],["block",47]]]
 }
