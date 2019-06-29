@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"447",
+  "version":"448",
   "macros":[{
       "function":"__v",
       "vtp_dataLayerVersion":2,
@@ -1226,7 +1226,7 @@ data = {
     },{
       "function":"__html",
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003Eif(\"moebel_de\"==",["escape",["macro",18],8,16],"){var cookieName=\"coopPartner\",cookieValue=\"moebel.de\",expirationTime=604800;expirationTime*=1E3;var date=new Date,dateTimeNow=date.getTime();date.setTime(dateTimeNow+expirationTime);date=date.toUTCString();document.cookie=cookieName+\"\\x3d\"+cookieValue+\"; expires\\x3d\"+date+\"; path\\x3d\/; domain\\x3d.\"+location.hostname.replace(\/^www\\.\/i,\"\")};\u003C\/script\u003E"],
+      "vtp_html":["template","\u003Cscript id=\"gtmctagid\" type=\"text\/gtmscript\"\u003Eif(\"moebel_de\"==",["escape",["macro",18],8,16],"){var cookieName=\"coopPartner\",cookieValue=\"moebel.de\",expirationTime=604800;expirationTime*=1E3;var date=new Date,dateTimeNow=date.getTime();date.setTime(dateTimeNow+expirationTime);date=date.toUTCString();document.cookie=cookieName+\"\\x3d\"+cookieValue+\"; expires\\x3d\"+date+\"; path\\x3d\/; domain\\x3d.\"+location.hostname.replace(\/^www\\.\/i,\"\")};\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
