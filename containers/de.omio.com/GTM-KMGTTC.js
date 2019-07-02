@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"659",
+  "version":"660",
   "macros":[{
       "function":"__jsm",
       "vtp_javascript":["template","(function(){return 1280\u003C=screen.availWidth?\"d\":1280\u003Escreen.availWidth\u0026\u0026768\u003C=screen.availWidth?\"t\":\"m\"})();"]
@@ -2671,7 +2671,7 @@ data = {
     },{
       "function":"__html",
       "once_per_event":true,
-      "vtp_html":["template","\n\u003Cscript type=\"text\/gtmscript\" data-gtmsrc=\"\/\/static.criteo.net\/js\/ld\/ld.js\" async=\"true\"\u003E\u003C\/script\u003E\n\u003Cscript type=\"text\/gtmscript\"\u003Ewindow.criteo_q=window.criteo_q||[];var deviceType=\/iPad\/.test(navigator.userAgent)?\"t\":\/Mobile|iP(hone|od)|Android|BlackBerry|IEMobile|Silk\/.test(navigator.userAgent)?\"m\":\"d\";window.criteo_q.push({event:\"setAccount\",account:",["escape",["macro",103],8,16],"},{event:\"setEmail\",email:\"\"},{event:\"setSiteType\",type:deviceType},{event:\"viewSearch\",checkin_date:\"",["escape",["macro",13],7],"\",checkout_date:\"",["escape",["macro",14],7],"\",nbra:",["escape",["macro",43],8,16],"},{event:\"viewItem\",item:\"",["escape",["macro",40],7],"\"});\u003C\/script\u003E\n"],
+      "vtp_html":["template","\n\u003Cscript type=\"text\/gtmscript\" data-gtmsrc=\"\/\/static.criteo.net\/js\/ld\/ld.js\" async=\"true\"\u003E\u003C\/script\u003E\n\u003Cscript type=\"text\/gtmscript\"\u003Ewindow.criteo_q=window.criteo_q||[];var deviceType=\/iPad\/.test(navigator.userAgent)?\"t\":\/Mobile|iP(hone|od)|Android|BlackBerry|IEMobile|Silk\/.test(navigator.userAgent)?\"m\":\"d\";window.criteo_q.push({event:\"setAccount\",account:",["escape",["macro",103],8,16],"},{event:\"setEmail\",email:\"\"},{event:\"setSiteType\",type:deviceType},{event:\"viewSearch\",checkin_date:\"",["escape",["macro",16],7],"\",checkout_date:\"",["escape",["macro",16],7],"\",nbra:",["escape",["macro",43],8,16],"},{event:\"viewItem\",item:\"",["escape",["macro",40],7],"\"});\u003C\/script\u003E\n"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
@@ -2906,7 +2906,7 @@ data = {
     },{
       "function":"__html",
       "once_per_event":true,
-      "vtp_html":["template","\n\u003Cscript type=\"text\/gtmscript\" data-gtmsrc=\"\/\/static.criteo.net\/js\/ld\/ld.js\" async=\"true\"\u003E\u003C\/script\u003E\n\u003Cscript type=\"text\/gtmscript\"\u003Ewindow.criteo_q=window.criteo_q||[];var deviceType=\/iPad\/.test(navigator.userAgent)?\"t\":\/Mobile|iP(hone|od)|Android|BlackBerry|IEMobile|Silk\/.test(navigator.userAgent)?\"m\":\"d\";\nwindow.criteo_q.push({event:\"setAccount\",account:",["escape",["macro",103],8,16],"},{event:\"setEmail\",email:\"\"},{event:\"setSiteType\",type:deviceType},{event:\"viewSearch\",checkin_date:\"",["escape",["macro",13],7],"\",checkout_date:\"",["escape",["macro",14],7],"\",nbra:",["escape",["macro",43],8,16],"},{event:\"trackTransaction\",id:",["escape",["macro",48],8,16],",currency:\"",["escape",["macro",3],7],"\",item:[{id:\"",["escape",["macro",40],7],"\",price:",["escape",["macro",29],8,16],",quantity:1}]});\u003C\/script\u003E\n"],
+      "vtp_html":["template","\n\u003Cscript type=\"text\/gtmscript\" data-gtmsrc=\"\/\/static.criteo.net\/js\/ld\/ld.js\" async=\"true\"\u003E\u003C\/script\u003E\n\u003Cscript type=\"text\/gtmscript\"\u003Ewindow.criteo_q=window.criteo_q||[];var deviceType=\/iPad\/.test(navigator.userAgent)?\"t\":\/Mobile|iP(hone|od)|Android|BlackBerry|IEMobile|Silk\/.test(navigator.userAgent)?\"m\":\"d\";\nwindow.criteo_q.push({event:\"setAccount\",account:",["escape",["macro",103],8,16],"},{event:\"setEmail\",email:\"\"},{event:\"setSiteType\",type:deviceType},{event:\"viewSearch\",checkin_date:\"",["escape",["macro",17],7],"\",checkout_date:\"",["escape",["macro",16],7],"\",nbra:",["escape",["macro",43],8,16],"},{event:\"trackTransaction\",id:",["escape",["macro",48],8,16],",currency:\"",["escape",["macro",3],7],"\",item:[{id:\"",["escape",["macro",40],7],"\",price:",["escape",["macro",29],8,16],",quantity:1}]});\u003C\/script\u003E\n"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
