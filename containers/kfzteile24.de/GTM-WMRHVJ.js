@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"493",
+  "version":"496",
   "macros":[{
       "function":"__v",
       "vtp_dataLayerVersion":2,
@@ -584,7 +584,7 @@ data = {
       "vtp_fullMatch":true,
       "vtp_replaceAfterMatch":true,
       "vtp_ignoreCase":true,
-      "vtp_map":["list",["map","key","\u003C\u003Cregex_pattern\u003E\u003E","value","\u003C\u003CeventCategory;eventAction;eventLabel;eventValue;nonInteraction_boolean;enhancedEcommerce_boolean\u003E\u003E"],["map","key","gtm.click","value",["template","Click;",["macro",115],";",["macro",116],";;0;0"]],["map","key","domEl_errMsg404","value",["template","Impression;DOM Element - Error Message 404;",["macro",118],";;1;0"]],["map","key","20180720164424","value",["template","Form;",["macro",119],";",["macro",71],";;0;0"]],["map","key","20180720164425","value",["template","Form;",["macro",119],";",["macro",72],";;1;0"]],["map","key","20180913135000","value",["template","Impression;",["macro",120],";",["macro",121],";;1;0"]],["map","key","20180913135001","value",["template","Click;",["macro",115],";",["macro",116],";;0;0"]],["map","key","20180913135002","value",["template","Click;",["macro",115],";",["macro",116],";;0;0"]],["map","key","20180913135003","value",["template","Click;",["macro",115],";",["macro",116],";;0;0"]],["map","key","20180925141700","value",["template","Data Quality;{\"tag\":\"tt-conversion\",\"attrs\":{\"event\":\"",["macro",123],"\",\"cid\":\"",["macro",124],"\",\"pid\":\"",["macro",125],"\",\"tid\":\"",["macro",14],"\",\"tam\":\"",["macro",126],"\",\"descrMerchant\":\"",["macro",127],"\",\"descrAffiliate\":\"",["macro",127],"\",\"currency\":\"",["macro",128],"\"}};{\"gtm_asset\":{\"type\":\"variable\",\"name\":\"",["macro",133],"\",\"value\":\"",["macro",134],"\"}};;1;0"]],["map","key","checkout_addToCart","value",["template","Ecommerce;Ecommerce - Add Product to Cart;",["macro",115],";;0;1"]],["map","key","addToCart","value",["template","Ecommerce;Ecommerce - Add Product to Cart;",["macro",115],";;0;1"]],["map","key","checkout_removeFromCart","value",["template","Ecommerce;Ecommerce - Remove Product from Cart;",["macro",115],";;0;1"]],["map","key","removeFromCart","value",["template","Ecommerce;Ecommerce - Remove Product from Cart;",["macro",115],";;0;1"]],["map","key","productClick","value",["template","Ecommerce;Ecommerce - Click Product Link;",["macro",115],";;0;1"]],["map","key","2018121813270(0|1|2|3)","value",["template","Custom Non-Interaction Hit;",["macro",140],";",["macro",141],";;1;0"]],["map","key","2019021116300(0|1|2|3)","value",["template","Optimonk;",["macro",142],";",["macro",143],";;0;0"]],["map","key","VWO","value",["template","VWO;",["macro",144],";",["macro",145],";",["macro",146],";1;0"]],["map","key","201906261812","value",["template","Self-Service;Click;",["macro",147],";;1;0"]]]
+      "vtp_map":["list",["map","key","\u003C\u003Cregex_pattern\u003E\u003E","value","\u003C\u003CeventCategory;eventAction;eventLabel;eventValue;nonInteraction_boolean;enhancedEcommerce_boolean\u003E\u003E"],["map","key","gtm.click","value",["template","Click;",["macro",115],";",["macro",116],";;0;0"]],["map","key","domEl_errMsg404","value",["template","Impression;DOM Element - Error Message 404;",["macro",118],";;1;0"]],["map","key","20180720164424","value",["template","Form;",["macro",119],";",["macro",71],";;0;0"]],["map","key","20180720164425","value",["template","Form;",["macro",119],";",["macro",72],";;1;0"]],["map","key","20180913135000","value",["template","Impression;",["macro",120],";",["macro",121],";;1;0"]],["map","key","20180913135001","value",["template","Click;",["macro",115],";",["macro",116],";;0;0"]],["map","key","20180913135002","value",["template","Click;",["macro",115],";",["macro",116],";;0;0"]],["map","key","20180913135003","value",["template","Click;",["macro",115],";",["macro",116],";;0;0"]],["map","key","20180925141700","value",["template","Data Quality;{\"tag\":\"tt-conversion\",\"attrs\":{\"event\":\"",["macro",123],"\",\"cid\":\"",["macro",124],"\",\"pid\":\"",["macro",125],"\",\"tid\":\"",["macro",14],"\",\"tam\":\"",["macro",126],"\",\"descrMerchant\":\"",["macro",127],"\",\"descrAffiliate\":\"",["macro",127],"\",\"currency\":\"",["macro",128],"\"}};{\"gtm_asset\":{\"type\":\"variable\",\"name\":\"",["macro",133],"\",\"value\":\"",["macro",134],"\"}};;1;0"]],["map","key","checkout_addToCart","value",["template","Ecommerce;Ecommerce - Add Product to Cart;",["macro",115],";;0;1"]],["map","key","addToCart","value",["template","Ecommerce;Ecommerce - Add Product to Cart;",["macro",115],";;0;1"]],["map","key","checkout_removeFromCart","value",["template","Ecommerce;Ecommerce - Remove Product from Cart;",["macro",115],";;0;1"]],["map","key","removeFromCart","value",["template","Ecommerce;Ecommerce - Remove Product from Cart;",["macro",115],";;0;1"]],["map","key","productClick","value",["template","Ecommerce;Ecommerce - Click Product Link;",["macro",115],";;0;1"]],["map","key","2018121813270(0|1|2|3)","value",["template","Custom Non-Interaction Hit;",["macro",140],";",["macro",141],";;1;0"]],["map","key","2019021116300(0|1|2|3)","value",["template","Optimonk;",["macro",142],";",["macro",143],";;1;0"]],["map","key","VWO","value",["template","VWO;",["macro",144],";",["macro",145],";",["macro",146],";1;0"]],["map","key","201906261812","value",["template","Self-Service;Click;",["macro",147],";;1;0"]]]
     },{
       "function":"__jsm",
       "vtp_javascript":["template","(function(){return ",["escape",["macro",148],8,16],".split(\";\")[5]})();"]
@@ -3640,7 +3640,7 @@ data = {
     },{
       "function":"__html",
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003E_etmc.push([\"setOrgId\",\"7279409\"]);_etmc.push([\"trackPageView\",{search:\"",["escape",["macro",102],7],"\"}]);\u003C\/script\u003E"],
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\" data-gtmsrc=\"https:\/\/7279409.collect.igodigital.com\/collect.js\"\u003E\u003C\/script\u003E\n\u003Cscript type=\"text\/gtmscript\"\u003E_etmc.push([\"setOrgId\",\"7279409\"]);_etmc.push([\"trackPageView\",{search:\"",["escape",["macro",102],7],"\"}]);\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
@@ -3696,7 +3696,7 @@ data = {
     },{
       "function":"__html",
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003E_etmc.push([\"setOrgId\",\"7279409\"]);_etmc.push([\"trackPageView\",{category:\"",["escape",["macro",302],7],"\"}]);\u003C\/script\u003E"],
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\" data-gtmsrc=\"https:\/\/7279409.collect.igodigital.com\/collect.js\"\u003E\u003C\/script\u003E\n\u003Cscript type=\"text\/gtmscript\"\u003E_etmc.push([\"setOrgId\",\"7279409\"]);_etmc.push([\"trackPageView\",{category:\"",["escape",["macro",302],7],"\"}]);\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
@@ -3704,7 +3704,7 @@ data = {
     },{
       "function":"__html",
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003E_etmc.push([\"setOrgId\",\"7279409\"]);_etmc.push([\"trackPageView\",{item:",["escape",["macro",103],8,16],"+\"_www-kfzteile24-de_de\"}]);\u003C\/script\u003E"],
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\" data-gtmsrc=\"https:\/\/7279409.collect.igodigital.com\/collect.js\"\u003E\u003C\/script\u003E\n\u003Cscript type=\"text\/gtmscript\"\u003E_etmc.push([\"setOrgId\",\"7279409\"]);_etmc.push([\"trackPageView\",{item:",["escape",["macro",103],8,16],"+\"_www-kfzteile24-de_de\"}]);\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
@@ -3712,7 +3712,7 @@ data = {
     },{
       "function":"__html",
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003E_etmc.push([\"setOrgId\",\"7279409\"]);_etmc.push([\"setUserInfo\",{email:\"",["escape",["macro",303],7],"\",details:{gender:\"",["escape",["macro",304],7],"\"}}]);_etmc.push([\"trackPageView\"]);\u003C\/script\u003E"],
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003E_etmc.push([\"setOrgId\",\"7279409\"]);_etmc.push([\"setUserInfo\",{email:\"",["escape",["macro",303],7],"\",details:{gender:\"",["escape",["macro",304],7],"\"}}]);\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
@@ -4885,6 +4885,11 @@ data = {
       "ignore_case":true
     },{
       "function":"_re",
+      "arg0":["macro",141],
+      "arg1":"\\?search|\\\u0026search|\\?notTypeSearch",
+      "ignore_case":true
+    },{
+      "function":"_re",
       "arg0":["macro",106],
       "arg1":"(a24|k24)-de-(live|stg)"
     },{
@@ -5098,7 +5103,7 @@ data = {
     [["if",12,166],["add",146]],
     [["if",12,167],["add",147]],
     [["if",12,168,169],["add",148]],
-    [["if",2,95,133],["unless",170],["add",149]],
+    [["if",2,95,133],["unless",170],["add",149],["block",206]],
     [["if",2,32,133],["unless",170],["add",149]],
     [["if",2,96,133],["unless",170],["add",149]],
     [["if",2,38,133],["unless",170],["add",149]],
@@ -5124,7 +5129,7 @@ data = {
     [["if",2,118],["unless",1,47],["add",150],["block",160]],
     [["if",2,44],["unless",1,47],["add",150],["block",168]],
     [["if",2,45],["unless",1,47],["add",150]],
-    [["if",2,95,130],["add",151],["block",43,168]],
+    [["if",2,95,130],["add",151],["block",43,168,206]],
     [["if",2,32],["unless",173],["add",151],["block",168]],
     [["if",2,38],["unless",173],["add",151],["block",168]],
     [["if",2,97,130],["add",151]],
@@ -5137,7 +5142,7 @@ data = {
     [["if",2,44],["unless",173],["add",151],["block",168]],
     [["if",95,174],["add",152,155,165,177]],
     [["if",95,175],["add",152,155,200]],
-    [["if",95,176],["add",152,155,163,193,200]],
+    [["if",95,176],["add",152,155,163,200]],
     [["if",32,175],["add",152,155]],
     [["if",32,176],["add",152,155,163]],
     [["if",32,174],["add",152,155,165,177]],
@@ -5296,12 +5301,13 @@ data = {
     [["if",248,250],["add",189]],
     [["if",12,248,251],["add",190]],
     [["if",196,252],["add",191]],
-    [["if",5,253],["add",196]],
-    [["if",5,96,254,255],["add",202]],
-    [["if",5,95,254,255],["add",202]],
-    [["if",5,232,233,256],["add",202]],
-    [["if",2,256,257],["add",207]],
-    [["if",50,258,259,260],["add",208]],
+    [["if",95,176,253],["add",193]],
+    [["if",5,254],["add",196]],
+    [["if",5,96,255,256],["add",202]],
+    [["if",5,95,255,256],["add",202]],
+    [["if",5,232,233,257],["add",202]],
+    [["if",2,257,258],["add",207]],
+    [["if",50,259,260,261],["add",208]],
     [["if",6,7],["block",1,14,121,122,124]],
     [["if",2,34,46],["block",13]],
     [["if",2,35,46],["block",13]],
@@ -5318,5 +5324,6 @@ data = {
     [["if",97,103,130],["block",165]],
     [["if",95,103,130],["block",165]],
     [["if",2,40,133,218],["block",168]],
-    [["if",196,239],["block",177]]]
+    [["if",196,239],["block",177]],
+    [["if",2,95,181,182],["block",206]]]
 }
