@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"450",
+  "version":"453",
   "macros":[{
       "function":"__v",
       "vtp_dataLayerVersion":2,
@@ -179,7 +179,7 @@ data = {
       "vtp_javascript":["template","(function(){var a=!1;\"undefined\"!=typeof ",["escape",["macro",23],8,16],"\u0026\u0026(a=void 0!=",["escape",["macro",23],8,16],");return a})();"]
     },{
       "function":"__jsm",
-      "vtp_javascript":["template","(function(){if(\"undefined\"!=typeof document.cookie){var a=document.cookie;a=a.split(\"_ga\\x3d\");a=a[a.length-1];a=a.split(\";\");a=a[0];a=a.split(\".\");return a=a[2].concat(\".\",a[3])}})();"]
+      "vtp_javascript":["template","(function(){if(\"undefined\"!=typeof document.cookie){var a=document.cookie;a=a.split(\"_ga\\x3d\");a=a[a.length-1];a=a.split(\";\");a=a[0];a=a.split(\".\");return a=a[2].concat(\".\",a[3])}return\"not set\"})();"]
     },{
       "function":"__jsm",
       "vtp_javascript":["template","(function(){var a=window.RequestFileSystem||window.webkitRequestFileSystem;a\u0026\u0026a(0,100,function(a){browsermode=\"normal\"},function(a){browsermode=\"incognito\"});return browsermode})();"]
@@ -1290,6 +1290,14 @@ data = {
     },{
       "function":"__html",
       "once_per_event":true,
+      "vtp_html":"\n\u003Cscript data-gtmsrc=\"https:\/\/www.youtube.com\/iframe_api\" type=\"text\/gtmscript\"\u003E",
+      "vtp_supportDocumentWrite":false,
+      "vtp_enableIframeMode":false,
+      "vtp_enableEditJsMacroBehavior":false,
+      "tag_id":166
+    },{
+      "function":"__html",
+      "once_per_event":true,
       "vtp_html":"\u003Cscript type=\"text\/gtmscript\"\u003E(function(){var a=document.getElementsByClassName(\"elementor-image\")[0];\"undefined\"!=typeof a\u0026\u0026a.addEventListener(\"click\",function(){dataLayer.push({event:\"GAevent\",eventCategory:\"engagement\",eventAction:\"product link click\",eventLabel:this.childNodes[1].href})})})();\u003C\/script\u003E",
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
@@ -1314,15 +1322,6 @@ data = {
       "tag_id":173
     },{
       "function":"__html",
-      "setup_tags":["list",["tag",67,1]],
-      "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003Eif(!1!==",["escape",["macro",65],8,16],"){var optimizelyClientInstance=window.optimizelySdk.createInstance({datafile:window.optimizelyDatafile,logger:window.optimizelySdk.logging.createNoOpLogger()}),o_id=",["escape",["macro",65],8,16],".split(\"-\")[0],eventTags={value:",["escape",["macro",63],8,16],"},attributes=void 0;optimizelyClientInstance.track(\"gtm_sale\",o_id,attributes,eventTags)};\u003C\/script\u003E"],
-      "vtp_supportDocumentWrite":false,
-      "vtp_enableIframeMode":false,
-      "vtp_enableEditJsMacroBehavior":false,
-      "tag_id":182
-    },{
-      "function":"__html",
       "once_per_event":true,
       "vtp_html":"\u003Cscript type=\"text\/gtmscript\"\u003Ewindow.clickTaleTagInjected||!function(b,d,e){function c(){var a=b.createElementNS;a=a?a.call(b,\"http:\/\/www.w3.org\/1999\/xhtml\",d):b.createElement(d);var c=b.getElementsByTagName(d)[0];a.async=!0;a.crossOrigin=\"anonymous\";a.type=\"text\/javascript\";a.src=e;c.parentNode.insertBefore(a,c)}clickTaleTagInjected=!0;\"loading\"!=b.readyState?c():b.addEventListener(\"DOMContentLoaded\",function(){setTimeout(c,0)})}(document,\"script\",\"https:\/\/cdnssl.clicktale.net\/www56\/ptc\/59f8d6c5-eb7b-4828-aed8-461f61703915.js\");\u003C\/script\u003E",
       "vtp_supportDocumentWrite":false,
@@ -1337,14 +1336,6 @@ data = {
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
       "tag_id":180
-    },{
-      "function":"__html",
-      "once_per_event":true,
-      "vtp_html":"\u003Cscript data-gtmsrc=\"https:\/\/cdn.optimizely.com\/datafiles\/SGGviN13vGE7C4NKWYTSw9.json\/tag.js\" type=\"text\/gtmscript\"\u003E\u003C\/script\u003E\n\u003Cscript data-gtmsrc=\"https:\/\/unpkg.com\/@optimizely\/optimizely-sdk@3.2.0\/dist\/optimizely.browser.umd.min.js\" type=\"text\/gtmscript\"\u003E\u003C\/script\u003E\n",
-      "vtp_supportDocumentWrite":false,
-      "vtp_enableIframeMode":false,
-      "vtp_enableEditJsMacroBehavior":false,
-      "tag_id":181
     }],
   "predicates":[{
       "function":"_eq",
@@ -1575,6 +1566,10 @@ data = {
       "arg0":["macro",56],
       "arg1":"reload"
     },{
+      "function":"_sw",
+      "arg0":["macro",31],
+      "arg1":"\/pro\/"
+    },{
       "function":"_cn",
       "arg0":["macro",126],
       "arg1":"elementor-button-link elementor-button elementor-size-sm"
@@ -1592,7 +1587,7 @@ data = {
       "arg1":"\/lebensmittelshop\/"
     }],
   "rules":[
-    [["if",0],["add",0,1,9,10,39,40,48,50,64]],
+    [["if",0],["add",0,1,9,10,39,40,48,50]],
     [["if",1],["add",1,39,48]],
     [["if",2],["add",1]],
     [["if",3],["add",1,3,11,12,39,47,48,58]],
@@ -1600,7 +1595,7 @@ data = {
     [["if",7],["add",2,39,44]],
     [["if",8,9,10,11],["add",2]],
     [["if",12],["add",4]],
-    [["if",0,13],["add",5,43,46,63]],
+    [["if",0,13],["add",5,43,46,64]],
     [["if",14],["add",6]],
     [["if",3,15],["add",7]],
     [["if",0,4],["add",8]],
@@ -1611,7 +1606,7 @@ data = {
     [["if",24,25,26],["add",17]],
     [["if",3,27],["add",18]],
     [["if",28,29,30],["add",19]],
-    [["if",31,32],["add",20,47,61]],
+    [["if",31,32],["add",20,47,62]],
     [["if",33],["add",21]],
     [["if",22,34,35],["add",22]],
     [["if",13,15,22,36],["add",23]],
@@ -1620,7 +1615,7 @@ data = {
     [["if",38],["add",33]],
     [["if",26,40],["add",41]],
     [["if",26,41],["add",42]],
-    [["if",3,13],["add",43,63]],
+    [["if",3,13],["add",43,64]],
     [["if",42,43],["add",43]],
     [["if",0,42],["add",43]],
     [["if",3,44],["add",45]],
@@ -1635,10 +1630,11 @@ data = {
     [["if",26,28,54],["add",57]],
     [["if",26,55],["add",59]],
     [["if",37,48],["unless",56],["add",60]],
-    [["if",20,57,58,59],["add",62]],
-    [["if",1,10],["add",63]],
-    [["if",37,60],["add",65]],
-    [["if",4,5],["block",1,58,64]],
+    [["if",3,57],["add",61]],
+    [["if",20,58,59,60],["add",63]],
+    [["if",1,10],["add",64]],
+    [["if",37,61],["add",65]],
+    [["if",4,5],["block",1,58]],
     [["if",3,4],["block",1]],
     [["if",7,39],["block",39]],
     [["if",5,42],["block",48]]]
