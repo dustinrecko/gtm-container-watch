@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"51",
+  "version":"52",
   "macros":[{
       "function":"__v",
       "vtp_dataLayerVersion":2,
@@ -494,7 +494,7 @@ data = {
       "function":"__html",
       "setup_tags":["list",["tag",2,0]],
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003E(function(){window._gtm=window._gtm||{};window._gtm.initialized||(function(a,e,f,g,b,c,d){a.GoogleAnalyticsObject=b;a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)};a[b].l=1*new Date;c=e.createElement(f);d=e.getElementsByTagName(f)[0];c.async=1;c.src=g;d.parentNode.insertBefore(c,d)}(window,document,\"script\",\"https:\/\/www.google-analytics.com\/analytics.js\",\"ga\"),ga(\"create\",",["escape",["macro",34],8,16],"),ga(\"require\",\"ec\"),window._gtm.initialized=!0)})();\u003C\/script\u003E"],
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003E(function(){window._gtm=window._gtm||{};window._gtm.initialized||(function(a,e,f,g,b,c,d){a.GoogleAnalyticsObject=b;a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)};a[b].l=1*new Date;c=e.createElement(f);d=e.getElementsByTagName(f)[0];c.async=1;c.src=g;d.parentNode.insertBefore(c,d)}(window,document,\"script\",\"https:\/\/www.google-analytics.com\/analytics.js\",\"ga\"),ga(\"create\",",["escape",["macro",34],8,16],"),ga(\"set\",\"anonymizeIp\",!0),ga(\"require\",\"ec\"),window._gtm.initialized=!0)})();\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
