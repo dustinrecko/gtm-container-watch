@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"127",
+  "version":"128",
   "macros":[{
       "function":"__jsm",
       "vtp_javascript":["template","(function(){try{var a=document.referrer.split(\".com\");return a[1]}catch(b){return\"\"}})();"]
@@ -14,7 +14,8 @@ data = {
       "function":"__u",
       "vtp_component":"QUERY",
       "vtp_queryKey":"email",
-      "vtp_enableMultiQueryKeys":false
+      "vtp_enableMultiQueryKeys":false,
+      "vtp_enableIgnoreEmptyQueryParam":false
     },{
       "function":"__v",
       "vtp_dataLayerVersion":2,
@@ -30,7 +31,8 @@ data = {
     },{
       "function":"__u",
       "vtp_component":"QUERY",
-      "vtp_enableMultiQueryKeys":false
+      "vtp_enableMultiQueryKeys":false,
+      "vtp_enableIgnoreEmptyQueryParam":false
     },{
       "function":"__jsm",
       "vtp_javascript":["template","(function(){var a=",["escape",["macro",7],8,16],".length?\"\\x26\"+",["escape",["macro",7],8,16],":\"\";a=a.length?\"?\"+a.replace(\/\u0026[^\u0026@]+@[^\u0026]+\/g,\"\").substring(1):\"\";return 1\u003E=a.length?\"\":a})();"]
@@ -53,7 +55,8 @@ data = {
       "function":"__u",
       "vtp_component":"QUERY",
       "vtp_queryKey":"cid",
-      "vtp_enableMultiQueryKeys":false
+      "vtp_enableMultiQueryKeys":false,
+      "vtp_enableIgnoreEmptyQueryParam":false
     },{
       "function":"__k",
       "vtp_decodeCookie":false,
@@ -64,7 +67,8 @@ data = {
     },{
       "function":"__u",
       "vtp_component":"PATH",
-      "vtp_enableMultiQueryKeys":false
+      "vtp_enableMultiQueryKeys":false,
+      "vtp_enableIgnoreEmptyQueryParam":false
     },{
       "function":"__gas",
       "vtp_cookieDomain":"auto",
@@ -74,7 +78,7 @@ data = {
       "vtp_fieldsToSet":["list",["map","fieldName","userId","value",["macro",16]],["map","fieldName","page","value",["template",["macro",17],["macro",8]]]],
       "vtp_useHashAutoLink":false,
       "vtp_decorateFormsAutoLink":true,
-      "vtp_autoLinkDomains":"measureschool.com, thrivecart.com, measure.school",
+      "vtp_autoLinkDomains":"thrivecart.com, measure.school",
       "vtp_enableLinkId":false,
       "vtp_dimension":["list",["map","index","1","dimension",["macro",16]]],
       "vtp_enableEcommerce":false,
@@ -86,15 +90,18 @@ data = {
       "function":"__u",
       "vtp_component":"QUERY",
       "vtp_queryKey":"optinpage",
-      "vtp_enableMultiQueryKeys":false
+      "vtp_enableMultiQueryKeys":false,
+      "vtp_enableIgnoreEmptyQueryParam":false
     },{
       "function":"__u",
       "vtp_component":"HOST",
-      "vtp_enableMultiQueryKeys":false
+      "vtp_enableMultiQueryKeys":false,
+      "vtp_enableIgnoreEmptyQueryParam":false
     },{
       "function":"__u",
       "vtp_component":"URL",
-      "vtp_enableMultiQueryKeys":false
+      "vtp_enableMultiQueryKeys":false,
+      "vtp_enableIgnoreEmptyQueryParam":false
     },{
       "function":"__f",
       "vtp_component":"URL"
@@ -127,17 +134,20 @@ data = {
       "function":"__u",
       "vtp_component":"QUERY",
       "vtp_queryKey":"utm_source",
-      "vtp_enableMultiQueryKeys":false
+      "vtp_enableMultiQueryKeys":false,
+      "vtp_enableIgnoreEmptyQueryParam":false
     },{
       "function":"__u",
       "vtp_component":"QUERY",
       "vtp_queryKey":"rid",
-      "vtp_enableMultiQueryKeys":false
+      "vtp_enableMultiQueryKeys":false,
+      "vtp_enableIgnoreEmptyQueryParam":false
     },{
       "function":"__u",
       "vtp_component":"QUERY",
       "vtp_queryKey":"firstName",
-      "vtp_enableMultiQueryKeys":false
+      "vtp_enableMultiQueryKeys":false,
+      "vtp_enableIgnoreEmptyQueryParam":false
     },{
       "function":"__v",
       "vtp_name":"gtm.newUrlFragment",
@@ -161,7 +171,8 @@ data = {
       "function":"__u",
       "vtp_component":"QUERY",
       "vtp_queryKey":"affiliate",
-      "vtp_enableMultiQueryKeys":false
+      "vtp_enableMultiQueryKeys":false,
+      "vtp_enableIgnoreEmptyQueryParam":false
     },{
       "function":"__v",
       "vtp_dataLayerVersion":2,
@@ -176,12 +187,14 @@ data = {
       "function":"__u",
       "vtp_component":"QUERY",
       "vtp_queryKey":"optin",
-      "vtp_enableMultiQueryKeys":false
+      "vtp_enableMultiQueryKeys":false,
+      "vtp_enableIgnoreEmptyQueryParam":false
     },{
       "function":"__u",
       "vtp_component":"QUERY",
       "vtp_queryKey":"username",
-      "vtp_enableMultiQueryKeys":false
+      "vtp_enableMultiQueryKeys":false,
+      "vtp_enableIgnoreEmptyQueryParam":false
     },{
       "function":"__smm",
       "vtp_setDefaultValue":false,
@@ -215,7 +228,8 @@ data = {
       "function":"__u",
       "vtp_component":"QUERY",
       "vtp_queryKey":"transaction_key",
-      "vtp_enableMultiQueryKeys":false
+      "vtp_enableMultiQueryKeys":false,
+      "vtp_enableIgnoreEmptyQueryParam":false
     },{
       "function":"__k",
       "vtp_decodeCookie":false,
@@ -228,17 +242,20 @@ data = {
     },{
       "function":"__u",
       "vtp_component":"FRAGMENT",
-      "vtp_enableMultiQueryKeys":false
+      "vtp_enableMultiQueryKeys":false,
+      "vtp_enableIgnoreEmptyQueryParam":false
     },{
       "function":"__u",
       "vtp_component":"QUERY",
       "vtp_queryKey":"answer",
-      "vtp_enableMultiQueryKeys":false
+      "vtp_enableMultiQueryKeys":false,
+      "vtp_enableIgnoreEmptyQueryParam":false
     },{
       "function":"__u",
       "vtp_component":"QUERY",
       "vtp_queryKey":"coupon",
-      "vtp_enableMultiQueryKeys":false
+      "vtp_enableMultiQueryKeys":false,
+      "vtp_enableIgnoreEmptyQueryParam":false
     },{
       "function":"__v",
       "vtp_dataLayerVersion":2,
@@ -411,24 +428,29 @@ data = {
       "vtp_trackTypeIsTiming":true,
       "tag_id":62
     },{
+      "function":"__bzi",
+      "once_per_event":true,
+      "vtp_id":"1024658",
+      "tag_id":68
+    },{
       "function":"__fsl",
       "vtp_checkValidation":false,
       "vtp_waitForTagsTimeout":"2000",
       "vtp_uniqueTriggerId":"1927886_24",
-      "tag_id":68
+      "tag_id":69
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_waitForTagsTimeout":"2000",
       "vtp_uniqueTriggerId":"1927886_26",
-      "tag_id":69
+      "tag_id":70
     },{
       "function":"__lcl",
       "vtp_waitForTags":false,
       "vtp_checkValidation":false,
       "vtp_waitForTagsTimeout":"2000",
       "vtp_uniqueTriggerId":"1927886_36",
-      "tag_id":70
+      "tag_id":71
     },{
       "function":"__evl",
       "vtp_elementId":"payment-processor-wrap",
@@ -438,10 +460,10 @@ data = {
       "vtp_selectorType":"ID",
       "vtp_onScreenRatio":"50",
       "vtp_uniqueTriggerId":"1927886_105",
-      "tag_id":71
+      "tag_id":72
     },{
       "function":"__hl",
-      "tag_id":72
+      "tag_id":73
     },{
       "function":"__html",
       "once_per_event":true,
@@ -460,7 +482,7 @@ data = {
       "tag_id":12
     },{
       "function":"__html",
-      "setup_tags":["list",["tag",20,0]],
+      "setup_tags":["list",["tag",21,0]],
       "once_per_event":true,
       "vtp_html":["template","\n\u003Cscript type=\"text\/gtmscript\"\u003E-1==document.location.href.search(\"appspot.com\")\u0026\u0026fbq(\"track\",\"Purchase\",{value:\"",["escape",["macro",28],7],"\",currency:\"USD\"});\u003C\/script\u003E\n\n"],
       "vtp_supportDocumentWrite":false,
@@ -469,7 +491,7 @@ data = {
       "tag_id":13
     },{
       "function":"__html",
-      "setup_tags":["list",["tag",20,0]],
+      "setup_tags":["list",["tag",21,0]],
       "once_per_event":true,
       "vtp_html":"\n\u003Cscript type=\"text\/gtmscript\"\u003E-1==document.location.href.search(\"appspot.com\")\u0026\u0026fbq(\"track\",\"Sign Up\");\u003C\/script\u003E",
       "vtp_supportDocumentWrite":false,
@@ -494,7 +516,7 @@ data = {
       "tag_id":45
     },{
       "function":"__html",
-      "setup_tags":["list",["tag",20,0]],
+      "setup_tags":["list",["tag",21,0]],
       "once_per_event":true,
       "vtp_html":"\u003Cscript type=\"text\/gtmscript\"\u003E-1==document.location.href.search(\"appspot.com\")\u0026\u0026fbq(\"track\",\"Checkout\");\u003C\/script\u003E\n",
       "vtp_supportDocumentWrite":false,
@@ -696,25 +718,25 @@ data = {
       "arg1":"measure.school"
     }],
   "rules":[
-    [["if",0],["add",0,2,3,6,8,19,20,29,14,16,17,18]],
-    [["if",1],["add",1,5,11,21,33]],
-    [["if",2],["add",4,22]],
-    [["if",3,4],["add",5,33]],
-    [["if",0,5],["add",5,33]],
+    [["if",0],["add",0,2,3,6,8,14,20,21,30,15,17,18,19]],
+    [["if",1],["add",1,5,11,22,34]],
+    [["if",2],["add",4,23]],
+    [["if",3,4],["add",5,34]],
+    [["if",0,5],["add",5,34]],
     [["if",6,7,8],["add",7]],
     [["if",4,9],["add",9]],
     [["if",10],["add",10]],
     [["if",11],["add",12]],
     [["if",12,13],["add",13]],
-    [["if",0,14],["add",15]],
-    [["if",15],["add",22]],
-    [["if",16,17],["add",23]],
-    [["if",4,18],["unless",19],["add",24]],
-    [["if",8],["unless",20],["add",25]],
-    [["if",0,21],["unless",22],["add",26]],
-    [["if",4],["unless",23],["add",27]],
-    [["if",24,25],["add",28]],
-    [["if",26,27,28],["add",29]],
-    [["if",0],["unless",29],["add",30]],
-    [["if",0,31],["unless",30],["add",31,32]]]
+    [["if",0,14],["add",16]],
+    [["if",15],["add",23]],
+    [["if",16,17],["add",24]],
+    [["if",4,18],["unless",19],["add",25]],
+    [["if",8],["unless",20],["add",26]],
+    [["if",0,21],["unless",22],["add",27]],
+    [["if",4],["unless",23],["add",28]],
+    [["if",24,25],["add",29]],
+    [["if",26,27,28],["add",30]],
+    [["if",0],["unless",29],["add",31]],
+    [["if",0,31],["unless",30],["add",32,33]]]
 }
