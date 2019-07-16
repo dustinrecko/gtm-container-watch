@@ -1,6 +1,7 @@
 data = {
 "resource": {
   "version":"128",
+  
   "macros":[{
       "function":"__jsm",
       "vtp_javascript":["template","(function(){try{var a=document.referrer.split(\".com\");return a[1]}catch(b){return\"\"}})();"]
