@@ -1,6 +1,7 @@
 data = {
 "resource": {
   "version":"662",
+  
   "macros":[{
       "function":"__jsm",
       "vtp_javascript":["template","(function(){return 1280\u003C=screen.availWidth?\"d\":1280\u003Escreen.availWidth\u0026\u0026768\u003C=screen.availWidth?\"t\":\"m\"})();"]
