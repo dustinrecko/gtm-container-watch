@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"499",
+  "version":"500",
   
   "macros":[{
       "function":"__v",
@@ -3416,6 +3416,7 @@ data = {
       "tag_id":275
     },{
       "function":"__html",
+      "metadata":["map"],
       "once_per_event":true,
       "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\" data-gtmsrc=\"https:\/\/static.criteo.net\/js\/ld\/ld.js\" async=\"true\"\u003E\u003C\/script\u003E\n\u003Cscript type=\"text\/gtmscript\"\u003Ewindow.criteo_q=window.criteo_q||[];args=JSON.parse(",["escape",["macro",272],8,16],");window.criteo_q.push(args);\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
@@ -5261,6 +5262,7 @@ data = {
     [["if",8,118],["add",165]],
     [["if",21,118],["add",165]],
     [["if",118,128],["add",165]],
+    [["if",97,174],["add",165]],
     [["if",33,96],["unless",217],["add",166,167]],
     [["if",33,95],["unless",217],["add",167],["block",166]],
     [["if",38,128],["add",168]],
