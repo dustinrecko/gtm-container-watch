@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"129",
+  "version":"130",
   
   "macros":[{
       "function":"__jsm",
@@ -434,12 +434,8 @@ data = {
       "vtp_id":"1024658",
       "tag_id":68
     },{
-      "function":"__cvt_1927886_135",
-      "metadata":["map"],
-      "once_per_event":true,
-      "vtp_endPoint":"https:\/\/script.google.com\/macros\/s\/AKfycbwPSICA-dcgimwsLzA3XVDrSobUYBBWanMOsQzbKEIhnHOZlTU\/exec",
-      "vtp_maxTags":"10",
-      "vtp_batchHits":"yes",
+      "function":"__paused",
+      "vtp_originalTagType":"cvt_1927886_135",
       "tag_id":69
     },{
       "function":"__fsl",
