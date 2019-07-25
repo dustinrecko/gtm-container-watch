@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"54",
+  "version":"55",
   
   "macros":[{
       "function":"__v",
@@ -271,6 +271,12 @@ data = {
       "vtp_dataLayerVersion":2,
       "vtp_setDefaultValue":true,
       "vtp_defaultValue":"",
+      "vtp_name":"page_content_id"
+    },{
+      "function":"__v",
+      "vtp_dataLayerVersion":2,
+      "vtp_setDefaultValue":true,
+      "vtp_defaultValue":"",
       "vtp_name":"page_adLevel1"
     },{
       "function":"__v",
@@ -284,12 +290,6 @@ data = {
       "vtp_setDefaultValue":true,
       "vtp_defaultValue":"",
       "vtp_name":"page_adLevel3"
-    },{
-      "function":"__v",
-      "vtp_dataLayerVersion":2,
-      "vtp_setDefaultValue":true,
-      "vtp_defaultValue":"",
-      "vtp_name":"page_content_id"
     },{
       "function":"__v",
       "vtp_dataLayerVersion":2,
@@ -430,7 +430,7 @@ data = {
       "priority":5,
       "metadata":["map"],
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003Ewindow.sendSingleImpressions=!1;window.firstImpressionLoaded=!1;window.impressionList=[];\ntry{var cusObj={globVars:{source:",["escape",["macro",14],8,16],"||\"\",platform:",["escape",["macro",15],8,16],"||\"\",title:",["escape",["macro",16],8,16],"||\"\",clean_url:",["escape",["macro",58],8,16],"||\"\",full_url:",["escape",["macro",7],8,16],"||\"\",ivw_code:",["escape",["macro",19],8,16],"||\"\",virtual_pi:\"yes\",seo_type:",["escape",["macro",56],8,16],"||\"\",page_withvideo:",["escape",["macro",57],8,16],"||\"\",channel:",["escape",["macro",3],8,16],"||\"\",subchannel:",["escape",["macro",32],8,16],"||\"\",page_type:",["escape",["macro",2],8,16],"||\"\",page_group:",["escape",["macro",33],8,16],"||\"\",page_date:",["escape",["macro",21],8,16],"||\n\"\",page_time:",["escape",["macro",22],8,16],"||\"\",page_adLevel1:",["escape",["macro",60],8,16],"||\"\",page_adLevel2:",["escape",["macro",61],8,16],"||\"\",page_adLevel3:",["escape",["macro",62],8,16],"||\"\",page_content_id:",["escape",["macro",63],8,16],".toString()||\"\"}};window.atiTag.page.send({name:",["escape",["macro",58],8,16],",level2:",["escape",["macro",13],8,16],",customObject:cusObj})}catch(a){console.log(\"%c Error in ATI-02a.\",\"font-weight: bold; color: red;\")};\u003C\/script\u003E"],
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003Ewindow.sendSingleImpressions=!1;window.firstImpressionLoaded=!1;window.impressionList=[];if(null!==",["escape",["macro",60],8,16],"\u0026\u0026\"\"!==",["escape",["macro",60],8,16],")var content_id=",["escape",["macro",60],8,16],".toString();\ntry{var cusObj={globVars:{source:",["escape",["macro",14],8,16],"||\"\",platform:",["escape",["macro",15],8,16],"||\"\",title:",["escape",["macro",16],8,16],"||\"\",clean_url:",["escape",["macro",58],8,16],"||\"\",full_url:",["escape",["macro",7],8,16],"||\"\",ivw_code:",["escape",["macro",19],8,16],"||\"\",virtual_pi:\"yes\",seo_type:",["escape",["macro",56],8,16],"||\"\",page_withvideo:",["escape",["macro",57],8,16],"||\"\",channel:",["escape",["macro",3],8,16],"||\"\",subchannel:",["escape",["macro",32],8,16],"||\"\",page_type:",["escape",["macro",2],8,16],"||\"\",page_group:",["escape",["macro",33],8,16],"||\"\",page_date:",["escape",["macro",21],8,16],"||\n\"\",page_time:",["escape",["macro",22],8,16],"||\"\",page_adLevel1:",["escape",["macro",61],8,16],"||\"\",page_adLevel2:",["escape",["macro",62],8,16],"||\"\",page_adLevel3:",["escape",["macro",63],8,16],"||\"\",page_content_id:content_id||\"\"}};window.atiTag.page.send({name:",["escape",["macro",58],8,16],",level2:",["escape",["macro",13],8,16],",customObject:cusObj})}catch(a){console.log(\"%c Error in ATI-02a.\",\"font-weight: bold; color: red;\")};\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
@@ -677,7 +677,7 @@ data = {
       "function":"__html",
       "metadata":["map"],
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003Etry{var cdn=\"\/\/tag.aticdn.net\/604311\/smarttag.js\",scr=document.createElement(\"script\");scr.src=cdn;scr.onload=function(){window.atiTag=new ATInternet.Tracker.Tag({site:",["escape",["macro",27],8,16],"});dataLayer.push({event:\"atiTagInit\"});var a={globVars:{source:",["escape",["macro",14],8,16],"||\"\",platform:",["escape",["macro",15],8,16],"||\"\",title:",["escape",["macro",16],8,16],"||\"\",clean_url:",["escape",["macro",58],8,16],"||\"\",full_url:",["escape",["macro",7],8,16],"||\"\",ivw_code:",["escape",["macro",19],8,16],"||\"\",virtual_pi:\"no\",seo_type:",["escape",["macro",56],8,16],"||\"\",\npage_withvideo:",["escape",["macro",57],8,16],"||\"\",channel:",["escape",["macro",3],8,16],"||\"\",subchannel:",["escape",["macro",32],8,16],"||\"\",page_type:",["escape",["macro",2],8,16],"||\"\",page_group:",["escape",["macro",33],8,16],"||\"\",page_date:",["escape",["macro",21],8,16],"||\"\",page_time:",["escape",["macro",22],8,16],"||\"\",page_adLevel1:",["escape",["macro",60],8,16],"||\"\",page_adLevel2:",["escape",["macro",61],8,16],"||\"\",page_adLevel3:",["escape",["macro",62],8,16],"||\"\",page_content_id:",["escape",["macro",63],8,16],".toString()||\"\"}};window.atiTag.page.set({name:",["escape",["macro",58],8,16],",level2:",["escape",["macro",13],8,16],",\ncustomObject:a});window.atiTag.dispatch()};document.head.appendChild(scr)}catch(a){console.log(\"%c Error in ATI-01.\",\"font-weight: bold; color: red;\")};\u003C\/script\u003E"],
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003Etry{var cdn=\"\/\/tag.aticdn.net\/604311\/smarttag.js\",scr=document.createElement(\"script\");if(null!==",["escape",["macro",60],8,16],"\u0026\u0026\"\"!==",["escape",["macro",60],8,16],")var content_id=",["escape",["macro",60],8,16],".toString();scr.src=cdn;scr.onload=function(){window.atiTag=new ATInternet.Tracker.Tag({site:",["escape",["macro",27],8,16],"});dataLayer.push({event:\"atiTagInit\"});var a={globVars:{source:",["escape",["macro",14],8,16],"||\"\",platform:",["escape",["macro",15],8,16],"||\"\",title:",["escape",["macro",16],8,16],"||\"\",clean_url:",["escape",["macro",58],8,16],"||\"\",full_url:",["escape",["macro",7],8,16],"||\n\"\",ivw_code:",["escape",["macro",19],8,16],"||\"\",virtual_pi:\"no\",seo_type:",["escape",["macro",56],8,16],"||\"\",page_withvideo:",["escape",["macro",57],8,16],"||\"\",channel:",["escape",["macro",3],8,16],"||\"\",subchannel:",["escape",["macro",32],8,16],"||\"\",page_type:",["escape",["macro",2],8,16],"||\"\",page_group:",["escape",["macro",33],8,16],"||\"\",page_date:",["escape",["macro",21],8,16],"||\"\",page_time:",["escape",["macro",22],8,16],"||\"\",page_adLevel1:",["escape",["macro",61],8,16],"||\"\",page_adLevel2:",["escape",["macro",62],8,16],"||\"\",page_adLevel3:",["escape",["macro",63],8,16],"||\"\",page_content_id:content_id||\n\"\"}};window.atiTag.page.set({name:",["escape",["macro",58],8,16],",level2:",["escape",["macro",13],8,16],",customObject:a});window.atiTag.dispatch()};document.head.appendChild(scr)}catch(a){console.log(\"%c Error in ATI-01.\",\"font-weight: bold; color: red;\")};\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
@@ -743,7 +743,7 @@ data = {
       "function":"__html",
       "metadata":["map"],
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003Etry{var cusObj={globVars:{source:",["escape",["macro",14],8,16],"||\"\",platform:",["escape",["macro",15],8,16],"||\"\",title:",["escape",["macro",16],8,16],"||\"\",clean_url:",["escape",["macro",58],8,16],"||\"\",full_url:",["escape",["macro",7],8,16],"||\"\",ivw_code:",["escape",["macro",19],8,16],"||\"\",virtual_pi:\"yes\",seo_type:",["escape",["macro",56],8,16],"||\"\",page_withvideo:",["escape",["macro",57],8,16],"||\"\",channel:",["escape",["macro",3],8,16],"||\"\",subchannel:",["escape",["macro",32],8,16],"||\"\",page_type:",["escape",["macro",2],8,16],"||\"\",page_group:",["escape",["macro",33],8,16],"||\"\",page_date:",["escape",["macro",21],8,16],"||\n\"\",page_time:",["escape",["macro",22],8,16],"||\"\",page_adLevel1:",["escape",["macro",60],8,16],"||\"\",page_adLevel2:",["escape",["macro",61],8,16],"||\"\",page_adLevel3:",["escape",["macro",62],8,16],"||\"\",page_content_id:",["escape",["macro",63],8,16],".toString()||\"\"}};window.atiTag.page.send({name:",["escape",["macro",58],8,16],",level2:",["escape",["macro",13],8,16],",customObject:cusObj})}catch(a){console.log(\"%c Error in ATI-02b.\",\"font-weight: bold; color: red;\")};\u003C\/script\u003E"],
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003Eif(null!==",["escape",["macro",60],8,16],"\u0026\u0026\"\"!==",["escape",["macro",60],8,16],")var content_id=",["escape",["macro",60],8,16],".toString();\ntry{var cusObj={globVars:{source:",["escape",["macro",14],8,16],"||\"\",platform:",["escape",["macro",15],8,16],"||\"\",title:",["escape",["macro",16],8,16],"||\"\",clean_url:",["escape",["macro",58],8,16],"||\"\",full_url:",["escape",["macro",7],8,16],"||\"\",ivw_code:",["escape",["macro",19],8,16],"||\"\",virtual_pi:\"yes\",seo_type:",["escape",["macro",56],8,16],"||\"\",page_withvideo:",["escape",["macro",57],8,16],"||\"\",channel:",["escape",["macro",3],8,16],"||\"\",subchannel:",["escape",["macro",32],8,16],"||\"\",page_type:",["escape",["macro",2],8,16],"||\"\",page_group:",["escape",["macro",33],8,16],"||\"\",page_date:",["escape",["macro",21],8,16],"||\n\"\",page_time:",["escape",["macro",22],8,16],"||\"\",page_adLevel1:",["escape",["macro",61],8,16],"||\"\",page_adLevel2:",["escape",["macro",62],8,16],"||\"\",page_adLevel3:",["escape",["macro",63],8,16],"||\"\",page_content_id:content_id||\"\"}};window.atiTag.page.send({name:",["escape",["macro",58],8,16],",level2:",["escape",["macro",13],8,16],",customObject:cusObj})}catch(a){console.log(\"%c Error in ATI-02b.\",\"font-weight: bold; color: red;\")};\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
