@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"503",
+  "version":"505",
   
   "macros":[{
       "function":"__v",
@@ -3736,8 +3736,9 @@ data = {
       "tag_id":355
     },{
       "function":"__html",
+      "metadata":["map"],
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003E_etmc.push([\"setOrgId\",\"7279409\"]);_etmc.push([\"setUserInfo\",{email:\"",["escape",["macro",308],7],"\",details:{gender:\"",["escape",["macro",309],7],"\"}}]);\u003C\/script\u003E"],
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003E_etmc.push([\"setOrgId\",\"7279409\"]);_etmc.push([\"setUserInfo\",{email:\"",["escape",["macro",308],7],"\",details:{gender:\"",["escape",["macro",309],7],"\"}}]);_etmc.push([\"trackPageView\"]);\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
@@ -3752,16 +3753,18 @@ data = {
       "tag_id":357
     },{
       "function":"__html",
+      "metadata":["map"],
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003E_etmc.push([\"setOrgId\",\"7279409\"]);var obj=",["escape",["macro",312],8,16],";_etmc.push([\"trackConversion\",{cart:obj.items,order_number:obj.order_number,shipping:obj.shipping}]);_etmc.push([\"trackCart\",{clear_cart:!0}]);\u003C\/script\u003E"],
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003E_etmc.push([\"setOrgId\",\"7279409\"]);var obj=",["escape",["macro",312],8,16],";_etmc.push([\"trackConversion\",{cart:obj.items,order_number:obj.order_number,shipping:obj.shipping}]);_etmc.push([\"trackCart\",{clear_cart:!0}]);_etmc.push([\"trackPageView\"]);\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
       "tag_id":358
     },{
       "function":"__html",
+      "metadata":["map"],
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003E_etmc.push([\"setOrgId\",\"7279409\"]);_etmc.push([\"trackCart\",{clear_cart:!0}]);_etmc.push([\"trackCart\",{cart:",["escape",["macro",311],8,16],"}]);\u003C\/script\u003E"],
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\" data-gtmsrc=\"https:\/\/7279409.collect.igodigital.com\/collect.js\"\u003E\u003C\/script\u003E\n\u003Cscript type=\"text\/gtmscript\"\u003E_etmc.push([\"setOrgId\",\"7279409\"]);_etmc.push([\"trackCart\",{clear_cart:!0}]);_etmc.push([\"trackCart\",{cart:",["escape",["macro",311],8,16],"}]);_etmc.push([\"trackPageView\"]);\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
@@ -4848,7 +4851,7 @@ data = {
     },{
       "function":"_re",
       "arg0":["macro",141],
-      "arg1":"(\\\/(merkzettel).*|rm=loyalty)",
+      "arg1":"(\\\/(merkzettel).*|rm=loyalty).*",
       "ignore_case":true
     },{
       "function":"_re",
@@ -4953,7 +4956,7 @@ data = {
     },{
       "function":"_re",
       "arg0":["macro",141],
-      "arg1":"(\\?|\u0026)rm=payment1",
+      "arg1":"(\\?|\u0026)rm=payment1.*",
       "ignore_case":true
     },{
       "function":"_re",
@@ -4990,7 +4993,7 @@ data = {
     },{
       "function":"_re",
       "arg0":["macro",89],
-      "arg1":"\\\/auto",
+      "arg1":"\\\/auto\\\/.*",
       "ignore_case":true
     },{
       "function":"_re",
