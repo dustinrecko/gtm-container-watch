@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"511",
+  "version":"512",
   
   "macros":[{
       "function":"__v",
@@ -3762,8 +3762,9 @@ data = {
       "tag_id":356
     },{
       "function":"__html",
+      "metadata":["map"],
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003E_etmc.push([\"setOrgId\",\"7279409\"]);_etmc.push([\"trackCart\",{cart:",["escape",["macro",311],8,16],"}]);\u003C\/script\u003E"],
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003E_etmc.push([\"setOrgId\",\"7279409\"]);_etmc.push([\"trackCart\",{cart:",["escape",["macro",311],8,16],",details:{warenkorburl:\"https:\/\/www.kfzteile24.de\/warenkorb\"}}]);\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
@@ -3772,7 +3773,7 @@ data = {
       "function":"__html",
       "metadata":["map"],
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\" data-gtmsrc=\"https:\/\/7279409.collect.igodigital.com\/collect.js\"\u003E\u003C\/script\u003E\n\u003Cscript type=\"text\/gtmscript\"\u003E_etmc.push([\"setOrgId\",\"7279409\"]);var obj=",["escape",["macro",312],8,16],";_etmc.push([\"trackConversion\",{cart:obj.items,order_number:obj.order_number,shipping:obj.shipping}]);_etmc.push([\"trackCart\",{clear_cart:!0}]);_etmc.push([\"trackPageView\"]);\u003C\/script\u003E"],
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\" data-gtmsrc=\"https:\/\/7279409.collect.igodigital.com\/collect.js\"\u003E\u003C\/script\u003E\n\u003Cscript type=\"text\/gtmscript\"\u003E_etmc.push([\"setOrgId\",\"7279409\"]);var obj=",["escape",["macro",312],8,16],";_etmc.push([\"trackConversion\",{cart:obj.items,order_number:obj.order_number,shipping:obj.shipping,discount:\"0\"}]);_etmc.push([\"trackCart\",{clear_cart:!0}]);_etmc.push([\"trackPageView\"]);\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
@@ -3781,7 +3782,7 @@ data = {
       "function":"__html",
       "metadata":["map"],
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\" data-gtmsrc=\"https:\/\/7279409.collect.igodigital.com\/collect.js\"\u003E\u003C\/script\u003E\n\u003Cscript type=\"text\/gtmscript\"\u003E_etmc.push([\"setOrgId\",\"7279409\"]);_etmc.push([\"trackCart\",{clear_cart:!0}]);_etmc.push([\"trackCart\",{cart:",["escape",["macro",311],8,16],"}]);_etmc.push([\"trackPageView\"]);\u003C\/script\u003E"],
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\" data-gtmsrc=\"https:\/\/7279409.collect.igodigital.com\/collect.js\"\u003E\u003C\/script\u003E\n\u003Cscript type=\"text\/gtmscript\"\u003E_etmc.push([\"setOrgId\",\"7279409\"]);_etmc.push([\"trackCart\",{clear_cart:!0}]);_etmc.push([\"trackCart\",{cart:",["escape",["macro",311],8,16],",details:{warenkorburl:\"https:\/\/www.kfzteile24.de\/warenkorb\"}}]);_etmc.push([\"trackPageView\"]);\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
