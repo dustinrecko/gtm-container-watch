@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"467",
+  "version":"468",
   
   "macros":[{
       "function":"__v",
@@ -247,7 +247,7 @@ data = {
       "vtp_javascript":["template","(function(){var a=",["escape",["macro",63],8,16],"-",["escape",["macro",0],8,16],".shipping_cost;return a})();"]
     },{
       "function":"__jsm",
-      "vtp_javascript":["template","(function(){return getCookie(\"AB-optimizely\")})();"]
+      "vtp_javascript":["template","(function(){return getCookie(\"AB-optimizely_user\")})();"]
     },{
       "function":"__jsm",
       "vtp_javascript":["template","(function(){var a=JSON.parse(document.getElementById(\"06a5a104\").dataset.requestParams).title;if(\"to_be_replaced\"==a)return 1;if(\"Unsere Empfehlungen f\\u00fcr Sie\"==a)return 0})();"]
