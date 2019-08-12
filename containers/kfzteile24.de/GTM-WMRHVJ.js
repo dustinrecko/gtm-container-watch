@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"512",
+  "version":"513",
   
   "macros":[{
       "function":"__v",
@@ -1239,7 +1239,7 @@ data = {
       "vtp_fullMatch":true,
       "vtp_replaceAfterMatch":true,
       "vtp_ignoreCase":true,
-      "vtp_map":["list",["map","key","k24-de-live","value","1543122102668817"],["map","key","k24-at-live","value","293203577927853"],["map","key","k24-de-stg","value","976492459124444"],["map","key","\/\/note: Criteo FB Pixel ID for testing","value","976492459124444"],["map","key","cpd-nl-live","value","259466738070994"],["map","key","cpd-fr-live","value","635579823506743"]]
+      "vtp_map":["list",["map","key","k24-de-live","value","1543122102668817"],["map","key","k24-at-live","value","293203577927853"],["map","key","k24-de-stg","value","976492459124444"],["map","key","\/\/note: Criteo FB Pixel ID for testing","value","976492459124444"],["map","key","cpd-nl-live","value","259466738070994"],["map","key","cpd-fr-live","value","635579823506743"],["map","key","cpd-dk-live","value","408089153142257"]]
     },{
       "function":"__remm",
       "vtp_setDefaultValue":false,
@@ -3440,6 +3440,7 @@ data = {
       "tag_id":271
     },{
       "function":"__html",
+      "metadata":["map"],
       "once_per_event":true,
       "vtp_html":["template","\n\u003Cscript type=\"text\/gtmscript\"\u003Evar str=",["escape",["macro",269],8,16],",args=JSON.parse(str);if(\"undefined\"===typeof fbq){!function(b,e,f,g,a,c,d){b.fbq||(a=b.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},b._fbq||(b._fbq=a),a.push=a,a.loaded=!0,a.version=\"2.0\",a.queue=[],c=e.createElement(f),c.async=!0,c.src=g,d=e.getElementsByTagName(f)[0],d.parentNode.insertBefore(c,d))}(window,document,\"script\",\"https:\/\/connect.facebook.net\/en_US\/fbevents.js\");fbq(\"init\",",["escape",["macro",270],8,16],");var i=0}else i=0;\nfor(;i\u003Cargs.length;i++)fbq(args[i]);\u003C\/script\u003E\n\n\n\n"],
       "vtp_supportDocumentWrite":false,
@@ -5078,7 +5079,7 @@ data = {
     [["if",28,41],["add",13]],
     [["if",28,42],["add",13]],
     [["if",28,43],["add",13]],
-    [["if",33,44],["add",13,43,168]],
+    [["if",33,44],["add",13,43,163,168]],
     [["if",33,45],["add",13,43]],
     [["if",0,7],["unless",1],["add",14,122,124,127,128]],
     [["if",49,50,51],["add",15]],
@@ -5172,7 +5173,7 @@ data = {
     [["if",123,124],["add",42]],
     [["if",124],["unless",123,125],["add",42]],
     [["if",126],["add",42]],
-    [["if",44,103],["add",42,168]],
+    [["if",44,103],["add",42,163,168]],
     [["if",12,44],["add",42]],
     [["if",44,109],["unless",107,108],["add",42]],
     [["if",44,102],["add",42]],
@@ -5321,6 +5322,10 @@ data = {
     [["if",32,136],["add",163]],
     [["if",34,136],["add",163]],
     [["if",35,136],["add",163]],
+    [["if",44,136],["add",163]],
+    [["if",2,44],["add",163,168]],
+    [["if",44,176],["add",163]],
+    [["if",44,128],["add",163,168]],
     [["if",32,50,197,198,199],["add",164]],
     [["if",50,95,200,201,203],["unless",202],["add",164]],
     [["if",34,50,197,198,204],["add",164]],
@@ -5373,8 +5378,6 @@ data = {
     [["if",8,36],["add",168]],
     [["if",8,40],["add",168]],
     [["if",21,40],["add",168]],
-    [["if",2,44],["add",168]],
-    [["if",44,128],["add",168]],
     [["if",8,44],["add",168]],
     [["if",2,133,219,220],["add",169],["block",168]],
     [["if",2,133,219,221],["add",169],["block",168]],
