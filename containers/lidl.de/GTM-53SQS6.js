@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"137",
+  "version":"138",
   
   "macros":[{
       "function":"__jsm",
@@ -757,7 +757,7 @@ data = {
       "vtp_doubleClick":true,
       "vtp_fieldsToSet":["list",["map","fieldName","\u0026uid","value",["macro",25]],["map","fieldName","allowLinker","value","true"],["map","fieldName","anonymizeIp","value",["macro",26]],["map","fieldName","hitcallback","value",["macro",0]],["map","fieldName","page","value",["macro",28]],["map","fieldName","sampleRate","value","90"],["map","fieldName","cookieDomain","value","auto"],["map","fieldName","clientId","value",["macro",27]],["map","fieldName","title","value",["macro",29]]],
       "vtp_trackType":"TRACK_PAGEVIEW",
-      "vtp_autoLinkDomains":"www.lidl-flyer.com, lidl-flyer.com, accounts.lidl.com",
+      "vtp_autoLinkDomains":"www.lidl-flyer.com, lidl-flyer.com",
       "vtp_dimension":["list",["map","index","1","dimension",["macro",33]],["map","index","2","dimension",["macro",32]],["map","index","3","dimension",["macro",31]],["map","index","4","dimension",["macro",30]],["map","index","5","dimension",["macro",37]],["map","index","6","dimension",["macro",36]],["map","index","7","dimension",["macro",35]],["map","index","8","dimension",["macro",34]],["map","index","9","dimension",["macro",25]],["map","index","10","dimension",["macro",38]],["map","index","17","dimension",["macro",47]],["map","index","20","dimension",["macro",48]],["map","index","11","dimension",["macro",49]],["map","index","12","dimension",["macro",50]],["map","index","29","dimension",["macro",51]],["map","index","200","dimension",["macro",52]],["map","index","199","dimension",["macro",53]]],
       "vtp_enableEcommerce":true,
       "vtp_trackingId":["macro",19],
