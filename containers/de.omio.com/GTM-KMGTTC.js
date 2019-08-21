@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"669",
+  "version":"670",
   
   "macros":[{
       "function":"__jsm",
@@ -3210,7 +3210,7 @@ data = {
       "function":"__html",
       "metadata":["map"],
       "once_per_event":true,
-      "vtp_html":"\u003Cscript type=\"text\/gtmscript\"\u003Evar m=document.createElement(\"meta\");m.name=\"naver-site-verification\";m.content=\"1c7c724168fc5daee176dd14be47b1a9c0f90712\";document.head.appendChild(m);\u003C\/script\u003E",
+      "vtp_html":"\u003Cmeta name=\"naver-site-verification\" content=\"1c7c724168fc5daee176dd14be47b1a9c0f90712\"\u003E",
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
@@ -3977,6 +3977,14 @@ data = {
       "function":"_eq",
       "arg0":["macro",55],
       "arg1":"train"
+    },{
+      "function":"_eq",
+      "arg0":["macro",37],
+      "arg1":"omio.co.kr"
+    },{
+      "function":"_re",
+      "arg0":["macro",33],
+      "arg1":"pageview|detailClick|searchDone|clickout|BookSuccess"
     }],
   "rules":[
     [["if",0],["add",3]],
@@ -4002,7 +4010,7 @@ data = {
     [["if",20],["unless",30],["add",33]],
     [["if",35],["add",34,96,113,115,116,122,127,227,229]],
     [["if",36],["add",35,61,71,88,108,115,117,122,124,126,227,230]],
-    [["if",20],["add",36,45,60,79,94,98,115,122,176,227,232,233,129,144,147]],
+    [["if",20],["add",36,45,60,79,94,98,115,122,176,227,129,144,147]],
     [["if",36,39],["unless",18],["add",37]],
     [["if",18,36,39],["unless",40],["add",38]],
     [["if",24],["unless",26],["add",39,57,100,118,120,121,231]],
@@ -4134,6 +4142,8 @@ data = {
     [["if",24,189],["add",222,225]],
     [["if",97],["add",222]],
     [["if",42,97],["add",0]],
+    [["if",20,190],["add",232,233]],
+    [["if",190,191],["add",232,233]],
     [["if",20,21],["block",30]],
     [["if",19,20],["block",31,109]],
     [["if",20,31],["block",33,34,71,77]],
