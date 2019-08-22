@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"670",
+  "version":"671",
   
   "macros":[{
       "function":"__jsm",
@@ -2381,137 +2381,137 @@ data = {
       "tag_id":437
     },{
       "function":"__cl",
-      "tag_id":442
-    },{
-      "function":"__lcl",
-      "vtp_waitForTags":true,
-      "vtp_checkValidation":true,
-      "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"220577_191",
       "tag_id":443
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_checkValidation":true,
       "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"220577_192",
+      "vtp_uniqueTriggerId":"220577_191",
       "tag_id":444
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_checkValidation":true,
       "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"220577_193",
+      "vtp_uniqueTriggerId":"220577_192",
       "tag_id":445
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_checkValidation":true,
       "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"220577_194",
+      "vtp_uniqueTriggerId":"220577_193",
       "tag_id":446
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_checkValidation":true,
       "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"220577_217",
+      "vtp_uniqueTriggerId":"220577_194",
       "tag_id":447
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_checkValidation":true,
       "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"220577_230",
+      "vtp_uniqueTriggerId":"220577_217",
       "tag_id":448
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_checkValidation":true,
       "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"220577_231",
+      "vtp_uniqueTriggerId":"220577_230",
       "tag_id":449
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_checkValidation":true,
       "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"220577_232",
+      "vtp_uniqueTriggerId":"220577_231",
       "tag_id":450
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_checkValidation":true,
       "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"220577_233",
+      "vtp_uniqueTriggerId":"220577_232",
       "tag_id":451
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_checkValidation":true,
       "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"220577_234",
+      "vtp_uniqueTriggerId":"220577_233",
       "tag_id":452
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_checkValidation":true,
       "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"220577_235",
+      "vtp_uniqueTriggerId":"220577_234",
       "tag_id":453
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_checkValidation":true,
       "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"220577_280",
+      "vtp_uniqueTriggerId":"220577_235",
       "tag_id":454
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_checkValidation":true,
       "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"220577_305",
+      "vtp_uniqueTriggerId":"220577_280",
       "tag_id":455
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_checkValidation":true,
       "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"220577_306",
+      "vtp_uniqueTriggerId":"220577_305",
       "tag_id":456
-    },{
-      "function":"__cl",
-      "tag_id":457
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_checkValidation":true,
       "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"220577_446",
+      "vtp_uniqueTriggerId":"220577_306",
+      "tag_id":457
+    },{
+      "function":"__cl",
       "tag_id":458
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_checkValidation":true,
       "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"220577_455",
+      "vtp_uniqueTriggerId":"220577_446",
       "tag_id":459
+    },{
+      "function":"__lcl",
+      "vtp_waitForTags":true,
+      "vtp_checkValidation":true,
+      "vtp_waitForTagsTimeout":"2000",
+      "vtp_uniqueTriggerId":"220577_455",
+      "tag_id":460
     },{
       "function":"__tg",
       "vtp_triggerIds":["list","220577_847_845","220577_847_846"],
       "vtp_uniqueTriggerId":"220577_847",
-      "tag_id":460
-    },{
-      "function":"__tg",
-      "vtp_isListeningTag":true,
-      "vtp_firingId":"220577_847_845",
       "tag_id":461
     },{
       "function":"__tg",
       "vtp_isListeningTag":true,
+      "vtp_firingId":"220577_847_845",
+      "tag_id":462
+    },{
+      "function":"__tg",
+      "vtp_isListeningTag":true,
       "vtp_firingId":"220577_847_846",
-      "tag_id":463
+      "tag_id":464
     },{
       "function":"__html",
       "vtp_html":"\u003Cscript type=\"text\/gtmscript\"\u003E_gaq.push([\"_trackPageview\",location.href.slice(location.origin.length)]);_snaq.push([\"trackPageView\"]);\u003C\/script\u003E",
@@ -3215,6 +3215,15 @@ data = {
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
       "tag_id":441
+    },{
+      "function":"__html",
+      "metadata":["map"],
+      "once_per_event":true,
+      "vtp_html":"\u003Cscript data-obct type=\"text\/gtmscript\"\u003E!function(d,e){var b=\"00528040f95cc16fe50a65ea5ab77a8133\";if(d.obApi){var c=function(a){return\"[object Array]\"===Object.prototype.toString.call(a)?a:[a]};d.obApi.marketerId=c(d.obApi.marketerId).concat(c(b))}else{var a=d.obApi=function(){a.dispatch?a.dispatch.apply(a,arguments):a.queue.push(arguments)};a.version=\"1.1\";a.loaded=!0;a.marketerId=b;a.queue=[];b=e.createElement(\"script\");b.async=!0;b.src=\"\/\/amplify.outbrain.com\/cp\/obtp.js\";b.type=\"text\/javascript\";c=e.getElementsByTagName(\"script\")[0];\nc.parentNode.insertBefore(b,c)}}(window,document);obApi(\"track\",\"PAGE_VIEW\");\u003C\/script\u003E",
+      "vtp_supportDocumentWrite":false,
+      "vtp_enableIframeMode":false,
+      "vtp_enableEditJsMacroBehavior":false,
+      "tag_id":442
     }],
   "predicates":[{
       "function":"_eq",
@@ -4003,14 +4012,14 @@ data = {
     [["if",8,11],["unless",18],["add",18,22,23,27]],
     [["if",20],["unless",19],["add",30]],
     [["if",22,23],["add",31,69,77,95,176,226,85,177],["block",33,84]],
-    [["if",23],["add",32,45,115,122,227]],
+    [["if",23],["add",32,45,115,122,227,234]],
     [["if",24],["add",32,64,87,91,94,98,99,106,109,115,122,125,178,220,227],["block",84]],
     [["if",20],["unless",25,26],["add",32,84]],
     [["if",27,29],["unless",28],["add",32,94,98]],
     [["if",20],["unless",30],["add",33]],
     [["if",35],["add",34,96,113,115,116,122,127,227,229]],
     [["if",36],["add",35,61,71,88,108,115,117,122,124,126,227,230]],
-    [["if",20],["add",36,45,60,79,94,98,115,122,176,227,129,144,147]],
+    [["if",20],["add",36,45,60,79,94,98,115,122,176,227,234,129,144,147]],
     [["if",36,39],["unless",18],["add",37]],
     [["if",18,36,39],["unless",40],["add",38]],
     [["if",24],["unless",26],["add",39,57,100,118,120,121,231]],
