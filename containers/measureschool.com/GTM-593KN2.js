@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"132",
+  "version":"133",
   
   "macros":[{
       "function":"__jsm",
@@ -192,11 +192,6 @@ data = {
       "vtp_setDefaultValue":false,
       "vtp_name":"name"
     },{
-      "function":"__v",
-      "vtp_dataLayerVersion":2,
-      "vtp_setDefaultValue":false,
-      "vtp_name":"singUpDate"
-    },{
       "function":"__u",
       "vtp_component":"QUERY",
       "vtp_queryKey":"optin",
@@ -274,6 +269,11 @@ data = {
       "vtp_dataLayerVersion":2,
       "vtp_setDefaultValue":false,
       "vtp_name":"ecommerce.purchase.actionfield.id"
+    },{
+      "function":"__v",
+      "vtp_dataLayerVersion":2,
+      "vtp_setDefaultValue":false,
+      "vtp_name":"singUpDate"
     },{
       "function":"__v",
       "vtp_name":"gtm.element",
@@ -606,14 +606,6 @@ data = {
     },{
       "function":"__html",
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003Ewindow.retainlySettings={app_id:\"5be534ef74643\",email:",["escape",["macro",4],8,16],",name:",["escape",["macro",41],8,16],",signedup_at:\"",["escape",["macro",42],7],"\"};\u003C\/script\u003E\n\u003Cscript type=\"text\/gtmscript\"\u003E(function(){function d(){var b=e.createElement(\"script\");b.type=\"text\/javascript\";b.async=!0;b.src=\"https:\/\/retainly.co\/app\/getjs\/retainly\/5be534ef74643\";var a=e.getElementsByTagName(\"script\")[0];a.parentNode.insertBefore(b,a)}var c=window,e=document,a=function(){a.c(arguments)};a.q=[];a.c=function(b){a.q.push(b)};c.retainly=a;c.attachEvent?c.attachEvent(\"onload\",d):c.addEventListener(\"load\",d,!1)})();Identify();\u003C\/script\u003E"],
-      "vtp_supportDocumentWrite":false,
-      "vtp_enableIframeMode":false,
-      "vtp_enableEditJsMacroBehavior":false,
-      "tag_id":65
-    },{
-      "function":"__html",
-      "once_per_event":true,
       "vtp_html":["template","\n\u003Cscript type=\"text\/gtmscript\"\u003Eif(",["escape",["macro",4],8,16],")var lz_data={overwrite:!1,111:\"",["escape",["macro",41],7],"\",112:\"",["escape",["macro",4],7],"\",113:\"\\x3c!--replace_me_with_Company--\\x3e\",114:\"\\x3c!--replace_me_with_Question--\\x3e\",116:\"\\x3c!--replace_me_with_Phone--\\x3e\",header:\"\\x3c!--replace_me_with_Logo--\\x3e\",language:\"en\",website:\"\\x3c!--replace_me_with_Area--\\x3e\"};\u003C\/script\u003E\n\n\n\n\u003Cscript type=\"text\/gtmscript\" id=\"d20063f557da16964373d7c63b0a0be2\" data-gtmsrc=\"https:\/\/livezilla.measure.school\/script.php?id=d20063f557da16964373d7c63b0a0be2\" defer\u003E\u003C\/script\u003E\n"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
@@ -763,10 +755,10 @@ data = {
     }],
   "rules":[
     [["if",0],["add",0,2,3,6,8,14,16,23,24,33,18,20,21,22]],
-    [["if",1],["add",1,5,11,25,37]],
+    [["if",1],["add",1,5,11,25,36]],
     [["if",2],["add",4,26]],
-    [["if",3,4],["add",5,37]],
-    [["if",0,5],["add",5,37]],
+    [["if",3,4],["add",5,36]],
+    [["if",0,5],["add",5,36]],
     [["if",6,7,8],["add",7]],
     [["if",4,9],["add",9]],
     [["if",10],["add",10]],
@@ -784,5 +776,5 @@ data = {
     [["if",27,28],["add",32]],
     [["if",29,30,31],["add",33]],
     [["if",0],["unless",32],["add",34]],
-    [["if",0,34],["unless",33],["add",35,36]]]
+    [["if",0,34],["unless",33],["add",35]]]
 }
