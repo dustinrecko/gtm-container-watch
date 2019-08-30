@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"469",
+  "version":"470",
   
   "macros":[{
       "function":"__v",
@@ -1037,16 +1037,16 @@ data = {
       "tag_id":179
     },{
       "function":"__cl",
-      "tag_id":183
+      "tag_id":287
     },{
       "function":"__cl",
-      "tag_id":184
+      "tag_id":288
     },{
       "function":"__jel",
-      "tag_id":185
+      "tag_id":289
     },{
       "function":"__hl",
-      "tag_id":186
+      "tag_id":290
     },{
       "function":"__ytl",
       "vtp_captureComplete":false,
@@ -1057,7 +1057,7 @@ data = {
       "vtp_captureProgress":false,
       "vtp_uniqueTriggerId":"6178770_643",
       "vtp_enableTriggerStartOption":true,
-      "tag_id":187
+      "tag_id":291
     },{
       "function":"__ytl",
       "vtp_progressThresholdsPercent":"25, 50, 75, 100",
@@ -1070,14 +1070,14 @@ data = {
       "vtp_captureProgress":true,
       "vtp_uniqueTriggerId":"6178770_646",
       "vtp_enableTriggerStartOption":true,
-      "tag_id":188
+      "tag_id":292
     },{
       "function":"__lcl",
       "vtp_waitForTags":false,
       "vtp_checkValidation":false,
       "vtp_waitForTagsTimeout":"2000",
       "vtp_uniqueTriggerId":"6178770_705",
-      "tag_id":189
+      "tag_id":293
     },{
       "function":"__evl",
       "vtp_elementId":"produktinformationen",
@@ -1088,10 +1088,10 @@ data = {
       "vtp_onScreenRatio":"20",
       "vtp_onScreenDuration":"1000",
       "vtp_uniqueTriggerId":"6178770_730",
-      "tag_id":190
+      "tag_id":294
     },{
       "function":"__cl",
-      "tag_id":191
+      "tag_id":295
     },{
       "function":"__sdl",
       "vtp_verticalThresholdUnits":"PERCENT",
@@ -1101,20 +1101,20 @@ data = {
       "vtp_horizontalThresholdOn":false,
       "vtp_uniqueTriggerId":"6178770_780",
       "vtp_enableTriggerStartOption":true,
-      "tag_id":192
+      "tag_id":296
     },{
       "function":"__cl",
-      "tag_id":193
+      "tag_id":297
     },{
       "function":"__cl",
-      "tag_id":194
+      "tag_id":298
     },{
       "function":"__lcl",
       "vtp_waitForTags":false,
       "vtp_checkValidation":false,
       "vtp_waitForTagsTimeout":"2000",
       "vtp_uniqueTriggerId":"6178770_843",
-      "tag_id":195
+      "tag_id":299
     },{
       "function":"__evl",
       "vtp_elementId":"ratgeber",
@@ -1124,7 +1124,7 @@ data = {
       "vtp_selectorType":"ID",
       "vtp_onScreenRatio":"1",
       "vtp_uniqueTriggerId":"6178770_879",
-      "tag_id":196
+      "tag_id":300
     },{
       "function":"__evl",
       "vtp_elementId":"wide_additional_products_unit",
@@ -1134,7 +1134,7 @@ data = {
       "vtp_selectorType":"ID",
       "vtp_onScreenRatio":"1",
       "vtp_uniqueTriggerId":"6178770_895",
-      "tag_id":197
+      "tag_id":301
     },{
       "function":"__html",
       "metadata":["map"],
@@ -1301,13 +1301,22 @@ data = {
     },{
       "function":"__html",
       "metadata":["map"],
-      "setup_tags":["list",["tag",58,1]],
+      "setup_tags":["list",["tag",59,1]],
       "once_per_event":true,
       "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\" id=\"gtmctagid_pinterest_maintag\"\u003E(function(){if(\"pageView\"==",["escape",["macro",8],8,16],"\u0026\u0026\"Category\"==",["escape",["macro",35],8,16],")pintrk(\"track\",\"viewcategory\");else if(\"addToCart\"==",["escape",["macro",8],8,16],")pintrk(\"track\",\"AddToCart\",{value:",["escape",["macro",36],8,16],".offers[0].price,order_quantity:",["escape",["macro",36],8,16],".offers[0].amount,currency:\"EUR\"});else if(\"Sale\"==",["escape",["macro",8],8,16],"){for(var b=",["escape",["macro",0],8,16],".cart,d=[],a=0;a\u003Cb.length;a++)d.push({product_name:b[a].name,product_id:b[a].ean,product_price:b[a].offers[0].price,product_quantity:b[a].offers[0].amount});\na=function(){for(var a=0,c=0;c\u003Cb.length;c++)a+=b[c].offers[0].amount;return a};var e=function(){for(var a=0,c=0;c\u003Cb.length;c++)a+=b[c].offers[0].amount*b[c].offers[0].price;return a};d={value:e,order_quantity:a,currency:\"EUR\",line_items:d};pintrk(\"track\",\"checkout\",d)}else\"Item\"==",["escape",["macro",35],8,16],"?pintrk(\"track\",\"pagevisit\"):\"pageView\"==",["escape",["macro",8],8,16],"\u0026\u0026\"Search\"==",["escape",["macro",35],8,16],"\u0026\u0026pintrk(\"track\",\"search\",{search_query:\"",["escape",["macro",50],7],"\"})})();\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
       "tag_id":173
+    },{
+      "function":"__html",
+      "metadata":["map"],
+      "once_per_event":true,
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\" id=\"gtmctagid_CS_pageview\"\u003E(function(){window._uxa=window._uxa||[];window._uxa.push([\"setPath\",window.location.pathname+window.location.hash.replace(\"#\",\"?__\")]);try{\"undefined\"!==typeof dataLayer\u0026\u0026(void 0!==",["escape",["macro",14],8,16],"?window._uxa.push([\"setCustomVariable\",1,\"channel\",",["escape",["macro",14],8,16],",3]):void 0,void 0!==",["escape",["macro",126],8,16],"?window._uxa.push([\"setCustomVariable\",2,\"product_id\",",["escape",["macro",126],8,16],",3]):void 0,void 0!==",["escape",["macro",135],8,16],"?window._uxa.push([\"setCustomVariable\",3,\"product_brand\",",["escape",["macro",135],8,16],",\n3]):void 0,void 0!==",["escape",["macro",89],8,16],"?window._uxa.push([\"setCustomVariable\",4,\"gender\",",["escape",["macro",89],8,16],",3]):void 0,void 0!==",["escape",["macro",35],8,16],"?window._uxa.push([\"setCustomVariable\",5,\"view_type\",",["escape",["macro",35],8,16],",3]):void 0,void 0!==",["escape",["macro",79],8,16],"?window._uxa.push([\"setCustomVariable\",6,\"virt_path\",",["escape",["macro",79],8,16],",3]):void 0,void 0!==",["escape",["macro",136],8,16],"?window._uxa.push([\"setCustomVariable\",7,\"rating_num\",",["escape",["macro",136],8,16],",3]):void 0,void 0!==",["escape",["macro",137],8,16],"?\nwindow._uxa.push([\"setCustomVariable\",8,\"rating_average\",",["escape",["macro",137],8,16],",3]):void 0,void 0!==",["escape",["macro",138],8,16],"?window._uxa.push([\"setCustomVariable\",9,\"product_category\",String(",["escape",["macro",138],8,16],"),3]):void 0,void 0!==",["escape",["macro",50],8,16],"?window._uxa.push([\"setCustomVariable\",10,\"search_term\",",["escape",["macro",50],8,16],",3]):void 0,void 0!==",["escape",["macro",90],8,16],"?window._uxa.push([\"setCustomVariable\",11,\"user_services\",",["escape",["macro",90],8,16],",3]):void 0,void 0!==",["escape",["macro",38],8,16],"?window._uxa.push([\"setCustomVariable\",\n12,\"market_name\",",["escape",["macro",38],8,16],",3]):void 0,void 0!==",["escape",["macro",58],8,16],"?window._uxa.push([\"trackDynamicVariable\",{key:\"backend_abtest\",value:",["escape",["macro",58],8,16],".toString()}]):void 0,void 0!==",["escape",["macro",111],8,16],"?window._uxa.push([\"trackDynamicVariable\",{key:\"client_abtest\",value:",["escape",["macro",111],8,16],"}]):void 0,void 0!==",["escape",["macro",86],8,16],"?window._uxa.push([\"setCustomVariable\",15,\"search results\",String(",["escape",["macro",86],8,16],"),3]):void 0,void 0!==",["escape",["macro",46],8,16],"?window._uxa.push([\"setCustomVariable\",\n16,\"logged_in_status\",String(",["escape",["macro",46],8,16],"),3]):void 0,void 0!==",["escape",["macro",47],8,16],"?window._uxa.push([\"setCustomVariable\",17,\"GA_client_ID\",String(",["escape",["macro",47],8,16],"),3]):void 0)}catch(b){}if(\"undefined\"===typeof CS_CONF){var a=document.createElement(\"script\");a.type=\"text\/javascript\";a.async=!0;a.src=\"\/\/t.contentsquare.net\/uxa\/8fb48415ac213.js\";document.getElementsByTagName(\"head\")[0].appendChild(a)}else window._uxa.push([\"trackPageview\",window.location.pathname+window.location.hash.replace(\"#\",\n\"?__\")])})();\"1\"!=",["escape",["macro",44],8,16],"\u0026\u0026(window._uxa.push([\"getSessionKey\",{callback:function(a){dataLayer.push({event:\"GAevent\",eventCategory:\"csSessionKey\",eventAction:a,eventLabel:void 0,eventValue:void 0})}}]),sessionStorage.setItem(\"cs_s\",\"1\"));\u003C\/script\u003E"],
+      "vtp_supportDocumentWrite":false,
+      "vtp_enableIframeMode":false,
+      "vtp_enableEditJsMacroBehavior":false,
+      "tag_id":286
     },{
       "function":"__html",
       "metadata":["map"],
@@ -1511,6 +1520,10 @@ data = {
       "arg0":["macro",67],
       "arg1":"gtm.historyChange"
     },{
+      "function":"_sw",
+      "arg0":["macro",79],
+      "arg1":"\/onlineshop\/product\/"
+    },{
       "function":"_eq",
       "arg0":["macro",61],
       "arg1":"true"
@@ -1581,16 +1594,18 @@ data = {
     [["if",0,42],["add",43]],
     [["if",3,44],["add",45]],
     [["if",45,47],["unless",46],["add",47]],
-    [["if",3,48],["add",48]],
-    [["if",3],["unless",49],["add",49]],
-    [["if",3,13,50],["add",50]],
-    [["if",0,13,51],["add",51]],
-    [["if",3,13,52,53],["add",52]],
-    [["if",26,54],["add",54]],
-    [["if",37,48],["unless",55],["add",55]],
-    [["if",3,56],["add",56]],
+    [["if",3,49],["add",48]],
+    [["if",3],["unless",50],["add",49]],
+    [["if",3,13,51],["add",50]],
+    [["if",0,13,52],["add",51]],
+    [["if",3,13,53,54],["add",52]],
+    [["if",26,55],["add",54]],
+    [["if",37,49],["unless",56],["add",55]],
+    [["if",3,57],["add",56]],
     [["if",1,10],["add",57]],
+    [["if",38,48],["add",58]],
     [["if",4,5],["block",1,53]],
     [["if",3,4],["block",1]],
-    [["if",7,39],["block",39]]]
+    [["if",7,39],["block",39]],
+    [["if",37,48],["block",47]]]
 }
