@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"524",
+  "version":"526",
   
   "macros":[{
       "function":"__v",
@@ -385,7 +385,7 @@ data = {
       "vtp_fullMatch":true,
       "vtp_replaceAfterMatch":true,
       "vtp_ignoreCase":true,
-      "vtp_map":["list",["map","key","www.*\\.autoteile24\\.de","value","a24-de-live"],["map","key","beta.*\\.kfzteile24\\.at","value","k24-at-beta"],["map","key","www.*\\.kfzteile24\\.at","value","k24-at-live"],["map","key","(www|staging)\\.autoteile5000\\.de","value","k24-at-stg"],["map","key","www.*\\.kfzteile24\\.de","value","k24-de-live"],["map","key","staging.*\\.kfzteile24\\.de","value","k24-de-stg"],["map","key","www.*\\.carpardoo\\.nl","value","cpd-nl-live"],["map","key","nl.*\\.autoteile5000\\.de","value","cpd-nl-stg"],["map","key","www.*\\.carpardoo\\.fr","value","cpd-fr-live"],["map","key","fr.*\\.autoteile5000\\.de","value","cpd-fr-stg"],["map","key","www.*\\.carpardoo\\.pl","value","cpd-pl-live"],["map","key","www-.*-pl\\.autoteile5000\\.de","value","cpd-pl-stg"],["map","key","www.*\\.carpardoo\\.dk","value","cpd-dk-live"],["map","key","www-.*-dk\\.autoteile5000\\.de","value","cpd-dk-stg"],["map","key","qa-.*-at\\.test-kfz42.de","value","cpd-at-qa"],["map","key","qa-.*-nl\\.test-kfz42.de","value","cpd-nl-qa"],["map","key","qa-.*-fr\\.test-kfz42.de","value","cpd-fr-qa"],["map","key","qa-.*-pl\\.test-kfz42.de","value","cpd-pl-qa"],["map","key","qa-.*-dk\\.test-kfz42.de","value","cpd-dk-qa"],["map","key","www.*\\.kfzteile\\.com","value","kfz-com-live"]]
+      "vtp_map":["list",["map","key","www.*\\.autoteile24\\.de","value","a24-de-live"],["map","key","beta.*\\.kfzteile24\\.at","value","k24-at-beta"],["map","key","www.*\\.kfzteile24\\.at","value","k24-at-live"],["map","key","(www|staging|www-staging-2)\\.autoteile5000\\.de","value","k24-at-stg"],["map","key","www.*\\.kfzteile24\\.de","value","k24-de-live"],["map","key","staging.*\\.kfzteile24\\.de","value","k24-de-stg"],["map","key","www.*\\.carpardoo\\.nl","value","cpd-nl-live"],["map","key","nl.*\\.autoteile5000\\.de","value","cpd-nl-stg"],["map","key","www.*\\.carpardoo\\.fr","value","cpd-fr-live"],["map","key","fr.*\\.autoteile5000\\.de","value","cpd-fr-stg"],["map","key","www.*\\.carpardoo\\.pl","value","cpd-pl-live"],["map","key","www-.*-pl\\.autoteile5000\\.de","value","cpd-pl-stg"],["map","key","www.*\\.carpardoo\\.dk","value","cpd-dk-live"],["map","key","www-.*-dk\\.autoteile5000\\.de","value","cpd-dk-stg"],["map","key","qa-.*-at\\.test-kfz42.de","value","cpd-at-qa"],["map","key","qa-.*-nl\\.test-kfz42.de","value","cpd-nl-qa"],["map","key","qa-.*-fr\\.test-kfz42.de","value","cpd-fr-qa"],["map","key","qa-.*-pl\\.test-kfz42.de","value","cpd-pl-qa"],["map","key","qa-.*-dk\\.test-kfz42.de","value","cpd-dk-qa"],["map","key","www.*\\.kfzteile\\.com","value","kfz-com-live"]]
     },{
       "function":"__v",
       "vtp_dataLayerVersion":2,
@@ -2614,7 +2614,7 @@ data = {
       "tag_id":214
     },{
       "function":"__ua",
-      "teardown_tags":["list",["tag",221,0]],
+      "teardown_tags":["list",["tag",220,0]],
       "unlimited":true,
       "vtp_nonInteraction":false,
       "vtp_useDebugVersion":false,
@@ -3938,15 +3938,6 @@ data = {
       "function":"__html",
       "metadata":["map"],
       "once_per_event":true,
-      "vtp_html":"\n\u003Cscript type=\"text\/gtmscript\"\u003E(function(a,e,f,g,b,c,d){a[b]=a[b]||function(){(a[b].a=a[b].a||[]).push(arguments)};a[b].l=1*new Date;c=e.createElement(f);d=e.getElementsByTagName(f)[0];c.async=1;c.src=g;d.parentNode.insertBefore(c,d)})(window,document,\"script\",\"https:\/\/mc.yandex.ru\/metrika\/tag.js\",\"ym\");ym(54754840,\"init\",{clickmap:!0,trackLinks:!0,accurateTrackBounce:!0,webvisor:!0,ecommerce:\"dataLayer\"});\u003C\/script\u003E\n\u003Cnoscript\u003E\u003Cdiv\u003E\u003Cimg src=\"https:\/\/mc.yandex.ru\/watch\/54754840\" style=\"position:absolute; left:-9999px;\" alt=\"\"\u003E\u003C\/div\u003E\u003C\/noscript\u003E\n",
-      "vtp_supportDocumentWrite":false,
-      "vtp_enableIframeMode":false,
-      "vtp_enableEditJsMacroBehavior":false,
-      "tag_id":378
-    },{
-      "function":"__html",
-      "metadata":["map"],
-      "once_per_event":true,
       "vtp_html":"\u003Cscript type=\"text\/gtmscript\"\u003Evar GTM_id=\"GTM-WMRHVJ\",orderid=\"\",ordertotal=\"\",currency=\"\",paymenttype=\"\";google_tag_manager[GTM_id].dataLayer.get(\"ecommerce\")\u0026\u0026(orderid=google_tag_manager[GTM_id].dataLayer.get(\"ecommerce\").purchase.actionField.id,ordertotal=google_tag_manager[GTM_id].dataLayer.get(\"ecommerce\").purchase.actionField.revenue,currency=google_tag_manager[GTM_id].dataLayer.get(\"ecommerce\").currencyCode,paymenttype=google_tag_manager[GTM_id].dataLayer.get(\"ecommerce\").purchase.actionField.paymentMethod);var tshp=document.createElement(\"div\");\ntshp.id=\"trustedShopsCheckout\";tshp.style=\"display: none\";tshp.innerHTML='\\x3cspan id\\x3d\"tsCheckoutOrderNr\"\\x3e'+orderid+'\\x3c\/span\\x3e\\x3cspan id\\x3d\"tsCheckoutBuyerEmail\"\\x3e'+customerEmail+'\\x3c\/span\\x3e\\x3cspan id\\x3d\"tsCheckoutOrderAmount\"\\x3e'+ordertotal+'\\x3c\/span\\x3e\\x3cspan id\\x3d\"tsCheckoutOrderCurrency\"\\x3e'+currency+'\\x3c\/span\\x3e\\x3cspan id\\x3d\"tsCheckoutOrderPaymentType\"\\x3e'+paymenttype+\"\\x3c\/span\\x3e\";var tbody=document.getElementsByTagName(\"body\")[0];tbody.appendChild(tshp);\n(function(){var b=\"XFF8E26FD498ABE08C0AC08DDC9242BE5\";_tsConfig={yOffset:\"0\",variant:\"reviews\",customElementId:\"\",trustcardDirection:\"\",customBadgeWidth:\"\",customBadgeHeight:\"\",disableResponsive:\"false\",disableTrustbadge:\"false\"};var a=document.createElement(\"script\");a.type=\"text\/javascript\";a.charset=\"utf-8\";a.async=!0;a.src=\"\/\/widgets.trustedshops.com\/js\/\"+b+\".js\";b=document.getElementsByTagName(\"script\")[0];b.parentNode.insertBefore(a,b)})();\u003C\/script\u003E",
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
@@ -5145,7 +5136,7 @@ data = {
     [["if",28,31],["add",13]],
     [["if",32,33],["add",13,43,45,46,151,154,159,162,164,167,177,180,218]],
     [["if",33,34],["add",13,43,45,46,151,154,159,162,164,167,177,180]],
-    [["if",33,35],["add",13,43,45,151,154,159,162,164,167,177,191,214,220]],
+    [["if",33,35],["add",13,43,45,151,154,159,162,164,167,177,191,214,219]],
     [["if",33,36],["add",13,43,45,164,167]],
     [["if",33,37],["add",13,43,167]],
     [["if",33,38],["add",13,43,45,46,159,167,177,218]],
@@ -5269,7 +5260,7 @@ data = {
     [["if",44,135],["add",44]],
     [["if",33,96],["add",45,159,167,193,201]],
     [["if",33,116],["add",45,46,159]],
-    [["if",33,118],["add",45,159,191,214,220]],
+    [["if",33,118],["add",45,159,191,214,219]],
     [["if",136],["add",47]],
     [["if",128],["add",48]],
     [["if",2,137],["add",52,53]],
@@ -5446,7 +5437,7 @@ data = {
     [["if",21,37],["add",167]],
     [["if",8,37],["add",167]],
     [["if",40,103],["add",167]],
-    [["if",2,36],["add",167,186,219]],
+    [["if",2,36],["add",167,186]],
     [["if",2,40],["add",167,186]],
     [["if",36,128],["add",167]],
     [["if",40,128],["add",167]],
