@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"473",
+  "version":"474",
   
   "macros":[{
       "function":"__v",
@@ -1377,7 +1377,7 @@ data = {
       "function":"__html",
       "metadata":["map"],
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\" id=\"gtmctagid_cleanup\"\u003Efunction gtmsetCookie(c,d,a){var b=new Date;b.setTime(b.getTime()+864E5*a);a=\"expires\\x3d\"+b.toUTCString();document.cookie=c+\"\\x3d\"+d+\";\"+a+\";path\\x3d\/;domain\\x3dreal.de\"}regx=\/IFJGNYGfQ7qyUi6II0lV3g\\.\\d*\\.1\/;ga_exp=",["escape",["macro",111],8,16],";if(ga_exp.match(regx)){console.log(\"drin\");ls=ga_exp.split(\"!\");for(i=0;i\u003Cls.length;i++)ls[i].match(regx)\u0026\u0026(ls[i]=ls[i].replace(\/.1$\/,\".0\"));console.log(ls.join(\"!\"));gtmsetCookie(\"_gaexp\",ls.join(\"!\"),10)};\u003C\/script\u003E"],
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\" id=\"gtmctagid_cleanup\"\u003Efunction gtmsetCookie(c,d,a){var b=new Date;b.setTime(b.getTime()+864E5*a);a=\"expires\\x3d\"+b.toUTCString();document.cookie=c+\"\\x3d\"+d+\";\"+a+\";path\\x3d\/;domain\\x3dreal.de\"}regx=\/IFJGNYGfQ7qyUi6II0lV3g\\.\\d*\\.1\/;if((ga_exp=",["escape",["macro",111],8,16],")\u0026\u0026ga_exp.match(regx)){console.log(\"drin\");ls=ga_exp.split(\"!\");for(i=0;i\u003Cls.length;i++)ls[i].match(regx)\u0026\u0026(ls[i]=ls[i].replace(\/.1$\/,\".0\"));gtmsetCookie(\"_gaexp\",ls.join(\"!\"),10)};\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
