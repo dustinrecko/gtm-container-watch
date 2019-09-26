@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"528",
+  "version":"529",
   
   "macros":[{
       "function":"__v",
@@ -1483,12 +1483,12 @@ data = {
       "vtp_javascript":["template","(function(){var a={};a.items=",["escape",["macro",311],8,16],";a.order_number=\"",["escape",["macro",14],7],"\";a.shipping=\"",["escape",["macro",58],7],"\";return a})();"]
     },{
       "function":"__jsm",
-      "vtp_javascript":["template","(function(){return JSON.stringify(",["escape",["macro",45],8,16],".slice(0,3))})();"]
+      "vtp_javascript":["template","(function(){return ",["escape",["macro",45],8,16],".slice(0,3)})();"]
     },{
       "function":"__v",
       "vtp_dataLayerVersion":2,
       "vtp_setDefaultValue":true,
-      "vtp_defaultValue":"",
+      "vtp_defaultValue":"(not set)",
       "vtp_name":"ecommerce.impressions.0.category"
     },{
       "function":"__v",
