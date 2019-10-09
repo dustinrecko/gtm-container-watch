@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"675",
+  "version":"676",
   
   "macros":[{
       "function":"__jsm",
@@ -714,7 +714,7 @@ data = {
       "function":"__smm",
       "vtp_setDefaultValue":false,
       "vtp_input":["macro",37],
-      "vtp_map":["list",["map","key","omio.co.uk","value","00d3731a760ec4a7e28415a9f72b3ac683"],["map","key","omio.com","value","00d3731a760ec4a7e28415a9f72b3ac683"]]
+      "vtp_map":["list",["map","key","omio.co.uk","value","00d3731a760ec4a7e28415a9f72b3ac683"],["map","key","omio.com","value","001352e0888cdd7542db6e7762979d7376"]]
     },{
       "function":"__smm",
       "vtp_setDefaultValue":false,
