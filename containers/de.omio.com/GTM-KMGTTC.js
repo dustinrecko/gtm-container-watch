@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"678",
+  "version":"679",
   
   "macros":[{
       "function":"__jsm",
@@ -427,7 +427,7 @@ data = {
       "function":"__smm",
       "vtp_setDefaultValue":false,
       "vtp_input":["macro",37],
-      "vtp_map":["list",["map","key","goeuro.fr","value","1550979"],["map","key","goeuro.nl","value","1550979"],["map","key","goeuro.be","value","1550979"],["map","key","goeuro.com","value","1557295"],["map","key","goeuro.co.uk","value","1550977"],["map","key","goeuro.es","value","1551076"],["map","key","goeuro.it","value","1551076"],["map","key","goeuro.pt","value","1551076"],["map","key","goeuro.hu","value","1551076"],["map","key","goeuro.com.ua","value","1551076"],["map","key","goeuro.pl","value","1551076"],["map","key","goeuro.de","value","1550979"],["map","key","goeuro.at","value","1550979"],["map","key","goeuro.ch","value","1550979"],["map","key","omio.fr","value","1550979"],["map","key","omio.nl","value","1550979"],["map","key","omio.be","value","1550979"],["map","key","omio.com","value","1557295"],["map","key","omio.co.uk","value","1550977"],["map","key","omio.es","value","1551076"],["map","key","omio.it","value","1551076"],["map","key","omio.pt","value","1551076"],["map","key","hu.omio.com","value","1551076"],["map","key","omio.com.ua","value","1551076"],["map","key","pl.omio.com","value","1551076"],["map","key","de.omio.com","value","1550979"],["map","key","omio.at","value","1550979"],["map","key","ch.omio.com","value","1550979"],["map","key","omio.co.kr","value","1537015"],["map","key","omio.jp","value","1537015"],["map","key","omio.com.ar","value","1551076"],["map","key","omio.mx","value","1551076"]]
+      "vtp_map":["list",["map","key","goeuro.fr","value","1550979"],["map","key","goeuro.nl","value","1550979"],["map","key","goeuro.be","value","1550979"],["map","key","goeuro.com","value","1550977"],["map","key","goeuro.co.uk","value","1550977"],["map","key","goeuro.es","value","1551076"],["map","key","goeuro.it","value","1551076"],["map","key","goeuro.pt","value","1551076"],["map","key","goeuro.hu","value","1551076"],["map","key","goeuro.com.ua","value","1551076"],["map","key","goeuro.pl","value","1551076"],["map","key","goeuro.de","value","1550979"],["map","key","goeuro.at","value","1550979"],["map","key","goeuro.ch","value","1550979"],["map","key","omio.fr","value","1550979"],["map","key","omio.nl","value","1550979"],["map","key","omio.be","value","1550979"],["map","key","omio.com","value","1550977"],["map","key","omio.co.uk","value","1550977"],["map","key","omio.es","value","1551076"],["map","key","omio.it","value","1551076"],["map","key","omio.pt","value","1551076"],["map","key","hu.omio.com","value","1551076"],["map","key","omio.com.ua","value","1551076"],["map","key","pl.omio.com","value","1551076"],["map","key","de.omio.com","value","1550979"],["map","key","omio.at","value","1550979"],["map","key","ch.omio.com","value","1550979"],["map","key","omio.co.kr","value","1537015"],["map","key","omio.jp","value","1537015"],["map","key","omio.com.ar","value","1551076"],["map","key","omio.mx","value","1551076"]]
     },{
       "function":"__smm",
       "vtp_setDefaultValue":false,
@@ -437,7 +437,7 @@ data = {
       "function":"__smm",
       "vtp_setDefaultValue":false,
       "vtp_input":["macro",37],
-      "vtp_map":["list",["map","key","goeuro.fr","value","1550979"],["map","key","goeuro.nl","value","1550979"],["map","key","goeuro.be","value","1550979"],["map","key","goeuro.com","value","1557295"],["map","key","goeuro.co.uk","value","1550977"],["map","key","goeuro.es","value","1551076"],["map","key","goeuro.it","value","1551076"],["map","key","goeuro.pt","value","1551076"],["map","key","goeuro.pl","value","1551076"],["map","key","goeuro.hu","value","1551076"],["map","key","goeuro.com.ua","value","1551076"],["map","key","goeuro.de","value","1550979"],["map","key","goeuro.at","value","1550979"],["map","key","goeuro.ch","value","1550979"],["map","key","omio.fr","value","1550979"],["map","key","omio.nl","value","1550979"],["map","key","omio.be","value","1550979"],["map","key","omio.com","value","1557295"],["map","key","omio.co.uk","value","1550977"],["map","key","omio.es","value","1551076"],["map","key","omio.it","value","1551076"],["map","key","omio.pt","value","1551076"],["map","key","pl.omio.com","value","1551076"],["map","key","hu.omio.com","value","1551076"],["map","key","omio.com.ua","value","1551076"],["map","key","de.omio.com","value","1550979"],["map","key","omio.at","value","1550979"],["map","key","ch.omio.com","value","1550979"],["map","key","omio.co.kr","value","1537015"],["map","key","omio.jp","value","1537015"],["map","key","omio.com.ar","value","1551076"],["map","key","omio.com.mx","value","1551076"]]
+      "vtp_map":["list",["map","key","goeuro.fr","value","1550979"],["map","key","goeuro.nl","value","1550979"],["map","key","goeuro.be","value","1550979"],["map","key","goeuro.com","value","1550977"],["map","key","goeuro.co.uk","value","1550977"],["map","key","goeuro.es","value","1551076"],["map","key","goeuro.it","value","1551076"],["map","key","goeuro.pt","value","1551076"],["map","key","goeuro.pl","value","1551076"],["map","key","goeuro.hu","value","1551076"],["map","key","goeuro.com.ua","value","1551076"],["map","key","goeuro.de","value","1550979"],["map","key","goeuro.at","value","1550979"],["map","key","goeuro.ch","value","1550979"],["map","key","omio.fr","value","1550979"],["map","key","omio.nl","value","1550979"],["map","key","omio.be","value","1550979"],["map","key","omio.com","value","1550977"],["map","key","omio.co.uk","value","1550977"],["map","key","omio.es","value","1551076"],["map","key","omio.it","value","1551076"],["map","key","omio.pt","value","1551076"],["map","key","pl.omio.com","value","1551076"],["map","key","hu.omio.com","value","1551076"],["map","key","omio.com.ua","value","1551076"],["map","key","de.omio.com","value","1550979"],["map","key","omio.at","value","1550979"],["map","key","ch.omio.com","value","1550979"],["map","key","omio.co.kr","value","1537015"],["map","key","omio.jp","value","1537015"],["map","key","omio.com.ar","value","1551076"],["map","key","omio.com.mx","value","1551076"]]
     },{
       "function":"__v",
       "vtp_dataLayerVersion":2,
@@ -2099,7 +2099,7 @@ data = {
       "vtp_currencyCode":["macro",82],
       "vtp_conversionLabel":"vpJACMn1hZUBEMmA2JgD",
       "vtp_url":["macro",89],
-      "vtp_enableProductReportingCheckbox":false,
+      "vtp_enableProductReportingCheckbox":true,
       "vtp_enableNewCustomerReportingCheckbox":false,
       "vtp_enableEnhancedConversionsCheckbox":false,
       "tag_id":370
@@ -2114,7 +2114,7 @@ data = {
       "vtp_currencyCode":["macro",3],
       "vtp_conversionLabel":"ncDzCPOhmZUBEMmA2JgD",
       "vtp_url":["macro",89],
-      "vtp_enableProductReportingCheckbox":false,
+      "vtp_enableProductReportingCheckbox":true,
       "vtp_enableNewCustomerReportingCheckbox":false,
       "vtp_enableEnhancedConversionsCheckbox":false,
       "tag_id":371
@@ -2129,7 +2129,7 @@ data = {
       "vtp_currencyCode":["macro",3],
       "vtp_conversionLabel":"cgxzCI7JkpUBEMmA2JgD",
       "vtp_url":["macro",89],
-      "vtp_enableProductReportingCheckbox":false,
+      "vtp_enableProductReportingCheckbox":true,
       "vtp_enableNewCustomerReportingCheckbox":false,
       "vtp_enableEnhancedConversionsCheckbox":false,
       "tag_id":372
@@ -2183,7 +2183,7 @@ data = {
       "vtp_currencyCode":["macro",3],
       "vtp_conversionLabel":"D4IkCOPQkpUBEMmA2JgD",
       "vtp_url":["macro",89],
-      "vtp_enableProductReportingCheckbox":false,
+      "vtp_enableProductReportingCheckbox":true,
       "vtp_enableNewCustomerReportingCheckbox":false,
       "vtp_enableEnhancedConversionsCheckbox":false,
       "tag_id":395
@@ -2281,7 +2281,7 @@ data = {
       "vtp_currencyCode":["macro",3],
       "vtp_conversionLabel":"dA5pCNyzxJ0BEPDr5tYD",
       "vtp_url":["macro",89],
-      "vtp_enableProductReportingCheckbox":false,
+      "vtp_enableProductReportingCheckbox":true,
       "vtp_enableNewCustomerReportingCheckbox":false,
       "vtp_enableEnhancedConversionsCheckbox":false,
       "tag_id":424
@@ -2376,7 +2376,7 @@ data = {
       "vtp_currencyCode":["macro",82],
       "vtp_conversionLabel":"ymeqCI336aYBEOGi2JgD",
       "vtp_url":["macro",89],
-      "vtp_enableProductReportingCheckbox":false,
+      "vtp_enableProductReportingCheckbox":true,
       "vtp_enableNewCustomerReportingCheckbox":false,
       "vtp_enableEnhancedConversionsCheckbox":false,
       "tag_id":434
@@ -2391,7 +2391,7 @@ data = {
       "vtp_currencyCode":["macro",3],
       "vtp_conversionLabel":"cd0qCO2c9qYBEOGi2JgD",
       "vtp_url":["macro",89],
-      "vtp_enableProductReportingCheckbox":false,
+      "vtp_enableProductReportingCheckbox":true,
       "vtp_enableNewCustomerReportingCheckbox":false,
       "vtp_enableEnhancedConversionsCheckbox":false,
       "tag_id":435
@@ -2406,7 +2406,7 @@ data = {
       "vtp_currencyCode":["macro",3],
       "vtp_conversionLabel":"TkvGCOKt7aYBEOGi2JgD",
       "vtp_url":["macro",89],
-      "vtp_enableProductReportingCheckbox":false,
+      "vtp_enableProductReportingCheckbox":true,
       "vtp_enableNewCustomerReportingCheckbox":false,
       "vtp_enableEnhancedConversionsCheckbox":false,
       "tag_id":436
@@ -2421,7 +2421,7 @@ data = {
       "vtp_currencyCode":["macro",3],
       "vtp_conversionLabel":"cG7dCO7NtKYBEOGi2JgD",
       "vtp_url":["macro",89],
-      "vtp_enableProductReportingCheckbox":false,
+      "vtp_enableProductReportingCheckbox":true,
       "vtp_enableNewCustomerReportingCheckbox":false,
       "vtp_enableEnhancedConversionsCheckbox":false,
       "tag_id":437
