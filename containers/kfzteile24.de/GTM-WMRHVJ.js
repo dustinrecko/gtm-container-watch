@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"530",
+  "version":"532",
   
   "macros":[{
       "function":"__v",
@@ -2611,7 +2611,7 @@ data = {
       "tag_id":214
     },{
       "function":"__ua",
-      "teardown_tags":["list",["tag",221,0]],
+      "teardown_tags":["list",["tag",224,0]],
       "unlimited":true,
       "vtp_nonInteraction":false,
       "vtp_useDebugVersion":false,
@@ -2796,24 +2796,9 @@ data = {
       "tag_id":360
     },{
       "function":"__cl",
-      "tag_id":382
-    },{
-      "function":"__cl",
-      "tag_id":383
-    },{
-      "function":"__cl",
-      "tag_id":384
-    },{
-      "function":"__lcl",
-      "vtp_waitForTags":true,
-      "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"1228121_132",
       "tag_id":385
     },{
-      "function":"__lcl",
-      "vtp_waitForTags":true,
-      "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"1228121_134",
+      "function":"__cl",
       "tag_id":386
     },{
       "function":"__cl",
@@ -2821,32 +2806,38 @@ data = {
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
+      "vtp_waitForTagsTimeout":"2000",
+      "vtp_uniqueTriggerId":"1228121_132",
+      "tag_id":388
+    },{
+      "function":"__lcl",
+      "vtp_waitForTags":true,
+      "vtp_waitForTagsTimeout":"2000",
+      "vtp_uniqueTriggerId":"1228121_134",
+      "tag_id":389
+    },{
+      "function":"__cl",
+      "tag_id":390
+    },{
+      "function":"__lcl",
+      "vtp_waitForTags":true,
       "vtp_checkValidation":false,
       "vtp_waitForTagsTimeout":"20000",
       "vtp_uniqueTriggerId":"1228121_157",
-      "tag_id":388
+      "tag_id":391
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_checkValidation":false,
       "vtp_waitForTagsTimeout":"20000",
       "vtp_uniqueTriggerId":"1228121_160",
-      "tag_id":389
+      "tag_id":392
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_checkValidation":false,
       "vtp_waitForTagsTimeout":"20000",
       "vtp_uniqueTriggerId":"1228121_175",
-      "tag_id":390
-    },{
-      "function":"__cl",
-      "tag_id":391
-    },{
-      "function":"__cl",
-      "tag_id":392
-    },{
-      "function":"__cl",
       "tag_id":393
     },{
       "function":"__cl",
@@ -2879,41 +2870,41 @@ data = {
       "function":"__cl",
       "tag_id":403
     },{
+      "function":"__cl",
+      "tag_id":404
+    },{
+      "function":"__cl",
+      "tag_id":405
+    },{
+      "function":"__cl",
+      "tag_id":406
+    },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_checkValidation":false,
       "vtp_waitForTagsTimeout":"20000",
       "vtp_uniqueTriggerId":"1228121_279",
-      "tag_id":404
+      "tag_id":407
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_checkValidation":false,
       "vtp_waitForTagsTimeout":"20000",
       "vtp_uniqueTriggerId":"1228121_280",
-      "tag_id":405
+      "tag_id":408
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_checkValidation":true,
       "vtp_waitForTagsTimeout":"2000",
       "vtp_uniqueTriggerId":"1228121_286",
-      "tag_id":406
+      "tag_id":409
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_checkValidation":true,
       "vtp_waitForTagsTimeout":"2000",
       "vtp_uniqueTriggerId":"1228121_288",
-      "tag_id":407
-    },{
-      "function":"__cl",
-      "tag_id":408
-    },{
-      "function":"__cl",
-      "tag_id":409
-    },{
-      "function":"__cl",
       "tag_id":410
     },{
       "function":"__cl",
@@ -2952,182 +2943,191 @@ data = {
       "function":"__cl",
       "tag_id":422
     },{
-      "function":"__hl",
+      "function":"__cl",
       "tag_id":423
     },{
-      "function":"__hl",
+      "function":"__cl",
       "tag_id":424
     },{
-      "function":"__hl",
+      "function":"__cl",
       "tag_id":425
+    },{
+      "function":"__hl",
+      "tag_id":426
+    },{
+      "function":"__hl",
+      "tag_id":427
+    },{
+      "function":"__hl",
+      "tag_id":428
     },{
       "function":"__fsl",
       "vtp_waitForTags":false,
       "vtp_checkValidation":true,
       "vtp_waitForTagsTimeout":"2000",
       "vtp_uniqueTriggerId":"1228121_564",
-      "tag_id":426
-    },{
-      "function":"__fsl",
-      "vtp_waitForTags":false,
-      "vtp_checkValidation":true,
-      "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"1228121_566",
-      "tag_id":427
-    },{
-      "function":"__fsl",
-      "vtp_waitForTags":false,
-      "vtp_checkValidation":true,
-      "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"1228121_575",
-      "tag_id":428
-    },{
-      "function":"__cl",
       "tag_id":429
     },{
       "function":"__fsl",
       "vtp_waitForTags":false,
       "vtp_checkValidation":true,
       "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"1228121_596",
+      "vtp_uniqueTriggerId":"1228121_566",
       "tag_id":430
     },{
       "function":"__fsl",
       "vtp_waitForTags":false,
       "vtp_checkValidation":true,
       "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"1228121_597",
+      "vtp_uniqueTriggerId":"1228121_575",
       "tag_id":431
     },{
       "function":"__cl",
       "tag_id":432
     },{
-      "function":"__cl",
+      "function":"__fsl",
+      "vtp_waitForTags":false,
+      "vtp_checkValidation":true,
+      "vtp_waitForTagsTimeout":"2000",
+      "vtp_uniqueTriggerId":"1228121_596",
       "tag_id":433
     },{
-      "function":"__cl",
+      "function":"__fsl",
+      "vtp_waitForTags":false,
+      "vtp_checkValidation":true,
+      "vtp_waitForTagsTimeout":"2000",
+      "vtp_uniqueTriggerId":"1228121_597",
       "tag_id":434
     },{
-      "function":"__lcl",
-      "vtp_waitForTags":true,
-      "vtp_checkValidation":false,
-      "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"1228121_863",
+      "function":"__cl",
       "tag_id":435
     },{
-      "function":"__lcl",
-      "vtp_waitForTags":true,
-      "vtp_checkValidation":false,
-      "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"1228121_864",
+      "function":"__cl",
       "tag_id":436
     },{
-      "function":"__lcl",
-      "vtp_waitForTags":true,
-      "vtp_checkValidation":false,
-      "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"1228121_865",
+      "function":"__cl",
       "tag_id":437
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_checkValidation":false,
       "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"1228121_866",
+      "vtp_uniqueTriggerId":"1228121_863",
       "tag_id":438
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_checkValidation":false,
       "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"1228121_867",
+      "vtp_uniqueTriggerId":"1228121_864",
       "tag_id":439
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_checkValidation":false,
       "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"1228121_868",
+      "vtp_uniqueTriggerId":"1228121_865",
       "tag_id":440
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_checkValidation":false,
       "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"1228121_869",
+      "vtp_uniqueTriggerId":"1228121_866",
       "tag_id":441
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_checkValidation":false,
       "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"1228121_870",
+      "vtp_uniqueTriggerId":"1228121_867",
       "tag_id":442
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_checkValidation":false,
       "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"1228121_871",
+      "vtp_uniqueTriggerId":"1228121_868",
       "tag_id":443
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_checkValidation":false,
       "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"1228121_872",
+      "vtp_uniqueTriggerId":"1228121_869",
       "tag_id":444
     },{
-      "function":"__cl",
+      "function":"__lcl",
+      "vtp_waitForTags":true,
+      "vtp_checkValidation":false,
+      "vtp_waitForTagsTimeout":"2000",
+      "vtp_uniqueTriggerId":"1228121_870",
       "tag_id":445
     },{
-      "function":"__cl",
+      "function":"__lcl",
+      "vtp_waitForTags":true,
+      "vtp_checkValidation":false,
+      "vtp_waitForTagsTimeout":"2000",
+      "vtp_uniqueTriggerId":"1228121_871",
       "tag_id":446
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_checkValidation":false,
       "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"1228121_1111",
+      "vtp_uniqueTriggerId":"1228121_872",
       "tag_id":447
+    },{
+      "function":"__cl",
+      "tag_id":448
+    },{
+      "function":"__cl",
+      "tag_id":449
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_checkValidation":false,
       "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"1228121_1112",
-      "tag_id":448
-    },{
-      "function":"__lcl",
-      "vtp_waitForTags":false,
-      "vtp_checkValidation":false,
-      "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"1228121_1193",
-      "tag_id":449
-    },{
-      "function":"__cl",
+      "vtp_uniqueTriggerId":"1228121_1111",
       "tag_id":450
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_checkValidation":false,
       "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"1228121_1226",
+      "vtp_uniqueTriggerId":"1228121_1112",
       "tag_id":451
+    },{
+      "function":"__lcl",
+      "vtp_waitForTags":false,
+      "vtp_checkValidation":false,
+      "vtp_waitForTagsTimeout":"2000",
+      "vtp_uniqueTriggerId":"1228121_1193",
+      "tag_id":452
+    },{
+      "function":"__cl",
+      "tag_id":453
+    },{
+      "function":"__lcl",
+      "vtp_waitForTags":true,
+      "vtp_checkValidation":false,
+      "vtp_waitForTagsTimeout":"2000",
+      "vtp_uniqueTriggerId":"1228121_1226",
+      "tag_id":454
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_checkValidation":false,
       "vtp_waitForTagsTimeout":"2000",
       "vtp_uniqueTriggerId":"1228121_1227",
-      "tag_id":452
+      "tag_id":455
     },{
       "function":"__lcl",
       "vtp_waitForTags":false,
       "vtp_checkValidation":false,
       "vtp_waitForTagsTimeout":"2000",
       "vtp_uniqueTriggerId":"1228121_1250",
-      "tag_id":453
+      "tag_id":456
     },{
       "function":"__html",
       "once_per_event":true,
@@ -3950,6 +3950,33 @@ data = {
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
       "tag_id":381
+    },{
+      "function":"__html",
+      "metadata":["map"],
+      "once_per_event":true,
+      "vtp_html":"\u003Cscript type=\"text\/gtmscript\"\u003Ewindow._peq=window._peq||[];window._peq.push([\"subscriber-status\",function(a){1==a.statuscode\u0026\u0026document.getElementById(\"art-img\").firstElementChild\u0026\u0026(a=prdImg=document.getElementById(\"art-img\").firstElementChild.src,window._peq.push([\"add-to-trigger\",{campaign_name:\"K24_Browser_Abandonment\",event_name:\"browse\",notification_image:{imageurl:a},big_image:{bigimageurl:prdImg}}]))}]);\u003C\/script\u003E\n",
+      "vtp_supportDocumentWrite":false,
+      "vtp_enableIframeMode":false,
+      "vtp_enableEditJsMacroBehavior":false,
+      "tag_id":382
+    },{
+      "function":"__html",
+      "metadata":["map"],
+      "once_per_event":true,
+      "vtp_html":"\u003Cscript type=\"text\/gtmscript\"\u003Ewindow._peq=window._peq||[];window._peq.push([\"subscriber-status\",function(a){1==a.statuscode\u0026\u0026(window._peq.push([\"add-to-trigger\",{campaign_name:\"K24_Cart_Abandonment\",event_name:\"add-to-cart\"}]),window._peq.push([\"add-to-trigger\",{campaign_name:\"K24_Browser_Abandonment\",event_name:\"add-to-cart\"}]))}]);\u003C\/script\u003E",
+      "vtp_supportDocumentWrite":false,
+      "vtp_enableIframeMode":false,
+      "vtp_enableEditJsMacroBehavior":false,
+      "tag_id":383
+    },{
+      "function":"__html",
+      "metadata":["map"],
+      "once_per_event":true,
+      "vtp_html":"\u003Cscript type=\"text\/gtmscript\"\u003Ewindow._peq=window._peq||[];window._peq.push([\"subscriber-status\",function(a){1==a.statuscode\u0026\u0026window._peq.push([\"add-to-trigger\",{campaign_name:\"K24_Cart_Abandonment\",event_name:\"checkout\"}])}]);\u003C\/script\u003E",
+      "vtp_supportDocumentWrite":false,
+      "vtp_enableIframeMode":false,
+      "vtp_enableEditJsMacroBehavior":false,
+      "tag_id":384
     },{
       "function":"__html",
       "once_per_event":true,
@@ -5251,9 +5278,9 @@ data = {
     [["if",44,109],["unless",107,108],["add",42]],
     [["if",44,102],["add",42]],
     [["if",95,127],["add",42]],
-    [["if",95,128],["add",43,151,154,162,164,167,176,194,198],["block",167]],
+    [["if",95,128],["add",43,151,154,162,164,167,176,194,198,221],["block",167]],
     [["if",95,103],["add",43,154,162,164,167,200],["block",167]],
-    [["if",33,95],["add",43,45,121,151,154,159,162,164,167,193,196,201,208]],
+    [["if",33,95],["add",43,45,121,151,154,159,162,164,167,193,196,201,208,223]],
     [["if",8,95],["add",43,164,167],["block",167]],
     [["if",33,97],["add",43,164,196]],
     [["if",95,129],["add",43]],
@@ -5358,7 +5385,7 @@ data = {
     [["if",95,179],["add",154,162,164,202]],
     [["if",2,95,180],["add",155]],
     [["if",2,97,180],["add",155]],
-    [["if",9,95],["add",156]],
+    [["if",9,95],["add",156,222]],
     [["if",9,97],["add",156]],
     [["if",9,32],["add",156]],
     [["if",9,38],["add",156]],
