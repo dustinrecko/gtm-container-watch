@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"532",
+  "version":"533",
   
   "macros":[{
       "function":"__v",
@@ -1526,6 +1526,30 @@ data = {
       "vtp_enableMultiQueryKeys":false,
       "vtp_enableIgnoreEmptyQueryParam":false
     },{
+      "function":"__remm",
+      "vtp_setDefaultValue":false,
+      "vtp_input":["macro",107],
+      "vtp_fullMatch":true,
+      "vtp_replaceAfterMatch":true,
+      "vtp_ignoreCase":true,
+      "vtp_map":["list",["map","key","k24-at-live","value","4211"],["map","key","cpd-nl-live","value","4212"]]
+    },{
+      "function":"__v",
+      "vtp_dataLayerVersion":2,
+      "vtp_setDefaultValue":false,
+      "vtp_name":"global.sessionId"
+    },{
+      "function":"__v",
+      "vtp_dataLayerVersion":2,
+      "vtp_setDefaultValue":false,
+      "vtp_name":"global.pageRenderTimestamp"
+    },{
+      "function":"__v",
+      "vtp_dataLayerVersion":2,
+      "vtp_setDefaultValue":true,
+      "vtp_defaultValue":"",
+      "vtp_name":"ecommerce.purchase.actionField.coupon"
+    },{
       "function":"__aev",
       "vtp_setDefaultValue":false,
       "vtp_varType":"ID"
@@ -1670,13 +1694,13 @@ data = {
       "vtp_selectorType":"CSS"
     },{
       "function":"__jsm",
-      "vtp_javascript":["template","(function(){var a=",["escape",["macro",349],8,16],".slice(0,20).join();return a})();"]
+      "vtp_javascript":["template","(function(){var a=",["escape",["macro",353],8,16],".slice(0,20).join();return a})();"]
     },{
       "function":"__jsm",
       "vtp_javascript":["template","(function(){for(var b=[],d=",["escape",["macro",252],8,16],",e=",["escape",["macro",182],8,16],",c=",["escape",["macro",63],8,16],",a=0;a\u003Cc.length;a++)b.push(d+\":\/\/www.\"+e+\"\/artikeldetails?search\\x3d\"+c[a]);return b})();"]
     },{
       "function":"__jsm",
-      "vtp_javascript":["template","(function(){var a=",["escape",["macro",357],8,16],".slice(0,20).join();return a})();"]
+      "vtp_javascript":["template","(function(){var a=",["escape",["macro",361],8,16],".slice(0,20).join();return a})();"]
     },{
       "function":"__v",
       "vtp_dataLayerVersion":2,
@@ -2611,7 +2635,7 @@ data = {
       "tag_id":214
     },{
       "function":"__ua",
-      "teardown_tags":["list",["tag",224,0]],
+      "teardown_tags":["list",["tag",225,0]],
       "unlimited":true,
       "vtp_nonInteraction":false,
       "vtp_useDebugVersion":false,
@@ -3945,6 +3969,16 @@ data = {
       "function":"__html",
       "metadata":["map"],
       "once_per_event":true,
+      "vtp_html":["template","\n\u003Cdiv id=\"sovendus-container-1\"\u003E\u003C\/div\u003E\n\u003Cscript type=\"text\/javascript\"\u003Ewindow.sovIframes=window.sovIframes||[];window.sovIframes.push({trafficSourceNumber:\"",["escape",["macro",321],7],"\",trafficMediumNumber:\"2\",sessionId:\"",["escape",["macro",322],7],"\",timestamp:\"",["escape",["macro",323],7],"\",orderId:\"",["escape",["macro",14],7],"\",orderValue:\"",["escape",["macro",59],7],"\",orderCurrency:\"EUR\",usedCouponCode:\"",["escape",["macro",324],7],"\",iframeContainerId:\"sovendus-container-1\"});window.sovConsumer=window.sovConsumer||{};\nwindow.sovConsumer={consumerSalutation:\" \",consumerFirstName:\" \",consumerLastName:\" \",consumerEmail:\" \",consumerZipcode:\" \"};var sovDomain=window.location.protocol+\"\/\/api.sovendus.com\",sovJsFile=sovDomain+\"\/sovabo\/common\/js\/flexibleIframe.js\";document.write('\\x3cscript async\\x3d\"true\" src\\x3d\"'+sovJsFile+'\" type\\x3d\"text\/javascript\"\\x3e\\x3c\/script\\x3e');\u003C\/script\u003E\n"],
+      "vtp_supportDocumentWrite":true,
+      "vtp_enableIframeMode":false,
+      "vtp_enableEditJsMacroBehavior":false,
+      "vtp_usePostscribe":true,
+      "tag_id":380
+    },{
+      "function":"__html",
+      "metadata":["map"],
+      "once_per_event":true,
       "vtp_html":"\u003Cscript type=\"text\/gtmscript\"\u003E\"no\"===JSON.parse(localStorage.getItem(\"COOKIES_BAR__SHOW\"))\u0026\u0026(window.__rmcp=[1,2,3,4,5]);\u003C\/script\u003E",
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
@@ -5146,6 +5180,11 @@ data = {
       "arg0":["macro",320],
       "arg1":"(not set)",
       "ignore_case":true
+    },{
+      "function":"_re",
+      "arg0":["macro",89],
+      "arg1":".*\\\/shop\\\/checkout\\\/success",
+      "ignore_case":true
     }],
   "rules":[
     [["if",0,2],["unless",1],["add",0]],
@@ -5278,9 +5317,9 @@ data = {
     [["if",44,109],["unless",107,108],["add",42]],
     [["if",44,102],["add",42]],
     [["if",95,127],["add",42]],
-    [["if",95,128],["add",43,151,154,162,164,167,176,194,198,221],["block",167]],
+    [["if",95,128],["add",43,151,154,162,164,167,176,194,198,222],["block",167]],
     [["if",95,103],["add",43,154,162,164,167,200],["block",167]],
-    [["if",33,95],["add",43,45,121,151,154,159,162,164,167,193,196,201,208,223]],
+    [["if",33,95],["add",43,45,121,151,154,159,162,164,167,193,196,201,208,224]],
     [["if",8,95],["add",43,164,167],["block",167]],
     [["if",33,97],["add",43,164,196]],
     [["if",95,129],["add",43]],
@@ -5385,7 +5424,7 @@ data = {
     [["if",95,179],["add",154,162,164,202]],
     [["if",2,95,180],["add",155]],
     [["if",2,97,180],["add",155]],
-    [["if",9,95],["add",156,222]],
+    [["if",9,95],["add",156,223]],
     [["if",9,97],["add",156]],
     [["if",9,32],["add",156]],
     [["if",9,38],["add",156]],
@@ -5539,7 +5578,8 @@ data = {
     [["if",5,255],["unless",262],["add",215]],
     [["if",33,255],["unless",262],["add",216]],
     [["if",2,95],["unless",263],["add",217]],
-    [["if",5,35],["add",220]],
+    [["if",5,34,264],["add",220]],
+    [["if",5,35],["add",221]],
     [["if",6,7],["block",1,14,121,122,124]],
     [["if",2,34,46],["block",13]],
     [["if",2,35,46],["block",13]],
