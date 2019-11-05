@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"681",
+  "version":"685",
   
   "macros":[{
       "function":"__jsm",
@@ -1364,11 +1364,11 @@ data = {
       "tag_id":219
     },{
       "function":"__ua",
+      "metadata":["map"],
       "once_per_event":true,
       "vtp_nonInteraction":false,
       "vtp_overrideGaSettings":true,
       "vtp_doubleClick":false,
-      "vtp_setTrackerName":false,
       "vtp_useDebugVersion":false,
       "vtp_eventCategory":"Button Clicks",
       "vtp_trackType":"TRACK_EVENT",
@@ -1384,11 +1384,11 @@ data = {
       "tag_id":225
     },{
       "function":"__ua",
+      "metadata":["map"],
       "once_per_event":true,
       "vtp_nonInteraction":false,
       "vtp_overrideGaSettings":true,
       "vtp_doubleClick":false,
-      "vtp_setTrackerName":false,
       "vtp_useDebugVersion":false,
       "vtp_eventCategory":"Button Clicks",
       "vtp_trackType":"TRACK_EVENT",
@@ -1404,11 +1404,11 @@ data = {
       "tag_id":226
     },{
       "function":"__ua",
+      "metadata":["map"],
       "once_per_event":true,
       "vtp_nonInteraction":false,
       "vtp_overrideGaSettings":true,
       "vtp_doubleClick":false,
-      "vtp_setTrackerName":false,
       "vtp_useDebugVersion":false,
       "vtp_eventCategory":"Button Clicks",
       "vtp_trackType":"TRACK_EVENT",
@@ -1424,11 +1424,11 @@ data = {
       "tag_id":227
     },{
       "function":"__ua",
+      "metadata":["map"],
       "once_per_event":true,
       "vtp_nonInteraction":false,
       "vtp_overrideGaSettings":true,
       "vtp_doubleClick":false,
-      "vtp_setTrackerName":false,
       "vtp_useDebugVersion":false,
       "vtp_eventCategory":"Button Clicks",
       "vtp_trackType":"TRACK_EVENT",
@@ -1460,11 +1460,11 @@ data = {
       "tag_id":245
     },{
       "function":"__ua",
+      "metadata":["map"],
       "once_per_event":true,
       "vtp_nonInteraction":false,
       "vtp_overrideGaSettings":true,
       "vtp_doubleClick":false,
-      "vtp_setTrackerName":false,
       "vtp_useDebugVersion":false,
       "vtp_eventCategory":"Button Clicks",
       "vtp_trackType":"TRACK_EVENT",
@@ -1481,11 +1481,11 @@ data = {
       "tag_id":246
     },{
       "function":"__ua",
+      "metadata":["map"],
       "once_per_event":true,
       "vtp_nonInteraction":false,
       "vtp_overrideGaSettings":true,
       "vtp_doubleClick":false,
-      "vtp_setTrackerName":false,
       "vtp_useDebugVersion":false,
       "vtp_eventCategory":"Button Clicks",
       "vtp_trackType":"TRACK_EVENT",
@@ -1502,11 +1502,11 @@ data = {
       "tag_id":247
     },{
       "function":"__ua",
+      "metadata":["map"],
       "once_per_event":true,
       "vtp_nonInteraction":false,
       "vtp_overrideGaSettings":true,
       "vtp_doubleClick":false,
-      "vtp_setTrackerName":false,
       "vtp_useDebugVersion":false,
       "vtp_eventCategory":"Button Clicks",
       "vtp_trackType":"TRACK_EVENT",
@@ -1523,11 +1523,11 @@ data = {
       "tag_id":248
     },{
       "function":"__ua",
+      "metadata":["map"],
       "once_per_event":true,
       "vtp_nonInteraction":false,
       "vtp_overrideGaSettings":true,
       "vtp_doubleClick":false,
-      "vtp_setTrackerName":false,
       "vtp_useDebugVersion":false,
       "vtp_eventCategory":"Button Clicks",
       "vtp_trackType":"TRACK_EVENT",
@@ -1544,11 +1544,11 @@ data = {
       "tag_id":249
     },{
       "function":"__ua",
+      "metadata":["map"],
       "once_per_event":true,
       "vtp_nonInteraction":true,
       "vtp_overrideGaSettings":true,
       "vtp_doubleClick":true,
-      "vtp_setTrackerName":false,
       "vtp_useDebugVersion":false,
       "vtp_eventCategory":"Remarketing",
       "vtp_trackType":"TRACK_EVENT",
@@ -1637,11 +1637,11 @@ data = {
       "tag_id":257
     },{
       "function":"__ua",
+      "metadata":["map"],
       "once_per_event":true,
       "vtp_nonInteraction":false,
       "vtp_overrideGaSettings":true,
       "vtp_doubleClick":false,
-      "vtp_setTrackerName":false,
       "vtp_useDebugVersion":false,
       "vtp_eventCategory":"Button Clicks",
       "vtp_trackType":"TRACK_EVENT",
@@ -1670,11 +1670,11 @@ data = {
       "tag_id":266
     },{
       "function":"__ua",
+      "metadata":["map"],
       "once_per_event":true,
       "vtp_nonInteraction":false,
       "vtp_overrideGaSettings":true,
       "vtp_doubleClick":false,
-      "vtp_setTrackerName":false,
       "vtp_useDebugVersion":false,
       "vtp_eventCategory":"Button Clicks",
       "vtp_trackType":"TRACK_EVENT",
@@ -1690,11 +1690,11 @@ data = {
       "tag_id":268
     },{
       "function":"__ua",
+      "metadata":["map"],
       "once_per_event":true,
       "vtp_nonInteraction":false,
       "vtp_overrideGaSettings":true,
       "vtp_doubleClick":false,
-      "vtp_setTrackerName":false,
       "vtp_useDebugVersion":false,
       "vtp_eventCategory":"Button Clicks",
       "vtp_trackType":"TRACK_EVENT",
@@ -2157,9 +2157,11 @@ data = {
       "tag_id":378
     },{
       "function":"__ua",
+      "metadata":["map"],
       "once_per_event":true,
       "vtp_nonInteraction":true,
-      "vtp_overrideGaSettings":false,
+      "vtp_overrideGaSettings":true,
+      "vtp_setTrackerName":false,
       "vtp_eventValue":["macro",59],
       "vtp_eventCategory":["macro",97],
       "vtp_trackType":"TRACK_EVENT",
@@ -4113,15 +4115,15 @@ data = {
     [["if",8,11],["unless",18],["add",18,22,23,27]],
     [["if",20],["unless",19],["add",30]],
     [["if",22,23],["add",31,69,77,95,181,231,85,182],["block",33,84]],
-    [["if",23],["add",32,45,115,122,125,233,239,242]],
-    [["if",24],["add",32,64,87,91,94,98,99,106,109,115,122,125,130,183,225,233,239,242],["block",84]],
+    [["if",23],["add",32,45,115,122,125,242]],
+    [["if",24],["add",32,64,87,91,94,98,99,106,109,115,122,125,130,183,225,242],["block",84]],
     [["if",20],["unless",25,26],["add",32,84]],
     [["if",27,29],["unless",28],["add",32,94,98]],
     [["if",20],["unless",30],["add",33]],
-    [["if",35],["add",34,96,113,115,116,122,125,127,132,233,235,239,242]],
-    [["if",36],["add",35,61,71,88,108,115,117,122,124,125,128,131,233,236,239,242,243]],
+    [["if",35],["add",34,96,113,115,116,122,125,127,132,235,242]],
+    [["if",36],["add",35,61,71,88,108,115,117,122,124,125,128,131,236,242,243]],
     [["if",20],["add",36,45,60,79,94,98,115,122,125,181,233,239,242,134,149,152]],
-    [["if",36,39],["unless",18],["add",37,233,237,239,242]],
+    [["if",36,39],["unless",18],["add",37,237,242]],
     [["if",18,36,39],["unless",40],["add",38]],
     [["if",24],["unless",26],["add",39,57,100,118,120,121,129,238,240,244]],
     [["if",11,20],["unless",41],["add",40]],
@@ -4181,7 +4183,7 @@ data = {
     [["if",24,117,120,121,122],["add",111,200]],
     [["if",0,123,124],["add",112]],
     [["if",42,125],["add",114,226]],
-    [["if",112],["add",115,119,126,233,234,239,242,154]],
+    [["if",112],["add",115,119,126,234,242,154]],
     [["if",20,126],["add",135]],
     [["if",20,127],["add",136]],
     [["if",20,128],["add",137,138]],
