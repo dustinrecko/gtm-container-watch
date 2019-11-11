@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"536",
+  "version":"537",
   
   "macros":[{
       "function":"__v",
@@ -1480,7 +1480,7 @@ data = {
       "vtp_map":["list",["map","key","checkout_addToCart,(k24|a24)-de-(live|stg)","value","1"],["map","key","pageType_cart,(k24|a24)-de-(live|stg)","value","1"],["map","key","checkout_addToCart,k24-at-(live|stg)","value",["macro",265]],["map","key","checkout_addToCart,cpd-nl-(live|stg)","value",["macro",265]],["map","key","checkout_addToCart,cpd-fr-(live|stg)","value",["macro",265]],["map","key","checkout_addToCart,cpd-pl-(live|stg)","value",["macro",265]],["map","key","checkout_conversionSuccess,.*","value",["macro",265]]]
     },{
       "function":"__jsm",
-      "vtp_javascript":["template","(function(){var c=[];if(\"_ecommerce.impressions_\"==",["escape",["macro",264],8,16],")var a=",["escape",["macro",44],8,16],";\"_ecommerce.detail.products_\"==",["escape",["macro",264],8,16],"\u0026\u0026(a=",["escape",["macro",241],8,16],");\"_ecommerce.add.products_\"==",["escape",["macro",264],8,16],"\u0026\u0026(a=",["escape",["macro",62],8,16],");\"_page.products_\"==",["escape",["macro",264],8,16],"\u0026\u0026(a=",["escape",["macro",47],8,16],");\"_ecommerce.purchase.products_\"==",["escape",["macro",264],8,16],"\u0026\u0026(a=",["escape",["macro",60],8,16],");if(\"undefined\"!=typeof a)for(var b=0;b\u003Ca.length;b++)c.push({item:a[b].id+\"_www-kfzteile24-de_de\",\nprice:Math.round(a[b].price\/",["escape",["macro",311],8,16],"*100)\/100+\"\",quantity:(\"undefined\"!=typeof a[b].quantity?a[b].quantity:1)+\"\"});return c})();"]
+      "vtp_javascript":["template","(function(){var c=[];if(\"_ecommerce.impressions_\"==",["escape",["macro",264],8,16],")var a=",["escape",["macro",44],8,16],";\"_ecommerce.detail.products_\"==",["escape",["macro",264],8,16],"\u0026\u0026(a=",["escape",["macro",241],8,16],");\"_ecommerce.add.products_\"==",["escape",["macro",264],8,16],"\u0026\u0026(a=",["escape",["macro",62],8,16],");\"_page.products_\"==",["escape",["macro",264],8,16],"\u0026\u0026(a=",["escape",["macro",47],8,16],");\"_ecommerce.purchase.products_\"==",["escape",["macro",264],8,16],"\u0026\u0026(a=",["escape",["macro",60],8,16],");if(\"undefined\"!=typeof a)for(var b=0;b\u003Ca.length;b++)c.push({item:a[b].id,price:Math.round(a[b].price\/\n",["escape",["macro",311],8,16],"*100)\/100+\"\",quantity:(\"undefined\"!=typeof a[b].quantity?a[b].quantity:1)+\"\",unique_id:a[b].id+\"_www-kfzteile24-de_de\"});return c})();"]
     },{
       "function":"__jsm",
       "vtp_javascript":["template","(function(){var a={};a.items=",["escape",["macro",312],8,16],";a.order_number=\"",["escape",["macro",14],7],"\";a.shipping=\"",["escape",["macro",58],7],"\";return a})();"]
@@ -3776,8 +3776,9 @@ data = {
       "tag_id":354
     },{
       "function":"__html",
+      "metadata":["map"],
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\" data-gtmsrc=\"https:\/\/7279409.collect.igodigital.com\/collect.js\"\u003E\u003C\/script\u003E\n\u003Cscript type=\"text\/gtmscript\"\u003E_etmc.push([\"setOrgId\",\"7279409\"]);_etmc.push([\"trackPageView\",{item:",["escape",["macro",103],8,16],"+\"_www-kfzteile24-de_de\"}]);\u003C\/script\u003E"],
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\" data-gtmsrc=\"https:\/\/7279409.collect.igodigital.com\/collect.js\"\u003E\u003C\/script\u003E\n\u003Cscript type=\"text\/gtmscript\"\u003E_etmc.push([\"setOrgId\",\"7279409\"]);_etmc.push([\"trackPageView\",{item:",["escape",["macro",103],8,16],"}]);\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
