@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"542",
+  "version":"543",
   
   "macros":[{
       "function":"__v",
@@ -2449,7 +2449,7 @@ data = {
       "tag_id":214
     },{
       "function":"__ua",
-      "teardown_tags":["list",["tag",182,0]],
+      "teardown_tags":["list",["tag",183,0]],
       "unlimited":true,
       "vtp_nonInteraction":false,
       "vtp_useDebugVersion":false,
@@ -2635,35 +2635,32 @@ data = {
       "tag_id":360
     },{
       "function":"__cl",
-      "tag_id":390
-    },{
-      "function":"__lcl",
-      "vtp_waitForTags":true,
-      "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"1228121_132",
       "tag_id":391
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"1228121_134",
+      "vtp_uniqueTriggerId":"1228121_132",
       "tag_id":392
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
-      "vtp_checkValidation":false,
-      "vtp_waitForTagsTimeout":"20000",
-      "vtp_uniqueTriggerId":"1228121_160",
+      "vtp_waitForTagsTimeout":"2000",
+      "vtp_uniqueTriggerId":"1228121_134",
       "tag_id":393
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_checkValidation":false,
       "vtp_waitForTagsTimeout":"20000",
-      "vtp_uniqueTriggerId":"1228121_175",
+      "vtp_uniqueTriggerId":"1228121_160",
       "tag_id":394
     },{
-      "function":"__cl",
+      "function":"__lcl",
+      "vtp_waitForTags":true,
+      "vtp_checkValidation":false,
+      "vtp_waitForTagsTimeout":"20000",
+      "vtp_uniqueTriggerId":"1228121_175",
       "tag_id":395
     },{
       "function":"__cl",
@@ -2681,35 +2678,35 @@ data = {
       "function":"__cl",
       "tag_id":400
     },{
-      "function":"__lcl",
-      "vtp_waitForTags":true,
-      "vtp_checkValidation":false,
-      "vtp_waitForTagsTimeout":"20000",
-      "vtp_uniqueTriggerId":"1228121_279",
+      "function":"__cl",
       "tag_id":401
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_checkValidation":false,
       "vtp_waitForTagsTimeout":"20000",
-      "vtp_uniqueTriggerId":"1228121_280",
+      "vtp_uniqueTriggerId":"1228121_279",
       "tag_id":402
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
-      "vtp_checkValidation":true,
-      "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"1228121_286",
+      "vtp_checkValidation":false,
+      "vtp_waitForTagsTimeout":"20000",
+      "vtp_uniqueTriggerId":"1228121_280",
       "tag_id":403
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_checkValidation":true,
       "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"1228121_288",
+      "vtp_uniqueTriggerId":"1228121_286",
       "tag_id":404
     },{
-      "function":"__cl",
+      "function":"__lcl",
+      "vtp_waitForTags":true,
+      "vtp_checkValidation":true,
+      "vtp_waitForTagsTimeout":"2000",
+      "vtp_uniqueTriggerId":"1228121_288",
       "tag_id":405
     },{
       "function":"__cl",
@@ -2721,28 +2718,28 @@ data = {
       "function":"__cl",
       "tag_id":408
     },{
-      "function":"__fsl",
-      "vtp_waitForTags":false,
-      "vtp_checkValidation":true,
-      "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"1228121_564",
+      "function":"__cl",
       "tag_id":409
     },{
       "function":"__fsl",
       "vtp_waitForTags":false,
       "vtp_checkValidation":true,
       "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"1228121_596",
+      "vtp_uniqueTriggerId":"1228121_564",
       "tag_id":410
     },{
       "function":"__fsl",
       "vtp_waitForTags":false,
       "vtp_checkValidation":true,
       "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"1228121_597",
+      "vtp_uniqueTriggerId":"1228121_596",
       "tag_id":411
     },{
-      "function":"__cl",
+      "function":"__fsl",
+      "vtp_waitForTags":false,
+      "vtp_checkValidation":true,
+      "vtp_waitForTagsTimeout":"2000",
+      "vtp_uniqueTriggerId":"1228121_597",
       "tag_id":412
     },{
       "function":"__cl",
@@ -2751,116 +2748,119 @@ data = {
       "function":"__cl",
       "tag_id":414
     },{
-      "function":"__lcl",
-      "vtp_waitForTags":true,
-      "vtp_checkValidation":false,
-      "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"1228121_863",
+      "function":"__cl",
       "tag_id":415
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_checkValidation":false,
       "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"1228121_864",
+      "vtp_uniqueTriggerId":"1228121_863",
       "tag_id":416
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_checkValidation":false,
       "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"1228121_865",
+      "vtp_uniqueTriggerId":"1228121_864",
       "tag_id":417
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_checkValidation":false,
       "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"1228121_866",
+      "vtp_uniqueTriggerId":"1228121_865",
       "tag_id":418
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_checkValidation":false,
       "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"1228121_867",
+      "vtp_uniqueTriggerId":"1228121_866",
       "tag_id":419
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_checkValidation":false,
       "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"1228121_868",
+      "vtp_uniqueTriggerId":"1228121_867",
       "tag_id":420
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_checkValidation":false,
       "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"1228121_869",
+      "vtp_uniqueTriggerId":"1228121_868",
       "tag_id":421
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_checkValidation":false,
       "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"1228121_870",
+      "vtp_uniqueTriggerId":"1228121_869",
       "tag_id":422
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_checkValidation":false,
       "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"1228121_871",
+      "vtp_uniqueTriggerId":"1228121_870",
       "tag_id":423
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_checkValidation":false,
       "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"1228121_872",
+      "vtp_uniqueTriggerId":"1228121_871",
       "tag_id":424
-    },{
-      "function":"__cl",
-      "tag_id":425
-    },{
-      "function":"__cl",
-      "tag_id":426
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_checkValidation":false,
       "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"1228121_1111",
+      "vtp_uniqueTriggerId":"1228121_872",
+      "tag_id":425
+    },{
+      "function":"__cl",
+      "tag_id":426
+    },{
+      "function":"__cl",
       "tag_id":427
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_checkValidation":false,
       "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"1228121_1112",
+      "vtp_uniqueTriggerId":"1228121_1111",
       "tag_id":428
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_checkValidation":false,
       "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"1228121_1226",
+      "vtp_uniqueTriggerId":"1228121_1112",
       "tag_id":429
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_checkValidation":false,
       "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"1228121_1227",
+      "vtp_uniqueTriggerId":"1228121_1226",
       "tag_id":430
+    },{
+      "function":"__lcl",
+      "vtp_waitForTags":true,
+      "vtp_checkValidation":false,
+      "vtp_waitForTagsTimeout":"2000",
+      "vtp_uniqueTriggerId":"1228121_1227",
+      "tag_id":431
     },{
       "function":"__lcl",
       "vtp_waitForTags":false,
       "vtp_checkValidation":false,
       "vtp_waitForTagsTimeout":"2000",
       "vtp_uniqueTriggerId":"1228121_1250",
-      "tag_id":431
+      "tag_id":432
     },{
       "function":"__html",
       "once_per_event":true,
@@ -3637,6 +3637,15 @@ data = {
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
       "tag_id":389
+    },{
+      "function":"__html",
+      "metadata":["map"],
+      "once_per_event":true,
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003Evar _kkstrack={merchantInfo:[{country:\"de\",merchantId:\"15933413\"}],orderValue:\"",["escape",["macro",39],7],"\",orderId:\"",["escape",["macro",10],7],"\",basket:[]};(function(){var a=document.createElement(\"script\");a.type=\"text\/javascript\";a.async=!0;a.src=\"https:\/\/s.kk-resources.com\/ks.js\";var b=document.getElementsByTagName(\"script\")[0];b.parentNode.insertBefore(a,b)})();\u003C\/script\u003E"],
+      "vtp_supportDocumentWrite":false,
+      "vtp_enableIframeMode":false,
+      "vtp_enableEditJsMacroBehavior":false,
+      "tag_id":390
     },{
       "function":"__html",
       "once_per_event":true,
@@ -4747,6 +4756,10 @@ data = {
       "arg0":["macro",294],
       "arg1":"(not set)",
       "ignore_case":true
+    },{
+      "function":"_eq",
+      "arg0":["macro",173],
+      "arg1":"kelkoo"
     }],
   "rules":[
     [["if",0,2],["unless",1],["add",0]],
@@ -4877,7 +4890,7 @@ data = {
     [["if",93,124],["add",40]],
     [["if",93,125],["add",41,109,112,120,122,124,133,149,153,177],["block",124]],
     [["if",93,101],["add",41,112,120,122,124,155],["block",124]],
-    [["if",33,93],["add",41,43,89,109,112,117,120,122,124,148,151,156,163,179,181]],
+    [["if",33,93],["add",41,43,89,109,112,117,120,122,124,148,151,156,163,179,181,182]],
     [["if",8,93],["add",41,122,124],["block",124]],
     [["if",33,95],["add",41,122,151]],
     [["if",93,126],["add",41]],
@@ -4889,7 +4902,7 @@ data = {
     [["if",36,132],["add",42]],
     [["if",40,132],["add",42]],
     [["if",44,132],["add",42]],
-    [["if",33,94],["add",43,117,124,148,156,181]],
+    [["if",33,94],["add",43,117,124,148,156,181,182]],
     [["if",33,114],["add",43,44,117]],
     [["if",33,116],["add",43,117,169,174]],
     [["if",133],["add",45]],
@@ -5147,5 +5160,6 @@ data = {
     [["if",93,162,238],["block",152]],
     [["if",93,125,238],["block",153]],
     [["if",2,93,167,168],["block",158]],
-    [["if",2,93,238],["block",158]]]
+    [["if",2,93,238],["block",158]],
+    [["if",7],["unless",250],["block",182]]]
 }
