@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"141",
+  "version":"143",
   
   "macros":[{
       "function":"__jsm",
@@ -45,7 +45,7 @@ data = {
       "vtp_component":"URL"
     },{
       "function":"__jsm",
-      "vtp_javascript":["template","(function(){var a=[\"paypal.com\",\"sofort.com\",\"checkout.wirecard.com\"],b=\/https?:\\\/\\\/([^\/:]+)\/.exec(",["escape",["macro",10],8,16],");if(b)for(var c=a.length;c--;)if((new RegExp(a[c]+\"$\")).test(b[1]))return;return ",["escape",["macro",10],8,16],"})();"]
+      "vtp_javascript":["template","(function(){var a=[\"paypal.com\",\"sofort.com\",\"checkout.wirecard.com\",\"lidl.de\"],b=\/https?:\\\/\\\/([^\/:]+)\/.exec(",["escape",["macro",10],8,16],");if(b)for(var c=a.length;c--;)if((new RegExp(a[c]+\"$\")).test(b[1]))return null;return ",["escape",["macro",10],8,16],"})();"]
     },{
       "function":"__jsm",
       "vtp_javascript":["template","(function(){var a=window,b=\"onbeforeunload\",c=b in a;c||(a.setAttribute||(a=document.createElement(\"div\")),a.setAttribute\u0026\u0026a.removeAttribute\u0026\u0026(a.setAttribute(b,\"\"),c=\"function\"==typeof a[b],\"undefined\"!=typeof a[b]\u0026\u0026(a[b]=undef),a.removeAttribute(b)));return c})();"]
@@ -70,7 +70,7 @@ data = {
       "vtp_javascript":["template","(function(){if(document.querySelector(\".message.error.no-static-copy\"))return\"true\"})();"]
     },{
       "function":"__jsm",
-      "vtp_javascript":["template","(function(){var a=",["escape",["macro",7],8,16],";return-1\u003Ca.indexOf(\"\/otc\/checkout\/CheckoutConfirmed\")?null:",["escape",["macro",10],8,16],"})();"]
+      "vtp_javascript":["template","(function(){var a=",["escape",["macro",7],8,16],";return-1\u003Ca.indexOf(\"\/otc\/checkout\/CheckoutConfirmed\")?null:-1\u003Ca.indexOf(\"\/otc\/checkout\/payment\/adyen\")?null:",["escape",["macro",10],8,16],"})();"]
     },{
       "function":"__e"
     },{
