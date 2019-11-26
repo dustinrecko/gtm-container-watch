@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"135",
+  "version":"160",
   
   "macros":[{
       "function":"__jsm",
@@ -459,7 +459,7 @@ data = {
       "once_per_event":true,
       "vtp_sendPageView":true,
       "vtp_measurementId":"G-CPVFPGFBP8",
-      "vtp_enableUserProperties":false,
+      "vtp_enableUserProperties":true,
       "tag_id":70
     },{
       "function":"__gaawe",
@@ -468,27 +468,27 @@ data = {
       "vtp_eventName":"Newsletter sign up",
       "vtp_eventParameters":["list",["map","name","optinpage","value",["macro",27]],["map","name","acid","value",["macro",26]]],
       "vtp_measurementId":"G-CPVFPGFBP8",
-      "vtp_enableUserProperties":false,
+      "vtp_enableUserProperties":true,
       "tag_id":71
     },{
       "function":"__fsl",
       "vtp_checkValidation":false,
       "vtp_waitForTagsTimeout":"2000",
       "vtp_uniqueTriggerId":"1927886_24",
-      "tag_id":73
+      "tag_id":79
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_waitForTagsTimeout":"2000",
       "vtp_uniqueTriggerId":"1927886_26",
-      "tag_id":74
+      "tag_id":80
     },{
       "function":"__lcl",
       "vtp_waitForTags":false,
       "vtp_checkValidation":false,
       "vtp_waitForTagsTimeout":"2000",
       "vtp_uniqueTriggerId":"1927886_36",
-      "tag_id":75
+      "tag_id":81
     },{
       "function":"__evl",
       "vtp_elementId":"payment-processor-wrap",
@@ -498,10 +498,10 @@ data = {
       "vtp_selectorType":"ID",
       "vtp_onScreenRatio":"50",
       "vtp_uniqueTriggerId":"1927886_105",
-      "tag_id":76
+      "tag_id":82
     },{
       "function":"__hl",
-      "tag_id":77
+      "tag_id":83
     },{
       "function":"__html",
       "once_per_event":true,
@@ -613,11 +613,32 @@ data = {
       "function":"__html",
       "metadata":["map"],
       "once_per_event":true,
-      "vtp_html":"\u003Cscript data-gtmsrc=\"https:\/\/my.hellobar.com\/7e6aec0692ee22dcfa0d0d9c86a0784cb29977d1.js\" type=\"text\/gtmscript\" charset=\"utf-8\" async=\"async\"\u003E\u003C\/script\u003E",
-      "vtp_supportDocumentWrite":false,
+      "vtp_html":"\n\u003Cscript type=\"text\/javascript\" src=\"https:\/\/a.opmnstr.com\/app\/js\/api.min.js\" data-campaign=\"ruqlxhclazvgg2iwbze0\" data-user=\"19781\" async\u003E\u003C\/script\u003E\n",
+      "vtp_supportDocumentWrite":true,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
+      "vtp_usePostscribe":true,
       "tag_id":72
+    },{
+      "function":"__html",
+      "metadata":["map"],
+      "once_per_load":true,
+      "vtp_html":"\n\u003Cscript type=\"text\/javascript\" src=\"https:\/\/a.opmnstr.com\/app\/js\/api.min.js\" data-campaign=\"fzujticdlaznenvo052r\" data-user=\"19781\" async\u003E\u003C\/script\u003E\n",
+      "vtp_supportDocumentWrite":true,
+      "vtp_enableIframeMode":false,
+      "vtp_enableEditJsMacroBehavior":false,
+      "vtp_usePostscribe":true,
+      "tag_id":77
+    },{
+      "function":"__html",
+      "metadata":["map"],
+      "once_per_load":true,
+      "vtp_html":"\n\u003Cscript type=\"text\/javascript\" src=\"https:\/\/a.opmnstr.com\/app\/js\/api.min.js\" data-campaign=\"f9dkzhosadmyejhpibui\" data-user=\"19781\" async\u003E\u003C\/script\u003E\n",
+      "vtp_supportDocumentWrite":true,
+      "vtp_enableIframeMode":false,
+      "vtp_enableEditJsMacroBehavior":false,
+      "vtp_usePostscribe":true,
+      "tag_id":78
     }],
   "predicates":[{
       "function":"_eq",
@@ -759,9 +780,13 @@ data = {
       "function":"_cn",
       "arg0":["macro",42],
       "arg1":"true"
+    },{
+      "function":"_cn",
+      "arg0":["macro",21],
+      "arg1":"\/lp\/mm-48-hour-offer-1"
     }],
   "rules":[
-    [["if",0],["add",0,2,3,5,7,13,15,22,23,31,17,19,20,21]],
+    [["if",0],["add",0,2,3,5,7,13,15,22,23,31,36,17,19,20,21]],
     [["if",1],["add",1,10,24,34]],
     [["if",2],["add",4,25]],
     [["if",3,4,5],["add",6]],
@@ -782,6 +807,7 @@ data = {
     [["if",0],["unless",29],["add",32]],
     [["if",0,31],["unless",30],["add",33]],
     [["if",7,32],["add",34]],
-    [["if",0,33],["add",34]],
-    [["if",7,34],["add",35]]]
+    [["if",0,33],["add",34],["block",36]],
+    [["if",0,34],["add",35]],
+    [["if",0,35],["add",37]]]
 }
