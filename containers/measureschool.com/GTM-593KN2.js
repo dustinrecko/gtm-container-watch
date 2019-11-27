@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"160",
+  "version":"161",
   
   "macros":[{
       "function":"__jsm",
@@ -783,6 +783,10 @@ data = {
     },{
       "function":"_cn",
       "arg0":["macro",21],
+      "arg1":"\/products\/"
+    },{
+      "function":"_cn",
+      "arg0":["macro",21],
       "arg1":"\/lp\/mm-48-hour-offer-1"
     }],
   "rules":[
@@ -809,5 +813,6 @@ data = {
     [["if",7,32],["add",34]],
     [["if",0,33],["add",34],["block",36]],
     [["if",0,34],["add",35]],
-    [["if",0,35],["add",37]]]
+    [["if",0,36],["add",37]],
+    [["if",0,35],["block",36]]]
 }
