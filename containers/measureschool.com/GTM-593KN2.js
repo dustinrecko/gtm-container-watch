@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"161",
+  "version":"174",
   
   "macros":[{
       "function":"__jsm",
@@ -193,6 +193,11 @@ data = {
       "vtp_dataLayerVersion":2,
       "vtp_setDefaultValue":false,
       "vtp_name":"hasTag228"
+    },{
+      "function":"__v",
+      "vtp_dataLayerVersion":2,
+      "vtp_setDefaultValue":false,
+      "vtp_name":"hasTag236"
     },{
       "function":"__u",
       "vtp_component":"QUERY",
@@ -471,24 +476,28 @@ data = {
       "vtp_enableUserProperties":true,
       "tag_id":71
     },{
+      "function":"__paused",
+      "vtp_originalTagType":"html",
+      "tag_id":77
+    },{
       "function":"__fsl",
       "vtp_checkValidation":false,
       "vtp_waitForTagsTimeout":"2000",
       "vtp_uniqueTriggerId":"1927886_24",
-      "tag_id":79
+      "tag_id":83
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_waitForTagsTimeout":"2000",
       "vtp_uniqueTriggerId":"1927886_26",
-      "tag_id":80
+      "tag_id":84
     },{
       "function":"__lcl",
       "vtp_waitForTags":false,
       "vtp_checkValidation":false,
       "vtp_waitForTagsTimeout":"2000",
       "vtp_uniqueTriggerId":"1927886_36",
-      "tag_id":81
+      "tag_id":85
     },{
       "function":"__evl",
       "vtp_elementId":"payment-processor-wrap",
@@ -498,10 +507,10 @@ data = {
       "vtp_selectorType":"ID",
       "vtp_onScreenRatio":"50",
       "vtp_uniqueTriggerId":"1927886_105",
-      "tag_id":82
+      "tag_id":86
     },{
       "function":"__hl",
-      "tag_id":83
+      "tag_id":87
     },{
       "function":"__html",
       "once_per_event":true,
@@ -520,7 +529,7 @@ data = {
       "tag_id":12
     },{
       "function":"__html",
-      "setup_tags":["list",["tag",23,0]],
+      "setup_tags":["list",["tag",24,0]],
       "once_per_event":true,
       "vtp_html":["template","\n\u003Cscript type=\"text\/gtmscript\"\u003E-1==document.location.href.search(\"appspot.com\")\u0026\u0026fbq(\"track\",\"Purchase\",{value:\"",["escape",["macro",30],7],"\",currency:\"USD\"});\u003C\/script\u003E\n\n"],
       "vtp_supportDocumentWrite":false,
@@ -529,7 +538,7 @@ data = {
       "tag_id":13
     },{
       "function":"__html",
-      "setup_tags":["list",["tag",23,0]],
+      "setup_tags":["list",["tag",24,0]],
       "once_per_event":true,
       "vtp_html":"\n\u003Cscript type=\"text\/gtmscript\"\u003E-1==document.location.href.search(\"appspot.com\")\u0026\u0026fbq(\"track\",\"Sign Up\");\u003C\/script\u003E",
       "vtp_supportDocumentWrite":false,
@@ -554,7 +563,7 @@ data = {
       "tag_id":45
     },{
       "function":"__html",
-      "setup_tags":["list",["tag",23,0]],
+      "setup_tags":["list",["tag",24,0]],
       "once_per_event":true,
       "vtp_html":"\u003Cscript type=\"text\/gtmscript\"\u003E-1==document.location.href.search(\"appspot.com\")\u0026\u0026fbq(\"track\",\"Checkout\");\u003C\/script\u003E\n",
       "vtp_supportDocumentWrite":false,
@@ -623,22 +632,52 @@ data = {
       "function":"__html",
       "metadata":["map"],
       "once_per_load":true,
-      "vtp_html":"\n\u003Cscript type=\"text\/javascript\" src=\"https:\/\/a.opmnstr.com\/app\/js\/api.min.js\" data-campaign=\"fzujticdlaznenvo052r\" data-user=\"19781\" async\u003E\u003C\/script\u003E\n",
-      "vtp_supportDocumentWrite":true,
-      "vtp_enableIframeMode":false,
-      "vtp_enableEditJsMacroBehavior":false,
-      "vtp_usePostscribe":true,
-      "tag_id":77
-    },{
-      "function":"__html",
-      "metadata":["map"],
-      "once_per_load":true,
       "vtp_html":"\n\u003Cscript type=\"text\/javascript\" src=\"https:\/\/a.opmnstr.com\/app\/js\/api.min.js\" data-campaign=\"f9dkzhosadmyejhpibui\" data-user=\"19781\" async\u003E\u003C\/script\u003E\n",
       "vtp_supportDocumentWrite":true,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
       "vtp_usePostscribe":true,
       "tag_id":78
+    },{
+      "function":"__html",
+      "metadata":["map"],
+      "once_per_event":true,
+      "vtp_html":"\n\u003Cscript type=\"text\/javascript\" src=\"https:\/\/a.opmnstr.com\/app\/js\/api.min.js\" data-campaign=\"na9c8qowtyc8iojqucpx\" data-user=\"19781\" async\u003E\u003C\/script\u003E\n",
+      "vtp_supportDocumentWrite":true,
+      "vtp_enableIframeMode":false,
+      "vtp_enableEditJsMacroBehavior":false,
+      "vtp_usePostscribe":true,
+      "tag_id":79
+    },{
+      "function":"__html",
+      "metadata":["map"],
+      "once_per_load":true,
+      "vtp_html":"\n\u003Cscript type=\"text\/javascript\" src=\"https:\/\/a.opmnstr.com\/app\/js\/api.min.js\" data-campaign=\"rgsh9nuflshy1ar2aald\" data-user=\"19781\" async\u003E\u003C\/script\u003E\n",
+      "vtp_supportDocumentWrite":true,
+      "vtp_enableIframeMode":false,
+      "vtp_enableEditJsMacroBehavior":false,
+      "vtp_usePostscribe":true,
+      "tag_id":80
+    },{
+      "function":"__html",
+      "metadata":["map"],
+      "once_per_load":true,
+      "vtp_html":"\n\u003Cscript type=\"text\/javascript\" src=\"https:\/\/a.opmnstr.com\/app\/js\/api.min.js\" data-campaign=\"l4cta0ltzp4jopoex11r\" data-user=\"19781\" async\u003E\u003C\/script\u003E\n",
+      "vtp_supportDocumentWrite":true,
+      "vtp_enableIframeMode":false,
+      "vtp_enableEditJsMacroBehavior":false,
+      "vtp_usePostscribe":true,
+      "tag_id":81
+    },{
+      "function":"__html",
+      "metadata":["map"],
+      "once_per_load":true,
+      "vtp_html":"\n\u003Cscript type=\"text\/javascript\" src=\"https:\/\/a.opmnstr.com\/app\/js\/api.min.js\" data-campaign=\"eflqzir8wvrh1zxafndu\" data-user=\"19781\" async\u003E\u003C\/script\u003E\n",
+      "vtp_supportDocumentWrite":true,
+      "vtp_enableIframeMode":false,
+      "vtp_enableEditJsMacroBehavior":false,
+      "vtp_usePostscribe":true,
+      "tag_id":82
     }],
   "predicates":[{
       "function":"_eq",
@@ -700,6 +739,14 @@ data = {
       "function":"_cn",
       "arg0":["macro",21],
       "arg1":"\/you-are-now-signed-up\/"
+    },{
+      "function":"_cn",
+      "arg0":["macro",18],
+      "arg1":"\/lp\/"
+    },{
+      "function":"_cn",
+      "arg0":["macro",21],
+      "arg1":"\/products\/"
     },{
       "function":"_cn",
       "arg0":["macro",21],
@@ -774,25 +821,29 @@ data = {
       "arg1":"measure.school"
     },{
       "function":"_cn",
-      "arg0":["macro",18],
-      "arg1":"\/lp\/"
-    },{
-      "function":"_cn",
       "arg0":["macro",42],
       "arg1":"true"
     },{
       "function":"_cn",
       "arg0":["macro",21],
-      "arg1":"\/products\/"
+      "arg1":"\/lp\/mm-48-hour-offer-1"
     },{
       "function":"_cn",
       "arg0":["macro",21],
-      "arg1":"\/lp\/mm-48-hour-offer-1"
+      "arg1":"measuremasters"
+    },{
+      "function":"_cn",
+      "arg0":["macro",43],
+      "arg1":"true"
+    },{
+      "function":"_cn",
+      "arg0":["macro",21],
+      "arg1":"\/gtm-essentials-training-special-offer"
     }],
   "rules":[
-    [["if",0],["add",0,2,3,5,7,13,15,22,23,31,36,17,19,20,21]],
-    [["if",1],["add",1,10,24,34]],
-    [["if",2],["add",4,25]],
+    [["if",0],["add",0,2,3,5,7,13,15,17,23,24,32,39,41,18,20,21,22]],
+    [["if",1],["add",1,10,25,35]],
+    [["if",2],["add",4,26]],
     [["if",3,4,5],["add",6]],
     [["if",6,7],["add",8]],
     [["if",8],["add",9]],
@@ -800,19 +851,22 @@ data = {
     [["if",10,11],["add",12]],
     [["if",12],["add",14]],
     [["if",0,14],["unless",13],["add",16]],
-    [["if",0,15],["add",18]],
-    [["if",16],["add",25]],
-    [["if",17,18],["add",26]],
-    [["if",7,19],["unless",20],["add",27]],
-    [["if",5],["unless",21],["add",28]],
-    [["if",0,22],["unless",23],["add",29]],
-    [["if",24,25],["add",30]],
-    [["if",26,27,28],["add",31]],
-    [["if",0],["unless",29],["add",32]],
-    [["if",0,31],["unless",30],["add",33]],
-    [["if",7,32],["add",34]],
-    [["if",0,33],["add",34],["block",36]],
-    [["if",0,34],["add",35]],
+    [["if",0,17],["add",19]],
+    [["if",18],["add",26]],
+    [["if",19,20],["add",27]],
+    [["if",7,21],["unless",22],["add",28]],
+    [["if",5],["unless",23],["add",29]],
+    [["if",0,24],["unless",25],["add",30]],
+    [["if",26,27],["add",31]],
+    [["if",28,29,30],["add",32]],
+    [["if",0],["unless",31],["add",33]],
+    [["if",0,33],["unless",32],["add",34]],
+    [["if",7,34],["add",35]],
+    [["if",0,15],["add",35],["block",17,39]],
+    [["if",0,35],["add",36]],
     [["if",0,36],["add",37]],
-    [["if",0,35],["block",36]]]
+    [["if",0,37],["add",37],["block",41]],
+    [["if",0,38],["add",38]],
+    [["if",0,39],["add",40]],
+    [["if",0,16],["block",17,39]]]
 }
