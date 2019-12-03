@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"687",
+  "version":"688",
   
   "macros":[{
       "function":"__jsm",
@@ -723,7 +723,7 @@ data = {
     },{
       "function":"__k",
       "vtp_decodeCookie":false,
-      "vtp_name":"VisitorFromRokt"
+      "vtp_name":"visitorFromRokt"
     },{
       "function":"__c",
       "vtp_value":"empty"
@@ -4122,7 +4122,7 @@ data = {
     },{
       "function":"_eq",
       "arg0":["macro",150],
-      "arg1":"True"
+      "arg1":"true"
     },{
       "function":"_cn",
       "arg0":["macro",69],
