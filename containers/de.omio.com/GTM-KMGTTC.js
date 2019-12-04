@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"688",
+  "version":"689",
   
   "macros":[{
       "function":"__jsm",
@@ -3331,7 +3331,7 @@ data = {
       "function":"__html",
       "metadata":["map"],
       "once_per_event":true,
-      "vtp_html":["template","\n\n\u003Cscript type=\"text\/gtmscript\"\u003Evar rokt=window._ROKT=window._ROKT||[];rokt.push([\"emailmd5\",\"\"]);rokt.push([\"emailsha256\",\"",["escape",["macro",125],7],"\"]);rokt.push([\"amount\",\"",["escape",["macro",29],7],"\"]);rokt.push([\"currency\",\"",["escape",["macro",82],7],"\"]);var js=document.createElement(\"SCRIPT\");js.type=\"text\/JavaScript\";js.async=!0;js.src=\"https:\/\/apps.rokt.com\/?id\\x3d52ff4d43bf654cccae10c59ea793e5ef\\x26bhid\\x3d52ff4d43bf654cccae10c59ea793e5ef-b\\x26v\\x3d\"+Math.floor(999*Math.random()).toString();var p=document.getElementsByTagName(\"script\")[0];\np.parentNode.insertBefore(js,p);\u003C\/script\u003E"],
+      "vtp_html":["template","\n\u003Cscript type=\"text\/gtmscript\"\u003Evar rokt=window._ROKT=window._ROKT||[];rokt.push([\"emailsha256\",\"",["escape",["macro",125],7],"\"]);rokt.push([\"amount\",\"",["escape",["macro",29],7],"\"]);rokt.push([\"currency\",\"",["escape",["macro",82],7],"\"]);var js=document.createElement(\"SCRIPT\");js.type=\"text\/JavaScript\";js.async=!0;js.src=\"https:\/\/apps.rokt.com\/?id\\x3d893fdbd898fc43ba9ad0476274c30be9\\x26bhid\\x3d893fdbd898fc43ba9ad0476274c30be9-b\\x26v\\x3d\"+Math.floor(999*Math.random()).toString();var p=document.getElementsByTagName(\"script\")[0];\np.parentNode.insertBefore(js,p);\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
