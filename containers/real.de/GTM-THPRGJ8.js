@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"524",
+  "version":"526",
   
   "macros":[{
       "function":"__v",
@@ -216,7 +216,7 @@ data = {
       "vtp_javascript":["template","(function(){if(\"Item\"==",["escape",["macro",36],8,16],"\u0026\u0026\"efood\"!=",["escape",["macro",14],8,16],")try{return-1!==",["escape",["macro",54],8,16],".indexOf(\"spa_\")?",["escape",["macro",54],8,16],":!1}catch(a){}})();"]
     },{
       "function":"__jsm",
-      "vtp_javascript":["template","(function(){var a=parseInt(window.innerWidth);if(480\u003Ea)return\"XXS\";if(480\u003C=a\u0026\u0026768\u003Ea)return\"XS\";if(468\u003C=a\u0026\u00261024\u003Ea)return\"SM\";if(1024\u003C=a\u0026\u00261280\u003Ea)return\"MD\";if(1280\u003C=a)return\"LG\"})();"]
+      "vtp_javascript":["template","(function(){var a=parseInt(window.innerWidth);if(480\u003Ea)return\"XXS\";if(480\u003C=a\u0026\u0026768\u003Ea)return\"XS\";if(768\u003C=a\u0026\u00261024\u003Ea)return\"SM\";if(1024\u003C=a\u0026\u00261280\u003Ea)return\"MD\";if(1280\u003C=a)return\"LG\"})();"]
     },{
       "function":"__jsm",
       "vtp_javascript":["template","(function(){var a=window.performance.navigation.type;if(0==a)return\"navigate\";if(1==a)return\"reload\";if(2==a)return\"back or forward\";if(255==a)return\"reserved\"})();"]
@@ -1589,6 +1589,14 @@ data = {
       "arg0":["macro",36],
       "arg1":"Account"
     },{
+      "function":"_cn",
+      "arg0":["macro",14],
+      "arg1":"markt"
+    },{
+      "function":"_cn",
+      "arg0":["macro",86],
+      "arg1":"\/markt\/wochenprospekte\/"
+    },{
       "function":"_sw",
       "arg0":["macro",32],
       "arg1":"\/product\/"
@@ -1674,23 +1682,24 @@ data = {
     [["if",38],["unless",9],["add",45]],
     [["if",4,6],["add",45],["block",1]],
     [["if",4,47],["add",45]],
-    [["if",4,50],["add",46]],
-    [["if",4],["unless",51],["add",47]],
-    [["if",4,42,52],["add",48]],
-    [["if",1,42,53],["add",49]],
-    [["if",4,42,54,55],["add",50]],
-    [["if",28,56],["add",51]],
-    [["if",38,50],["unless",57],["add",52]],
-    [["if",4,58],["add",53]],
-    [["if",39,59],["add",54]],
+    [["if",4,48,49],["add",45]],
+    [["if",4,52],["add",46]],
+    [["if",4],["unless",53],["add",47]],
+    [["if",4,42,54],["add",48]],
+    [["if",1,42,55],["add",49]],
+    [["if",4,42,56,57],["add",50]],
+    [["if",28,58],["add",51]],
+    [["if",38,52],["unless",59],["add",52]],
+    [["if",4,60],["add",53]],
+    [["if",39,61],["add",54]],
     [["if",5,42],["add",58]],
     [["if",2,14],["add",60]],
-    [["if",1,60],["add",61]],
+    [["if",1,62],["add",61]],
     [["if",6,7],["block",1,4,18,59]],
     [["if",7],["unless",8],["block",1,6,9,55,56,57,58,59,60]],
     [["if",5,9],["block",1]],
     [["if",11,16,17],["block",2]],
     [["if",7],["unless",6],["block",7]],
-    [["if",38,48],["block",45]],
-    [["if",38,49],["block",45]]]
+    [["if",38,50],["block",45]],
+    [["if",38,51],["block",45]]]
 }
