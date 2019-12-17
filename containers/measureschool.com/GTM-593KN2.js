@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"177",
+  "version":"179",
   
   "macros":[{
       "function":"__jsm",
@@ -496,7 +496,7 @@ data = {
       "vtp_checkValidation":false,
       "vtp_waitForTagsTimeout":"2000",
       "vtp_uniqueTriggerId":"1927886_24",
-      "tag_id":85
+      "tag_id":86
     },{
       "function":"__evl",
       "vtp_elementId":"payment-processor-wrap",
@@ -506,10 +506,10 @@ data = {
       "vtp_selectorType":"ID",
       "vtp_onScreenRatio":"50",
       "vtp_uniqueTriggerId":"1927886_105",
-      "tag_id":86
+      "tag_id":87
     },{
       "function":"__hl",
-      "tag_id":87
+      "tag_id":88
     },{
       "function":"__html",
       "once_per_event":true,
@@ -656,6 +656,16 @@ data = {
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
       "tag_id":83
+    },{
+      "function":"__html",
+      "metadata":["map"],
+      "once_per_event":true,
+      "vtp_html":"\n\u003Cscript type=\"text\/javascript\" src=\"https:\/\/a.opmnstr.com\/app\/js\/api.min.js\" data-campaign=\"faize1isgubjarhn4tys\" data-user=\"19781\" async\u003E\u003C\/script\u003E\n",
+      "vtp_supportDocumentWrite":true,
+      "vtp_enableIframeMode":false,
+      "vtp_enableEditJsMacroBehavior":false,
+      "vtp_usePostscribe":true,
+      "tag_id":85
     }],
   "predicates":[{
       "function":"_eq",
@@ -811,7 +821,7 @@ data = {
       "arg1":"undefined"
     }],
   "rules":[
-    [["if",0],["add",0,2,3,5,7,13,15,17,21,22,30,18,19,20]],
+    [["if",0],["add",0,2,3,5,7,13,15,17,21,22,30,38,18,19,20]],
     [["if",1],["add",1,10,23,33]],
     [["if",2],["add",4,24]],
     [["if",3,4,5],["add",6]],
