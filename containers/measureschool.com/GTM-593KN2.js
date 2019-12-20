@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"182",
+  "version":"183",
   
   "macros":[{
       "function":"__jsm",
@@ -514,6 +514,7 @@ data = {
       "tag_id":64
     },{
       "function":"__html",
+      "metadata":["map"],
       "once_per_event":true,
       "vtp_html":["template","\n\u003Cscript type=\"text\/gtmscript\"\u003Eif(",["escape",["macro",2],8,16],")var lz_data={overwrite:!1,111:\"",["escape",["macro",42],7],"\",112:\"",["escape",["macro",2],7],"\",113:\"\\x3c!--replace_me_with_Company--\\x3e\",114:\"\\x3c!--replace_me_with_Question--\\x3e\",116:\"\\x3c!--replace_me_with_Phone--\\x3e\",header:\"\\x3c!--replace_me_with_Logo--\\x3e\",language:\"en\",website:\"\\x3c!--replace_me_with_Area--\\x3e\"};\u003C\/script\u003E\n\n\n\n\u003Cscript type=\"text\/gtmscript\" id=\"d20063f557da16964373d7c63b0a0be2\" data-gtmsrc=\"https:\/\/livezilla.measure.school\/script.php?id=d20063f557da16964373d7c63b0a0be2\" defer\u003E\u003C\/script\u003E\n"],
       "vtp_supportDocumentWrite":false,
@@ -709,10 +710,6 @@ data = {
       "arg1":"measure.school"
     },{
       "function":"_cn",
-      "arg0":["macro",20],
-      "arg1":"\/lp\/"
-    },{
-      "function":"_cn",
       "arg0":["macro",43],
       "arg1":"48hourMMcouponActive"
     },{
@@ -737,12 +734,16 @@ data = {
       "arg1":"GTM BTB Banner"
     },{
       "function":"_cn",
-      "arg0":["macro",23],
-      "arg1":"products\/gtm-beyond-the-basics"
+      "arg0":["macro",20],
+      "arg1":"\/lp\/"
+    },{
+      "function":"_cn",
+      "arg0":["macro",20],
+      "arg1":"\/products"
     }],
   "rules":[
     [["if",0],["add",0,2,3,5,7,13,15,17,21,22,30,18,19,20]],
-    [["if",1],["add",1,10,23,33]],
+    [["if",1],["add",1,10,23,39]],
     [["if",2],["add",4,24]],
     [["if",3,4,5],["add",6]],
     [["if",6,7],["add",8]],
@@ -761,11 +762,11 @@ data = {
     [["if",0],["unless",28],["add",31]],
     [["if",0,30],["unless",29],["add",32]],
     [["if",7,31],["add",33]],
-    [["if",0,32],["add",33]],
-    [["if",33,34],["add",34]],
-    [["if",34,35],["add",35]],
-    [["if",0,36],["add",36]],
-    [["if",0],["unless",37],["add",37]],
-    [["if",34,38],["add",38]],
+    [["if",32,33],["add",34]],
+    [["if",33,34],["add",35]],
+    [["if",0,35],["add",36]],
+    [["if",0],["unless",36],["add",37]],
+    [["if",33,37],["add",38]],
+    [["if",0,38],["add",39]],
     [["if",0,39],["add",39]]]
 }
