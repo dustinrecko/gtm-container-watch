@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"183",
+  "version":"188",
   
   "macros":[{
       "function":"__jsm",
@@ -390,15 +390,11 @@ data = {
       "vtp_enableUserProperties":true,
       "tag_id":71
     },{
-      "function":"__paused",
-      "vtp_originalTagType":"html",
-      "tag_id":84
-    },{
       "function":"__fsl",
       "vtp_checkValidation":false,
       "vtp_waitForTagsTimeout":"2000",
       "vtp_uniqueTriggerId":"1927886_24",
-      "tag_id":87
+      "tag_id":88
     },{
       "function":"__evl",
       "vtp_elementId":"payment-processor-wrap",
@@ -408,10 +404,10 @@ data = {
       "vtp_selectorType":"ID",
       "vtp_onScreenRatio":"50",
       "vtp_uniqueTriggerId":"1927886_105",
-      "tag_id":88
+      "tag_id":89
     },{
       "function":"__hl",
-      "tag_id":89
+      "tag_id":90
     },{
       "function":"__html",
       "once_per_event":true,
@@ -430,7 +426,7 @@ data = {
       "tag_id":12
     },{
       "function":"__html",
-      "setup_tags":["list",["tag",22,0]],
+      "setup_tags":["list",["tag",21,0]],
       "once_per_event":true,
       "vtp_html":["template","\n\u003Cscript type=\"text\/gtmscript\"\u003E-1==document.location.href.search(\"appspot.com\")\u0026\u0026fbq(\"track\",\"Purchase\",{value:\"",["escape",["macro",32],7],"\",currency:\"USD\"});\u003C\/script\u003E\n\n"],
       "vtp_supportDocumentWrite":false,
@@ -439,7 +435,7 @@ data = {
       "tag_id":13
     },{
       "function":"__html",
-      "setup_tags":["list",["tag",22,0]],
+      "setup_tags":["list",["tag",21,0]],
       "once_per_event":true,
       "vtp_html":"\n\u003Cscript type=\"text\/gtmscript\"\u003E-1==document.location.href.search(\"appspot.com\")\u0026\u0026fbq(\"track\",\"Sign Up\");\u003C\/script\u003E",
       "vtp_supportDocumentWrite":false,
@@ -465,7 +461,7 @@ data = {
     },{
       "function":"__html",
       "metadata":["map"],
-      "setup_tags":["list",["tag",22,0]],
+      "setup_tags":["list",["tag",21,0]],
       "once_per_event":true,
       "vtp_html":"\u003Cscript type=\"text\/gtmscript\"\u003Efbq(\"track\",\"Checkout\");\u003C\/script\u003E\n",
       "vtp_supportDocumentWrite":false,
@@ -564,6 +560,16 @@ data = {
       "function":"__html",
       "metadata":["map"],
       "once_per_event":true,
+      "vtp_html":"\n\u003Cscript type=\"text\/javascript\" src=\"https:\/\/a.opmnstr.com\/app\/js\/api.min.js\" data-campaign=\"poc60ww8l3clz2hwd6fh\" data-user=\"19781\" async\u003E\u003C\/script\u003E\n",
+      "vtp_supportDocumentWrite":true,
+      "vtp_enableIframeMode":false,
+      "vtp_enableEditJsMacroBehavior":false,
+      "vtp_usePostscribe":true,
+      "tag_id":84
+    },{
+      "function":"__html",
+      "metadata":["map"],
+      "once_per_event":true,
       "vtp_html":"\n\u003Cscript type=\"text\/javascript\" src=\"https:\/\/a.opmnstr.com\/app\/js\/api.min.js\" data-campaign=\"faize1isgubjarhn4tys\" data-user=\"19781\" async\u003E\u003C\/script\u003E\n",
       "vtp_supportDocumentWrite":true,
       "vtp_enableIframeMode":false,
@@ -579,6 +585,16 @@ data = {
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
       "tag_id":86
+    },{
+      "function":"__html",
+      "metadata":["map"],
+      "once_per_event":true,
+      "vtp_html":"\n\u003Cscript type=\"text\/javascript\" src=\"https:\/\/a.opmnstr.com\/app\/js\/api.min.js\" data-campaign=\"fvfn1tp8ctlfftvj6iwt\" data-user=\"19781\" async\u003E\u003C\/script\u003E\n",
+      "vtp_supportDocumentWrite":true,
+      "vtp_enableIframeMode":false,
+      "vtp_enableEditJsMacroBehavior":false,
+      "vtp_usePostscribe":true,
+      "tag_id":87
     }],
   "predicates":[{
       "function":"_eq",
@@ -740,11 +756,15 @@ data = {
       "function":"_cn",
       "arg0":["macro",20],
       "arg1":"\/products"
+    },{
+      "function":"_cn",
+      "arg0":["macro",43],
+      "arg1":"NewYear19"
     }],
   "rules":[
-    [["if",0],["add",0,2,3,5,7,13,15,17,21,22,30,18,19,20]],
-    [["if",1],["add",1,10,23,39]],
-    [["if",2],["add",4,24]],
+    [["if",0],["add",0,2,3,5,7,13,15,20,21,29,37,17,18,19]],
+    [["if",1],["add",1,10,22,39]],
+    [["if",2],["add",4,23]],
     [["if",3,4,5],["add",6]],
     [["if",6,7],["add",8]],
     [["if",8],["add",9]],
@@ -752,21 +772,22 @@ data = {
     [["if",10,11],["add",12]],
     [["if",12],["add",14]],
     [["if",0,14],["unless",13],["add",16]],
-    [["if",15],["add",24]],
-    [["if",16,17],["add",25]],
-    [["if",7,18],["unless",19],["add",26]],
-    [["if",0,20],["add",27]],
-    [["if",0,21],["unless",22],["add",28]],
-    [["if",23,24],["add",29]],
-    [["if",25,26,27],["add",30]],
-    [["if",0],["unless",28],["add",31]],
-    [["if",0,30],["unless",29],["add",32]],
-    [["if",7,31],["add",33]],
-    [["if",32,33],["add",34]],
-    [["if",33,34],["add",35]],
-    [["if",0,35],["add",36]],
-    [["if",0],["unless",36],["add",37]],
+    [["if",15],["add",23]],
+    [["if",16,17],["add",24]],
+    [["if",7,18],["unless",19],["add",25]],
+    [["if",0,20],["add",26]],
+    [["if",0,21],["unless",22],["add",27]],
+    [["if",23,24],["add",28]],
+    [["if",25,26,27],["add",29]],
+    [["if",0],["unless",28],["add",30]],
+    [["if",0,30],["unless",29],["add",31]],
+    [["if",7,31],["add",32]],
+    [["if",32,33],["add",33]],
+    [["if",33,34],["add",34]],
+    [["if",0,35],["add",35]],
+    [["if",0],["unless",36],["add",36]],
     [["if",33,37],["add",38]],
     [["if",0,38],["add",39]],
-    [["if",0,39],["add",39]]]
+    [["if",0,39],["add",39]],
+    [["if",33,40],["add",40]]]
 }
