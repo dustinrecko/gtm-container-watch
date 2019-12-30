@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"190",
+  "version":"191",
   
   "macros":[{
       "function":"__jsm",
@@ -394,7 +394,7 @@ data = {
       "vtp_checkValidation":false,
       "vtp_waitForTagsTimeout":"2000",
       "vtp_uniqueTriggerId":"1927886_24",
-      "tag_id":88
+      "tag_id":90
     },{
       "function":"__evl",
       "vtp_elementId":"payment-processor-wrap",
@@ -404,10 +404,10 @@ data = {
       "vtp_selectorType":"ID",
       "vtp_onScreenRatio":"50",
       "vtp_uniqueTriggerId":"1927886_105",
-      "tag_id":89
+      "tag_id":91
     },{
       "function":"__hl",
-      "tag_id":90
+      "tag_id":92
     },{
       "function":"__html",
       "once_per_event":true,
@@ -595,6 +595,16 @@ data = {
       "vtp_enableEditJsMacroBehavior":false,
       "vtp_usePostscribe":true,
       "tag_id":87
+    },{
+      "function":"__html",
+      "metadata":["map"],
+      "once_per_event":true,
+      "vtp_html":"\n\u003Cscript type=\"text\/javascript\" src=\"https:\/\/a.opmnstr.com\/app\/js\/api.min.js\" data-campaign=\"rvnbafdombkt0doessnc\" data-user=\"19781\" async\u003E\u003C\/script\u003E\n",
+      "vtp_supportDocumentWrite":true,
+      "vtp_enableIframeMode":false,
+      "vtp_enableEditJsMacroBehavior":false,
+      "vtp_usePostscribe":true,
+      "tag_id":89
     }],
   "predicates":[{
       "function":"_eq",
@@ -760,6 +770,14 @@ data = {
       "function":"_cn",
       "arg0":["macro",43],
       "arg1":"NewYear19"
+    },{
+      "function":"_cn",
+      "arg0":["macro",23],
+      "arg1":"lp\/mm-48-hour-offer-1\/"
+    },{
+      "function":"_cn",
+      "arg0":["macro",43],
+      "arg1":"48HourPassOffer"
     }],
   "rules":[
     [["if",0],["add",0,2,3,5,7,13,15,20,21,29,37,17,18,19]],
@@ -789,5 +807,6 @@ data = {
     [["if",33,37],["add",38]],
     [["if",0,38],["add",39]],
     [["if",0,39],["add",39]],
-    [["if",33,40],["add",40]]]
+    [["if",33,40],["add",40]],
+    [["if",33,41,42],["add",41]]]
 }
