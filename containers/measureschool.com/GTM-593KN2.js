@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"191",
+  "version":"192",
   
   "macros":[{
       "function":"__jsm",
@@ -589,7 +589,7 @@ data = {
       "function":"__html",
       "metadata":["map"],
       "once_per_event":true,
-      "vtp_html":"\n\u003Cscript type=\"text\/javascript\" src=\"https:\/\/a.opmnstr.com\/app\/js\/api.min.js\" data-campaign=\"fvfn1tp8ctlfftvj6iwt\" data-user=\"19781\" async\u003E\u003C\/script\u003E\n",
+      "vtp_html":"\n\u003Cscript type=\"text\/javascript\" src=\"https:\/\/a.opmnstr.com\/app\/js\/api.min.js\" data-campaign=\"flekpcj5bj93tsuh1iu7\" data-user=\"19781\" async\u003E\u003C\/script\u003E\n",
       "vtp_supportDocumentWrite":true,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
@@ -768,8 +768,8 @@ data = {
       "arg1":"\/products"
     },{
       "function":"_cn",
-      "arg0":["macro",43],
-      "arg1":"NewYear19"
+      "arg0":["macro",23],
+      "arg1":"\/lp\/mm-48-hour-offer-1\/"
     },{
       "function":"_cn",
       "arg0":["macro",23],
@@ -807,6 +807,6 @@ data = {
     [["if",33,37],["add",38]],
     [["if",0,38],["add",39]],
     [["if",0,39],["add",39]],
-    [["if",33,40],["add",40]],
+    [["if",0,40],["add",40]],
     [["if",33,41,42],["add",41]]]
 }
