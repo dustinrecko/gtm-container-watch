@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"192",
+  "version":"196",
   
   "macros":[{
       "function":"__jsm",
@@ -92,7 +92,7 @@ data = {
       "vtp_fieldsToSet":["list",["map","fieldName","userId","value",["macro",19]],["map","fieldName","page","value",["template",["macro",20],["macro",6]]],["map","fieldName","customTask","value",["macro",9]]],
       "vtp_useHashAutoLink":false,
       "vtp_decorateFormsAutoLink":true,
-      "vtp_autoLinkDomains":"thrivecart.com, measure.school",
+      "vtp_autoLinkDomains":"thrivecart.com, measure.school, measureschool.com",
       "vtp_enableLinkId":false,
       "vtp_dimension":["list",["map","index","1","dimension",["macro",19]]],
       "vtp_enableEcommerce":false,
@@ -520,26 +520,6 @@ data = {
     },{
       "function":"__html",
       "metadata":["map"],
-      "once_per_event":true,
-      "vtp_html":"\n\u003Cscript type=\"text\/javascript\" src=\"https:\/\/a.opmnstr.com\/app\/js\/api.min.js\" data-campaign=\"ruqlxhclazvgg2iwbze0\" data-user=\"19781\" async\u003E\u003C\/script\u003E\n",
-      "vtp_supportDocumentWrite":true,
-      "vtp_enableIframeMode":false,
-      "vtp_enableEditJsMacroBehavior":false,
-      "vtp_usePostscribe":true,
-      "tag_id":72
-    },{
-      "function":"__html",
-      "metadata":["map"],
-      "once_per_event":true,
-      "vtp_html":"\n\u003Cscript type=\"text\/javascript\" src=\"https:\/\/a.opmnstr.com\/app\/js\/api.min.js\" data-campaign=\"na9c8qowtyc8iojqucpx\" data-user=\"19781\" async\u003E\u003C\/script\u003E\n",
-      "vtp_supportDocumentWrite":true,
-      "vtp_enableIframeMode":false,
-      "vtp_enableEditJsMacroBehavior":false,
-      "vtp_usePostscribe":true,
-      "tag_id":79
-    },{
-      "function":"__html",
-      "metadata":["map"],
       "once_per_load":true,
       "vtp_html":"\n\u003Cscript type=\"text\/javascript\" src=\"https:\/\/a.opmnstr.com\/app\/js\/api.min.js\" data-campaign=\"l4cta0ltzp4jopoex11r\" data-user=\"19781\" async\u003E\u003C\/script\u003E\n",
       "vtp_supportDocumentWrite":true,
@@ -551,21 +531,11 @@ data = {
       "function":"__html",
       "metadata":["map"],
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003E(function(){function d(){function b(a,b){var c=new XMLHttpRequest;c.onreadystatechange=function(){4==c.readyState\u0026\u0026200==c.status\u0026\u0026b(c.responseText)};c.open(\"GET\",a,!0);c.send(null)}var d=\"https:\/\/script.google.com\/macros\/s\/AKfycbwSiaFHdKqTFVQgO6b8iuRObRD4m8MNs0_P5yh3JVnCweXr-W_x\/exec\",e=",["escape",["macro",11],8,16],"||",["escape",["macro",12],8,16],";try{b(d+\"?acid\\x3d\"+e,function(a){a=JSON.parse(a);a.timer=a.fields[\"53\"].val;var b=[\"tags\",\"timer\"],c;for(c in a)-1===b.indexOf(c)\u0026\u0026delete a[c];a.event=\"acUser\";a.time=\nf;dataLayer.push(a);window.localStorage.setItem(\"acUser\",JSON.stringify(a));console.log(\"retrieved new data from API\")})}catch(a){return a}}var e=",["escape",["macro",12],8,16],",h=",["escape",["macro",11],8,16],",f=(new Date).valueOf(),b=localStorage.getItem(\"acUser\");if(b\u0026\u0026!e){console.log(\"local storage found\");b=JSON.parse(b);var g=(f-b.time)\/1E3\/60;60\u003C=g?(console.log(\"cache expired, fetching new data\"),d()):(console.log(\"using cached data - time elapsed: \"+g),dataLayer.push(b))}else d();h||(console.log(\"setting new cookie\"),\n",["escape",["macro",7],8,16],"(\"mbr\",e,999999999999))})();\u003C\/script\u003E"],
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003E(function(){function d(){function b(a,b){var c=new XMLHttpRequest;c.onreadystatechange=function(){4==c.readyState\u0026\u0026200==c.status\u0026\u0026b(c.responseText)};c.open(\"GET\",a,!0);c.send(null)}var d=\"https:\/\/script.google.com\/macros\/s\/AKfycbwSiaFHdKqTFVQgO6b8iuRObRD4m8MNs0_P5yh3JVnCweXr-W_x\/exec\",e=",["escape",["macro",11],8,16],"||",["escape",["macro",12],8,16],";try{b(d+\"?acid\\x3d\"+e,function(a){a=JSON.parse(a);a.timer=a.fields[\"53\"].val;var b=[\"tags\",\"timer\",\"id\"],c;for(c in a)-1===b.indexOf(c)\u0026\u0026delete a[c];a.event=\"acUser\";a.time=\nf;dataLayer.push(a);window.localStorage.setItem(\"acUser\",JSON.stringify(a));console.log(\"retrieved new data from API\")})}catch(a){return a}}var e=",["escape",["macro",12],8,16],",h=",["escape",["macro",11],8,16],",f=(new Date).valueOf(),b=localStorage.getItem(\"acUser\");if(b\u0026\u0026!e){console.log(\"local storage found\");b=JSON.parse(b);var g=(f-b.time)\/1E3\/60;60\u003C=g?(console.log(\"cache expired, fetching new data\"),d()):(console.log(\"using cached data - time elapsed: \"+g),dataLayer.push(b))}else d();h||(console.log(\"setting new cookie\"),\n",["escape",["macro",7],8,16],"(\"mbr\",e,999999999999))})();\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
       "tag_id":83
-    },{
-      "function":"__html",
-      "metadata":["map"],
-      "once_per_event":true,
-      "vtp_html":"\n\u003Cscript type=\"text\/javascript\" src=\"https:\/\/a.opmnstr.com\/app\/js\/api.min.js\" data-campaign=\"poc60ww8l3clz2hwd6fh\" data-user=\"19781\" async\u003E\u003C\/script\u003E\n",
-      "vtp_supportDocumentWrite":true,
-      "vtp_enableIframeMode":false,
-      "vtp_enableEditJsMacroBehavior":false,
-      "vtp_usePostscribe":true,
-      "tag_id":84
     },{
       "function":"__html",
       "metadata":["map"],
@@ -736,18 +706,6 @@ data = {
       "arg1":"measure.school"
     },{
       "function":"_cn",
-      "arg0":["macro",43],
-      "arg1":"48hourMMcouponActive"
-    },{
-      "function":"_eq",
-      "arg0":["macro",14],
-      "arg1":"acUser"
-    },{
-      "function":"_cn",
-      "arg0":["macro",43],
-      "arg1":"48HourPassRedeemed"
-    },{
-      "function":"_cn",
       "arg0":["macro",23],
       "arg1":"\/gtm-essentials-training-special-offer"
     },{
@@ -759,6 +717,10 @@ data = {
       "arg0":["macro",43],
       "arg1":"GTM BTB Banner"
     },{
+      "function":"_eq",
+      "arg0":["macro",14],
+      "arg1":"acUser"
+    },{
       "function":"_cn",
       "arg0":["macro",20],
       "arg1":"\/lp\/"
@@ -766,10 +728,6 @@ data = {
       "function":"_cn",
       "arg0":["macro",20],
       "arg1":"\/products"
-    },{
-      "function":"_cn",
-      "arg0":["macro",23],
-      "arg1":"\/lp\/mm-48-hour-offer-1\/"
     },{
       "function":"_cn",
       "arg0":["macro",23],
@@ -781,7 +739,7 @@ data = {
     }],
   "rules":[
     [["if",0],["add",0,2,3,5,7,13,15,20,21,29,37,17,18,19]],
-    [["if",1],["add",1,10,22,39]],
+    [["if",1],["add",1,10,22,36]],
     [["if",2],["add",4,23]],
     [["if",3,4,5],["add",6]],
     [["if",6,7],["add",8]],
@@ -800,13 +758,10 @@ data = {
     [["if",0],["unless",28],["add",30]],
     [["if",0,30],["unless",29],["add",31]],
     [["if",7,31],["add",32]],
-    [["if",32,33],["add",33]],
-    [["if",33,34],["add",34]],
-    [["if",0,35],["add",35]],
-    [["if",0],["unless",36],["add",36]],
-    [["if",33,37],["add",38]],
-    [["if",0,38],["add",39]],
-    [["if",0,39],["add",39]],
-    [["if",0,40],["add",40]],
-    [["if",33,41,42],["add",41]]]
+    [["if",0,32],["add",33]],
+    [["if",0],["unless",33],["add",34]],
+    [["if",34,35],["add",35]],
+    [["if",0,36],["add",36]],
+    [["if",0,37],["add",36]],
+    [["if",35,38,39],["add",38]]]
 }
