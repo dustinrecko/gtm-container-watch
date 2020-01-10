@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"144",
+  "version":"145",
   
   "macros":[{
       "function":"__jsm",
@@ -661,6 +661,11 @@ data = {
       "vtp_map":["list",["map","key","Damenmode - Lidl.de","value","Damenmode \u0026 Damenkleidung günstig online kaufen - lidl.de"],["map","key","Kostüme - Lidl.de","value","Große Auswahl an Kostümen günstig online kaufen - lidl.de"],["map","key","Mode - Lidl.de","value","Mode \u0026 Kleidung online kaufen - Mode Online Shop - lidl.de"],["map","key","Bettwäsche - Lidl.de","value","Bettwäsche günstig online kaufen, traumhaft weich - lidl.de"],["map","key","Möbel \u0026 Einrichtung - Lidl.de","value","Möbel \u0026 Einrichtung online kaufen - Möbel Shop - lidl.de"],["map","key","Kindermode - Lidl.de","value","Kindermode \u0026 Kinderkleidung günstig online kaufen - lidl.de"],["map","key","Haushalt \u0026 Küche - Lidl.de","value","Alles zum Thema Haushalt \u0026 Küche günstig online kaufen - lidl.de"],["map","key","Baumarkt - Lidl.de","value","Alles zum Thema Baumarkt günstig online kaufen - lidl.de"],["map","key","Damen Shirts \u0026 Tops  Lidl.de","value","Damen Shirts \u0026 Tops günstig online kaufen - lidl.de"],["map","key","Kinderwelt - Lidl.de","value","Kinderwelt - Shoppen was Kinder glücklich macht - lidl.de"],["map","key","Babykleidung (2-24 Monate) - Lidl.de","value","Babykleidung \u0026 Babymode günstig online kaufen - lidl.de"],["map","key","Damen Hosen - Lidl.de","value","Hosen \u0026 Jeans für Damen günstig online kaufen - lidl.de"],["map","key","Hobby \u0026 Freizeit - Lidl.de","value","Alles zum Thema Hobby \u0026 Freizeit online kaufen - lidl.de"],["map","key","Multimedia \u0026 Technik - Lidl.de","value","Große Auswahl an Multimedia \u0026 Technik günstig online kaufen - lidl.de"],["map","key","Sport - Lidl.de","value","Sportkleidung \u0026 Sportausrüstung günstig online kaufen - lidl.de"],["map","key","Damen Sport-Hosen \u0026 Röcke - Lidl.de","value","Sporthosen für Damen bequem und günstig online kaufen - lidl.de"],["map","key","Gartenmöbel - Lidl.de","value","Robuste Gartenmöbel günstig online kaufen - lidl.de"],["map","key","Damen Unterwäsche - Lidl.de","value","Bequeme Damen Unterwäsche günstig online kaufen - lidl.de"],["map","key","Damen Pullover, Sweatshirts \u0026 Sweatjacken - Lidl.de","value","Pullover, Sweatshirts \u0026 Jacken für Damen günstig kaufen - lidl.de"],["map","key","Kleinkinder Mädchenkleidung (2-6 Jahre) - Lidl.de","value","Mädchenkleidung für Kleinkinder günstig online kaufen - lidl.de"],["map","key","Kleinkinder Jungenkleidung (2-6 Jahre) - Lidl.de","value","Jungenkleidung für Kleinkinder günstig online kaufen - lid.de"],["map","key","Damenschuhe - Lidl.de","value","Schicke Damenschuhe günstig online kaufen - lidl.de"],["map","key","Matratzen - Lidl.de","value","Hochwertige Matratzen günstig online kaufen - lidl.de"],["map","key","Wintersport Bekleidung \u0026 Ausstattung - Lidl.de","value","Wintersport Bekleidung \u0026 Ausstattung günstig online kaufen - lidl.de"],["map","key","Damen Röcke \u0026 Kleider - Lidl.de","value","Röcke \u0026 Kleider für Damen günstig online kaufen - lidl.de"],["map","key","Baby- \u0026 Kleinkind-Spielzeug - Lidl.de","value","Baby- \u0026 Kleinkind-Spielzeug günstig online kaufen - lidl.de"],["map","key","Sportbekleidung - Lidl.de","value","Sportbekleidung, bequem und schick, günstig online kaufen - lidl.de"],["map","key","Weine - Lidl.de","value","Qualitätsweine günstig online kaufen - Wein Shop - lidl.de"],["map","key","Bohrmaschinen \u0026 Zubehör - Lidl.de","value","Bohrmaschinen \u0026 Zubehör günstig online kaufen - lidl.de"],["map","key","Damen Blusen \u0026 Tuniken - Lidl.de","value","Blusen \u0026 Tuniken für Damen günstig online kaufen - lidl.de"],["map","key","Trachten - Lidl.de","value","Zünftige Trachten günstig online kaufen - Trachten Shop - lidl.de"],["map","key","Herrenmode - Lidl.de","value","Herrenmode \u0026 Herrenkleidung günstig online kaufen - lidl.de"],["map","key","Damen Sport-Shirts \u0026 Tops - Lidl.de","value","Sport-Shirts \u0026 Tops für Damen günstig online kaufen - lidl.de"],["map","key","Kinderschuhe - Lidl.de","value","Robuste Kinderschuhe günstig online kaufen - lidl.de"],["map","key","Kinder Mädchenkleidung (7-12 Jahre) - Lidl.de","value","Mädchenkleidung günstig online kaufen - lidl.de"],["map","key","Baby Nacht- \u0026 Unterwäsche, Bodies \u0026 Strampler - Lidl.de","value","Nacht- \u0026 Unterwäsche, Bodies \u0026 Strampler für Babys kaufen - lidl.de"],["map","key","Elektrowerkzeuge - Lidl.de","value","Leistungsfähige Elektrowerkzeuge günstig online kaufen - lidl.de"],["map","key","Küchenkleingeräte - Lidl.de","value","Praktische Küchenkleingeräte günstig online kaufen - lidl.de"],["map","key","CRIVIT PRO Sportwelt - Lidl.de","value","In der CRIVIT PRO Sportwelt Kleidung \u0026 Ausrüstung kaufen - lidl.de"],["map","key","Damen Nachtwäsche \u0026 Bademäntel - Lidl.de","value","Damen Nachtwäsche \u0026 Bademäntel günstig online kaufen - lidl.de"],["map","key","Damen Jacken, Westen \u0026 Mäntel - lidl.de","value","Damen Jacken, Westen \u0026 Mäntel günstig online kaufen - lidl.de"],["map","key","Kleinkinder Jungen Hosen - Lidl.de","value","Jungen Hosen für Kleinkinder günstig online kaufen - lidl.de"],["map","key","Kinder Stiefel \u0026 Boots - Lidl.de","value","Stiefel \u0026 Boots für Kinder günstig online kaufen - lidl.de"],["map","key","Gartenmöbel-Sets - Lidl.de","value","Gartenmöbel-Sets günstig online kaufen - lidl.de"],["map","key","Kleinkinder Mädchen Kleider, Hosen \u0026 Röcke - Lidl.de","value","Kleider, Hosen und Röcke für Mädchen günstig online kaufen - lidl.de"],["map","key","Küchenmaschinen - Lidl.de","value","Vielseitige Küchenmaschinen günstig online kaufen - lidl.de"],["map","key","Kaffeemaschinen - Lidl.de","value","Kaffeemaschinen günstig online kaufen - lidl.de"],["map","key","PARKSIDE X 20 V TEAM - Lidl.de","value","Parkside Elektrowerkzeuge günstig online kaufen - lidl.de"],["map","key","Damen Sportbekleidung - Lidl.de","value","Bequeme Sportbekleidung für Damen günstig online kaufen - lidl.de"],["map","key","Betten - Lidl.de","value","Große Auswahl an Betten günstig online kaufen - lidl.de"],["map","key","Spielzeug - Lidl.de","value","Spielzeug für Kinder günstig online kaufen- lidl.de"],["map","key","Kinder Jungenkleidung (7-12 Jahre) - Lidl.de","value","Jungen Kleidung für Kinder (7-12 Jahre) günstig online kaufen"],["map","key","Baby Overalls \u0026 Anzüge - Lidl.de","value","Anzüge und Overalls für Babys günstig online kaufen - lidl.de"],["map","key","Fahrräder - Lidl.de","value","Große Auswahl an Fahrrädern günstig online kaufen - lidl.de"],["map","key","Spannbettlaken - Lidl.de","value","Spannbettlaken günstig online kaufen - lidl.de"],["map","key","Herren Hosen - Lidl.de","value","Hosen \u0026 Jeans für Herren günstig online kaufen - lidl.de"],["map","key","Kaltschaummatratzen - Lidl.de","value","Bequeme Kaltschaummatratzen günstig online kaufen - lidl.de"],["map","key","Baby Hosen - Lidl.de","value","Hosen für Babys günstig online kaufen - lidl.de"],["map","key","Backformen \u0026 Zubehör - Lidl.de","value","Backformen \u0026 Zubehör günstig online kaufen - lidl.de"],["map","key","Kinder Sneaker, Ballerinas \u0026 Halbschuhe - Lidl.de","value","Sneaker, Ballerinas und Halbschuhe für Kinder online kaufen - lidl.de"],["map","key","Baby Shirts - Lidl.de","value","Shirts für Babys günstig online kaufen - lidl.de"],["map","key","Baby Pullover, Sweatshirts \u0026 Sweatjacken - Lidl.de","value","Pullover, Sweatshirts \u0026 Jacken für Babys online kaufen - lidl.de"],["map","key","Monsieur Cuisine èdition plus - Lidl.de","value","Monsieur Cuisine Küchengerät online kaufen - lidl.de"],["map","key","Taschenfederkernmatratzen - Lidl.de","value","Bequeme Taschenfederkernmatratzen günstig online kaufen - lidl.de"],["map","key","Outdoor- \u0026 Campingausrüstung - Lidl.de","value","Outdoor- \u0026 Campingausrüstung günstig online kaufen - lidl.de"],["map","key","Damen Unterwäsche \u0026 Strümpfe - Lidl.de","value","Unterwäsche \u0026 Strümpfe für Damen günstig online kaufen - lidl.de"],["map","key","Schlafzimmermöbel \u0026 Co. - Lidl.de","value","Hochwertige Schlafzimmermöbel günstig online kaufen - lidl.de"],["map","key","Kleinkinder Mädchen Shirts - Lidl.de","value","Mädchen Shirts für Kleinkinder günstig online kaufen - lidl.de"],["map","key","Kleinkinder Mädchen Jacken - Lidl.de","value","Mädchen Jacken für Kleinkinder günstig online kaufen - lidl.de"],["map","key","Smartphones \/ Outdoor-Handys \/ Großtasten-Handys - Lidl.de","value","Handys \u0026 Smartphones günstig online kaufen - lidl.de"],["map","key","Damen Sportbekleidung - Lidl.de","value","Sportbekleidung für Damen günstig online kaufen - lidl.de"],["map","key","Baby Strumpfhosen, Strümpfe \u0026 Socken - Lidl.de","value","Strumpfhosen, Strümpfe und Socken für Babys online kaufen - lidl.de"],["map","key","Jugend- \u0026 Kinderbetten - Lidl.de","value","Jugend- \u0026 Kinderbetten günstig online kaufen - lidl.de"],["map","key","Spirituosen - Lidl.de","value","Große Auswahl an Spirituosen günstig online kaufen - lidl.de"],["map","key","Herren Sportbekleidung - Lidl.de","value","Sportbekleidung für Herren günstig online kaufen - lidl.de"],["map","key","Matratzenauflagen, Topper - Lidl.de","value","Topper \u0026 Matratzenauflagen günstig online kaufen - lidl.de"],["map","key","Lampen \u0026 Leuchten - Lidl.de","value","Lampen \u0026 Leuchten günstig online kaufen - lidl.de"],["map","key","Kleinkinder Jungen Nacht- \u0026 Unterwäsche - Lidl.de","value","Nacht- \u0026 Unterwäsche für Jungen günstig online kaufen - lidl.de"],["map","key","Kleinkinder Jungen Shirts - Lidl.de","value","Jungen Shirts für Kleinkinder günstig online kaufen - lidl.de"],["map","key","Damen Sport-Jacken \u0026 Westen - Lidl.de","value","Sportjacken \u0026 Sportwesten für Damen günstig online kaufen - lidl.de"],["map","key","Badeinrichtung - Lidl.de","value","Hochwertige Badeinrichtung günstig online kaufen - lidl.de"],["map","key","Sonnensegel \u0026 Sonnenschirme - Lidl.de","value","Sonnenschirme \u0026 Sonnensegel günstig online kaufen - lidl.de"],["map","key","Baby Jacken - Lidl.de","value","Tolle Jacken für Babys günstig online kaufen - lidl.de"],["map","key","E-Bikes - Lidl.de","value","Leistungsfähige E-Bikes und Elektrofahrräder online kaufen - lidl.de"],["map","key","Schuhe - Lidl.de","value","Schuhe online kaufen - Schuhe Online Shop - lidl.de"],["map","key","Deckenleuchten - Lidl.de","value","Dekorative Deckenleuchten günstig online kaufen - lidl.de"],["map","key","Damen Stiefeletten - Lidl.de","value","Schicke Stiefeletten für Damen günstig online kaufen - lidl.de"],["map","key","Kleinkinder Mädchen Nacht- \u0026 Unterwäsche - Lidl.de","value","Nacht- \u0026 Unterwäsche für Mädchen günstig online kaufen - lidl.de"],["map","key","Klemmfix - Lidl.de","value","Praktische Klemmfix Rollos günstig online kaufen - lidl.de"],["map","key","Bettwaren - Lidl.de","value","Bettwaren Shop - Bettwaren günstig online kaufen - lidl.de"],["map","key","Damen Sandalen \u0026 Sandaletten - Lidl.de","value","Sandalen \u0026 Sandaletten für Damen günstig online kaufen - lidl.de"],["map","key","Damen Sport-Unterwäsche \u0026 Strümpfe - Lidl.de","value","Sportunterwäsche \u0026 Sportstrümpfe für Damen online kaufen - lidl.de"],["map","key","Kopfkissen - Lidl.de","value","Kuschelweiche Kopfkissen günstig online kaufen - lidl.de"],["map","key","Sportgeräte - Lidl.de","value","Hochwertige Sportgeräte günstig online kaufen - lidl.de"],["map","key","Wasserkocher \u0026 Teekocher - Lidl.de","value","Wasserkocher \u0026 Teekocher günstig online kaufen - lidl.de"],["map","key","Küchenzubehör - Lidl.de","value","Hochwertiges Küchenzubehör günstig online kaufen - lidl.de"],["map","key","Kleinkinder Jungen Jacken - Lidl.de","value","Jungen Jacken für Kleinkinder günstig online kaufen - lidl.de"],["map","key","Damen Homewear - Lidl.de","value","Bequeme Homewear für Damen günstig online kaufen - lidl.de"],["map","key","Kleinkinder Mädchen Leggings, Strumpfhosen \u0026 Strümpfe - Lidl.de","value","Leggings, Strumphosen \u0026 Strümpfe für Mädchen online kaufen - lidl.de"],["map","key","Rollos \u0026 Jalousien - Lidl.de","value","Rollos \u0026 Jalousien günstig online kaufen - lidl.de"],["map","key","Kleinkinder Mädchen Pullover \u0026 Sweatshirts - Lidl.de","value","Pullover \u0026 Sweatshirts für Mädchen günstig online kaufen - lidl.de"],["map","key","Gartentische - Lidl.de","value","Robuste Gartentische günstig online kaufen - lidl.de"],["map","key","Gartenstühle - Lidl.de","value","Robuste Gartenstühle günstig online kaufen - lidl.de"],["map","key","Wohnzimmermöbel \u0026 Co. - Lidl.de","value","Hochwertige Wohnzimmermöbel günstig online kaufen - lidl.de"],["map","key","Holzspielzeug - Lidl.de","value","Hochwertiges Holzspielzeug günstig online kaufen - lidl.de"],["map","key","Kleinkinder Jungen Pullover, Sweatjacken \u0026 Sweatshirts - Lidl.de","value","Pullover, Sweatjacken \u0026 Sweatshirts für Jungen online kaufen - lidl.de"],["map","key","Kinder Jungen Hosen - Lidl.de","value","Jungen Hosen günstig online kaufen - lidl.de"],["map","key","Kinder Mädchen Hosen - Lidl.de","value","Mädchen Hosen günstig online kaufen - lidl.de"],["map","key","Küchenzeilen - Lidl.de","value","Hochwertige Küchenzeilen günstig online kaufen - lidl.de"],["map","key","Fahrradbekleidung - Lidl.de","value","Fahrradbekleidung für Sie und Ihn günstig online kaufen - lidl.de"],["map","key","Werkstatteinrichtung - Lidl.de","value","Hochwertige Werkstatteinrichtung günstig online kaufen - lidl.de"],["map","key","Damen Sneaker \u0026 Halbschuhe - Lidl.de","value","Sneaker und Halbschuhe für Damen günstig online kaufen - lidl.de"],["map","key","Herren Unterwäsche - Lidl.de","value","Bequeme Unterwäsche für Herren günstig online kaufen - lidl.de"],["map","key","Akkuschrauber - Lidl.de","value","Leistungsfähige Akkuschrauber günstig online kaufen - lidl.de"],["map","key","Mikrowellen - Lidl.de","value","Mikrowellen günstig online kaufen - lidl.de"],["map","key","Herren Pullover, Sweatshirts \u0026 Sweatjacken - Lidl.de","value","Pullover, Sweatshirts \u0026 Sweatjacken für Herren online kaufen - lidl.de"],["map","key","Schleifmaschinen \u0026 Zubehör - Lidl.de","value","Schleifmaschinen \u0026 Zubehör günstig online kaufen - lidl.de"],["map","key","Badmöbel - Lidl.de","value","Hochwertige Badmöbel günstig online kaufen - lidl.de"],["map","key","Damen Ballerinas, Slipper \u0026 Pumps - Lidl.de","value","Ballerinas, Slipper \u0026 Pumps für Damen günstig online kaufen - lidl.de"],["map","key","Kinder Sportbekleidung - Lidl.de","value","Sportbekleidung für Kinder günstig online laufen - lidl.de"],["map","key","Sitzauflagen - Lidl.de","value","Bequeme Sitzauflagen günstig online kaufen - lidl.de"],["map","key","Onlineshop - Lidl.de","value","Lidl Onlineshop - Über 30.000 Produkte online bestellen - Lidl lohnt sich"],["map","key","Pavillons \u0026 Überdachung - Lidl.de","value","Pavillons \u0026 Überdachungen günstig online kaufen - lidl.de"],["map","key","Herren Sporthosen - Lidl.de","value","Herren Sporthosen günstig online kaufen - lidl.de"],["map","key","Lidl Connect - Lidl.de","value","Lidl Connect Starterpaket SIM-Karten online bestellen - lidl.de"],["map","key","Tierwelt - Lidl.de","value","Alles für Ihr Tier günstig online kaufen - lidl.de"],["map","key","Monsieur Cuisine èdition plus - Lidl.de","value","Monsieur Cuisine Küchengerät günstig online kaufen - lidl.de"],["map","key","Bademode für Damen - Lidl.de","value","Damen Bademode günstig online kaufen - lidl.de"],["map","key","Werkzeugsets \u0026 -koffer - Lidl.de","value","Werkzeugkoffer \u0026 -sets günstig online kaufen - lidl.de"],["map","key","Pflanzen \u0026 Pflanzenschutz - Lidl.de","value","Pflanzen \u0026 Pflanzenschutz günstig online kaufen - lidl.de"],["map","key","Mal- \u0026 Bastelbedarf - Lidl.de","value","Mal- \u0026 Bastelbedarf günstig online kaufen - lidl.de"],["map","key","Fahrradzubehör - Lidl.de","value","Fahrradzubehör günstig online kaufen - lidl.de"],["map","key","Weitere Babyausstattung - Lidl.de","value","Babyausstattung günstig online kaufen - lidl.de"],["map","key","Loungegruppen - Lidl.de","value","Loungegruppen und Loungemöbel günstig online kaufen - lidl.de"],["map","key","Gartenleuchten - Lidl.de","value","Garten- und Außenleuchten günstig online kaufen - lidl.de"],["map","key","Wohnaccessoires - Lidl.de","value","Dekorative Wohnaccessoires günstig online kaufen - lidl.de"],["map","key","Damen Accessoires - Lidl.de","value","Hübsche Damen Accessoires günstig online kaufen - lidl.de"],["map","key","Damen Sport-Sweatshirts \u0026 Sweatjacken - Lidl.de","value","Damen Sport-Sweatshirts \u0026 Sweatjacken günstig online kaufen - lidl.de"],["map","key","Heimkino \u0026 Home Entertainment - Lidl Deutschland - Lidl.de","value","Heimkino- \u0026 Entertainmentausstattung günstig online kaufen - lidl.de"],["map","key","Damenmode - Lidl Deutschland - Lidl.de","value","Angesagte Damenmode günstig online kaufen - lidl.de"],["map","key","Geschirr \u0026 Tischaccessoires - Lidl.de","value","Geschirr \u0026 Tischaccessoires günstig online kaufen - lidl.de"],["map","key","Herren Hemden - Lidl.de","value","Modische Herren Hemden günstig online kaufen - lidl.de"],["map","key","Fritteusen - Lidl.de","value","Fritteusen günstig online kaufen - lidl.de"],["map","key","Töpfe - Lidl.de","value","Große Auswahl an Töpfen günstig online kaufen - lidl.de"],["map","key","Gartenliegen - Lidl.de","value","Bequeme Gartenliegen günstig online kaufen - lidl.de"],["map","key","Küchenzeile mit Einbaugeräten - Lidl.de","value","Küchenzeile mit Einbaugeräten günstig online kaufen - lidl.de"],["map","key","Heimtextilien - Lidl.de","value","Heimtextilien aller Art günstig online kaufen - lidl.de"],["map","key","Kleinkinder Jungen Strumpfhosen, Strümpfe \u0026 Socken - Lidl.de","value","Kleinkinder Jungen Strumpfhosen, Strümpfe \u0026 Socken kaufen - lidl.de"],["map","key","Babyartikel \u0026 Babyausstattung - Lidl.de","value","Babyartikel \u0026 Babyausstattung günstig online kaufen - lidl.de"],["map","key","Garten \u0026 Grillen - Lidl.de","value","Gartenzubehör \u0026 Grills günstig online kaufen - lidl.de"],["map","key","Teppiche - Lidl.de","value","Hochwertige Teppiche günstig online kaufen - lidl.de"],["map","key","Gartenwerkzeuge - Lidl.de","value","Gartenwerkzeuge günstig online kaufen - lidl.de"],["map","key","Blumenkästen \u0026 -Kübel - Lidl.de","value","Blumenkästen \u0026 Blumentöpfe günstig online kaufen - lidl.de"],["map","key","Kinder Sandalen \u0026 Badeschuhe - Lidl.de","value","Kinder Sandalen \u0026 Badeschuhe günstig online kaufen - lidl.de"],["map","key","Zelte - Lidl.de","value","Hochwertige Zelte günstig online kaufen - lidl.de"],["map","key","Gartenhäuser - Lidl.de","value","Robuste Gartenhäuser günstig online kaufen - lidl.de"],["map","key","Herren T-Shirts - Lidl.de","value","Herren T-Shirts günstig online kaufen - lidl.de"],["map","key","Kinder Mädchen Kleider \u0026 Röcke - Lidl.de","value","Kleider \u0026 Röcke für Mädchen günstig online kaufen - lidl.de"],["map","key","Insektenschutz - Lidl.de","value","Effektiven Insektenschutz günstig online kaufen - lidl.de"],["map","key","Daunendecken \u0026 Federbetten - Lidl.de","value","Daunendecken \u0026 Federbetten günstig online kaufen - lidl.de"],["map","key","Kinder Mädchen Nacht- \u0026 Unterwäsche - Lidl.de","value","Nacht- \u0026 Unterwäsche für Mädchen günstig online kaufen - lidl.de"],["map","key","Nähmaschinen - Lidl.de","value","Nähmaschinen günstig online kaufen - lidl.de"],["map","key","Kinder Mädchen Shirts - Lidl.de","value","Schicke Mädchen Shirts günstig online kaufen - lidl.de"],["map","key","Kühlschränke - Lidl.de","value","Sparsame Kühlschränke günstig online kaufen - lidl.de"],["map","key","Kinder Mädchen Jacken - Lidl.de","value","Mädchen Jacken günstig online kaufen - lidl.de"],["map","key","Baby Kleider \u0026 Röcke - Lidl.de","value","Baby Kleider \u0026 Röcke günstig online kaufen - lidl.de"],["map","key","Puppen \u0026 Zubehör - Lidl.de","value","Puppen \u0026 Zubehör günstig online kaufen - lidl.de"],["map","key","Damen Strumpfhosen \u0026 Leggings - Lidl Deutschland - Lidl.de","value","Damen Strumpfhosen \u0026 Leggings günstig online kaufen lidl.de"],["map","key","Microfaserdecken - Lidl.de","value","Microfaserdecken günstig online kaufen - lidl.de"],["map","key","Herren Sport Jacken \u0026 Westen - Lidl.de","value","Herren Sport Jacken \u0026 Westen günstig online kaufen - lidl.de"],["map","key","Dekoartikel - Lidl.de","value","Dekoartikel günstig online kaufen - lidl.de"],["map","key","Angelausrüstung - Lidl.de","value","Angelausrüstung günstig online kaufen - lidl.de"],["map","key","Kinderzimmermöbel \u0026 Co. - Lidl.de","value","Kinderzimmermöbel \u0026 Co. günstig online kaufen - lidl.de"],["map","key","Damen Stiefel - Lidl.de","value","Schicke Damen Stiefel günstig online kaufen - lidl.de"],["map","key","Kinder Mädchen Pullover \u0026 Sweatshirts - Lidl.de","value","Mädchen Pullover \u0026 Sweatshirts günstig online kaufen - lidl.de"],["map","key","Herrenschuhe - Lidl.de","value","Herrenschuhe für jeden Anlass günstig online kaufen - lidl.de"],["map","key","Stehleuchten - Lidl.de","value","Dekorative Stehleuchten günstig online kaufen - lidl.de"],["map","key","Herren Sport Shirts - Lidl.de","value","Herren Sport Shirts günstig online kaufen - lidl.de"],["map","key","Wintersport - Lidl.de","value","Alles zum Thema Wintersport günstig online kaufen - lidl.de"],["map","key","Koffer \u0026 Taschen - Lidl.de","value","Koffer \u0026 Taschen günstig online kaufen - lidl.de"],["map","key","Gardinen - Lidl.de","value","Wohnliche Gardinen günstig online kaufen - lidl.de"],["map","key","Backen \u0026 Backgeräte - Lidl.de","value","Backgeräte und Backzubehör günstig online kaufen - lidl.de"],["map","key","Komfortschaummatratzen - Lidl.de","value","Komfortschaummatratzen günstig online kaufen - lidl.de"],["map","key","Herren Jacken, Westen \u0026 Mäntel - Lidl.de","value","Herren Jacken, Westen \u0026 Mäntel günstig online kaufen - lidl.de"],["map","key","Kinder Jungen Shirts \u0026 Hemden - Lidl.de","value","Schicke Jungen Shirts \u0026 Hemden günstig online kaufen - lidl.de"],["map","key","Ferngesteuerte Autos - Lidl.de","value","Ferngesteuerte Autos günstig online kaufen - lidl.de"],["map","key","Nähmaschinen \u0026 Handarbeitsbedarf - Lidl.de","value","Nähmaschinen \u0026 Handarbeitsbedarf günstig online kaufen - lidl.de"],["map","key","Kücheneinrichtung - Lidl.de","value","Kücheneinrichtung günstig online kaufen - lidl.de"],["map","key","Accessoires für Kinder - Lidl.de","value","Accessoires für Kinder günstig online kaufen - lidl.de"],["map","key","Bestseller Kinderwelt - Lidl.de","value","Bestseller Kinderwelt günstig online kaufen - lidl.de"],["map","key","Große Größen - Lidl.de","value","Große Größen günstig online kaufen - lidl.de"],["map","key","Musikinstrumente - Lidl.de","value","Musikinstrumente günstig online kaufen - lidl.de"],["map","key","Navigationsgeräte - Lidl.de","value","Navigationsgeräte günstig online kaufen - lidl.de"],["map","key","GELATELLI - Lidl.de","value","GELATELLI - Eis bei Lidl - lidl.de"],["map","key","Ratgeber Baumarkt - Lidl.de","value","Online-Ratgeber Baumarkt - Lidl.de"],["map","key","Ratgeber Elektrowerkzeuge - Lidl.de","value","Online-Ratgeber Elektrowerkzeuge - Lidl.de"],["map","key","Ratgeber Garten - Lidl.de","value","Online-Ratgeber Garten - Lidl.de"],["map","key","Ratgeber Sicherheitstechnik - Lidl.de","value","Online-Ratgeber Sicherheitstechnik - Lidl.de"]]
     },{
       "function":"__v",
+      "vtp_dataLayerVersion":2,
+      "vtp_setDefaultValue":false,
+      "vtp_name":"ecommerce.detail.products.0.price"
+    },{
+      "function":"__v",
       "vtp_name":"environment",
       "vtp_dataLayerVersion":2
     },{
@@ -979,70 +984,70 @@ data = {
       "vtp_checkValidation":true,
       "vtp_waitForTagsTimeout":"2000",
       "vtp_uniqueTriggerId":"903835_83",
-      "tag_id":123
-    },{
-      "function":"__lcl",
-      "vtp_waitForTags":true,
-      "vtp_checkValidation":true,
-      "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"903835_84",
-      "tag_id":124
-    },{
-      "function":"__lcl",
-      "vtp_waitForTags":true,
-      "vtp_checkValidation":true,
-      "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"903835_107",
-      "tag_id":125
-    },{
-      "function":"__lcl",
-      "vtp_waitForTags":true,
-      "vtp_checkValidation":true,
-      "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"903835_110",
       "tag_id":126
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_checkValidation":true,
       "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"903835_117",
+      "vtp_uniqueTriggerId":"903835_84",
       "tag_id":127
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_checkValidation":true,
       "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"903835_123",
+      "vtp_uniqueTriggerId":"903835_107",
       "tag_id":128
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_checkValidation":true,
       "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"903835_129",
+      "vtp_uniqueTriggerId":"903835_110",
       "tag_id":129
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_checkValidation":true,
       "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"903835_146",
+      "vtp_uniqueTriggerId":"903835_117",
       "tag_id":130
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_checkValidation":true,
       "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"903835_153",
+      "vtp_uniqueTriggerId":"903835_123",
       "tag_id":131
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_checkValidation":true,
       "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"903835_171",
+      "vtp_uniqueTriggerId":"903835_129",
       "tag_id":132
+    },{
+      "function":"__lcl",
+      "vtp_waitForTags":true,
+      "vtp_checkValidation":true,
+      "vtp_waitForTagsTimeout":"2000",
+      "vtp_uniqueTriggerId":"903835_146",
+      "tag_id":133
+    },{
+      "function":"__lcl",
+      "vtp_waitForTags":true,
+      "vtp_checkValidation":true,
+      "vtp_waitForTagsTimeout":"2000",
+      "vtp_uniqueTriggerId":"903835_153",
+      "tag_id":134
+    },{
+      "function":"__lcl",
+      "vtp_waitForTags":true,
+      "vtp_checkValidation":true,
+      "vtp_waitForTagsTimeout":"2000",
+      "vtp_uniqueTriggerId":"903835_171",
+      "tag_id":135
     },{
       "function":"__sdl",
       "vtp_verticalThresholdUnits":"PERCENT",
@@ -1051,7 +1056,7 @@ data = {
       "vtp_horizontalThresholdOn":false,
       "vtp_uniqueTriggerId":"903835_178",
       "vtp_enableTriggerStartOption":true,
-      "tag_id":133
+      "tag_id":136
     },{
       "function":"__sdl",
       "vtp_verticalThresholdUnits":"PERCENT",
@@ -1060,7 +1065,7 @@ data = {
       "vtp_horizontalThresholdOn":false,
       "vtp_uniqueTriggerId":"903835_193",
       "vtp_enableTriggerStartOption":true,
-      "tag_id":134
+      "tag_id":137
     },{
       "function":"__sdl",
       "vtp_verticalThresholdUnits":"PERCENT",
@@ -1069,17 +1074,17 @@ data = {
       "vtp_horizontalThresholdOn":false,
       "vtp_uniqueTriggerId":"903835_194",
       "vtp_enableTriggerStartOption":true,
-      "tag_id":135
+      "tag_id":138
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_checkValidation":true,
       "vtp_waitForTagsTimeout":"2000",
       "vtp_uniqueTriggerId":"903835_205",
-      "tag_id":136
+      "tag_id":139
     },{
       "function":"__hl",
-      "tag_id":137
+      "tag_id":140
     },{
       "function":"__sdl",
       "vtp_verticalThresholdUnits":"PERCENT",
@@ -1088,7 +1093,7 @@ data = {
       "vtp_horizontalThresholdOn":false,
       "vtp_uniqueTriggerId":"903835_237",
       "vtp_enableTriggerStartOption":true,
-      "tag_id":138
+      "tag_id":141
     },{
       "function":"__sdl",
       "vtp_verticalThresholdUnits":"PERCENT",
@@ -1097,7 +1102,7 @@ data = {
       "vtp_horizontalThresholdOn":false,
       "vtp_uniqueTriggerId":"903835_245",
       "vtp_enableTriggerStartOption":true,
-      "tag_id":139
+      "tag_id":142
     },{
       "function":"__sdl",
       "vtp_verticalThresholdUnits":"PERCENT",
@@ -1106,7 +1111,7 @@ data = {
       "vtp_horizontalThresholdOn":false,
       "vtp_uniqueTriggerId":"903835_270",
       "vtp_enableTriggerStartOption":true,
-      "tag_id":140
+      "tag_id":143
     },{
       "function":"__sdl",
       "vtp_verticalThresholdUnits":"PERCENT",
@@ -1115,7 +1120,7 @@ data = {
       "vtp_horizontalThresholdOn":false,
       "vtp_uniqueTriggerId":"903835_271",
       "vtp_enableTriggerStartOption":true,
-      "tag_id":141
+      "tag_id":144
     },{
       "function":"__sdl",
       "vtp_verticalThresholdUnits":"PERCENT",
@@ -1124,7 +1129,7 @@ data = {
       "vtp_horizontalThresholdOn":false,
       "vtp_uniqueTriggerId":"903835_272",
       "vtp_enableTriggerStartOption":true,
-      "tag_id":142
+      "tag_id":145
     },{
       "function":"__html",
       "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003Evar disableStr=\"ga-disable-\"+",["escape",["macro",20],8,16],";\nfunction gaOptout(){document.cookie=disableStr+\"\\x3dtrue; expires\\x3dThu, 31 Dec 2099 23:59:59 UTC; path\\x3d\/\";window[disableStr]=!0;document.cookie=\"_ga\\x3d; expires\\x3dThu, 01 Jan 1970 00:00:00 UTC; domain\\x3d.lidl.de; path\\x3d\/\";document.cookie=\"_gat_UA-47225043-4\\x3d; expires\\x3dThu, 01 Jan 1970 00:00:00 UTC; domain\\x3d.lidl.de; path\\x3d\/\";document.cookie=\"_dc_gtm_UA-47225043-4\\x3d; expires\\x3dThu, 01 Jan 1970 00:00:00 UTC; domain\\x3d.lidl.de; path\\x3d\/\";alert(\"Opt Out Cookie wurde erfolgreich gesetzt\")}\n;\u003C\/script\u003E"],
@@ -1189,6 +1194,15 @@ data = {
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
       "tag_id":103
+    },{
+      "function":"__html",
+      "metadata":["map"],
+      "once_per_event":true,
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003Etry{Kameleoon.API.Goals.processConversion(187414,",["escape",["macro",141],8,16],")}catch(a){console.warn(a)};\u003C\/script\u003E"],
+      "vtp_supportDocumentWrite":false,
+      "vtp_enableIframeMode":false,
+      "vtp_enableEditJsMacroBehavior":false,
+      "tag_id":125
     }],
   "predicates":[{
       "function":"_re",
@@ -1401,7 +1415,7 @@ data = {
     [["if",7,8],["add",3]],
     [["if",11],["add",4]],
     [["if",12],["add",5]],
-    [["if",2,13],["add",6]],
+    [["if",2,13],["add",6,41]],
     [["if",2,14],["add",6]],
     [["if",2,15],["add",6]],
     [["if",2,16],["add",6]],
