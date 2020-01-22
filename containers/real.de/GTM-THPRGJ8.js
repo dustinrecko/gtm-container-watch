@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"531",
+  "version":"532",
   
   "macros":[{
       "function":"__v",
@@ -335,7 +335,7 @@ data = {
       "vtp_name":"view.virt_path"
     },{
       "function":"__jsm",
-      "vtp_javascript":["template","(function(){vt=",["escape",["macro",36],8,16],";vp=",["escape",["macro",86],8,16],";if(\"Search\"==vt\u0026\u00260==vp.includes(\"\\x26q\\x3d\"))return vp.includes(\"?\")?vp+\"\\x26q\\x3d\"+",["escape",["macro",51],8,16],":vp+\"?q\\x3d\"+",["escape",["macro",51],8,16],";if(vp.includes(\"\/lebensmittelshop\/bestellung\/paygate\")){var a=vp.split(\"?\");return a[0]}return ",["escape",["macro",86],8,16],"})();"]
+      "vtp_javascript":["template","(function(){vt=",["escape",["macro",36],8,16],";vp=",["escape",["macro",86],8,16],";if(\"Search\"==vt\u0026\u0026-1==vp.indexOf(\"\\x26q\\x3d\"))return 0\u003Cvp.indexOf(\"?\")?vp+\"\\x26q\\x3d\"+",["escape",["macro",51],8,16],":vp+\"?q\\x3d\"+",["escape",["macro",51],8,16],";if(0\u003Cvp.indexOf(\"\/lebensmittelshop\/bestellung\/paygate\")){var a=vp.split(\"?\");return a[0]}return ",["escape",["macro",86],8,16],"})();"]
     },{
       "function":"__v",
       "vtp_dataLayerVersion":2,
