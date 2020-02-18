@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"203",
+  "version":"204",
   
   "macros":[{
       "function":"__e"
@@ -356,7 +356,7 @@ data = {
       "vtp_checkValidation":false,
       "vtp_waitForTagsTimeout":"2000",
       "vtp_uniqueTriggerId":"1927886_24",
-      "tag_id":238
+      "tag_id":240
     },{
       "function":"__evl",
       "vtp_elementId":"payment-processor-wrap",
@@ -366,7 +366,7 @@ data = {
       "vtp_selectorType":"ID",
       "vtp_onScreenRatio":"50",
       "vtp_uniqueTriggerId":"1927886_105",
-      "tag_id":239
+      "tag_id":241
     },{
       "function":"__evl",
       "vtp_elementId":"gform_confirmation_message_2",
@@ -376,7 +376,7 @@ data = {
       "vtp_selectorType":"ID",
       "vtp_onScreenRatio":"50",
       "vtp_uniqueTriggerId":"1927886_231",
-      "tag_id":240
+      "tag_id":242
     },{
       "function":"__html",
       "metadata":["map"],
@@ -528,6 +528,24 @@ data = {
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
       "tag_id":237
+    },{
+      "function":"__html",
+      "metadata":["map"],
+      "once_per_event":true,
+      "vtp_html":"\n\u003Cscript data-gtmsrc=\"\/\/widget.manychat.com\/428799710606616.js\" async=\"async\" type=\"text\/gtmscript\"\u003E\u003C\/script\u003E",
+      "vtp_supportDocumentWrite":false,
+      "vtp_enableIframeMode":false,
+      "vtp_enableEditJsMacroBehavior":false,
+      "tag_id":238
+    },{
+      "function":"__html",
+      "metadata":["map"],
+      "once_per_event":true,
+      "vtp_html":"\n\u003Cbody onload=\"window.MC_PIXEL.fireLogMoneyEvent(\u0026#39;Purchase\u0026#39;,, \u0026#39;USD\u0026#39;)\"\u003E\n...\n\u003C\/body\u003E",
+      "vtp_supportDocumentWrite":false,
+      "vtp_enableIframeMode":false,
+      "vtp_enableEditJsMacroBehavior":false,
+      "tag_id":239
     }],
   "predicates":[{
       "function":"_eq",
@@ -667,8 +685,8 @@ data = {
       "arg1":"48HourPassOffer"
     }],
   "rules":[
-    [["if",0],["add",1,4,9,11,15,19,0,35,16,17,18]],
-    [["if",1],["add",2,6,14,20,33]],
+    [["if",0],["add",1,4,9,11,15,19,0,35,36,16,17,18]],
+    [["if",1],["add",2,6,14,20,33,37]],
     [["if",2],["add",3,21]],
     [["if",3],["add",5]],
     [["if",4],["add",7]],
