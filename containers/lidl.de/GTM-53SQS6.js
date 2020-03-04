@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"155",
+  "version":"157",
   
   "macros":[{
       "function":"__cvt_903835_490"
@@ -1243,8 +1243,8 @@ data = {
       "arg1":"cookie_consent_statistics"
     },{
       "function":"_re",
-      "arg0":["macro",23],
-      "arg1":"02|05"
+      "arg0":["macro",2],
+      "arg1":"App"
     },{
       "function":"_eq",
       "arg0":["macro",1],
