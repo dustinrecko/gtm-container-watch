@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"218",
+  "version":"219",
   
   "macros":[{
       "function":"__e"
@@ -278,17 +278,22 @@ data = {
       "tag_id":58
     },{
       "function":"__ua",
+      "metadata":["map"],
       "once_per_event":true,
+      "vtp_nonInteraction":false,
       "vtp_overrideGaSettings":true,
       "vtp_useEcommerceDataLayer":true,
-      "vtp_trackType":"TRACK_PAGEVIEW",
+      "vtp_eventCategory":"EE",
+      "vtp_trackType":"TRACK_EVENT",
       "vtp_gaSettings":["macro",11],
+      "vtp_eventLabel":"Add to Cart",
       "vtp_enableEcommerce":true,
       "vtp_enableRecaptchaOption":false,
       "vtp_enableUaRlsa":false,
       "vtp_enableUseInternalVersion":false,
       "vtp_enableFirebaseCampaignData":true,
       "vtp_ecommerceIsEnabled":true,
+      "vtp_trackTypeIsEvent":true,
       "tag_id":59
     },{
       "function":"__paused",
