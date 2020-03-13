@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"223",
+  "version":"224",
   
   "macros":[{
       "function":"__e"
@@ -736,6 +736,14 @@ data = {
       "arg0":["macro",24],
       "arg1":"48HourPassOffer"
     },{
+      "function":"_eq",
+      "arg0":["macro",0],
+      "arg1":"gtm.triggerGroup"
+    },{
+      "function":"_re",
+      "arg0":["macro",20],
+      "arg1":"(^$|((^|,)1927886_259($|,)))"
+    },{
       "function":"_re",
       "arg0":["macro",32],
       "arg1":"utm|gclid"
@@ -763,8 +771,8 @@ data = {
     [["if",8,9],["add",12]],
     [["if",11,12],["unless",10],["add",15]],
     [["if",0,13],["add",15,38]],
-    [["if",0],["unless",14,15],["add",20,39]],
-    [["if",12],["unless",16],["add",21,39]],
+    [["if",0],["unless",14,15],["add",20]],
+    [["if",12],["unless",16],["add",21]],
     [["if",17],["add",24]],
     [["if",14,19],["unless",18],["add",25]],
     [["if",0,20],["add",26]],
@@ -777,7 +785,8 @@ data = {
     [["if",0,28],["add",33]],
     [["if",0,14],["unless",29,30],["add",33]],
     [["if",12,31,32],["add",34]],
-    [["if",0,33],["add",40]],
-    [["if",19],["unless",34],["add",41]],
-    [["if",12,35],["unless",36],["add",42]]]
+    [["if",33,34],["add",39]],
+    [["if",0,35],["add",40]],
+    [["if",19],["unless",36],["add",41]],
+    [["if",12,37],["unless",38],["add",42]]]
 }
