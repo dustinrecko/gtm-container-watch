@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"224",
+  "version":"226",
   
   "macros":[{
       "function":"__e"
@@ -374,7 +374,7 @@ data = {
       "vtp_checkValidation":false,
       "vtp_waitForTagsTimeout":"2000",
       "vtp_uniqueTriggerId":"1927886_24",
-      "tag_id":257
+      "tag_id":261
     },{
       "function":"__evl",
       "vtp_elementId":"payment-processor-wrap",
@@ -384,7 +384,7 @@ data = {
       "vtp_selectorType":"ID",
       "vtp_onScreenRatio":"50",
       "vtp_uniqueTriggerId":"1927886_105",
-      "tag_id":258
+      "tag_id":262
     },{
       "function":"__evl",
       "vtp_elementId":"gform_confirmation_message_2",
@@ -394,22 +394,37 @@ data = {
       "vtp_selectorType":"ID",
       "vtp_onScreenRatio":"50",
       "vtp_uniqueTriggerId":"1927886_231",
-      "tag_id":259
+      "tag_id":263
     },{
       "function":"__tg",
       "vtp_triggerIds":["list","1927886_259_245","1927886_259_258"],
       "vtp_uniqueTriggerId":"1927886_259",
-      "tag_id":260
+      "tag_id":264
     },{
       "function":"__tg",
       "vtp_isListeningTag":true,
       "vtp_firingId":"1927886_259_245",
-      "tag_id":261
+      "tag_id":265
     },{
       "function":"__tg",
       "vtp_isListeningTag":true,
       "vtp_firingId":"1927886_259_258",
-      "tag_id":263
+      "tag_id":267
+    },{
+      "function":"__tg",
+      "vtp_triggerIds":["list","1927886_262_258","1927886_262_261"],
+      "vtp_uniqueTriggerId":"1927886_262",
+      "tag_id":268
+    },{
+      "function":"__tg",
+      "vtp_isListeningTag":true,
+      "vtp_firingId":"1927886_262_258",
+      "tag_id":269
+    },{
+      "function":"__tg",
+      "vtp_isListeningTag":true,
+      "vtp_firingId":"1927886_262_261",
+      "tag_id":271
     },{
       "function":"__html",
       "metadata":["map"],
@@ -602,6 +617,16 @@ data = {
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
       "tag_id":256
+    },{
+      "function":"__html",
+      "metadata":["map"],
+      "once_per_event":true,
+      "vtp_html":"\n\u003Cscript type=\"text\/javascript\" src=\"https:\/\/a.opmnstr.com\/app\/js\/api.min.js\" data-campaign=\"bzhqtcoisesrnimh7xuw\" data-user=\"19781\" async\u003E\u003C\/script\u003E\n",
+      "vtp_supportDocumentWrite":true,
+      "vtp_enableIframeMode":false,
+      "vtp_enableEditJsMacroBehavior":false,
+      "vtp_usePostscribe":true,
+      "tag_id":260
     }],
   "predicates":[{
       "function":"_eq",
@@ -671,6 +696,10 @@ data = {
       "function":"_cn",
       "arg0":["macro",24],
       "arg1":"MeasureMasters"
+    },{
+      "function":"_sw",
+      "arg0":["macro",18],
+      "arg1":"https:\/\/measureschool.com\/go\/"
     },{
       "function":"_eq",
       "arg0":["macro",0],
@@ -759,34 +788,40 @@ data = {
       "function":"_eq",
       "arg0":["macro",35],
       "arg1":"undefined"
+    },{
+      "function":"_re",
+      "arg0":["macro",20],
+      "arg1":"(^$|((^|,)1927886_262($|,)))"
     }],
   "rules":[
-    [["if",0],["add",1,4,8,10,14,22,0,35,36,16,17,18,19]],
-    [["if",1],["add",2,6,13,23,33,37]],
-    [["if",2],["add",3,24]],
+    [["if",0],["add",1,4,8,10,14,25,0,38,39,16,17,18,19,22]],
+    [["if",1],["add",2,6,13,26,36,40]],
+    [["if",2],["add",3,27]],
     [["if",3],["add",5]],
     [["if",4],["add",7]],
     [["if",5],["add",9]],
     [["if",0,7],["unless",6],["add",11]],
     [["if",8,9],["add",12]],
     [["if",11,12],["unless",10],["add",15]],
-    [["if",0,13],["add",15,38]],
+    [["if",0,13],["add",15,41]],
     [["if",0],["unless",14,15],["add",20]],
-    [["if",12],["unless",16],["add",21]],
-    [["if",17],["add",24]],
-    [["if",14,19],["unless",18],["add",25]],
-    [["if",0,20],["add",26]],
-    [["if",0,21],["unless",22],["add",27]],
-    [["if",0],["unless",23],["add",28]],
-    [["if",19,24],["add",29]],
-    [["if",0,25],["add",30]],
-    [["if",0],["unless",26],["add",31]],
-    [["if",12,27],["add",32]],
-    [["if",0,28],["add",33]],
-    [["if",0,14],["unless",29,30],["add",33]],
-    [["if",12,31,32],["add",34]],
-    [["if",33,34],["add",39]],
-    [["if",0,35],["add",40]],
-    [["if",19],["unless",36],["add",41]],
-    [["if",12,37],["unless",38],["add",42]]]
+    [["if",12],["unless",16],["add",21,23]],
+    [["if",0,17],["add",24]],
+    [["if",18],["add",27]],
+    [["if",14,20],["unless",19],["add",28]],
+    [["if",0,21],["add",29]],
+    [["if",0,22],["unless",23],["add",30]],
+    [["if",0],["unless",24],["add",31]],
+    [["if",20,25],["add",32]],
+    [["if",0,26],["add",33]],
+    [["if",0],["unless",27],["add",34]],
+    [["if",12,28],["add",35]],
+    [["if",0,29],["add",36]],
+    [["if",0,14],["unless",30,31],["add",36]],
+    [["if",12,32,33],["add",37]],
+    [["if",34,35],["add",42]],
+    [["if",0,36],["add",43]],
+    [["if",20],["unless",37],["add",44]],
+    [["if",12,38],["unless",39],["add",45]],
+    [["if",34,40],["add",46]]]
 }
