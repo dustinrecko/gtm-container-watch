@@ -1,8 +1,10 @@
 data = {
 "resource": {
-  "version":"159",
+  "version":"158",
   
   "macros":[{
+      "function":"__cvt_903835_490"
+    },{
       "function":"__e"
     },{
       "function":"__k",
@@ -16,18 +18,16 @@ data = {
       "vtp_enableIgnoreEmptyQueryParam":false
     },{
       "function":"__jsm",
-      "vtp_javascript":["template","(function(){return ",["escape",["macro",1],8,16],"||",["escape",["macro",2],8,16],"})();"]
+      "vtp_javascript":["template","(function(){return ",["escape",["macro",2],8,16],"||",["escape",["macro",3],8,16],"})();"]
     },{
       "function":"__smm",
       "vtp_setDefaultValue":true,
-      "vtp_input":["macro",3],
+      "vtp_input":["macro",4],
       "vtp_defaultValue":"UA-47225043-4",
       "vtp_map":["list",["map","key","App","value","UA-47225043-13"],["map","key","GeschenkeApp","value","UA-72493546-43"]]
     },{
       "function":"__jsm",
-      "vtp_javascript":["template","(function(){var a=\"ga-disable-\"+",["escape",["macro",4],8,16],";if(-1\u003Cdocument.cookie.indexOf(a+\"\\x3dtrue\"))return a+\"\\x3dtrue\"})();"]
-    },{
-      "function":"__cvt_903835_490"
+      "vtp_javascript":["template","(function(){var a=\"ga-disable-\"+",["escape",["macro",5],8,16],";if(-1\u003Cdocument.cookie.indexOf(a+\"\\x3dtrue\"))return a+\"\\x3dtrue\"})();"]
     },{
       "function":"__v",
       "vtp_name":"eventCategory",
@@ -748,7 +748,6 @@ data = {
     }],
   "tags":[{
       "function":"__ua",
-      "metadata":["map"],
       "vtp_nonInteraction":false,
       "vtp_useDebugVersion":false,
       "vtp_eventCategory":["macro",7],
@@ -763,7 +762,7 @@ data = {
       "vtp_enableLinkId":false,
       "vtp_dimension":["list",["map","index","4","dimension",["macro",21]],["map","index","3","dimension",["macro",22]],["map","index","2","dimension",["macro",23]],["map","index","1","dimension",["macro",24]],["map","index","8","dimension",["macro",25]],["map","index","7","dimension",["macro",26]],["map","index","6","dimension",["macro",27]],["map","index","5","dimension",["macro",28]],["map","index","9","dimension",["macro",11]],["map","index","10","dimension",["macro",29]]],
       "vtp_enableEcommerce":false,
-      "vtp_trackingId":["macro",4],
+      "vtp_trackingId":["macro",5],
       "vtp_enableRecaptchaOption":false,
       "vtp_enableUaRlsa":false,
       "vtp_enableUseInternalVersion":false,
@@ -776,7 +775,6 @@ data = {
       "tag_id":44
     },{
       "function":"__jel",
-      "metadata":["map"],
       "tag_id":45
     },{
       "function":"__ua",
@@ -791,7 +789,7 @@ data = {
       "vtp_autoLinkDomains":"www.lidl-flyer.com, lidl-flyer.com",
       "vtp_dimension":["list",["map","index","1","dimension",["macro",24]],["map","index","2","dimension",["macro",23]],["map","index","3","dimension",["macro",22]],["map","index","4","dimension",["macro",21]],["map","index","5","dimension",["macro",28]],["map","index","6","dimension",["macro",27]],["map","index","7","dimension",["macro",26]],["map","index","8","dimension",["macro",25]],["map","index","9","dimension",["macro",11]],["map","index","10","dimension",["macro",29]],["map","index","17","dimension",["macro",39]],["map","index","20","dimension",["macro",40]],["map","index","11","dimension",["macro",41]],["map","index","12","dimension",["macro",42]],["map","index","29","dimension",["macro",43]],["map","index","200","dimension",["macro",44]],["map","index","199","dimension",["macro",45]],["map","index","93","dimension",["macro",46]],["map","index","94","dimension",["macro",47]],["map","index","95","dimension",["macro",48]],["map","index","96","dimension",["macro",49]],["map","index","97","dimension",["macro",50]],["map","index","102","dimension",["macro",51]]],
       "vtp_enableEcommerce":true,
-      "vtp_trackingId":["macro",4],
+      "vtp_trackingId":["macro",5],
       "vtp_enableRecaptchaOption":false,
       "vtp_enableUaRlsa":false,
       "vtp_enableUseInternalVersion":false,
@@ -800,7 +798,6 @@ data = {
       "tag_id":46
     },{
       "function":"__ua",
-      "metadata":["map"],
       "vtp_overrideGaSettings":true,
       "vtp_setTrackerName":false,
       "vtp_doubleClick":true,
@@ -812,7 +809,7 @@ data = {
       "vtp_socialActionTarget":["macro",53],
       "vtp_socialNetwork":["macro",54],
       "vtp_dimension":["list",["map","index","4","dimension",["macro",21]],["map","index","3","dimension",["macro",22]],["map","index","2","dimension",["macro",23]],["map","index","1","dimension",["macro",24]],["map","index","8","dimension",["macro",25]],["map","index","7","dimension",["macro",26]],["map","index","6","dimension",["macro",27]],["map","index","5","dimension",["macro",28]],["map","index","9","dimension",["macro",11]],["map","index","10","dimension",["macro",29]]],
-      "vtp_trackingId":["macro",4],
+      "vtp_trackingId":["macro",5],
       "vtp_enableRecaptchaOption":false,
       "vtp_enableUaRlsa":false,
       "vtp_enableUseInternalVersion":false,
@@ -821,7 +818,6 @@ data = {
       "tag_id":48
     },{
       "function":"__ua",
-      "metadata":["map"],
       "vtp_overrideGaSettings":true,
       "vtp_setTrackerName":false,
       "vtp_doubleClick":true,
@@ -833,7 +829,7 @@ data = {
       "vtp_timingVar":["macro",56],
       "vtp_dimension":["list",["map","index","4","dimension",["macro",21]],["map","index","3","dimension",["macro",22]],["map","index","2","dimension",["macro",23]],["map","index","1","dimension",["macro",24]],["map","index","8","dimension",["macro",25]],["map","index","7","dimension",["macro",26]],["map","index","6","dimension",["macro",27]],["map","index","5","dimension",["macro",28]],["map","index","9","dimension",["macro",11]],["map","index","10","dimension",["macro",29]]],
       "vtp_timingValue":["macro",57],
-      "vtp_trackingId":["macro",4],
+      "vtp_trackingId":["macro",5],
       "vtp_enableRecaptchaOption":false,
       "vtp_enableUaRlsa":false,
       "vtp_enableUseInternalVersion":false,
@@ -853,7 +849,7 @@ data = {
       "vtp_eventAction":["macro",60],
       "vtp_dimension":["list",["map","index","4","dimension",["macro",21]],["map","index","3","dimension",["macro",22]],["map","index","2","dimension",["macro",23]],["map","index","1","dimension",["macro",24]],["map","index","8","dimension",["macro",25]],["map","index","7","dimension",["macro",26]],["map","index","6","dimension",["macro",27]],["map","index","5","dimension",["macro",28]],["map","index","9","dimension",["macro",11]],["map","index","10","dimension",["macro",29]],["map","index","20","dimension",["macro",40]],["map","index","30","dimension",["macro",61]],["map","index","31","dimension",["macro",62]],["map","index","32","dimension",["macro",63]],["map","index","33","dimension",["macro",64]],["map","index","34","dimension",["macro",65]],["map","index","35","dimension",["macro",66]],["map","index","36","dimension",["macro",67]],["map","index","37","dimension",["macro",68]],["map","index","38","dimension",["macro",69]],["map","index","39","dimension",["macro",70]],["map","index","40","dimension",["macro",71]],["map","index","41","dimension",["macro",72]],["map","index","42","dimension",["macro",73]],["map","index","43","dimension",["macro",74]],["map","index","44","dimension",["macro",75]],["map","index","45","dimension",["macro",76]],["map","index","46","dimension",["macro",77]],["map","index","47","dimension",["macro",78]],["map","index","48","dimension",["macro",79]],["map","index","49","dimension",["macro",80]],["map","index","50","dimension",["macro",81]],["map","index","51","dimension",["macro",82]],["map","index","52","dimension",["macro",83]],["map","index","53","dimension",["macro",84]],["map","index","54","dimension",["macro",85]],["map","index","55","dimension",["macro",86]],["map","index","56","dimension",["macro",87]],["map","index","57","dimension",["macro",88]],["map","index","58","dimension",["macro",89]],["map","index","59","dimension",["macro",90]],["map","index","60","dimension",["macro",91]],["map","index","61","dimension",["macro",92]],["map","index","62","dimension",["macro",93]],["map","index","63","dimension",["macro",94]],["map","index","64","dimension",["macro",95]],["map","index","65","dimension",["macro",96]],["map","index","66","dimension",["macro",97]],["map","index","67","dimension",["macro",98]],["map","index","68","dimension",["macro",99]],["map","index","69","dimension",["macro",100]],["map","index","70","dimension",["macro",101]],["map","index","71","dimension",["macro",102]],["map","index","72","dimension",["macro",103]],["map","index","73","dimension",["macro",104]],["map","index","74","dimension",["macro",105]],["map","index","75","dimension",["macro",106]],["map","index","76","dimension",["macro",107]],["map","index","77","dimension",["macro",108]],["map","index","78","dimension",["macro",109]],["map","index","79","dimension",["macro",110]],["map","index","80","dimension",["macro",111]],["map","index","81","dimension",["macro",112]],["map","index","82","dimension",["macro",113]],["map","index","83","dimension",["macro",114]],["map","index","84","dimension",["macro",115]],["map","index","85","dimension",["macro",116]],["map","index","86","dimension",["macro",117]],["map","index","87","dimension",["macro",118]],["map","index","88","dimension",["macro",119]],["map","index","89","dimension",["macro",120]],["map","index","11","dimension",["macro",41]],["map","index","12","dimension",["macro",42]],["map","index","29","dimension",["macro",43]],["map","index","102","dimension",["macro",51]]],
       "vtp_enableEcommerce":true,
-      "vtp_trackingId":["macro",4],
+      "vtp_trackingId":["macro",5],
       "vtp_enableRecaptchaOption":false,
       "vtp_enableUaRlsa":false,
       "vtp_enableUseInternalVersion":false,
@@ -863,7 +859,6 @@ data = {
       "tag_id":52
     },{
       "function":"__ua",
-      "metadata":["map"],
       "once_per_event":true,
       "vtp_useEcommerceDataLayer":true,
       "vtp_overrideGaSettings":true,
@@ -876,7 +871,7 @@ data = {
       "vtp_decorateFormsAutoLink":false,
       "vtp_enableLinkId":false,
       "vtp_enableEcommerce":true,
-      "vtp_trackingId":["macro",4],
+      "vtp_trackingId":["macro",5],
       "vtp_enableRecaptchaOption":false,
       "vtp_enableUaRlsa":false,
       "vtp_enableUseInternalVersion":false,
@@ -885,7 +880,6 @@ data = {
       "tag_id":61
     },{
       "function":"__ua",
-      "metadata":["map"],
       "once_per_event":true,
       "vtp_nonInteraction":false,
       "vtp_overrideGaSettings":true,
@@ -898,7 +892,7 @@ data = {
       "vtp_enableLinkId":false,
       "vtp_eventAction":["template",["macro",129],":\/\/",["macro",124],["macro",128]],
       "vtp_enableEcommerce":false,
-      "vtp_trackingId":["macro",4],
+      "vtp_trackingId":["macro",5],
       "vtp_enableRecaptchaOption":false,
       "vtp_enableUaRlsa":false,
       "vtp_enableUseInternalVersion":false,
@@ -907,9 +901,7 @@ data = {
       "tag_id":70
     },{
       "function":"__gclidw",
-      "metadata":["map"],
       "once_per_event":true,
-      "vtp_enableCrossDomain":false,
       "vtp_enableCookieOverrides":false,
       "vtp_enableCrossDomainFeature":true,
       "vtp_enableCookieUpdateFeature":false,
@@ -932,7 +924,7 @@ data = {
       "vtp_enableLinkId":false,
       "vtp_dimension":["list",["map","index","4","dimension",["macro",21]],["map","index","3","dimension",["macro",22]],["map","index","2","dimension",["macro",23]],["map","index","1","dimension",["macro",24]],["map","index","8","dimension",["macro",25]],["map","index","7","dimension",["macro",26]],["map","index","6","dimension",["macro",27]],["map","index","5","dimension",["macro",28]],["map","index","9","dimension",["macro",11]],["map","index","10","dimension",["macro",29]]],
       "vtp_enableEcommerce":false,
-      "vtp_trackingId":["macro",4],
+      "vtp_trackingId":["macro",5],
       "vtp_enableRecaptchaOption":false,
       "vtp_enableUaRlsa":false,
       "vtp_enableUseInternalVersion":false,
@@ -941,7 +933,6 @@ data = {
       "tag_id":81
     },{
       "function":"__ua",
-      "metadata":["map"],
       "vtp_nonInteraction":false,
       "vtp_useDebugVersion":false,
       "vtp_eventCategory":"Scroll Depth",
@@ -956,7 +947,7 @@ data = {
       "vtp_enableLinkId":false,
       "vtp_dimension":["list",["map","index","4","dimension",["macro",21]],["map","index","3","dimension",["macro",22]],["map","index","2","dimension",["macro",23]],["map","index","1","dimension",["macro",24]],["map","index","8","dimension",["macro",25]],["map","index","7","dimension",["macro",26]],["map","index","6","dimension",["macro",27]],["map","index","5","dimension",["macro",28]],["map","index","9","dimension",["macro",11]],["map","index","10","dimension",["macro",29]]],
       "vtp_enableEcommerce":false,
-      "vtp_trackingId":["macro",4],
+      "vtp_trackingId":["macro",5],
       "vtp_enableRecaptchaOption":false,
       "vtp_enableUaRlsa":false,
       "vtp_enableUseInternalVersion":false,
@@ -965,7 +956,6 @@ data = {
       "tag_id":82
     },{
       "function":"__ua",
-      "metadata":["map"],
       "once_per_event":true,
       "vtp_nonInteraction":false,
       "vtp_overrideGaSettings":true,
@@ -973,7 +963,7 @@ data = {
       "vtp_trackType":"TRACK_EVENT",
       "vtp_eventAction":["macro",134],
       "vtp_eventLabel":["macro",14],
-      "vtp_trackingId":["macro",4],
+      "vtp_trackingId":["macro",5],
       "vtp_enableRecaptchaOption":false,
       "vtp_enableUaRlsa":false,
       "vtp_enableUseInternalVersion":false,
@@ -1137,15 +1127,14 @@ data = {
       "tag_id":145
     },{
       "function":"__html",
-      "metadata":["map"],
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003Evar disableStr=\"ga-disable-\"+",["escape",["macro",4],8,16],";\nfunction gaOptout(){document.cookie=disableStr+\"\\x3dtrue; expires\\x3dThu, 31 Dec 2099 23:59:59 UTC; path\\x3d\/\";window[disableStr]=!0;document.cookie=\"_ga\\x3d; expires\\x3dThu, 01 Jan 1970 00:00:00 UTC; domain\\x3d.lidl.de; path\\x3d\/\";document.cookie=\"_gat_UA-47225043-4\\x3d; expires\\x3dThu, 01 Jan 1970 00:00:00 UTC; domain\\x3d.lidl.de; path\\x3d\/\";document.cookie=\"_dc_gtm_UA-47225043-4\\x3d; expires\\x3dThu, 01 Jan 1970 00:00:00 UTC; domain\\x3d.lidl.de; path\\x3d\/\";alert(\"Opt Out Cookie wurde erfolgreich gesetzt\")}\n;\u003C\/script\u003E"],
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003Evar disableStr=\"ga-disable-\"+",["escape",["macro",5],8,16],";\nfunction gaOptout(){document.cookie=disableStr+\"\\x3dtrue; expires\\x3dThu, 31 Dec 2099 23:59:59 UTC; path\\x3d\/\";window[disableStr]=!0;document.cookie=\"_ga\\x3d; expires\\x3dThu, 01 Jan 1970 00:00:00 UTC; domain\\x3d.lidl.de; path\\x3d\/\";document.cookie=\"_gat_UA-47225043-4\\x3d; expires\\x3dThu, 01 Jan 1970 00:00:00 UTC; domain\\x3d.lidl.de; path\\x3d\/\";document.cookie=\"_dc_gtm_UA-47225043-4\\x3d; expires\\x3dThu, 01 Jan 1970 00:00:00 UTC; domain\\x3d.lidl.de; path\\x3d\/\";alert(\"Opt Out Cookie wurde erfolgreich gesetzt\")}\n;\u003C\/script\u003E"],
+      "vtp_convertJsValuesToExpressions":true,
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
       "tag_id":47
     },{
       "function":"__html",
-      "metadata":["map"],
       "once_per_event":true,
       "vtp_html":"\u003Cscript type=\"text\/gtmscript\"\u003E\/*\n TrakkVideo YouTube GTM direct\n http:\/\/www.trakken.de\/\n\n Version 0.2\n\n Direct implementation via Custom HTML Tag in GTM.\n Use Fire Rule DOM Ready! event equals gtm.dom\n\n Copyright 2014, Trakken Web Services GmbH\n Matthias Gutenkunst\n*\/\nvar step=15,gtmEvent=\"ga_event\",debug=!1,playerArray=[],dataLayer=window.dataLayer||[];function enableJSAPI(){for(var a=document.getElementsByTagName(\"iframe\"),b=a.length;b--;)\/youtube.com\\\/embed\/.test(a[b].src)\u0026\u0026-1===a[b].src.indexOf(\"enablejsapi\\x3d\")\u0026\u0026(a[b].src+=(-1===a[b].src.indexOf(\"?\")?\"?\":\"\\x26\")+\"enablejsapi\\x3d1\")}enableJSAPI();\nfunction onYouTubeIframeAPIReady(){for(var a=document.getElementsByTagName(\"iframe\"),b=a.length;b--;)\/youtube.com\\\/embed\/.test(a[b].src)\u0026\u0026playerArray.push(new YT.Player(a[b],{events:{onStateChange:onPlayerStateChange}}))}var _pauseFlag=!1;\nfunction onPlayerStateChange(a){var b=a.target.getVideoData();b=b.video_id+\":\"+b.title;a.data==YT.PlayerState.PLAYING\u0026\u0026(gaHandleEvent(\"Videos\",\"Play\",b),trakkProgress(a),_pauseFlag=!1);a.data==YT.PlayerState.ENDED\u0026\u0026gaHandleEvent(\"Videos\",\"Watch to End\",b);a.data==YT.PlayerState.PAUSED\u0026\u00260==_pauseFlag\u0026\u0026(gaHandleEvent(\"Videos\",\"Pause\",b),_pauseFlag=!0);a.data==YT.PlayerState.BUFFERING\u0026\u0026gaHandleEvent(\"Videos\",\"Buffering\",b);a.data==YT.PlayerState.CUED\u0026\u0026gaHandleEvent(\"Videos\",\"Cueing\",b)}\nfunction trakkProgress(a){function b(){d.getPlayerState()!=YT.PlayerState.PLAYING||100\u003C=c?window.clearInterval(e):(playerPercent=getPlayerPercent(d),log(\"playerPercent: \"+playerPercent),currentStep=Math.floor(playerPercent\/step),0!=currentStep\u0026\u0026currentStep\u003Ec\u0026\u0026(c=currentStep,gaHandleEvent(\"Videos\",\"Progress \"+currentStep*step+\"%\",f)))}var c=0,d=a.target;a=a.target.getVideoData();var f=a.title;a=1E3;100\u003Ed.getDuration()\u0026\u0026(a=Math.floor(d.getDuration()\/100*1E3),log(\"intervalStep: \"+a));var e=window.setInterval(b,\na)}function getPlayerPercent(a){playerPos=parseInt(a.getCurrentTime(),10);return parseInt(playerPos\/a.getDuration()*100,10)}function gaHandleEvent(a,b,c){dataLayer.push({event:gtmEvent,eventCategory:a,eventAction:b,eventLabel:c,eventValue:0})}var log=function(a){debug\u0026\u0026console\u0026\u0026console.log\u0026\u0026console.log(\"TrakkVideo: \"+a)},tag=document.createElement(\"script\");tag.src=\"\/\/www.youtube.com\/iframe_api\";var firstScriptTag=document.getElementsByTagName(\"script\")[0];\nfirstScriptTag.parentNode.insertBefore(tag,firstScriptTag);\u003C\/script\u003E",
       "vtp_supportDocumentWrite":false,
@@ -1154,16 +1143,14 @@ data = {
       "tag_id":51
     },{
       "function":"__html",
-      "metadata":["map"],
       "once_per_event":true,
-      "vtp_html":["template","\n\u003Cscript type=\"text\/gtmscript\"\u003Evar set_cookie=function(b,a,e,d,f){if(a\u0026\u00260\u003C=window.navigator.userAgent.indexOf(\"Firefox\")){a=a.replace(\/\\n|\\r\/g,\" \");for(var c=0,h=a.length;c\u003Ch;c+=1){var g=a.charCodeAt(c)\u0026255;if(10==g||13==g)a=a.substring(0,c)+\"?\"+a.substring(c+1)}}d=d||\"\/\";b=b+\"\\x3d\"+a+\"; path\\x3d\"+d+\"; \";e\u0026\u0026(b+=\"expires\\x3d\"+(new Date((new Date).getTime()+e)).toGMTString()+\"; \");f\u0026\u0026(b+=\"domain\\x3d\"+f+\";\");document.cookie=b},ga_ds=",["escape",["macro",2],8,16],";\"undefined\"!=typeof ga_ds\u0026\u0026set_cookie(\"gaDataSource\",ga_ds,0,\"\/\",",["escape",["macro",135],8,16],");\u003C\/script\u003E"],
+      "vtp_html":["template","\n\u003Cscript type=\"text\/gtmscript\"\u003Evar set_cookie=function(b,a,e,d,f){if(a\u0026\u00260\u003C=window.navigator.userAgent.indexOf(\"Firefox\")){a=a.replace(\/\\n|\\r\/g,\" \");for(var c=0,h=a.length;c\u003Ch;c+=1){var g=a.charCodeAt(c)\u0026255;if(10==g||13==g)a=a.substring(0,c)+\"?\"+a.substring(c+1)}}d=d||\"\/\";b=b+\"\\x3d\"+a+\"; path\\x3d\"+d+\"; \";e\u0026\u0026(b+=\"expires\\x3d\"+(new Date((new Date).getTime()+e)).toGMTString()+\"; \");f\u0026\u0026(b+=\"domain\\x3d\"+f+\";\");document.cookie=b},ga_ds=",["escape",["macro",3],8,16],";\"undefined\"!=typeof ga_ds\u0026\u0026set_cookie(\"gaDataSource\",ga_ds,0,\"\/\",",["escape",["macro",135],8,16],");\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
       "tag_id":60
     },{
       "function":"__html",
-      "metadata":["map"],
       "once_per_event":true,
       "vtp_html":"\u003Cscript type=\"text\/gtmscript\"\u003EjQuery('meta[name\\x3d\"robots\"]').remove();var meta=document.createElement(\"meta\");meta.name=\"robots\";meta.content=\"noindex, follow\";jQuery(\"head\").append(meta);\u003C\/script\u003E",
       "vtp_supportDocumentWrite":false,
@@ -1181,7 +1168,6 @@ data = {
       "tag_id":71
     },{
       "function":"__html",
-      "metadata":["map"],
       "once_per_event":true,
       "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003EjQuery(\"title\").html(",["escape",["macro",137],8,16],");\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
@@ -1190,7 +1176,6 @@ data = {
       "tag_id":75
     },{
       "function":"__html",
-      "metadata":["map"],
       "once_per_load":true,
       "vtp_html":"\u003Cscript type=\"text\/gtmscript\"\u003E(function(){window.addEventListener(\"beforeunload\",function(){window.dataLayer.push({event:\"scrollDepth\"})})})();\u003C\/script\u003E",
       "vtp_supportDocumentWrite":false,
@@ -1217,40 +1202,32 @@ data = {
       "tag_id":125
     }],
   "predicates":[{
-      "function":"_re",
+      "function":"_cn",
       "arg0":["macro",0],
+      "arg1":"statistics"
+    },{
+      "function":"_re",
+      "arg0":["macro",1],
       "arg1":"gaEvent|ga_event"
     },{
       "function":"_cn",
-      "arg0":["macro",5],
+      "arg0":["macro",6],
       "arg1":"true"
     },{
       "function":"_re",
-      "arg0":["macro",0],
+      "arg0":["macro",1],
       "arg1":".*"
     },{
-      "function":"_cn",
-      "arg0":["macro",6],
-      "arg1":"statistics"
-    },{
       "function":"_eq",
-      "arg0":["macro",3],
-      "arg1":"App"
-    },{
-      "function":"_eq",
-      "arg0":["macro",0],
+      "arg0":["macro",1],
       "arg1":"gtm.pageError"
     },{
       "function":"_eq",
-      "arg0":["macro",0],
+      "arg0":["macro",1],
       "arg1":"gtm.js"
     },{
       "function":"_eq",
-      "arg0":["macro",0],
-      "arg1":"cookie_consent_statistics"
-    },{
-      "function":"_eq",
-      "arg0":["macro",0],
+      "arg0":["macro",1],
       "arg1":"virtPath"
     },{
       "function":"_eq",
@@ -1258,15 +1235,19 @@ data = {
       "arg1":"pushState"
     },{
       "function":"_eq",
-      "arg0":["macro",0],
+      "arg0":["macro",1],
       "arg1":"gtm.historyChange"
     },{
-      "function":"_re",
+      "function":"_eq",
       "arg0":["macro",1],
+      "arg1":"cookie_consent_statistics"
+    },{
+      "function":"_re",
+      "arg0":["macro",2],
       "arg1":"App"
     },{
       "function":"_eq",
-      "arg0":["macro",0],
+      "arg0":["macro",1],
       "arg1":"salesChannel"
     },{
       "function":"_eq",
@@ -1274,24 +1255,56 @@ data = {
       "arg1":"https:\/\/addon.lidl.de\/grillplaetze\/lieblingsplaetze\/"
     },{
       "function":"_re",
-      "arg0":["macro",3],
+      "arg0":["macro",4],
       "arg1":"App|GeschenkeApp"
     },{
       "function":"_eq",
-      "arg0":["macro",0],
+      "arg0":["macro",1],
       "arg1":"social"
     },{
       "function":"_eq",
-      "arg0":["macro",0],
+      "arg0":["macro",1],
       "arg1":"userTiming"
     },{
-      "function":"_re",
-      "arg0":["macro",0],
-      "arg1":"EEC.*"
+      "function":"_cn",
+      "arg0":["macro",33],
+      "arg1":"EECaddToCart"
     },{
-      "function":"_re",
-      "arg0":["macro",0],
+      "function":"_cn",
+      "arg0":["macro",33],
+      "arg1":"EECcheckoutOption"
+    },{
+      "function":"_cn",
+      "arg0":["macro",33],
+      "arg1":"EECcheckout"
+    },{
+      "function":"_cn",
+      "arg0":["macro",33],
+      "arg1":"EECproductClick"
+    },{
+      "function":"_cn",
+      "arg0":["macro",33],
+      "arg1":"EECproductImpression"
+    },{
+      "function":"_cn",
+      "arg0":["macro",33],
+      "arg1":"EECpromotionClick"
+    },{
+      "function":"_cn",
+      "arg0":["macro",33],
+      "arg1":"EECpromotionImpression"
+    },{
+      "function":"_cn",
+      "arg0":["macro",33],
       "arg1":"EECpurchase"
+    },{
+      "function":"_cn",
+      "arg0":["macro",33],
+      "arg1":"EECrefund"
+    },{
+      "function":"_cn",
+      "arg0":["macro",33],
+      "arg1":"EECremoveFromCart"
     },{
       "function":"_cn",
       "arg0":["macro",126],
@@ -1302,7 +1315,7 @@ data = {
       "arg1":"javascript:"
     },{
       "function":"_eq",
-      "arg0":["macro",0],
+      "arg0":["macro",1],
       "arg1":"gtm.linkClick"
     },{
       "function":"_re",
@@ -1338,7 +1351,7 @@ data = {
       "arg1":"scrolltracking"
     },{
       "function":"_eq",
-      "arg0":["macro",0],
+      "arg0":["macro",1],
       "arg1":"scrollDepth"
     },{
       "function":"_eq",
@@ -1346,7 +1359,7 @@ data = {
       "arg1":"true"
     },{
       "function":"_eq",
-      "arg0":["macro",0],
+      "arg0":["macro",1],
       "arg1":"gtm.scrollDepth"
     },{
       "function":"_re",
@@ -1362,7 +1375,7 @@ data = {
       "arg1":"true"
     },{
       "function":"_eq",
-      "arg0":["macro",0],
+      "arg0":["macro",1],
       "arg1":"EECproductDetailView"
     },{
       "function":"_re",
@@ -1379,16 +1392,20 @@ data = {
       "ignore_case":true
     },{
       "function":"_eq",
-      "arg0":["macro",0],
+      "arg0":["macro",1],
       "arg1":"gtm.load"
     },{
       "function":"_eq",
-      "arg0":["macro",0],
+      "arg0":["macro",1],
       "arg1":"gtm.dom"
     },{
       "function":"_re",
-      "arg0":["macro",2],
+      "arg0":["macro",3],
       "arg1":"App|GeschenkeApp"
+    },{
+      "function":"_re",
+      "arg0":["macro",31],
+      "arg1":"c23389|c23390|c23388|c23387|s7377586|s7378248|c20855|c21000|c21003|c21002|c20855|c20966|c20971|c21003|c20972|c20995|c20964|b10513|b1850|c22276|c22277|c22278|c22280|c22279|c22281|c22282|c22283|c22285|c22284|c22286|c22287|c22288|c22289|c22290"
     },{
       "function":"_re",
       "arg0":["macro",31],
@@ -1396,18 +1413,8 @@ data = {
       "ignore_case":true
     },{
       "function":"_re",
-      "arg0":["macro",0],
-      "arg1":"cookie_consent_statistics"
-    },{
-      "function":"_re",
       "arg0":["macro",31],
-      "arg1":"c23389|c23390|c23388|c23387|s7377586|s7378248|c20855|c21000|c21003|c21002|c20855|c20966|c20971|c21003|c20972|c20995|c20964|b10513|b1850|c22276|c22277|c22278|c22280|c22279|c22281|c22282|c22283|c22285|c22284|c22286|c22287|c22288|c22289|c22290",
-      "ignore_case":true
-    },{
-      "function":"_re",
-      "arg0":["macro",31],
-      "arg1":"c21418|c21355|c21373|c21357|c21423|c21374|c21375|c21419|c21376",
-      "ignore_case":true
+      "arg1":"c21418|c21355|c21373|c21357|c21423|c21374|c21375|c21419|c21376"
     },{
       "function":"_re",
       "arg0":["macro",31],
@@ -1416,50 +1423,51 @@ data = {
       "function":"_re",
       "arg0":["macro",127],
       "arg1":"(^$|((^|,)903835_272($|,)))"
-    },{
-      "function":"_re",
-      "arg0":["macro",0],
-      "arg1":"EECaddToCart"
     }],
   "rules":[
-    [["if",0],["add",0]],
-    [["if",5],["add",1]],
-    [["if",6],["add",2,3,9,33,37,40,23,24,25,27,28,29]],
-    [["if",7],["add",2,3,9,33,34,37,40]],
-    [["if",8],["add",3]],
-    [["if",9,10],["add",3]],
-    [["if",11,12],["add",3]],
-    [["if",15],["add",4]],
-    [["if",16],["add",5]],
-    [["if",17],["add",6]],
-    [["if",11,18],["add",6]],
-    [["if",6,14],["add",7]],
-    [["if",19,21,22],["unless",20],["add",8]],
-    [["if",21,23,24],["add",8]],
-    [["if",21,25,26],["add",8]],
-    [["if",21,27,28],["add",8]],
-    [["if",29,30],["add",10]],
-    [["if",3,29,31,32,33],["add",10]],
-    [["if",3,29,32,34],["unless",31],["add",11]],
-    [["if",35,36],["add",12]],
-    [["if",6,37],["add",13,14,15,17,18,19,20,21,26]],
-    [["if",6,38],["add",16]],
-    [["if",6,39],["add",22]],
-    [["if",40],["add",30,31,32]],
-    [["if",41],["add",34]],
-    [["if",6,42],["add",35]],
-    [["if",43,44],["add",36]],
-    [["if",44,45],["add",36]],
-    [["if",44,46],["add",36]],
-    [["if",6,43],["add",36]],
-    [["if",6,45],["add",36]],
-    [["if",6,46],["add",36]],
-    [["if",6,47],["add",38]],
-    [["if",44,47],["add",38]],
-    [["if",3,29,31,32,48],["add",39]],
-    [["if",49],["add",41]],
-    [["if",1,2],["block",0,1,2,3,4,5,6,7,10,11,34]],
-    [["if",2],["unless",3,4],["block",0,2,3,4,5,6,8,9,12,33,34,36,37,38,40,41]],
-    [["if",2,13],["block",3,7]],
-    [["if",2,14],["block",3,34]]]
+    [["if",0,1],["add",0]],
+    [["if",4],["add",1]],
+    [["if",0,5],["add",2,3,9,33,37,40]],
+    [["if",0,6],["add",3]],
+    [["if",0,7,8],["add",3]],
+    [["if",0,9],["add",3,37,40]],
+    [["if",10,11],["add",3]],
+    [["if",0,14],["add",4]],
+    [["if",0,15],["add",5]],
+    [["if",0,3,16],["add",6,41]],
+    [["if",0,3,17],["add",6]],
+    [["if",0,3,18],["add",6]],
+    [["if",0,3,19],["add",6]],
+    [["if",0,3,20],["add",6]],
+    [["if",3,21],["add",6]],
+    [["if",3,22],["add",6]],
+    [["if",0,3,23],["add",6]],
+    [["if",0,3,24],["add",6]],
+    [["if",0,3,25],["add",6]],
+    [["if",3,10,23],["add",6]],
+    [["if",5,13],["add",7]],
+    [["if",26,28,29],["unless",27],["add",8]],
+    [["if",28,30,31],["add",8]],
+    [["if",28,32,33],["add",8]],
+    [["if",28,34,35],["add",8]],
+    [["if",0,36,37],["add",10]],
+    [["if",0,36,38,39,40],["add",10]],
+    [["if",0,36,39,41],["unless",38],["add",11]],
+    [["if",0,42,43],["add",12]],
+    [["if",5,44],["add",13,14,15,17,18,19,20,21,26]],
+    [["if",5,45],["add",16]],
+    [["if",5,46],["add",22]],
+    [["if",5],["add",23,24,25,27,28,29]],
+    [["if",47],["add",30,31,32]],
+    [["if",0,48],["add",34]],
+    [["if",0,5,49],["add",35]],
+    [["if",0,5,50],["add",36]],
+    [["if",0,5,51],["add",36]],
+    [["if",0,5,52],["add",36]],
+    [["if",0,5,53],["add",38]],
+    [["if",0,36,38,39,54],["add",39]],
+    [["if",2,3],["block",0,1,3,4,5,6,7,10,11,34]],
+    [["if",2,5],["block",2]],
+    [["if",3,12],["block",3,7]],
+    [["if",3,13],["block",3,34]]]
 }
