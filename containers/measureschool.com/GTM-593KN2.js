@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"226",
+  "version":"228",
   
   "macros":[{
       "function":"__e"
@@ -528,15 +528,6 @@ data = {
       "function":"__html",
       "metadata":["map"],
       "once_per_event":true,
-      "vtp_html":["template","\n\u003Cscript data-gtmsrc=\"\/\/widget.manychat.com\/428799710606616.js\" async=\"async\" type=\"text\/gtmscript\"\u003E\u003C\/script\u003E\n\u003Cscript type=\"text\/gtmscript\"\u003Ewindow.mcAsyncInit=function(){MC.getWidget(8650390).setPayload(",["escape",["macro",7],8,16],");console.log(MC)};\u003C\/script\u003E"],
-      "vtp_supportDocumentWrite":false,
-      "vtp_enableIframeMode":false,
-      "vtp_enableEditJsMacroBehavior":false,
-      "tag_id":86
-    },{
-      "function":"__html",
-      "metadata":["map"],
-      "once_per_event":true,
       "vtp_html":"\n\u003Cscript type=\"text\/javascript\" src=\"https:\/\/a.opmnstr.com\/app\/js\/api.min.js\" data-campaign=\"rvnbafdombkt0doessnc\" data-user=\"19781\" async\u003E\u003C\/script\u003E\n",
       "vtp_supportDocumentWrite":true,
       "vtp_enableIframeMode":false,
@@ -697,9 +688,9 @@ data = {
       "arg0":["macro",24],
       "arg1":"MeasureMasters"
     },{
-      "function":"_sw",
+      "function":"_cn",
       "arg0":["macro",18],
-      "arg1":"https:\/\/measureschool.com\/go\/"
+      "arg1":"measureschool.com\/go\/"
     },{
       "function":"_eq",
       "arg0":["macro",0],
@@ -746,18 +737,6 @@ data = {
       "arg1":"GTM BTB Banner"
     },{
       "function":"_cn",
-      "arg0":["macro",7],
-      "arg1":"\/products"
-    },{
-      "function":"_cn",
-      "arg0":["macro",18],
-      "arg1":"\/lp\/data-layer-workshop-success\/"
-    },{
-      "function":"_cn",
-      "arg0":["macro",18],
-      "arg1":"\/lp\/data-layer-workshop\/"
-    },{
-      "function":"_cn",
       "arg0":["macro",18],
       "arg1":"lp\/mm-48-hour-offer-1\/"
     },{
@@ -794,8 +773,8 @@ data = {
       "arg1":"(^$|((^|,)1927886_262($|,)))"
     }],
   "rules":[
-    [["if",0],["add",1,4,8,10,14,25,0,38,39,16,17,18,19,22]],
-    [["if",1],["add",2,6,13,26,36,40]],
+    [["if",0],["add",1,4,8,10,14,25,0,37,38,16,17,18,19,22]],
+    [["if",1],["add",2,6,13,26,39]],
     [["if",2],["add",3,27]],
     [["if",3],["add",5]],
     [["if",4],["add",7]],
@@ -803,7 +782,7 @@ data = {
     [["if",0,7],["unless",6],["add",11]],
     [["if",8,9],["add",12]],
     [["if",11,12],["unless",10],["add",15]],
-    [["if",0,13],["add",15,41]],
+    [["if",0,13],["add",15,40]],
     [["if",0],["unless",14,15],["add",20]],
     [["if",12],["unless",16],["add",21,23]],
     [["if",0,17],["add",24]],
@@ -816,12 +795,10 @@ data = {
     [["if",0,26],["add",33]],
     [["if",0],["unless",27],["add",34]],
     [["if",12,28],["add",35]],
-    [["if",0,29],["add",36]],
-    [["if",0,14],["unless",30,31],["add",36]],
-    [["if",12,32,33],["add",37]],
-    [["if",34,35],["add",42]],
-    [["if",0,36],["add",43]],
-    [["if",20],["unless",37],["add",44]],
-    [["if",12,38],["unless",39],["add",45]],
-    [["if",34,40],["add",46]]]
+    [["if",12,29,30],["add",36]],
+    [["if",31,32],["add",41]],
+    [["if",0,33],["add",42]],
+    [["if",20],["unless",34],["add",43]],
+    [["if",12,35],["unless",36],["add",44]],
+    [["if",31,37],["add",45]]]
 }
