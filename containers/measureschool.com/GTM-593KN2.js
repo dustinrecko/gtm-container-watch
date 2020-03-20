@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"228",
+  "version":"231",
   
   "macros":[{
       "function":"__e"
@@ -199,6 +199,17 @@ data = {
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
       "tag_id":12
+    },{
+      "function":"__html",
+      "priority":1,
+      "metadata":["map"],
+      "once_per_event":true,
+      "vtp_html":"\n\u003Cscript type=\"text\/javascript\" src=\"https:\/\/a.opmnstr.com\/app\/js\/api.min.js\" data-campaign=\"gyioi6id2ufklmjd41c7\" data-user=\"19781\" async\u003E\u003C\/script\u003E\n",
+      "vtp_supportDocumentWrite":true,
+      "vtp_enableIframeMode":false,
+      "vtp_enableEditJsMacroBehavior":false,
+      "vtp_usePostscribe":true,
+      "tag_id":260
     },{
       "function":"__ua",
       "once_per_event":true,
@@ -608,16 +619,6 @@ data = {
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
       "tag_id":256
-    },{
-      "function":"__html",
-      "metadata":["map"],
-      "once_per_event":true,
-      "vtp_html":"\n\u003Cscript type=\"text\/javascript\" src=\"https:\/\/a.opmnstr.com\/app\/js\/api.min.js\" data-campaign=\"bzhqtcoisesrnimh7xuw\" data-user=\"19781\" async\u003E\u003C\/script\u003E\n",
-      "vtp_supportDocumentWrite":true,
-      "vtp_enableIframeMode":false,
-      "vtp_enableEditJsMacroBehavior":false,
-      "vtp_usePostscribe":true,
-      "tag_id":260
     }],
   "predicates":[{
       "function":"_eq",
@@ -683,6 +684,10 @@ data = {
       "function":"_cn",
       "arg0":["macro",18],
       "arg1":"\/products\/"
+    },{
+      "function":"_cn",
+      "arg0":["macro",18],
+      "arg1":"\/go\/"
     },{
       "function":"_cn",
       "arg0":["macro",24],
@@ -767,38 +772,33 @@ data = {
       "function":"_eq",
       "arg0":["macro",35],
       "arg1":"undefined"
-    },{
-      "function":"_re",
-      "arg0":["macro",20],
-      "arg1":"(^$|((^|,)1927886_262($|,)))"
     }],
   "rules":[
-    [["if",0],["add",1,4,8,10,14,25,0,37,38,16,17,18,19,22]],
-    [["if",1],["add",2,6,13,26,39]],
-    [["if",2],["add",3,27]],
-    [["if",3],["add",5]],
-    [["if",4],["add",7]],
-    [["if",5],["add",9]],
-    [["if",0,7],["unless",6],["add",11]],
-    [["if",8,9],["add",12]],
-    [["if",11,12],["unless",10],["add",15]],
-    [["if",0,13],["add",15,40]],
-    [["if",0],["unless",14,15],["add",20]],
-    [["if",12],["unless",16],["add",21,23]],
-    [["if",0,17],["add",24]],
-    [["if",18],["add",27]],
-    [["if",14,20],["unless",19],["add",28]],
-    [["if",0,21],["add",29]],
-    [["if",0,22],["unless",23],["add",30]],
-    [["if",0],["unless",24],["add",31]],
-    [["if",20,25],["add",32]],
-    [["if",0,26],["add",33]],
-    [["if",0],["unless",27],["add",34]],
-    [["if",12,28],["add",35]],
-    [["if",12,29,30],["add",36]],
-    [["if",31,32],["add",41]],
-    [["if",0,33],["add",42]],
-    [["if",20],["unless",34],["add",43]],
-    [["if",12,35],["unless",36],["add",44]],
-    [["if",31,37],["add",45]]]
+    [["if",0],["add",2,5,9,11,15,26,0,38,39,17,18,19,20,23]],
+    [["if",1],["add",3,7,14,27,40]],
+    [["if",2],["add",4,28]],
+    [["if",3],["add",6]],
+    [["if",4],["add",8]],
+    [["if",5],["add",10]],
+    [["if",0,7],["unless",6],["add",12]],
+    [["if",8,9],["add",13]],
+    [["if",11,12],["unless",10],["add",16]],
+    [["if",0,13],["add",16,41]],
+    [["if",0],["unless",14,15,16],["add",21]],
+    [["if",12],["unless",17],["add",22,24]],
+    [["if",0,18],["add",25,1]],
+    [["if",19],["add",28]],
+    [["if",14,21],["unless",20],["add",29]],
+    [["if",0,22],["add",30]],
+    [["if",0,23],["unless",24],["add",31]],
+    [["if",0],["unless",25],["add",32]],
+    [["if",21,26],["add",33]],
+    [["if",0,27],["add",34]],
+    [["if",0],["unless",28],["add",35]],
+    [["if",12,29],["add",36]],
+    [["if",12,30,31],["add",37]],
+    [["if",32,33],["add",42]],
+    [["if",0,34],["add",43]],
+    [["if",21],["unless",35],["add",44]],
+    [["if",12,36],["unless",37],["add",45]]]
 }
