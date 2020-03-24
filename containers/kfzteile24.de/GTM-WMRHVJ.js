@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"573",
+  "version":"574",
   
   "macros":[{
       "function":"__v",
@@ -3849,7 +3849,7 @@ data = {
       "function":"__html",
       "metadata":["map"],
       "once_per_event":true,
-      "vtp_html":"\u003Cscript type=\"text\/gtmscript\"\u003Ehj(\"trigger\",\"product_listing_page\");\u003C\/script\u003E",
+      "vtp_html":"\u003Cscript type=\"text\/gtmscript\"\u003E-1\u003Cwindow.location.href.indexOf(\"gclid\")\u0026\u0026(hj(\"trigger\",\"product_listing_page\"),console.log(\"PLP is here with Paid search\"));\u003C\/script\u003E",
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
