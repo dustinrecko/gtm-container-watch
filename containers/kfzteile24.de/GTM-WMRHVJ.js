@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"577",
+  "version":"578",
   
   "macros":[{
       "function":"__v",
@@ -2741,7 +2741,6 @@ data = {
       "vtp_gaSettings":["macro",104],
       "vtp_eventAction":["macro",170],
       "vtp_dimension":["list",["map","index","21","dimension",["macro",170]]],
-      "vtp_trackingId":["macro",7],
       "vtp_enableRecaptchaOption":false,
       "vtp_enableUaRlsa":false,
       "vtp_enableUseInternalVersion":false,
