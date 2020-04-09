@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"584",
+  "version":"585",
   
   "macros":[{
       "function":"__v",
@@ -3713,7 +3713,7 @@ data = {
       "function":"__html",
       "metadata":["map"],
       "once_per_load":true,
-      "vtp_html":"\u003Cscript type=\"text\/gtmscript\"\u003E(function(){var b=\"XB2F799C9FA6295681B257A2EBD25D751\";_tsConfig={yOffset:\"0\"};var a=document.createElement(\"script\");a.type=\"text\/javascript\";a.charset=\"utf-8\";a.async=!0;a.src=\"https:\/\/widgets.trustedshops.com\/js\/\"+b+\".js\";b=document.getElementsByTagName(\"script\")[0];b.parentNode.insertBefore(a,b)})();\u003C\/script\u003E",
+      "vtp_html":"\u003Cscript type=\"text\/gtmscript\"\u003E(function(){var b=\"XB2F799C9FA6295681B257A2EBD25D751\";_tsConfig={yOffset:\"0\",responsive:{variant:\"floating\",position:\"right\"}};var a=document.createElement(\"script\");a.type=\"text\/javascript\";a.charset=\"utf-8\";a.async=!0;a.src=\"https:\/\/widgets.trustedshops.com\/js\/\"+b+\".js\";b=document.getElementsByTagName(\"script\")[0];b.parentNode.insertBefore(a,b)})();\u003C\/script\u003E",
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
