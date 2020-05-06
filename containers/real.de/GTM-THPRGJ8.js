@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"553",
+  "version":"556",
   
   "macros":[{
       "function":"__e"
@@ -826,6 +826,8 @@ data = {
       "vtp_enableCookieOverrides":false,
       "vtp_enableCrossDomainFeature":true,
       "vtp_enableCookieUpdateFeature":false,
+      "vtp_enableCookieFlagsFeature":false,
+      "vtp_enableUrlPassthroughFeature":false,
       "tag_id":85
     },{
       "function":"__ua",
@@ -1309,6 +1311,10 @@ data = {
       "arg0":["macro",0],
       "arg1":"gtm.load"
     },{
+      "function":"_eq",
+      "arg0":["macro",27],
+      "arg1":"CheckoutNew"
+    },{
       "function":"_sw",
       "arg0":["macro",38],
       "arg1":"\/product\/"
@@ -1378,17 +1384,18 @@ data = {
     [["if",3,35],["add",28]],
     [["if",3,36],["add",29]],
     [["if",37,38],["add",29]],
-    [["if",3,41],["add",30]],
-    [["if",3],["unless",42],["add",31]],
-    [["if",3,16,43],["add",32]],
-    [["if",0,16,44],["add",33]],
-    [["if",3,16,45,46],["add",34]],
-    [["if",25,47],["add",35]],
-    [["if",29,41],["unless",48],["add",36]],
+    [["if",3,39],["add",29]],
+    [["if",3,42],["add",30]],
+    [["if",3],["unless",43],["add",31]],
+    [["if",3,16,44],["add",32]],
+    [["if",0,16,45],["add",33]],
+    [["if",3,16,46,47],["add",34]],
+    [["if",25,48],["add",35]],
+    [["if",29,42],["unless",49],["add",36]],
     [["if",4,16],["add",40]],
     [["if",1,11],["add",42]],
     [["if",6],["unless",5],["block",1,6,8,37,38,39,40,41,42]],
     [["if",8,13,14],["block",2]],
-    [["if",29,39],["block",29]],
-    [["if",29,40],["block",29]]]
+    [["if",29,40],["block",29]],
+    [["if",29,41],["block",29]]]
 }
