@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"558",
+  "version":"559",
   
   "macros":[{
       "function":"__e"
@@ -1185,11 +1185,7 @@ data = {
     },{
       "function":"_re",
       "arg0":["macro",0],
-      "arg1":"(^Sale$)|(^addToCart$)|(^removeFromCart$)|(^bannerView$)|(^bannerClick$)|(^promoView$)|(^promoClick$)|(^listView$)|(^listView_part2$)|(^listClick$)"
-    },{
-      "function":"_eq",
-      "arg0":["macro",0],
-      "arg1":"GAevent"
+      "arg1":"(^GAevent$)|(^Sale$)|(^addToCart$)|(^removeFromCart$)|(^bannerView$)|(^bannerClick$)|(^promoView$)|(^promoClick$)|(^listView$)|(^listView_part2$)|(^listClick$)"
     },{
       "function":"_eq",
       "arg0":["macro",19],
@@ -1214,6 +1210,10 @@ data = {
       "function":"_eq",
       "arg0":["macro",22],
       "arg1":"not valid"
+    },{
+      "function":"_eq",
+      "arg0":["macro",0],
+      "arg1":"GAevent"
     },{
       "function":"_eq",
       "arg0":["macro",39],
@@ -1366,8 +1366,7 @@ data = {
     [["if",3],["add",1,3,8,9,13,38]],
     [["if",4],["add",1,8,38]],
     [["if",7],["add",2]],
-    [["if",8],["add",2]],
-    [["if",9,10,11,12],["add",2]],
+    [["if",8,9,10,11],["add",2]],
     [["if",0,16],["add",4,26,41]],
     [["if",17],["add",5]],
     [["if",4,18],["add",6]],
@@ -1384,7 +1383,7 @@ data = {
     [["if",3,16],["add",26,40,43]],
     [["if",32,33],["add",26]],
     [["if",0,32],["add",26]],
-    [["if",8,34],["add",27]],
+    [["if",14,34],["add",27]],
     [["if",3,35],["add",28]],
     [["if",3,36],["add",29]],
     [["if",37,38],["add",29]],
@@ -1397,9 +1396,9 @@ data = {
     [["if",25,49],["add",35]],
     [["if",29,43],["unless",50],["add",36]],
     [["if",4,16],["add",40]],
-    [["if",1,11],["add",42]],
+    [["if",1,10],["add",42]],
     [["if",6],["unless",5],["block",1,6,8,37,38,39,40,41,42]],
-    [["if",8,13,14],["block",2]],
+    [["if",12,13,14],["block",2]],
     [["if",29,41],["block",29]],
     [["if",29,42],["block",29]],
     [["if",29,40],["block",29]]]
