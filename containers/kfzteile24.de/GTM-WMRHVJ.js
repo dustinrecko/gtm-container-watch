@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"597",
+  "version":"598",
   
   "macros":[{
       "function":"__v",
@@ -430,7 +430,7 @@ data = {
       "vtp_replaceAfterMatch":true,
       "vtp_ignoreCase":true,
       "vtp_defaultValue":"(not set)",
-      "vtp_map":["list",["map","key","\u003C\u003Cregex_pattern\u003E\u003E","value","\u003C\u003Cga_customDimension1@ga_customDimension2@ga_customDimension3@ga_customD@ga_customDimension5@ga_customDimension6@ga_customDimension7@ga_customDimension8@ga_customDimension9@ga_customDimension10@ga_customDimension11@ga_customDimension12@ga_customDimension13@ga_customDimension14@ga_customDimension15@ga_customDimension16@ga_customDimension17@ga_customDimension18@ga_customDimension19@ga_customDimension20\u003E\u003E"],["map","key","(a24|k24)-de-(live|stg)","value",["template",["macro",76],"@",["macro",78],"@",["macro",79],"@",["macro",80],"@",["macro",75],"@",["macro",11],"@",["macro",78],"@@@@@@",["macro",82],"@@@@",["macro",58],"@",["macro",83],"@\u003C!-- GA Client Id Creation Time String - set via customTask field in GA Global Settings variable --\u003E@",["macro",84]]],["map","key","(cpd|k24|kfz)-(at|com|dk|fr|nl|pl)-(live|stg)","value",["template",["macro",86],"@",["macro",87],"@",["macro",79],"@",["macro",88],"@",["macro",85],"@@",["macro",87],"@",["macro",89],"@",["macro",90],"@@@@",["macro",82],"@@@@",["macro",58],"@",["macro",83],"@\u003C!-- GA Client Id Creation Time String - set via customTask field in GA Global Settings variable --\u003E@",["macro",84]]]]
+      "vtp_map":["list",["map","key","\u003C\u003Cregex_pattern\u003E\u003E","value","\u003C\u003Cga_customDimension1@ga_customDimension2@ga_customDimension3@ga_customD@ga_customDimension5@ga_customDimension6@ga_customDimension7@ga_customDimension8@ga_customDimension9@ga_customDimension10@ga_customDimension11@ga_customDimension12@ga_customDimension13@ga_customDimension14@ga_customDimension15@ga_customDimension16@ga_customDimension17@ga_customDimension18@ga_customDimension19@ga_customDimension20\u003E\u003E"],["map","key","(a24|k24)-de-(live|stg)","value",["template",["macro",76],"@",["macro",78],"@",["macro",79],"@",["macro",80],"@",["macro",75],"@",["macro",12],"@",["macro",78],"@@@@@@",["macro",82],"@@@@",["macro",58],"@",["macro",83],"@\u003C!-- GA Client Id Creation Time String - set via customTask field in GA Global Settings variable --\u003E@",["macro",84]]],["map","key","(cpd|k24|kfz)-(at|com|dk|fr|nl|pl)-(live|stg)","value",["template",["macro",86],"@",["macro",87],"@",["macro",79],"@",["macro",88],"@",["macro",85],"@@",["macro",87],"@",["macro",89],"@",["macro",90],"@@@@",["macro",82],"@@@@",["macro",58],"@",["macro",83],"@\u003C!-- GA Client Id Creation Time String - set via customTask field in GA Global Settings variable --\u003E@",["macro",84]]]]
     },{
       "function":"__jsm",
       "vtp_javascript":["template","(function(){return ",["escape",["macro",57],8,16],"(",["escape",["macro",91],8,16],".split(\"@\")[0])})();"]
