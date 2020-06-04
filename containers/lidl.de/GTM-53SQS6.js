@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"173",
+  "version":"174",
   
   "macros":[{
       "function":"__cvt_903835_490"
@@ -792,7 +792,7 @@ data = {
       "vtp_doubleClick":true,
       "vtp_fieldsToSet":["list",["map","fieldName","\u0026uid","value",["macro",13]],["map","fieldName","allowLinker","value","true"],["map","fieldName","anonymizeIp","value",["macro",14]],["map","fieldName","hitcallback","value",["macro",37]],["map","fieldName","page","value",["macro",19]],["map","fieldName","sampleRate","value","90"],["map","fieldName","cookieDomain","value","auto"],["map","fieldName","clientId","value",["macro",15]],["map","fieldName","title","value",["macro",20]],["map","fieldName","referrer","value",["macro",22]]],
       "vtp_trackType":"TRACK_PAGEVIEW",
-      "vtp_autoLinkDomains":"www.lidl-flyer.com, lidl-flyer.com",
+      "vtp_autoLinkDomains":"www.lidl-flyer.com, lidl-flyer.com, accounts.lidl.com, lidl.com",
       "vtp_dimension":["list",["map","index","1","dimension",["macro",25]],["map","index","2","dimension",["macro",4]],["map","index","3","dimension",["macro",24]],["map","index","4","dimension",["macro",23]],["map","index","5","dimension",["macro",29]],["map","index","6","dimension",["macro",28]],["map","index","7","dimension",["macro",27]],["map","index","8","dimension",["macro",26]],["map","index","9","dimension",["macro",13]],["map","index","10","dimension",["macro",30]],["map","index","17","dimension",["macro",40]],["map","index","20","dimension",["macro",41]],["map","index","11","dimension",["macro",42]],["map","index","12","dimension",["macro",43]],["map","index","29","dimension",["macro",44]],["map","index","200","dimension",["macro",45]],["map","index","199","dimension",["macro",46]],["map","index","93","dimension",["macro",47]],["map","index","94","dimension",["macro",48]],["map","index","95","dimension",["macro",49]],["map","index","96","dimension",["macro",50]],["map","index","97","dimension",["macro",51]],["map","index","102","dimension",["macro",52]]],
       "vtp_enableEcommerce":true,
       "vtp_trackingId":["macro",7],
@@ -918,6 +918,8 @@ data = {
       "vtp_enableCookieOverrides":false,
       "vtp_enableCrossDomainFeature":true,
       "vtp_enableCookieUpdateFeature":false,
+      "vtp_enableCookieFlagsFeature":false,
+      "vtp_enableUrlPassthroughFeature":false,
       "tag_id":80
     },{
       "function":"__ua",
