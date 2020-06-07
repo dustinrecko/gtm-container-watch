@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"258",
+  "version":"259",
   
   "macros":[{
       "function":"__e"
@@ -74,11 +74,6 @@ data = {
       "function":"__f",
       "vtp_component":"URL"
     },{
-      "function":"__j",
-      "vtp_name":"_thrive_order.order.id"
-    },{
-      "function":"__r"
-    },{
       "function":"__u",
       "vtp_component":"QUERY",
       "vtp_queryKey":"acid",
@@ -136,6 +131,8 @@ data = {
       "vtp_setDefaultValue":false,
       "vtp_name":"eventLabel"
     },{
+      "function":"__r"
+    },{
       "function":"__u",
       "vtp_component":"HOST",
       "vtp_enableMultiQueryKeys":false,
@@ -146,16 +143,6 @@ data = {
       "vtp_queryKey":"affiliate",
       "vtp_enableMultiQueryKeys":false,
       "vtp_enableIgnoreEmptyQueryParam":false
-    },{
-      "function":"__v",
-      "vtp_dataLayerVersion":2,
-      "vtp_setDefaultValue":false,
-      "vtp_name":"email"
-    },{
-      "function":"__v",
-      "vtp_dataLayerVersion":2,
-      "vtp_setDefaultValue":false,
-      "vtp_name":"name"
     },{
       "function":"__k",
       "vtp_decodeCookie":false,
@@ -168,7 +155,7 @@ data = {
       "vtp_enableIgnoreEmptyQueryParam":false
     },{
       "function":"__jsm",
-      "vtp_javascript":["template","(function(){var a=",["escape",["macro",32],8,16],"||",["escape",["macro",33],8,16],";return a})();"]
+      "vtp_javascript":["template","(function(){var a=",["escape",["macro",29],8,16],"||",["escape",["macro",30],8,16],";return a})();"]
     },{
       "function":"__jsm",
       "vtp_javascript":["template","(function(){return location.search})();"]
@@ -180,36 +167,18 @@ data = {
       "vtp_decodeCookie":false,
       "vtp_name":"query"
     },{
+      "function":"__v",
+      "vtp_dataLayerVersion":2,
+      "vtp_setDefaultValue":false,
+      "vtp_name":"email"
+    },{
       "function":"__jsm",
       "vtp_javascript":["template","(function(){return document.querySelector('input[name\\x3d\"email\"]').value})();"]
     },{
-      "function":"__u",
-      "vtp_component":"QUERY",
-      "vtp_queryKey":"utm_source",
-      "vtp_enableMultiQueryKeys":false,
-      "vtp_enableIgnoreEmptyQueryParam":false
-    },{
       "function":"__v",
       "vtp_dataLayerVersion":2,
       "vtp_setDefaultValue":false,
-      "vtp_name":"gtm.start"
-    },{
-      "function":"__v",
-      "vtp_dataLayerVersion":2,
-      "vtp_setDefaultValue":false,
-      "vtp_name":"timeToSerp"
-    },{
-      "function":"__smm",
-      "vtp_setDefaultValue":false,
-      "vtp_input":["macro",28],
-      "vtp_map":["list",["map","key","test.com","value","UA-123123-22"],["map","key","test.co.uk","value","UA-899899-22"]]
-    },{
-      "function":"__k",
-      "vtp_decodeCookie":false,
-      "vtp_name":"_ga"
-    },{
-      "function":"__jsm",
-      "vtp_javascript":["template","(function(){for(var b=document.getElementsByTagName(\"iframe\"),a=0;a\u003Cb.length;a++)if(\/^https?:\\\/\\\/player.vimeo.com\/.test(b[a].src))return!0;return!1})();"]
+      "vtp_name":"name"
     },{
       "function":"__e"
     },{
@@ -237,40 +206,6 @@ data = {
       "vtp_varType":"TEXT"
     },{
       "function":"__cid"
-    },{
-      "function":"__hid"
-    },{
-      "function":"__v",
-      "vtp_name":"gtm.videoProvider",
-      "vtp_dataLayerVersion":1
-    },{
-      "function":"__v",
-      "vtp_name":"gtm.videoUrl",
-      "vtp_dataLayerVersion":1
-    },{
-      "function":"__v",
-      "vtp_name":"gtm.videoTitle",
-      "vtp_dataLayerVersion":1
-    },{
-      "function":"__v",
-      "vtp_name":"gtm.videoDuration",
-      "vtp_dataLayerVersion":1
-    },{
-      "function":"__v",
-      "vtp_name":"gtm.videoPercent",
-      "vtp_dataLayerVersion":1
-    },{
-      "function":"__v",
-      "vtp_name":"gtm.videoVisible",
-      "vtp_dataLayerVersion":1
-    },{
-      "function":"__v",
-      "vtp_name":"gtm.videoStatus",
-      "vtp_dataLayerVersion":1
-    },{
-      "function":"__v",
-      "vtp_name":"gtm.videoCurrentTime",
-      "vtp_dataLayerVersion":1
     }],
   "tags":[{
       "function":"__html",
@@ -296,7 +231,7 @@ data = {
     },{
       "function":"__ua",
       "metadata":["map"],
-      "setup_tags":["list",["tag",54,0]],
+      "setup_tags":["list",["tag",38,0]],
       "once_per_event":true,
       "vtp_overrideGaSettings":false,
       "vtp_trackType":"TRACK_PAGEVIEW",
@@ -351,10 +286,6 @@ data = {
       "vtp_trackTypeIsEvent":true,
       "tag_id":27
     },{
-      "function":"__paused",
-      "vtp_originalTagType":"opt",
-      "tag_id":41
-    },{
       "function":"__ua",
       "once_per_event":true,
       "vtp_nonInteraction":true,
@@ -371,14 +302,6 @@ data = {
       "vtp_enableFirebaseCampaignData":true,
       "vtp_trackTypeIsEvent":true,
       "tag_id":56
-    },{
-      "function":"__img",
-      "once_per_event":true,
-      "vtp_useCacheBuster":true,
-      "vtp_url":["template","https:\/\/script.google.com\/macros\/s\/AKfycbwvGEu9CQYCKu3ESGhtAiSbkO5FnV6RrvrQwyiwks-WhM9S0-u2\/exec?ContactId=",["escape",["macro",5],12],"\u0026OrderId=",["escape",["macro",15],12]],
-      "vtp_cacheBusterQueryParam":"gtmcb",
-      "vtp_randomNumber":["macro",16],
-      "tag_id":58
     },{
       "function":"__ua",
       "metadata":["map"],
@@ -401,16 +324,13 @@ data = {
       "tag_id":59
     },{
       "function":"__paused",
-      "vtp_originalTagType":"bzi",
-      "tag_id":68
-    },{
-      "function":"__paused",
       "vtp_originalTagType":"cvt_1927886_135",
       "tag_id":69
     },{
       "function":"__gaawc",
       "metadata":["map"],
       "once_per_event":true,
+      "vtp_fieldsToSet":["list",["map","name","user_id","value",["macro",6]]],
       "vtp_sendPageView":true,
       "vtp_measurementId":"G-CPVFPGFBP8",
       "vtp_enableUserProperties":true,
@@ -420,7 +340,7 @@ data = {
       "metadata":["map"],
       "once_per_event":true,
       "vtp_eventName":"Newsletter sign up",
-      "vtp_eventParameters":["list",["map","name","optinpage","value",["macro",19]],["map","name","acid","value",["macro",17]]],
+      "vtp_eventParameters":["list",["map","name","optinpage","value",["macro",17]],["map","name","acid","value",["macro",15]]],
       "vtp_measurementId":"G-CPVFPGFBP8",
       "vtp_enableUserProperties":true,
       "tag_id":71
@@ -447,12 +367,12 @@ data = {
       "once_per_event":true,
       "vtp_enableConversionLinker":true,
       "vtp_enableProductReporting":false,
-      "vtp_orderId":["macro",21],
-      "vtp_conversionValue":["macro",22],
+      "vtp_orderId":["macro",19],
+      "vtp_conversionValue":["macro",20],
       "vtp_conversionCookiePrefix":"_gcl",
       "vtp_conversionId":"886077671",
       "vtp_conversionLabel":"dEDqCKKUrcQBEOfxwaYD",
-      "vtp_url":["macro",23],
+      "vtp_url":["macro",21],
       "vtp_enableProductReportingCheckbox":true,
       "vtp_enableNewCustomerReportingCheckbox":false,
       "vtp_enableEnhancedConversionsCheckbox":false,
@@ -475,27 +395,15 @@ data = {
       "vtp_originalTagType":"html",
       "tag_id":241
     },{
-      "function":"__paused",
-      "vtp_originalTagType":"html",
-      "tag_id":244
-    },{
-      "function":"__paused",
-      "vtp_originalTagType":"html",
-      "tag_id":264
-    },{
-      "function":"__paused",
-      "vtp_originalTagType":"img",
-      "tag_id":271
-    },{
       "function":"__ua",
       "metadata":["map"],
       "once_per_event":true,
       "vtp_nonInteraction":false,
       "vtp_useDebugVersion":["macro",1],
-      "vtp_eventCategory":["macro",25],
+      "vtp_eventCategory":["macro",23],
       "vtp_trackType":"TRACK_EVENT",
-      "vtp_eventAction":["macro",26],
-      "vtp_eventLabel":["macro",27],
+      "vtp_eventAction":["macro",24],
+      "vtp_eventLabel":["macro",25],
       "vtp_overrideGaSettings":true,
       "vtp_setTrackerName":false,
       "vtp_doubleClick":false,
@@ -515,26 +423,19 @@ data = {
       "metadata":["map"],
       "once_per_event":true,
       "vtp_useCacheBuster":true,
-      "vtp_url":["template","https:\/\/apiway.ai\/webhooks\/catch\/5ed741622ea50\/webhooks-app?page=",["escape",["macro",7],12],"\u0026referrer=",["escape",["macro",14],12]],
+      "vtp_url":["template","https:\/\/hook.integromat.com\/6leb9gxfrfo5o3havfjfu81531h1iytp?page=",["escape",["macro",7],12],"\u0026referrer=",["escape",["macro",14],12]],
       "vtp_cacheBusterQueryParam":"gtmcb",
-      "vtp_randomNumber":["macro",16],
+      "vtp_randomNumber":["macro",26],
       "tag_id":285
     },{
-      "function":"__fsl",
-      "vtp_checkValidation":false,
-      "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"1927886_24",
+      "function":"__gaawe",
+      "metadata":["map"],
+      "once_per_event":true,
+      "vtp_eventName":"error",
+      "vtp_eventParameters":["list",["map","name","page","value",["macro",7]],["map","name","referrer","value",["macro",14]]],
+      "vtp_measurementId":"G-CPVFPGFBP8",
+      "vtp_enableUserProperties":true,
       "tag_id":286
-    },{
-      "function":"__evl",
-      "vtp_elementId":"payment-processor-wrap",
-      "vtp_useOnScreenDuration":false,
-      "vtp_useDomChangeListener":true,
-      "vtp_firingFrequency":"ONCE",
-      "vtp_selectorType":"ID",
-      "vtp_onScreenRatio":"50",
-      "vtp_uniqueTriggerId":"1927886_105",
-      "tag_id":287
     },{
       "function":"__evl",
       "vtp_elementId":"gform_confirmation_message_2",
@@ -544,42 +445,7 @@ data = {
       "vtp_selectorType":"ID",
       "vtp_onScreenRatio":"50",
       "vtp_uniqueTriggerId":"1927886_231",
-      "tag_id":288
-    },{
-      "function":"__tg",
-      "vtp_triggerIds":["list","1927886_259_245","1927886_259_258","1927886_259_263"],
-      "vtp_uniqueTriggerId":"1927886_259",
-      "tag_id":289
-    },{
-      "function":"__tg",
-      "vtp_isListeningTag":true,
-      "vtp_firingId":"1927886_259_245",
-      "tag_id":290
-    },{
-      "function":"__tg",
-      "vtp_isListeningTag":true,
-      "vtp_firingId":"1927886_259_258",
-      "tag_id":292
-    },{
-      "function":"__tg",
-      "vtp_isListeningTag":true,
-      "vtp_firingId":"1927886_259_263",
-      "tag_id":294
-    },{
-      "function":"__tg",
-      "vtp_triggerIds":["list","1927886_262_258","1927886_262_261"],
-      "vtp_uniqueTriggerId":"1927886_262",
-      "tag_id":295
-    },{
-      "function":"__tg",
-      "vtp_isListeningTag":true,
-      "vtp_firingId":"1927886_262_258",
-      "tag_id":296
-    },{
-      "function":"__tg",
-      "vtp_isListeningTag":true,
-      "vtp_firingId":"1927886_262_261",
-      "tag_id":298
+      "tag_id":287
     },{
       "function":"__html",
       "metadata":["map"],
@@ -593,7 +459,7 @@ data = {
       "function":"__html",
       "setup_tags":["list",["tag",0,0]],
       "once_per_event":true,
-      "vtp_html":["template","\n\u003Cscript type=\"text\/gtmscript\"\u003E-1==document.location.href.search(\"appspot.com\")\u0026\u0026fbq(\"track\",\"Purchase\",{value:\"",["escape",["macro",22],7],"\",currency:\"USD\"});\u003C\/script\u003E\n\n"],
+      "vtp_html":["template","\n\u003Cscript type=\"text\/gtmscript\"\u003E-1==document.location.href.search(\"appspot.com\")\u0026\u0026fbq(\"track\",\"Purchase\",{value:\"",["escape",["macro",20],7],"\",currency:\"USD\"});\u003C\/script\u003E\n\n"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
@@ -607,14 +473,6 @@ data = {
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
       "tag_id":22
-    },{
-      "function":"__html",
-      "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003Etry{jQuery(document).ready(function(){var b=jQuery('a[href*\\x3d\"thrivecart\"]');b.each(function(b,c){var a=jQuery(c),d=a.attr(\"href\");-1!=d.indexOf(\"?\")?a.attr(\"href\",jQuery(a).attr(\"href\")+\"\\x26cid\\x3d",["escape",["macro",6],7],"\"):a.attr(\"href\",jQuery(a).attr(\"href\")+\"?cid\\x3d",["escape",["macro",6],7],"\")})})}catch(b){};\u003C\/script\u003E"],
-      "vtp_supportDocumentWrite":false,
-      "vtp_enableIframeMode":false,
-      "vtp_enableEditJsMacroBehavior":false,
-      "tag_id":45
     },{
       "function":"__html",
       "metadata":["map"],
@@ -636,20 +494,11 @@ data = {
     },{
       "function":"__html",
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003E",["escape",["macro",4],8,16],"(\"tc_affiliate_measureschool\",",["escape",["macro",29],8,16],",2592E6,\"\/\",\".measureschool.com\");\u003C\/script\u003E"],
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003E",["escape",["macro",4],8,16],"(\"tc_affiliate_measureschool\",",["escape",["macro",28],8,16],",2592E6,\"\/\",\".measureschool.com\");\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
       "tag_id":63
-    },{
-      "function":"__html",
-      "metadata":["map"],
-      "once_per_event":true,
-      "vtp_html":["template","\n\u003Cscript type=\"text\/gtmscript\"\u003Eif(",["escape",["macro",30],8,16],")var lz_data={overwrite:!1,111:\"",["escape",["macro",31],7],"\",112:\"",["escape",["macro",30],7],"\",113:\"\\x3c!--replace_me_with_Company--\\x3e\",114:\"\\x3c!--replace_me_with_Question--\\x3e\",116:\"\\x3c!--replace_me_with_Phone--\\x3e\",header:\"\\x3c!--replace_me_with_Logo--\\x3e\",language:\"en\",website:\"\\x3c!--replace_me_with_Area--\\x3e\"};\u003C\/script\u003E\n\n\n\n\u003Cscript type=\"text\/gtmscript\" id=\"d20063f557da16964373d7c63b0a0be2\" data-gtmsrc=\"https:\/\/livezilla.measure.school\/script.php?id=d20063f557da16964373d7c63b0a0be2\" defer\u003E\u003C\/script\u003E\n"],
-      "vtp_supportDocumentWrite":false,
-      "vtp_enableIframeMode":false,
-      "vtp_enableEditJsMacroBehavior":false,
-      "tag_id":67
     },{
       "function":"__html",
       "metadata":["map"],
@@ -664,7 +513,7 @@ data = {
       "function":"__html",
       "metadata":["map"],
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003E(function(){function d(){function b(a,b){var c=new XMLHttpRequest;c.onreadystatechange=function(){4==c.readyState\u0026\u0026200==c.status\u0026\u0026b(c.responseText)};c.open(\"GET\",a,!0);c.send(null)}var d=\"https:\/\/script.google.com\/macros\/s\/AKfycbwSiaFHdKqTFVQgO6b8iuRObRD4m8MNs0_P5yh3JVnCweXr-W_x\/exec\",e=",["escape",["macro",32],8,16],"||",["escape",["macro",33],8,16],";try{b(d+\"?acid\\x3d\"+e,function(a){a=JSON.parse(a);a.timer=a.fields[\"53\"].val;var b=[\"tags\",\"timer\",\"id\",\"email\",\"name\"],c;for(c in a)-1===b.indexOf(c)\u0026\u0026delete a[c];a.event=\n\"acUser\";a.time=f;dataLayer.push(a);window.localStorage.setItem(\"acUser\",JSON.stringify(a));console.log(\"retrieved new data from API\")})}catch(a){return a}}var e=",["escape",["macro",33],8,16],",h=",["escape",["macro",32],8,16],",f=(new Date).valueOf(),b=localStorage.getItem(\"acUser\");if(b\u0026\u0026!e){console.log(\"local storage found\");b=JSON.parse(b);var g=(f-b.time)\/1E3\/60;60\u003C=g?(console.log(\"cache expired, fetching new data\"),d()):(console.log(\"using cached data - time elapsed: \"+g),dataLayer.push(b))}else d();h||(console.log(\"setting new cookie\"),\n",["escape",["macro",4],8,16],"(\"mbr\",e,999999999999))})();\u003C\/script\u003E"],
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003E(function(){function d(){function b(a,b){var c=new XMLHttpRequest;c.onreadystatechange=function(){4==c.readyState\u0026\u0026200==c.status\u0026\u0026b(c.responseText)};c.open(\"GET\",a,!0);c.send(null)}var d=\"https:\/\/script.google.com\/macros\/s\/AKfycbwSiaFHdKqTFVQgO6b8iuRObRD4m8MNs0_P5yh3JVnCweXr-W_x\/exec\",e=",["escape",["macro",29],8,16],"||",["escape",["macro",30],8,16],";try{b(d+\"?acid\\x3d\"+e,function(a){a=JSON.parse(a);a.timer=a.fields[\"53\"].val;var b=[\"tags\",\"timer\",\"id\",\"email\",\"name\"],c;for(c in a)-1===b.indexOf(c)\u0026\u0026delete a[c];a.event=\n\"acUser\";a.time=f;dataLayer.push(a);window.localStorage.setItem(\"acUser\",JSON.stringify(a));console.log(\"retrieved new data from API\")})}catch(a){return a}}var e=",["escape",["macro",30],8,16],",h=",["escape",["macro",29],8,16],",f=(new Date).valueOf(),b=localStorage.getItem(\"acUser\");if(b\u0026\u0026!e){console.log(\"local storage found\");b=JSON.parse(b);var g=(f-b.time)\/1E3\/60;60\u003C=g?(console.log(\"cache expired, fetching new data\"),d()):(console.log(\"using cached data - time elapsed: \"+g),dataLayer.push(b))}else d();h||(console.log(\"setting new cookie\"),\n",["escape",["macro",4],8,16],"(\"mbr\",e,999999999999))})();\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
@@ -730,7 +579,7 @@ data = {
       "function":"__html",
       "metadata":["map"],
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003E",["escape",["macro",4],8,16],"(\"query\",",["escape",["macro",35],8,16],",99999);\u003C\/script\u003E"],
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003E",["escape",["macro",4],8,16],"(\"query\",",["escape",["macro",32],8,16],",99999);\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
@@ -739,7 +588,7 @@ data = {
       "function":"__html",
       "metadata":["map"],
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003Evar value=",["escape",["macro",35],8,16],"||",["escape",["macro",37],8,16],";value\u0026\u0026(document.querySelector('input[name\\x3d\"field[12]\"').value=",["escape",["macro",37],8,16],");\u003C\/script\u003E"],
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003Evar value=",["escape",["macro",32],8,16],"||",["escape",["macro",34],8,16],";value\u0026\u0026(document.querySelector('input[name\\x3d\"field[12]\"').value=",["escape",["macro",34],8,16],");\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
@@ -748,7 +597,7 @@ data = {
       "function":"__html",
       "metadata":["map"],
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003Edocument.querySelector('input[name\\x3d\"fullname\"]').value=\"",["escape",["macro",31],7],"\";document.querySelector('input[name\\x3d\"email\"]').value=\"",["escape",["macro",30],7],"\";\u003C\/script\u003E"],
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003Edocument.querySelector('input[name\\x3d\"fullname\"]').value=\"",["escape",["macro",37],7],"\";document.querySelector('input[name\\x3d\"email\"]').value=\"",["escape",["macro",35],7],"\";\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
@@ -817,11 +666,11 @@ data = {
       "arg1":".*"
     },{
       "function":"_eq",
-      "arg0":["macro",17],
+      "arg0":["macro",15],
       "arg1":"undefined"
     },{
       "function":"_cn",
-      "arg0":["macro",18],
+      "arg0":["macro",16],
       "arg1":"\/you-are-now-signed-up\/"
     },{
       "function":"_eq",
@@ -829,11 +678,11 @@ data = {
       "arg1":"gtm.elementVisibility"
     },{
       "function":"_re",
-      "arg0":["macro",20],
+      "arg0":["macro",18],
       "arg1":"(^$|((^|,)1927886_231($|,)))"
     },{
       "function":"_cn",
-      "arg0":["macro",24],
+      "arg0":["macro",22],
       "arg1":"GTM BTB Banner|48HourPassOffer"
     },{
       "function":"_cn",
@@ -845,112 +694,76 @@ data = {
       "arg1":"acUser"
     },{
       "function":"_cn",
-      "arg0":["macro",18],
+      "arg0":["macro",16],
       "arg1":"template-test-page"
-    },{
-      "function":"_eq",
-      "arg0":["macro",0],
-      "arg1":"gtm.triggerGroup"
-    },{
-      "function":"_re",
-      "arg0":["macro",20],
-      "arg1":"(^$|((^|,)1927886_259($|,)))"
-    },{
-      "function":"_cn",
-      "arg0":["macro",18],
-      "arg1":"\/go"
-    },{
-      "function":"_eq",
-      "arg0":["macro",0],
-      "arg1":"gtm.dom"
     },{
       "function":"_eq",
       "arg0":["macro",0],
       "arg1":"video"
     },{
-      "function":"_cn",
-      "arg0":["macro",18],
-      "arg1":"\/lp\/"
-    },{
-      "function":"_cn",
-      "arg0":["macro",18],
-      "arg1":"\/products\/"
-    },{
-      "function":"_cn",
-      "arg0":["macro",18],
-      "arg1":"\/go\/"
-    },{
-      "function":"_cn",
-      "arg0":["macro",24],
-      "arg1":"MeasureMasters"
-    },{
-      "function":"_cn",
-      "arg0":["macro",24],
-      "arg1":"Workshop1.0"
-    },{
       "function":"_eq",
       "arg0":["macro",0],
       "arg1":"membersignup"
     },{
-      "function":"_eq",
-      "arg0":["macro",6],
-      "arg1":"undefined"
-    },{
       "function":"_cn",
-      "arg0":["macro",28],
+      "arg0":["macro",27],
       "arg1":"checkout"
     },{
       "function":"_cn",
-      "arg0":["macro",18],
+      "arg0":["macro",16],
       "arg1":"acid="
     },{
       "function":"_cn",
-      "arg0":["macro",18],
+      "arg0":["macro",16],
       "arg1":"you-are-now-signed-up"
     },{
       "function":"_eq",
-      "arg0":["macro",29],
+      "arg0":["macro",28],
       "arg1":"undefined"
     },{
-      "function":"_eq",
-      "arg0":["macro",28],
-      "arg1":"measure.school"
-    },{
       "function":"_cn",
-      "arg0":["macro",18],
+      "arg0":["macro",16],
       "arg1":"\/gtm-essentials-training-special-offer"
     },{
       "function":"_eq",
-      "arg0":["macro",34],
+      "arg0":["macro",31],
       "arg1":"undefined"
     },{
       "function":"_cn",
-      "arg0":["macro",24],
+      "arg0":["macro",22],
       "arg1":"GTM BTB Banner"
     },{
       "function":"_cn",
-      "arg0":["macro",18],
+      "arg0":["macro",16],
       "arg1":"lp\/mm-48-hour-offer-1\/"
     },{
       "function":"_cn",
-      "arg0":["macro",24],
+      "arg0":["macro",22],
       "arg1":"48HourPassOffer"
     },{
       "function":"_re",
-      "arg0":["macro",35],
+      "arg0":["macro",32],
       "arg1":"utm|gclid"
+    },{
+      "function":"_eq",
+      "arg0":["macro",33],
+      "arg1":"undefined"
+    },{
+      "function":"_eq",
+      "arg0":["macro",0],
+      "arg1":"gtm.dom"
+    },{
+      "function":"_cn",
+      "arg0":["macro",35],
+      "arg1":"@"
     },{
       "function":"_eq",
       "arg0":["macro",36],
       "arg1":"undefined"
     },{
       "function":"_cn",
-      "arg0":["macro",30],
-      "arg1":"@"
-    },{
-      "function":"_eq",
-      "arg0":["macro",38],
-      "arg1":"undefined"
+      "arg0":["macro",16],
+      "arg1":"\/go"
     },{
       "function":"_cn",
       "arg0":["macro",7],
@@ -961,54 +774,47 @@ data = {
       "arg1":"\/lp\/"
     },{
       "function":"_cn",
-      "arg0":["macro",18],
+      "arg0":["macro",16],
       "arg1":"\/replay-15"
     },{
       "function":"_cn",
-      "arg0":["macro",26],
+      "arg0":["macro",24],
       "arg1":"65%"
     },{
       "function":"_cn",
-      "arg0":["macro",18],
+      "arg0":["macro",16],
       "arg1":"\/replay"
     },{
       "function":"_cn",
-      "arg0":["macro",18],
+      "arg0":["macro",16],
       "arg1":"-1"
     }],
   "rules":[
-    [["if",0],["add",2,5,9,11,15,32,0,44,45,22,23,24,25,29]],
-    [["if",1],["add",3,7,14,33,46]],
-    [["if",2],["add",4,34]],
-    [["if",3],["add",6,21]],
-    [["if",4],["add",8]],
-    [["if",5],["add",10]],
-    [["if",0,7],["unless",6],["add",12]],
-    [["if",8,9],["add",13]],
-    [["if",11,12],["unless",10],["add",16]],
-    [["if",0,13],["add",16,47]],
-    [["if",14,15],["add",17]],
-    [["if",0,16],["add",18,31,1,51]],
-    [["if",17],["add",19]],
-    [["if",18],["add",20]],
-    [["if",0],["unless",19,20,21],["add",26]],
-    [["if",12],["unless",22],["add",27,30]],
-    [["if",12],["unless",23],["add",28]],
-    [["if",24],["add",34]],
-    [["if",17,19],["unless",25],["add",35]],
-    [["if",0,26],["add",36]],
-    [["if",0,27],["unless",28],["add",37]],
-    [["if",0],["unless",29],["add",38]],
-    [["if",17,30],["add",39]],
-    [["if",0,31],["add",40]],
-    [["if",0],["unless",32],["add",41]],
-    [["if",12,33],["add",42]],
-    [["if",12,34,35],["add",43]],
-    [["if",0,36],["add",48]],
-    [["if",17],["unless",37],["add",49]],
-    [["if",12,38],["unless",39],["add",50]],
-    [["if",0,40],["add",51]],
-    [["if",0,41],["add",51]],
-    [["if",0,42,43],["add",52]],
-    [["if",0,44],["unless",45],["add",53]]]
+    [["if",0],["add",2,8,12,18,0,28,29,17]],
+    [["if",1],["add",3,11,19,30]],
+    [["if",2],["add",4,20]],
+    [["if",3],["add",5,15,16]],
+    [["if",4],["add",6]],
+    [["if",5],["add",7]],
+    [["if",0,7],["unless",6],["add",9]],
+    [["if",8,9],["add",10]],
+    [["if",11,12],["unless",10],["add",13]],
+    [["if",0,13],["add",13,31]],
+    [["if",14],["add",14]],
+    [["if",15],["add",20]],
+    [["if",0,16],["add",21]],
+    [["if",0,17],["unless",18],["add",22]],
+    [["if",0],["unless",19],["add",23]],
+    [["if",0,20],["add",24]],
+    [["if",0],["unless",21],["add",25]],
+    [["if",12,22],["add",26]],
+    [["if",12,23,24],["add",27]],
+    [["if",0,25],["add",32]],
+    [["if",27],["unless",26],["add",33]],
+    [["if",12,28],["unless",29],["add",34]],
+    [["if",0,30],["add",1,35]],
+    [["if",0,31],["add",35]],
+    [["if",0,32],["add",35]],
+    [["if",0,33,34],["add",36]],
+    [["if",0,35],["unless",36],["add",37]]]
 }
