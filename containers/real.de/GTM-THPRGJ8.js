@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"572",
+  "version":"573",
   
   "macros":[{
       "function":"__e"
@@ -655,11 +655,6 @@ data = {
     },{
       "function":"__c",
       "vtp_value":"GTM-THPRGJ8"
-    },{
-      "function":"__v",
-      "vtp_dataLayerVersion":2,
-      "vtp_setDefaultValue":false,
-      "vtp_name":"ab_tests_storage"
     },{
       "function":"__u",
       "vtp_component":"HOST",
