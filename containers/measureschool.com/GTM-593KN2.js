@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"259",
+  "version":"260",
   
   "macros":[{
       "function":"__e"
@@ -51,8 +51,8 @@ data = {
       "vtp_useDebugVersion":["macro",1],
       "vtp_fieldsToSet":["list",["map","fieldName","userId","value",["macro",6]],["map","fieldName","page","value",["template",["macro",7],["macro",9]]],["map","fieldName","customTask","value",["macro",10]]],
       "vtp_useHashAutoLink":false,
+      "vtp_autoLinkDomains":"measure.school, measureschool.com",
       "vtp_decorateFormsAutoLink":true,
-      "vtp_autoLinkDomains":"thrivecart.com, measure.school, measureschool.com",
       "vtp_enableLinkId":false,
       "vtp_dimension":["list",["map","index","1","dimension",["macro",6]]],
       "vtp_enableEcommerce":false,
@@ -597,7 +597,7 @@ data = {
       "function":"__html",
       "metadata":["map"],
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003Edocument.querySelector('input[name\\x3d\"fullname\"]').value=\"",["escape",["macro",37],7],"\";document.querySelector('input[name\\x3d\"email\"]').value=\"",["escape",["macro",35],7],"\";\u003C\/script\u003E"],
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003E(function(){document.querySelector('input[name\\x3d\"fullname\"]').value=\"",["escape",["macro",37],7],"\";document.querySelector('input[name\\x3d\"email\"]').value=\"",["escape",["macro",35],7],"\"})();\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
@@ -745,9 +745,9 @@ data = {
       "arg0":["macro",32],
       "arg1":"utm|gclid"
     },{
-      "function":"_eq",
+      "function":"_re",
       "arg0":["macro",33],
-      "arg1":"undefined"
+      "arg1":"(undefined|null)"
     },{
       "function":"_eq",
       "arg0":["macro",0],
