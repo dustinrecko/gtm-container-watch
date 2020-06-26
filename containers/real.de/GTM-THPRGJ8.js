@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"576",
+  "version":"578",
   
   "macros":[{
       "function":"__e"
@@ -91,7 +91,7 @@ data = {
       "vtp_name":"backend_ab_test.ga_exp_idvar"
     },{
       "function":"__jsm",
-      "vtp_javascript":["template","(function(){var a=\"object\"===typeof ",["escape",["macro",21],8,16],",b=\"pageView\"===",["escape",["macro",10],8,16],",c=\"optimizely\"===",["escape",["macro",19],8,16],";if(a\u0026\u0026(b||c)){a=[];for(b=0;b\u003C",["escape",["macro",21],8,16],".length;b++)c=",["escape",["macro",21],8,16],"[b],\/([^\\.]+)\\.(null)?$\/.test(c)||a.push(c);return a.length?a.join(\"!\"):null}return null})();"]
+      "vtp_javascript":["template","(function(){var a=\"object\"===typeof ",["escape",["macro",21],8,16],",b=\"pageView\"===",["escape",["macro",10],8,16],",c=\"GAevent\"===",["escape",["macro",10],8,16],"\u0026\u0026\"optimizely\"===",["escape",["macro",19],8,16],";if(a\u0026\u0026(b||c)){a=[];for(b=0;b\u003C",["escape",["macro",21],8,16],".length;b++)c=",["escape",["macro",21],8,16],"[b],\/([^\\.]+)\\.(null)?$\/.test(c)||a.push(c);return retVal=a.length?a.join(\"!\"):null}return null})();"]
     },{
       "function":"__jsm",
       "vtp_javascript":["template","(function(){var a=",["escape",["macro",10],8,16],";return\"bannerView\"==a?!0:\"GAevent\"!=a||\"optimizely\"!=",["escape",["macro",19],8,16],"\u0026\u0026\"ab test\"!=",["escape",["macro",19],8,16],"\u0026\u0026\"Error Messages\"!=",["escape",["macro",19],8,16],"\u0026\u0026\"feature\"!=",["escape",["macro",19],8,16],"\u0026\u0026\"csSessionKey\"!=",["escape",["macro",19],8,16],"\u0026\u0026\"view\"!=",["escape",["macro",20],8,16],"\u0026\u0026\"Payback\"!=",["escape",["macro",20],8,16],"?\"listView\"==a||\"listView_part2\"==a?!0:!1:!0})();"]
