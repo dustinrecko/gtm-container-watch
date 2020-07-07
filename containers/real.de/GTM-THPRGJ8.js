@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"582",
+  "version":"584",
   
   "macros":[{
       "function":"__e"
@@ -983,7 +983,7 @@ data = {
       "function":"__html",
       "metadata":["map"],
       "once_per_event":true,
-      "vtp_html":"\u003Cscript type=\"text\/gtmscript\" id=\"gtmctagid_cleanup\"\u003Evar q_gtm;q_gtm=document.querySelectorAll(\"[id^\\x3dgtmctagid_]\");for(var i=q_gtm.length;0\u003Ci;i--)void 0!=q_gtm[i]\u0026\u0026q_gtm[i].remove();\u003C\/script\u003E\n",
+      "vtp_html":"\u003Cscript type=\"text\/gtmscript\" id=\"gtmctagid_cleanup\"\u003Etry{var q_gtm;q_gtm=document.querySelectorAll(\"[id^\\x3dgtmctagid_]\");for(var i=q_gtm.length;0\u003Ci;i--)void 0!=q_gtm[i]\u0026\u0026q_gtm[i].parentNode.removeChild(q_gtm[i])}catch(a){var errMsg=\"undefined\"===typeof error||\"undefined\"===typeof error.message?\"Unknown error\":error.message;dataLayer.push({event:\"GAevent\",eventCategory:\"JavaScript Error\",eventAction:errMsg})};\u003C\/script\u003E\n",
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
