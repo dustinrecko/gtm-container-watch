@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"64",
+  "version":"65",
   
   "macros":[{
       "function":"__e"
@@ -682,14 +682,6 @@ data = {
       "tag_id":30
     },{
       "function":"__html",
-      "once_per_event":true,
-      "vtp_html":"\u003Cscript type=\"text\/gtmscript\"\u003E(function(f,c,d,e,a,b){a=c.createElement(d);a.async=!0;a.src=e;b=c.getElementsByTagName(d)[0];b.parentNode.insertBefore(a,b)})(window,document,\"script\",\"https:\/\/u.heatmap.it\/log.js\");\u003C\/script\u003E",
-      "vtp_supportDocumentWrite":false,
-      "vtp_enableIframeMode":false,
-      "vtp_enableEditJsMacroBehavior":false,
-      "tag_id":32
-    },{
-      "function":"__html",
       "metadata":["map"],
       "once_per_event":true,
       "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003Eif(\"www.sport1.de\"===",["escape",["macro",2],8,16],")var script_url=\"\/\/c2.taboola.com\/nr\/sport1de-sport1-desktop0\/newsroom.js\";else\"m.sport1.de\"===",["escape",["macro",2],8,16],"\u0026\u0026(script_url=\"\/\/c2.taboola.com\/nr\/sport1de-sport1\/newsroom.js\");\nscript_url\u0026\u0026(window._newsroom=window._newsroom||[],window._newsroom.push({pageTemplate:\"home\"}),window._newsroom.push({pageDashboard:\"home\"}),window._newsroom.push(\"auditClicks\"),window._newsroom.push(\"trackPage\"),!function(a,b,c){a.async=1;a.src=c;b.parentNode.insertBefore(a,b)}(document.createElement(\"script\"),document.getElementsByTagName(\"script\")[0],script_url));\u003C\/script\u003E"],
@@ -796,14 +788,6 @@ data = {
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
       "tag_id":66
-    },{
-      "function":"__html",
-      "once_per_event":true,
-      "vtp_html":"\n\u003Cscript type=\"text\/gtmscript\"\u003E(function(a,c,e,f,d,b){a.hj=a.hj||function(){(a.hj.q=a.hj.q||[]).push(arguments)};a._hjSettings={hjid:921216,hjsv:6};d=c.getElementsByTagName(\"head\")[0];b=c.createElement(\"script\");b.async=1;b.src=e+a._hjSettings.hjid+f+a._hjSettings.hjsv;d.appendChild(b)})(window,document,\"https:\/\/static.hotjar.com\/c\/hotjar-\",\".js?sv\\x3d\");\u003C\/script\u003E",
-      "vtp_supportDocumentWrite":false,
-      "vtp_enableIframeMode":false,
-      "vtp_enableEditJsMacroBehavior":false,
-      "tag_id":68
     },{
       "function":"__html",
       "priority":-10,
@@ -996,14 +980,6 @@ data = {
     },{
       "function":"_re",
       "arg0":["macro",1],
-      "arg1":"homepage|artikel|liveticker"
-    },{
-      "function":"_eq",
-      "arg0":["macro",10],
-      "arg1":"live"
-    },{
-      "function":"_re",
-      "arg0":["macro",1],
       "arg1":"artikel|bildergalerien"
     },{
       "function":"_eq",
@@ -1059,18 +1035,18 @@ data = {
       "arg1":"false"
     }],
   "rules":[
-    [["if",0],["add",8,15,44]],
-    [["if",1],["add",9,45,12]],
+    [["if",0],["add",8,15,43]],
+    [["if",1],["add",9,12]],
     [["if",2,3,4],["add",10]],
     [["if",2,3,5],["add",10]],
     [["if",1,6],["add",11]],
-    [["if",7],["add",49,14]],
-    [["if",4],["add",46]],
+    [["if",7],["add",47,14]],
+    [["if",4],["add",44]],
     [["if",8],["add",4,13,28,7]],
-    [["if",9],["add",47,36]],
-    [["if",11],["add",48,43]],
+    [["if",9],["add",45,35]],
+    [["if",11],["add",46,42]],
     [["if",12],["add",5]],
-    [["if",13],["add",16,30,40]],
+    [["if",13],["add",16,30,39]],
     [["if",14,16],["unless",15],["add",17]],
     [["if",15,16],["add",18]],
     [["if",16,17],["unless",18],["add",19]],
@@ -1082,21 +1058,19 @@ data = {
     [["if",31],["unless",30],["add",25]],
     [["if",30,31],["add",26]],
     [["if",32,33],["add",27]],
-    [["if",34],["add",29,37]],
+    [["if",34],["add",29,36]],
     [["if",9,35,36],["add",0]],
-    [["if",4,37],["add",31]],
-    [["if",4,38],["add",31]],
     [["if",9,35],["add",1]],
-    [["if",8,39],["add",6]],
-    [["if",1,40],["add",32]],
-    [["if",1],["unless",40],["add",33]],
-    [["if",1,41,42],["unless",43],["add",34]],
-    [["if",1,42,44],["unless",43],["add",34]],
-    [["if",45,46],["add",35]],
-    [["if",46,47],["add",3]],
-    [["if",48],["add",38]],
-    [["if",49],["add",39]],
-    [["if",0,50],["add",41]],
-    [["if",0,47,51,52],["add",42]],
-    [["if",9,10],["block",47]]]
+    [["if",8,37],["add",6]],
+    [["if",1,38],["add",31]],
+    [["if",1],["unless",38],["add",32]],
+    [["if",1,39,40],["unless",41],["add",33]],
+    [["if",1,40,42],["unless",41],["add",33]],
+    [["if",43,44],["add",34]],
+    [["if",44,45],["add",3]],
+    [["if",46],["add",37]],
+    [["if",47],["add",38]],
+    [["if",0,48],["add",40]],
+    [["if",0,45,49,50],["add",41]],
+    [["if",9,10],["block",45]]]
 }
