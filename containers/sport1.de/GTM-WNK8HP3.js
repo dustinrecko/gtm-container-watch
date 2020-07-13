@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"65",
+  "version":"66",
   
   "macros":[{
       "function":"__e"
@@ -790,6 +790,15 @@ data = {
       "tag_id":66
     },{
       "function":"__html",
+      "metadata":["map"],
+      "once_per_event":true,
+      "vtp_html":"\n\u003Cscript type=\"text\/gtmscript\"\u003E(function(a,c,e,f,d,b){a.hj=a.hj||function(){(a.hj.q=a.hj.q||[]).push(arguments)};a._hjSettings={hjid:921216,hjsv:6};d=c.getElementsByTagName(\"head\")[0];b=c.createElement(\"script\");b.async=1;b.src=e+a._hjSettings.hjid+f+a._hjSettings.hjsv;d.appendChild(b)})(window,document,\"https:\/\/static.hotjar.com\/c\/hotjar-\",\".js?sv\\x3d\");\u003C\/script\u003E",
+      "vtp_supportDocumentWrite":false,
+      "vtp_enableIframeMode":false,
+      "vtp_enableEditJsMacroBehavior":false,
+      "tag_id":68
+    },{
+      "function":"__html",
       "priority":-10,
       "once_per_event":true,
       "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003E(function(){var b=\"",["escape",["macro",3],7],"\";if(\"suche\"==",["escape",["macro",4],8,16],"){var a=document.createElement(\"a\");a.href=b+",["escape",["macro",5],8,16],";b=a.protocol+a.hostname+a.pathname+(a.search?a.search+\"\\x26srch\\x3d\":\"?srch\\x3d\")+a.hash.substring(1)}window._gtm.ga.trackPageview(b,\"",["escape",["macro",6],7],"\")})();\u003C\/script\u003E"],
@@ -1036,15 +1045,15 @@ data = {
     }],
   "rules":[
     [["if",0],["add",8,15,43]],
-    [["if",1],["add",9,12]],
+    [["if",1],["add",9,44,12]],
     [["if",2,3,4],["add",10]],
     [["if",2,3,5],["add",10]],
     [["if",1,6],["add",11]],
-    [["if",7],["add",47,14]],
-    [["if",4],["add",44]],
+    [["if",7],["add",48,14]],
+    [["if",4],["add",45]],
     [["if",8],["add",4,13,28,7]],
-    [["if",9],["add",45,35]],
-    [["if",11],["add",46,42]],
+    [["if",9],["add",46,35]],
+    [["if",11],["add",47,42]],
     [["if",12],["add",5]],
     [["if",13],["add",16,30,39]],
     [["if",14,16],["unless",15],["add",17]],
@@ -1072,5 +1081,5 @@ data = {
     [["if",47],["add",38]],
     [["if",0,48],["add",40]],
     [["if",0,45,49,50],["add",41]],
-    [["if",9,10],["block",45]]]
+    [["if",9,10],["block",46]]]
 }
