@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"586",
+  "version":"587",
   
   "macros":[{
       "function":"__e"
@@ -443,7 +443,7 @@ data = {
       "vtp_name":"eventOrigin"
     },{
       "function":"__jsm",
-      "vtp_javascript":["template","(function(){if(\"GAevent\"==",["escape",["macro",10],8,16],"||\"listView\"==",["escape",["macro",10],8,16],"||\"GAEvent\"==",["escape",["macro",10],8,16],")return ",["escape",["macro",101],8,16],";if(\"Sale\"==",["escape",["macro",10],8,16],")return ",["escape",["macro",5],8,16],";if(\"addToCart\"==",["escape",["macro",10],8,16],")return ",["escape",["macro",102],8,16],"})();"]
+      "vtp_javascript":["template","(function(){if(-1!==[\"GAevent\",\"GAEvent\",\"listView\",\"listClick\"].indexOf(",["escape",["macro",10],8,16],"))return ",["escape",["macro",101],8,16],";if(\"Sale\"==",["escape",["macro",10],8,16],")return ",["escape",["macro",5],8,16],";if(\"addToCart\"==",["escape",["macro",10],8,16],")return ",["escape",["macro",102],8,16],"})();"]
     },{
       "function":"__u",
       "vtp_component":"QUERY",
