@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"263",
+  "version":"265",
   
   "macros":[{
       "function":"__e"
@@ -76,18 +76,13 @@ data = {
     },{
       "function":"__u",
       "vtp_component":"QUERY",
-      "vtp_queryKey":"acid",
-      "vtp_enableMultiQueryKeys":false,
-      "vtp_enableIgnoreEmptyQueryParam":false
-    },{
-      "function":"__u",
-      "vtp_component":"URL",
+      "vtp_queryKey":"optinpage",
       "vtp_enableMultiQueryKeys":false,
       "vtp_enableIgnoreEmptyQueryParam":false
     },{
       "function":"__u",
       "vtp_component":"QUERY",
-      "vtp_queryKey":"optinpage",
+      "vtp_queryKey":"acid",
       "vtp_enableMultiQueryKeys":false,
       "vtp_enableIgnoreEmptyQueryParam":false
     },{
@@ -128,18 +123,20 @@ data = {
     },{
       "function":"__r"
     },{
+      "function":"__v",
+      "vtp_dataLayerVersion":2,
+      "vtp_setDefaultValue":false,
+      "vtp_name":"ecommerce.purchase.products"
+    },{
       "function":"__u",
       "vtp_component":"HOST",
       "vtp_enableMultiQueryKeys":false,
       "vtp_enableIgnoreEmptyQueryParam":false
     },{
-      "function":"__v",
-      "vtp_dataLayerVersion":2,
-      "vtp_setDefaultValue":false,
-      "vtp_name":"email"
-    },{
-      "function":"__jsm",
-      "vtp_javascript":["template","(function(){return document.querySelector('input[name\\x3d\"email\"]').value||document.querySelector(\"input[name\\x3d'customer.email']\").value})();"]
+      "function":"__u",
+      "vtp_component":"URL",
+      "vtp_enableMultiQueryKeys":false,
+      "vtp_enableIgnoreEmptyQueryParam":false
     },{
       "function":"__u",
       "vtp_component":"QUERY",
@@ -158,7 +155,7 @@ data = {
       "vtp_enableIgnoreEmptyQueryParam":false
     },{
       "function":"__jsm",
-      "vtp_javascript":["template","(function(){var a=",["escape",["macro",30],8,16],"||",["escape",["macro",31],8,16],";return a})();"]
+      "vtp_javascript":["template","(function(){var a=",["escape",["macro",29],8,16],"||",["escape",["macro",30],8,16],";return a})();"]
     },{
       "function":"__jsm",
       "vtp_javascript":["template","(function(){return location.search})();"]
@@ -173,12 +170,15 @@ data = {
       "function":"__v",
       "vtp_dataLayerVersion":2,
       "vtp_setDefaultValue":false,
-      "vtp_name":"name"
+      "vtp_name":"email"
+    },{
+      "function":"__jsm",
+      "vtp_javascript":["template","(function(){return document.querySelector('input[name\\x3d\"email\"]').value||document.querySelector(\"input[name\\x3d'customer.email']\").value})();"]
     },{
       "function":"__v",
       "vtp_dataLayerVersion":2,
       "vtp_setDefaultValue":false,
-      "vtp_name":"tags"
+      "vtp_name":"name"
     },{
       "function":"__e"
     },{
@@ -231,7 +231,7 @@ data = {
     },{
       "function":"__ua",
       "metadata":["map"],
-      "setup_tags":["list",["tag",38,0]],
+      "setup_tags":["list",["tag",36,0]],
       "once_per_event":true,
       "vtp_overrideGaSettings":false,
       "vtp_trackType":"TRACK_PAGEVIEW",
@@ -340,7 +340,7 @@ data = {
       "metadata":["map"],
       "once_per_event":true,
       "vtp_eventName":"Newsletter sign up",
-      "vtp_eventParameters":["list",["map","name","optinpage","value",["macro",17]],["map","name","acid","value",["macro",15]]],
+      "vtp_eventParameters":["list",["map","name","optinpage","value",["macro",15]],["map","name","acid","value",["macro",16]]],
       "vtp_measurementId":"G-CPVFPGFBP8",
       "vtp_enableUserProperties":true,
       "tag_id":71
@@ -367,12 +367,12 @@ data = {
       "once_per_event":true,
       "vtp_enableConversionLinker":true,
       "vtp_enableProductReporting":false,
-      "vtp_orderId":["macro",19],
-      "vtp_conversionValue":["macro",20],
+      "vtp_orderId":["macro",18],
+      "vtp_conversionValue":["macro",19],
       "vtp_conversionCookiePrefix":"_gcl",
       "vtp_conversionId":"886077671",
       "vtp_conversionLabel":"dEDqCKKUrcQBEOfxwaYD",
-      "vtp_url":["macro",21],
+      "vtp_url":["macro",20],
       "vtp_enableProductReportingCheckbox":true,
       "vtp_enableNewCustomerReportingCheckbox":false,
       "vtp_enableEnhancedConversionsCheckbox":false,
@@ -396,10 +396,10 @@ data = {
       "once_per_event":true,
       "vtp_nonInteraction":false,
       "vtp_useDebugVersion":["macro",1],
-      "vtp_eventCategory":["macro",22],
+      "vtp_eventCategory":["macro",21],
       "vtp_trackType":"TRACK_EVENT",
-      "vtp_eventAction":["macro",23],
-      "vtp_eventLabel":["macro",24],
+      "vtp_eventAction":["macro",22],
+      "vtp_eventLabel":["macro",23],
       "vtp_overrideGaSettings":true,
       "vtp_setTrackerName":false,
       "vtp_doubleClick":false,
@@ -421,7 +421,7 @@ data = {
       "vtp_useCacheBuster":true,
       "vtp_url":["template","https:\/\/hook.integromat.com\/6leb9gxfrfo5o3havfjfu81531h1iytp?page=",["escape",["macro",7],12],"\u0026referrer=",["escape",["macro",14],12]],
       "vtp_cacheBusterQueryParam":"gtmcb",
-      "vtp_randomNumber":["macro",25],
+      "vtp_randomNumber":["macro",24],
       "tag_id":285
     },{
       "function":"__gaawe",
@@ -433,6 +433,15 @@ data = {
       "vtp_enableUserProperties":true,
       "tag_id":286
     },{
+      "function":"__gaawe",
+      "metadata":["map"],
+      "once_per_event":true,
+      "vtp_eventName":"purchase",
+      "vtp_eventParameters":["list",["map","name","items","value",["macro",25]]],
+      "vtp_measurementId":"G-CPVFPGFBP8",
+      "vtp_enableUserProperties":true,
+      "tag_id":292
+    },{
       "function":"__evl",
       "vtp_elementId":"gform_confirmation_message_2",
       "vtp_useOnScreenDuration":false,
@@ -441,22 +450,7 @@ data = {
       "vtp_selectorType":"ID",
       "vtp_onScreenRatio":"50",
       "vtp_uniqueTriggerId":"1927886_231",
-      "tag_id":290
-    },{
-      "function":"__tg",
-      "vtp_triggerIds":["list","1927886_288_19","1927886_288_255"],
-      "vtp_uniqueTriggerId":"1927886_288",
-      "tag_id":291
-    },{
-      "function":"__tg",
-      "vtp_isListeningTag":true,
-      "vtp_firingId":"1927886_288_19",
-      "tag_id":292
-    },{
-      "function":"__tg",
-      "vtp_isListeningTag":true,
-      "vtp_firingId":"1927886_288_255",
-      "tag_id":294
+      "tag_id":293
     },{
       "function":"__html",
       "metadata":["map"],
@@ -470,7 +464,7 @@ data = {
       "function":"__html",
       "setup_tags":["list",["tag",0,0]],
       "once_per_event":true,
-      "vtp_html":["template","\n\u003Cscript type=\"text\/gtmscript\"\u003E-1==document.location.href.search(\"appspot.com\")\u0026\u0026fbq(\"track\",\"Purchase\",{value:\"",["escape",["macro",20],7],"\",currency:\"USD\"});\u003C\/script\u003E\n\n"],
+      "vtp_html":["template","\n\u003Cscript type=\"text\/gtmscript\"\u003E-1==document.location.href.search(\"appspot.com\")\u0026\u0026fbq(\"track\",\"Purchase\",{value:\"",["escape",["macro",19],7],"\",currency:\"USD\"});\u003C\/script\u003E\n\n"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
@@ -505,7 +499,7 @@ data = {
     },{
       "function":"__html",
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003E",["escape",["macro",4],8,16],"(\"tc_affiliate_measureschool\",",["escape",["macro",29],8,16],",2592E6,\"\/\",\".measureschool.com\");\u003C\/script\u003E"],
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003E",["escape",["macro",4],8,16],"(\"tc_affiliate_measureschool\",",["escape",["macro",28],8,16],",2592E6,\"\/\",\".measureschool.com\");\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
@@ -514,7 +508,7 @@ data = {
       "function":"__html",
       "metadata":["map"],
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003E(function(){function e(){function k(a,d){var b=new XMLHttpRequest;b.onreadystatechange=function(){4==b.readyState\u0026\u0026200==b.status\u0026\u0026d(b.responseText)};b.open(\"GET\",a,!0);b.send(null)}var l=\"https:\/\/script.google.com\/macros\/s\/AKfycbwSiaFHdKqTFVQgO6b8iuRObRD4m8MNs0_P5yh3JVnCweXr-W_x\/exec\",m=",["escape",["macro",30],8,16],"||",["escape",["macro",31],8,16],";try{k(l+\"?acid\\x3d\"+m,function(a){a=JSON.parse(a);a.timer=a.fields[\"53\"].val;var d=[\"tags\",\"timer\",\"id\",\"email\",\"name\"],b;for(b in a)-1===d.indexOf(b)\u0026\u0026delete a[b];a.event=\n\"acUser\";a.time=f;dataLayer.push(a);window.localStorage.setItem(\"acUser\",JSON.stringify(a));console.log(\"retrieved new data from API\")})}catch(a){return a}}var g=",["escape",["macro",31],8,16],",n=",["escape",["macro",30],8,16],",f=(new Date).valueOf(),c=localStorage.getItem(\"acUser\");if(c\u0026\u0026!g){console.log(\"local storage found\");c=JSON.parse(c);var h=(f-c.time)\/1E3\/60;60\u003C=h?(console.log(\"cache expired, fetching new data\"),e()):(console.log(\"using cached data - time elapsed: \"+h),dataLayer.push(c))}else e();n||(console.log(\"setting new cookie\"),\n",["escape",["macro",4],8,16],"(\"mbr\",g,999999999999,\"\/\",\"measureschool.com\"))})();\u003C\/script\u003E"],
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003E(function(){function e(){function k(a,d){var b=new XMLHttpRequest;b.onreadystatechange=function(){4==b.readyState\u0026\u0026200==b.status\u0026\u0026d(b.responseText)};b.open(\"GET\",a,!0);b.send(null)}var l=\"https:\/\/script.google.com\/macros\/s\/AKfycbwSiaFHdKqTFVQgO6b8iuRObRD4m8MNs0_P5yh3JVnCweXr-W_x\/exec\",m=",["escape",["macro",29],8,16],"||",["escape",["macro",30],8,16],";try{k(l+\"?acid\\x3d\"+m,function(a){a=JSON.parse(a);a.timer=a.fields[\"53\"].val;var d=[\"tags\",\"timer\",\"id\",\"email\",\"name\"],b;for(b in a)-1===d.indexOf(b)\u0026\u0026delete a[b];a.event=\n\"acUser\";a.time=f;dataLayer.push(a);window.localStorage.setItem(\"acUser\",JSON.stringify(a));console.log(\"retrieved new data from API\")})}catch(a){return a}}var g=",["escape",["macro",30],8,16],",n=",["escape",["macro",29],8,16],",f=(new Date).valueOf(),c=localStorage.getItem(\"acUser\");if(c\u0026\u0026!g){console.log(\"local storage found\");c=JSON.parse(c);var h=(f-c.time)\/1E3\/60;60\u003C=h?(console.log(\"cache expired, fetching new data\"),e()):(console.log(\"using cached data - time elapsed: \"+h),dataLayer.push(c))}else e();n||(console.log(\"setting new cookie\"),\n",["escape",["macro",4],8,16],"(\"mbr\",g,999999999999,\"\/\",\"measureschool.com\"))})();\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
@@ -550,7 +544,7 @@ data = {
       "function":"__html",
       "metadata":["map"],
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003E",["escape",["macro",4],8,16],"(\"query\",",["escape",["macro",33],8,16],",99999);\u003C\/script\u003E"],
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003E",["escape",["macro",4],8,16],"(\"query\",",["escape",["macro",32],8,16],",99999);\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
@@ -559,7 +553,7 @@ data = {
       "function":"__html",
       "metadata":["map"],
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003Evar value=",["escape",["macro",33],8,16],"||",["escape",["macro",35],8,16],";value\u0026\u0026(document.querySelector('input[name\\x3d\"field[12]\"').value=",["escape",["macro",35],8,16],");\u003C\/script\u003E"],
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003Evar value=",["escape",["macro",32],8,16],"||",["escape",["macro",34],8,16],";value\u0026\u0026(document.querySelector('input[name\\x3d\"field[12]\"').value=",["escape",["macro",34],8,16],");\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
@@ -568,7 +562,7 @@ data = {
       "function":"__html",
       "metadata":["map"],
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003E(function(){document.querySelector('input[name\\x3d\"fullname\"]').value=\"",["escape",["macro",36],7],"\";document.querySelector('input[name\\x3d\"email\"]').value=\"",["escape",["macro",27],7],"\"})();\u003C\/script\u003E"],
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003E(function(){document.querySelector('input[name\\x3d\"fullname\"]').value=\"",["escape",["macro",37],7],"\";document.querySelector('input[name\\x3d\"email\"]').value=\"",["escape",["macro",35],7],"\"})();\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
@@ -616,7 +610,7 @@ data = {
       "function":"__html",
       "metadata":["map"],
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003E(function(){document.querySelector(\"input[name\\x3d'customer.email']\").value=\"",["escape",["macro",27],7],"\";document.querySelector(\"input[name\\x3d'customer.name']\").value=\"",["escape",["macro",36],7],"\"})();\u003C\/script\u003E"],
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003E(function(){document.querySelector(\"input[name\\x3d'customer.email']\").value=\"",["escape",["macro",35],7],"\";document.querySelector(\"input[name\\x3d'customer.name']\").value=\"",["escape",["macro",37],7],"\"})();\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
@@ -639,9 +633,13 @@ data = {
       "arg0":["macro",0],
       "arg1":"purchase"
     },{
-      "function":"_eq",
-      "arg0":["macro",0],
-      "arg1":"signup"
+      "function":"_re",
+      "arg0":["macro",7],
+      "arg1":"(you-are-now-signed-up|you-are-now-signed-up-resource|data-layer-workshop-success)"
+    },{
+      "function":"_cn",
+      "arg0":["macro",14],
+      "arg1":"wp-admin"
     },{
       "function":"_eq",
       "arg0":["macro",0],
@@ -656,24 +654,20 @@ data = {
       "arg1":".*"
     },{
       "function":"_eq",
-      "arg0":["macro",15],
-      "arg1":"undefined"
-    },{
-      "function":"_cn",
-      "arg0":["macro",16],
-      "arg1":"\/you-are-now-signed-up\/"
-    },{
-      "function":"_eq",
       "arg0":["macro",0],
       "arg1":"gtm.elementVisibility"
     },{
       "function":"_re",
-      "arg0":["macro",18],
+      "arg0":["macro",17],
       "arg1":"(^$|((^|,)1927886_231($|,)))"
     },{
       "function":"_eq",
       "arg0":["macro",0],
       "arg1":"video"
+    },{
+      "function":"_eq",
+      "arg0":["macro",0],
+      "arg1":"membersignup"
     },{
       "function":"_cn",
       "arg0":["macro",26],
@@ -681,42 +675,26 @@ data = {
     },{
       "function":"_cn",
       "arg0":["macro",27],
-      "arg1":"@"
+      "arg1":"acid="
+    },{
+      "function":"_cn",
+      "arg0":["macro",27],
+      "arg1":"you-are-now-signed-up"
     },{
       "function":"_eq",
       "arg0":["macro",28],
       "arg1":"undefined"
     },{
       "function":"_eq",
-      "arg0":["macro",0],
-      "arg1":"acUser"
-    },{
-      "function":"_eq",
-      "arg0":["macro",0],
-      "arg1":"membersignup"
-    },{
-      "function":"_cn",
-      "arg0":["macro",16],
-      "arg1":"acid="
-    },{
-      "function":"_cn",
-      "arg0":["macro",16],
-      "arg1":"you-are-now-signed-up"
-    },{
-      "function":"_eq",
-      "arg0":["macro",29],
-      "arg1":"undefined"
-    },{
-      "function":"_eq",
-      "arg0":["macro",32],
+      "arg0":["macro",31],
       "arg1":"undefined"
     },{
       "function":"_re",
-      "arg0":["macro",33],
+      "arg0":["macro",32],
       "arg1":"utm|gclid"
     },{
       "function":"_re",
-      "arg0":["macro",34],
+      "arg0":["macro",33],
       "arg1":"(undefined|null)"
     },{
       "function":"_eq",
@@ -724,7 +702,19 @@ data = {
       "arg1":"gtm.dom"
     },{
       "function":"_cn",
-      "arg0":["macro",16],
+      "arg0":["macro",35],
+      "arg1":"@"
+    },{
+      "function":"_eq",
+      "arg0":["macro",36],
+      "arg1":"undefined"
+    },{
+      "function":"_eq",
+      "arg0":["macro",0],
+      "arg1":"acUser"
+    },{
+      "function":"_cn",
+      "arg0":["macro",27],
       "arg1":"\/go"
     },{
       "function":"_cn",
@@ -736,43 +726,42 @@ data = {
       "arg1":"\/lp\/"
     },{
       "function":"_cn",
-      "arg0":["macro",16],
+      "arg0":["macro",27],
       "arg1":"\/replay-15"
     },{
       "function":"_cn",
-      "arg0":["macro",23],
+      "arg0":["macro",22],
       "arg1":"65%"
     },{
       "function":"_cn",
-      "arg0":["macro",16],
+      "arg0":["macro",27],
       "arg1":"\/replay"
     },{
       "function":"_cn",
-      "arg0":["macro",16],
+      "arg0":["macro",27],
       "arg1":"-1"
     }],
   "rules":[
-    [["if",0],["add",2,8,12,20,0,27,28,36,16,17]],
-    [["if",1],["add",3,11,21,29]],
-    [["if",2],["add",4,22]],
-    [["if",3],["add",5,14,15]],
-    [["if",4],["add",6]],
-    [["if",5],["add",7]],
-    [["if",0,7],["unless",6],["add",9]],
-    [["if",8,9],["add",10]],
-    [["if",10],["add",13]],
-    [["if",0,11],["add",18,23]],
-    [["if",12,14],["unless",13],["add",19,32]],
-    [["if",15],["add",22]],
-    [["if",0,16],["unless",17],["add",24]],
-    [["if",0],["unless",18],["add",25]],
-    [["if",0],["unless",19],["add",26]],
-    [["if",0,20],["add",30]],
-    [["if",22],["unless",21],["add",31]],
-    [["if",0,23],["add",1,33]],
-    [["if",0,24],["add",33]],
-    [["if",0,25],["add",33]],
-    [["if",0,26,27],["add",34]],
-    [["if",0,28],["unless",29],["add",35]],
-    [["if",11,12,14],["add",37]]]
+    [["if",0],["add",2,8,12,18,0,25,26,34,17]],
+    [["if",1],["add",3,11,16,19,27]],
+    [["if",0,2],["add",4,9,20]],
+    [["if",4],["unless",3],["add",5,14,15]],
+    [["if",5],["add",6]],
+    [["if",6],["add",7]],
+    [["if",7,8],["add",10]],
+    [["if",9],["add",13]],
+    [["if",10],["add",20]],
+    [["if",0,11],["add",21]],
+    [["if",0,12],["unless",13],["add",22]],
+    [["if",0],["unless",14],["add",23]],
+    [["if",0],["unless",15],["add",24]],
+    [["if",0,16],["add",28]],
+    [["if",18],["unless",17],["add",29]],
+    [["if",19,21],["unless",20],["add",30]],
+    [["if",0,22],["add",1,31]],
+    [["if",0,23],["add",31]],
+    [["if",0,24],["add",31]],
+    [["if",0,25,26],["add",32]],
+    [["if",0,27],["unless",28],["add",33]],
+    [["if",11,19,21],["add",35]]]
 }
