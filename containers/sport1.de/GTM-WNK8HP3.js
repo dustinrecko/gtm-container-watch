@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"66",
+  "version":"67",
   
   "macros":[{
       "function":"__e"
@@ -699,14 +699,6 @@ data = {
       "tag_id":48
     },{
       "function":"__html",
-      "once_per_event":true,
-      "vtp_html":"\u003Cscript type=\"text\/gtmscript\"\u003Evar script_url=\"\/\/inhabit-service.cdn.arkadiumhosted.com\/Widget\/v1\/\";!function(a,b,c){a.async=1;a.src=c;a.setAttribute(\"data-ark-client\",\"36d38ce9-255e-4e07-8659-5ccf0eeda0d2\");b.parentNode.insertBefore(a,b)}(document.createElement(\"script\"),document.getElementsByTagName(\"script\")[0],script_url);\u003C\/script\u003E",
-      "vtp_supportDocumentWrite":false,
-      "vtp_enableIframeMode":false,
-      "vtp_enableEditJsMacroBehavior":false,
-      "tag_id":49
-    },{
-      "function":"__html",
       "metadata":["map"],
       "once_per_event":true,
       "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003Etry{var cdn=\"\/\/tag.aticdn.net\/604311\/smarttag.js\",scr=document.createElement(\"script\");if(null!==",["escape",["macro",43],8,16],"\u0026\u0026\"\"!==",["escape",["macro",43],8,16],")var content_id=",["escape",["macro",43],8,16],".toString();scr.src=cdn;scr.onload=function(){window.atiTag=new ATInternet.Tracker.Tag({site:",["escape",["macro",45],8,16],"});dataLayer.push({event:\"atiTagInit\"});var a={globVars:{source:",["escape",["macro",46],8,16],"||\"\",platform:",["escape",["macro",47],8,16],"||\"\",title:",["escape",["macro",48],8,16],"||\"\",clean_url:",["escape",["macro",41],8,16],"||\"\",full_url:",["escape",["macro",3],8,16],"||\n\"\",ivw_code:",["escape",["macro",49],8,16],"||\"\",virtual_pi:\"no\",seo_type:",["escape",["macro",39],8,16],"||\"\",page_withvideo:",["escape",["macro",40],8,16],"||\"\",channel:",["escape",["macro",4],8,16],"||\"\",subchannel:",["escape",["macro",9],8,16],"||\"\",page_type:",["escape",["macro",1],8,16],"||\"\",page_group:",["escape",["macro",10],8,16],"||\"\",page_date:",["escape",["macro",50],8,16],"||\"\",page_time:",["escape",["macro",51],8,16],"||\"\",page_adLevel1:",["escape",["macro",52],8,16],"||\"\",page_adLevel2:",["escape",["macro",53],8,16],"||\"\",page_adLevel3:",["escape",["macro",54],8,16],"||\"\",page_content_id:content_id||\n\"\",article_type:",["escape",["macro",55],8,16],"||\"\"}};window.atiTag.page.set({name:",["escape",["macro",41],8,16],",level2:",["escape",["macro",56],8,16],",customObject:a});window.atiTag.dispatch()};document.head.appendChild(scr)}catch(a){console.log(\"%c Error in ATI-01.\",\"font-weight: bold; color: red;\")};\u003C\/script\u003E"],
@@ -995,22 +987,6 @@ data = {
       "arg0":["macro",41],
       "arg1":"\/"
     },{
-      "function":"_re",
-      "arg0":["macro",2],
-      "arg1":"(^www.stage.sport1.de$|^m.stage.sport1.de$)"
-    },{
-      "function":"_re",
-      "arg0":["macro",41],
-      "arg1":"(^\\\/fussball\\\/champions-league\\\/|^\\\/fussball\\\/europa-league\\\/|^\\\/internationaler-fussball\\\/premier-league\\\/)[0-9][0-9][0-9][0-9]\\\/[0-9][0-9]"
-    },{
-      "function":"_ew",
-      "arg0":["macro",6],
-      "arg1":"Bildergalerie"
-    },{
-      "function":"_re",
-      "arg0":["macro",2],
-      "arg1":"(^www.sport1.de$|^m.sport1.de$)"
-    },{
       "function":"_eq",
       "arg0":["macro",42],
       "arg1":"false"
@@ -1044,18 +1020,18 @@ data = {
       "arg1":"false"
     }],
   "rules":[
-    [["if",0],["add",8,15,43]],
-    [["if",1],["add",9,44,12]],
+    [["if",0],["add",8,15,42]],
+    [["if",1],["add",9,43,12]],
     [["if",2,3,4],["add",10]],
     [["if",2,3,5],["add",10]],
     [["if",1,6],["add",11]],
-    [["if",7],["add",48,14]],
-    [["if",4],["add",45]],
+    [["if",7],["add",47,14]],
+    [["if",4],["add",44]],
     [["if",8],["add",4,13,28,7]],
-    [["if",9],["add",46,35]],
-    [["if",11],["add",47,42]],
+    [["if",9],["add",45,34]],
+    [["if",11],["add",46,41]],
     [["if",12],["add",5]],
-    [["if",13],["add",16,30,39]],
+    [["if",13],["add",16,30,38]],
     [["if",14,16],["unless",15],["add",17]],
     [["if",15,16],["add",18]],
     [["if",16,17],["unless",18],["add",19]],
@@ -1067,19 +1043,17 @@ data = {
     [["if",31],["unless",30],["add",25]],
     [["if",30,31],["add",26]],
     [["if",32,33],["add",27]],
-    [["if",34],["add",29,36]],
+    [["if",34],["add",29,35]],
     [["if",9,35,36],["add",0]],
     [["if",9,35],["add",1]],
     [["if",8,37],["add",6]],
     [["if",1,38],["add",31]],
     [["if",1],["unless",38],["add",32]],
-    [["if",1,39,40],["unless",41],["add",33]],
-    [["if",1,40,42],["unless",41],["add",33]],
-    [["if",43,44],["add",34]],
-    [["if",44,45],["add",3]],
-    [["if",46],["add",37]],
-    [["if",47],["add",38]],
-    [["if",0,48],["add",40]],
-    [["if",0,45,49,50],["add",41]],
-    [["if",9,10],["block",46]]]
+    [["if",39,40],["add",33]],
+    [["if",40,41],["add",3]],
+    [["if",42],["add",36]],
+    [["if",43],["add",37]],
+    [["if",0,44],["add",39]],
+    [["if",0,41,45,46],["add",40]],
+    [["if",9,10],["block",45]]]
 }
