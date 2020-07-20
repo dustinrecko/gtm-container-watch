@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"599",
+  "version":"600",
   
   "macros":[{
       "function":"__v",
@@ -1132,7 +1132,7 @@ data = {
       "vtp_fullMatch":true,
       "vtp_replaceAfterMatch":true,
       "vtp_ignoreCase":true,
-      "vtp_map":["list",["map","key","\u003C! regex_pattern --\u003E","value","\u003C!- criteo_q_push_args --\u003E"],["map","key","pageType_homepage_Criteo,(k24|a24|cpd)-(de|at|fr|nl|pl|dk)-(live|stg),(Yes|No)","value",["template","[[{\"event\":\"setAccount\",\"account\":\"",["macro",224],"\"},{\"event\":\"setSiteType\",\"type\":\"\"},{\"event\":\"setEmail\",\"email\":\"\"},{\"event\":\"viewHome\",\"user_segment\":\"",["macro",225],"\"}]]"]],["map","key","(pageType_productListingPage_Criteo|pageType_searchResults),(k24|a24|cpd)-(de|at|fr|nl|pl|dk)-(live|stg),(Yes|No)","value",["template","[[{\"event\":\"setAccount\",\"account\":\"",["macro",224],"\"},{\"event\":\"setSiteType\",\"type\":\"\"},{\"event\":\"setEmail\",\"email\":\"\"},{\"event\":\"viewList\",\"item\":",["macro",226],",\"user_segment\":\"",["macro",225],"\"}]]"]],["map","key","pageType_productDetails_Criteo,(k24|a24|cpd)-(de|at|fr|nl|pl|dk)-(live|stg),(Yes|No)","value",["template","[[{\"event\":\"setAccount\",\"account\":\"",["macro",224],"\"},{\"event\":\"setSiteType\",\"type\":\"\"},{\"event\":\"setEmail\",\"email\":\"\"},{\"event\":\"viewItem\",\"item\":\"",["macro",228],"\",\"user_segment\":\"",["macro",225],"\"}]]"]],["map","key","checkout_addToCart_Criteo,(k24|a24|cpd)-(de|at|fr|nl|pl|dk)-(live|stg),(Yes|No)","value",["template","[[{\"event\":\"setAccount\",\"account\":\"",["macro",224],"\"},{\"event\":\"setSiteType\",\"type\":\"\"},{\"event\":\"setEmail\",\"email\":\"\"},{\"event\":\"viewBasket\",\"item\":",["macro",230],",\"user_segment\":\"",["macro",225],"\"}]]"]],["map","key","\u003C!-- 2018-11-09: pushing the ecommerce.add object on addToCart event is buggy on DESHOP - thats why we send product data also on cart --\u003E","value",""],["map","key","pageType_cart_Criteo,(a24|k24)-de-(live|stg),(Yes|No)","value",["template","[[{\"event\":\"setAccount\",\"account\":\"",["macro",224],"\"},{\"event\":\"setSiteType\",\"type\":\"\"},{\"event\":\"setEmail\",\"email\":\"\"},{\"event\":\"viewBasket\",\"item\":",["macro",230],",\"user_segment\":\"",["macro",225],"\"}]]"]],["map","key","checkout_conversionSuccess_Criteo,(k24|a24|cpd)-(de|at|fr|nl|pl|dk)-(live|stg),(Yes|No)","value",["template","[[{\"event\":\"setAccount\",\"account\":\"",["macro",224],"\"},{\"event\":\"setSiteType\",\"type\":\"\"},{\"event\":\"setEmail\",\"email\":\"\"},{\"event\":\"trackTransaction\",\"id\":\"",["macro",3],"\",\"item\":",["macro",230],",\"user_segment\":\"",["macro",225],"\"}]]"]]]
+      "vtp_map":["list",["map","key","\u003C! regex_pattern --\u003E","value","\u003C!- criteo_q_push_args --\u003E"],["map","key","pageType_homepage_Criteo,(k24|a24|cpd)-(de|at|fr|nl|pl|dk)-(live|stg),(Yes|No)","value",["template","[[{\"event\":\"setAccount\",\"account\":\"",["macro",224],"\"},{\"event\":\"setSiteType\",\"type\":\"\"},{\"event\":\"viewHome\",\"user_segment\":\"",["macro",225],"\"}]]"]],["map","key","(pageType_productListingPage_Criteo|pageType_searchResults),(k24|a24|cpd)-(de|at|fr|nl|pl|dk)-(live|stg),(Yes|No)","value",["template","[[{\"event\":\"setAccount\",\"account\":\"",["macro",224],"\"},{\"event\":\"setSiteType\",\"type\":\"\"},{\"event\":\"viewList\",\"item\":",["macro",226],",\"user_segment\":\"",["macro",225],"\"}]]"]],["map","key","pageType_productDetails_Criteo,(k24|a24|cpd)-(de|at|fr|nl|pl|dk)-(live|stg),(Yes|No)","value",["template","[[{\"event\":\"setAccount\",\"account\":\"",["macro",224],"\"},{\"event\":\"setSiteType\",\"type\":\"\"},{\"event\":\"viewItem\",\"item\":\"",["macro",228],"\",\"user_segment\":\"",["macro",225],"\"}]]"]],["map","key","checkout_addToCart_Criteo,(k24|a24|cpd)-(de|at|fr|nl|pl|dk)-(live|stg),(Yes|No)","value",["template","[[{\"event\":\"setAccount\",\"account\":\"",["macro",224],"\"},{\"event\":\"setSiteType\",\"type\":\"\"},{\"event\":\"viewBasket\",\"item\":",["macro",230],",\"user_segment\":\"",["macro",225],"\"}]]"]],["map","key","\u003C!-- 2018-11-09: pushing the ecommerce.add object on addToCart event is buggy on DESHOP - thats why we send product data also on cart --\u003E","value",""],["map","key","pageType_cart_Criteo,(a24|k24)-de-(live|stg),(Yes|No)","value",["template","[[{\"event\":\"setAccount\",\"account\":\"",["macro",224],"\"},{\"event\":\"setSiteType\",\"type\":\"\"},{\"event\":\"viewBasket\",\"item\":",["macro",230],",\"user_segment\":\"",["macro",225],"\"}]]"]],["map","key","checkout_conversionSuccess_Criteo,(k24|a24|cpd)-(de|at|fr|nl|pl|dk)-(live|stg),(Yes|No)","value",["template","[[{\"event\":\"setAccount\",\"account\":\"",["macro",224],"\"},{\"event\":\"setSiteType\",\"type\":\"\"},{\"event\":\"trackTransaction\",\"id\":\"",["macro",3],"\",\"item\":",["macro",230],",\"user_segment\":\"",["macro",225],"\"}]]"]]]
     },{
       "function":"__v",
       "vtp_dataLayerVersion":2,
@@ -2661,7 +2661,7 @@ data = {
       "vtp_customParamsFormat":"DATA_LAYER",
       "vtp_conversionLabel":["macro",167],
       "vtp_enableOgtRmktParams":true,
-      "vtp_enableUserId":false,
+      "vtp_enableUserId":true,
       "vtp_url":["macro",168],
       "vtp_enableRdpCheckbox":true,
       "tag_id":284
@@ -3891,7 +3891,7 @@ data = {
       "function":"__html",
       "metadata":["map"],
       "once_per_event":true,
-      "vtp_html":"\u003Cscript type=\"text\/gtmscript\"\u003Evar VariantCriteoTagTest032020,rn=Math.random();0\u003C=rn\u0026\u0026.5\u003Ern?VariantCriteoTagTest032020=\"No\":.5\u003C=rn\u0026\u0026(VariantCriteoTagTest032020=\"Yes\");var d=new Date;d.setTime(d.getTime()+63072E6);var expires=\"expires\\x3d\"+d.toGMTString();document.cookie=\"variantCookieCriteoTagTest032020\\x3d\"+VariantCriteoTagTest032020+\"; \"+expires+\"; path\\x3d\/\";void 0!==VariantCriteoTagTest032020\u0026\u0026null!==VariantCriteoTagTest032020\u0026\u0026dataLayer.push({event:\"variantSetCriteoTagTest032020\",VariantCriteoTagTest032020:VariantCriteoTagTest032020});\u003C\/script\u003E",
+      "vtp_html":"\u003Cscript type=\"text\/gtmscript\"\u003Evar VariantCriteoTagTest032020,rn=Math.random();0\u003C=rn\u0026\u0026.2\u003Ern?VariantCriteoTagTest032020=\"No\":.2\u003C=rn\u0026\u0026(VariantCriteoTagTest032020=\"Yes\");var d=new Date;d.setTime(d.getTime()+63072E6);var expires=\"expires\\x3d\"+d.toGMTString();document.cookie=\"variantCookieCriteoTagTest032020\\x3d\"+VariantCriteoTagTest032020+\"; \"+expires+\"; path\\x3d\/\";void 0!==VariantCriteoTagTest032020\u0026\u0026null!==VariantCriteoTagTest032020\u0026\u0026dataLayer.push({event:\"variantSetCriteoTagTest032020\",VariantCriteoTagTest032020:VariantCriteoTagTest032020});\u003C\/script\u003E",
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
