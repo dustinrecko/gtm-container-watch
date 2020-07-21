@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"187",
+  "version":"188",
   
   "macros":[{
       "function":"__cvt_903835_490"
@@ -1085,70 +1085,70 @@ data = {
       "vtp_checkValidation":true,
       "vtp_waitForTagsTimeout":"2000",
       "vtp_uniqueTriggerId":"903835_83",
-      "tag_id":582
-    },{
-      "function":"__lcl",
-      "vtp_waitForTags":true,
-      "vtp_checkValidation":true,
-      "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"903835_84",
       "tag_id":583
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_checkValidation":true,
       "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"903835_107",
+      "vtp_uniqueTriggerId":"903835_84",
       "tag_id":584
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_checkValidation":true,
       "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"903835_110",
+      "vtp_uniqueTriggerId":"903835_107",
       "tag_id":585
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_checkValidation":true,
       "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"903835_117",
+      "vtp_uniqueTriggerId":"903835_110",
       "tag_id":586
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_checkValidation":true,
       "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"903835_123",
+      "vtp_uniqueTriggerId":"903835_117",
       "tag_id":587
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_checkValidation":true,
       "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"903835_129",
+      "vtp_uniqueTriggerId":"903835_123",
       "tag_id":588
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_checkValidation":true,
       "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"903835_146",
+      "vtp_uniqueTriggerId":"903835_129",
       "tag_id":589
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_checkValidation":true,
       "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"903835_153",
+      "vtp_uniqueTriggerId":"903835_146",
       "tag_id":590
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_checkValidation":true,
       "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"903835_171",
+      "vtp_uniqueTriggerId":"903835_153",
       "tag_id":591
+    },{
+      "function":"__lcl",
+      "vtp_waitForTags":true,
+      "vtp_checkValidation":true,
+      "vtp_waitForTagsTimeout":"2000",
+      "vtp_uniqueTriggerId":"903835_171",
+      "tag_id":592
     },{
       "function":"__sdl",
       "vtp_verticalThresholdUnits":"PERCENT",
@@ -1157,7 +1157,7 @@ data = {
       "vtp_horizontalThresholdOn":false,
       "vtp_uniqueTriggerId":"903835_178",
       "vtp_enableTriggerStartOption":true,
-      "tag_id":592
+      "tag_id":593
     },{
       "function":"__sdl",
       "vtp_verticalThresholdUnits":"PERCENT",
@@ -1166,7 +1166,7 @@ data = {
       "vtp_horizontalThresholdOn":false,
       "vtp_uniqueTriggerId":"903835_193",
       "vtp_enableTriggerStartOption":true,
-      "tag_id":593
+      "tag_id":594
     },{
       "function":"__sdl",
       "vtp_verticalThresholdUnits":"PERCENT",
@@ -1175,17 +1175,17 @@ data = {
       "vtp_horizontalThresholdOn":false,
       "vtp_uniqueTriggerId":"903835_194",
       "vtp_enableTriggerStartOption":true,
-      "tag_id":594
+      "tag_id":595
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_checkValidation":true,
       "vtp_waitForTagsTimeout":"2000",
       "vtp_uniqueTriggerId":"903835_205",
-      "tag_id":595
+      "tag_id":596
     },{
       "function":"__hl",
-      "tag_id":596
+      "tag_id":597
     },{
       "function":"__sdl",
       "vtp_verticalThresholdUnits":"PERCENT",
@@ -1194,7 +1194,7 @@ data = {
       "vtp_horizontalThresholdOn":false,
       "vtp_uniqueTriggerId":"903835_237",
       "vtp_enableTriggerStartOption":true,
-      "tag_id":597
+      "tag_id":598
     },{
       "function":"__sdl",
       "vtp_verticalThresholdUnits":"PERCENT",
@@ -1203,7 +1203,7 @@ data = {
       "vtp_horizontalThresholdOn":false,
       "vtp_uniqueTriggerId":"903835_245",
       "vtp_enableTriggerStartOption":true,
-      "tag_id":598
+      "tag_id":599
     },{
       "function":"__sdl",
       "vtp_verticalThresholdUnits":"PERCENT",
@@ -1213,7 +1213,7 @@ data = {
       "vtp_horizontalThresholdOn":false,
       "vtp_uniqueTriggerId":"903835_270",
       "vtp_enableTriggerStartOption":true,
-      "tag_id":599
+      "tag_id":600
     },{
       "function":"__sdl",
       "vtp_verticalThresholdUnits":"PERCENT",
@@ -1223,7 +1223,7 @@ data = {
       "vtp_horizontalThresholdOn":false,
       "vtp_uniqueTriggerId":"903835_271",
       "vtp_enableTriggerStartOption":true,
-      "tag_id":600
+      "tag_id":601
     },{
       "function":"__sdl",
       "vtp_verticalThresholdUnits":"PERCENT",
@@ -1233,10 +1233,10 @@ data = {
       "vtp_horizontalThresholdOn":false,
       "vtp_uniqueTriggerId":"903835_272",
       "vtp_enableTriggerStartOption":true,
-      "tag_id":601
+      "tag_id":602
     },{
       "function":"__hl",
-      "tag_id":602
+      "tag_id":603
     },{
       "function":"__html",
       "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003Evar disableStr=\"ga-disable-\"+",["escape",["macro",7],8,16],";\nfunction gaOptout(){document.cookie=disableStr+\"\\x3dtrue; expires\\x3dThu, 31 Dec 2099 23:59:59 UTC; path\\x3d\/\";window[disableStr]=!0;document.cookie=\"_ga\\x3d; expires\\x3dThu, 01 Jan 1970 00:00:00 UTC; domain\\x3d.lidl.de; path\\x3d\/\";document.cookie=\"_gat_UA-47225043-4\\x3d; expires\\x3dThu, 01 Jan 1970 00:00:00 UTC; domain\\x3d.lidl.de; path\\x3d\/\";document.cookie=\"_dc_gtm_UA-47225043-4\\x3d; expires\\x3dThu, 01 Jan 1970 00:00:00 UTC; domain\\x3d.lidl.de; path\\x3d\/\";alert(\"Opt Out Cookie wurde erfolgreich gesetzt\")}\n;\u003C\/script\u003E"],
@@ -1321,6 +1321,15 @@ data = {
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
       "tag_id":551
+    },{
+      "function":"__html",
+      "metadata":["map"],
+      "once_per_event":true,
+      "vtp_html":"\u003Cscript type=\"text\/gtmscript\"\u003E(function(){for(var d=!1,b=window.dataLayer||[],e=JSON.parse(JSON.stringify(b))||[],c=0;c\u003Ce.length;c++){var a=e[c];a.event\u0026\u0026\"EECproductDetailView\"==a.event?(a[\"gtm.uniqueEventId\"]=void 0,a.event=\"virtPath\",b.push(a),d=!0):a.event\u0026\u0026a.event.includes(\"EEC\")\u0026\u0026(a[\"gtm.uniqueEventId\"]=void 0,b.push(a))}d||b.push({event:\"virtPath\"})})();\u003C\/script\u003E",
+      "vtp_supportDocumentWrite":false,
+      "vtp_enableIframeMode":false,
+      "vtp_enableEditJsMacroBehavior":false,
+      "tag_id":582
     }],
   "predicates":[{
       "function":"_cn",
@@ -1370,10 +1379,6 @@ data = {
       "function":"_cn",
       "arg0":["macro",6],
       "arg1":"App"
-    },{
-      "function":"_eq",
-      "arg0":["macro",1],
-      "arg1":"cookie_consent_statistics"
     },{
       "function":"_eq",
       "arg0":["macro",45],
@@ -1549,6 +1554,10 @@ data = {
       "arg0":["macro",45],
       "arg1":"c21418|c21355|c21373|c21357|c21423|c21374|c21375|c21419|c21376"
     },{
+      "function":"_eq",
+      "arg0":["macro",1],
+      "arg1":"cookie_consent_statistics"
+    },{
       "function":"_re",
       "arg0":["macro",45],
       "arg1":"s7379437|s7379453|s7379318|s7379436|b5861|c5416|c10153|c15264|c7338|c15474|c10436|c9189|c11586|c10228|c4984|c6156|c9784|c7227|c5873|c8367|c10146|c15216|c10415|c5958|c8376|c6504|c10220|c9783|c9762|c9862|c10515|c6181|c16623|c9237|c5875|c10801|c10615|c8899|c5417|c10376|c10491|c6257|c1723|c10494|c10229|c10487|c10994|c10492|c10513|c7061|c10427|c1726|c10154|c5616|c10682|c5339|c7968|c10648|c10489|c9078|c7226|c10151|c7480|c9343|c10029|c5998|c16982|c8360|c10496|c9360|c3521|c11552|c10512|c13957|c20956|c2345|c8980|\/de\/onlineshop|s4182|c5892|c2661|c8900|c5862|c6160|c5858|c10140|c8377|c6236|c10518|c10410|c5887|c5891|c5883|c10147|c5466|c12503|c10397|c10519|c10520|c9082|c11480|c10950|c10418|c8259|c3262|c10174|c9732|c10388|c10093|c2351|c10145|c9083|c10521|c10469|c9739|c9529|c16697|c10421|c10419|c10483|c10618|c9785|c10474|c6508|c8902|c19968|c10165|c7965|c6158|c10522|c10514|c10264|c10894|c15732|c10385|c16980|c10467|c6514|c10613|c10465|c10466|c15474|c16981|c5886|c10429|c5865|c10471|c10476|c15265|c10437|c10470|c7966|c16282|c10166|c12369|c5617|c10485|c10480|c10148|c5872|c5442|c13797|c5004|c5916|c7257|c10649|c10478|c10021|c5870|c10644|c10149|c2662|c3161|c6506|c6524|c10484|c10417|c10479|c10030|c10473|c9788|c9787|c20394|c5863|c10847|c10482|c10499|c10490|c9758|c9502|c9745|c10641|c12504|c9730|c9515|c10377|c9734|c3243|c10835|c10640|c10156|c6720|c5441|c5416|c10153|c15264|c7338|c15474|c10436|c9189|c11586|c10228|c4984|c20889|c21114|c15957|c6156|c9784|c7227|c5873|c8367|c15656|c10146|c15660|c21342|c21281|c15216|c10415|c20715|c5958|c8376|c6504|c10220|c21040|c15706|c9783|c20596|c9762|c9862|c10515|c6181|c17629|c16623|c9237|c5875|c21154|c10801|c10615|c8899|c5417|c10376|c10491|c21394|c21280|c6257|c1723|c10494|c20212|c10229|c10487|c10994|c10492|c10513|c7061|c10427|c1726|c10154|c21314|c5616|c10682|c5339|c7968|c10648|c10489|c9078|c19875|c17650|c7226|c10151|c7480|c20266|c17634|c9343|c10029|c17657|c8396|c5998|c16982|c15370|c8360|c10496|c21316|c19174|c9360|c19655|c3521|c11552|c19582|c10512|c13957|c19519|c20956|c2345|c15298|p293680|p302993|p307682|p309143|p309144|p309187|p310582|p316490|p316493|p316537|p316572|p316816|p8526|p187420|p216047|p238804|p254148|p278854|p302399|p256434|p285620|p298351|p309312|p296252|p200926|p212802|p229409|p234868|p288757|p303036|p305094|p311619|p311649|p311815|p311872|p312821|p203678|p214656|p247337|p268703|p283268|p290742|p299288|p309858|p202168"
@@ -1565,46 +1574,46 @@ data = {
     [["if",0,7,8],["add",3]],
     [["if",9,10],["add",3]],
     [["if",7,8,11],["add",3]],
-    [["if",0,12],["add",3,39,42]],
-    [["if",0,15],["add",4]],
-    [["if",0,16],["add",5]],
-    [["if",0,3,17],["add",6,43]],
+    [["if",0,14],["add",4]],
+    [["if",0,15],["add",5]],
+    [["if",0,3,16],["add",6,43]],
+    [["if",0,3,17],["add",6]],
     [["if",0,3,18],["add",6]],
     [["if",0,3,19],["add",6]],
     [["if",0,3,20],["add",6]],
-    [["if",0,3,21],["add",6]],
-    [["if",3,22],["add",6]],
-    [["if",0,3,23],["add",6]],
-    [["if",0,3,24],["add",6,44]],
+    [["if",3,21],["add",6]],
+    [["if",0,3,22],["add",6]],
+    [["if",0,3,23],["add",6,44]],
+    [["if",0,3,24],["add",6]],
     [["if",0,3,25],["add",6]],
-    [["if",0,3,26],["add",6]],
-    [["if",3,9,24],["add",6]],
-    [["if",3,24,27],["add",6]],
+    [["if",3,9,23],["add",6]],
+    [["if",3,23,26],["add",6]],
     [["if",5,9],["add",7]],
-    [["if",5,27],["add",7]],
-    [["if",28,30,31],["unless",29],["add",8]],
-    [["if",30,32,33],["add",8]],
-    [["if",30,34,35],["add",8]],
-    [["if",30,36,37],["add",8]],
-    [["if",0,38,39],["add",10]],
-    [["if",0,38,40,41,42],["add",10]],
-    [["if",0,38,41,43],["unless",40],["add",11]],
-    [["if",0,44,45],["add",12]],
-    [["if",0,46],["add",13]],
-    [["if",5,47],["add",14,15,16,18,19,20,21,22,27]],
-    [["if",5,48],["add",17]],
-    [["if",5,49],["add",23]],
+    [["if",5,26],["add",7]],
+    [["if",27,29,30],["unless",28],["add",8]],
+    [["if",29,31,32],["add",8]],
+    [["if",29,33,34],["add",8]],
+    [["if",29,35,36],["add",8]],
+    [["if",0,37,38],["add",10]],
+    [["if",0,37,39,40,41],["add",10]],
+    [["if",0,37,40,42],["unless",39],["add",11]],
+    [["if",0,43,44],["add",12]],
+    [["if",0,45],["add",13]],
+    [["if",5,46],["add",14,15,16,18,19,20,21,22,27]],
+    [["if",5,47],["add",17]],
+    [["if",5,48],["add",23]],
     [["if",5],["add",24,25,26,28,29,30,34]],
-    [["if",50],["add",31,32,33]],
-    [["if",0,51],["add",36]],
-    [["if",5,52],["add",37]],
+    [["if",49],["add",31,32,33]],
+    [["if",0,50],["add",36]],
+    [["if",5,51],["add",37]],
+    [["if",0,5,52],["add",38]],
     [["if",0,5,53],["add",38]],
     [["if",0,5,54],["add",38]],
-    [["if",0,5,55],["add",38]],
+    [["if",0,55],["add",39,42,45]],
     [["if",0,5,56],["add",40]],
-    [["if",0,38,40,41,57],["add",41]],
+    [["if",0,37,39,40,57],["add",41]],
     [["if",2,3],["block",0,1,3,4,5,6,7,10,11,13,36]],
     [["if",2,5],["block",2]],
-    [["if",3,13],["block",3,7]],
-    [["if",3,14],["block",3,36]]]
+    [["if",3,12],["block",3,7]],
+    [["if",3,13],["block",3,36]]]
 }
