@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"188",
+  "version":"193",
   
   "macros":[{
       "function":"__cvt_903835_490"
@@ -850,7 +850,7 @@ data = {
     },{
       "function":"__ua",
       "metadata":["map"],
-      "once_per_event":true,
+      "once_per_load":true,
       "vtp_useEcommerceDataLayer":false,
       "vtp_overrideGaSettings":true,
       "vtp_ecommerceMacroData":["macro",48],
