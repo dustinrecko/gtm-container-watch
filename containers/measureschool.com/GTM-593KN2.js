@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"265",
+  "version":"266",
   
   "macros":[{
       "function":"__e"
@@ -231,7 +231,7 @@ data = {
     },{
       "function":"__ua",
       "metadata":["map"],
-      "setup_tags":["list",["tag",36,0]],
+      "setup_tags":["list",["tag",37,0]],
       "once_per_event":true,
       "vtp_overrideGaSettings":false,
       "vtp_trackType":"TRACK_PAGEVIEW",
@@ -452,6 +452,13 @@ data = {
       "vtp_uniqueTriggerId":"1927886_231",
       "tag_id":293
     },{
+      "function":"__tl",
+      "vtp_eventName":"gtm.timer",
+      "vtp_interval":"5000",
+      "vtp_limit":"1",
+      "vtp_uniqueTriggerId":"1927886_293",
+      "tag_id":294
+    },{
       "function":"__html",
       "metadata":["map"],
       "once_per_event":true,
@@ -665,6 +672,10 @@ data = {
       "arg0":["macro",0],
       "arg1":"video"
     },{
+      "function":"_re",
+      "arg0":["macro",7],
+      "arg1":"(products|services)"
+    },{
       "function":"_eq",
       "arg0":["macro",0],
       "arg1":"membersignup"
@@ -688,6 +699,14 @@ data = {
       "function":"_eq",
       "arg0":["macro",31],
       "arg1":"undefined"
+    },{
+      "function":"_eq",
+      "arg0":["macro",0],
+      "arg1":"gtm.timer"
+    },{
+      "function":"_re",
+      "arg0":["macro",17],
+      "arg1":"(^$|((^|,)1927886_293($|,)))"
     },{
       "function":"_re",
       "arg0":["macro",32],
@@ -742,26 +761,28 @@ data = {
       "arg1":"-1"
     }],
   "rules":[
-    [["if",0],["add",2,8,12,18,0,25,26,34,17]],
-    [["if",1],["add",3,11,16,19,27]],
-    [["if",0,2],["add",4,9,20]],
+    [["if",0],["add",2,8,12,19,0,26,35,17]],
+    [["if",1],["add",3,11,16,20,28]],
+    [["if",0,2],["add",4,9,21]],
     [["if",4],["unless",3],["add",5,14,15]],
     [["if",5],["add",6]],
     [["if",6],["add",7]],
     [["if",7,8],["add",10]],
     [["if",9],["add",13]],
-    [["if",10],["add",20]],
-    [["if",0,11],["add",21]],
-    [["if",0,12],["unless",13],["add",22]],
-    [["if",0],["unless",14],["add",23]],
+    [["if",0,10],["add",18]],
+    [["if",11],["add",21]],
+    [["if",0,12],["add",22]],
+    [["if",0,13],["unless",14],["add",23]],
     [["if",0],["unless",15],["add",24]],
-    [["if",0,16],["add",28]],
-    [["if",18],["unless",17],["add",29]],
-    [["if",19,21],["unless",20],["add",30]],
-    [["if",0,22],["add",1,31]],
-    [["if",0,23],["add",31]],
-    [["if",0,24],["add",31]],
-    [["if",0,25,26],["add",32]],
-    [["if",0,27],["unless",28],["add",33]],
-    [["if",11,19,21],["add",35]]]
+    [["if",0],["unless",16],["add",25]],
+    [["if",10,17,18],["add",27]],
+    [["if",0,19],["add",29]],
+    [["if",21],["unless",20],["add",30]],
+    [["if",22,24],["unless",23],["add",31]],
+    [["if",0,25],["add",1,32]],
+    [["if",0,26],["add",32]],
+    [["if",0,27],["add",32]],
+    [["if",0,28,29],["add",33]],
+    [["if",0,30],["unless",31],["add",34]],
+    [["if",12,22,24],["add",36]]]
 }
