@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"588",
+  "version":"590",
   
   "macros":[{
       "function":"__e"
@@ -424,7 +424,7 @@ data = {
       "vtp_enableEcommerce":true,
       "vtp_trackingId":["macro",98],
       "vtp_enableRecaptchaOption":false,
-      "vtp_enableTransportUrl":false,
+      "vtp_enableTransportUrl":true,
       "vtp_enableUaRlsa":false,
       "vtp_enableUseInternalVersion":false,
       "vtp_ecommerceIsEnabled":true
@@ -473,7 +473,7 @@ data = {
       "vtp_enableEcommerce":true,
       "vtp_trackingId":["macro",98],
       "vtp_enableRecaptchaOption":false,
-      "vtp_enableTransportUrl":false,
+      "vtp_enableTransportUrl":true,
       "vtp_enableUaRlsa":false,
       "vtp_enableUseInternalVersion":false,
       "vtp_ecommerceIsEnabled":true
@@ -526,7 +526,7 @@ data = {
       "vtp_enableEcommerce":true,
       "vtp_trackingId":["macro",98],
       "vtp_enableRecaptchaOption":false,
-      "vtp_enableTransportUrl":false,
+      "vtp_enableTransportUrl":true,
       "vtp_enableUaRlsa":false,
       "vtp_enableUseInternalVersion":false,
       "vtp_ecommerceIsEnabled":true
@@ -742,7 +742,7 @@ data = {
       "vtp_eventAction":["macro",100],
       "vtp_eventLabel":["macro",103],
       "vtp_enableRecaptchaOption":false,
-      "vtp_enableTransportUrl":false,
+      "vtp_enableTransportUrl":true,
       "vtp_enableUaRlsa":false,
       "vtp_enableUseInternalVersion":false,
       "vtp_enableFirebaseCampaignData":true,
@@ -756,7 +756,7 @@ data = {
       "vtp_trackType":"TRACK_PAGEVIEW",
       "vtp_gaSettings":["macro",107],
       "vtp_enableRecaptchaOption":false,
-      "vtp_enableTransportUrl":false,
+      "vtp_enableTransportUrl":true,
       "vtp_enableUaRlsa":false,
       "vtp_enableUseInternalVersion":false,
       "vtp_enableFirebaseCampaignData":true,
@@ -843,7 +843,7 @@ data = {
       "vtp_eventAction":"Youtube Video click",
       "vtp_eventLabel":["template",["macro",112],"_",["macro",113]],
       "vtp_enableRecaptchaOption":false,
-      "vtp_enableTransportUrl":false,
+      "vtp_enableTransportUrl":true,
       "vtp_enableUaRlsa":false,
       "vtp_enableUseInternalVersion":false,
       "vtp_enableFirebaseCampaignData":true,
@@ -860,7 +860,7 @@ data = {
       "vtp_eventAction":"Youtube Video Progress",
       "vtp_eventLabel":["template",["macro",112],"_",["macro",114],"%"],
       "vtp_enableRecaptchaOption":false,
-      "vtp_enableTransportUrl":false,
+      "vtp_enableTransportUrl":true,
       "vtp_enableUaRlsa":false,
       "vtp_enableUseInternalVersion":false,
       "vtp_enableFirebaseCampaignData":true,
@@ -878,7 +878,7 @@ data = {
       "vtp_trackType":"TRACK_PAGEVIEW",
       "vtp_gaSettings":["macro",116],
       "vtp_enableRecaptchaOption":false,
-      "vtp_enableTransportUrl":false,
+      "vtp_enableTransportUrl":true,
       "vtp_enableUaRlsa":false,
       "vtp_enableUseInternalVersion":false,
       "vtp_enableFirebaseCampaignData":true,
@@ -1110,7 +1110,7 @@ data = {
       "function":"__html",
       "metadata":["map"],
       "once_per_event":true,
-      "vtp_html":"\u003Cscript type=\"text\/gtmscript\"\u003Etry{-1===document.cookie.indexOf(\"real_screenWidthInPxs\")\u0026\u00260===window.location.href.indexOf(\"https:\/\/www.real.de\")\u0026\u0026\"undefined\"!==typeof window.screen\u0026\u0026\"undefined\"!==typeof window.screen.width\u0026\u0026(document.cookie=\"real_screenWidthInPxs\\x3d\"+parseInt(screen.width)+\";path\\x3d\/;Secure;SameSite\\x3dStrict;domain\\x3d.real.de\")}catch(a){console.error(\"error in setting screen width as cookie\",a)};\u003C\/script\u003E",
+      "vtp_html":"\u003Cscript type=\"text\/gtmscript\"\u003Etry{0===window.location.href.indexOf(\"https:\/\/www.real.de\")\u0026\u0026\"undefined\"!==typeof window.screen\u0026\u0026\"undefined\"!==typeof window.screen.width\u0026\u0026(document.cookie=\"real_screenWidthInPxs\\x3d\"+parseInt(screen.width)+\";path\\x3d\/;Secure;SameSite\\x3dLax;domain\\x3d.real.de\")}catch(a){var errMsg=\"undefined\"===typeof a||\"undefined\"===typeof a.message?\"Unknown error\":a.message;dataLayer.push({event:\"GAevent\",eventCategory:\"JavaScript Error\",eventAction:errMsg})};\u003C\/script\u003E",
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
