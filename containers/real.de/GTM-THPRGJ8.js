@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"610",
+  "version":"615",
   
   "macros":[{
       "function":"__e"
@@ -429,7 +429,7 @@ data = {
       "vtp_value":"50"
     },{
       "function":"__jsm",
-      "vtp_javascript":["template","(function(){try{var b=",["escape",["macro",94],8,16],",d=parseInt(",["escape",["macro",104],8,16],"),a=0,c;for(c=0;c\u003Cb.length;c++){var f=b.charCodeAt(c);a=(a\u003C\u003C5)-a+f;a|=0}b=a%100;return b\u003E=d?!1:!0}catch(e){d=\"undefined\"===typeof e||\"undefined\"===typeof e.message?\"Unknown error\":e.message,dataLayer.push({event:\"GAevent\",eventCategory:\"JavaScript Error\",eventAction:d})}})();"]
+      "vtp_javascript":["template","(function(){try{var a=",["escape",["macro",94],8,16],";if(a){var e=parseInt(",["escape",["macro",104],8,16],"),b=0,c;for(c=0;c\u003Ca.length;c++){var f=a.charCodeAt(c);b=(b\u003C\u003C5)-b+f;b|=0}var g=Math.abs(b)%100;return g\u003E=e?0:1}}catch(d){a=\"undefined\"===typeof d||\"undefined\"===typeof d.toString()?\"Unknown error\":d.toString(),dataLayer.push({event:\"GAevent\",eventCategory:\"JavaScript Error\",eventAction:\"cs_shouldTrack\"+a})}})();"]
     },{
       "function":"__c",
       "vtp_value":"UA-27218006-5"
