@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"68",
+  "version":"69",
   
   "macros":[{
       "function":"__e"
@@ -913,7 +913,7 @@ data = {
       "function":"__html",
       "metadata":["map"],
       "once_per_event":true,
-      "vtp_html":"\u003Cscript type=\"text\/gtmscript\"\u003Ewindow.dataLayer=window.dataLayer||[];window.dataLayer.push({event:\"cmp_infonline\"});window.dataLayer.push({event:\"cmp_zendesk\"});window.dataLayer.push({event:\"cmp_hola\"});\u003C\/script\u003E",
+      "vtp_html":"\u003Cscript type=\"text\/gtmscript\"\u003Ewindow.dataLayer=window.dataLayer||[];window.dataLayer.push({event:\"cmp_infonline\"});window.dataLayer.push({event:\"cmp_zendesk\"});window.dataLayer.push({event:\"cmp_hola\"});window.dataLayer.push({event:\"cmp_agf\"});\u003C\/script\u003E",
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
