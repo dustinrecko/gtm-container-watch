@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"69",
+  "version":"70",
   
   "macros":[{
       "function":"__e"
@@ -530,7 +530,7 @@ data = {
       "vtp_checkValidation":true,
       "vtp_waitForTagsTimeout":"2000",
       "vtp_uniqueTriggerId":"9010567_34",
-      "tag_id":254
+      "tag_id":255
     },{
       "function":"__sdl",
       "vtp_verticalThresholdUnits":"PERCENT",
@@ -539,7 +539,7 @@ data = {
       "vtp_horizontalThresholdOn":false,
       "vtp_uniqueTriggerId":"9010567_41",
       "vtp_enableTriggerStartOption":true,
-      "tag_id":255
+      "tag_id":256
     },{
       "function":"__html",
       "setup_tags":["list",["tag",2,0]],
@@ -794,7 +794,7 @@ data = {
     },{
       "function":"__html",
       "metadata":["map"],
-      "teardown_tags":["list",["tag",70,2]],
+      "teardown_tags":["list",["tag",71,2]],
       "once_per_load":true,
       "vtp_html":"\u003Cscript type=\"text\/gtmscript\"\u003Eif(window.ADS_ACTIVE\u0026\u0026window.S1_CMP_TABOOLA_CATEGORY\u0026\u0026\"undefined\"!==typeof window.s1IsMobileDomain){var srcUrl=window.s1IsMobileDomain?\"\/\/cdn.taboola.com\/libtrc\/sport1de-sport1\/loader.js\":\"\/\/cdn.taboola.com\/libtrc\/sport1de-sport1-desktop0\/loader.js\";window._taboola=window._taboola||[];var obj={};obj[S1_CMP_TABOOLA_CATEGORY]=\"auto\";_taboola.push(obj);!function(a,b,d,c){document.getElementById(c)||(a.async=1,a.src=d,a.id=c,b.parentNode.insertBefore(a,b))}(document.createElement(\"script\"),document.getElementsByTagName(\"script\")[0],\nsrcUrl,\"tb_loader_script\");window.performance\u0026\u0026\"function\"==typeof window.performance.mark\u0026\u0026window.performance.mark(\"tbl_ic\")};\u003C\/script\u003E\n",
       "vtp_supportDocumentWrite":false,
@@ -1035,6 +1035,15 @@ data = {
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
       "tag_id":252
+    },{
+      "function":"__html",
+      "metadata":["map"],
+      "once_per_event":true,
+      "vtp_html":"\u003Cscript type=\"text\/gtmscript\"\u003E(function(){var a={cmp_facebook_content:\"5ee91b9593fc094b59242e25\",cmp_instagram:\"5e717c8e69966540e4554f05\",cmp_twitter:\"5e71760b69966540e4554f01\",cmp_youtube:\"5e7ac3fae30e7d1bc1ebf5e8\"},b=Object.values(a),c=Object.keys(a);a=[\"5f041dcacdc94288b57cb600\",\"5f23f302b4eaff1f7923df2e\"];__tcfapi(\"postCustomConsent\",2,function(){window.dataLayer=window.dataLayer||[];c.forEach(function(d){window.dataLayer.push({event:d})})},b,a,[])})();\u003C\/script\u003E",
+      "vtp_supportDocumentWrite":false,
+      "vtp_enableIframeMode":false,
+      "vtp_enableEditJsMacroBehavior":false,
+      "tag_id":254
     },{
       "function":"__html",
       "metadata":["map"],
@@ -1362,6 +1371,10 @@ data = {
       "function":"_eq",
       "arg0":["macro",0],
       "arg1":"cmp_instagram_single"
+    },{
+      "function":"_eq",
+      "arg0":["macro",0],
+      "arg1":"cmp_social_widget"
     }],
   "rules":[
     [["if",0],["add",8,15,40]],
@@ -1369,12 +1382,12 @@ data = {
     [["if",2,3,4],["add",10]],
     [["if",2,3,5],["add",10]],
     [["if",1,6],["add",11]],
-    [["if",7],["add",74,14]],
-    [["if",4],["add",71]],
+    [["if",7],["add",75,14]],
+    [["if",4],["add",72]],
     [["if",8],["add",4,13,28,7]],
     [["if",9],["add",14]],
-    [["if",10],["add",72,32]],
-    [["if",12],["add",73,39]],
+    [["if",10],["add",73,32]],
+    [["if",12],["add",74,39]],
     [["if",13],["add",5]],
     [["if",14],["add",16,30,36]],
     [["if",15,17],["unless",16],["add",17]],
@@ -1423,5 +1436,6 @@ data = {
     [["if",66],["add",67]],
     [["if",67],["add",68]],
     [["if",68],["add",69]],
-    [["if",10,11],["block",72]]]
+    [["if",69],["add",70]],
+    [["if",10,11],["block",73]]]
 }
