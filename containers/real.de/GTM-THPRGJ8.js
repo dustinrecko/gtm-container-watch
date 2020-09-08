@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"620",
+  "version":"621",
   
   "macros":[{
       "function":"__e"
@@ -1092,7 +1092,7 @@ data = {
       "function":"__html",
       "metadata":["map"],
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\" id=\"gtmctagid_instorefunction\"\u003Evar getUrlVars=function(d){var b=[];var a=window.location.href.slice(window.location.href.indexOf(\"?\")+1);0\u003C=a.lastIndexOf(window.location.hash)\u0026\u0026(a=a.substring(0,a.lastIndexOf(window.location.hash)));for(var c=a.split(\"\\x26\"),e=0;e\u003Cc.length;e++)a=c[e].split(\"\\x3d\"),b.push(a[0]),b[a[0]]=a[1];return d?b[d]:b};function setCookie(d,b,a){var c=new Date;c.setTime(c.getTime()+864E5*a);a=\"expires\\x3d\"+c.toUTCString();document.cookie=d+\"\\x3d\"+b+\";\"+a+\";path\\x3d\/\"}\nfunction getCookie(d){d+=\"\\x3d\";var b=decodeURIComponent(document.cookie);b=b.split(\";\");for(var a=0;a\u003Cb.length;a++){for(var c=b[a];\" \"==c.charAt(0);)c=c.substring(1);if(0==c.indexOf(d))return c.substring(d.length,c.length)}return!1}\n(function(){var d=4E3,b=function(){window.SSO\u0026\u0026window.SSO.SSO\u0026\u0026window.SSO.SSO.isInitialized()?(window.setTimeout(b,d),window.SSO.SSO.logout()):getCookie(\"real-force-logout\")\u0026\u0026setCookie(\"real-force-logout\",0,0)};\"Sale\"==",["escape",["macro",10],8,16],"?getCookie(\"real-terminal-id\")\u0026\u0026setCookie(\"real-force-logout\",\"1\",7):(getUrlVars(\"real-market-bkz\")\u0026\u0026getUrlVars(\"real-terminal-id\")\u0026\u0026(setCookie(\"real-market-bkz\",getUrlVars(\"real-market-bkz\"),7),setCookie(\"real-terminal-id\",getUrlVars(\"real-terminal-id\"),7)),getCookie(\"real-force-logout\")\u0026\u0026\nwindow.setTimeout(b,d))})();\u003C\/script\u003E"],
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\" id=\"gtmctagid_instorefunction\"\u003Evar getUrlVars=function(b){var c=[];var a=window.location.href.slice(window.location.href.indexOf(\"?\")+1);0\u003C=a.lastIndexOf(window.location.hash)\u0026\u0026(a=a.substring(0,a.lastIndexOf(window.location.hash)));for(var d=a.split(\"\\x26\"),e=0;e\u003Cd.length;e++)a=d[e].split(\"\\x3d\"),c.push(a[0]),c[a[0]]=a[1];return b?c[b]:c};function setCookie(b,c,a){var d=new Date;d.setTime(d.getTime()+864E5*a);a=\"expires\\x3d\"+d.toUTCString();document.cookie=b+\"\\x3d\"+c+\";\"+a+\";path\\x3d\/\"}\nfunction getCookie(b){return(b=document.cookie.match(new RegExp(\"(^| )\"+b+\"\\x3d([^;]+)\")))?b[2]:!1}\n(function(){var b=4E3,c=function(){window.SSO\u0026\u0026window.SSO.SSO\u0026\u0026window.SSO.SSO.isInitialized()?(window.setTimeout(c,b),window.SSO.SSO.logout()):getCookie(\"real-force-logout\")\u0026\u0026setCookie(\"real-force-logout\",0,0)};\"Sale\"==",["escape",["macro",10],8,16],"?getCookie(\"real-terminal-id\")\u0026\u0026setCookie(\"real-force-logout\",\"1\",7):(getUrlVars(\"real-market-bkz\")\u0026\u0026getUrlVars(\"real-terminal-id\")\u0026\u0026(setCookie(\"real-market-bkz\",getUrlVars(\"real-market-bkz\"),7),setCookie(\"real-terminal-id\",getUrlVars(\"real-terminal-id\"),7)),getCookie(\"real-force-logout\")\u0026\u0026\nwindow.setTimeout(c,b))})();\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
