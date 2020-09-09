@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"621",
+  "version":"623",
   
   "macros":[{
       "function":"__e"
@@ -990,10 +990,6 @@ data = {
       "vtp_trackTypeIsEvent":true,
       "tag_id":1316
     },{
-      "function":"__paused",
-      "vtp_originalTagType":"html",
-      "tag_id":1331
-    },{
       "function":"__zone",
       "once_per_event":true,
       "vtp_childContainers":["list",["map","publicId","GTM-M6TP8B3","nickname","ZONE _ Seller area"]],
@@ -1315,6 +1311,15 @@ data = {
       "function":"__html",
       "metadata":["map"],
       "once_per_event":true,
+      "vtp_html":"\u003Cscript type=\"text\/gtmscript\"\u003Efunction sendErrorToGa(a){a=\"undefined\"===typeof a||\"undefined\"===typeof a.message?\"Unknown error\":a.message;dataLayer.push({event:\"GAevent\",eventCategory:\"JavaScript Error\",eventAction:a})}function debugMedll(a){var b=-1!==document.cookie.indexOf(\"medalliaDebug\");b\u0026\u0026console.log(a)}\nfunction checkPageConditions(){try{for(var a=[{rx:\/^\\\/$\/,name:\"homePage\"},{rx:\/^\\\/product\\\/\\d+\/,name:\"pdp\"},{rx:\/^\\\/beratung.*\/,name:\"seo\"},{rx:\/^\\\/item\\\/search\\\/?$\/,name:\"serp\"}],b=0;b\u003Ca.length;b++)if(a[b].rx.test(window.location.pathname))return a[b].name;return!1}catch(d){sendErrorToGa(d)}}\nfunction pushActivation(a){window.medallia_pageType=a;debugMedll(\"activating with pageType: \"+a);window.dataLayer=window.dataLayer||[];window.dataLayer.push({event:\"optimize.activate_medalliaPilot_conditional\"})}\ntry{pollForMedalliaActivationConditions=window.setInterval(function(){try{var a=[{Category:\"catLeaf\"}],b=checkPageConditions();if(b)return debugMedll(\"url in Medallia scope - pushing activator\"),clearInterval(pollForMedalliaActivationConditions),pushActivation(b),!1;if(\"undefined\"===typeof dataLayer)return debugMedll(\"dl undef\"),!1;debugMedll(\"checking dataLayer\");for(var d=0;d\u003CdataLayer.length;d++){var c=dataLayer[d],g=\"undefined\"!==typeof c.event?c.event:!1;if(\"pageView\"===g\u0026\u0026\"undefined\"!==typeof c.view\u0026\u0026\n\"undefined\"!==typeof c.view.view_type){clearInterval(pollForMedalliaActivationConditions);debugMedll(\"view type \"+c.view.view_type);var f=!1;b=\"\";for(var e=0;e\u003Ca.length;e++){if(a[e].hasOwnProperty([c.view.view_type])){f=!0;b=a[e][c.view.view_type];break}debugMedll(\"foundPageType: \"+b)}if(f)return debugMedll(\"activating on view type \"+c.view.view_type),pushActivation(b),!0;debugMedll(\"not activating view type \"+c.view.view_type)}}}catch(h){sendErrorToGa(h)}},100)}catch(a){sendErrorToGa(a)};\u003C\/script\u003E",
+      "vtp_supportDocumentWrite":false,
+      "vtp_enableIframeMode":false,
+      "vtp_enableEditJsMacroBehavior":false,
+      "tag_id":1331
+    },{
+      "function":"__html",
+      "metadata":["map"],
+      "once_per_event":true,
       "vtp_html":"\u003Cscript type=\"text\/gtmscript\" id=\"gtmctagid_pinterest_setuptag\"\u003E(function(){\"undefined\"==typeof window.pintrk\u0026\u0026(!function(b){if(!window.pintrk){window.pintrk=function(){window.pintrk.queue.push(Array.prototype.slice.call(arguments))};var a=window.pintrk;a.queue=[];a.version=\"3.0\";a=document.createElement(\"script\");a.async=!0;a.src=b;b=document.getElementsByTagName(\"script\")[0];b.parentNode.insertBefore(a,b)}}(\"https:\/\/s.pinimg.com\/ct\/core.js\"),pintrk(\"load\",\"2613177073704\"),pintrk(\"page\"))})();\u003C\/script\u003E",
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
@@ -1453,11 +1458,11 @@ data = {
     },{
       "function":"_eq",
       "arg0":["macro",0],
-      "arg1":"gtm.dom"
+      "arg1":"gtm.js"
     },{
       "function":"_eq",
       "arg0":["macro",0],
-      "arg1":"gtm.js"
+      "arg1":"gtm.dom"
     },{
       "function":"_eq",
       "arg0":["macro",105],
@@ -1564,15 +1569,15 @@ data = {
       "arg1":"Form_Page_Displayed"
     }],
   "rules":[
-    [["if",0],["add",0,1,7,28,35,43]],
-    [["if",1],["add",1,41]],
+    [["if",0],["add",0,1,7,27,34,42]],
+    [["if",1],["add",1,40]],
     [["if",2],["add",1]],
-    [["if",3],["add",1,3,8,9,12,42,51]],
-    [["if",4],["add",1,8,42]],
+    [["if",3],["add",1,3,8,9,12,41,50]],
+    [["if",4],["add",1,8,41]],
     [["if",7],["add",2]],
     [["if",8,9,10,11],["add",2]],
-    [["if",15,16],["add",3,33]],
-    [["if",0,17],["add",4,31,45]],
+    [["if",15,16],["add",3,32]],
+    [["if",0,17],["add",4,30,44]],
     [["if",18],["add",5]],
     [["if",4,19],["add",6]],
     [["if",3,20],["add",6]],
@@ -1583,34 +1588,34 @@ data = {
     [["if",25,27],["add",14]],
     [["if",28],["add",15]],
     [["if",29],["add",16]],
-    [["if",30],["add",17,33,22,23,49]],
-    [["if",31],["add",18,19,20,21,24,25,26,27]],
-    [["if",33,34],["add",29]],
-    [["if",34,35],["add",30]],
-    [["if",3,17],["add",31,44,47]],
-    [["if",36,37],["add",31]],
-    [["if",0,36],["add",31]],
-    [["if",3,38],["add",32]],
-    [["if",3,39],["add",33]],
-    [["if",40,41],["add",33]],
-    [["if",3,42],["unless",43],["add",33]],
-    [["if",3,46],["add",34]],
-    [["if",3],["unless",47],["add",35]],
-    [["if",3,17,48],["add",36]],
-    [["if",0,17,49],["add",37]],
-    [["if",3,17,50,51],["add",38]],
-    [["if",34,52],["add",39]],
-    [["if",30,46],["unless",53],["add",40]],
-    [["if",4,17],["add",44]],
-    [["if",1,10],["add",46]],
-    [["if",13,14],["unless",12],["add",48]],
-    [["if",54,55],["add",50]],
-    [["if",56],["add",52,53]],
-    [["if",24,57],["add",54]],
-    [["if",6],["unless",5],["block",1,6,8,41,42,43,44,45,46]],
+    [["if",30],["add",17,18,19,20,23,24,25,26,54]],
+    [["if",31],["add",21,22,32,48]],
+    [["if",33,34],["add",28]],
+    [["if",34,35],["add",29]],
+    [["if",3,17],["add",30,43,46]],
+    [["if",36,37],["add",30]],
+    [["if",0,36],["add",30]],
+    [["if",3,38],["add",31]],
+    [["if",3,39],["add",32]],
+    [["if",40,41],["add",32]],
+    [["if",3,42],["unless",43],["add",32]],
+    [["if",3,46],["add",33]],
+    [["if",3],["unless",47],["add",34]],
+    [["if",3,17,48],["add",35]],
+    [["if",0,17,49],["add",36]],
+    [["if",3,17,50,51],["add",37]],
+    [["if",34,52],["add",38]],
+    [["if",31,46],["unless",53],["add",39]],
+    [["if",4,17],["add",43]],
+    [["if",1,10],["add",45]],
+    [["if",13,14],["unless",12],["add",47]],
+    [["if",54,55],["add",49]],
+    [["if",56],["add",51,52]],
+    [["if",24,57],["add",53]],
+    [["if",6],["unless",5],["block",1,6,8,40,41,42,43,44,45]],
     [["if",12,13,14],["block",2]],
-    [["if",6,32],["block",28,29,30,33,48]],
-    [["if",30,44],["block",33]],
-    [["if",30,45],["block",33]],
-    [["if",30,43],["block",33]]]
+    [["if",6,32],["block",27,28,29,32,47]],
+    [["if",31,44],["block",32]],
+    [["if",31,45],["block",32]],
+    [["if",31,43],["block",32]]]
 }
