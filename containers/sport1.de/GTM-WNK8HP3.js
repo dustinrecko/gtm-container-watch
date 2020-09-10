@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"71",
+  "version":"72",
   
   "macros":[{
       "function":"__e"
@@ -239,7 +239,7 @@ data = {
       "vtp_enableIgnoreEmptyQueryParam":false
     },{
       "function":"__jsm",
-      "vtp_javascript":["template","(function(){try{var a=[\"\/",["escape",["macro",17],7],"\".replace(\/_\/ig,\"\/\"),\"",["escape",["macro",18],7],"\"];a=a.join(\"\/\").replace(\/[\\\/]*$\/i,\"\");return a.toLowerCase()}catch(b){}})();"]
+      "vtp_javascript":["template","(function(){try{var a=[];\"\"!==",["escape",["macro",17],8,16],"?a=[\"\/",["escape",["macro",17],7],"\".replace(\/_\/ig,\"\/\"),\"",["escape",["macro",18],7],"\"]:window.iam_data\u0026\u0026(a=[(\"\/\"+window.iam_data.cp).replace(\/_\/ig,\"\/\"),\"null\"]);a=a.join(\"\/\").replace(\/[\\\/]*$\/i,\"\");return a.toLowerCase()}catch(b){}})();"]
     },{
       "function":"__jsm",
       "vtp_javascript":["template","(function(){try{var a=",["escape",["macro",8],8,16],",b=\"\";void 0!==a\u0026\u0026(b=a.split(\"T\")[0]);return b}catch(c){}})();"]
@@ -794,7 +794,7 @@ data = {
       "function":"__html",
       "metadata":["map"],
       "once_per_event":true,
-      "vtp_html":"\u003Cscript type=\"text\/gtmscript\"\u003Ewindow.S1_CMP_FBPOST\u0026\u0026__tcfapi(\"getCustomVendorConsents\",2,function(b,f){var g=\"5ee91b9593fc094b59242e25\";f\u0026\u0026b.grants[g].vendorGrant\u0026\u0026(b=function(a,c,d){var e=a.getElementsByTagName(c)[0];if(a.getElementById(d))return!0;a=a.createElement(c);a.id=d;a.src=\"\/\/connect.facebook.net\/de_DE\/sdk.js#xfbml\\x3d1\\x26version\\x3dv2.5\";e.parentNode.insertBefore(a,e);return!1},document.querySelectorAll(\"div.s1-cmp-facebook\").forEach(function(a){a.classList.contains(\"s1-hidden\")\u0026\u0026(a.classList.remove(\"s1-hidden\"),a.classList.add(a.dataset[\"class\"]))}),\nb(document,\"script\",\"facebook-jssdk\")\u0026\u0026(console.log(\"cmp_facebook_reload\"),FB.XFBML.parse()))});\u003C\/script\u003E\n",
+      "vtp_html":"\u003Cscript type=\"text\/gtmscript\"\u003Ewindow.S1_CMP_FBPOST\u0026\u0026__tcfapi(\"getCustomVendorConsents\",2,function(b,f){var g=\"5ee91b9593fc094b59242e25\";f\u0026\u0026b.grants[g].vendorGrant\u0026\u0026(b=function(a,c,d){var e=a.getElementsByTagName(c)[0];if(a.getElementById(d))return!0;a=a.createElement(c);a.id=d;a.src=\"\/\/connect.facebook.net\/de_DE\/sdk.js#xfbml\\x3d1\\x26version\\x3dv2.5\";e.parentNode.insertBefore(a,e);return!1},document.querySelectorAll(\"div.s1-cmp-facebook\").forEach(function(a){a.classList.contains(\"s1-hidden\")\u0026\u0026(a.classList.remove(\"s1-hidden\"),a.classList.add(a.dataset[\"class\"]))}),\nb(document,\"script\",\"facebook-jssdk\")\u0026\u0026FB.XFBML.parse())});\u003C\/script\u003E\n",
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
