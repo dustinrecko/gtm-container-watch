@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"626",
+  "version":"629",
   
   "macros":[{
       "function":"__e"
@@ -998,16 +998,16 @@ data = {
       "vtp_childContainers":["list",["map","publicId","GTM-M6TP8B3","nickname","ZONE _ Seller area"]],
       "vtp_boundaries":["list",["zb","_sw",["macro",40],"\/seller\/",false,false]],
       "vtp_enableTypeRestrictions":false,
-      "tag_id":1332
+      "tag_id":1349
     },{
       "function":"__cl",
-      "tag_id":1333
+      "tag_id":1350
     },{
       "function":"__cl",
-      "tag_id":1334
+      "tag_id":1351
     },{
       "function":"__jel",
-      "tag_id":1335
+      "tag_id":1352
     },{
       "function":"__ytl",
       "vtp_captureComplete":false,
@@ -1018,7 +1018,7 @@ data = {
       "vtp_captureProgress":false,
       "vtp_uniqueTriggerId":"6178770_643",
       "vtp_enableTriggerStartOption":true,
-      "tag_id":1336
+      "tag_id":1353
     },{
       "function":"__ytl",
       "vtp_progressThresholdsPercent":"25, 50, 75, 100",
@@ -1031,13 +1031,13 @@ data = {
       "vtp_captureProgress":true,
       "vtp_uniqueTriggerId":"6178770_646",
       "vtp_enableTriggerStartOption":true,
-      "tag_id":1337
+      "tag_id":1354
     },{
       "function":"__cl",
-      "tag_id":1338
+      "tag_id":1355
     },{
       "function":"__hl",
-      "tag_id":1339
+      "tag_id":1356
     },{
       "function":"__evl",
       "vtp_elementId":"medalliaEmbeddedTop",
@@ -1048,7 +1048,7 @@ data = {
       "vtp_onScreenRatio":"50",
       "vtp_onScreenDuration":"2000",
       "vtp_uniqueTriggerId":"6178770_1285",
-      "tag_id":1340
+      "tag_id":1357
     },{
       "function":"__evl",
       "vtp_elementId":"medalliaEmbeddedBottom",
@@ -1059,7 +1059,7 @@ data = {
       "vtp_onScreenRatio":"50",
       "vtp_onScreenDuration":"2000",
       "vtp_uniqueTriggerId":"6178770_1286",
-      "tag_id":1341
+      "tag_id":1358
     },{
       "function":"__html",
       "metadata":["map"],
@@ -1180,7 +1180,7 @@ data = {
     },{
       "function":"__html",
       "metadata":["map"],
-      "setup_tags":["list",["tag",56,0]],
+      "setup_tags":["list",["tag",57,0]],
       "once_per_event":true,
       "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\" id=\"gtmctagid_fbatc\"\u003E(function(){var a=",["escape",["macro",146],8,16],";a.content_type=\"product\";a.currency=\"EUR\";try{a.contents=",["escape",["macro",147],8,16],"}catch(b){}try{a.content_ids=[",["escape",["macro",13],8,16],".id]}catch(b){}try{a.value=",["escape",["macro",13],8,16],".offers[0].price}catch(b){a.value=0}fbq(\"track\",\"AddToCart\",a)})();\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
@@ -1190,7 +1190,7 @@ data = {
     },{
       "function":"__html",
       "metadata":["map"],
-      "setup_tags":["list",["tag",56,0]],
+      "setup_tags":["list",["tag",57,0]],
       "once_per_event":true,
       "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\" id=\"gtmctagid_fbpv\"\u003E(function(){fbq(\"track\",\"PageView\",",["escape",["macro",146],8,16],");var a=",["escape",["macro",29],8,16],";if(\"Item\"==a){a=",["escape",["macro",146],8,16],";a.content_category=",["escape",["macro",5],8,16],";a.content_type=\"product\";a.currency=\"EUR\";try{a.contents=",["escape",["macro",147],8,16],"}catch(b){}try{a.content_ids=[",["escape",["macro",13],8,16],".id]}catch(b){}try{a.value=",["escape",["macro",13],8,16],".offers[0].price}catch(b){a.value=0}fbq(\"track\",\"ViewContent\",a)}else\"Checkout\"==a\u0026\u0026fbq(\"track\",\"InitiateCheckout\")})();\u003C\/script\u003E\n"],
       "vtp_supportDocumentWrite":false,
@@ -1200,7 +1200,7 @@ data = {
     },{
       "function":"__html",
       "metadata":["map"],
-      "setup_tags":["list",["tag",56,0]],
+      "setup_tags":["list",["tag",57,0]],
       "once_per_event":true,
       "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\" id=\"gtmctagid_fbs\"\u003E(function(){var a=",["escape",["macro",146],8,16],";a.content_type=\"product\";a.currency=\"EUR\";a.payment_method=",["escape",["macro",67],8,16],";try{a.contents=",["escape",["macro",147],8,16],"}catch(b){}a.content_ids=",["escape",["macro",14],8,16],";a.value=Math.max(0,",["escape",["macro",1],8,16],".revenue)||0;fbq(\"track\",\"Purchase\",a)})();\u003C\/script\u003E\n"],
       "vtp_supportDocumentWrite":false,
@@ -1210,7 +1210,7 @@ data = {
     },{
       "function":"__html",
       "metadata":["map"],
-      "setup_tags":["list",["tag",55,0]],
+      "setup_tags":["list",["tag",56,0]],
       "once_per_event":true,
       "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\" id=\"gtmctagid_pintpv\"\u003E(function(){\"pageView\"==",["escape",["macro",10],8,16],"\u0026\u0026\"Category\"==",["escape",["macro",29],8,16],"?pintrk(\"track\",\"viewcategory\"):\"Item\"==",["escape",["macro",29],8,16],"?pintrk(\"track\",\"pagevisit\"):\"pageView\"==",["escape",["macro",10],8,16],"\u0026\u0026\"Search\"==",["escape",["macro",29],8,16],"\u0026\u0026pintrk(\"track\",\"search\",{search_query:\"",["escape",["macro",35],7],"\"})})();\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
@@ -1220,7 +1220,7 @@ data = {
     },{
       "function":"__html",
       "metadata":["map"],
-      "setup_tags":["list",["tag",55,0]],
+      "setup_tags":["list",["tag",56,0]],
       "once_per_event":true,
       "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\" id=\"gtmctagid_pints\"\u003E(function(){function e(a){for(var b=0,c=0;c\u003Ca.length;c++)b+=a[c].offers[0].amount*a[c].offers[0].price;return b}function f(a){for(var b=0,c=0;c\u003Ca.length;c++)b+=a[c].offers[0].amount;return b}if(\"Sale\"==",["escape",["macro",10],8,16],"){for(var a=",["escape",["macro",1],8,16],".cart,d=[],b=0;b\u003Ca.length;b++)d.push({product_name:a[b].name,product_id:a[b].ean,product_price:a[b].offers[0].price,product_quantity:a[b].offers[0].amount});a={value:e(a),order_quantity:f(a),currency:\"EUR\",line_items:d};pintrk(\"track\",\"checkout\",\na)}})();\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
@@ -1230,7 +1230,7 @@ data = {
     },{
       "function":"__html",
       "metadata":["map"],
-      "setup_tags":["list",["tag",55,0]],
+      "setup_tags":["list",["tag",56,0]],
       "once_per_event":true,
       "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\" id=\"gtmctagid_pintatc\"\u003E(function(){\"addToCart\"==",["escape",["macro",10],8,16],"\u0026\u0026pintrk(\"track\",\"AddToCart\",{value:",["escape",["macro",13],8,16],".offers[0].price,order_quantity:",["escape",["macro",13],8,16],".offers[0].amount,currency:\"EUR\"})})();\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
@@ -1314,12 +1314,23 @@ data = {
     },{
       "function":"__html",
       "metadata":["map"],
+      "consent":["list"],
       "once_per_event":true,
-      "vtp_html":"\u003Cscript type=\"text\/gtmscript\"\u003Efunction sendErrorToGa(a){a=\"undefined\"===typeof a||\"undefined\"===typeof a.message?\"Unknown error\":a.message;dataLayer.push({event:\"GAevent\",eventCategory:\"JavaScript Error\",eventAction:a})}function debugMedll(a){var b=-1!==document.cookie.indexOf(\"medalliaDebug\");b\u0026\u0026console.log(a)}\nfunction checkPageConditions(){try{for(var a=[{rx:\/^\\\/$\/,name:\"homePage\"},{rx:\/^\\\/product\\\/\\d+\/,name:\"pdp\"},{rx:\/^\\\/beratung.*\/,name:\"seo\"},{rx:\/^\\\/item\\\/search\\\/?$\/,name:\"serp\"}],b=0;b\u003Ca.length;b++)if(a[b].rx.test(window.location.pathname))return a[b].name;return!1}catch(d){sendErrorToGa(d)}}\nfunction pushActivation(a){window.medallia_pageType=a;debugMedll(\"activating with pageType: \"+a);window.dataLayer=window.dataLayer||[];window.dataLayer.push({event:\"optimize.activate_medalliaPilot_conditional\"})}\ntry{pollForMedalliaActivationConditions=window.setInterval(function(){try{var a=[{Category:\"catLeaf\"}],b=checkPageConditions();if(b)return debugMedll(\"url in Medallia scope - pushing activator\"),clearInterval(pollForMedalliaActivationConditions),pushActivation(b),!1;if(\"undefined\"===typeof dataLayer)return debugMedll(\"dl undef\"),!1;debugMedll(\"checking dataLayer\");for(var d=0;d\u003CdataLayer.length;d++){var c=dataLayer[d],g=\"undefined\"!==typeof c.event?c.event:!1;if(\"pageView\"===g\u0026\u0026\"undefined\"!==typeof c.view\u0026\u0026\n\"undefined\"!==typeof c.view.view_type){clearInterval(pollForMedalliaActivationConditions);debugMedll(\"view type \"+c.view.view_type);var f=!1;b=\"\";for(var e=0;e\u003Ca.length;e++){if(a[e].hasOwnProperty([c.view.view_type])){f=!0;b=a[e][c.view.view_type];break}debugMedll(\"foundPageType: \"+b)}if(f)return debugMedll(\"activating on view type \"+c.view.view_type),pushActivation(b),!0;debugMedll(\"not activating view type \"+c.view.view_type)}}}catch(h){sendErrorToGa(h)}},100)}catch(a){sendErrorToGa(a)};\u003C\/script\u003E",
+      "vtp_html":"\u003Cscript type=\"text\/gtmscript\"\u003Efunction sendErrorToGa(a){a=\"undefined\"===typeof a||\"undefined\"===typeof a.message?\"Unknown error\":a.message;dataLayer.push({event:\"GAevent\",eventCategory:\"JavaScript Error\",eventAction:a})}function debugMedll(a){var b=-1!==document.cookie.indexOf(\"medalliaDebug\");b\u0026\u0026console.log(a)}\nfunction checkPageConditions(){try{for(var a=[{rx:\/^\\\/$\/,name:\"homePage\"},{rx:\/^\\\/product\\\/\\d+\/,name:\"pdp\"},{rx:\/^\\\/beratung.*\/,name:\"seo\"},{rx:\/^\\\/item\\\/search\\\/?$\/,name:\"serp\"},{rx:\/^\\\/cart\\\/checkout\\\/thankyou\\\/?$\/,name:\"checkoutThankyou\"}],b=0;b\u003Ca.length;b++)if(a[b].rx.test(window.location.pathname))return a[b].name;return!1}catch(d){sendErrorToGa(d)}}\nfunction pushActivation(a){window.medallia_pageType=a;debugMedll(\"activating with pageType: \"+a);window.dataLayer=window.dataLayer||[];window.dataLayer.push({event:\"optimize.activate_medalliaPilot_conditional\"})}\ntry{pollForMedalliaActivationConditions=window.setInterval(function(){try{var a=[{Category:\"catLeaf\"}],b=checkPageConditions();if(b)return debugMedll(\"url in Medallia scope - pushing activator\"),clearInterval(pollForMedalliaActivationConditions),pushActivation(b),!1;if(\"undefined\"===typeof dataLayer)return debugMedll(\"dl undef\"),!1;debugMedll(\"checking dataLayer\");for(var d=0;d\u003CdataLayer.length;d++){var c=dataLayer[d],g=\"undefined\"!==typeof c.event?c.event:!1;if(\"pageView\"===g\u0026\u0026\"undefined\"!==typeof c.view\u0026\u0026\n\"undefined\"!==typeof c.view.view_type){clearInterval(pollForMedalliaActivationConditions);debugMedll(\"view type \"+c.view.view_type);var f=!1;b=\"\";for(var e=0;e\u003Ca.length;e++){if(a[e].hasOwnProperty([c.view.view_type])){f=!0;b=a[e][c.view.view_type];break}debugMedll(\"foundPageType: \"+b)}if(f)return debugMedll(\"activating on view type \"+c.view.view_type),pushActivation(b),!0;debugMedll(\"not activating view type \"+c.view.view_type)}}}catch(h){sendErrorToGa(h)}},100)}catch(a){sendErrorToGa(a)};\u003C\/script\u003E",
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
       "tag_id":1331
+    },{
+      "function":"__html",
+      "metadata":["map"],
+      "consent":["list"],
+      "once_per_event":true,
+      "vtp_html":"\u003Cscript type=\"text\/gtmscript\"\u003Etry{for(var decodedCookie=decodeURIComponent(document.cookie),ca=decodedCookie.split(\";\"),i=0;i\u003Cca.length;i++){var ck=ca[i].trim();if(0===ck.indexOf(\"AB-optimizely\")){var key=ck.match(\/([^=]+).*\/);document.cookie=key+\"\\x3d; expires\\x3dThu, 01 Jan 1970 00:00:00 UTC; path\\x3d\/; domain\\x3dwww.real.de\"}}}catch(a){var errMsg=\"undefined\"===typeof a||\"undefined\"===typeof a.message?\"Unknown error\":a.message;dataLayer.push({event:\"GAevent\",eventCategory:\"JavaScript Error\",eventAction:\"tmp_cookieCheckoutVision \"+\nerrMsg})};\u003C\/script\u003E",
+      "vtp_supportDocumentWrite":false,
+      "vtp_enableIframeMode":false,
+      "vtp_enableEditJsMacroBehavior":false,
+      "tag_id":1348
     },{
       "function":"__html",
       "metadata":["map"],
@@ -1596,7 +1607,7 @@ data = {
     [["if",31],["add",21,22,32,48]],
     [["if",33,34],["add",28]],
     [["if",34,35],["add",29]],
-    [["if",3,17],["add",30,43,46]],
+    [["if",3,17],["add",30,43,46,55]],
     [["if",36,37],["add",30]],
     [["if",0,36],["add",30]],
     [["if",3,38],["add",31]],
