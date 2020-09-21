@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"631",
+  "version":"633",
   
   "macros":[{
       "function":"__e"
@@ -86,7 +86,7 @@ data = {
       "vtp_javascript":["template","(function(){var a=",["escape",["macro",18],8,16],",b=[];a.forEach(function(a){b.push(a.id)});return b})();"]
     },{
       "function":"__jsm",
-      "vtp_javascript":["template","(function(){try{vt=",["escape",["macro",9],8,16],".view_type;ev=",["escape",["macro",10],8,16],";if(vt==\"Category\"){maxItems=4;idList=",["escape",["macro",12],8,16],";r={\"ecomm_prodid\":",["escape",["macro",12],8,16],",\"ecomm_pagetype\":\"category\"}}else if(vt==\"Search\"){maxItems=4;idList=",["escape",["macro",14],8,16],";r={\"ecomm_prodid\":",["escape",["macro",14],8,16],",\"ecomm_pagetype\":\"searchresults\"}}else if(vt==\"Item\")r={\"ecomm_prodid\":",["escape",["macro",15],8,16],".id,\"ecomm_pagetype\":\"product\",\"ecomm_totalvalue\":",["escape",["macro",15],8,16],".offers.length\u003E0?",["escape",["macro",15],8,16],".offers[0].price:\nundefined};else if(ev==\"addToCart\"|vt==\"Cart\"|ev==\"RemoveFromCart\"|ev==\"Sale\"){if(ev==\"Sale\"){var pt=\"purchase\";var tv=",["escape",["macro",16],8,16],".revenue;var idList=",["escape",["macro",17],8,16],"}else{var pt=\"cart\";var tv=",["escape",["macro",19],8,16],";var idList=",["escape",["macro",20],8,16],"}r={\"ecomm_prodid\":idList,\"ecomm_pagetype\":pt,\"ecomm_totalvalue\":tv}}else r={\"ecomm_prodid\":\"\",\"ecomm_pagetype\":\"other\"};return r}catch(err){return{\"ecomm_prodid\":\"\",\"ecomm_pagetype\":\"other\"}}})();"]
+      "vtp_javascript":["template","(function(){try{vt=",["escape",["macro",9],8,16],".view_type;ev=",["escape",["macro",10],8,16],";if(vt==\"Category\"){idList=",["escape",["macro",12],8,16],";r={\"ecomm_prodid\":",["escape",["macro",12],8,16],",\"ecomm_pagetype\":\"category\"}}else if(vt==\"Search\"){idList=",["escape",["macro",14],8,16],";r={\"ecomm_prodid\":",["escape",["macro",14],8,16],",\"ecomm_pagetype\":\"searchresults\"}}else if(vt==\"Item\")r={\"ecomm_prodid\":",["escape",["macro",15],8,16],".id,\"ecomm_pagetype\":\"product\",\"ecomm_totalvalue\":",["escape",["macro",15],8,16],".offers.length\u003E0?",["escape",["macro",15],8,16],".offers[0].price:\nundefined};else if(ev==\"addToCart\"|vt==\"Cart\"|ev==\"RemoveFromCart\"|ev==\"Sale\"){if(ev==\"Sale\"){var pt=\"purchase\";var tv=",["escape",["macro",16],8,16],".revenue;var idList=",["escape",["macro",17],8,16],"}else{var pt=\"cart\";var tv=",["escape",["macro",19],8,16],";var idList=",["escape",["macro",20],8,16],"}r={\"ecomm_prodid\":idList,\"ecomm_pagetype\":pt,\"ecomm_totalvalue\":tv}}else r={\"ecomm_prodid\":\"\",\"ecomm_pagetype\":\"other\"};return r}catch(err){return{\"ecomm_prodid\":\"\",\"ecomm_pagetype\":\"other\"}}})();"]
     },{
       "function":"__v",
       "vtp_dataLayerVersion":2,
@@ -1280,8 +1280,9 @@ data = {
     },{
       "function":"__html",
       "metadata":["map"],
+      "consent":["list"],
       "once_per_event":true,
-      "vtp_html":"\u003Cscript\u003Etry{if(!window.medalliaScriptTag\u0026\u0026(\"\/\"!==window.location.pathname||\"undefined\"===typeof window.__NUXT__)){var medalliaScript=document.createElement(\"script\");medalliaScript.src=\"https:\/\/resources.digital-cloud.medallia.eu\/wdceu\/39035\/onsite\/embed.js\";medalliaScript.id=\"medalliaScriptTag\";document.head.appendChild(medalliaScript)}}catch(a){var errMsg=\"undefined\"===typeof a||\"undefined\"===typeof a.message?\"Unknown error\":a.message;dataLayer.push({event:\"GAevent\",eventCategory:\"JavaScript Error\",eventAction:errMsg})};\u003C\/script\u003E",
+      "vtp_html":"\u003Cscript\u003Etry{if(!window.medalliaScriptTag\u0026\u0026(\"\/\"!==window.location.pathname||\"undefined\"===typeof window.__NUXT__)){var medalliaScript=document.createElement(\"script\");medalliaScript.src=\"https:\/\/resources.digital-cloud.medallia.eu\/wdceu\/39035\/onsite\/embed.js\";medalliaScript.id=\"medalliaScriptTag\";medalliaScript.setAttribute(\"async\",\"true\");document.head.appendChild(medalliaScript)}}catch(a){var errMsg=\"undefined\"===typeof a||\"undefined\"===typeof a.message?\"Unknown error\":a.message;dataLayer.push({event:\"GAevent\",\neventCategory:\"JavaScript Error\",eventAction:errMsg})};\u003C\/script\u003E",
       "vtp_supportDocumentWrite":true,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
