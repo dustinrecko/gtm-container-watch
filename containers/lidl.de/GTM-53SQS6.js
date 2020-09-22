@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"196",
+  "version":"197",
   
   "macros":[{
       "function":"__cvt_903835_490"
@@ -1147,11 +1147,13 @@ data = {
     },{
       "function":"__gaawc",
       "metadata":["map"],
+      "consent":["list"],
       "once_per_event":true,
       "vtp_userProperties":["list",["map","name","Sales_Channel","value",["macro",4]],["map","name","User_Type","value",["macro",27]],["map","name","App_or_Web","value",["macro",154]]],
       "vtp_sendPageView":true,
       "vtp_measurementId":"G-4Q96PZEYBZ",
       "vtp_enableUserProperties":true,
+      "vtp_enableGA4Name":false,
       "tag_id":604
     },{
       "function":"__gaawe",
@@ -1161,6 +1163,7 @@ data = {
       "vtp_eventParameters":["list",["map","name","Event Category","value",["macro",9]],["map","name","Event Action","value",["macro",14]],["map","name","Event Label","value",["macro",15]],["map","name","all_data","value","true"],["map","name","debug_mode","value","true"],["map","name","Event Value","value",["macro",16]]],
       "vtp_measurementId":"G-4Q96PZEYBZ",
       "vtp_enableUserProperties":true,
+      "vtp_enableGA4Name":false,
       "tag_id":606
     },{
       "function":"__gaawe",
@@ -1170,6 +1173,7 @@ data = {
       "vtp_eventParameters":["list",["map","name","Product ID","value",["macro",155]],["map","name","Product Name","value",["macro",156]]],
       "vtp_measurementId":"G-4Q96PZEYBZ",
       "vtp_enableUserProperties":true,
+      "vtp_enableGA4Name":false,
       "tag_id":607
     },{
       "function":"__gaawe",
@@ -1179,6 +1183,7 @@ data = {
       "vtp_eventParameters":["list",["map","name","Transaction ID","value",["macro",157]],["map","name","Transaction Revenue","value",["macro",158]]],
       "vtp_measurementId":"G-4Q96PZEYBZ",
       "vtp_enableUserProperties":true,
+      "vtp_enableGA4Name":false,
       "tag_id":608
     },{
       "function":"__lcl",
@@ -1674,7 +1679,7 @@ data = {
   "rules":[
     [["if",0,1],["add",1,15]],
     [["if",4],["add",2]],
-    [["if",0,5],["add",3,4,9,39,42,45]],
+    [["if",0,5],["add",3,4,9,14,39,42,45]],
     [["if",0,6],["add",4]],
     [["if",0,7,8],["add",4]],
     [["if",9,10],["add",4]],
@@ -1702,10 +1707,10 @@ data = {
     [["if",0,38,41,43],["unless",40],["add",11]],
     [["if",0,44,45],["add",12]],
     [["if",0,46],["add",13]],
-    [["if",5],["add",14,28,29,30,32,33,34,38]],
     [["if",5,47],["add",18,19,20,22,23,24,25,26,31]],
     [["if",5,48],["add",21]],
     [["if",5,49],["add",27]],
+    [["if",5],["add",28,29,30,32,33,34,38]],
     [["if",50],["add",35,36,37]],
     [["if",0,51],["add",40]],
     [["if",0,5,53],["add",41]],
