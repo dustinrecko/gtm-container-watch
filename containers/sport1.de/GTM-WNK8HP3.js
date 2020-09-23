@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"76",
+  "version":"77",
   
   "macros":[{
       "function":"__e"
@@ -981,7 +981,7 @@ data = {
       "metadata":["map"],
       "consent":["list"],
       "once_per_event":true,
-      "vtp_html":"\u003Cscript type=\"text\/gtmscript\"\u003Ewindow.dataLayer=window.dataLayer||[];window.dataLayer.push({event:\"cmp_infonline\"});window.dataLayer.push({event:\"cmp_zendesk\"});window.dataLayer.push({event:\"cmp_hola\"});window.dataLayer.push({event:\"cmp_agf\"});window.Sport1Tools\u0026\u0026window.Sport1Tools.isBot()\u0026\u0026window.dataLayer.push({event:\"cmp_taboola\"});\u003C\/script\u003E",
+      "vtp_html":"\u003Cscript type=\"text\/gtmscript\"\u003Ewindow.dataLayer=window.dataLayer||[];window.dataLayer.push({event:\"cmp_infonline\"});window.dataLayer.push({event:\"cmp_zendesk\"});window.dataLayer.push({event:\"cmp_hola\"});window.dataLayer.push({event:\"cmp_agf\"});\u003C\/script\u003E",
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
