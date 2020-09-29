@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"636",
+  "version":"645",
   
   "macros":[{
       "function":"__e"
@@ -573,6 +573,14 @@ data = {
       "vtp_javascript":["template","(function(){return document.getElementById(\"medalliaEmbeddedBottom\").clientHeight})();"]
     },{
       "function":"__v",
+      "vtp_name":"gtm.elementClasses",
+      "vtp_dataLayerVersion":1
+    },{
+      "function":"__v",
+      "vtp_name":"gtm.elementUrl",
+      "vtp_dataLayerVersion":1
+    },{
+      "function":"__v",
       "vtp_name":"gtm.element",
       "vtp_dataLayerVersion":1
     },{
@@ -622,13 +630,13 @@ data = {
       "vtp_name":"user"
     },{
       "function":"__jsm",
-      "vtp_javascript":["template","(function(){if(\"undefined\"!=",["escape",["macro",47],8,16],")return null!=",["escape",["macro",144],8,16],".services.find(\"newsletter\")})();"]
+      "vtp_javascript":["template","(function(){if(\"undefined\"!=",["escape",["macro",47],8,16],")return null!=",["escape",["macro",146],8,16],".services.find(\"newsletter\")})();"]
     },{
       "function":"__jsm",
-      "vtp_javascript":["template","(function(){return null!=",["escape",["macro",144],8,16],".services.match(\"payback\")})();"]
+      "vtp_javascript":["template","(function(){return null!=",["escape",["macro",146],8,16],".services.match(\"payback\")})();"]
     },{
       "function":"__jsm",
-      "vtp_javascript":["template","(function(){var a={shop:",["escape",["macro",5],8,16],"};if(\"Item\"==",["escape",["macro",32],8,16],"){try{a.brand=",["escape",["macro",15],8,16],".brand}catch(b){a.brand=\"noname\"}try{a.category=",["escape",["macro",15],8,16],".category.join(\" \/ \")+\"$\"}catch(b){}}else if(\"Category\"==",["escape",["macro",32],8,16],")try{a.category=",["escape",["macro",11],8,16],".path.join(\" \/ \")+\"$\"}catch(b){}else if(\"Brand\"==",["escape",["macro",32],8,16],")try{a.brand=",["escape",["macro",44],8,16],".replace(\"\/onlineshop\/marken\/\",\"\")}catch(b){a.brand=\"noname\"}a.user_is_newsletter=",["escape",["macro",145],8,16],";\na.user_is_seller=",["escape",["macro",73],8,16],";a.user_is_payback=",["escape",["macro",146],8,16],";a.market_name=",["escape",["macro",71],8,16],";return a})();"]
+      "vtp_javascript":["template","(function(){var a={shop:",["escape",["macro",5],8,16],"};if(\"Item\"==",["escape",["macro",32],8,16],"){try{a.brand=",["escape",["macro",15],8,16],".brand}catch(b){a.brand=\"noname\"}try{a.category=",["escape",["macro",15],8,16],".category.join(\" \/ \")+\"$\"}catch(b){}}else if(\"Category\"==",["escape",["macro",32],8,16],")try{a.category=",["escape",["macro",11],8,16],".path.join(\" \/ \")+\"$\"}catch(b){}else if(\"Brand\"==",["escape",["macro",32],8,16],")try{a.brand=",["escape",["macro",44],8,16],".replace(\"\/onlineshop\/marken\/\",\"\")}catch(b){a.brand=\"noname\"}a.user_is_newsletter=",["escape",["macro",147],8,16],";\na.user_is_seller=",["escape",["macro",73],8,16],";a.user_is_payback=",["escape",["macro",148],8,16],";a.market_name=",["escape",["macro",71],8,16],";return a})();"]
     },{
       "function":"__jsm",
       "vtp_javascript":["template","(function(){var d=[],b=[];if(\"Sale\"==",["escape",["macro",10],8,16],")b=",["escape",["macro",1],8,16],".cart;else{var a=",["escape",["macro",15],8,16],";b.push(a)}for(a=0;a\u003Cb.length;a++)for(var c=0;c\u003Cb[a].offers.length;c++)d.push({id:b[a].id,price:b[a].offers[c].price,quantity:b[a].offers[c].amount});return d})();"]
@@ -709,15 +717,7 @@ data = {
       "vtp_enableIgnoreEmptyQueryParam":false
     },{
       "function":"__v",
-      "vtp_name":"gtm.elementClasses",
-      "vtp_dataLayerVersion":1
-    },{
-      "function":"__v",
       "vtp_name":"gtm.elementTarget",
-      "vtp_dataLayerVersion":1
-    },{
-      "function":"__v",
-      "vtp_name":"gtm.elementUrl",
       "vtp_dataLayerVersion":1
     },{
       "function":"__aev",
@@ -742,6 +742,17 @@ data = {
       "vtp_dataLayerVersion":1
     }],
   "tags":[{
+      "function":"__html",
+      "priority":100,
+      "metadata":["map"],
+      "consent":["list"],
+      "once_per_event":true,
+      "vtp_html":"\u003Cscript type=\"text\/gtmscript\"\u003Efunction sendGaError(a){a=\"undefined\"===typeof a||\"undefined\"===typeof a.message?\"Unknown error\":a.message;dataLayer.push({event:\"GAevent\",eventCategory:\"JavaScript Error\",eventAction:a})}function debug(a){console.log(a)}\nfunction isWantedBot(){try{for(var a=\"^Mozilla\\\\\/5\\\\.0 \\\\(compatible; Googlebot\\\\\/2\\\\.1; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.google\\\\.com\\\\\/bot\\\\.html\\\\)${^Googlebot\\\\\/2\\\\.1 \\\\(\\\\+http\\\\:\\\\\/\\\\\/www\\\\.google\\\\.com\\\\\/bot\\\\.html\\\\)${^Mozilla\\\\\/5\\\\.0 \\\\(Linux; Android 6\\\\.0\\\\.1; Nexus 5X Build\\\\\/MMB29P\\\\) AppleWebKit\\\\\/537\\\\.36 \\\\(KHTML, like Gecko\\\\) Chrome\\\\\/41\\\\.0\\\\.2272\\\\.96 Mobile Safari\\\\\/537\\\\.36 \\\\(compatible; Googlebot\\\\\/2\\\\.1; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.google\\\\.com\\\\\/bot\\\\.html\\\\)${^SAMSUNG\\\\-SGH\\\\-E250\\\\\/1\\\\.0 Profile\\\\\/MIDP\\\\-2\\\\.0 Configuration\\\\\/CLDC\\\\-1\\\\.1 UP\\\\.Browser\\\\\/6\\\\.2\\\\.3\\\\.3\\\\.c\\\\.1\\\\.101 \\\\(GUI\\\\) MMP\\\\\/2\\\\.0 \\\\(compatible; Googlebot\\\\-Mobile\\\\\/2\\\\.1; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.google\\\\.com\\\\\/bot\\\\.html\\\\)${^Googlebot\\\\-Image\\\\\/1\\\\.0${^Googlebot\\\\-Video\\\\\/1\\\\.0${^Mediapartners\\\\-Google${^Mozilla\\\\\/5\\\\.0 \\\\(Linux; Android 5\\\\.0; SM\\\\-G920A\\\\) AppleWebKit \\\\(KHTML, like Gecko\\\\) Chrome Mobile Safari \\\\(compatible; AdsBot\\\\-Google\\\\-Mobile; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.google\\\\.com\\\\\/mobile\\\\\/adsbot\\\\.html\\\\)${^Mozilla\\\\\/5\\\\.0 \\\\(iPhone; CPU iPhone OS 9_1 like Mac OS X\\\\) AppleWebKit\\\\\/601\\\\.1\\\\.46 \\\\(KHTML, like Gecko\\\\) Version\\\\\/9\\\\.0 Mobile\\\\\/13B143 Safari\\\\\/601\\\\.1 \\\\(compatible; AdsBot\\\\-Google\\\\-Mobile; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.google\\\\.com\\\\\/mobile\\\\\/adsbot\\\\.html\\\\)${^\\\\(compatible; Mediapartners\\\\-Google\\\\\/2\\\\.1; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.google\\\\.com\\\\\/bot\\\\.html\\\\)${^AdsBot\\\\-Google \\\\(\\\\+http\\\\:\\\\\/\\\\\/www\\\\.google\\\\.com\\\\\/adsbot\\\\.html\\\\)${^AdsBot\\\\-Google\\\\-Mobile\\\\-Apps${^Mozilla\\\\\/5\\\\.0 \\\\(compatible; bingbot\\\\\/2\\\\.0; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.bing\\\\.com\\\\\/bingbot\\\\.htm\\\\)${^Mozilla\\\\\/5\\\\.0 \\\\(compatible; bingbot\\\\\/2\\\\.0 \\\\+https\\\\:\\\\\/\\\\\/www\\\\.bing\\\\.com\\\\\/bingbot\\\\.htm\\\\)${^msnbot\\\\\/2\\\\.0b \\\\(\\\\+http\\\\:\\\\\/\\\\\/search\\\\.msn\\\\.com\\\\\/msnbot\\\\.htm\\\\)${^Mozilla\\\\\/5\\\\.0 \\\\(iPhone; CPU iPhone OS 7_0 like Mac OS X\\\\) AppleWebKit\\\\\/537\\\\.51\\\\.1 \\\\(KHTML, like Gecko\\\\) Version\\\\\/7\\\\.0 Mobile\\\\\/11A465 Safari\\\\\/9537\\\\.53 \\\\(compatible; bingbot\\\\\/2\\\\.0; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.bing\\\\.com\\\\\/bingbot\\\\.htm\\\\)${^Mozilla\\\\\/5\\\\.0 \\\\(Windows Phone 8\\\\.1; ARM; Trident\\\\\/7\\\\.0; Touch; rv\\\\:11\\\\.0; IEMobile\\\\\/11\\\\.0; NOKIA; Lumia 530\\\\) like Gecko \\\\(compatible; bingbot\\\\\/2\\\\.0; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.bing\\\\.com\\\\\/bingbot\\\\.htm\\\\)${^msnbot\\\\-media\\\\\/1\\\\.1 \\\\(\\\\+http\\\\:\\\\\/\\\\\/search\\\\.msn\\\\.com\\\\\/msnbot\\\\.htm\\\\)${^Mozilla\\\\\/5\\\\.0 \\\\(compatible; adidxbot\\\\\/2\\\\.0; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.bing\\\\.com\\\\\/bingbot\\\\.htm\\\\)${^Mozilla\\\\\/5\\\\.0 \\\\(iPhone; CPU iPhone OS 7_0 like Mac OS X\\\\) AppleWebKit\\\\\/537\\\\.51\\\\.1 \\\\(KHTML, like Gecko\\\\) Version\\\\\/7\\\\.0 Mobile\\\\\/11A465 Safari\\\\\/9537\\\\.53 \\\\(compatible; adidxbot\\\\\/2\\\\.0; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.bing\\\\.com\\\\\/bingbot\\\\.htm\\\\)${^Mozilla\\\\\/5\\\\.0 \\\\(Windows Phone 8\\\\.1; ARM; Trident\\\\\/7\\\\.0; Touch; rv\\\\:11\\\\.0; IEMobile\\\\\/11\\\\.0; NOKIA; Lumia 530\\\\) like Gecko \\\\(compatible; adidxbot\\\\\/2\\\\.0; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.bing\\\\.com\\\\\/bingbot\\\\.htm\\\\)${^Mozilla\\\\\/5\\\\.0 \\\\(Windows NT 6\\\\.1; WOW64\\\\) AppleWebKit\\\\\/534\\\\+ \\\\(KHTML, like Gecko\\\\) BingPreview\\\\\/1\\\\.0b${^Mozilla\\\\\/5\\\\.0 \\\\(Windows Phone 8\\\\.1; ARM; Trident\\\\\/7\\\\.0; Touch; rv\\\\:11\\\\.0; IEMobile\\\\\/11\\\\.0; NOKIA; Lumia 530\\\\) like Gecko BingPreview\\\\\/1\\\\.0b${^Mozilla\\\\\/5\\\\.0 \\\\(compatible; MJ12bot\\\\\/v1\\\\.4\\\\.7; http\\\\:\\\\\/\\\\\/mj12bot\\\\.com\\\\\/\\\\)${^Mozilla\\\\\/5\\\\.0 \\\\(compatible; MJ12bot\\\\\/v1\\\\.4\\\\.8; http\\\\:\\\\\/\\\\\/mj12bot\\\\.com\\\\\/\\\\)${^audisto\\\\.com full crawler .* \\\\(refer to in robots\\\\.txt as audisto, see https\\\\:\\\\\/\\\\\/audisto\\\\.com\\\\\/bot\\\\)${^audisto\\\\.com essential crawler .* \\\\(refer to in robots\\\\.txt as audisto\\\\-essentials, see https\\\\:\\\\\/\\\\\/audisto\\\\.com\\\\\/bot\\\\)${^audisto\\\\.com full crawler\\\\\/phone .* \\\\(refer to in robots\\\\.txt as audisto, see https\\\\:\\\\\/\\\\\/audisto\\\\.com\\\\\/bot\\\\)${^audisto\\\\.com full crawler\\\\\/tablet .* \\\\(refer to in robots\\\\.txt as audisto, see https\\\\:\\\\\/\\\\\/audisto\\\\.com\\\\\/bot\\\\)${^Mozilla\\\\\/.* \\\\(compatible; AhrefsBot\\\\\/.*; \\\\+http\\\\:\\\\\/\\\\\/ahrefs\\\\.com\\\\\/robot\\\\\/\\\\)${^Mozilla\\\\\/5\\\\.0 \\\\(compatible; ResearchBot\\\\\/0\\\\.7\\\\)${HM_SEO_MAN{Pingdom{Datadog Agent{^Mozilla\\\\\/5\\\\.0 \\\\(Linux; Android 6\\\\.0\\\\.1; Nexus 5X Build\\\\\/MMB29P\\\\) AppleWebKit\\\\\/537\\\\.36 \\\\(KHTML, like Gecko\\\\) Chrome\\\\\/[0-9]+\\\\.[0-9]+\\\\.[0-9]+\\\\.[0-9]+ Mobile Safari\\\\\/537\\\\.36 \\\\(compatible; Googlebot\\\\\/2\\\\.1; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.google\\\\.com\\\\\/bot\\\\.html\\\\)${^Mozilla\\\\\/5\\\\.0 AppleWebKit\\\\\/537\\\\.36 \\\\(KHTML, like Gecko; compatible; Googlebot\\\\\/2\\\\.1; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.google\\\\.com\\\\\/bot\\\\.html\\\\) Chrome\\\\\/[0-9]+\\\\.[0-9]+\\\\.[0-9]+\\\\.[0-9]+ Safari\\\\\/537\\\\.36${^Mozilla\\\\\/5\\\\.0 AppleWebKit\\\\\/537\\\\.36 \\\\(KHTML, like Gecko; compatible; Googlebot\\\\\/2\\\\.1; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.google\\\\.com\\\\\/bot\\\\.html\\\\) Safari\\\\\/537\\\\.36$\".split(\"{\"),b=\n!1,c=0;c\u003Ca.length;c++){var d=new RegExp(a[c]);if(d.test(navigator.userAgent)){b=!0;break}}return b}catch(e){sendGaError(e)}}function checkIfCategory(){try{if(\"undefined\"!==typeof window.dataLayer)for(var a=0;a\u003CdataLayer.length;a++){var b=dataLayer[a];if(\"undefined\"!==typeof b.event\u0026\u0026\"pageView\"===b.event)return\"undefined\"!==typeof b.view\u0026\u0026\"undefined\"!==typeof b.view.view_type\u0026\u00260===b.view.view_type.indexOf(\"Category\")?!0:!1}}catch(c){sendGaError(c)}}\nfunction isValidPage(){try{var a=\/^\\\/$\/.test(window.location.pathname),b=checkIfCategory(),c=\/^\\\/product\\\/\\d+\\\/$\/.test(window.location.pathname),d=\/^\\\/item\\\/search\\\/\/.test(window.location.pathname);return a||b||c||d}catch(e){sendGaError(e)}}function saveCheckForSessionStorageAvail(){if(\"undefined\"!==typeof sessionStorage)try{if(sessionStorage.setItem(\"storage_test\",\"yes\"),\"yes\"===sessionStorage.getItem(\"storage_test\"))return sessionStorage.removeItem(\"storage_test\"),!0}catch(a){}return!1}\ntry{!isWantedBot()\u0026\u0026-1!==document.cookie.indexOf(\"testSimon\")\u0026\u0026saveCheckForSessionStorageAvail()\u0026\u0026(isValidPage()?(debug(\"pushing activation\"),debug(window.dataLayer),window.dataLayer=window.dataLayer||[],window.dataLayer.push({event:\"optimize.activateCookieConsentAbTest\"})):(window.pollForIsCategoryCounter=0,pollForPageInfo=window.setInterval(function(){try{pollForIsCategoryCounter++,400\u003CpollForIsCategoryCounter\u0026\u0026clearInterval(pollForPageInfo),debug(\"polling for category\"),checkIfCategory()\u0026\u0026(debug(\"is category\"),\nclearInterval(pollForPageInfo),debug(\"pushing activation\"),debug(window.dataLayer),window.dataLayer=window.dataLayer||[],window.dataLayer.push({event:\"optimize.activateCookieConsentAbTest\"}))}catch(b){var a=\"undefined\"===typeof b||\"undefined\"===typeof b.message?\"Unknown error\":b.message;dataLayer.push({event:\"GAevent\",eventCategory:\"JavaScript Error\",eventAction:a})}},25)))}catch(a){sendGaError(a)};\u003C\/script\u003E",
+      "vtp_supportDocumentWrite":false,
+      "vtp_enableIframeMode":false,
+      "vtp_enableEditJsMacroBehavior":false,
+      "tag_id":1373
+    },{
       "function":"__awct",
       "metadata":["map"],
       "once_per_event":true,
@@ -1051,21 +1062,38 @@ data = {
       "vtp_trackTypeIsEvent":true,
       "tag_id":1368
     },{
+      "function":"__ua",
+      "metadata":["map"],
+      "once_per_event":true,
+      "vtp_nonInteraction":false,
+      "vtp_overrideGaSettings":false,
+      "vtp_eventCategory":"consent",
+      "vtp_trackType":"TRACK_EVENT",
+      "vtp_gaSettings":["macro",111],
+      "vtp_eventAction":"consentMoreInfo",
+      "vtp_enableRecaptchaOption":false,
+      "vtp_enableTransportUrl":true,
+      "vtp_enableUaRlsa":false,
+      "vtp_enableUseInternalVersion":false,
+      "vtp_enableFirebaseCampaignData":true,
+      "vtp_trackTypeIsEvent":true,
+      "tag_id":1370
+    },{
       "function":"__zone",
       "once_per_event":true,
       "vtp_childContainers":["list",["map","publicId","GTM-M6TP8B3","nickname","ZONE _ Seller area"]],
       "vtp_boundaries":["list",["zb","_sw",["macro",43],"\/seller\/",false,false]],
       "vtp_enableTypeRestrictions":false,
-      "tag_id":1369
+      "tag_id":1374
     },{
       "function":"__cl",
-      "tag_id":1370
+      "tag_id":1375
     },{
       "function":"__cl",
-      "tag_id":1371
+      "tag_id":1376
     },{
       "function":"__jel",
-      "tag_id":1372
+      "tag_id":1377
     },{
       "function":"__ytl",
       "vtp_captureComplete":false,
@@ -1076,7 +1104,7 @@ data = {
       "vtp_captureProgress":false,
       "vtp_uniqueTriggerId":"6178770_643",
       "vtp_enableTriggerStartOption":true,
-      "tag_id":1373
+      "tag_id":1378
     },{
       "function":"__ytl",
       "vtp_progressThresholdsPercent":"25, 50, 75, 100",
@@ -1089,13 +1117,13 @@ data = {
       "vtp_captureProgress":true,
       "vtp_uniqueTriggerId":"6178770_646",
       "vtp_enableTriggerStartOption":true,
-      "tag_id":1374
+      "tag_id":1379
     },{
       "function":"__cl",
-      "tag_id":1375
+      "tag_id":1380
     },{
       "function":"__hl",
-      "tag_id":1376
+      "tag_id":1381
     },{
       "function":"__evl",
       "vtp_elementId":"medalliaEmbeddedTop",
@@ -1106,7 +1134,7 @@ data = {
       "vtp_onScreenRatio":"50",
       "vtp_onScreenDuration":"2000",
       "vtp_uniqueTriggerId":"6178770_1285",
-      "tag_id":1377
+      "tag_id":1382
     },{
       "function":"__evl",
       "vtp_elementId":"medalliaEmbeddedBottom",
@@ -1117,14 +1145,21 @@ data = {
       "vtp_onScreenRatio":"50",
       "vtp_onScreenDuration":"2000",
       "vtp_uniqueTriggerId":"6178770_1286",
-      "tag_id":1378
+      "tag_id":1383
     },{
       "function":"__lcl",
       "vtp_waitForTags":false,
       "vtp_checkValidation":false,
       "vtp_waitForTagsTimeout":"2000",
       "vtp_uniqueTriggerId":"6178770_1367",
-      "tag_id":1379
+      "tag_id":1384
+    },{
+      "function":"__lcl",
+      "vtp_waitForTags":false,
+      "vtp_checkValidation":false,
+      "vtp_waitForTagsTimeout":"2000",
+      "vtp_uniqueTriggerId":"6178770_1369",
+      "tag_id":1385
     },{
       "function":"__html",
       "metadata":["map"],
@@ -1175,7 +1210,7 @@ data = {
       "metadata":["map"],
       "consent":["list"],
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\" id=\"gtmctagid_CS_pageview\"\u003E(function(){try{window._uxa=window._uxa||[];window._uxa.push([\"setPath\",window.location.pathname+window.location.hash.replace(\"#\",\"?__\")]);\"undefined\"!==typeof dataLayer\u0026\u0026(void 0!==",["escape",["macro",134],8,16],"\u0026\u0026window._uxa.push([\"setCustomVariable\",3,\"product_brand\",",["escape",["macro",134],8,16],",3]),void 0!==",["escape",["macro",32],8,16],"\u0026\u0026window._uxa.push([\"setCustomVariable\",5,\"view_type\",",["escape",["macro",32],8,16],",3]),void 0!==",["escape",["macro",44],8,16],"\u0026\u0026window._uxa.push([\"setCustomVariable\",6,\"virt_path\",",["escape",["macro",44],8,16],",\n3]),void 0!==",["escape",["macro",135],8,16],"\u0026\u0026window._uxa.push([\"setCustomVariable\",9,\"product_category\",String(",["escape",["macro",135],8,16],"),3]),void 0!==",["escape",["macro",38],8,16],"\u0026\u0026window._uxa.push([\"setCustomVariable\",10,\"search_term\",",["escape",["macro",38],8,16],",3]),void 0!==",["escape",["macro",71],8,16],"\u0026\u0026window._uxa.push([\"setCustomVariable\",12,\"market_name\",",["escape",["macro",71],8,16],",3]),void 0!==",["escape",["macro",59],8,16],"\u0026\u0026window._uxa.push([\"setCustomVariable\",15,\"search results\",String(",["escape",["macro",59],8,16],"),3]),void 0!==",["escape",["macro",82],8,16],"\u0026\u0026\nwindow._uxa.push([\"setCustomVariable\",16,\"logged_in_status\",String(",["escape",["macro",82],8,16],"),3]),\"null\"!==",["escape",["macro",136],8,16],"\u0026\u0026window._uxa.push([\"setCustomVariable\",18,\"js_isAdvisorPage\",",["escape",["macro",136],8,16],",3]),void 0!==",["escape",["macro",72],8,16],"\u0026\u0026window._uxa.push([\"setCustomVariable\",19,\"user.seller_id\",",["escape",["macro",72],8,16],",3]),void 0!==",["escape",["macro",80],8,16],"\u0026\u0026window._uxa.push([\"setCustomVariable\",20,\"product.seller_type\",",["escape",["macro",80],8,16],",3]),",["escape",["macro",137],8,16],"\u0026\u0026window._uxa.push([\"trackDynamicVariable\",\n{key:\"backend_abtest\",value:",["escape",["macro",137],8,16],"}]),void 0!==",["escape",["macro",91],8,16],"\u0026\u0026window._uxa.push([\"trackDynamicVariable\",{key:\"client_abtest\",value:",["escape",["macro",91],8,16],"}]));if(\"undefined\"===typeof CS_CONF){var a=document.createElement(\"script\");a.type=\"text\/javascript\";a.async=!0;a.src=\"\/\/t.contentsquare.net\/uxa\/8fb48415ac213.js\";document.getElementsByTagName(\"head\")[0].appendChild(a)}else window._uxa.push([\"trackPageview\",window.location.pathname+window.location.hash.replace(\"#\",\"?__\")]);\n\"1\"!=",["escape",["macro",138],8,16],"\u0026\u0026(window._uxa.push([\"getSessionKey\",{callback:function(b){dataLayer.push({event:\"GAevent\",eventCategory:\"csSessionKey\",eventAction:b,eventLabel:void 0,eventValue:void 0})}}]),sessionStorage.setItem(\"cs_s\",\"1\"))}catch(b){a=\"undefined\"===typeof b||\"undefined\"===typeof b.message?\"Unknown error\":b.message,dataLayer.push({event:\"GAevent\",eventCategory:\"JavaScript Error\",eventAction:\"CS_PageView \"+a})}})();\u003C\/script\u003E"],
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\" id=\"gtmctagid_CS_pageview\"\u003E(function(){try{window._uxa=window._uxa||[];window._uxa.push([\"setPath\",window.location.pathname+window.location.hash.replace(\"#\",\"?__\")]);\"undefined\"!==typeof dataLayer\u0026\u0026(void 0!==",["escape",["macro",136],8,16],"\u0026\u0026window._uxa.push([\"setCustomVariable\",3,\"product_brand\",",["escape",["macro",136],8,16],",3]),void 0!==",["escape",["macro",32],8,16],"\u0026\u0026window._uxa.push([\"setCustomVariable\",5,\"view_type\",",["escape",["macro",32],8,16],",3]),void 0!==",["escape",["macro",44],8,16],"\u0026\u0026window._uxa.push([\"setCustomVariable\",6,\"virt_path\",",["escape",["macro",44],8,16],",\n3]),void 0!==",["escape",["macro",137],8,16],"\u0026\u0026window._uxa.push([\"setCustomVariable\",9,\"product_category\",String(",["escape",["macro",137],8,16],"),3]),void 0!==",["escape",["macro",38],8,16],"\u0026\u0026window._uxa.push([\"setCustomVariable\",10,\"search_term\",",["escape",["macro",38],8,16],",3]),void 0!==",["escape",["macro",71],8,16],"\u0026\u0026window._uxa.push([\"setCustomVariable\",12,\"market_name\",",["escape",["macro",71],8,16],",3]),void 0!==",["escape",["macro",59],8,16],"\u0026\u0026window._uxa.push([\"setCustomVariable\",15,\"search results\",String(",["escape",["macro",59],8,16],"),3]),void 0!==",["escape",["macro",82],8,16],"\u0026\u0026\nwindow._uxa.push([\"setCustomVariable\",16,\"logged_in_status\",String(",["escape",["macro",82],8,16],"),3]),\"null\"!==",["escape",["macro",138],8,16],"\u0026\u0026window._uxa.push([\"setCustomVariable\",18,\"js_isAdvisorPage\",",["escape",["macro",138],8,16],",3]),void 0!==",["escape",["macro",72],8,16],"\u0026\u0026window._uxa.push([\"setCustomVariable\",19,\"user.seller_id\",",["escape",["macro",72],8,16],",3]),void 0!==",["escape",["macro",80],8,16],"\u0026\u0026window._uxa.push([\"setCustomVariable\",20,\"product.seller_type\",",["escape",["macro",80],8,16],",3]),",["escape",["macro",139],8,16],"\u0026\u0026window._uxa.push([\"trackDynamicVariable\",\n{key:\"backend_abtest\",value:",["escape",["macro",139],8,16],"}]),void 0!==",["escape",["macro",91],8,16],"\u0026\u0026window._uxa.push([\"trackDynamicVariable\",{key:\"client_abtest\",value:",["escape",["macro",91],8,16],"}]));if(\"undefined\"===typeof CS_CONF){var a=document.createElement(\"script\");a.type=\"text\/javascript\";a.async=!0;a.src=\"\/\/t.contentsquare.net\/uxa\/8fb48415ac213.js\";document.getElementsByTagName(\"head\")[0].appendChild(a)}else window._uxa.push([\"trackPageview\",window.location.pathname+window.location.hash.replace(\"#\",\"?__\")]);\n\"1\"!=",["escape",["macro",140],8,16],"\u0026\u0026(window._uxa.push([\"getSessionKey\",{callback:function(b){dataLayer.push({event:\"GAevent\",eventCategory:\"csSessionKey\",eventAction:b,eventLabel:void 0,eventValue:void 0})}}]),sessionStorage.setItem(\"cs_s\",\"1\"))}catch(b){a=\"undefined\"===typeof b||\"undefined\"===typeof b.message?\"Unknown error\":b.message,dataLayer.push({event:\"GAevent\",eventCategory:\"JavaScript Error\",eventAction:\"CS_PageView \"+a})}})();\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
@@ -1194,7 +1229,7 @@ data = {
       "function":"__html",
       "metadata":["map"],
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\" id=\"gtmctagid_payback_campaign\"\u003Efunction pb_ck(c,d,a){a*=1E3;var b=new Date,e=b.getTime();b.setTime(e+a);a=b.toUTCString();document.cookie=c+\"\\x3d\"+d+\"; expires\\x3d\"+a+\"; path\\x3d\/; domain\\x3d.\"+location.hostname.replace(\/^www\\.\/i,\"\")}var re=\/(?=.*?\\butm_source=payback\\b)(?=.*?\\butm_medium=paid\\b)(?=.*?\\btduid=\\b)(?=(.*?\\butm_campaign=payback%20page\\b))^.*$\/;\nwindow.Storage\u0026\u0026(1==re.test(",["escape",["macro",83],8,16],")\u0026\u0026\"0\"!=",["escape",["macro",81],8,16],"?pb_ck(\"tduid3\",",["escape",["macro",141],8,16],",2592E3):",["escape",["macro",83],8,16],".match(\/(utm_.*=)|(gclid=)\/)\u0026\u00260==re.test(",["escape",["macro",83],8,16],")?pb_ck(\"tduid3\",0,2592E3):(0!=re.test(",["escape",["macro",83],8,16],")||\"0\"!=",["escape",["macro",81],8,16],"\u0026\u0026void 0!=",["escape",["macro",81],8,16],"||\"1\"==sessionStorage.getItem(\"pb_sn\")||pb_ck(\"tduid3\",0,2592E3),sessionStorage.setItem(\"pb_sn\",\"1\")));\n",["escape",["macro",81],8,16],"\u0026\u0026\"0\"!=",["escape",["macro",81],8,16],"\u0026\u0026\"Sale\"==",["escape",["macro",10],8,16],"\u0026\u0026(dataLayer.push({event:\"GAevent\",eventCategory:\"Enhanced Ecommerce\",eventAction:\"pb campaign sale\",eventLabel:",["escape",["macro",2],8,16],",eventValue:",["escape",["macro",3],8,16],"}),pb_ck(\"tduid3\",0,0));\u003C\/script\u003E\n"],
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\" id=\"gtmctagid_payback_campaign\"\u003Efunction pb_ck(c,d,a){a*=1E3;var b=new Date,e=b.getTime();b.setTime(e+a);a=b.toUTCString();document.cookie=c+\"\\x3d\"+d+\"; expires\\x3d\"+a+\"; path\\x3d\/; domain\\x3d.\"+location.hostname.replace(\/^www\\.\/i,\"\")}var re=\/(?=.*?\\butm_source=payback\\b)(?=.*?\\butm_medium=paid\\b)(?=.*?\\btduid=\\b)(?=(.*?\\butm_campaign=payback%20page\\b))^.*$\/;\nwindow.Storage\u0026\u0026(1==re.test(",["escape",["macro",83],8,16],")\u0026\u0026\"0\"!=",["escape",["macro",81],8,16],"?pb_ck(\"tduid3\",",["escape",["macro",143],8,16],",2592E3):",["escape",["macro",83],8,16],".match(\/(utm_.*=)|(gclid=)\/)\u0026\u00260==re.test(",["escape",["macro",83],8,16],")?pb_ck(\"tduid3\",0,2592E3):(0!=re.test(",["escape",["macro",83],8,16],")||\"0\"!=",["escape",["macro",81],8,16],"\u0026\u0026void 0!=",["escape",["macro",81],8,16],"||\"1\"==sessionStorage.getItem(\"pb_sn\")||pb_ck(\"tduid3\",0,2592E3),sessionStorage.setItem(\"pb_sn\",\"1\")));\n",["escape",["macro",81],8,16],"\u0026\u0026\"0\"!=",["escape",["macro",81],8,16],"\u0026\u0026\"Sale\"==",["escape",["macro",10],8,16],"\u0026\u0026(dataLayer.push({event:\"GAevent\",eventCategory:\"Enhanced Ecommerce\",eventAction:\"pb campaign sale\",eventLabel:",["escape",["macro",2],8,16],",eventValue:",["escape",["macro",3],8,16],"}),pb_ck(\"tduid3\",0,0));\u003C\/script\u003E\n"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
@@ -1213,7 +1248,7 @@ data = {
       "function":"__html",
       "metadata":["map"],
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\" id=\"gtmctagid_moebel_sale\"\u003Evar _mo=_mo||[];_mo.push([\"_key\",\"21e55062-f619-458f-9eb6-9e7c5eb9b17c\"]);_mo.push([\"_umsatz\",\"",["escape",["macro",143],7],"\"]);_mo.push([\"_versandkosten\",\"\"]);_mo.push([\"_artikelliste\",\"\"]);(function(){var a=document.createElement(\"script\");a.type=\"text\/javascript\";a.async=!0;a.src=\"https:\/\/sales1.moebel.de\/asyndic.js\";var b=document.getElementsByTagName(\"script\")[0];b.parentNode.insertBefore(a,b)})();\u003C\/script\u003E"],
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\" id=\"gtmctagid_moebel_sale\"\u003Evar _mo=_mo||[];_mo.push([\"_key\",\"21e55062-f619-458f-9eb6-9e7c5eb9b17c\"]);_mo.push([\"_umsatz\",\"",["escape",["macro",145],7],"\"]);_mo.push([\"_versandkosten\",\"\"]);_mo.push([\"_artikelliste\",\"\"]);(function(){var a=document.createElement(\"script\");a.type=\"text\/javascript\";a.async=!0;a.src=\"https:\/\/sales1.moebel.de\/asyndic.js\";var b=document.getElementsByTagName(\"script\")[0];b.parentNode.insertBefore(a,b)})();\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
@@ -1248,9 +1283,9 @@ data = {
     },{
       "function":"__html",
       "metadata":["map"],
-      "setup_tags":["list",["tag",62,0]],
+      "setup_tags":["list",["tag",65,0]],
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\" id=\"gtmctagid_fbatc\"\u003E(function(){var a=",["escape",["macro",147],8,16],";a.content_type=\"product\";a.currency=\"EUR\";try{a.contents=",["escape",["macro",148],8,16],"}catch(b){}try{a.content_ids=[",["escape",["macro",15],8,16],".id]}catch(b){}try{a.value=",["escape",["macro",15],8,16],".offers[0].price}catch(b){a.value=0}fbq(\"track\",\"AddToCart\",a)})();\u003C\/script\u003E"],
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\" id=\"gtmctagid_fbatc\"\u003E(function(){var a=",["escape",["macro",149],8,16],";a.content_type=\"product\";a.currency=\"EUR\";try{a.contents=",["escape",["macro",150],8,16],"}catch(b){}try{a.content_ids=[",["escape",["macro",15],8,16],".id]}catch(b){}try{a.value=",["escape",["macro",15],8,16],".offers[0].price}catch(b){a.value=0}fbq(\"track\",\"AddToCart\",a)})();\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
@@ -1258,9 +1293,9 @@ data = {
     },{
       "function":"__html",
       "metadata":["map"],
-      "setup_tags":["list",["tag",62,0]],
+      "setup_tags":["list",["tag",65,0]],
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\" id=\"gtmctagid_fbpv\"\u003E(function(){fbq(\"track\",\"PageView\",",["escape",["macro",147],8,16],");var a=",["escape",["macro",32],8,16],";if(\"Item\"==a){a=",["escape",["macro",147],8,16],";a.content_category=",["escape",["macro",5],8,16],";a.content_type=\"product\";a.currency=\"EUR\";try{a.contents=",["escape",["macro",148],8,16],"}catch(b){}try{a.content_ids=[",["escape",["macro",15],8,16],".id]}catch(b){}try{a.value=",["escape",["macro",15],8,16],".offers[0].price}catch(b){a.value=0}fbq(\"track\",\"ViewContent\",a)}else\"Checkout\"==a\u0026\u0026fbq(\"track\",\"InitiateCheckout\")})();\u003C\/script\u003E\n"],
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\" id=\"gtmctagid_fbpv\"\u003E(function(){fbq(\"track\",\"PageView\",",["escape",["macro",149],8,16],");var a=",["escape",["macro",32],8,16],";if(\"Item\"==a){a=",["escape",["macro",149],8,16],";a.content_category=",["escape",["macro",5],8,16],";a.content_type=\"product\";a.currency=\"EUR\";try{a.contents=",["escape",["macro",150],8,16],"}catch(b){}try{a.content_ids=[",["escape",["macro",15],8,16],".id]}catch(b){}try{a.value=",["escape",["macro",15],8,16],".offers[0].price}catch(b){a.value=0}fbq(\"track\",\"ViewContent\",a)}else\"Checkout\"==a\u0026\u0026fbq(\"track\",\"InitiateCheckout\")})();\u003C\/script\u003E\n"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
@@ -1268,9 +1303,9 @@ data = {
     },{
       "function":"__html",
       "metadata":["map"],
-      "setup_tags":["list",["tag",62,0]],
+      "setup_tags":["list",["tag",65,0]],
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\" id=\"gtmctagid_fbs\"\u003E(function(){var a=",["escape",["macro",147],8,16],";a.content_type=\"product\";a.currency=\"EUR\";a.payment_method=",["escape",["macro",70],8,16],";try{a.contents=",["escape",["macro",148],8,16],"}catch(b){}a.content_ids=",["escape",["macro",17],8,16],";a.value=Math.max(0,",["escape",["macro",1],8,16],".revenue)||0;fbq(\"track\",\"Purchase\",a)})();\u003C\/script\u003E\n"],
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\" id=\"gtmctagid_fbs\"\u003E(function(){var a=",["escape",["macro",149],8,16],";a.content_type=\"product\";a.currency=\"EUR\";a.payment_method=",["escape",["macro",70],8,16],";try{a.contents=",["escape",["macro",150],8,16],"}catch(b){}a.content_ids=",["escape",["macro",17],8,16],";a.value=Math.max(0,",["escape",["macro",1],8,16],".revenue)||0;fbq(\"track\",\"Purchase\",a)})();\u003C\/script\u003E\n"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
@@ -1278,7 +1313,7 @@ data = {
     },{
       "function":"__html",
       "metadata":["map"],
-      "setup_tags":["list",["tag",61,0]],
+      "setup_tags":["list",["tag",64,0]],
       "once_per_event":true,
       "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\" id=\"gtmctagid_pintpv\"\u003E(function(){\"pageView\"==",["escape",["macro",10],8,16],"\u0026\u0026\"Category\"==",["escape",["macro",32],8,16],"?pintrk(\"track\",\"viewcategory\"):\"Item\"==",["escape",["macro",32],8,16],"?pintrk(\"track\",\"pagevisit\"):\"pageView\"==",["escape",["macro",10],8,16],"\u0026\u0026\"Search\"==",["escape",["macro",32],8,16],"\u0026\u0026pintrk(\"track\",\"search\",{search_query:\"",["escape",["macro",38],7],"\"})})();\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
@@ -1288,7 +1323,7 @@ data = {
     },{
       "function":"__html",
       "metadata":["map"],
-      "setup_tags":["list",["tag",61,0]],
+      "setup_tags":["list",["tag",64,0]],
       "once_per_event":true,
       "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\" id=\"gtmctagid_pints\"\u003E(function(){function e(a){for(var b=0,c=0;c\u003Ca.length;c++)b+=a[c].offers[0].amount*a[c].offers[0].price;return b}function f(a){for(var b=0,c=0;c\u003Ca.length;c++)b+=a[c].offers[0].amount;return b}if(\"Sale\"==",["escape",["macro",10],8,16],"){for(var a=",["escape",["macro",1],8,16],".cart,d=[],b=0;b\u003Ca.length;b++)d.push({product_name:a[b].name,product_id:a[b].ean,product_price:a[b].offers[0].price,product_quantity:a[b].offers[0].amount});a={value:e(a),order_quantity:f(a),currency:\"EUR\",line_items:d};pintrk(\"track\",\"checkout\",\na)}})();\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
@@ -1298,7 +1333,7 @@ data = {
     },{
       "function":"__html",
       "metadata":["map"],
-      "setup_tags":["list",["tag",61,0]],
+      "setup_tags":["list",["tag",64,0]],
       "once_per_event":true,
       "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\" id=\"gtmctagid_pintatc\"\u003E(function(){\"addToCart\"==",["escape",["macro",10],8,16],"\u0026\u0026pintrk(\"track\",\"AddToCart\",{value:",["escape",["macro",15],8,16],".offers[0].price,order_quantity:",["escape",["macro",15],8,16],".offers[0].amount,currency:\"EUR\"})})();\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
@@ -1319,7 +1354,7 @@ data = {
       "function":"__html",
       "metadata":["map"],
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\" id=\"gtmctagid_CS_pageview\"\u003Etry{window._uxa=window._uxa||[],window._uxa.push([\"trackDynamicVariable\",{key:\"backend_abtest\",value:",["escape",["macro",137],8,16],"}])}catch(a){};\u003C\/script\u003E"],
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\" id=\"gtmctagid_CS_pageview\"\u003Etry{window._uxa=window._uxa||[],window._uxa.push([\"trackDynamicVariable\",{key:\"backend_abtest\",value:",["escape",["macro",139],8,16],"}])}catch(a){};\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
@@ -1340,7 +1375,7 @@ data = {
       "metadata":["map"],
       "consent":["list"],
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003Efunction sendErroToGa(a){try{var b=\"undefined\"===typeof a||\"undefined\"===typeof a.message?\"Unknown error\":a.message;dataLayer.push({event:\"GAevent\",eventCategory:\"JavaScript Error\",eventAction:\"tmpInspireTrackBannerClicks \"+b});debug(a)}catch(d){}}function debug(a){}\nfunction checkForOptimizely(){try{if(\"undefined\"!==typeof optimizelyDatafile\u0026\u0026\"undefined\"!==typeof optimizelySdk)return debug(\"opt JS found\"),!0;if(200\u003Cwindow.tmp_inspire_countOptimizelyCheck)return debug(\"opt JS timed out\"),!1;debug(\"opt JS waiting\");return++window.tmp_inspire_countOptimizelyCheck}catch(a){sendErroToGa(a)}}\nfunction getBannerType_oldHP(a){try{return\"homepage_top_campaign_banner_small\"===a?\"campaign_teaser_aktuelle_rabatte_click\":\"homepage_brochure\"===a?\"campaign_teaser_prospektangebote_click\":\"homepage_top_campaign_banner\"===a?\"homepage_top_campaign_banner_click\":0===a.indexOf(\"homepage_campaign_teaser_\")?\"campaign_teaser_promotion_slider_aktuelle_themen_click\":!1}catch(b){sendErroToGa(b)}}\nfunction getBannerType_newHP(a){try{return\"homepage_sales_teaser_1\"===a?\"campaign_teaser_aktuelle_rabatte_click\":\"homepage_sales_teaser_2\"===a?\"campaign_teaser_prospektangebote_click\":\"homepage_teaser_1\"===a?\"homepage_top_campaign_banner_click\":\/homepage_teaser_(2|3|4)\/.test(a)?\"campaign_teaser_promotion_slider_aktuelle_themen_click\":!1}catch(b){sendErroToGa(b)}}\nfunction main(a,b){try{var d=checkForOptimizely(),f={environment:",["escape",["macro",149],8,16],",device_type:",["escape",["macro",150],8,16],",browser_name:",["escape",["macro",151],8,16],"};debug(f);if(!0===d||window.tmp_inspire_optInstance){if(window.tmp_inspire_optInstance=window.tmp_inspire_optInstance||optimizelySdk.createInstance({datafile:optimizelyDatafile}),debug(a),debug(b),\"undefined\"!==typeof b\u0026\u0026\"undefined\"!==typeof b[0]\u0026\u0026\"string\"===typeof b[0].page_position\u0026\u0026\"string\"===typeof b[0].name){var e=b[0].page_position;if(\/^homepage_(sales_)?teaser_\\d\/.test(e)){debug(\"newHP\");\nvar c=getBannerType_newHP(e)}else debug(\"oldHP\"),c=getBannerType_oldHP(e);c\u0026\u0026(debug(\"looking to track \"+c),tmp_inspire_optInstance.track(c,",["escape",["macro",98],8,16],",f))}}else if(!1!==d)return debug(\"optimizely JS polling \"+window.tmp_inspire_countOptimizelyCheck),window.setTimeout(main.bind(null,a,b),100)}catch(g){sendErroToGa(g)}}window.tmp_inspire_countOptimizelyCheck=0;main(",["escape",["macro",10],8,16],",",["escape",["macro",33],8,16],");\u003C\/script\u003E"],
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003Efunction sendErroToGa(a){try{var b=\"undefined\"===typeof a||\"undefined\"===typeof a.message?\"Unknown error\":a.message;dataLayer.push({event:\"GAevent\",eventCategory:\"JavaScript Error\",eventAction:\"tmpInspireTrackBannerClicks \"+b});debug(a)}catch(d){}}function debug(a){}\nfunction checkForOptimizely(){try{if(\"undefined\"!==typeof optimizelyDatafile\u0026\u0026\"undefined\"!==typeof optimizelySdk)return debug(\"opt JS found\"),!0;if(200\u003Cwindow.tmp_inspire_countOptimizelyCheck)return debug(\"opt JS timed out\"),!1;debug(\"opt JS waiting\");return++window.tmp_inspire_countOptimizelyCheck}catch(a){sendErroToGa(a)}}\nfunction getBannerType_oldHP(a){try{return\"homepage_top_campaign_banner_small\"===a?\"campaign_teaser_aktuelle_rabatte_click\":\"homepage_brochure\"===a?\"campaign_teaser_prospektangebote_click\":\"homepage_top_campaign_banner\"===a?\"homepage_top_campaign_banner_click\":0===a.indexOf(\"homepage_campaign_teaser_\")?\"campaign_teaser_promotion_slider_aktuelle_themen_click\":!1}catch(b){sendErroToGa(b)}}\nfunction getBannerType_newHP(a){try{return\"homepage_sales_teaser_1\"===a?\"campaign_teaser_aktuelle_rabatte_click\":\"homepage_sales_teaser_2\"===a?\"campaign_teaser_prospektangebote_click\":\"homepage_teaser_1\"===a?\"homepage_top_campaign_banner_click\":\/homepage_teaser_(2|3|4)\/.test(a)?\"campaign_teaser_promotion_slider_aktuelle_themen_click\":!1}catch(b){sendErroToGa(b)}}\nfunction main(a,b){try{var d=checkForOptimizely(),f={environment:",["escape",["macro",151],8,16],",device_type:",["escape",["macro",152],8,16],",browser_name:",["escape",["macro",153],8,16],"};debug(f);if(!0===d||window.tmp_inspire_optInstance){if(window.tmp_inspire_optInstance=window.tmp_inspire_optInstance||optimizelySdk.createInstance({datafile:optimizelyDatafile}),debug(a),debug(b),\"undefined\"!==typeof b\u0026\u0026\"undefined\"!==typeof b[0]\u0026\u0026\"string\"===typeof b[0].page_position\u0026\u0026\"string\"===typeof b[0].name){var e=b[0].page_position;if(\/^homepage_(sales_)?teaser_\\d\/.test(e)){debug(\"newHP\");\nvar c=getBannerType_newHP(e)}else debug(\"oldHP\"),c=getBannerType_oldHP(e);c\u0026\u0026(debug(\"looking to track \"+c),tmp_inspire_optInstance.track(c,",["escape",["macro",98],8,16],",f))}}else if(!1!==d)return debug(\"optimizely JS polling \"+window.tmp_inspire_countOptimizelyCheck),window.setTimeout(main.bind(null,a,b),100)}catch(g){sendErroToGa(g)}}window.tmp_inspire_countOptimizelyCheck=0;main(",["escape",["macro",10],8,16],",",["escape",["macro",33],8,16],");\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
@@ -1571,6 +1606,18 @@ data = {
       "arg0":["macro",123],
       "arg1":"(^$|((^|,)6178770_1367($|,)))"
     },{
+      "function":"_cn",
+      "arg0":["macro",133],
+      "arg1":"cookie-textlinks"
+    },{
+      "function":"_cn",
+      "arg0":["macro",134],
+      "arg1":"\/datenschutz"
+    },{
+      "function":"_re",
+      "arg0":["macro",123],
+      "arg1":"(^$|((^|,)6178770_1369($|,)))"
+    },{
       "function":"_eq",
       "arg0":["macro",0],
       "arg1":"gtm.js"
@@ -1584,7 +1631,7 @@ data = {
       "arg1":"0"
     },{
       "function":"_css",
-      "arg0":["macro",133],
+      "arg0":["macro",135],
       "arg1":"a.register_link"
     },{
       "function":"_eq",
@@ -1592,7 +1639,7 @@ data = {
       "arg1":"gtm.click"
     },{
       "function":"_css",
-      "arg0":["macro",133],
+      "arg0":["macro",135],
       "arg1":"a.cancel_button.cancelButton"
     },{
       "function":"_eq",
@@ -1636,11 +1683,11 @@ data = {
       "arg1":"\/konto\/"
     },{
       "function":"_eq",
-      "arg0":["macro",139],
+      "arg0":["macro",141],
       "arg1":"true"
     },{
       "function":"_eq",
-      "arg0":["macro",140],
+      "arg0":["macro",142],
       "arg1":"1"
     },{
       "function":"_eq",
@@ -1648,7 +1695,7 @@ data = {
       "arg1":"Search"
     },{
       "function":"_eq",
-      "arg0":["macro",142],
+      "arg0":["macro",144],
       "arg1":"moebel.de"
     },{
       "function":"_eq",
@@ -1656,7 +1703,7 @@ data = {
       "arg1":"moebel_de"
     },{
       "function":"_eq",
-      "arg0":["macro",142],
+      "arg0":["macro",144],
       "arg1":"undefined"
     },{
       "function":"_cn",
@@ -1684,55 +1731,56 @@ data = {
       "arg1":"Form_Page_Displayed"
     }],
   "rules":[
-    [["if",0],["add",0,1,7,31,38,46]],
-    [["if",1],["add",1,44]],
-    [["if",2],["add",1]],
-    [["if",3],["add",1,3,8,9,12,45,54]],
-    [["if",4],["add",1,8,45,18]],
-    [["if",7],["add",2]],
-    [["if",8,9,10,11],["add",2]],
-    [["if",15,16],["add",3,36]],
-    [["if",0,17],["add",4,34,48]],
-    [["if",18],["add",5]],
-    [["if",4,19],["add",6]],
-    [["if",3,20],["add",6]],
-    [["if",21,22],["add",10]],
-    [["if",21,23],["add",11]],
-    [["if",24],["add",13]],
-    [["if",25,26],["add",14]],
-    [["if",25,27],["add",14]],
-    [["if",28],["add",15]],
-    [["if",29],["add",16]],
-    [["if",30],["add",17]],
-    [["if",31,32,33],["add",19]],
-    [["if",34],["add",20,21,22,23,26,27,28,29,30,58]],
-    [["if",35],["add",24,25,36,60,52]],
-    [["if",37,38],["add",32]],
-    [["if",38,39],["add",33]],
-    [["if",3,17],["add",34,47,50,59]],
-    [["if",40,41],["add",34]],
-    [["if",0,40],["add",34]],
-    [["if",3,42],["add",35]],
-    [["if",3,43],["add",36]],
-    [["if",44,45],["add",36]],
-    [["if",3,46],["unless",47],["add",36]],
-    [["if",3,50],["add",37]],
-    [["if",3],["unless",51],["add",38]],
-    [["if",3,17,52],["add",39]],
-    [["if",0,17,53],["add",40]],
-    [["if",3,17,54,55],["add",41]],
-    [["if",38,56],["add",42]],
-    [["if",35,50],["unless",57],["add",43]],
-    [["if",4,17],["add",47]],
-    [["if",1,10],["add",49]],
-    [["if",13,14],["unless",12],["add",51]],
-    [["if",58,59],["add",53]],
-    [["if",60],["add",55,56]],
-    [["if",24,61],["add",57]],
-    [["if",6],["unless",5],["block",1,6,8,44,45,46,47,48,49]],
-    [["if",12,13,14],["block",2]],
-    [["if",6,36],["block",31,32,33,36,51]],
-    [["if",35,48],["block",36]],
-    [["if",35,49],["block",36]],
-    [["if",35,47],["block",36]]]
+    [["if",0],["add",1,2,8,34,41,49]],
+    [["if",1],["add",2,47]],
+    [["if",2],["add",2]],
+    [["if",3],["add",2,4,9,10,13,48,57]],
+    [["if",4],["add",2,9,48,19]],
+    [["if",7],["add",3]],
+    [["if",8,9,10,11],["add",3]],
+    [["if",15,16],["add",4,39]],
+    [["if",0,17],["add",5,37,51]],
+    [["if",18],["add",6]],
+    [["if",4,19],["add",7]],
+    [["if",3,20],["add",7]],
+    [["if",21,22],["add",11]],
+    [["if",21,23],["add",12]],
+    [["if",24],["add",14]],
+    [["if",25,26],["add",15]],
+    [["if",25,27],["add",15]],
+    [["if",28],["add",16]],
+    [["if",29],["add",17]],
+    [["if",30],["add",18]],
+    [["if",31,32,33],["add",20]],
+    [["if",32,34,35,36],["add",21]],
+    [["if",37],["add",22,23,24,25,28,29,30,31,32,33,61,0]],
+    [["if",38],["add",26,27,39,63,55]],
+    [["if",40,41],["add",35]],
+    [["if",41,42],["add",36]],
+    [["if",3,17],["add",37,50,53,62]],
+    [["if",43,44],["add",37]],
+    [["if",0,43],["add",37]],
+    [["if",3,45],["add",38]],
+    [["if",3,46],["add",39]],
+    [["if",47,48],["add",39]],
+    [["if",3,49],["unless",50],["add",39]],
+    [["if",3,53],["add",40]],
+    [["if",3],["unless",54],["add",41]],
+    [["if",3,17,55],["add",42]],
+    [["if",0,17,56],["add",43]],
+    [["if",3,17,57,58],["add",44]],
+    [["if",41,59],["add",45]],
+    [["if",38,53],["unless",60],["add",46]],
+    [["if",4,17],["add",50]],
+    [["if",1,10],["add",52]],
+    [["if",13,14],["unless",12],["add",54]],
+    [["if",61,62],["add",56]],
+    [["if",63],["add",58,59]],
+    [["if",24,64],["add",60]],
+    [["if",6],["unless",5],["block",2,7,9,47,48,49,50,51,52]],
+    [["if",12,13,14],["block",3]],
+    [["if",6,39],["block",34,35,36,39,54]],
+    [["if",38,51],["block",39]],
+    [["if",38,52],["block",39]],
+    [["if",38,50],["block",39]]]
 }
