@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"266",
+  "version":"268",
   
   "macros":[{
       "function":"__e"
@@ -58,7 +58,7 @@ data = {
       "vtp_enableEcommerce":false,
       "vtp_trackingId":"UA-58541733-2",
       "vtp_enableRecaptchaOption":false,
-      "vtp_enableTransportUrl":false,
+      "vtp_enableTransportUrl":true,
       "vtp_enableUaRlsa":false,
       "vtp_enableUseInternalVersion":false
     },{
@@ -180,6 +180,11 @@ data = {
       "vtp_setDefaultValue":false,
       "vtp_name":"name"
     },{
+      "function":"__v",
+      "vtp_dataLayerVersion":2,
+      "vtp_setDefaultValue":false,
+      "vtp_name":"tag"
+    },{
       "function":"__e"
     },{
       "function":"__v",
@@ -231,13 +236,13 @@ data = {
     },{
       "function":"__ua",
       "metadata":["map"],
-      "setup_tags":["list",["tag",37,0]],
+      "setup_tags":["list",["tag",38,0]],
       "once_per_event":true,
       "vtp_overrideGaSettings":false,
       "vtp_trackType":"TRACK_PAGEVIEW",
       "vtp_gaSettings":["macro",11],
       "vtp_enableRecaptchaOption":false,
-      "vtp_enableTransportUrl":false,
+      "vtp_enableTransportUrl":true,
       "vtp_enableUaRlsa":false,
       "vtp_enableUseInternalVersion":false,
       "vtp_enableFirebaseCampaignData":true,
@@ -256,7 +261,7 @@ data = {
       "vtp_eventLabel":"Purchase",
       "vtp_enableEcommerce":true,
       "vtp_enableRecaptchaOption":false,
-      "vtp_enableTransportUrl":false,
+      "vtp_enableTransportUrl":true,
       "vtp_enableUaRlsa":false,
       "vtp_enableUseInternalVersion":false,
       "vtp_enableFirebaseCampaignData":true,
@@ -279,7 +284,7 @@ data = {
       "vtp_eventLabel":["macro",13],
       "vtp_enableEcommerce":false,
       "vtp_enableRecaptchaOption":false,
-      "vtp_enableTransportUrl":false,
+      "vtp_enableTransportUrl":true,
       "vtp_enableUaRlsa":false,
       "vtp_enableUseInternalVersion":false,
       "vtp_enableFirebaseCampaignData":true,
@@ -296,7 +301,7 @@ data = {
       "vtp_eventAction":["macro",7],
       "vtp_eventLabel":["macro",14],
       "vtp_enableRecaptchaOption":false,
-      "vtp_enableTransportUrl":false,
+      "vtp_enableTransportUrl":true,
       "vtp_enableUaRlsa":false,
       "vtp_enableUseInternalVersion":false,
       "vtp_enableFirebaseCampaignData":true,
@@ -315,7 +320,7 @@ data = {
       "vtp_eventLabel":"Add to Cart",
       "vtp_enableEcommerce":true,
       "vtp_enableRecaptchaOption":false,
-      "vtp_enableTransportUrl":false,
+      "vtp_enableTransportUrl":true,
       "vtp_enableUaRlsa":false,
       "vtp_enableUseInternalVersion":false,
       "vtp_enableFirebaseCampaignData":true,
@@ -334,6 +339,7 @@ data = {
       "vtp_sendPageView":true,
       "vtp_measurementId":"G-CPVFPGFBP8",
       "vtp_enableUserProperties":true,
+      "vtp_enableGA4Name":false,
       "tag_id":70
     },{
       "function":"__gaawe",
@@ -343,6 +349,7 @@ data = {
       "vtp_eventParameters":["list",["map","name","optinpage","value",["macro",15]],["map","name","acid","value",["macro",16]]],
       "vtp_measurementId":"G-CPVFPGFBP8",
       "vtp_enableUserProperties":true,
+      "vtp_enableGA4Name":false,
       "tag_id":71
     },{
       "function":"__ua",
@@ -355,7 +362,7 @@ data = {
       "vtp_gaSettings":["macro",11],
       "vtp_eventAction":"Analytics Service Request",
       "vtp_enableRecaptchaOption":false,
-      "vtp_enableTransportUrl":false,
+      "vtp_enableTransportUrl":true,
       "vtp_enableUaRlsa":false,
       "vtp_enableUseInternalVersion":false,
       "vtp_enableFirebaseCampaignData":true,
@@ -376,6 +383,7 @@ data = {
       "vtp_enableProductReportingCheckbox":true,
       "vtp_enableNewCustomerReportingCheckbox":false,
       "vtp_enableEnhancedConversionsCheckbox":false,
+      "vtp_enableEnhancedConversionVariable":false,
       "vtp_enableRdpCheckbox":true,
       "vtp_enableTransportUrl":false,
       "tag_id":234
@@ -408,7 +416,7 @@ data = {
       "vtp_enableEcommerce":false,
       "vtp_trackingId":["macro",11],
       "vtp_enableRecaptchaOption":false,
-      "vtp_enableTransportUrl":false,
+      "vtp_enableTransportUrl":true,
       "vtp_enableUaRlsa":false,
       "vtp_enableUseInternalVersion":false,
       "vtp_enableFirebaseCampaignData":true,
@@ -431,6 +439,7 @@ data = {
       "vtp_eventParameters":["list",["map","name","page","value",["macro",7]],["map","name","referrer","value",["macro",14]]],
       "vtp_measurementId":"G-CPVFPGFBP8",
       "vtp_enableUserProperties":true,
+      "vtp_enableGA4Name":false,
       "tag_id":286
     },{
       "function":"__gaawe",
@@ -440,6 +449,7 @@ data = {
       "vtp_eventParameters":["list",["map","name","items","value",["macro",25]]],
       "vtp_measurementId":"G-CPVFPGFBP8",
       "vtp_enableUserProperties":true,
+      "vtp_enableGA4Name":false,
       "tag_id":292
     },{
       "function":"__evl",
@@ -450,14 +460,14 @@ data = {
       "vtp_selectorType":"ID",
       "vtp_onScreenRatio":"50",
       "vtp_uniqueTriggerId":"1927886_231",
-      "tag_id":293
+      "tag_id":297
     },{
       "function":"__tl",
       "vtp_eventName":"gtm.timer",
       "vtp_interval":"5000",
       "vtp_limit":"1",
       "vtp_uniqueTriggerId":"1927886_293",
-      "tag_id":294
+      "tag_id":298
     },{
       "function":"__html",
       "metadata":["map"],
@@ -623,6 +633,15 @@ data = {
       "vtp_enableEditJsMacroBehavior":false,
       "tag_id":289
     },{
+      "function":"__html",
+      "metadata":["map"],
+      "once_per_event":true,
+      "vtp_html":"\u003Cdiv class=\"manual-optin-trigger\" data-optin-slug=\"p903punokzwfiqy7icc0\" style=\"display: none;\"\u003E\u003C\/div\u003E\n\u003Cscript type=\"text\/gtmscript\"\u003Edocument.querySelector(\"[data-optin-slug\\x3dp903punokzwfiqy7icc0]\").click();\u003C\/script\u003E",
+      "vtp_supportDocumentWrite":false,
+      "vtp_enableIframeMode":false,
+      "vtp_enableEditJsMacroBehavior":false,
+      "tag_id":296
+    },{
       "function":"__opt",
       "metadata":["map"],
       "once_per_load":true,
@@ -759,6 +778,14 @@ data = {
       "function":"_cn",
       "arg0":["macro",27],
       "arg1":"-1"
+    },{
+      "function":"_cn",
+      "arg0":["macro",38],
+      "arg1":"Offer: GTM BTB \u003E MM"
+    },{
+      "function":"_eq",
+      "arg0":["macro",0],
+      "arg1":"ac User - has tag GTM BTB \u003E MM"
     }],
   "rules":[
     [["if",0],["add",2,8,12,19,0,26,35,17]],
@@ -784,5 +811,6 @@ data = {
     [["if",0,27],["add",32]],
     [["if",0,28,29],["add",33]],
     [["if",0,30],["unless",31],["add",34]],
-    [["if",12,22,24],["add",36]]]
+    [["if",12,22,24],["add",36]],
+    [["if",32,33],["add",37]]]
 }
