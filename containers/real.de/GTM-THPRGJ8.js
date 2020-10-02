@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"646",
+  "version":"655",
   
   "macros":[{
       "function":"__e"
@@ -745,9 +745,8 @@ data = {
       "function":"__html",
       "priority":100,
       "metadata":["map"],
-      "consent":["list"],
       "once_per_event":true,
-      "vtp_html":"\u003Cscript type=\"text\/gtmscript\"\u003Efunction sendGaError(a){a=\"undefined\"===typeof a||\"undefined\"===typeof a.message?\"Unknown error\":a.message;dataLayer.push({event:\"GAevent\",eventCategory:\"JavaScript Error\",eventAction:a})}function debug(a){console.log(a)}\nfunction isWantedBot(){try{for(var a=\"^Mozilla\\\\\/5\\\\.0 \\\\(compatible; Googlebot\\\\\/2\\\\.1; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.google\\\\.com\\\\\/bot\\\\.html\\\\)${^Googlebot\\\\\/2\\\\.1 \\\\(\\\\+http\\\\:\\\\\/\\\\\/www\\\\.google\\\\.com\\\\\/bot\\\\.html\\\\)${^Mozilla\\\\\/5\\\\.0 \\\\(Linux; Android 6\\\\.0\\\\.1; Nexus 5X Build\\\\\/MMB29P\\\\) AppleWebKit\\\\\/537\\\\.36 \\\\(KHTML, like Gecko\\\\) Chrome\\\\\/41\\\\.0\\\\.2272\\\\.96 Mobile Safari\\\\\/537\\\\.36 \\\\(compatible; Googlebot\\\\\/2\\\\.1; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.google\\\\.com\\\\\/bot\\\\.html\\\\)${^SAMSUNG\\\\-SGH\\\\-E250\\\\\/1\\\\.0 Profile\\\\\/MIDP\\\\-2\\\\.0 Configuration\\\\\/CLDC\\\\-1\\\\.1 UP\\\\.Browser\\\\\/6\\\\.2\\\\.3\\\\.3\\\\.c\\\\.1\\\\.101 \\\\(GUI\\\\) MMP\\\\\/2\\\\.0 \\\\(compatible; Googlebot\\\\-Mobile\\\\\/2\\\\.1; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.google\\\\.com\\\\\/bot\\\\.html\\\\)${^Googlebot\\\\-Image\\\\\/1\\\\.0${^Googlebot\\\\-Video\\\\\/1\\\\.0${^Mediapartners\\\\-Google${^Mozilla\\\\\/5\\\\.0 \\\\(Linux; Android 5\\\\.0; SM\\\\-G920A\\\\) AppleWebKit \\\\(KHTML, like Gecko\\\\) Chrome Mobile Safari \\\\(compatible; AdsBot\\\\-Google\\\\-Mobile; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.google\\\\.com\\\\\/mobile\\\\\/adsbot\\\\.html\\\\)${^Mozilla\\\\\/5\\\\.0 \\\\(iPhone; CPU iPhone OS 9_1 like Mac OS X\\\\) AppleWebKit\\\\\/601\\\\.1\\\\.46 \\\\(KHTML, like Gecko\\\\) Version\\\\\/9\\\\.0 Mobile\\\\\/13B143 Safari\\\\\/601\\\\.1 \\\\(compatible; AdsBot\\\\-Google\\\\-Mobile; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.google\\\\.com\\\\\/mobile\\\\\/adsbot\\\\.html\\\\)${^\\\\(compatible; Mediapartners\\\\-Google\\\\\/2\\\\.1; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.google\\\\.com\\\\\/bot\\\\.html\\\\)${^AdsBot\\\\-Google \\\\(\\\\+http\\\\:\\\\\/\\\\\/www\\\\.google\\\\.com\\\\\/adsbot\\\\.html\\\\)${^AdsBot\\\\-Google\\\\-Mobile\\\\-Apps${^Mozilla\\\\\/5\\\\.0 \\\\(compatible; bingbot\\\\\/2\\\\.0; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.bing\\\\.com\\\\\/bingbot\\\\.htm\\\\)${^Mozilla\\\\\/5\\\\.0 \\\\(compatible; bingbot\\\\\/2\\\\.0 \\\\+https\\\\:\\\\\/\\\\\/www\\\\.bing\\\\.com\\\\\/bingbot\\\\.htm\\\\)${^msnbot\\\\\/2\\\\.0b \\\\(\\\\+http\\\\:\\\\\/\\\\\/search\\\\.msn\\\\.com\\\\\/msnbot\\\\.htm\\\\)${^Mozilla\\\\\/5\\\\.0 \\\\(iPhone; CPU iPhone OS 7_0 like Mac OS X\\\\) AppleWebKit\\\\\/537\\\\.51\\\\.1 \\\\(KHTML, like Gecko\\\\) Version\\\\\/7\\\\.0 Mobile\\\\\/11A465 Safari\\\\\/9537\\\\.53 \\\\(compatible; bingbot\\\\\/2\\\\.0; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.bing\\\\.com\\\\\/bingbot\\\\.htm\\\\)${^Mozilla\\\\\/5\\\\.0 \\\\(Windows Phone 8\\\\.1; ARM; Trident\\\\\/7\\\\.0; Touch; rv\\\\:11\\\\.0; IEMobile\\\\\/11\\\\.0; NOKIA; Lumia 530\\\\) like Gecko \\\\(compatible; bingbot\\\\\/2\\\\.0; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.bing\\\\.com\\\\\/bingbot\\\\.htm\\\\)${^msnbot\\\\-media\\\\\/1\\\\.1 \\\\(\\\\+http\\\\:\\\\\/\\\\\/search\\\\.msn\\\\.com\\\\\/msnbot\\\\.htm\\\\)${^Mozilla\\\\\/5\\\\.0 \\\\(compatible; adidxbot\\\\\/2\\\\.0; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.bing\\\\.com\\\\\/bingbot\\\\.htm\\\\)${^Mozilla\\\\\/5\\\\.0 \\\\(iPhone; CPU iPhone OS 7_0 like Mac OS X\\\\) AppleWebKit\\\\\/537\\\\.51\\\\.1 \\\\(KHTML, like Gecko\\\\) Version\\\\\/7\\\\.0 Mobile\\\\\/11A465 Safari\\\\\/9537\\\\.53 \\\\(compatible; adidxbot\\\\\/2\\\\.0; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.bing\\\\.com\\\\\/bingbot\\\\.htm\\\\)${^Mozilla\\\\\/5\\\\.0 \\\\(Windows Phone 8\\\\.1; ARM; Trident\\\\\/7\\\\.0; Touch; rv\\\\:11\\\\.0; IEMobile\\\\\/11\\\\.0; NOKIA; Lumia 530\\\\) like Gecko \\\\(compatible; adidxbot\\\\\/2\\\\.0; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.bing\\\\.com\\\\\/bingbot\\\\.htm\\\\)${^Mozilla\\\\\/5\\\\.0 \\\\(Windows NT 6\\\\.1; WOW64\\\\) AppleWebKit\\\\\/534\\\\+ \\\\(KHTML, like Gecko\\\\) BingPreview\\\\\/1\\\\.0b${^Mozilla\\\\\/5\\\\.0 \\\\(Windows Phone 8\\\\.1; ARM; Trident\\\\\/7\\\\.0; Touch; rv\\\\:11\\\\.0; IEMobile\\\\\/11\\\\.0; NOKIA; Lumia 530\\\\) like Gecko BingPreview\\\\\/1\\\\.0b${^Mozilla\\\\\/5\\\\.0 \\\\(compatible; MJ12bot\\\\\/v1\\\\.4\\\\.7; http\\\\:\\\\\/\\\\\/mj12bot\\\\.com\\\\\/\\\\)${^Mozilla\\\\\/5\\\\.0 \\\\(compatible; MJ12bot\\\\\/v1\\\\.4\\\\.8; http\\\\:\\\\\/\\\\\/mj12bot\\\\.com\\\\\/\\\\)${^audisto\\\\.com full crawler .* \\\\(refer to in robots\\\\.txt as audisto, see https\\\\:\\\\\/\\\\\/audisto\\\\.com\\\\\/bot\\\\)${^audisto\\\\.com essential crawler .* \\\\(refer to in robots\\\\.txt as audisto\\\\-essentials, see https\\\\:\\\\\/\\\\\/audisto\\\\.com\\\\\/bot\\\\)${^audisto\\\\.com full crawler\\\\\/phone .* \\\\(refer to in robots\\\\.txt as audisto, see https\\\\:\\\\\/\\\\\/audisto\\\\.com\\\\\/bot\\\\)${^audisto\\\\.com full crawler\\\\\/tablet .* \\\\(refer to in robots\\\\.txt as audisto, see https\\\\:\\\\\/\\\\\/audisto\\\\.com\\\\\/bot\\\\)${^Mozilla\\\\\/.* \\\\(compatible; AhrefsBot\\\\\/.*; \\\\+http\\\\:\\\\\/\\\\\/ahrefs\\\\.com\\\\\/robot\\\\\/\\\\)${^Mozilla\\\\\/5\\\\.0 \\\\(compatible; ResearchBot\\\\\/0\\\\.7\\\\)${HM_SEO_MAN{Pingdom{Datadog Agent{^Mozilla\\\\\/5\\\\.0 \\\\(Linux; Android 6\\\\.0\\\\.1; Nexus 5X Build\\\\\/MMB29P\\\\) AppleWebKit\\\\\/537\\\\.36 \\\\(KHTML, like Gecko\\\\) Chrome\\\\\/[0-9]+\\\\.[0-9]+\\\\.[0-9]+\\\\.[0-9]+ Mobile Safari\\\\\/537\\\\.36 \\\\(compatible; Googlebot\\\\\/2\\\\.1; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.google\\\\.com\\\\\/bot\\\\.html\\\\)${^Mozilla\\\\\/5\\\\.0 AppleWebKit\\\\\/537\\\\.36 \\\\(KHTML, like Gecko; compatible; Googlebot\\\\\/2\\\\.1; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.google\\\\.com\\\\\/bot\\\\.html\\\\) Chrome\\\\\/[0-9]+\\\\.[0-9]+\\\\.[0-9]+\\\\.[0-9]+ Safari\\\\\/537\\\\.36${^Mozilla\\\\\/5\\\\.0 AppleWebKit\\\\\/537\\\\.36 \\\\(KHTML, like Gecko; compatible; Googlebot\\\\\/2\\\\.1; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.google\\\\.com\\\\\/bot\\\\.html\\\\) Safari\\\\\/537\\\\.36$\".split(\"{\"),b=\n!1,c=0;c\u003Ca.length;c++){var d=new RegExp(a[c]);if(d.test(navigator.userAgent)){b=!0;break}}return b}catch(e){sendGaError(e)}}function checkIfCategory(){try{if(\"undefined\"!==typeof window.dataLayer)for(var a=0;a\u003CdataLayer.length;a++){var b=dataLayer[a];if(\"undefined\"!==typeof b.event\u0026\u0026\"pageView\"===b.event)return\"undefined\"!==typeof b.view\u0026\u0026\"undefined\"!==typeof b.view.view_type\u0026\u00260===b.view.view_type.indexOf(\"Category\")?!0:!1}}catch(c){sendGaError(c)}}\nfunction isValidPage(){try{var a=\/^\\\/$\/.test(window.location.pathname),b=checkIfCategory(),c=\/^\\\/product\\\/\\d+\\\/$\/.test(window.location.pathname),d=\/^\\\/item\\\/search\\\/\/.test(window.location.pathname);return a||b||c||d}catch(e){sendGaError(e)}}function saveCheckForSessionStorageAvail(){if(\"undefined\"!==typeof sessionStorage)try{if(sessionStorage.setItem(\"storage_test\",\"yes\"),\"yes\"===sessionStorage.getItem(\"storage_test\"))return sessionStorage.removeItem(\"storage_test\"),!0}catch(a){}return!1}\ntry{!isWantedBot()\u0026\u0026-1!==document.cookie.indexOf(\"testSimon\")\u0026\u0026saveCheckForSessionStorageAvail()\u0026\u0026(isValidPage()?(debug(\"pushing activation\"),debug(window.dataLayer),window.dataLayer=window.dataLayer||[],window.dataLayer.push({event:\"optimize.activateCookieConsentAbTest\"})):(window.pollForIsCategoryCounter=0,pollForPageInfo=window.setInterval(function(){try{pollForIsCategoryCounter++,400\u003CpollForIsCategoryCounter\u0026\u0026clearInterval(pollForPageInfo),debug(\"polling for category\"),checkIfCategory()\u0026\u0026(debug(\"is category\"),\nclearInterval(pollForPageInfo),debug(\"pushing activation\"),debug(window.dataLayer),window.dataLayer=window.dataLayer||[],window.dataLayer.push({event:\"optimize.activateCookieConsentAbTest\"}))}catch(b){var a=\"undefined\"===typeof b||\"undefined\"===typeof b.message?\"Unknown error\":b.message;dataLayer.push({event:\"GAevent\",eventCategory:\"JavaScript Error\",eventAction:a})}},25)))}catch(a){sendGaError(a)};\u003C\/script\u003E",
+      "vtp_html":"\u003Cscript type=\"text\/gtmscript\"\u003Ewindow.sendGaError=window.sendGaError||function(a,b){a=\"undefined\"===typeof a||\"undefined\"===typeof a.message?\"Unknown error\":a.message;b=b?b+\": \"+a:a;dataLayer.push({event:\"GAevent\",eventCategory:\"JavaScript Error\",eventAction:b})};function debug(a){console.log(a)}\nfunction isWantedBot(){try{for(var a=\"^Mozilla\\\\\/5\\\\.0 \\\\(compatible; Googlebot\\\\\/2\\\\.1; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.google\\\\.com\\\\\/bot\\\\.html\\\\)${^Googlebot\\\\\/2\\\\.1 \\\\(\\\\+http\\\\:\\\\\/\\\\\/www\\\\.google\\\\.com\\\\\/bot\\\\.html\\\\)${^Mozilla\\\\\/5\\\\.0 \\\\(Linux; Android 6\\\\.0\\\\.1; Nexus 5X Build\\\\\/MMB29P\\\\) AppleWebKit\\\\\/537\\\\.36 \\\\(KHTML, like Gecko\\\\) Chrome\\\\\/41\\\\.0\\\\.2272\\\\.96 Mobile Safari\\\\\/537\\\\.36 \\\\(compatible; Googlebot\\\\\/2\\\\.1; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.google\\\\.com\\\\\/bot\\\\.html\\\\)${^SAMSUNG\\\\-SGH\\\\-E250\\\\\/1\\\\.0 Profile\\\\\/MIDP\\\\-2\\\\.0 Configuration\\\\\/CLDC\\\\-1\\\\.1 UP\\\\.Browser\\\\\/6\\\\.2\\\\.3\\\\.3\\\\.c\\\\.1\\\\.101 \\\\(GUI\\\\) MMP\\\\\/2\\\\.0 \\\\(compatible; Googlebot\\\\-Mobile\\\\\/2\\\\.1; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.google\\\\.com\\\\\/bot\\\\.html\\\\)${^Googlebot\\\\-Image\\\\\/1\\\\.0${^Googlebot\\\\-Video\\\\\/1\\\\.0${^Mediapartners\\\\-Google${^Mozilla\\\\\/5\\\\.0 \\\\(Linux; Android 5\\\\.0; SM\\\\-G920A\\\\) AppleWebKit \\\\(KHTML, like Gecko\\\\) Chrome Mobile Safari \\\\(compatible; AdsBot\\\\-Google\\\\-Mobile; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.google\\\\.com\\\\\/mobile\\\\\/adsbot\\\\.html\\\\)${^Mozilla\\\\\/5\\\\.0 \\\\(iPhone; CPU iPhone OS 9_1 like Mac OS X\\\\) AppleWebKit\\\\\/601\\\\.1\\\\.46 \\\\(KHTML, like Gecko\\\\) Version\\\\\/9\\\\.0 Mobile\\\\\/13B143 Safari\\\\\/601\\\\.1 \\\\(compatible; AdsBot\\\\-Google\\\\-Mobile; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.google\\\\.com\\\\\/mobile\\\\\/adsbot\\\\.html\\\\)${^\\\\(compatible; Mediapartners\\\\-Google\\\\\/2\\\\.1; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.google\\\\.com\\\\\/bot\\\\.html\\\\)${^AdsBot\\\\-Google \\\\(\\\\+http\\\\:\\\\\/\\\\\/www\\\\.google\\\\.com\\\\\/adsbot\\\\.html\\\\)${^AdsBot\\\\-Google\\\\-Mobile\\\\-Apps${^Mozilla\\\\\/5\\\\.0 \\\\(compatible; bingbot\\\\\/2\\\\.0; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.bing\\\\.com\\\\\/bingbot\\\\.htm\\\\)${^Mozilla\\\\\/5\\\\.0 \\\\(compatible; bingbot\\\\\/2\\\\.0 \\\\+https\\\\:\\\\\/\\\\\/www\\\\.bing\\\\.com\\\\\/bingbot\\\\.htm\\\\)${^msnbot\\\\\/2\\\\.0b \\\\(\\\\+http\\\\:\\\\\/\\\\\/search\\\\.msn\\\\.com\\\\\/msnbot\\\\.htm\\\\)${^Mozilla\\\\\/5\\\\.0 \\\\(iPhone; CPU iPhone OS 7_0 like Mac OS X\\\\) AppleWebKit\\\\\/537\\\\.51\\\\.1 \\\\(KHTML, like Gecko\\\\) Version\\\\\/7\\\\.0 Mobile\\\\\/11A465 Safari\\\\\/9537\\\\.53 \\\\(compatible; bingbot\\\\\/2\\\\.0; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.bing\\\\.com\\\\\/bingbot\\\\.htm\\\\)${^Mozilla\\\\\/5\\\\.0 \\\\(Windows Phone 8\\\\.1; ARM; Trident\\\\\/7\\\\.0; Touch; rv\\\\:11\\\\.0; IEMobile\\\\\/11\\\\.0; NOKIA; Lumia 530\\\\) like Gecko \\\\(compatible; bingbot\\\\\/2\\\\.0; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.bing\\\\.com\\\\\/bingbot\\\\.htm\\\\)${^msnbot\\\\-media\\\\\/1\\\\.1 \\\\(\\\\+http\\\\:\\\\\/\\\\\/search\\\\.msn\\\\.com\\\\\/msnbot\\\\.htm\\\\)${^Mozilla\\\\\/5\\\\.0 \\\\(compatible; adidxbot\\\\\/2\\\\.0; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.bing\\\\.com\\\\\/bingbot\\\\.htm\\\\)${^Mozilla\\\\\/5\\\\.0 \\\\(iPhone; CPU iPhone OS 7_0 like Mac OS X\\\\) AppleWebKit\\\\\/537\\\\.51\\\\.1 \\\\(KHTML, like Gecko\\\\) Version\\\\\/7\\\\.0 Mobile\\\\\/11A465 Safari\\\\\/9537\\\\.53 \\\\(compatible; adidxbot\\\\\/2\\\\.0; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.bing\\\\.com\\\\\/bingbot\\\\.htm\\\\)${^Mozilla\\\\\/5\\\\.0 \\\\(Windows Phone 8\\\\.1; ARM; Trident\\\\\/7\\\\.0; Touch; rv\\\\:11\\\\.0; IEMobile\\\\\/11\\\\.0; NOKIA; Lumia 530\\\\) like Gecko \\\\(compatible; adidxbot\\\\\/2\\\\.0; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.bing\\\\.com\\\\\/bingbot\\\\.htm\\\\)${^Mozilla\\\\\/5\\\\.0 \\\\(Windows NT 6\\\\.1; WOW64\\\\) AppleWebKit\\\\\/534\\\\+ \\\\(KHTML, like Gecko\\\\) BingPreview\\\\\/1\\\\.0b${^Mozilla\\\\\/5\\\\.0 \\\\(Windows Phone 8\\\\.1; ARM; Trident\\\\\/7\\\\.0; Touch; rv\\\\:11\\\\.0; IEMobile\\\\\/11\\\\.0; NOKIA; Lumia 530\\\\) like Gecko BingPreview\\\\\/1\\\\.0b${^Mozilla\\\\\/5\\\\.0 \\\\(compatible; MJ12bot\\\\\/v1\\\\.4\\\\.7; http\\\\:\\\\\/\\\\\/mj12bot\\\\.com\\\\\/\\\\)${^Mozilla\\\\\/5\\\\.0 \\\\(compatible; MJ12bot\\\\\/v1\\\\.4\\\\.8; http\\\\:\\\\\/\\\\\/mj12bot\\\\.com\\\\\/\\\\)${^audisto\\\\.com full crawler .* \\\\(refer to in robots\\\\.txt as audisto, see https\\\\:\\\\\/\\\\\/audisto\\\\.com\\\\\/bot\\\\)${^audisto\\\\.com essential crawler .* \\\\(refer to in robots\\\\.txt as audisto\\\\-essentials, see https\\\\:\\\\\/\\\\\/audisto\\\\.com\\\\\/bot\\\\)${^audisto\\\\.com full crawler\\\\\/phone .* \\\\(refer to in robots\\\\.txt as audisto, see https\\\\:\\\\\/\\\\\/audisto\\\\.com\\\\\/bot\\\\)${^audisto\\\\.com full crawler\\\\\/tablet .* \\\\(refer to in robots\\\\.txt as audisto, see https\\\\:\\\\\/\\\\\/audisto\\\\.com\\\\\/bot\\\\)${^Mozilla\\\\\/.* \\\\(compatible; AhrefsBot\\\\\/.*; \\\\+http\\\\:\\\\\/\\\\\/ahrefs\\\\.com\\\\\/robot\\\\\/\\\\)${^Mozilla\\\\\/5\\\\.0 \\\\(compatible; ResearchBot\\\\\/0\\\\.7\\\\)${HM_SEO_MAN{Pingdom{Datadog Agent{^Mozilla\\\\\/5\\\\.0 \\\\(Linux; Android 6\\\\.0\\\\.1; Nexus 5X Build\\\\\/MMB29P\\\\) AppleWebKit\\\\\/537\\\\.36 \\\\(KHTML, like Gecko\\\\) Chrome\\\\\/[0-9]+\\\\.[0-9]+\\\\.[0-9]+\\\\.[0-9]+ Mobile Safari\\\\\/537\\\\.36 \\\\(compatible; Googlebot\\\\\/2\\\\.1; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.google\\\\.com\\\\\/bot\\\\.html\\\\)${^Mozilla\\\\\/5\\\\.0 AppleWebKit\\\\\/537\\\\.36 \\\\(KHTML, like Gecko; compatible; Googlebot\\\\\/2\\\\.1; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.google\\\\.com\\\\\/bot\\\\.html\\\\) Chrome\\\\\/[0-9]+\\\\.[0-9]+\\\\.[0-9]+\\\\.[0-9]+ Safari\\\\\/537\\\\.36${^Mozilla\\\\\/5\\\\.0 AppleWebKit\\\\\/537\\\\.36 \\\\(KHTML, like Gecko; compatible; Googlebot\\\\\/2\\\\.1; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.google\\\\.com\\\\\/bot\\\\.html\\\\) Safari\\\\\/537\\\\.36$\".split(\"{\"),b=\n!1,c=0;c\u003Ca.length;c++){var d=new RegExp(a[c]);if(d.test(navigator.userAgent)){b=!0;break}}return b}catch(e){window.sendGaError(e)}}function saveCheckForSessionStorageAvail(){if(\"undefined\"!==typeof sessionStorage)try{if(sessionStorage.setItem(\"storage_test\",\"yes\"),\"yes\"===sessionStorage.getItem(\"storage_test\"))return sessionStorage.removeItem(\"storage_test\"),!0}catch(a){}return!1}\ntry{-1!==document.cookie.indexOf(\"real-cookie-accept\\x3d\")||!saveCheckForSessionStorageAvail()||isWantedBot()||-1===document.cookie.indexOf(\"testSimon\")\u0026\u0026-1===window.location.href.indexOf(\"testConsent\")||(window.pollForCookieMessageCounter=0,pollForCookieMessage=window.setInterval(function(){try{pollForCookieMessageCounter++,2E3\u003CpollForCookieMessageCounter\u0026\u0026(debug(\"poll for cookie message timed out\"),clearInterval(pollForCookieMessage)),debug(\"polling for cookie message\"),document.getElementById(\"cookie-message\")\u0026\u0026\n(clearInterval(pollForCookieMessage),debug(\"cookie message found - pushing activation\"),window.dataLayer=window.dataLayer||[],window.dataLayer.push({event:\"optimize.activateCookieConsentAbTest\"}))}catch(a){window.sendGaError(a,\"consentActivationPolling\")}},10))}catch(a){window.sendGaError(a)};\u003C\/script\u003E",
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
@@ -892,7 +891,7 @@ data = {
       "vtp_enableCrossDomainFeature":true,
       "vtp_enableCookieUpdateFeature":false,
       "vtp_enableCookieFlagsFeature":false,
-      "vtp_enableUrlPassthroughFeature":false,
+      "vtp_enableUrlPassthroughFeature":true,
       "tag_id":85
     },{
       "function":"__ua",
@@ -1009,7 +1008,6 @@ data = {
     },{
       "function":"__ua",
       "metadata":["map"],
-      "consent":["list"],
       "once_per_event":true,
       "vtp_nonInteraction":["macro",28],
       "vtp_overrideGaSettings":false,
@@ -1030,9 +1028,9 @@ data = {
       "metadata":["map"],
       "consent":["list"],
       "once_per_event":true,
-      "vtp_nonInteraction":false,
+      "vtp_nonInteraction":true,
       "vtp_overrideGaSettings":false,
-      "vtp_eventCategory":"consent",
+      "vtp_eventCategory":"cookieConsent",
       "vtp_trackType":"TRACK_EVENT",
       "vtp_gaSettings":["macro",111],
       "vtp_eventAction":"consentGiven",
@@ -1048,9 +1046,9 @@ data = {
       "metadata":["map"],
       "consent":["list"],
       "once_per_event":true,
-      "vtp_nonInteraction":false,
+      "vtp_nonInteraction":true,
       "vtp_overrideGaSettings":false,
-      "vtp_eventCategory":"consent",
+      "vtp_eventCategory":"cookieConsent",
       "vtp_trackType":"TRACK_EVENT",
       "vtp_gaSettings":["macro",111],
       "vtp_eventAction":"consentRejected",
@@ -1064,10 +1062,11 @@ data = {
     },{
       "function":"__ua",
       "metadata":["map"],
+      "consent":["list"],
       "once_per_event":true,
-      "vtp_nonInteraction":false,
+      "vtp_nonInteraction":true,
       "vtp_overrideGaSettings":false,
-      "vtp_eventCategory":"consent",
+      "vtp_eventCategory":"cookieConsent",
       "vtp_trackType":"TRACK_EVENT",
       "vtp_gaSettings":["macro",111],
       "vtp_eventAction":"consentMoreInfo",
@@ -1079,21 +1078,39 @@ data = {
       "vtp_trackTypeIsEvent":true,
       "tag_id":1370
     },{
+      "function":"__ua",
+      "metadata":["map"],
+      "consent":["list"],
+      "once_per_event":true,
+      "vtp_nonInteraction":true,
+      "vtp_overrideGaSettings":false,
+      "vtp_eventCategory":"cookieConsent",
+      "vtp_trackType":"TRACK_EVENT",
+      "vtp_gaSettings":["macro",111],
+      "vtp_eventAction":"consentSeen_bottomStripeSmall",
+      "vtp_enableRecaptchaOption":false,
+      "vtp_enableTransportUrl":true,
+      "vtp_enableUaRlsa":false,
+      "vtp_enableUseInternalVersion":false,
+      "vtp_enableFirebaseCampaignData":true,
+      "vtp_trackTypeIsEvent":true,
+      "tag_id":1378
+    },{
       "function":"__zone",
       "once_per_event":true,
       "vtp_childContainers":["list",["map","publicId","GTM-M6TP8B3","nickname","ZONE _ Seller area"]],
       "vtp_boundaries":["list",["zb","_sw",["macro",43],"\/seller\/",false,false]],
       "vtp_enableTypeRestrictions":false,
-      "tag_id":1374
+      "tag_id":1379
     },{
       "function":"__cl",
-      "tag_id":1375
+      "tag_id":1380
     },{
       "function":"__cl",
-      "tag_id":1376
+      "tag_id":1381
     },{
       "function":"__jel",
-      "tag_id":1377
+      "tag_id":1382
     },{
       "function":"__ytl",
       "vtp_captureComplete":false,
@@ -1104,7 +1121,7 @@ data = {
       "vtp_captureProgress":false,
       "vtp_uniqueTriggerId":"6178770_643",
       "vtp_enableTriggerStartOption":true,
-      "tag_id":1378
+      "tag_id":1383
     },{
       "function":"__ytl",
       "vtp_progressThresholdsPercent":"25, 50, 75, 100",
@@ -1117,13 +1134,13 @@ data = {
       "vtp_captureProgress":true,
       "vtp_uniqueTriggerId":"6178770_646",
       "vtp_enableTriggerStartOption":true,
-      "tag_id":1379
+      "tag_id":1384
     },{
       "function":"__cl",
-      "tag_id":1380
+      "tag_id":1385
     },{
       "function":"__hl",
-      "tag_id":1381
+      "tag_id":1386
     },{
       "function":"__evl",
       "vtp_elementId":"medalliaEmbeddedTop",
@@ -1134,7 +1151,7 @@ data = {
       "vtp_onScreenRatio":"50",
       "vtp_onScreenDuration":"2000",
       "vtp_uniqueTriggerId":"6178770_1285",
-      "tag_id":1382
+      "tag_id":1387
     },{
       "function":"__evl",
       "vtp_elementId":"medalliaEmbeddedBottom",
@@ -1145,21 +1162,21 @@ data = {
       "vtp_onScreenRatio":"50",
       "vtp_onScreenDuration":"2000",
       "vtp_uniqueTriggerId":"6178770_1286",
-      "tag_id":1383
+      "tag_id":1388
     },{
       "function":"__lcl",
       "vtp_waitForTags":false,
       "vtp_checkValidation":false,
       "vtp_waitForTagsTimeout":"2000",
       "vtp_uniqueTriggerId":"6178770_1367",
-      "tag_id":1384
+      "tag_id":1389
     },{
       "function":"__lcl",
       "vtp_waitForTags":false,
       "vtp_checkValidation":false,
       "vtp_waitForTagsTimeout":"2000",
       "vtp_uniqueTriggerId":"6178770_1369",
-      "tag_id":1385
+      "tag_id":1390
     },{
       "function":"__html",
       "metadata":["map"],
@@ -1208,7 +1225,6 @@ data = {
     },{
       "function":"__html",
       "metadata":["map"],
-      "consent":["list"],
       "once_per_event":true,
       "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\" id=\"gtmctagid_CS_pageview\"\u003E(function(){try{window._uxa=window._uxa||[];window._uxa.push([\"setPath\",window.location.pathname+window.location.hash.replace(\"#\",\"?__\")]);\"undefined\"!==typeof dataLayer\u0026\u0026(void 0!==",["escape",["macro",136],8,16],"\u0026\u0026window._uxa.push([\"setCustomVariable\",3,\"product_brand\",",["escape",["macro",136],8,16],",3]),void 0!==",["escape",["macro",32],8,16],"\u0026\u0026window._uxa.push([\"setCustomVariable\",5,\"view_type\",",["escape",["macro",32],8,16],",3]),void 0!==",["escape",["macro",44],8,16],"\u0026\u0026window._uxa.push([\"setCustomVariable\",6,\"virt_path\",",["escape",["macro",44],8,16],",\n3]),void 0!==",["escape",["macro",137],8,16],"\u0026\u0026window._uxa.push([\"setCustomVariable\",9,\"product_category\",String(",["escape",["macro",137],8,16],"),3]),void 0!==",["escape",["macro",38],8,16],"\u0026\u0026window._uxa.push([\"setCustomVariable\",10,\"search_term\",",["escape",["macro",38],8,16],",3]),void 0!==",["escape",["macro",71],8,16],"\u0026\u0026window._uxa.push([\"setCustomVariable\",12,\"market_name\",",["escape",["macro",71],8,16],",3]),void 0!==",["escape",["macro",59],8,16],"\u0026\u0026window._uxa.push([\"setCustomVariable\",15,\"search results\",String(",["escape",["macro",59],8,16],"),3]),void 0!==",["escape",["macro",82],8,16],"\u0026\u0026\nwindow._uxa.push([\"setCustomVariable\",16,\"logged_in_status\",String(",["escape",["macro",82],8,16],"),3]),\"null\"!==",["escape",["macro",138],8,16],"\u0026\u0026window._uxa.push([\"setCustomVariable\",18,\"js_isAdvisorPage\",",["escape",["macro",138],8,16],",3]),void 0!==",["escape",["macro",72],8,16],"\u0026\u0026window._uxa.push([\"setCustomVariable\",19,\"user.seller_id\",",["escape",["macro",72],8,16],",3]),void 0!==",["escape",["macro",80],8,16],"\u0026\u0026window._uxa.push([\"setCustomVariable\",20,\"product.seller_type\",",["escape",["macro",80],8,16],",3]),",["escape",["macro",139],8,16],"\u0026\u0026window._uxa.push([\"trackDynamicVariable\",\n{key:\"backend_abtest\",value:",["escape",["macro",139],8,16],"}]),void 0!==",["escape",["macro",91],8,16],"\u0026\u0026window._uxa.push([\"trackDynamicVariable\",{key:\"client_abtest\",value:",["escape",["macro",91],8,16],"}]));if(\"undefined\"===typeof CS_CONF){var a=document.createElement(\"script\");a.type=\"text\/javascript\";a.async=!0;a.src=\"\/\/t.contentsquare.net\/uxa\/8fb48415ac213.js\";document.getElementsByTagName(\"head\")[0].appendChild(a)}else window._uxa.push([\"trackPageview\",window.location.pathname+window.location.hash.replace(\"#\",\"?__\")]);\n\"1\"!=",["escape",["macro",140],8,16],"\u0026\u0026(window._uxa.push([\"getSessionKey\",{callback:function(b){dataLayer.push({event:\"GAevent\",eventCategory:\"csSessionKey\",eventAction:b,eventLabel:void 0,eventValue:void 0})}}]),sessionStorage.setItem(\"cs_s\",\"1\"))}catch(b){a=\"undefined\"===typeof b||\"undefined\"===typeof b.message?\"Unknown error\":b.message,dataLayer.push({event:\"GAevent\",eventCategory:\"JavaScript Error\",eventAction:\"CS_PageView \"+a})}})();\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
@@ -1218,7 +1234,6 @@ data = {
     },{
       "function":"__html",
       "metadata":["map"],
-      "consent":["list"],
       "once_per_event":true,
       "vtp_html":"\u003Cscript type=\"text\/gtmscript\" id=\"gtmctagid_cleanup\"\u003Etry{var q_gtm;q_gtm=document.querySelectorAll(\"[id^\\x3dgtmctagid_]\");for(var i=q_gtm.length;0\u003Ci;i--)void 0!=q_gtm[i]\u0026\u0026q_gtm[i].parentNode.removeChild(q_gtm[i])}catch(a){var errMsg=\"undefined\"===typeof error||\"undefined\"===typeof error.message?\"Unknown error\":error.message;dataLayer.push({event:\"GAevent\",eventCategory:\"JavaScript Error\",eventAction:\"customCleanUp \"+errMsg})};\u003C\/script\u003E\n",
       "vtp_supportDocumentWrite":false,
@@ -1237,7 +1252,6 @@ data = {
     },{
       "function":"__html",
       "metadata":["map"],
-      "consent":["list"],
       "once_per_event":true,
       "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003E(function(){try{if(\"onlineshop\"==",["escape",["macro",5],8,16],"\u0026\u0026\"Search\"==",["escape",["macro",32],8,16],"){for(var c=20,d=[],b=0;b\u003C",["escape",["macro",13],8,16],".length;b++){var a=",["escape",["macro",13],8,16],"[b],f=\"undefined\"!==typeof a.offers\u0026\u0026\"undefined\"!==typeof a.offers[0]\u0026\u0026\"undefined\"!==typeof a.offers[0].price?a.offers[0].price:a.price;d.push({id:a.id,name:a.name,position:a.position,category:a.category,brand:a.brand,list:a.list,price:f})}for(b=0;b*c\u003Cd.length;b++){var g=d.slice(b*c,(b+1)*c);dataLayer.push({event:\"listView\",channel:\"onlineshop\",\ncurrencyCode:\"EUR\",impressions:g});(b+1)*c\u003Cd.length\u0026\u0026dataLayer.push({impressions:void 0})}}}catch(e){c=\"undefined\"===typeof e||\"undefined\"===typeof e.message?\"Unknown error\":e.message,dataLayer.push({event:\"GAevent\",eventCategory:\"JavaScript Error\",eventAction:\"GaSearchResultList_OS \"+c})}})();\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
@@ -1343,7 +1357,6 @@ data = {
     },{
       "function":"__html",
       "metadata":["map"],
-      "consent":["list"],
       "once_per_event":true,
       "vtp_html":"\u003Cscript type=\"text\/gtmscript\"\u003Etry{0===window.location.href.indexOf(\"https:\/\/www.real.de\")\u0026\u0026\"undefined\"!==typeof window.screen\u0026\u0026\"undefined\"!==typeof window.screen.width\u0026\u0026(document.cookie=\"real_screenWidthInPxs\\x3d\"+parseInt(screen.width)+\";path\\x3d\/;Secure;SameSite\\x3dLax;domain\\x3d.real.de\")}catch(a){var errMsg=\"undefined\"===typeof a||\"undefined\"===typeof a.message?\"Unknown error\":a.message;dataLayer.push({event:\"GAevent\",eventCategory:\"JavaScript Error\",eventAction:\"tmpCookieScreenWidth \"+errMsg})};\u003C\/script\u003E",
       "vtp_supportDocumentWrite":false,
@@ -1362,7 +1375,6 @@ data = {
     },{
       "function":"__html",
       "metadata":["map"],
-      "consent":["list"],
       "once_per_event":true,
       "vtp_html":"\u003Cscript\u003Etry{if(!window.medalliaScriptTag\u0026\u0026(\"\/\"!==window.location.pathname||\"undefined\"===typeof window.__NUXT__)){var medalliaScript=document.createElement(\"script\");medalliaScript.src=\"https:\/\/resources.digital-cloud.medallia.eu\/wdceu\/39035\/onsite\/embed.js\";medalliaScript.id=\"medalliaScriptTag\";medalliaScript.setAttribute(\"async\",\"true\");document.head.appendChild(medalliaScript)}}catch(a){var errMsg=\"undefined\"===typeof a||\"undefined\"===typeof a.message?\"Unknown error\":a.message;dataLayer.push({event:\"GAevent\",\neventCategory:\"JavaScript Error\",eventAction:\"MedalliaInsertion \"+errMsg})};\u003C\/script\u003E",
       "vtp_supportDocumentWrite":true,
@@ -1373,7 +1385,6 @@ data = {
     },{
       "function":"__html",
       "metadata":["map"],
-      "consent":["list"],
       "once_per_event":true,
       "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003Efunction sendErroToGa(a){try{var b=\"undefined\"===typeof a||\"undefined\"===typeof a.message?\"Unknown error\":a.message;dataLayer.push({event:\"GAevent\",eventCategory:\"JavaScript Error\",eventAction:\"tmpInspireTrackBannerClicks \"+b});debug(a)}catch(d){}}function debug(a){}\nfunction checkForOptimizely(){try{if(\"undefined\"!==typeof optimizelyDatafile\u0026\u0026\"undefined\"!==typeof optimizelySdk)return debug(\"opt JS found\"),!0;if(200\u003Cwindow.tmp_inspire_countOptimizelyCheck)return debug(\"opt JS timed out\"),!1;debug(\"opt JS waiting\");return++window.tmp_inspire_countOptimizelyCheck}catch(a){sendErroToGa(a)}}\nfunction getBannerType_oldHP(a){try{return\"homepage_top_campaign_banner_small\"===a?\"campaign_teaser_aktuelle_rabatte_click\":\"homepage_brochure\"===a?\"campaign_teaser_prospektangebote_click\":\"homepage_top_campaign_banner\"===a?\"homepage_top_campaign_banner_click\":0===a.indexOf(\"homepage_campaign_teaser_\")?\"campaign_teaser_promotion_slider_aktuelle_themen_click\":!1}catch(b){sendErroToGa(b)}}\nfunction getBannerType_newHP(a){try{return\"homepage_sales_teaser_1\"===a?\"campaign_teaser_aktuelle_rabatte_click\":\"homepage_sales_teaser_2\"===a?\"campaign_teaser_prospektangebote_click\":\"homepage_teaser_1\"===a?\"homepage_top_campaign_banner_click\":\/homepage_teaser_(2|3|4)\/.test(a)?\"campaign_teaser_promotion_slider_aktuelle_themen_click\":!1}catch(b){sendErroToGa(b)}}\nfunction main(a,b){try{var d=checkForOptimizely(),f={environment:",["escape",["macro",151],8,16],",device_type:",["escape",["macro",152],8,16],",browser_name:",["escape",["macro",153],8,16],"};debug(f);if(!0===d||window.tmp_inspire_optInstance){if(window.tmp_inspire_optInstance=window.tmp_inspire_optInstance||optimizelySdk.createInstance({datafile:optimizelyDatafile}),debug(a),debug(b),\"undefined\"!==typeof b\u0026\u0026\"undefined\"!==typeof b[0]\u0026\u0026\"string\"===typeof b[0].page_position\u0026\u0026\"string\"===typeof b[0].name){var e=b[0].page_position;if(\/^homepage_(sales_)?teaser_\\d\/.test(e)){debug(\"newHP\");\nvar c=getBannerType_newHP(e)}else debug(\"oldHP\"),c=getBannerType_oldHP(e);c\u0026\u0026(debug(\"looking to track \"+c),tmp_inspire_optInstance.track(c,",["escape",["macro",98],8,16],",f))}}else if(!1!==d)return debug(\"optimizely JS polling \"+window.tmp_inspire_countOptimizelyCheck),window.setTimeout(main.bind(null,a,b),100)}catch(g){sendErroToGa(g)}}window.tmp_inspire_countOptimizelyCheck=0;main(",["escape",["macro",10],8,16],",",["escape",["macro",33],8,16],");\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
@@ -1383,7 +1394,6 @@ data = {
     },{
       "function":"__html",
       "metadata":["map"],
-      "consent":["list"],
       "once_per_event":true,
       "vtp_html":"\u003Cscript type=\"text\/gtmscript\"\u003Etry{var matchSearch=window.location.search.match(\/[?\u0026]forceMedalliaVar=([^\u0026]+).*$\/);if(matchSearch){window.medalliaTrial_ABCDE_experiment=window.medalliaTrial_ABCDE_experiment||decodeURIComponent(matchSearch[1]);for(var pageTypes=[{rx:\/^\\\/$\/,name:\"homePage\"},{rx:\/^\\\/product\\\/\\d+\/,name:\"pdp\"},{rx:\/^\\\/beratung.*\/,name:\"seo\"},{rx:\/^\\\/item\\\/search\\\/?$\/,name:\"serp\"},{rx:\/.*\/,name:\"catLeaf\"}],i=0;i\u003CpageTypes.length;i++)if(pageTypes[i].rx.test(window.location.pathname)){window.medallia_pageType=pageTypes[i].name;\nbreak}}}catch(a){var errMsg=\"undefined\"===typeof a||\"undefined\"===typeof a.message?\"Unknown error\":a.message;dataLayer.push({event:\"GAevent\",eventCategory:\"JavaScript Error\",eventAction:\"forceMedalliaByUrl \"+errMsg})};\u003C\/script\u003E",
       "vtp_supportDocumentWrite":false,
@@ -1393,7 +1403,6 @@ data = {
     },{
       "function":"__html",
       "metadata":["map"],
-      "consent":["list"],
       "once_per_event":true,
       "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003Etry{150!==",["escape",["macro",131],8,16],"\u0026\u00260!==",["escape",["macro",131],8,16],"\u0026\u0026dataLayer.push({event:\"medalliaEmbeddedTopDivHeight\"})}catch(a){var errMsg=\"undefined\"===typeof a||\"undefined\"===typeof a.message?\"Unknown error\":a.message;dataLayer.push({event:\"GAevent\",eventCategory:\"JavaScript Error\",eventAction:\"medalliaBugTracking_EmbTopHeight \"+errMsg})};\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
@@ -1403,7 +1412,6 @@ data = {
     },{
       "function":"__html",
       "metadata":["map"],
-      "consent":["list"],
       "once_per_event":true,
       "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003Etry{150!==",["escape",["macro",132],8,16],"\u0026\u00260!==",["escape",["macro",132],8,16],"\u0026\u0026dataLayer.push({event:\"medalliaEmbeddedBottomDivHeight\"})}catch(a){var errMsg=\"undefined\"===typeof a||\"undefined\"===typeof a.message?\"Unknown error\":a.message;dataLayer.push({event:\"GAevent\",eventCategory:\"JavaScript Error\",eventAction:\"medalliaBugTracking_EmbBotHeight \"+errMsg})};\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
@@ -1413,7 +1421,6 @@ data = {
     },{
       "function":"__html",
       "metadata":["map"],
-      "consent":["list"],
       "once_per_event":true,
       "vtp_html":"\u003Cscript type=\"text\/gtmscript\"\u003E(function(){try{var h=\"medallia_bug\",d=2E3,e=1,b=1,f=(new Date).getTime(),c=function(){var a=(new Date).getTime();window.dataLayer.push({event:h,\"custom.timerCurrentTime\":a,\"custom.timerElapsedTime\":a-f,\"custom.timerStartTime\":f,\"custom.timerEventNumber\":b,\"custom.timerId\":g,\"custom.timerInterval\":d,\"custom.timerLimit\":e});b+=1;e\u003Cb\u0026\u0026window.clearInterval(g)},g=window.setInterval(c,d)}catch(a){c=\"undefined\"===typeof a||\"undefined\"===typeof a.message?\"Unknown error\":a.message,dataLayer.push({event:\"GAevent\",\neventCategory:\"JavaScript Error\",eventAction:\"medalliaBugTimer \"+c})}})();\u003C\/script\u003E",
       "vtp_supportDocumentWrite":false,
@@ -1423,23 +1430,12 @@ data = {
     },{
       "function":"__html",
       "metadata":["map"],
-      "consent":["list"],
       "once_per_event":true,
       "vtp_html":"\u003Cscript type=\"text\/gtmscript\"\u003Efunction sendErrorToGa(a){a=\"undefined\"===typeof a||\"undefined\"===typeof a.message?\"Unknown error\":a.message;dataLayer.push({event:\"GAevent\",eventCategory:\"JavaScript Error\",eventAction:\"MedalliaActivateAbcdeTestConditionally \"+a})}function debugMedll(a){var b=-1!==document.cookie.indexOf(\"medalliaDebug\");b\u0026\u0026console.log(a)}\nfunction checkPageConditions(){try{for(var a=[{rx:\/^\\\/$\/,name:\"homePage\"},{rx:\/^\\\/product\\\/\\d+\/,name:\"pdp\"},{rx:\/^\\\/beratung.*\/,name:\"seo\"},{rx:\/^\\\/item\\\/search\\\/?$\/,name:\"serp\"},{rx:\/^\\\/cart\\\/checkout\\\/thankyou\\\/?$\/,name:\"checkoutThankyou\"}],b=0;b\u003Ca.length;b++)if(a[b].rx.test(window.location.pathname))return a[b].name;return!1}catch(d){sendErrorToGa(d)}}\nfunction pushActivation(a){window.medallia_pageType=a;debugMedll(\"activating with pageType: \"+a);window.dataLayer=window.dataLayer||[];window.dataLayer.push({event:\"optimize.activate_medalliaPilot_conditional\"})}\ntry{pollForMedalliaActivationConditions=window.setInterval(function(){try{var a=[{Category:\"catLeaf\"}],b=checkPageConditions();if(b)return debugMedll(\"url in Medallia scope - pushing activator\"),clearInterval(pollForMedalliaActivationConditions),pushActivation(b),!1;if(\"undefined\"===typeof dataLayer)return debugMedll(\"dl undef\"),!1;debugMedll(\"checking dataLayer\");for(var d=0;d\u003CdataLayer.length;d++){var c=dataLayer[d],g=\"undefined\"!==typeof c.event?c.event:!1;if(\"pageView\"===g\u0026\u0026\"undefined\"!==typeof c.view\u0026\u0026\n\"undefined\"!==typeof c.view.view_type){clearInterval(pollForMedalliaActivationConditions);debugMedll(\"view type \"+c.view.view_type);var f=!1;b=\"\";for(var e=0;e\u003Ca.length;e++){if(a[e].hasOwnProperty([c.view.view_type])){f=!0;b=a[e][c.view.view_type];break}debugMedll(\"foundPageType: \"+b)}if(f)return debugMedll(\"activating on view type \"+c.view.view_type),pushActivation(b),!0;debugMedll(\"not activating view type \"+c.view.view_type)}}}catch(h){sendErrorToGa(h)}},100)}catch(a){sendErrorToGa(a)};\u003C\/script\u003E",
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
       "tag_id":1331
-    },{
-      "function":"__html",
-      "metadata":["map"],
-      "consent":["list"],
-      "once_per_event":true,
-      "vtp_html":"\u003Cscript type=\"text\/gtmscript\"\u003Etry{for(var decodedCookie=decodeURIComponent(document.cookie),ca=decodedCookie.split(\";\"),i=0;i\u003Cca.length;i++){var ck=ca[i].trim();if(0===ck.indexOf(\"AB-optimizely\")){var key=ck.match(\/([^=]+).*\/);document.cookie=key+\"\\x3d; expires\\x3dThu, 01 Jan 1970 00:00:00 UTC; path\\x3d\/; domain\\x3dwww.real.de\"}}}catch(a){var errMsg=\"undefined\"===typeof a||\"undefined\"===typeof a.message?\"Unknown error\":a.message;dataLayer.push({event:\"GAevent\",eventCategory:\"JavaScript Error\",eventAction:\"tmp_cookieCheckoutVision \"+\nerrMsg})};\u003C\/script\u003E",
-      "vtp_supportDocumentWrite":false,
-      "vtp_enableIframeMode":false,
-      "vtp_enableEditJsMacroBehavior":false,
-      "tag_id":1348
     },{
       "function":"__html",
       "metadata":["map"],
@@ -1462,7 +1458,6 @@ data = {
     },{
       "function":"__html",
       "metadata":["map"],
-      "consent":["list"],
       "once_per_event":true,
       "vtp_html":"\u003Cscript type=\"text\/gtmscript\" id=\"gtmctagid_fb\"\u003E(function(){\"undefined\"===typeof fbq\u0026\u0026(!function(b,e,f,g,a,c,d){b.fbq||(a=b.fbq=function(){a.callMethod?a.callMethod.apply(a,arguments):a.queue.push(arguments)},b._fbq||(b._fbq=a),a.push=a,a.loaded=!0,a.version=\"2.0\",a.queue=[],c=e.createElement(f),c.async=!0,c.src=g,d=e.getElementsByTagName(f)[0],d.parentNode.insertBefore(c,d))}(window,document,\"script\",\"https:\/\/connect.facebook.net\/en_US\/fbevents.js\"),fbq(\"init\",\"373612823634808\"))})();\u003C\/script\u003E",
       "vtp_supportDocumentWrite":false,
@@ -1732,15 +1727,15 @@ data = {
       "arg1":"Form_Page_Displayed"
     }],
   "rules":[
-    [["if",0],["add",1,2,8,34,41,49]],
-    [["if",1],["add",2,47]],
+    [["if",0],["add",1,2,8,35,42,50]],
+    [["if",1],["add",2,48]],
     [["if",2],["add",2]],
-    [["if",3],["add",2,4,9,10,13,48,57]],
-    [["if",4],["add",2,9,48,19]],
+    [["if",3],["add",2,4,9,10,13,49,58]],
+    [["if",4],["add",2,9,49,19]],
     [["if",7],["add",3]],
     [["if",8,9,10,11],["add",3]],
-    [["if",15,16],["add",4,39]],
-    [["if",0,17],["add",5,37,51]],
+    [["if",15,16],["add",4,40]],
+    [["if",0,17],["add",5,38,52]],
     [["if",18],["add",6]],
     [["if",4,19],["add",7]],
     [["if",3,20],["add",7]],
@@ -1754,34 +1749,34 @@ data = {
     [["if",30],["add",18]],
     [["if",31,32,33],["add",20]],
     [["if",32,34,35,36],["add",21]],
-    [["if",37],["add",22,23,24,25,28,29,30,31,32,33,61,0]],
-    [["if",38],["add",26,27,39,63,55]],
-    [["if",40,41],["add",35]],
-    [["if",41,42],["add",36]],
-    [["if",3,17],["add",37,50,53,62]],
-    [["if",43,44],["add",37]],
-    [["if",0,43],["add",37]],
-    [["if",3,45],["add",38]],
-    [["if",3,46],["add",39]],
-    [["if",47,48],["add",39]],
-    [["if",3,49],["unless",50],["add",39]],
-    [["if",3,53],["add",40]],
-    [["if",3],["unless",54],["add",41]],
-    [["if",3,17,55],["add",42]],
-    [["if",0,17,56],["add",43]],
-    [["if",3,17,57,58],["add",44]],
-    [["if",41,59],["add",45]],
-    [["if",38,53],["unless",60],["add",46]],
-    [["if",4,17],["add",50]],
-    [["if",1,10],["add",52]],
-    [["if",13,14],["unless",12],["add",54]],
-    [["if",61,62],["add",56]],
-    [["if",63],["add",58,59]],
-    [["if",24,64],["add",60]],
-    [["if",6],["unless",5],["block",2,7,9,47,48,49,50,51,52]],
+    [["if",37],["add",22,62,0,23,24,25,26,29,30,31,32,33,34]],
+    [["if",38],["add",27,28,40,63,56]],
+    [["if",40,41],["add",36]],
+    [["if",41,42],["add",37]],
+    [["if",3,17],["add",38,51,54]],
+    [["if",43,44],["add",38]],
+    [["if",0,43],["add",38]],
+    [["if",3,45],["add",39]],
+    [["if",3,46],["add",40]],
+    [["if",47,48],["add",40]],
+    [["if",3,49],["unless",50],["add",40]],
+    [["if",3,53],["add",41]],
+    [["if",3],["unless",54],["add",42]],
+    [["if",3,17,55],["add",43]],
+    [["if",0,17,56],["add",44]],
+    [["if",3,17,57,58],["add",45]],
+    [["if",41,59],["add",46]],
+    [["if",38,53],["unless",60],["add",47]],
+    [["if",4,17],["add",51]],
+    [["if",1,10],["add",53]],
+    [["if",13,14],["unless",12],["add",55]],
+    [["if",61,62],["add",57]],
+    [["if",63],["add",59,60]],
+    [["if",24,64],["add",61]],
+    [["if",6],["unless",5],["block",2,7,9,48,49,50,51,52,53]],
     [["if",12,13,14],["block",3]],
-    [["if",6,39],["block",34,35,36,39,54]],
-    [["if",38,51],["block",39]],
-    [["if",38,52],["block",39]],
-    [["if",38,50],["block",39]]]
+    [["if",6,39],["block",35,36,37,40,55]],
+    [["if",38,51],["block",40,63]],
+    [["if",38,52],["block",40]],
+    [["if",38,50],["block",40]]]
 }
