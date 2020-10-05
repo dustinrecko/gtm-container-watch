@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"268",
+  "version":"271",
   
   "macros":[{
       "function":"__e"
@@ -396,7 +396,7 @@ data = {
       "vtp_enableCrossDomainFeature":true,
       "vtp_enableCookieUpdateFeature":false,
       "vtp_enableCookieFlagsFeature":false,
-      "vtp_enableUrlPassthroughFeature":false,
+      "vtp_enableUrlPassthroughFeature":true,
       "tag_id":235
     },{
       "function":"__ua",
@@ -635,11 +635,13 @@ data = {
     },{
       "function":"__html",
       "metadata":["map"],
-      "once_per_event":true,
-      "vtp_html":"\u003Cdiv class=\"manual-optin-trigger\" data-optin-slug=\"p903punokzwfiqy7icc0\" style=\"display: none;\"\u003E\u003C\/div\u003E\n\u003Cscript type=\"text\/gtmscript\"\u003Edocument.querySelector(\"[data-optin-slug\\x3dp903punokzwfiqy7icc0]\").click();\u003C\/script\u003E",
-      "vtp_supportDocumentWrite":false,
+      "consent":["list"],
+      "once_per_load":true,
+      "vtp_html":"\u003Cdiv class=\"manual-optin-trigger\" data-optin-slug=\"p903punokzwfiqy7icc0\" style=\"display: none;\"\u003E\u003C\/div\u003E\n\u003Cscript\u003Edocument.querySelector(\"[data-optin-slug\\x3dp903punokzwfiqy7icc0]\").click();\u003C\/script\u003E",
+      "vtp_supportDocumentWrite":true,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
+      "vtp_usePostscribe":true,
       "tag_id":296
     },{
       "function":"__opt",
@@ -781,11 +783,7 @@ data = {
     },{
       "function":"_cn",
       "arg0":["macro",38],
-      "arg1":"Offer: GTM BTB \u003E MM"
-    },{
-      "function":"_eq",
-      "arg0":["macro",0],
-      "arg1":"ac User - has tag GTM BTB \u003E MM"
+      "arg1":"GTM BTB \u003E MM Banner"
     }],
   "rules":[
     [["if",0],["add",2,8,12,19,0,26,35,17]],
@@ -812,5 +810,5 @@ data = {
     [["if",0,28,29],["add",33]],
     [["if",0,30],["unless",31],["add",34]],
     [["if",12,22,24],["add",36]],
-    [["if",32,33],["add",37]]]
+    [["if",24,32],["add",37]]]
 }
