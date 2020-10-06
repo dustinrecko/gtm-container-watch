@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"271",
+  "version":"272",
   
   "macros":[{
       "function":"__e"
@@ -183,7 +183,7 @@ data = {
       "function":"__v",
       "vtp_dataLayerVersion":2,
       "vtp_setDefaultValue":false,
-      "vtp_name":"tag"
+      "vtp_name":"tags"
     },{
       "function":"__e"
     },{
@@ -784,6 +784,14 @@ data = {
       "function":"_cn",
       "arg0":["macro",38],
       "arg1":"GTM BTB \u003E MM Banner"
+    },{
+      "function":"_cn",
+      "arg0":["macro",27],
+      "arg1":"https:\/\/measureschool.com\/products\/measuremasters-btb-offer\/"
+    },{
+      "function":"_eq",
+      "arg0":["macro",0],
+      "arg1":"gtm.load"
     }],
   "rules":[
     [["if",0],["add",2,8,12,19,0,26,35,17]],
@@ -810,5 +818,5 @@ data = {
     [["if",0,28,29],["add",33]],
     [["if",0,30],["unless",31],["add",34]],
     [["if",12,22,24],["add",36]],
-    [["if",24,32],["add",37]]]
+    [["if",32,33,34],["add",37]]]
 }
