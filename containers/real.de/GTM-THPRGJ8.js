@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"671",
+  "version":"672",
   
   "macros":[{
       "function":"__e"
@@ -549,31 +549,11 @@ data = {
       "function":"__v",
       "vtp_dataLayerVersion":2,
       "vtp_setDefaultValue":false,
-      "vtp_name":"gaEventValue"
-    },{
-      "function":"__v",
-      "vtp_dataLayerVersion":2,
-      "vtp_setDefaultValue":false,
-      "vtp_name":"gaEventLabel"
-    },{
-      "function":"__v",
-      "vtp_name":"gtm.visibleRatio",
-      "vtp_dataLayerVersion":1
+      "vtp_name":"isInCookieAbTest"
     },{
       "function":"__v",
       "vtp_name":"gtm.elementId",
       "vtp_dataLayerVersion":1
-    },{
-      "function":"__jsm",
-      "vtp_javascript":["template","(function(){return document.getElementById(\"medalliaEmbeddedTop\").clientHeight})();"]
-    },{
-      "function":"__jsm",
-      "vtp_javascript":["template","(function(){return document.getElementById(\"medalliaEmbeddedBottom\").clientHeight})();"]
-    },{
-      "function":"__v",
-      "vtp_dataLayerVersion":2,
-      "vtp_setDefaultValue":false,
-      "vtp_name":"isInCookieAbTest"
     },{
       "function":"__v",
       "vtp_name":"gtm.elementClasses",
@@ -633,13 +613,13 @@ data = {
       "vtp_name":"user"
     },{
       "function":"__jsm",
-      "vtp_javascript":["template","(function(){if(\"undefined\"!=",["escape",["macro",47],8,16],")return null!=",["escape",["macro",147],8,16],".services.find(\"newsletter\")})();"]
+      "vtp_javascript":["template","(function(){if(\"undefined\"!=",["escape",["macro",47],8,16],")return null!=",["escape",["macro",142],8,16],".services.find(\"newsletter\")})();"]
     },{
       "function":"__jsm",
-      "vtp_javascript":["template","(function(){return null!=",["escape",["macro",147],8,16],".services.match(\"payback\")})();"]
+      "vtp_javascript":["template","(function(){return null!=",["escape",["macro",142],8,16],".services.match(\"payback\")})();"]
     },{
       "function":"__jsm",
-      "vtp_javascript":["template","(function(){var a={shop:",["escape",["macro",5],8,16],"};if(\"Item\"==",["escape",["macro",32],8,16],"){try{a.brand=",["escape",["macro",15],8,16],".brand}catch(b){a.brand=\"noname\"}try{a.category=",["escape",["macro",15],8,16],".category.join(\" \/ \")+\"$\"}catch(b){}}else if(\"Category\"==",["escape",["macro",32],8,16],")try{a.category=",["escape",["macro",11],8,16],".path.join(\" \/ \")+\"$\"}catch(b){}else if(\"Brand\"==",["escape",["macro",32],8,16],")try{a.brand=",["escape",["macro",44],8,16],".replace(\"\/onlineshop\/marken\/\",\"\")}catch(b){a.brand=\"noname\"}a.user_is_newsletter=",["escape",["macro",148],8,16],";\na.user_is_seller=",["escape",["macro",73],8,16],";a.user_is_payback=",["escape",["macro",149],8,16],";a.market_name=",["escape",["macro",71],8,16],";return a})();"]
+      "vtp_javascript":["template","(function(){var a={shop:",["escape",["macro",5],8,16],"};if(\"Item\"==",["escape",["macro",32],8,16],"){try{a.brand=",["escape",["macro",15],8,16],".brand}catch(b){a.brand=\"noname\"}try{a.category=",["escape",["macro",15],8,16],".category.join(\" \/ \")+\"$\"}catch(b){}}else if(\"Category\"==",["escape",["macro",32],8,16],")try{a.category=",["escape",["macro",11],8,16],".path.join(\" \/ \")+\"$\"}catch(b){}else if(\"Brand\"==",["escape",["macro",32],8,16],")try{a.brand=",["escape",["macro",44],8,16],".replace(\"\/onlineshop\/marken\/\",\"\")}catch(b){a.brand=\"noname\"}a.user_is_newsletter=",["escape",["macro",143],8,16],";\na.user_is_seller=",["escape",["macro",73],8,16],";a.user_is_payback=",["escape",["macro",144],8,16],";a.market_name=",["escape",["macro",71],8,16],";return a})();"]
     },{
       "function":"__jsm",
       "vtp_javascript":["template","(function(){var d=[],b=[];if(\"Sale\"==",["escape",["macro",10],8,16],")b=",["escape",["macro",1],8,16],".cart;else{var a=",["escape",["macro",15],8,16],";b.push(a)}for(a=0;a\u003Cb.length;a++)for(var c=0;c\u003Cb[a].offers.length;c++)d.push({id:b[a].id,price:b[a].offers[c].price,quantity:b[a].offers[c].amount});return d})();"]
@@ -717,6 +697,22 @@ data = {
       "function":"__jsm",
       "vtp_javascript":["template","(function(){if(\"\/onlineshop\/seller\/signup-marketplace\/\"==",["escape",["macro",44],8,16],"){if(document.location.href.endsWith(\"\/#\/\"))return ",["escape",["macro",44],8,16],";var a=document.location.href.split(\"real.de\");return\"\/onlineshop\"+a[a.length-1]}})();"]
     },{
+      "function":"__v",
+      "vtp_dataLayerVersion":2,
+      "vtp_setDefaultValue":false,
+      "vtp_name":"gaEventLabel"
+    },{
+      "function":"__v",
+      "vtp_dataLayerVersion":2,
+      "vtp_setDefaultValue":false,
+      "vtp_name":"gaEventValue"
+    },{
+      "function":"__jsm",
+      "vtp_javascript":["template","(function(){return document.getElementById(\"medalliaEmbeddedTop\").clientHeight})();"]
+    },{
+      "function":"__jsm",
+      "vtp_javascript":["template","(function(){return document.getElementById(\"medalliaEmbeddedBottom\").clientHeight})();"]
+    },{
       "function":"__jsm",
       "vtp_javascript":["template","(function(){return navigator.language})();"]
     },{
@@ -749,6 +745,10 @@ data = {
       "function":"__v",
       "vtp_name":"gtm.videoUrl",
       "vtp_dataLayerVersion":1
+    },{
+      "function":"__v",
+      "vtp_name":"gtm.visibleRatio",
+      "vtp_dataLayerVersion":1
     }],
   "tags":[{
       "function":"__html",
@@ -756,7 +756,7 @@ data = {
       "metadata":["map"],
       "consent":["list"],
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003Ewindow.sendGaError=window.sendGaError||function(a,b){a=\"undefined\"===typeof a||\"undefined\"===typeof a.message?\"Unknown error\":a.message;b=b?b+\": \"+a:a;dataLayer.push({event:\"GAevent\",eventCategory:\"JavaScript Error\",eventAction:b})};function debug(a){}\nfunction isWantedBot(){try{for(var a=\"^Mozilla\\\\\/5\\\\.0 \\\\(compatible; Googlebot\\\\\/2\\\\.1; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.google\\\\.com\\\\\/bot\\\\.html\\\\)${^Googlebot\\\\\/2\\\\.1 \\\\(\\\\+http\\\\:\\\\\/\\\\\/www\\\\.google\\\\.com\\\\\/bot\\\\.html\\\\)${^Mozilla\\\\\/5\\\\.0 \\\\(Linux; Android 6\\\\.0\\\\.1; Nexus 5X Build\\\\\/MMB29P\\\\) AppleWebKit\\\\\/537\\\\.36 \\\\(KHTML, like Gecko\\\\) Chrome\\\\\/41\\\\.0\\\\.2272\\\\.96 Mobile Safari\\\\\/537\\\\.36 \\\\(compatible; Googlebot\\\\\/2\\\\.1; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.google\\\\.com\\\\\/bot\\\\.html\\\\)${^SAMSUNG\\\\-SGH\\\\-E250\\\\\/1\\\\.0 Profile\\\\\/MIDP\\\\-2\\\\.0 Configuration\\\\\/CLDC\\\\-1\\\\.1 UP\\\\.Browser\\\\\/6\\\\.2\\\\.3\\\\.3\\\\.c\\\\.1\\\\.101 \\\\(GUI\\\\) MMP\\\\\/2\\\\.0 \\\\(compatible; Googlebot\\\\-Mobile\\\\\/2\\\\.1; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.google\\\\.com\\\\\/bot\\\\.html\\\\)${^Googlebot\\\\-Image\\\\\/1\\\\.0${^Googlebot\\\\-Video\\\\\/1\\\\.0${^Mediapartners\\\\-Google${^Mozilla\\\\\/5\\\\.0 \\\\(Linux; Android 5\\\\.0; SM\\\\-G920A\\\\) AppleWebKit \\\\(KHTML, like Gecko\\\\) Chrome Mobile Safari \\\\(compatible; AdsBot\\\\-Google\\\\-Mobile; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.google\\\\.com\\\\\/mobile\\\\\/adsbot\\\\.html\\\\)${^Mozilla\\\\\/5\\\\.0 \\\\(iPhone; CPU iPhone OS 9_1 like Mac OS X\\\\) AppleWebKit\\\\\/601\\\\.1\\\\.46 \\\\(KHTML, like Gecko\\\\) Version\\\\\/9\\\\.0 Mobile\\\\\/13B143 Safari\\\\\/601\\\\.1 \\\\(compatible; AdsBot\\\\-Google\\\\-Mobile; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.google\\\\.com\\\\\/mobile\\\\\/adsbot\\\\.html\\\\)${^\\\\(compatible; Mediapartners\\\\-Google\\\\\/2\\\\.1; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.google\\\\.com\\\\\/bot\\\\.html\\\\)${^AdsBot\\\\-Google \\\\(\\\\+http\\\\:\\\\\/\\\\\/www\\\\.google\\\\.com\\\\\/adsbot\\\\.html\\\\)${^AdsBot\\\\-Google\\\\-Mobile\\\\-Apps${^Mozilla\\\\\/5\\\\.0 \\\\(compatible; bingbot\\\\\/2\\\\.0; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.bing\\\\.com\\\\\/bingbot\\\\.htm\\\\)${^Mozilla\\\\\/5\\\\.0 \\\\(compatible; bingbot\\\\\/2\\\\.0 \\\\+https\\\\:\\\\\/\\\\\/www\\\\.bing\\\\.com\\\\\/bingbot\\\\.htm\\\\)${^msnbot\\\\\/2\\\\.0b \\\\(\\\\+http\\\\:\\\\\/\\\\\/search\\\\.msn\\\\.com\\\\\/msnbot\\\\.htm\\\\)${^Mozilla\\\\\/5\\\\.0 \\\\(iPhone; CPU iPhone OS 7_0 like Mac OS X\\\\) AppleWebKit\\\\\/537\\\\.51\\\\.1 \\\\(KHTML, like Gecko\\\\) Version\\\\\/7\\\\.0 Mobile\\\\\/11A465 Safari\\\\\/9537\\\\.53 \\\\(compatible; bingbot\\\\\/2\\\\.0; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.bing\\\\.com\\\\\/bingbot\\\\.htm\\\\)${^Mozilla\\\\\/5\\\\.0 \\\\(Windows Phone 8\\\\.1; ARM; Trident\\\\\/7\\\\.0; Touch; rv\\\\:11\\\\.0; IEMobile\\\\\/11\\\\.0; NOKIA; Lumia 530\\\\) like Gecko \\\\(compatible; bingbot\\\\\/2\\\\.0; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.bing\\\\.com\\\\\/bingbot\\\\.htm\\\\)${^msnbot\\\\-media\\\\\/1\\\\.1 \\\\(\\\\+http\\\\:\\\\\/\\\\\/search\\\\.msn\\\\.com\\\\\/msnbot\\\\.htm\\\\)${^Mozilla\\\\\/5\\\\.0 \\\\(compatible; adidxbot\\\\\/2\\\\.0; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.bing\\\\.com\\\\\/bingbot\\\\.htm\\\\)${^Mozilla\\\\\/5\\\\.0 \\\\(iPhone; CPU iPhone OS 7_0 like Mac OS X\\\\) AppleWebKit\\\\\/537\\\\.51\\\\.1 \\\\(KHTML, like Gecko\\\\) Version\\\\\/7\\\\.0 Mobile\\\\\/11A465 Safari\\\\\/9537\\\\.53 \\\\(compatible; adidxbot\\\\\/2\\\\.0; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.bing\\\\.com\\\\\/bingbot\\\\.htm\\\\)${^Mozilla\\\\\/5\\\\.0 \\\\(Windows Phone 8\\\\.1; ARM; Trident\\\\\/7\\\\.0; Touch; rv\\\\:11\\\\.0; IEMobile\\\\\/11\\\\.0; NOKIA; Lumia 530\\\\) like Gecko \\\\(compatible; adidxbot\\\\\/2\\\\.0; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.bing\\\\.com\\\\\/bingbot\\\\.htm\\\\)${^Mozilla\\\\\/5\\\\.0 \\\\(Windows NT 6\\\\.1; WOW64\\\\) AppleWebKit\\\\\/534\\\\+ \\\\(KHTML, like Gecko\\\\) BingPreview\\\\\/1\\\\.0b${^Mozilla\\\\\/5\\\\.0 \\\\(Windows Phone 8\\\\.1; ARM; Trident\\\\\/7\\\\.0; Touch; rv\\\\:11\\\\.0; IEMobile\\\\\/11\\\\.0; NOKIA; Lumia 530\\\\) like Gecko BingPreview\\\\\/1\\\\.0b${^Mozilla\\\\\/5\\\\.0 \\\\(compatible; MJ12bot\\\\\/v1\\\\.4\\\\.7; http\\\\:\\\\\/\\\\\/mj12bot\\\\.com\\\\\/\\\\)${^Mozilla\\\\\/5\\\\.0 \\\\(compatible; MJ12bot\\\\\/v1\\\\.4\\\\.8; http\\\\:\\\\\/\\\\\/mj12bot\\\\.com\\\\\/\\\\)${^audisto\\\\.com full crawler .* \\\\(refer to in robots\\\\.txt as audisto, see https\\\\:\\\\\/\\\\\/audisto\\\\.com\\\\\/bot\\\\)${^audisto\\\\.com essential crawler .* \\\\(refer to in robots\\\\.txt as audisto\\\\-essentials, see https\\\\:\\\\\/\\\\\/audisto\\\\.com\\\\\/bot\\\\)${^audisto\\\\.com full crawler\\\\\/phone .* \\\\(refer to in robots\\\\.txt as audisto, see https\\\\:\\\\\/\\\\\/audisto\\\\.com\\\\\/bot\\\\)${^audisto\\\\.com full crawler\\\\\/tablet .* \\\\(refer to in robots\\\\.txt as audisto, see https\\\\:\\\\\/\\\\\/audisto\\\\.com\\\\\/bot\\\\)${^Mozilla\\\\\/.* \\\\(compatible; AhrefsBot\\\\\/.*; \\\\+http\\\\:\\\\\/\\\\\/ahrefs\\\\.com\\\\\/robot\\\\\/\\\\)${^Mozilla\\\\\/5\\\\.0 \\\\(compatible; ResearchBot\\\\\/0\\\\.7\\\\)${HM_SEO_MAN{Pingdom{Datadog Agent{^Mozilla\\\\\/5\\\\.0 \\\\(Linux; Android 6\\\\.0\\\\.1; Nexus 5X Build\\\\\/MMB29P\\\\) AppleWebKit\\\\\/537\\\\.36 \\\\(KHTML, like Gecko\\\\) Chrome\\\\\/[0-9]+\\\\.[0-9]+\\\\.[0-9]+\\\\.[0-9]+ Mobile Safari\\\\\/537\\\\.36 \\\\(compatible; Googlebot\\\\\/2\\\\.1; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.google\\\\.com\\\\\/bot\\\\.html\\\\)${^Mozilla\\\\\/5\\\\.0 AppleWebKit\\\\\/537\\\\.36 \\\\(KHTML, like Gecko; compatible; Googlebot\\\\\/2\\\\.1; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.google\\\\.com\\\\\/bot\\\\.html\\\\) Chrome\\\\\/[0-9]+\\\\.[0-9]+\\\\.[0-9]+\\\\.[0-9]+ Safari\\\\\/537\\\\.36${^Mozilla\\\\\/5\\\\.0 AppleWebKit\\\\\/537\\\\.36 \\\\(KHTML, like Gecko; compatible; Googlebot\\\\\/2\\\\.1; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.google\\\\.com\\\\\/bot\\\\.html\\\\) Safari\\\\\/537\\\\.36$\".split(\"{\"),b=\n!1,c=0;c\u003Ca.length;c++){var d=new RegExp(a[c]);if(d.test(navigator.userAgent)){b=!0;break}}return b}catch(e){window.sendGaError(e)}}function saveCheckForSessionStorageAvail(){if(\"undefined\"!==typeof sessionStorage)try{if(sessionStorage.setItem(\"storage_test\",\"yes\"),\"yes\"===sessionStorage.getItem(\"storage_test\"))return sessionStorage.removeItem(\"storage_test\"),!0}catch(a){}return!1}\nfunction checkIfScreenIsReasonable(){try{return\"undefined\"!==typeof screen\u0026\u0026\"undefined\"!==typeof screen.width\u0026\u00260!==screen.width\u0026\u0026\"undefined\"!==typeof screen.height\u0026\u00260!==screen.height\u0026\u0026250\u003C=screen.width\u0026\u0026250\u003C=screen.height?!0:!1}catch(a){return sendGaError(a),!1}}\nfunction setTrackingForOriginalBanner(){try{window.dataLayer=window.dataLayer||[],dataLayer.push({event:\"GAevent\",eventCategory:\"cookieConsent\",eventAction:\"consentSeen_bottomStripeSmall_standard\",eventLabel:\"\"}),window.dataLayer=window.dataLayer||[],dataLayer.push({isInCookieAbTest:!0})}catch(a){sendGaError(a,\"setTrackingForOriginalBanner\")}}function gtag(){try{dataLayer.push(arguments)}catch(a){sendGaError(a,\"gtag\")}}function setCallbacksForVariations(a){\"0\"==a\u0026\u0026setTrackingForOriginalBanner()}\nfunction setOptimizeCallbacks(){try{gtag(\"event\",\"optimize.callback\",{name:",["escape",["macro",155],8,16],",callback:setCallbacksForVariations})}catch(a){sendGaError(a,\"setOptimizeCallbacks\")}}\ntry{-1===document.cookie.indexOf(\"real-cookie-accept\\x3d\")\u0026\u0026saveCheckForSessionStorageAvail()\u0026\u0026!isWantedBot()\u0026\u0026\"true\"===",["escape",["macro",156],8,16],"\u0026\u0026checkIfScreenIsReasonable()\u0026\u0026(window.pollForCookieMessageCounter=0,pollForCookieMessage=window.setInterval(function(){try{pollForCookieMessageCounter++,2E3\u003CpollForCookieMessageCounter\u0026\u0026(debug(\"poll for cookie message timed out\"),clearInterval(pollForCookieMessage)),debug(\"polling for cookie message\"),document.getElementById(\"cookie-message\")\u0026\u0026(clearInterval(pollForCookieMessage),\ndebug(\"cookie message found - pushing activation\"),setOptimizeCallbacks(),window.dataLayer=window.dataLayer||[],window.dataLayer.push({event:\"optimize.activateCookieConsentAbTest_v3\"}))}catch(a){window.sendGaError(a,\"consentActivationPolling\")}},10))}catch(a){window.sendGaError(a)};\u003C\/script\u003E"],
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003Ewindow.sendGaError=window.sendGaError||function(a,b){a=\"undefined\"===typeof a||\"undefined\"===typeof a.message?\"Unknown error\":a.message;b=b?b+\": \"+a:a;dataLayer.push({event:\"GAevent\",eventCategory:\"JavaScript Error\",eventAction:b})};function debug(a){}\nfunction isWantedBot(){try{for(var a=\"^Mozilla\\\\\/5\\\\.0 \\\\(compatible; Googlebot\\\\\/2\\\\.1; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.google\\\\.com\\\\\/bot\\\\.html\\\\)${^Googlebot\\\\\/2\\\\.1 \\\\(\\\\+http\\\\:\\\\\/\\\\\/www\\\\.google\\\\.com\\\\\/bot\\\\.html\\\\)${^Mozilla\\\\\/5\\\\.0 \\\\(Linux; Android 6\\\\.0\\\\.1; Nexus 5X Build\\\\\/MMB29P\\\\) AppleWebKit\\\\\/537\\\\.36 \\\\(KHTML, like Gecko\\\\) Chrome\\\\\/41\\\\.0\\\\.2272\\\\.96 Mobile Safari\\\\\/537\\\\.36 \\\\(compatible; Googlebot\\\\\/2\\\\.1; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.google\\\\.com\\\\\/bot\\\\.html\\\\)${^SAMSUNG\\\\-SGH\\\\-E250\\\\\/1\\\\.0 Profile\\\\\/MIDP\\\\-2\\\\.0 Configuration\\\\\/CLDC\\\\-1\\\\.1 UP\\\\.Browser\\\\\/6\\\\.2\\\\.3\\\\.3\\\\.c\\\\.1\\\\.101 \\\\(GUI\\\\) MMP\\\\\/2\\\\.0 \\\\(compatible; Googlebot\\\\-Mobile\\\\\/2\\\\.1; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.google\\\\.com\\\\\/bot\\\\.html\\\\)${^Googlebot\\\\-Image\\\\\/1\\\\.0${^Googlebot\\\\-Video\\\\\/1\\\\.0${^Mediapartners\\\\-Google${^Mozilla\\\\\/5\\\\.0 \\\\(Linux; Android 5\\\\.0; SM\\\\-G920A\\\\) AppleWebKit \\\\(KHTML, like Gecko\\\\) Chrome Mobile Safari \\\\(compatible; AdsBot\\\\-Google\\\\-Mobile; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.google\\\\.com\\\\\/mobile\\\\\/adsbot\\\\.html\\\\)${^Mozilla\\\\\/5\\\\.0 \\\\(iPhone; CPU iPhone OS 9_1 like Mac OS X\\\\) AppleWebKit\\\\\/601\\\\.1\\\\.46 \\\\(KHTML, like Gecko\\\\) Version\\\\\/9\\\\.0 Mobile\\\\\/13B143 Safari\\\\\/601\\\\.1 \\\\(compatible; AdsBot\\\\-Google\\\\-Mobile; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.google\\\\.com\\\\\/mobile\\\\\/adsbot\\\\.html\\\\)${^\\\\(compatible; Mediapartners\\\\-Google\\\\\/2\\\\.1; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.google\\\\.com\\\\\/bot\\\\.html\\\\)${^AdsBot\\\\-Google \\\\(\\\\+http\\\\:\\\\\/\\\\\/www\\\\.google\\\\.com\\\\\/adsbot\\\\.html\\\\)${^AdsBot\\\\-Google\\\\-Mobile\\\\-Apps${^Mozilla\\\\\/5\\\\.0 \\\\(compatible; bingbot\\\\\/2\\\\.0; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.bing\\\\.com\\\\\/bingbot\\\\.htm\\\\)${^Mozilla\\\\\/5\\\\.0 \\\\(compatible; bingbot\\\\\/2\\\\.0 \\\\+https\\\\:\\\\\/\\\\\/www\\\\.bing\\\\.com\\\\\/bingbot\\\\.htm\\\\)${^msnbot\\\\\/2\\\\.0b \\\\(\\\\+http\\\\:\\\\\/\\\\\/search\\\\.msn\\\\.com\\\\\/msnbot\\\\.htm\\\\)${^Mozilla\\\\\/5\\\\.0 \\\\(iPhone; CPU iPhone OS 7_0 like Mac OS X\\\\) AppleWebKit\\\\\/537\\\\.51\\\\.1 \\\\(KHTML, like Gecko\\\\) Version\\\\\/7\\\\.0 Mobile\\\\\/11A465 Safari\\\\\/9537\\\\.53 \\\\(compatible; bingbot\\\\\/2\\\\.0; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.bing\\\\.com\\\\\/bingbot\\\\.htm\\\\)${^Mozilla\\\\\/5\\\\.0 \\\\(Windows Phone 8\\\\.1; ARM; Trident\\\\\/7\\\\.0; Touch; rv\\\\:11\\\\.0; IEMobile\\\\\/11\\\\.0; NOKIA; Lumia 530\\\\) like Gecko \\\\(compatible; bingbot\\\\\/2\\\\.0; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.bing\\\\.com\\\\\/bingbot\\\\.htm\\\\)${^msnbot\\\\-media\\\\\/1\\\\.1 \\\\(\\\\+http\\\\:\\\\\/\\\\\/search\\\\.msn\\\\.com\\\\\/msnbot\\\\.htm\\\\)${^Mozilla\\\\\/5\\\\.0 \\\\(compatible; adidxbot\\\\\/2\\\\.0; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.bing\\\\.com\\\\\/bingbot\\\\.htm\\\\)${^Mozilla\\\\\/5\\\\.0 \\\\(iPhone; CPU iPhone OS 7_0 like Mac OS X\\\\) AppleWebKit\\\\\/537\\\\.51\\\\.1 \\\\(KHTML, like Gecko\\\\) Version\\\\\/7\\\\.0 Mobile\\\\\/11A465 Safari\\\\\/9537\\\\.53 \\\\(compatible; adidxbot\\\\\/2\\\\.0; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.bing\\\\.com\\\\\/bingbot\\\\.htm\\\\)${^Mozilla\\\\\/5\\\\.0 \\\\(Windows Phone 8\\\\.1; ARM; Trident\\\\\/7\\\\.0; Touch; rv\\\\:11\\\\.0; IEMobile\\\\\/11\\\\.0; NOKIA; Lumia 530\\\\) like Gecko \\\\(compatible; adidxbot\\\\\/2\\\\.0; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.bing\\\\.com\\\\\/bingbot\\\\.htm\\\\)${^Mozilla\\\\\/5\\\\.0 \\\\(Windows NT 6\\\\.1; WOW64\\\\) AppleWebKit\\\\\/534\\\\+ \\\\(KHTML, like Gecko\\\\) BingPreview\\\\\/1\\\\.0b${^Mozilla\\\\\/5\\\\.0 \\\\(Windows Phone 8\\\\.1; ARM; Trident\\\\\/7\\\\.0; Touch; rv\\\\:11\\\\.0; IEMobile\\\\\/11\\\\.0; NOKIA; Lumia 530\\\\) like Gecko BingPreview\\\\\/1\\\\.0b${^Mozilla\\\\\/5\\\\.0 \\\\(compatible; MJ12bot\\\\\/v1\\\\.4\\\\.7; http\\\\:\\\\\/\\\\\/mj12bot\\\\.com\\\\\/\\\\)${^Mozilla\\\\\/5\\\\.0 \\\\(compatible; MJ12bot\\\\\/v1\\\\.4\\\\.8; http\\\\:\\\\\/\\\\\/mj12bot\\\\.com\\\\\/\\\\)${^audisto\\\\.com full crawler .* \\\\(refer to in robots\\\\.txt as audisto, see https\\\\:\\\\\/\\\\\/audisto\\\\.com\\\\\/bot\\\\)${^audisto\\\\.com essential crawler .* \\\\(refer to in robots\\\\.txt as audisto\\\\-essentials, see https\\\\:\\\\\/\\\\\/audisto\\\\.com\\\\\/bot\\\\)${^audisto\\\\.com full crawler\\\\\/phone .* \\\\(refer to in robots\\\\.txt as audisto, see https\\\\:\\\\\/\\\\\/audisto\\\\.com\\\\\/bot\\\\)${^audisto\\\\.com full crawler\\\\\/tablet .* \\\\(refer to in robots\\\\.txt as audisto, see https\\\\:\\\\\/\\\\\/audisto\\\\.com\\\\\/bot\\\\)${^Mozilla\\\\\/.* \\\\(compatible; AhrefsBot\\\\\/.*; \\\\+http\\\\:\\\\\/\\\\\/ahrefs\\\\.com\\\\\/robot\\\\\/\\\\)${^Mozilla\\\\\/5\\\\.0 \\\\(compatible; ResearchBot\\\\\/0\\\\.7\\\\)${HM_SEO_MAN{Pingdom{Datadog Agent{^Mozilla\\\\\/5\\\\.0 \\\\(Linux; Android 6\\\\.0\\\\.1; Nexus 5X Build\\\\\/MMB29P\\\\) AppleWebKit\\\\\/537\\\\.36 \\\\(KHTML, like Gecko\\\\) Chrome\\\\\/[0-9]+\\\\.[0-9]+\\\\.[0-9]+\\\\.[0-9]+ Mobile Safari\\\\\/537\\\\.36 \\\\(compatible; Googlebot\\\\\/2\\\\.1; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.google\\\\.com\\\\\/bot\\\\.html\\\\)${^Mozilla\\\\\/5\\\\.0 AppleWebKit\\\\\/537\\\\.36 \\\\(KHTML, like Gecko; compatible; Googlebot\\\\\/2\\\\.1; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.google\\\\.com\\\\\/bot\\\\.html\\\\) Chrome\\\\\/[0-9]+\\\\.[0-9]+\\\\.[0-9]+\\\\.[0-9]+ Safari\\\\\/537\\\\.36${^Mozilla\\\\\/5\\\\.0 AppleWebKit\\\\\/537\\\\.36 \\\\(KHTML, like Gecko; compatible; Googlebot\\\\\/2\\\\.1; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.google\\\\.com\\\\\/bot\\\\.html\\\\) Safari\\\\\/537\\\\.36$\".split(\"{\"),b=\n!1,c=0;c\u003Ca.length;c++){var d=new RegExp(a[c]);if(d.test(navigator.userAgent)){b=!0;break}}return b}catch(e){window.sendGaError(e)}}function saveCheckForSessionStorageAvail(){if(\"undefined\"!==typeof sessionStorage)try{if(sessionStorage.setItem(\"storage_test\",\"yes\"),\"yes\"===sessionStorage.getItem(\"storage_test\"))return sessionStorage.removeItem(\"storage_test\"),!0}catch(a){}return!1}\nfunction checkIfScreenIsReasonable(){try{return\"undefined\"!==typeof screen\u0026\u0026\"undefined\"!==typeof screen.width\u0026\u00260!==screen.width\u0026\u0026\"undefined\"!==typeof screen.height\u0026\u00260!==screen.height\u0026\u0026250\u003C=screen.width\u0026\u0026250\u003C=screen.height?!0:!1}catch(a){return sendGaError(a),!1}}\nfunction setTrackingForOriginalBanner(){try{window.dataLayer=window.dataLayer||[],dataLayer.push({event:\"GAevent\",eventCategory:\"cookieConsent\",eventAction:\"consentSeen_bottomStripeSmall_standard\",eventLabel:\"\"}),window.dataLayer=window.dataLayer||[],dataLayer.push({isInCookieAbTest:!0})}catch(a){sendGaError(a,\"setTrackingForOriginalBanner\")}}function gtag(){try{dataLayer.push(arguments)}catch(a){sendGaError(a,\"gtag\")}}function setCallbacksForVariations(a){\"0\"==a\u0026\u0026setTrackingForOriginalBanner()}\nfunction setOptimizeCallbacks(){try{gtag(\"event\",\"optimize.callback\",{name:",["escape",["macro",150],8,16],",callback:setCallbacksForVariations})}catch(a){sendGaError(a,\"setOptimizeCallbacks\")}}\ntry{-1===document.cookie.indexOf(\"real-cookie-accept\\x3d\")\u0026\u0026saveCheckForSessionStorageAvail()\u0026\u0026!isWantedBot()\u0026\u0026\"true\"===",["escape",["macro",151],8,16],"\u0026\u0026checkIfScreenIsReasonable()\u0026\u0026(window.pollForCookieMessageCounter=0,pollForCookieMessage=window.setInterval(function(){try{pollForCookieMessageCounter++,2E3\u003CpollForCookieMessageCounter\u0026\u0026(debug(\"poll for cookie message timed out\"),clearInterval(pollForCookieMessage)),debug(\"polling for cookie message\"),document.getElementById(\"cookie-message\")\u0026\u0026(clearInterval(pollForCookieMessage),\ndebug(\"cookie message found - pushing activation\"),setOptimizeCallbacks(),window.dataLayer=window.dataLayer||[],window.dataLayer.push({event:\"optimize.activateCookieConsentAbTest_v3\"}))}catch(a){window.sendGaError(a,\"consentActivationPolling\")}},10))}catch(a){window.sendGaError(a)};\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
@@ -938,91 +938,40 @@ data = {
       "vtp_originalTagType":"html",
       "tag_id":159
     },{
-      "function":"__ua",
-      "metadata":["map"],
-      "once_per_event":true,
-      "vtp_nonInteraction":["macro",28],
-      "vtp_overrideGaSettings":false,
-      "vtp_eventValue":["macro",127],
-      "vtp_eventCategory":["macro",26],
-      "vtp_trackType":"TRACK_EVENT",
-      "vtp_gaSettings":["macro",111],
-      "vtp_eventAction":["macro",27],
-      "vtp_eventLabel":["macro",128],
-      "vtp_enableRecaptchaOption":false,
-      "vtp_enableUaRlsa":false,
-      "vtp_enableUseInternalVersion":false,
-      "vtp_enableFirebaseCampaignData":true,
-      "vtp_trackTypeIsEvent":true,
+      "function":"__paused",
+      "vtp_originalTagType":"ua",
       "tag_id":1283
     },{
-      "function":"__ua",
-      "metadata":["map"],
-      "once_per_event":true,
-      "vtp_nonInteraction":["macro",28],
-      "vtp_overrideGaSettings":false,
-      "vtp_eventValue":["macro",129],
-      "vtp_eventCategory":["macro",26],
-      "vtp_trackType":"TRACK_EVENT",
-      "vtp_gaSettings":["macro",111],
-      "vtp_eventAction":"Form_Visible",
-      "vtp_eventLabel":["macro",130],
-      "vtp_enableRecaptchaOption":false,
-      "vtp_enableUaRlsa":false,
-      "vtp_enableUseInternalVersion":false,
-      "vtp_enableFirebaseCampaignData":true,
-      "vtp_trackTypeIsEvent":true,
+      "function":"__paused",
+      "vtp_originalTagType":"ua",
       "tag_id":1288
     },{
-      "function":"__ua",
-      "metadata":["map"],
-      "once_per_event":true,
-      "vtp_nonInteraction":["macro",28],
-      "vtp_overrideGaSettings":false,
-      "vtp_eventCategory":["macro",26],
-      "vtp_trackType":"TRACK_EVENT",
-      "vtp_gaSettings":["macro",111],
-      "vtp_eventAction":"TopEmbedded_Form_Rendered_Height",
-      "vtp_eventLabel":["macro",131],
-      "vtp_enableRecaptchaOption":false,
-      "vtp_enableUaRlsa":false,
-      "vtp_enableUseInternalVersion":false,
-      "vtp_enableFirebaseCampaignData":true,
-      "vtp_trackTypeIsEvent":true,
+      "function":"__paused",
+      "vtp_originalTagType":"html",
+      "tag_id":1305
+    },{
+      "function":"__paused",
+      "vtp_originalTagType":"html",
+      "tag_id":1306
+    },{
+      "function":"__paused",
+      "vtp_originalTagType":"html",
+      "tag_id":1311
+    },{
+      "function":"__paused",
+      "vtp_originalTagType":"ua",
       "tag_id":1315
     },{
-      "function":"__ua",
-      "metadata":["map"],
-      "once_per_event":true,
-      "vtp_nonInteraction":["macro",28],
-      "vtp_overrideGaSettings":false,
-      "vtp_eventCategory":["macro",26],
-      "vtp_trackType":"TRACK_EVENT",
-      "vtp_gaSettings":["macro",111],
-      "vtp_eventAction":"BottomEmbedded_Form_Rendered_Height",
-      "vtp_eventLabel":["macro",132],
-      "vtp_enableRecaptchaOption":false,
-      "vtp_enableUaRlsa":false,
-      "vtp_enableUseInternalVersion":false,
-      "vtp_enableFirebaseCampaignData":true,
-      "vtp_trackTypeIsEvent":true,
+      "function":"__paused",
+      "vtp_originalTagType":"ua",
       "tag_id":1316
     },{
-      "function":"__ua",
-      "metadata":["map"],
-      "once_per_event":true,
-      "vtp_nonInteraction":["macro",28],
-      "vtp_overrideGaSettings":false,
-      "vtp_eventCategory":["macro",22],
-      "vtp_trackType":"TRACK_EVENT",
-      "vtp_gaSettings":["macro",111],
-      "vtp_eventAction":["macro",23],
-      "vtp_eventLabel":["macro",113],
-      "vtp_enableRecaptchaOption":false,
-      "vtp_enableUaRlsa":false,
-      "vtp_enableUseInternalVersion":false,
-      "vtp_enableFirebaseCampaignData":true,
-      "vtp_trackTypeIsEvent":true,
+      "function":"__paused",
+      "vtp_originalTagType":"html",
+      "tag_id":1354
+    },{
+      "function":"__paused",
+      "vtp_originalTagType":"ua",
       "tag_id":1357
     },{
       "function":"__ua",
@@ -1069,7 +1018,7 @@ data = {
       "vtp_trackType":"TRACK_EVENT",
       "vtp_gaSettings":["macro",111],
       "vtp_eventAction":"consentMoreInfo_clicked",
-      "vtp_eventLabel":["macro",135],
+      "vtp_eventLabel":["macro",130],
       "vtp_enableRecaptchaOption":false,
       "vtp_enableUaRlsa":false,
       "vtp_enableUseInternalVersion":false,
@@ -1234,7 +1183,7 @@ data = {
       "metadata":["map"],
       "consent":["list"],
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\" id=\"gtmctagid_CS_pageview\"\u003E(function(){try{window._uxa=window._uxa||[];window._uxa.push([\"setPath\",window.location.pathname+window.location.hash.replace(\"#\",\"?__\")]);\"undefined\"!==typeof dataLayer\u0026\u0026(void 0!==",["escape",["macro",137],8,16],"\u0026\u0026window._uxa.push([\"setCustomVariable\",3,\"product_brand\",",["escape",["macro",137],8,16],",3]),void 0!==",["escape",["macro",32],8,16],"\u0026\u0026window._uxa.push([\"setCustomVariable\",5,\"view_type\",",["escape",["macro",32],8,16],",3]),void 0!==",["escape",["macro",44],8,16],"\u0026\u0026window._uxa.push([\"setCustomVariable\",6,\"virt_path\",",["escape",["macro",44],8,16],",\n3]),void 0!==",["escape",["macro",138],8,16],"\u0026\u0026window._uxa.push([\"setCustomVariable\",9,\"product_category\",String(",["escape",["macro",138],8,16],"),3]),void 0!==",["escape",["macro",38],8,16],"\u0026\u0026window._uxa.push([\"setCustomVariable\",10,\"search_term\",",["escape",["macro",38],8,16],",3]),void 0!==",["escape",["macro",71],8,16],"\u0026\u0026window._uxa.push([\"setCustomVariable\",12,\"market_name\",",["escape",["macro",71],8,16],",3]),void 0!==",["escape",["macro",59],8,16],"\u0026\u0026window._uxa.push([\"setCustomVariable\",15,\"search results\",String(",["escape",["macro",59],8,16],"),3]),void 0!==",["escape",["macro",82],8,16],"\u0026\u0026\nwindow._uxa.push([\"setCustomVariable\",16,\"logged_in_status\",String(",["escape",["macro",82],8,16],"),3]),\"null\"!==",["escape",["macro",139],8,16],"\u0026\u0026window._uxa.push([\"setCustomVariable\",18,\"js_isAdvisorPage\",",["escape",["macro",139],8,16],",3]),void 0!==",["escape",["macro",72],8,16],"\u0026\u0026window._uxa.push([\"setCustomVariable\",19,\"user.seller_id\",",["escape",["macro",72],8,16],",3]),void 0!==",["escape",["macro",80],8,16],"\u0026\u0026window._uxa.push([\"setCustomVariable\",20,\"product.seller_type\",",["escape",["macro",80],8,16],",3]),",["escape",["macro",140],8,16],"\u0026\u0026window._uxa.push([\"trackDynamicVariable\",\n{key:\"backend_abtest\",value:",["escape",["macro",140],8,16],"}]),void 0!==",["escape",["macro",91],8,16],"\u0026\u0026window._uxa.push([\"trackDynamicVariable\",{key:\"client_abtest\",value:",["escape",["macro",91],8,16],"}]));if(\"undefined\"===typeof CS_CONF){var a=document.createElement(\"script\");a.type=\"text\/javascript\";a.async=!0;a.src=\"\/\/t.contentsquare.net\/uxa\/8fb48415ac213.js\";document.getElementsByTagName(\"head\")[0].appendChild(a)}else window._uxa.push([\"trackPageview\",window.location.pathname+window.location.hash.replace(\"#\",\"?__\")]);\n\"1\"!=",["escape",["macro",141],8,16],"\u0026\u0026(window._uxa.push([\"getSessionKey\",{callback:function(b){dataLayer.push({event:\"GAevent\",eventCategory:\"csSessionKey\",eventAction:b,eventLabel:void 0,eventValue:void 0})}}]),window.Storage\u0026\u0026\"undefined\"!==typeof sessionStorage\u0026\u0026null!==sessionStorage\u0026\u0026sessionStorage.setItem(\"cs_s\",\"1\"))}catch(b){a=\"undefined\"===typeof b||\"undefined\"===typeof b.message?\"Unknown error\":b.message,dataLayer.push({event:\"GAevent\",eventCategory:\"JavaScript Error\",eventAction:\"CS_PageView \"+a})}})();\u003C\/script\u003E"],
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\" id=\"gtmctagid_CS_pageview\"\u003E(function(){try{window._uxa=window._uxa||[];window._uxa.push([\"setPath\",window.location.pathname+window.location.hash.replace(\"#\",\"?__\")]);\"undefined\"!==typeof dataLayer\u0026\u0026(void 0!==",["escape",["macro",132],8,16],"\u0026\u0026window._uxa.push([\"setCustomVariable\",3,\"product_brand\",",["escape",["macro",132],8,16],",3]),void 0!==",["escape",["macro",32],8,16],"\u0026\u0026window._uxa.push([\"setCustomVariable\",5,\"view_type\",",["escape",["macro",32],8,16],",3]),void 0!==",["escape",["macro",44],8,16],"\u0026\u0026window._uxa.push([\"setCustomVariable\",6,\"virt_path\",",["escape",["macro",44],8,16],",\n3]),void 0!==",["escape",["macro",133],8,16],"\u0026\u0026window._uxa.push([\"setCustomVariable\",9,\"product_category\",String(",["escape",["macro",133],8,16],"),3]),void 0!==",["escape",["macro",38],8,16],"\u0026\u0026window._uxa.push([\"setCustomVariable\",10,\"search_term\",",["escape",["macro",38],8,16],",3]),void 0!==",["escape",["macro",71],8,16],"\u0026\u0026window._uxa.push([\"setCustomVariable\",12,\"market_name\",",["escape",["macro",71],8,16],",3]),void 0!==",["escape",["macro",59],8,16],"\u0026\u0026window._uxa.push([\"setCustomVariable\",15,\"search results\",String(",["escape",["macro",59],8,16],"),3]),void 0!==",["escape",["macro",82],8,16],"\u0026\u0026\nwindow._uxa.push([\"setCustomVariable\",16,\"logged_in_status\",String(",["escape",["macro",82],8,16],"),3]),\"null\"!==",["escape",["macro",134],8,16],"\u0026\u0026window._uxa.push([\"setCustomVariable\",18,\"js_isAdvisorPage\",",["escape",["macro",134],8,16],",3]),void 0!==",["escape",["macro",72],8,16],"\u0026\u0026window._uxa.push([\"setCustomVariable\",19,\"user.seller_id\",",["escape",["macro",72],8,16],",3]),void 0!==",["escape",["macro",80],8,16],"\u0026\u0026window._uxa.push([\"setCustomVariable\",20,\"product.seller_type\",",["escape",["macro",80],8,16],",3]),",["escape",["macro",135],8,16],"\u0026\u0026window._uxa.push([\"trackDynamicVariable\",\n{key:\"backend_abtest\",value:",["escape",["macro",135],8,16],"}]),void 0!==",["escape",["macro",91],8,16],"\u0026\u0026window._uxa.push([\"trackDynamicVariable\",{key:\"client_abtest\",value:",["escape",["macro",91],8,16],"}]));if(\"undefined\"===typeof CS_CONF){var a=document.createElement(\"script\");a.type=\"text\/javascript\";a.async=!0;a.src=\"\/\/t.contentsquare.net\/uxa\/8fb48415ac213.js\";document.getElementsByTagName(\"head\")[0].appendChild(a)}else window._uxa.push([\"trackPageview\",window.location.pathname+window.location.hash.replace(\"#\",\"?__\")]);\n\"1\"!=",["escape",["macro",136],8,16],"\u0026\u0026(window._uxa.push([\"getSessionKey\",{callback:function(b){dataLayer.push({event:\"GAevent\",eventCategory:\"csSessionKey\",eventAction:b,eventLabel:void 0,eventValue:void 0})}}]),window.Storage\u0026\u0026\"undefined\"!==typeof sessionStorage\u0026\u0026null!==sessionStorage\u0026\u0026sessionStorage.setItem(\"cs_s\",\"1\"))}catch(b){a=\"undefined\"===typeof b||\"undefined\"===typeof b.message?\"Unknown error\":b.message,dataLayer.push({event:\"GAevent\",eventCategory:\"JavaScript Error\",eventAction:\"CS_PageView \"+a})}})();\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
@@ -1252,7 +1201,7 @@ data = {
       "function":"__html",
       "metadata":["map"],
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\" id=\"gtmctagid_payback_campaign\"\u003Efunction pb_ck(c,d,a){a*=1E3;var b=new Date,e=b.getTime();b.setTime(e+a);a=b.toUTCString();document.cookie=c+\"\\x3d\"+d+\"; expires\\x3d\"+a+\"; path\\x3d\/; domain\\x3d.\"+location.hostname.replace(\/^www\\.\/i,\"\")}var re=\/(?=.*?\\butm_source=payback\\b)(?=.*?\\butm_medium=paid\\b)(?=.*?\\btduid=\\b)(?=(.*?\\butm_campaign=payback%20page\\b))^.*$\/;\nwindow.Storage\u0026\u0026(1==re.test(",["escape",["macro",83],8,16],")\u0026\u0026\"0\"!=",["escape",["macro",81],8,16],"?pb_ck(\"tduid3\",",["escape",["macro",144],8,16],",2592E3):",["escape",["macro",83],8,16],".match(\/(utm_.*=)|(gclid=)\/)\u0026\u00260==re.test(",["escape",["macro",83],8,16],")?pb_ck(\"tduid3\",0,2592E3):(0!=re.test(",["escape",["macro",83],8,16],")||\"0\"!=",["escape",["macro",81],8,16],"\u0026\u0026void 0!=",["escape",["macro",81],8,16],"||\"1\"==sessionStorage.getItem(\"pb_sn\")||pb_ck(\"tduid3\",0,2592E3),sessionStorage.setItem(\"pb_sn\",\"1\")));\n",["escape",["macro",81],8,16],"\u0026\u0026\"0\"!=",["escape",["macro",81],8,16],"\u0026\u0026\"Sale\"==",["escape",["macro",10],8,16],"\u0026\u0026(dataLayer.push({event:\"GAevent\",eventCategory:\"Enhanced Ecommerce\",eventAction:\"pb campaign sale\",eventLabel:",["escape",["macro",2],8,16],",eventValue:",["escape",["macro",3],8,16],"}),pb_ck(\"tduid3\",0,0));\u003C\/script\u003E\n"],
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\" id=\"gtmctagid_payback_campaign\"\u003Efunction pb_ck(c,d,a){a*=1E3;var b=new Date,e=b.getTime();b.setTime(e+a);a=b.toUTCString();document.cookie=c+\"\\x3d\"+d+\"; expires\\x3d\"+a+\"; path\\x3d\/; domain\\x3d.\"+location.hostname.replace(\/^www\\.\/i,\"\")}var re=\/(?=.*?\\butm_source=payback\\b)(?=.*?\\butm_medium=paid\\b)(?=.*?\\btduid=\\b)(?=(.*?\\butm_campaign=payback%20page\\b))^.*$\/;\nwindow.Storage\u0026\u0026(1==re.test(",["escape",["macro",83],8,16],")\u0026\u0026\"0\"!=",["escape",["macro",81],8,16],"?pb_ck(\"tduid3\",",["escape",["macro",139],8,16],",2592E3):",["escape",["macro",83],8,16],".match(\/(utm_.*=)|(gclid=)\/)\u0026\u00260==re.test(",["escape",["macro",83],8,16],")?pb_ck(\"tduid3\",0,2592E3):(0!=re.test(",["escape",["macro",83],8,16],")||\"0\"!=",["escape",["macro",81],8,16],"\u0026\u0026void 0!=",["escape",["macro",81],8,16],"||\"1\"==sessionStorage.getItem(\"pb_sn\")||pb_ck(\"tduid3\",0,2592E3),sessionStorage.setItem(\"pb_sn\",\"1\")));\n",["escape",["macro",81],8,16],"\u0026\u0026\"0\"!=",["escape",["macro",81],8,16],"\u0026\u0026\"Sale\"==",["escape",["macro",10],8,16],"\u0026\u0026(dataLayer.push({event:\"GAevent\",eventCategory:\"Enhanced Ecommerce\",eventAction:\"pb campaign sale\",eventLabel:",["escape",["macro",2],8,16],",eventValue:",["escape",["macro",3],8,16],"}),pb_ck(\"tduid3\",0,0));\u003C\/script\u003E\n"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
@@ -1270,7 +1219,7 @@ data = {
       "function":"__html",
       "metadata":["map"],
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\" id=\"gtmctagid_moebel_sale\"\u003Evar _mo=_mo||[];_mo.push([\"_key\",\"21e55062-f619-458f-9eb6-9e7c5eb9b17c\"]);_mo.push([\"_umsatz\",\"",["escape",["macro",146],7],"\"]);_mo.push([\"_versandkosten\",\"\"]);_mo.push([\"_artikelliste\",\"\"]);(function(){var a=document.createElement(\"script\");a.type=\"text\/javascript\";a.async=!0;a.src=\"https:\/\/sales1.moebel.de\/asyndic.js\";var b=document.getElementsByTagName(\"script\")[0];b.parentNode.insertBefore(a,b)})();\u003C\/script\u003E"],
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\" id=\"gtmctagid_moebel_sale\"\u003Evar _mo=_mo||[];_mo.push([\"_key\",\"21e55062-f619-458f-9eb6-9e7c5eb9b17c\"]);_mo.push([\"_umsatz\",\"",["escape",["macro",141],7],"\"]);_mo.push([\"_versandkosten\",\"\"]);_mo.push([\"_artikelliste\",\"\"]);(function(){var a=document.createElement(\"script\");a.type=\"text\/javascript\";a.async=!0;a.src=\"https:\/\/sales1.moebel.de\/asyndic.js\";var b=document.getElementsByTagName(\"script\")[0];b.parentNode.insertBefore(a,b)})();\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
@@ -1307,7 +1256,7 @@ data = {
       "metadata":["map"],
       "setup_tags":["list",["tag",66,0]],
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\" id=\"gtmctagid_fbatc\"\u003E(function(){var a=",["escape",["macro",150],8,16],";a.content_type=\"product\";a.currency=\"EUR\";try{a.contents=",["escape",["macro",151],8,16],"}catch(b){}try{a.content_ids=[",["escape",["macro",15],8,16],".id]}catch(b){}try{a.value=",["escape",["macro",15],8,16],".offers[0].price}catch(b){a.value=0}fbq(\"track\",\"AddToCart\",a)})();\u003C\/script\u003E"],
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\" id=\"gtmctagid_fbatc\"\u003E(function(){var a=",["escape",["macro",145],8,16],";a.content_type=\"product\";a.currency=\"EUR\";try{a.contents=",["escape",["macro",146],8,16],"}catch(b){}try{a.content_ids=[",["escape",["macro",15],8,16],".id]}catch(b){}try{a.value=",["escape",["macro",15],8,16],".offers[0].price}catch(b){a.value=0}fbq(\"track\",\"AddToCart\",a)})();\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
@@ -1317,7 +1266,7 @@ data = {
       "metadata":["map"],
       "setup_tags":["list",["tag",66,0]],
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\" id=\"gtmctagid_fbpv\"\u003E(function(){fbq(\"track\",\"PageView\",",["escape",["macro",150],8,16],");var a=",["escape",["macro",32],8,16],";if(\"Item\"==a){a=",["escape",["macro",150],8,16],";a.content_category=",["escape",["macro",5],8,16],";a.content_type=\"product\";a.currency=\"EUR\";try{a.contents=",["escape",["macro",151],8,16],"}catch(b){}try{a.content_ids=[",["escape",["macro",15],8,16],".id]}catch(b){}try{a.value=",["escape",["macro",15],8,16],".offers[0].price}catch(b){a.value=0}fbq(\"track\",\"ViewContent\",a)}else\"Checkout\"==a\u0026\u0026fbq(\"track\",\"InitiateCheckout\")})();\u003C\/script\u003E\n"],
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\" id=\"gtmctagid_fbpv\"\u003E(function(){fbq(\"track\",\"PageView\",",["escape",["macro",145],8,16],");var a=",["escape",["macro",32],8,16],";if(\"Item\"==a){a=",["escape",["macro",145],8,16],";a.content_category=",["escape",["macro",5],8,16],";a.content_type=\"product\";a.currency=\"EUR\";try{a.contents=",["escape",["macro",146],8,16],"}catch(b){}try{a.content_ids=[",["escape",["macro",15],8,16],".id]}catch(b){}try{a.value=",["escape",["macro",15],8,16],".offers[0].price}catch(b){a.value=0}fbq(\"track\",\"ViewContent\",a)}else\"Checkout\"==a\u0026\u0026fbq(\"track\",\"InitiateCheckout\")})();\u003C\/script\u003E\n"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
@@ -1327,7 +1276,7 @@ data = {
       "metadata":["map"],
       "setup_tags":["list",["tag",66,0]],
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\" id=\"gtmctagid_fbs\"\u003E(function(){var a=",["escape",["macro",150],8,16],";a.content_type=\"product\";a.currency=\"EUR\";a.payment_method=",["escape",["macro",70],8,16],";try{a.contents=",["escape",["macro",151],8,16],"}catch(b){}a.content_ids=",["escape",["macro",17],8,16],";a.value=Math.max(0,",["escape",["macro",1],8,16],".revenue)||0;fbq(\"track\",\"Purchase\",a)})();\u003C\/script\u003E\n"],
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\" id=\"gtmctagid_fbs\"\u003E(function(){var a=",["escape",["macro",145],8,16],";a.content_type=\"product\";a.currency=\"EUR\";a.payment_method=",["escape",["macro",70],8,16],";try{a.contents=",["escape",["macro",146],8,16],"}catch(b){}a.content_ids=",["escape",["macro",17],8,16],";a.value=Math.max(0,",["escape",["macro",1],8,16],".revenue)||0;fbq(\"track\",\"Purchase\",a)})();\u003C\/script\u003E\n"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
@@ -1376,7 +1325,7 @@ data = {
       "function":"__html",
       "metadata":["map"],
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\" id=\"gtmctagid_CS_pageview\"\u003Etry{window._uxa=window._uxa||[],window._uxa.push([\"trackDynamicVariable\",{key:\"backend_abtest\",value:",["escape",["macro",140],8,16],"}])}catch(a){};\u003C\/script\u003E"],
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\" id=\"gtmctagid_CS_pageview\"\u003Etry{window._uxa=window._uxa||[],window._uxa.push([\"trackDynamicVariable\",{key:\"backend_abtest\",value:",["escape",["macro",135],8,16],"}])}catch(a){};\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
@@ -1395,7 +1344,7 @@ data = {
       "function":"__html",
       "metadata":["map"],
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003Efunction sendErroToGa(a){try{var b=\"undefined\"===typeof a||\"undefined\"===typeof a.message?\"Unknown error\":a.message;dataLayer.push({event:\"GAevent\",eventCategory:\"JavaScript Error\",eventAction:\"tmpInspireTrackBannerClicks \"+b});debug(a)}catch(d){}}function debug(a){}\nfunction checkForOptimizely(){try{if(\"undefined\"!==typeof optimizelyDatafile\u0026\u0026\"undefined\"!==typeof optimizelySdk)return debug(\"opt JS found\"),!0;if(200\u003Cwindow.tmp_inspire_countOptimizelyCheck)return debug(\"opt JS timed out\"),!1;debug(\"opt JS waiting\");return++window.tmp_inspire_countOptimizelyCheck}catch(a){sendErroToGa(a)}}\nfunction getBannerType_oldHP(a){try{return\"homepage_top_campaign_banner_small\"===a?\"campaign_teaser_aktuelle_rabatte_click\":\"homepage_brochure\"===a?\"campaign_teaser_prospektangebote_click\":\"homepage_top_campaign_banner\"===a?\"homepage_top_campaign_banner_click\":0===a.indexOf(\"homepage_campaign_teaser_\")?\"campaign_teaser_promotion_slider_aktuelle_themen_click\":!1}catch(b){sendErroToGa(b)}}\nfunction getBannerType_newHP(a){try{return\"homepage_sales_teaser_1\"===a?\"campaign_teaser_aktuelle_rabatte_click\":\"homepage_sales_teaser_2\"===a?\"campaign_teaser_prospektangebote_click\":\"homepage_teaser_1\"===a?\"homepage_top_campaign_banner_click\":\/homepage_teaser_(2|3|4)\/.test(a)?\"campaign_teaser_promotion_slider_aktuelle_themen_click\":!1}catch(b){sendErroToGa(b)}}\nfunction main(a,b){try{var d=checkForOptimizely(),f={environment:",["escape",["macro",152],8,16],",device_type:",["escape",["macro",153],8,16],",browser_name:",["escape",["macro",154],8,16],"};debug(f);if(!0===d||window.tmp_inspire_optInstance){if(window.tmp_inspire_optInstance=window.tmp_inspire_optInstance||optimizelySdk.createInstance({datafile:optimizelyDatafile}),debug(a),debug(b),\"undefined\"!==typeof b\u0026\u0026\"undefined\"!==typeof b[0]\u0026\u0026\"string\"===typeof b[0].page_position\u0026\u0026\"string\"===typeof b[0].name){var e=b[0].page_position;if(\/^homepage_(sales_)?teaser_\\d\/.test(e)){debug(\"newHP\");\nvar c=getBannerType_newHP(e)}else debug(\"oldHP\"),c=getBannerType_oldHP(e);c\u0026\u0026(debug(\"looking to track \"+c),tmp_inspire_optInstance.track(c,",["escape",["macro",98],8,16],",f))}}else if(!1!==d)return debug(\"optimizely JS polling \"+window.tmp_inspire_countOptimizelyCheck),window.setTimeout(main.bind(null,a,b),100)}catch(g){sendErroToGa(g)}}window.tmp_inspire_countOptimizelyCheck=0;main(",["escape",["macro",10],8,16],",",["escape",["macro",33],8,16],");\u003C\/script\u003E"],
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003Efunction sendErroToGa(a){try{var b=\"undefined\"===typeof a||\"undefined\"===typeof a.message?\"Unknown error\":a.message;dataLayer.push({event:\"GAevent\",eventCategory:\"JavaScript Error\",eventAction:\"tmpInspireTrackBannerClicks \"+b});debug(a)}catch(d){}}function debug(a){}\nfunction checkForOptimizely(){try{if(\"undefined\"!==typeof optimizelyDatafile\u0026\u0026\"undefined\"!==typeof optimizelySdk)return debug(\"opt JS found\"),!0;if(200\u003Cwindow.tmp_inspire_countOptimizelyCheck)return debug(\"opt JS timed out\"),!1;debug(\"opt JS waiting\");return++window.tmp_inspire_countOptimizelyCheck}catch(a){sendErroToGa(a)}}\nfunction getBannerType_oldHP(a){try{return\"homepage_top_campaign_banner_small\"===a?\"campaign_teaser_aktuelle_rabatte_click\":\"homepage_brochure\"===a?\"campaign_teaser_prospektangebote_click\":\"homepage_top_campaign_banner\"===a?\"homepage_top_campaign_banner_click\":0===a.indexOf(\"homepage_campaign_teaser_\")?\"campaign_teaser_promotion_slider_aktuelle_themen_click\":!1}catch(b){sendErroToGa(b)}}\nfunction getBannerType_newHP(a){try{return\"homepage_sales_teaser_1\"===a?\"campaign_teaser_aktuelle_rabatte_click\":\"homepage_sales_teaser_2\"===a?\"campaign_teaser_prospektangebote_click\":\"homepage_teaser_1\"===a?\"homepage_top_campaign_banner_click\":\/homepage_teaser_(2|3|4)\/.test(a)?\"campaign_teaser_promotion_slider_aktuelle_themen_click\":!1}catch(b){sendErroToGa(b)}}\nfunction main(a,b){try{var d=checkForOptimizely(),f={environment:",["escape",["macro",147],8,16],",device_type:",["escape",["macro",148],8,16],",browser_name:",["escape",["macro",149],8,16],"};debug(f);if(!0===d||window.tmp_inspire_optInstance){if(window.tmp_inspire_optInstance=window.tmp_inspire_optInstance||optimizelySdk.createInstance({datafile:optimizelyDatafile}),debug(a),debug(b),\"undefined\"!==typeof b\u0026\u0026\"undefined\"!==typeof b[0]\u0026\u0026\"string\"===typeof b[0].page_position\u0026\u0026\"string\"===typeof b[0].name){var e=b[0].page_position;if(\/^homepage_(sales_)?teaser_\\d\/.test(e)){debug(\"newHP\");\nvar c=getBannerType_newHP(e)}else debug(\"oldHP\"),c=getBannerType_oldHP(e);c\u0026\u0026(debug(\"looking to track \"+c),tmp_inspire_optInstance.track(c,",["escape",["macro",98],8,16],",f))}}else if(!1!==d)return debug(\"optimizely JS polling \"+window.tmp_inspire_countOptimizelyCheck),window.setTimeout(main.bind(null,a,b),100)}catch(g){sendErroToGa(g)}}window.tmp_inspire_countOptimizelyCheck=0;main(",["escape",["macro",10],8,16],",",["escape",["macro",33],8,16],");\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
@@ -1413,48 +1362,11 @@ data = {
       "function":"__html",
       "metadata":["map"],
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003Etry{150!==",["escape",["macro",131],8,16],"\u0026\u00260!==",["escape",["macro",131],8,16],"\u0026\u0026dataLayer.push({event:\"medalliaEmbeddedTopDivHeight\"})}catch(a){var errMsg=\"undefined\"===typeof a||\"undefined\"===typeof a.message?\"Unknown error\":a.message;dataLayer.push({event:\"GAevent\",eventCategory:\"JavaScript Error\",eventAction:\"medalliaBugTracking_EmbTopHeight \"+errMsg})};\u003C\/script\u003E"],
-      "vtp_supportDocumentWrite":false,
-      "vtp_enableIframeMode":false,
-      "vtp_enableEditJsMacroBehavior":false,
-      "tag_id":1305
-    },{
-      "function":"__html",
-      "metadata":["map"],
-      "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003Etry{150!==",["escape",["macro",132],8,16],"\u0026\u00260!==",["escape",["macro",132],8,16],"\u0026\u0026dataLayer.push({event:\"medalliaEmbeddedBottomDivHeight\"})}catch(a){var errMsg=\"undefined\"===typeof a||\"undefined\"===typeof a.message?\"Unknown error\":a.message;dataLayer.push({event:\"GAevent\",eventCategory:\"JavaScript Error\",eventAction:\"medalliaBugTracking_EmbBotHeight \"+errMsg})};\u003C\/script\u003E"],
-      "vtp_supportDocumentWrite":false,
-      "vtp_enableIframeMode":false,
-      "vtp_enableEditJsMacroBehavior":false,
-      "tag_id":1306
-    },{
-      "function":"__html",
-      "metadata":["map"],
-      "once_per_event":true,
-      "vtp_html":"\u003Cscript type=\"text\/gtmscript\"\u003E(function(){try{var h=\"medallia_bug\",d=2E3,e=1,b=1,f=(new Date).getTime(),c=function(){var a=(new Date).getTime();window.dataLayer.push({event:h,\"custom.timerCurrentTime\":a,\"custom.timerElapsedTime\":a-f,\"custom.timerStartTime\":f,\"custom.timerEventNumber\":b,\"custom.timerId\":g,\"custom.timerInterval\":d,\"custom.timerLimit\":e});b+=1;e\u003Cb\u0026\u0026window.clearInterval(g)},g=window.setInterval(c,d)}catch(a){c=\"undefined\"===typeof a||\"undefined\"===typeof a.message?\"Unknown error\":a.message,dataLayer.push({event:\"GAevent\",\neventCategory:\"JavaScript Error\",eventAction:\"medalliaBugTimer \"+c})}})();\u003C\/script\u003E",
-      "vtp_supportDocumentWrite":false,
-      "vtp_enableIframeMode":false,
-      "vtp_enableEditJsMacroBehavior":false,
-      "tag_id":1311
-    },{
-      "function":"__html",
-      "metadata":["map"],
-      "once_per_event":true,
       "vtp_html":"\u003Cscript type=\"text\/gtmscript\"\u003Efunction sendErrorToGa(a){a=\"undefined\"===typeof a||\"undefined\"===typeof a.message?\"Unknown error\":a.message;dataLayer.push({event:\"GAevent\",eventCategory:\"JavaScript Error\",eventAction:\"MedalliaActivateAbcdeTestConditionally \"+a})}function debugMedll(a){var b=-1!==document.cookie.indexOf(\"medalliaDebug\");b\u0026\u0026console.log(a)}\nfunction checkPageConditions(){try{for(var a=[{rx:\/^\\\/$\/,name:\"homePage\"},{rx:\/^\\\/product\\\/\\d+\/,name:\"pdp\"},{rx:\/^\\\/beratung.*\/,name:\"seo\"},{rx:\/^\\\/item\\\/search\\\/?$\/,name:\"serp\"},{rx:\/^\\\/cart\\\/checkout\\\/thankyou\\\/?$\/,name:\"checkoutThankyou\"}],b=0;b\u003Ca.length;b++)if(a[b].rx.test(window.location.pathname))return a[b].name;return!1}catch(d){sendErrorToGa(d)}}\nfunction pushActivation(a){window.medallia_pageType=a;debugMedll(\"activating with pageType: \"+a);window.dataLayer=window.dataLayer||[];window.dataLayer.push({event:\"optimize.activate_medalliaPilot_conditional\"})}\ntry{pollForMedalliaActivationConditions=window.setInterval(function(){try{var a=[{Category:\"catLeaf\"}],b=checkPageConditions();if(b)return debugMedll(\"url in Medallia scope - pushing activator\"),clearInterval(pollForMedalliaActivationConditions),pushActivation(b),!1;if(\"undefined\"===typeof dataLayer)return debugMedll(\"dl undef\"),!1;debugMedll(\"checking dataLayer\");for(var d=0;d\u003CdataLayer.length;d++){var c=dataLayer[d],g=\"undefined\"!==typeof c.event?c.event:!1;if(\"pageView\"===g\u0026\u0026\"undefined\"!==typeof c.view\u0026\u0026\n\"undefined\"!==typeof c.view.view_type){clearInterval(pollForMedalliaActivationConditions);debugMedll(\"view type \"+c.view.view_type);var f=!1;b=\"\";for(var e=0;e\u003Ca.length;e++){if(a[e].hasOwnProperty([c.view.view_type])){f=!0;b=a[e][c.view.view_type];break}debugMedll(\"foundPageType: \"+b)}if(f)return debugMedll(\"activating on view type \"+c.view.view_type),pushActivation(b),!0;debugMedll(\"not activating view type \"+c.view.view_type)}}}catch(h){sendErrorToGa(h)}},100)}catch(a){sendErrorToGa(a)};\u003C\/script\u003E",
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
       "tag_id":1331
-    },{
-      "function":"__html",
-      "metadata":["map"],
-      "consent":["list"],
-      "once_per_event":true,
-      "vtp_html":"\u003Cscript type=\"text\/gtmscript\"\u003E(function(){function d(a){try{var b=\"undefined\"===typeof a||\"undefined\"===typeof a.message?\"Unknown error\":a.message;dataLayer.push({event:\"GAevent\",eventCategory:\"JavaScript Error\",eventAction:\"MedalliaFeedbackButtonVisibleCustom\"+b})}catch(c){debug(c)}}function e(a){try{return(a=document.getElementById(\"kampyleButtonContainer\"))?!0:!1}catch(b){d(b)}}function f(){try{var a=medallia_visibilityTracking.areas,b;for(b in a){var c=a[b],g=c.sel;e($(g))\u0026\u0026-1===medallia_visibilityTracking.sentEvents.indexOf(c.evtId)\u0026\u0026\n(medallia_visibilityTracking.pushEvent(c.evtId),medallia_visibilityTracking.sentEvents.push(c.evtId))}}catch(h){d(h)}}function k(a){try{dataLayer.push({event:\"medalliaButtonVisible\",eventCategory:\"Medallia\",eventAction:\"Form_Visible\",eventLabel:\"medalliaButton\"})}catch(b){d(b)}}function l(){try{if(\"undefined\"!==typeof window.jQuery\u0026\u0026\"undefined\"!==typeof window.$)window.setInterval(medallia_visibilityTracking.checkAllElsVis,100);else if(50\u003Emedallia_visibilityTracking.pollForJqueryCounter)return medallia_visibilityTracking.pollForJqueryCounter++,\nwindow.setTimeout(medallia_visibilityTracking.init,200)}catch(a){d(a)}}window.medallia_visibilityTracking={init:l,checkAllElsVis:f,hasBeenVisible:e,pushEvent:k,sentEvents:[],areas:{form_1:{sel:\"#kampyleButtonContainer\",evtId:\"kampyleButtonContainer\"}},pollForJqueryCounter:0};medallia_visibilityTracking.init()})();\u003C\/script\u003E",
-      "vtp_supportDocumentWrite":false,
-      "vtp_enableIframeMode":false,
-      "vtp_enableEditJsMacroBehavior":false,
-      "tag_id":1354
     },{
       "function":"__html",
       "metadata":["map"],
@@ -1589,6 +1501,14 @@ data = {
     },{
       "function":"_eq",
       "arg0":["macro",0],
+      "arg1":"medallia_bug"
+    },{
+      "function":"_eq",
+      "arg0":["macro",27],
+      "arg1":"Form_Page_Displayed"
+    },{
+      "function":"_eq",
+      "arg0":["macro",0],
       "arg1":"medalliaEmbeddedTopDivHeight"
     },{
       "function":"_eq",
@@ -1597,14 +1517,22 @@ data = {
     },{
       "function":"_eq",
       "arg0":["macro",0],
+      "arg1":"gtm.dom"
+    },{
+      "function":"_sw",
+      "arg0":["macro",43],
+      "arg1":"\/product\/"
+    },{
+      "function":"_eq",
+      "arg0":["macro",0],
       "arg1":"medalliaButtonVisible"
     },{
       "function":"_eq",
-      "arg0":["macro",133],
+      "arg0":["macro",127],
       "arg1":"true"
     },{
       "function":"_eq",
-      "arg0":["macro",130],
+      "arg0":["macro",128],
       "arg1":"cookie-message-reject"
     },{
       "function":"_eq",
@@ -1616,11 +1544,11 @@ data = {
       "arg1":"(^$|((^|,)6178770_1367($|,)))"
     },{
       "function":"_cn",
-      "arg0":["macro",134],
+      "arg0":["macro",129],
       "arg1":"cookie-textlinks"
     },{
       "function":"_cn",
-      "arg0":["macro",135],
+      "arg0":["macro",130],
       "arg1":"\/datenschutz"
     },{
       "function":"_re",
@@ -1628,7 +1556,7 @@ data = {
       "arg1":"(^$|((^|,)6178770_1369($|,)))"
     },{
       "function":"_eq",
-      "arg0":["macro",134],
+      "arg0":["macro",129],
       "arg1":"newConsentDataPrivacyLink"
     },{
       "function":"_re",
@@ -1644,15 +1572,11 @@ data = {
       "arg1":"gtm.js"
     },{
       "function":"_eq",
-      "arg0":["macro",0],
-      "arg1":"gtm.dom"
-    },{
-      "function":"_eq",
       "arg0":["macro",109],
       "arg1":"0"
     },{
       "function":"_css",
-      "arg0":["macro",136],
+      "arg0":["macro",131],
       "arg1":"a.register_link"
     },{
       "function":"_eq",
@@ -1660,7 +1584,7 @@ data = {
       "arg1":"gtm.click"
     },{
       "function":"_css",
-      "arg0":["macro",136],
+      "arg0":["macro",131],
       "arg1":"a.cancel_button.cancelButton"
     },{
       "function":"_eq",
@@ -1697,18 +1621,14 @@ data = {
     },{
       "function":"_sw",
       "arg0":["macro",43],
-      "arg1":"\/product\/"
-    },{
-      "function":"_sw",
-      "arg0":["macro",43],
       "arg1":"\/konto\/"
     },{
       "function":"_eq",
-      "arg0":["macro",142],
+      "arg0":["macro",137],
       "arg1":"true"
     },{
       "function":"_eq",
-      "arg0":["macro",143],
+      "arg0":["macro",138],
       "arg1":"1"
     },{
       "function":"_eq",
@@ -1716,7 +1636,7 @@ data = {
       "arg1":"Search"
     },{
       "function":"_eq",
-      "arg0":["macro",145],
+      "arg0":["macro",140],
       "arg1":"moebel.de"
     },{
       "function":"_eq",
@@ -1724,11 +1644,11 @@ data = {
       "arg1":"moebel_de"
     },{
       "function":"_eq",
-      "arg0":["macro",145],
+      "arg0":["macro",140],
       "arg1":"undefined"
     },{
       "function":"_cn",
-      "arg0":["macro",130],
+      "arg0":["macro",128],
       "arg1":"payment_method"
     },{
       "function":"_eq",
@@ -1742,25 +1662,17 @@ data = {
       "function":"_eq",
       "arg0":["macro",0],
       "arg1":"bannerClick"
-    },{
-      "function":"_eq",
-      "arg0":["macro",0],
-      "arg1":"medallia_bug"
-    },{
-      "function":"_eq",
-      "arg0":["macro",27],
-      "arg1":"Form_Page_Displayed"
     }],
   "rules":[
-    [["if",0],["add",1,2,8,36,43,51]],
-    [["if",1],["add",2,49]],
+    [["if",0],["add",1,2,8,40,47,55]],
+    [["if",1],["add",2,53]],
     [["if",2],["add",2]],
-    [["if",3],["add",2,4,9,10,13,50,59]],
-    [["if",4],["add",2,9,50,52]],
+    [["if",3],["add",2,4,9,10,13,54,63]],
+    [["if",4],["add",2,9,54,56]],
     [["if",7],["add",3]],
     [["if",8,9,10,11],["add",3]],
-    [["if",15,16],["add",4,41]],
-    [["if",0,17],["add",5,39,53]],
+    [["if",15,16],["add",4,45]],
+    [["if",0,17],["add",5,43,57]],
     [["if",18],["add",6]],
     [["if",4,19],["add",7]],
     [["if",3,20],["add",7]],
@@ -1769,41 +1681,41 @@ data = {
     [["if",24],["add",14]],
     [["if",25,26],["add",15]],
     [["if",25,27],["add",15]],
-    [["if",28],["add",16]],
-    [["if",29],["add",17]],
-    [["if",30],["add",18]],
-    [["if",4,31],["add",19]],
-    [["if",31,32,33,34],["add",20]],
-    [["if",31,33,35,36,37],["add",21]],
-    [["if",31,33,38,39],["add",21]],
-    [["if",40],["add",22]],
-    [["if",41],["add",23,24,25,26,29,30,31,32,33,34,35,63,0]],
-    [["if",42],["add",27,28,41,64,57]],
-    [["if",44,45],["add",37]],
-    [["if",45,46],["add",38]],
-    [["if",3,17],["add",39,52,55]],
-    [["if",47,48],["add",39]],
-    [["if",0,47],["add",39]],
-    [["if",3,49],["add",40]],
-    [["if",3,50],["add",41]],
-    [["if",51,52],["add",41]],
-    [["if",3,53],["unless",54],["add",41]],
-    [["if",3,57],["add",42]],
-    [["if",3],["unless",58],["add",43]],
-    [["if",3,17,59],["add",44]],
-    [["if",0,17,60],["add",45]],
-    [["if",3,17,61,62],["add",46]],
-    [["if",45,63],["add",47]],
-    [["if",42,57],["unless",64],["add",48]],
-    [["if",1,10],["add",54]],
-    [["if",13,14],["unless",12],["add",56]],
-    [["if",65,66],["add",58]],
-    [["if",67],["add",60,61]],
-    [["if",24,68],["add",62]],
-    [["if",6],["unless",5],["block",2,7,9,49,50,51,52,53,54]],
+    [["if",28],["add",16,17]],
+    [["if",24,29],["add",18]],
+    [["if",30],["add",19]],
+    [["if",31],["add",20]],
+    [["if",32],["add",21,45,31,32,61]],
+    [["if",34],["add",22]],
+    [["if",4,35],["add",23]],
+    [["if",35,36,37,38],["add",24]],
+    [["if",35,37,39,40,41],["add",25]],
+    [["if",35,37,42,43],["add",25]],
+    [["if",44],["add",26]],
+    [["if",45],["add",27,28,29,30,33,34,35,36,37,38,39,64,0]],
+    [["if",47,48],["add",41]],
+    [["if",48,49],["add",42]],
+    [["if",3,17],["add",43,56,59]],
+    [["if",50,51],["add",43]],
+    [["if",0,50],["add",43]],
+    [["if",3,52],["add",44]],
+    [["if",3,53],["add",45]],
+    [["if",54,55],["add",45]],
+    [["if",3,56],["unless",57],["add",45]],
+    [["if",3,59],["add",46]],
+    [["if",3],["unless",60],["add",47]],
+    [["if",3,17,61],["add",48]],
+    [["if",0,17,62],["add",49]],
+    [["if",3,17,63,64],["add",50]],
+    [["if",48,65],["add",51]],
+    [["if",32,59],["unless",66],["add",52]],
+    [["if",1,10],["add",58]],
+    [["if",13,14],["unless",12],["add",60]],
+    [["if",67,68],["add",62]],
+    [["if",6],["unless",5],["block",2,7,9,53,54,55,56,57,58]],
     [["if",12,13,14],["block",3]],
-    [["if",6,43],["block",36,37,38,41,56]],
-    [["if",42,55],["block",41,64]],
-    [["if",42,56],["block",41]],
-    [["if",42,54],["block",41]]]
+    [["if",32,33],["block",21,45]],
+    [["if",6,46],["block",40,41,42,45,60]],
+    [["if",32,58],["block",45]],
+    [["if",32,57],["block",45]]]
 }
