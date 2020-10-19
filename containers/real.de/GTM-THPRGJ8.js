@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"672",
+  "version":"673",
   
   "macros":[{
       "function":"__e"
