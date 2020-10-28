@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"81",
+  "version":"82",
   
   "macros":[{
       "function":"__e"
@@ -887,8 +887,9 @@ data = {
     },{
       "function":"__html",
       "metadata":["map"],
+      "consent":["list"],
       "once_per_event":true,
-      "vtp_html":"\u003Cscript type=\"text\/gtmscript\"\u003Ewindow.S1_CMP_AGF\u0026\u0026[\"\/\/cdn-gl.imrworldwide.com\/novms\/js\/2\/ggcmb510.js\",\"\/\/de-config.sensic.net\/sui-connector.js\"].forEach(function(b){var a=document.createElement(\"script\");a.setAttribute(\"src\",b);document.head.appendChild(a)});\u003C\/script\u003E",
+      "vtp_html":"\u003Cscript type=\"text\/gtmscript\"\u003E(function(){if(window.S1_CMP_AGF)if(window._nolggGlobalParams)[\"\/\/cdn-gl.imrworldwide.com\/novms\/js\/2\/ggcmb510.js\",\"\/\/de-config.sensic.net\/sui-connector.js\"].forEach(function(a){var b=document.createElement(\"script\");b.src=a;document.head.appendChild(b)});else{window.s1AgfConfig={apid:\"P857907E9-F760-43CF-B8C9-D8D7BFE9A1A0\"};\/(local|sport1\\.it|stage)\/.test(location.hostname)\u0026\u0026(window.s1AgfConfig={apid:\"T857907E9-F760-43CF-B8C9-D8D7BFE9A1A0\",debug:{nol_sdkDebug:\"debug\"}});var e=document.createElement(\"script\");\ne.src=\"\/\/de-config.sensic.net\/sui-connector.js\";e.addEventListener(\"load\",function(){window.gfkConnector.init(function(a){window.s1AgfConfig.gfkId=a})});document.head.appendChild(e);!function(a,b){function k(d){return\"object\"==typeof d?JSON.parse(JSON.stringify(d)):d}a[b]=a[b]||{nlsQ:function(d,c,n){var l=a.document,f=l.createElement(\"script\");f.async=1;f.src=(\"http:\"===a.location.protocol?\"http:\":\"https:\")+\"\/\/cdn-gl.nmrodam.com\/conf\/\"+d+\".js#name\\x3d\"+c+\"\\x26ns\\x3d\"+b;d=l.getElementsByTagName(\"script\")[0];\nreturn d.parentNode.insertBefore(f,d),a[b][c]=a[b][c]||{g:n||{},ggPM:function(g,h,m,p,q){a[b][c].q=a[b][c].q||[];try{var r=k([g,h,m,p,q]);a[b][c].q.push(r)}catch(t){console\u0026\u0026console.log\u0026\u0026console.log(\"Error: Cannot register event in Nielsen SDK queue.\")}},trackEvent:function(g){a[b][c].te=a[b][c].te||[];try{var h=k(g);a[b][c].te.push(h)}catch(m){console\u0026\u0026console.log\u0026\u0026console.log(\"Error: Cannot register event in Nielsen SDK queue.\")}}},a[b][c]}}}(window,\"NOLBUNDLE\")}})();\u003C\/script\u003E\n",
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
