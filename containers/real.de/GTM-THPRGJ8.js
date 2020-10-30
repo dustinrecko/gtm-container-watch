@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"677",
+  "version":"678",
   
   "macros":[{
       "function":"__e"
@@ -1408,9 +1408,10 @@ data = {
       "arg0":["macro",0],
       "arg1":"bannerClick"
     },{
-      "function":"_sw",
+      "function":"_re",
       "arg0":["macro",41],
-      "arg1":"\/product-reviews\/thankyou"
+      "arg1":"^\\\/product-reviews\\\/.*\\\/(thankyou|rate-real)(\\\/)?(\\?.*|\\#.*)?$",
+      "ignore_case":true
     }],
   "rules":[
     [["if",0],["add",0,1,7,22,29,37]],
