@@ -745,7 +745,7 @@ data = {
       "vtp_conversionLabel":["macro",6],
       "vtp_url":["macro",7],
       "vtp_enableProductReportingCheckbox":true,
-      "vtp_enableNewCustomerReportingCheckbox":false,
+      "vtp_enableNewCustomerReportingCheckbox":true,
       "vtp_enableEnhancedConversionsCheckbox":false,
       "vtp_enableEnhancedConversionVariable":false,
       "vtp_enableRdpCheckbox":true,
