@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"707",
+  "version":"710",
   
   "macros":[{
       "function":"__e"
@@ -1178,7 +1178,7 @@ data = {
       "metadata":["map"],
       "consent":["list"],
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003Etry{window._uxa=window._uxa||[],window._uxa.push([\"trackDynamicVariable\",{key:\"backend_abtest\",value:",["escape",["macro",129],8,16],"}])}catch(a){var errMsg=\"undefined\"===typeof a||\"undefined\"===typeof a.message?\"Unknown error\":a.message;dataLayer.push({event:\"GAevent\",eventCategory:\"JavaScript Error\",eventAction:\"CS_Optimizely_clientSideActivation \"+errMsg})};\u003C\/script\u003E"],
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003Etry{window._uxa=window._uxa||[],window._uxa.push([\"trackDynamicVariable\",{key:\"backend_abtest\",value:",["escape",["macro",129],8,16],"}])}catch(a){var errMsg=\"undefined\"===typeof a||\"undefined\"===typeof a.message?\"Unknown error\":a.message;dataLayer.push({event:\"GAevent\",eventCategory:\"JavaScript Error\",eventAction:\"CS_Optimizely_link_dynamicVar \"+errMsg})};\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
@@ -1218,7 +1218,7 @@ data = {
       "metadata":["map"],
       "consent":["list"],
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003Etry{window._uxa=window._uxa||[],window._uxa.push([\"trackPageEvent\",",["escape",["macro",129],8,16],"])}catch(a){var errMsg=\"undefined\"===typeof a||\"undefined\"===typeof a.message?\"Unknown error\":a.message;dataLayer.push({event:\"GAevent\",eventCategory:\"JavaScript Error\",eventAction:\"CS_Optimizely_SendABtest_PageEvent \"+errMsg})};\u003C\/script\u003E"],
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003Etry{window._uxa=window._uxa||[],window._uxa.push([\"trackPageEvent\",",["escape",["macro",129],8,16],"])}catch(a){var errMsg=\"undefined\"===typeof a||\"undefined\"===typeof a.message?\"Unknown error\":a.message;dataLayer.push({event:\"GAevent\",eventCategory:\"JavaScript Error\",eventAction:\"CS_Optimizely_link_pageEvent \"+errMsg})};\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
