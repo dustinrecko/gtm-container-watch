@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"274",
+  "version":"275",
   
   "macros":[{
       "function":"__e"
@@ -59,7 +59,8 @@ data = {
       "vtp_trackingId":"UA-58541733-2",
       "vtp_enableRecaptchaOption":false,
       "vtp_enableUaRlsa":false,
-      "vtp_enableUseInternalVersion":false
+      "vtp_enableUseInternalVersion":false,
+      "vtp_enableGA4Schema":false
     },{
       "function":"__jsm",
       "vtp_javascript":["template","(function(){try{return{ecommerce:{purchase:{actionField:{id:_thrive_order.order.id,affiliation:\"\",revenue:_thrive_order.order.total_readable,tax:\"0.00\",shipping:\"0.00\",coupon:\"\"},products:[{name:_thrive_order.order.product.name,id:_thrive_order.order.product.id,price:_thrive_order.order.product.total_readable,brand:\"Measureschool\",category:\"Membership\",quantity:1,coupon:\"\"}]}}}}catch(a){}})();"]
@@ -258,6 +259,7 @@ data = {
       "vtp_enableUaRlsa":false,
       "vtp_enableUseInternalVersion":false,
       "vtp_enableFirebaseCampaignData":true,
+      "vtp_enableGA4Schema":false,
       "tag_id":5
     },{
       "function":"__ua",
@@ -278,6 +280,7 @@ data = {
       "vtp_enableFirebaseCampaignData":true,
       "vtp_ecommerceIsEnabled":true,
       "vtp_trackTypeIsEvent":true,
+      "vtp_enableGA4Schema":false,
       "tag_id":11
     },{
       "function":"__ua",
@@ -299,6 +302,7 @@ data = {
       "vtp_enableUseInternalVersion":false,
       "vtp_enableFirebaseCampaignData":true,
       "vtp_trackTypeIsEvent":true,
+      "vtp_enableGA4Schema":false,
       "tag_id":27
     },{
       "function":"__ua",
@@ -315,6 +319,7 @@ data = {
       "vtp_enableUseInternalVersion":false,
       "vtp_enableFirebaseCampaignData":true,
       "vtp_trackTypeIsEvent":true,
+      "vtp_enableGA4Schema":false,
       "tag_id":56
     },{
       "function":"__ua",
@@ -334,6 +339,7 @@ data = {
       "vtp_enableFirebaseCampaignData":true,
       "vtp_ecommerceIsEnabled":true,
       "vtp_trackTypeIsEvent":true,
+      "vtp_enableGA4Schema":false,
       "tag_id":59
     },{
       "function":"__paused",
@@ -376,6 +382,7 @@ data = {
       "vtp_enableUseInternalVersion":false,
       "vtp_enableFirebaseCampaignData":true,
       "vtp_trackTypeIsEvent":true,
+      "vtp_enableGA4Schema":false,
       "tag_id":232
     },{
       "function":"__awct",
@@ -430,6 +437,7 @@ data = {
       "vtp_enableUseInternalVersion":false,
       "vtp_enableFirebaseCampaignData":true,
       "vtp_trackTypeIsEvent":true,
+      "vtp_enableGA4Schema":false,
       "tag_id":283
     },{
       "function":"__img",
@@ -717,7 +725,7 @@ data = {
     },{
       "function":"_re",
       "arg0":["macro",7],
-      "arg1":"(products|services)"
+      "arg1":"(products|services|black-friday-checkout)"
     },{
       "function":"_eq",
       "arg0":["macro",0],
