@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"710",
+  "version":"711",
   
   "macros":[{
       "function":"__e"
@@ -355,7 +355,7 @@ data = {
       "vtp_enableIgnoreEmptyQueryParam":false
     },{
       "function":"__jsm",
-      "vtp_javascript":["template","(function(){if(\"undefined\"!=typeof document.cookie){var a=document.cookie;a=a.split(\"_ga\\x3d\");a=a[a.length-1];a=a.split(\";\");a=a[0];a=a.split(\".\");return a=a[2].concat(\".\",a[3])}return\"not set\"})();"]
+      "vtp_javascript":["template","(function(){try{if(\"undefined\"!==typeof document.cookie){var a=document.cookie.match(\/(^| )_ga=GA1\\.2\\.(\\d+\\.\\d+);\/);return a?a[2]:\"not set\"}return\"not set\"}catch(b){return a=\"undefined\"===typeof b||\"undefined\"===typeof b.message?\"Unknown error\":b.message,dataLayer.push({event:\"GAevent_ni\",eventCategory:\"JavaScript Error\",eventAction:\"ga_clientId \"+a}),\"not set\"}})();"]
     },{
       "function":"__jsm",
       "vtp_javascript":["template","(function(){var b,a=window.RequestFileSystem||window.webkitRequestFileSystem;a\u0026\u0026a(0,100,function(a){b=\"normal\"},function(a){b=\"incognito\"});return b})();"]
