@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"83",
+  "version":"86",
   
   "macros":[{
       "function":"__e"
@@ -889,7 +889,7 @@ data = {
       "metadata":["map"],
       "consent":["list"],
       "once_per_event":true,
-      "vtp_html":"\u003Cscript type=\"text\/gtmscript\"\u003E(function(){if(window.S1_CMP_AGF){window.s1AgfConfig={apid:\"P857907E9-F760-43CF-B8C9-D8D7BFE9A1A0\"};\/(local|sport1\\.it|stage)\/.test(location.hostname)\u0026\u0026(window.s1AgfConfig={apid:\"T857907E9-F760-43CF-B8C9-D8D7BFE9A1A0\",debug:{nol_sdkDebug:\"debug\"}});var e=document.createElement(\"script\");e.src=\"\/\/de-config.sensic.net\/sui-connector.js\";e.addEventListener(\"load\",function(){window.gfkConnector.init(function(a){window.s1AgfConfig.gfkId=a})});document.head.appendChild(e);!function(a,b){function k(d){return\"object\"==\ntypeof d?JSON.parse(JSON.stringify(d)):d}a[b]=a[b]||{nlsQ:function(d,c,n){var l=a.document,f=l.createElement(\"script\");f.async=1;f.src=(\"http:\"===a.location.protocol?\"http:\":\"https:\")+\"\/\/cdn-gl.nmrodam.com\/conf\/\"+d+\".js#name\\x3d\"+c+\"\\x26ns\\x3d\"+b;d=l.getElementsByTagName(\"script\")[0];return d.parentNode.insertBefore(f,d),a[b][c]=a[b][c]||{g:n||{},ggPM:function(g,h,m,p,q){a[b][c].q=a[b][c].q||[];try{var r=k([g,h,m,p,q]);a[b][c].q.push(r)}catch(t){console\u0026\u0026console.log\u0026\u0026console.log(\"Error: Cannot register event in Nielsen SDK queue.\")}},\ntrackEvent:function(g){a[b][c].te=a[b][c].te||[];try{var h=k(g);a[b][c].te.push(h)}catch(m){console\u0026\u0026console.log\u0026\u0026console.log(\"Error: Cannot register event in Nielsen SDK queue.\")}}},a[b][c]}}}(window,\"NOLBUNDLE\")}})();\u003C\/script\u003E\n",
+      "vtp_html":"\u003Cscript type=\"text\/gtmscript\"\u003E(function(){if(window.S1_CMP_AGF){var e={\"www.sport1.de\":{apid:\"P857907E9-F760-43CF-B8C9-D8D7BFE9A1A0\"},\"m.sport1.de\":{apid:\"P857907E9-F760-43CF-B8C9-D8D7BFE9A1A0\"},\"ng-outgest-edge-sport1-website-staging.sport1.it\":{apid:\"TC9323DEB-C709-49F2-A0D4-35AE6A7B453C\",debug:{nol_sdkDebug:\"debug\"}}};window.s1AgfConfig=e[location.hostname]||{apid:\"T857907E9-F760-43CF-B8C9-D8D7BFE9A1A0\",debug:{nol_sdkDebug:\"debug\"}};e=document.createElement(\"script\");e.src=\"\/\/de-config.sensic.net\/sui-connector.js\";e.addEventListener(\"load\",\nfunction(){window.gfkConnector.init(function(a){window.s1AgfConfig.gfkId=a})});document.head.appendChild(e);!function(a,b){function k(d){return\"object\"==typeof d?JSON.parse(JSON.stringify(d)):d}a[b]=a[b]||{nlsQ:function(d,c,n){var l=a.document,f=l.createElement(\"script\");f.async=1;f.src=(\"http:\"===a.location.protocol?\"http:\":\"https:\")+\"\/\/cdn-gl.nmrodam.com\/conf\/\"+d+\".js#name\\x3d\"+c+\"\\x26ns\\x3d\"+b;d=l.getElementsByTagName(\"script\")[0];return d.parentNode.insertBefore(f,d),a[b][c]=a[b][c]||{g:n||{},\nggPM:function(g,h,m,p,q){a[b][c].q=a[b][c].q||[];try{var r=k([g,h,m,p,q]);a[b][c].q.push(r)}catch(t){console\u0026\u0026console.log\u0026\u0026console.log(\"Error: Cannot register event in Nielsen SDK queue.\")}},trackEvent:function(g){a[b][c].te=a[b][c].te||[];try{var h=k(g);a[b][c].te.push(h)}catch(m){console\u0026\u0026console.log\u0026\u0026console.log(\"Error: Cannot register event in Nielsen SDK queue.\")}}},a[b][c]}}}(window,\"NOLBUNDLE\")}})();\u003C\/script\u003E\n\n",
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
@@ -1131,8 +1131,9 @@ data = {
     },{
       "function":"__html",
       "metadata":["map"],
+      "consent":["list"],
       "once_per_event":true,
-      "vtp_html":"\u003Cscript type=\"text\/gtmscript\"\u003Ewindow.S1_CMP_HAS_CONSENT=function(b,a){if(Sport1Tools.isBot())return a();__tcfapi(\"getCustomVendorConsents\",2,function(c,d){d\u0026\u0026c.grants[b].vendorGrant\u0026\u0026a()})};\u003C\/script\u003E",
+      "vtp_html":"\u003Cscript type=\"text\/gtmscript\"\u003Ewindow.S1_CMP_HAS_CONSENT=function(b,a){if(\/bingbot|facebookexternalhit|facebot|google \\(\\+https:\\\/\\\/developers\\.google.com\\\/\\+\\\/web\\\/snippet\\\/\\)|googlebot|mediapartners-google|msnbot|taboolabot|twitterbot|yahoocachesystem|ysearch\/.test(navigator.userAgent.toLowerCase()))return a();__tcfapi(\"getCustomVendorConsents\",2,function(c,d){d\u0026\u0026c.grants[b].vendorGrant\u0026\u0026a()})};\u003C\/script\u003E",
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
