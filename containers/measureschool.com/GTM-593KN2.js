@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"275",
+  "version":"276",
   
   "macros":[{
       "function":"__e"
@@ -466,7 +466,7 @@ data = {
       "consent":["list"],
       "once_per_event":true,
       "vtp_eventName":["macro",25],
-      "vtp_eventParameters":["list",["map","name","items","value",["macro",26]]],
+      "vtp_eventParameters":["list",["map","name","items","value",["macro",26]],["map","name","value","value",["macro",19]],["map","name","transaction_id","value",["macro",18]],["map","name","currency","value","USD"]],
       "vtp_measurementId":"G-QG5JR71SF7",
       "vtp_enableUserProperties":true,
       "vtp_enableGA4Name":true,
