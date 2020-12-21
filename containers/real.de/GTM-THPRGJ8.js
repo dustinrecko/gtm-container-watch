@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"725",
+  "version":"726",
   
   "macros":[{
       "function":"__e"
@@ -819,6 +819,7 @@ data = {
       "function":"__ua",
       "metadata":["map"],
       "consent":["list"],
+      "setup_tags":["list",["tag",48,0]],
       "once_per_event":true,
       "vtp_overrideGaSettings":false,
       "vtp_trackType":"TRACK_PAGEVIEW",
@@ -1063,7 +1064,6 @@ data = {
       "function":"__html",
       "metadata":["map"],
       "consent":["list"],
-      "setup_tags":["list",["tag",48,0]],
       "once_per_event":true,
       "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\" id=\"gtmctagid_CS_pageview\"\u003E(function(){try{window._uxa=window._uxa||[];window._uxa.push([\"setPath\",window.location.pathname+window.location.hash.replace(\"#\",\"?__\")]);\"undefined\"!==typeof dataLayer\u0026\u0026(void 0!==",["escape",["macro",127],8,16],"\u0026\u0026window._uxa.push([\"setCustomVariable\",3,\"product_brand\",",["escape",["macro",127],8,16],",3]),void 0!==",["escape",["macro",30],8,16],"\u0026\u0026window._uxa.push([\"setCustomVariable\",5,\"view_type\",",["escape",["macro",30],8,16],",3]),void 0!==",["escape",["macro",32],8,16],"\u0026\u0026window._uxa.push([\"setCustomVariable\",6,\"virt_path\",",["escape",["macro",32],8,16],",\n3]),void 0!==",["escape",["macro",128],8,16],"\u0026\u0026window._uxa.push([\"setCustomVariable\",9,\"product_category\",String(",["escape",["macro",128],8,16],"),3]),void 0!==",["escape",["macro",38],8,16],"\u0026\u0026window._uxa.push([\"setCustomVariable\",10,\"search_term\",",["escape",["macro",38],8,16],",3]),void 0!==",["escape",["macro",70],8,16],"\u0026\u0026window._uxa.push([\"setCustomVariable\",12,\"market_name\",",["escape",["macro",70],8,16],",3]),void 0!==",["escape",["macro",58],8,16],"\u0026\u0026window._uxa.push([\"setCustomVariable\",15,\"search results\",String(",["escape",["macro",58],8,16],"),3]),void 0!==",["escape",["macro",81],8,16],"\u0026\u0026\nwindow._uxa.push([\"setCustomVariable\",16,\"logged_in_status\",String(",["escape",["macro",81],8,16],"),3]),\"null\"!==",["escape",["macro",129],8,16],"\u0026\u0026window._uxa.push([\"setCustomVariable\",18,\"js_isAdvisorPage\",",["escape",["macro",129],8,16],",3]),void 0!==",["escape",["macro",71],8,16],"\u0026\u0026window._uxa.push([\"setCustomVariable\",19,\"user.seller_id\",",["escape",["macro",71],8,16],",3]),void 0!==",["escape",["macro",79],8,16],"\u0026\u0026window._uxa.push([\"setCustomVariable\",20,\"product.seller_type\",",["escape",["macro",79],8,16],",3]),",["escape",["macro",130],8,16],"\u0026\u0026window._uxa.push([\"trackDynamicVariable\",\n{key:\"backend_abtest\",value:",["escape",["macro",130],8,16],"}]),void 0!==",["escape",["macro",89],8,16],"\u0026\u0026window._uxa.push([\"trackDynamicVariable\",{key:\"client_abtest\",value:",["escape",["macro",89],8,16],"}]),",["escape",["macro",130],8,16],"\u0026\u0026window._uxa.push([\"trackPageEvent\",",["escape",["macro",130],8,16],"]));if(\"undefined\"===typeof CS_CONF){var a=document.createElement(\"script\");a.type=\"text\/javascript\";a.async=!0;a.src=\"\/\/t.contentsquare.net\/uxa\/8fb48415ac213.js\";document.getElementsByTagName(\"head\")[0].appendChild(a)}else window._uxa.push([\"trackPageview\",\nwindow.location.pathname+window.location.hash.replace(\"#\",\"?__\")]);\"1\"!=",["escape",["macro",132],8,16],"\u0026\u0026(window._uxa.push([\"getSessionKey\",{callback:function(b){dataLayer.push({event:\"GAevent\",eventCategory:\"csSessionKey\",eventAction:b,eventLabel:void 0,eventValue:void 0})}}]),",["escape",["macro",131],8,16],"\u0026\u0026sessionStorage.setItem(\"cs_s\",\"1\"))}catch(b){a=\"undefined\"===typeof b||\"undefined\"===typeof b.message?\"Unknown error\":b.message,dataLayer.push({event:\"GAevent\",eventCategory:\"JavaScript Error\",eventAction:\"CS_PageView \"+\na})}})();\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
