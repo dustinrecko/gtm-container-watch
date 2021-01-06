@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"740",
+  "version":"742",
   
   "macros":[{
       "function":"__e"
@@ -429,7 +429,7 @@ data = {
       "vtp_javascript":["template","(function(){return navigator.userAgent})();"]
     },{
       "function":"__jsm",
-      "vtp_javascript":["template","(function(){var a=",["escape",["macro",30],8,16],",b=",["escape",["macro",31],8,16],";return\"Other\"==a?\"\/rabattaktionen\/\"==b.match(\/^\\\/rabattaktionen\\\/\/)?\"CampaignHubPage\":\"\/campaigns\/\"==b.match(\/^\\\/campaigns\\\/\/)?\"Campaign\":\"Other\":a})();"]
+      "vtp_javascript":["template","(function(){var b=",["escape",["macro",30],8,16],",a=",["escape",["macro",31],8,16],";return\"Other\"==b?\"\/rabattaktionen\/\"==a.match(\/^\\\/rabattaktionen\\\/\/)?\"CampaignHubPage\":\"\/campaigns\/\"==a.match(\/^\\\/campaigns\\\/\/)?\"Campaign\":\"\/geschenkideen\/\"==a.match(\/^\\\/geschenkideen\\\/\/)||\"\/beratung\/\"==a.match(\/^\\\/beratung\\\/\/)||\"\/weihnachten\/\"==a.match(\/^\\\/weihnachten\\\/\/)||\"\/nachhaltig-leben\/\"==a.match(\/^\\\/nachhaltig-leben\\\/\/)||\"\/kaffeewissen\/\"==a.match(\/^\\\/kaffeewissen\\\/\/)?\"Content\":\"Other\":b})();"]
     },{
       "function":"__v",
       "vtp_dataLayerVersion":2,
@@ -517,7 +517,7 @@ data = {
       "vtp_javascript":["template","(function(){return window.location.pathname+window.location.search+window.location.hash})();"]
     },{
       "function":"__jsm",
-      "vtp_javascript":["template","(function(){try{if(\"pageView\"===",["escape",["macro",10],8,16],"){var a=\"Item\"===",["escape",["macro",30],8,16],"||0===",["escape",["macro",32],8,16],".indexOf(\"\/onlineshop\/product\"),c=\"undefined\"!==typeof ",["escape",["macro",15],8,16],"\u0026\u0026\"undefined\"!=typeof ",["escape",["macro",15],8,16],".offers\u0026\u00260\u003C",["escape",["macro",15],8,16],".offers.length;if(a\u0026\u0026c){var d=\"undefined\"!==typeof ",["escape",["macro",15],8,16],"\u0026\u0026\"undefined\"!==typeof ",["escape",["macro",15],8,16],".offers\u0026\u00260\u003C",["escape",["macro",15],8,16],".offers.length\u0026\u0026\"undefined\"!==typeof ",["escape",["macro",15],8,16],".offers[0].shipping_cost?",["escape",["macro",15],8,16],".offers[0].shipping_cost:\n0,e=100*(",["escape",["macro",15],8,16],".offers[0].price+d);return Math.round(e)}}}catch(b){a=\"undefined\"===typeof b||\"undefined\"===typeof b.message?\"Unknown error\":b.message,window.dataLayer=window.dataLayer||[],dataLayer.push({event:\"GAevent\",eventCategory:\"JavaScript Error\",eventAction:\"js_priceOfPdpMainProduct \"+a})}})();"]
+      "vtp_javascript":["template","(function(){try{if(\"pageView\"===",["escape",["macro",10],8,16],"){var a=\"Item\"===",["escape",["macro",30],8,16],"||0===",["escape",["macro",32],8,16],".indexOf(\"\/onlineshop\/product\");if(a){var c=\"undefined\"!==typeof ",["escape",["macro",15],8,16],"\u0026\u0026\"undefined\"!==typeof ",["escape",["macro",15],8,16],".offers\u0026\u00260\u003C",["escape",["macro",15],8,16],".offers.length;if(c){var d=\"undefined\"!==typeof ",["escape",["macro",15],8,16],".offers[0].price;if(d){var e=\"undefined\"!==typeof ",["escape",["macro",15],8,16],".offers[0].shipping_cost?",["escape",["macro",15],8,16],".offers[0].shipping_cost:0,f=100*(",["escape",["macro",15],8,16],".offers[0].price+\ne);return Math.round(f)}}}}}catch(b){a=\"undefined\"===typeof b||\"undefined\"===typeof b.message?\"Unknown error\":b.message,window.dataLayer=window.dataLayer||[],dataLayer.push({event:\"GAevent\",eventCategory:\"JavaScript Error\",eventAction:\"js_priceOfPdpMainProduct \"+a})}})();"]
     },{
       "function":"__gas",
       "vtp_useDebugVersion":false,
