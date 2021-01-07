@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"742",
+  "version":"745",
   
   "macros":[{
       "function":"__e"
@@ -429,7 +429,7 @@ data = {
       "vtp_javascript":["template","(function(){return navigator.userAgent})();"]
     },{
       "function":"__jsm",
-      "vtp_javascript":["template","(function(){var b=",["escape",["macro",30],8,16],",a=",["escape",["macro",31],8,16],";return\"Other\"==b?\"\/rabattaktionen\/\"==a.match(\/^\\\/rabattaktionen\\\/\/)?\"CampaignHubPage\":\"\/campaigns\/\"==a.match(\/^\\\/campaigns\\\/\/)?\"Campaign\":\"\/geschenkideen\/\"==a.match(\/^\\\/geschenkideen\\\/\/)||\"\/beratung\/\"==a.match(\/^\\\/beratung\\\/\/)||\"\/weihnachten\/\"==a.match(\/^\\\/weihnachten\\\/\/)||\"\/nachhaltig-leben\/\"==a.match(\/^\\\/nachhaltig-leben\\\/\/)||\"\/kaffeewissen\/\"==a.match(\/^\\\/kaffeewissen\\\/\/)?\"Content\":\"Other\":b})();"]
+      "vtp_javascript":["template","(function(){var b=",["escape",["macro",30],8,16],",a=",["escape",["macro",31],8,16],";return\"Other\"==b?\"\/rabattaktionen\/\"==a.match(\/^\\\/rabattaktionen\\\/\/)?\"CampaignHubPage\":\"\/campaigns\/\"==a.match(\/^\\\/campaigns\\\/\/)?\"Campaign\":\"\/geschenkideen\/\"==a.match(\/^\\\/geschenkideen\\\/\/)||\"\/beratung\/\"==a.match(\/^\\\/beratung\\\/\/)||\"\/weihnachten\/\"==a.match(\/^\\\/weihnachten\\\/\/)||\"\/nachhaltig-leben\/\"==a.match(\/^\\\/nachhaltig-leben\\\/\/)||\"\/kaffeewissen\/\"==a.match(\/^\\\/kaffeewissen\\\/\/)?\"Content\":\"Other\":\"Item\"==b?\"\/product-reviews\/\"==a.match(\/^\\\/product-reviews\\\/\/)?\n\"ProductReview\":\"Item\":b})();"]
     },{
       "function":"__v",
       "vtp_dataLayerVersion":2,
@@ -566,7 +566,7 @@ data = {
       "vtp_dataLayerVersion":1
     },{
       "function":"__jsm",
-      "vtp_javascript":["template","(function(){try{var a=",["escape",["macro",98],8,16],";if(a){var b;for(b=0;b\u003Ca.length;b++)a.charCodeAt(b);return 1}}catch(c){a=\"undefined\"===typeof c||\"undefined\"===typeof c.toString()?\"Unknown error\":c.toString(),dataLayer.push({event:\"GAevent\",eventCategory:\"JavaScript Error\",eventAction:\"js_GA4_shouldTrack \"+a})}})();"]
+      "vtp_javascript":["template","(function(){try{var a=",["escape",["macro",98],8,16],";if(a){var e=90,b=0,c;for(c=0;c\u003Ca.length;c++){var f=a.charCodeAt(c);b=(b\u003C\u003C5)-b+f;b|=0}var g=Math.abs(b)%100;return\"0090bfa49d9bc876e2386800bee46c42da98aa12742f5b937b200982e5d1abca\"==a?1:g\u003E=e?1:0}}catch(d){a=\"undefined\"===typeof d||\"undefined\"===typeof d.toString()?\"Unknown error\":d.toString(),dataLayer.push({event:\"GAevent\",eventCategory:\"JavaScript Error\",eventAction:\"js_GA4_shouldTrack \"+a})}})();"]
     },{
       "function":"__v",
       "vtp_dataLayerVersion":2,
@@ -1029,7 +1029,7 @@ data = {
       "metadata":["map"],
       "consent":["list"],
       "once_per_event":true,
-      "vtp_fieldsToSet":["list",["map","name","anonymizeIp","value","true"],["map","name","page","value",["macro",43]],["map","name","userId","value",["macro",45]],["map","name","expId","value",["macro",46]],["map","name","expVar","value",["macro",47]],["map","name","referrer","value",["macro",49]],["map","name","exp","value",["macro",25]],["map","name","location","value",["macro",52]],["map","name","allowAdFeatures","value",["macro",54]]],
+      "vtp_fieldsToSet":["list",["map","name","anonymizeIp","value","true"],["map","name","page","value",["macro",43]],["map","name","userId","value",["macro",45]],["map","name","expId","value",["macro",46]],["map","name","expVar","value",["macro",47]],["map","name","exp","value",["macro",25]],["map","name","referrer","value",["macro",49]],["map","name","location","value",["macro",52]],["map","name","allowAdFeatures","value",["macro",54]],["map","name","view_type","value",["macro",102]]],
       "vtp_sendPageView":true,
       "vtp_measurementId":"G-9WNMNEZ2M0",
       "vtp_enableUserProperties":true,
@@ -1696,7 +1696,7 @@ data = {
     [["if",2],["unless",1],["block",0,1,4,5,6,7,8,41,42,43,44,45,46]],
     [["if",11,12,13],["block",2]],
     [["if",2],["unless",14],["block",2,3,9,10,11,13,14,15,16,17,18,19,31,33,36,39,48,51,52]],
-    [["if",2,25],["block",13,14]],
+    [["if",2,25],["block",13,14,15,16,17,18,19]],
     [["if",2,34],["block",31,33,48,52]],
     [["if",31,40],["block",33]],
     [["if",31,41],["block",33]],
