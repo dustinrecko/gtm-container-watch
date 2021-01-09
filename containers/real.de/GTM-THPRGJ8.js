@@ -1,12 +1,12 @@
 data = {
 "resource": {
-  "version":"745",
+  "version":"746",
   
   "macros":[{
       "function":"__e"
     },{
       "function":"__k",
-      "vtp_decodeCookie":false,
+      "vtp_decodeCookie":true,
       "vtp_name":"real-consent-level"
     },{
       "function":"__v",
