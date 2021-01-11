@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"746",
+  "version":"747",
   
   "macros":[{
       "function":"__e"
@@ -1375,8 +1375,9 @@ data = {
     },{
       "function":"__html",
       "metadata":["map"],
+      "consent":["list"],
       "once_per_event":true,
-      "vtp_html":"\u003Cscript data-gtmsrc=\"\/\/assets.adobedtm.com\/5e52683bb000\/fbd4332edb28\/launch-fe409e5ac43f-development.min.js\" async type=\"text\/gtmscript\"\u003E\u003C\/script\u003E",
+      "vtp_html":"\u003Cscript type=\"text\/gtmscript\"\u003Ewindow.setTimeout(function(){var a=document.createElement(\"script\");a.setAttribute(\"src\",\"\/\/assets.adobedtm.com\/5e52683bb000\/fbd4332edb28\/launch-fe409e5ac43f-development.min.js\");a.setAttribute(\"async\",\"true\");document.body.appendChild(a)},1);\u003C\/script\u003E",
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
