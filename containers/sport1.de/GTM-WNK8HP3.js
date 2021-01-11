@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"94",
+  "version":"95",
   
   "macros":[{
       "function":"__e"
@@ -857,8 +857,9 @@ data = {
     },{
       "function":"__html",
       "metadata":["map"],
+      "consent":["list"],
       "once_per_event":true,
-      "vtp_html":"\u003Cscript type=\"text\/gtmscript\"\u003E__tcfapi(\"getCustomVendorConsents\",2,function(e,f){var g=\"5ee7add94c24944fdb5c5ac6\";f\u0026\u0026e.grants[g].vendorGrant\u0026\u0026function(a,c,h,k,d,b){a.hj=a.hj||function(){(a.hj.q=a.hj.q||[]).push(arguments)};a._hjSettings={hjid:921216,hjsv:6};d=c.getElementsByTagName(\"head\")[0];b=c.createElement(\"script\");b.async=1;b.src=h+a._hjSettings.hjid+k+a._hjSettings.hjsv;d.appendChild(b)}(window,document,\"https:\/\/static.hotjar.com\/c\/hotjar-\",\".js?sv\\x3d\")});\u003C\/script\u003E\n",
+      "vtp_html":"\u003Cscript type=\"text\/gtmscript\"\u003E__tcfapi(\"getCustomVendorConsents\",2,function(e,f){var g=\"5ee7add94c24944fdb5c5ac6\";f\u0026\u0026e.grants[g].vendorGrant\u0026\u0026function(a,d,h,k,b,c){a.hj=a.hj||function(){(a.hj.q=a.hj.q||[]).push(arguments)};b=window.location.hostname;c=[\"ng-outgest-edge-tv.sport1.it\",\"tv.sport1.de\",\"ng-outgest-edge-sport1-website-staging.sport1.it\",\"stage-tv.sport1.de\"];b=c.includes(b)||b.startsWith(\"401-review\")?2162526:921216;a._hjSettings={hjid:b,hjsv:6};b=d.getElementsByTagName(\"head\")[0];c=d.createElement(\"script\");c.async=\n1;c.src=h+a._hjSettings.hjid+k+a._hjSettings.hjsv;b.appendChild(c)}(window,document,\"https:\/\/static.hotjar.com\/c\/hotjar-\",\".js?sv\\x3d\")});\u003C\/script\u003E\n",
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
