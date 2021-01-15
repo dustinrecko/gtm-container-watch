@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"748",
+  "version":"749",
   
   "macros":[{
       "function":"__e"
@@ -191,7 +191,7 @@ data = {
       "vtp_name":"user.id"
     },{
       "function":"__jsm",
-      "vtp_javascript":["template","(function(){if(0!=",["escape",["macro",44],8,16],"\u0026\u0026\"undefined\"!==typeof ",["escape",["macro",44],8,16],")return ",["escape",["macro",44],8,16],"})();"]
+      "vtp_javascript":["template","(function(){if(0!=",["escape",["macro",44],8,16],"\u0026\u0026\"undefined\"!==typeof ",["escape",["macro",44],8,16],"\u0026\u0026\"sellerportal\"!==",["escape",["macro",6],8,16],")return ",["escape",["macro",44],8,16],"})();"]
     },{
       "function":"__v",
       "vtp_dataLayerVersion":2,
@@ -1033,7 +1033,6 @@ data = {
       "vtp_sendPageView":true,
       "vtp_measurementId":"G-9WNMNEZ2M0",
       "vtp_enableUserProperties":true,
-      "vtp_enableGA4Name":true,
       "tag_id":1439
     },{
       "function":"__gaawe",
@@ -1044,7 +1043,6 @@ data = {
       "vtp_eventParameters":["list",["map","name","method","value",["macro",114]]],
       "vtp_measurementId":"G-9WNMNEZ2M0",
       "vtp_enableUserProperties":true,
-      "vtp_enableGA4Name":true,
       "vtp_enableMoreSettingsOption":false,
       "tag_id":1440
     },{
@@ -1056,7 +1054,6 @@ data = {
       "vtp_eventParameters":["list",["map","name","search_term","value",["macro",114]],["map","name","search_type","value",["macro",23]]],
       "vtp_measurementId":"G-9WNMNEZ2M0",
       "vtp_enableUserProperties":true,
-      "vtp_enableGA4Name":true,
       "vtp_enableMoreSettingsOption":false,
       "tag_id":1444
     },{
@@ -1068,7 +1065,6 @@ data = {
       "vtp_eventParameters":["list",["map","name","user_type","value",["macro",114]]],
       "vtp_measurementId":"G-9WNMNEZ2M0",
       "vtp_enableUserProperties":true,
-      "vtp_enableGA4Name":true,
       "vtp_enableMoreSettingsOption":false,
       "tag_id":1446
     },{
@@ -1080,7 +1076,6 @@ data = {
       "vtp_eventParameters":["list",["map","name","currency","value",["macro",131]],["map","name","items","value",["macro",132]],["map","name","category","value",["macro",133]],["map","name","brand","value",["macro",134]],["map","name","item_id","value",["macro",124]]],
       "vtp_measurementId":"G-9WNMNEZ2M0",
       "vtp_enableUserProperties":true,
-      "vtp_enableGA4Name":true,
       "vtp_enableMoreSettingsOption":false,
       "tag_id":1447
     },{
@@ -1092,7 +1087,6 @@ data = {
       "vtp_eventParameters":["list",["map","name","value","value",["macro",16]],["map","name","transaction_id","value",["macro",135]],["map","name","shipping","value",["macro",136]],["map","name","tax","value",["macro",137]],["map","name","revenue","value",["macro",4]],["map","name","payment_method","value",["macro",69]],["map","name","delivery_type","value",["macro",73]]],
       "vtp_measurementId":"G-9WNMNEZ2M0",
       "vtp_enableUserProperties":true,
-      "vtp_enableGA4Name":true,
       "vtp_enableMoreSettingsOption":false,
       "tag_id":1452
     },{
