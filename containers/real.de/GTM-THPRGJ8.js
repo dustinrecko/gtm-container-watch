@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"749",
+  "version":"750",
   
   "macros":[{
       "function":"__e"
@@ -566,7 +566,7 @@ data = {
       "vtp_dataLayerVersion":1
     },{
       "function":"__jsm",
-      "vtp_javascript":["template","(function(){try{var a=",["escape",["macro",98],8,16],";if(a){var e=90,b=0,c;for(c=0;c\u003Ca.length;c++){var f=a.charCodeAt(c);b=(b\u003C\u003C5)-b+f;b|=0}var g=Math.abs(b)%100;return\"0090bfa49d9bc876e2386800bee46c42da98aa12742f5b937b200982e5d1abca\"==a?1:g\u003E=e?1:0}}catch(d){a=\"undefined\"===typeof d||\"undefined\"===typeof d.toString()?\"Unknown error\":d.toString(),dataLayer.push({event:\"GAevent\",eventCategory:\"JavaScript Error\",eventAction:\"js_GA4_shouldTrack \"+a})}})();"]
+      "vtp_javascript":["template","(function(){try{if(-1!=document.cookie.indexOf(\"forceGA4\"))return 1;var a=",["escape",["macro",98],8,16],";if(a){var e=90,b=0,c;for(c=0;c\u003Ca.length;c++){var f=a.charCodeAt(c);b=(b\u003C\u003C5)-b+f;b|=0}var g=Math.abs(b)%100;return g\u003E=e?1:0}}catch(d){a=\"undefined\"===typeof d||\"undefined\"===typeof d.toString()?\"Unknown error\":d.toString(),dataLayer.push({event:\"GAevent\",eventCategory:\"JavaScript Error\",eventAction:\"js_GA4_shouldTrack \"+a})}})();"]
     },{
       "function":"__v",
       "vtp_dataLayerVersion":2,
