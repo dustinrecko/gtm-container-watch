@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"752",
+  "version":"753",
   
   "macros":[{
       "function":"__e"
@@ -675,9 +675,8 @@ data = {
       "vtp_defaultValue":"false",
       "vtp_name":"adobeLaunchKillSwitch"
     },{
-      "function":"__k",
-      "vtp_decodeCookie":false,
-      "vtp_name":"adobeLaunchPreview"
+      "function":"__jsm",
+      "vtp_javascript":["template","(function(){try{var b=window.location.hostname,d=\/^((.*)\\.)?(.*)\\.(.*)$\/,a=b.match(d),e=a\u0026\u0026a[3]?a[3]:\"\",f=a\u0026\u0026a[4]?a[4]:\"\";b=e+\".\"+f;return-1!==document.cookie.indexOf(\"adobeLaunchPreview\")||\"real.de\"!==b}catch(c){b=\"undefined\"===typeof c||\"undefined\"===typeof c.message?\"Unknown error\":c.message,window.dataLayer=window.dataLayer||[],dataLayer.push({event:\"GAevent\",eventCategory:\"JavaScript Error\",eventAction:\"js_shouldShowAdobeLaunch \"+b})}})();"]
     },{
       "function":"__c",
       "vtp_value":"UA-27218006-4"
@@ -1649,7 +1648,7 @@ data = {
     },{
       "function":"_eq",
       "arg0":["macro",157],
-      "arg1":"undefined"
+      "arg1":"true"
     },{
       "function":"_eq",
       "arg0":["macro",0],
@@ -1713,7 +1712,7 @@ data = {
     [["if",32,52],["add",49]],
     [["if",30,53],["add",50]],
     [["if",13,54,55,56],["add",51]],
-    [["if",32,57,59,60],["unless",53,58],["add",53]],
+    [["if",32,57,58,59,60],["unless",53],["add",53]],
     [["if",13,61,62],["add",54]],
     [["if",13,62,63,64],["add",54]],
     [["if",2],["unless",1],["block",0,1,4,5,6,7,8,41,42,43,44,45,46]],
