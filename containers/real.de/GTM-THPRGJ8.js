@@ -1,13 +1,12 @@
 data = {
 "resource": {
-  "version":"753",
+  "version":"757",
   
   "macros":[{
       "function":"__e"
     },{
-      "function":"__k",
-      "vtp_decodeCookie":true,
-      "vtp_name":"real-consent-level"
+      "function":"__jsm",
+      "vtp_javascript":["template","(function(){try{for(var a=[{name:\"CookieConsent\",needle:\"marketing:true\",breakOn:\"marketing:false\"},{name:\"real-consent-level\",needle:\"marketing\"}],d=!1,b=0;b\u003Ca.length;b++){var c=document.cookie.match(new RegExp(\"(^| )\"+a[b].name+\"\\x3d([^;]+)\"));c\u0026\u0026(d=-1!==c[2].indexOf(a[b].needle));if(d)break;if(c\u0026\u0026\"undefined\"!==typeof a[b].breakOn)var f=-1!==c[2].indexOf(a[b].breakOn);if(\"undefined\"!==typeof f)break}return d}catch(e){a=\"undefined\"===typeof e||\"undefined\"===typeof e.message?\"Unknown error\":e.message,\nwindow.dataLayer=window.dataLayer||[],dataLayer.push({event:\"GAevent\",eventCategory:\"JavaScript Error\",eventAction:\"js_marketingConsentGiven \"+a})}})();"]
     },{
       "function":"__v",
       "vtp_dataLayerVersion":2,
@@ -107,6 +106,9 @@ data = {
       "vtp_javascript":["template","(function(){var a=\"object\"===typeof ",["escape",["macro",24],8,16],",b=\"pageView\"===",["escape",["macro",10],8,16],",c=\"GAevent\"===",["escape",["macro",10],8,16],"\u0026\u0026\"optimizely\"===",["escape",["macro",22],8,16],";if(a\u0026\u0026(b||c)){a=[];for(b=0;b\u003C",["escape",["macro",24],8,16],".length;b++)c=",["escape",["macro",24],8,16],"[b],\/([^\\.]+)\\.(null)?$\/.test(c)||a.push(c);return retVal=a.length?a.join(\"!\"):null}return null})();"]
     },{
       "function":"__jsm",
+      "vtp_javascript":["template","(function(){try{for(var a=[{name:\"CookieConsent\",needle:\"statistics:true\",breakOn:\"statistics:false\"},{name:\"real-consent-level\",needle:\"analytics\"}],d=!1,b=0;b\u003Ca.length;b++){var c=document.cookie.match(new RegExp(\"(^| )\"+a[b].name+\"\\x3d([^;]+)\"));c\u0026\u0026(d=-1!==c[2].indexOf(a[b].needle));if(d)break;if(c\u0026\u0026\"undefined\"!==typeof a[b].breakOn)var f=-1!==c[2].indexOf(a[b].breakOn);if(\"undefined\"!==typeof f)break}return d}catch(e){a=\"undefined\"===typeof e||\"undefined\"===typeof e.message?\"Unknown error\":e.message,\nwindow.dataLayer=window.dataLayer||[],dataLayer.push({event:\"GAevent\",eventCategory:\"JavaScript Error\",eventAction:\"js_trackingConsentGiven \"+a})}})();"]
+    },{
+      "function":"__jsm",
       "vtp_javascript":["template","(function(){try{var a=",["escape",["macro",10],8,16],",c=[\"bannerView\",\"listView\",\"listView_part2\"],d=\"optimizely;ab test;Error Messages;feature;csSessionKey;JavaScript Error;consent;cookieConsent\".split(\";\"),e=[\"view\",\"Payback\",\"review seen\"];return-1!==c.indexOf(a)?!0:\"GAevent\"!=a||-1===d.indexOf(",["escape",["macro",22],8,16],")\u0026\u0026-1===e.indexOf(",["escape",["macro",23],8,16],")?!1:!0}catch(b){a=\"undefined\"===typeof b||\"undefined\"===typeof b.toString()?\"Unknown error\":b.toString(),dataLayer.push({event:\"GAevent\",eventCategory:\"JavaScript Error\",\neventAction:\"ga_isNoninteraction \"+a})}})();"]
     },{
       "function":"__v",
@@ -115,7 +117,7 @@ data = {
       "vtp_name":"eventValue"
     },{
       "function":"__jsm",
-      "vtp_javascript":["template","(function(){try{switch(",["escape",["macro",10],8,16],"){case \"GAevent\":return ",["escape",["macro",27],8,16],";case \"addToCart\":return ",["escape",["macro",15],8,16],".offers[0].price;default:return\"undefined\"!==typeof ",["escape",["macro",2],8,16],"\u0026\u0026\"undefined\"!==typeof ",["escape",["macro",2],8,16],".revenue?",["escape",["macro",2],8,16],".revenue:void 0}}catch(a){}})();"]
+      "vtp_javascript":["template","(function(){try{switch(",["escape",["macro",10],8,16],"){case \"GAevent\":return ",["escape",["macro",28],8,16],";case \"addToCart\":return ",["escape",["macro",15],8,16],".offers[0].price;default:return\"undefined\"!==typeof ",["escape",["macro",2],8,16],"\u0026\u0026\"undefined\"!==typeof ",["escape",["macro",2],8,16],".revenue?",["escape",["macro",2],8,16],".revenue:void 0}}catch(a){}})();"]
     },{
       "function":"__jsm",
       "vtp_javascript":["template","(function(){return\"GAevent\"==",["escape",["macro",10],8,16],"||\"GAEvent\"==",["escape",["macro",10],8,16],"?",["escape",["macro",22],8,16],":\"Enhanced Ecommerce\"})();"]
@@ -133,7 +135,7 @@ data = {
       "function":"__v",
       "vtp_dataLayerVersion":2,
       "vtp_setDefaultValue":true,
-      "vtp_defaultValue":["macro",31],
+      "vtp_defaultValue":["macro",32],
       "vtp_name":"view.virt_path"
     },{
       "function":"__v",
@@ -172,7 +174,7 @@ data = {
       "vtp_name":"ecommerce.click.products"
     },{
       "function":"__jsm",
-      "vtp_javascript":["template","(function(){if(",["escape",["macro",30],8,16],"==\"Search\"){var ecomm=new Object;var listName=\"Search_\"+",["escape",["macro",38],8,16],";var searchProducts=new Array;var ecommProd=",["escape",["macro",39],8,16],";ecommProd.forEach(function(t){searchProducts.push({\"id\":t.id,\"name\":t.name,\"position\":t.position,\"category\":t.category,\"brand\":t.brand,\"list\":\"Search_undefined\",\"price\":t.price,\"postition\":t.position})});ecomm={\"ecommerce\":{\"click\":{\"actionField\":{\"list\":\"Search_\"+",["escape",["macro",38],8,16],"},\"products\":searchProducts}}};return ecomm}})();"]
+      "vtp_javascript":["template","(function(){if(",["escape",["macro",31],8,16],"==\"Search\"){var ecomm=new Object;var listName=\"Search_\"+",["escape",["macro",39],8,16],";var searchProducts=new Array;var ecommProd=",["escape",["macro",40],8,16],";ecommProd.forEach(function(t){searchProducts.push({\"id\":t.id,\"name\":t.name,\"position\":t.position,\"category\":t.category,\"brand\":t.brand,\"list\":\"Search_undefined\",\"price\":t.price,\"postition\":t.position})});ecomm={\"ecommerce\":{\"click\":{\"actionField\":{\"list\":\"Search_\"+",["escape",["macro",39],8,16],"},\"products\":searchProducts}}};return ecomm}})();"]
     },{
       "function":"__v",
       "vtp_dataLayerVersion":2,
@@ -180,10 +182,10 @@ data = {
       "vtp_name":"ecommerce.click"
     },{
       "function":"__jsm",
-      "vtp_javascript":["template","(function(){function g(a){var f=[];try{a.forEach(function(k){f=f.concat(l(k))})}catch(k){}return f}function l(a){var f=[],k=0\u003Ca.offers.length?a.offers:[{availability:\"no offers\"}];k.forEach(function(c){var d={id:String(a.id),price:c.price?c.price.toString():void 0,dimension10:a.campaigns?String(a.campaigns):\"not set\",dimension73:a.favorite?String(a.favorite):\"false\"};c.revenue\u0026\u0026(d.metric1=c.revenue);c.amount\u0026\u0026(d.quantity=c.amount);if(\"efood\"!==",["escape",["macro",6],8,16],"){d.name=a.name;d.brand=a.brand;\nd.category=a.category.join(\"\/\");d.variant=a.variant;d.dimension8=void 0!==a.rating_average?parseFloat(a.rating_average).toFixed(1):void 0;d.dimension9=a.rating_num;d.dimension15=c.availability;d.dimension17=c.delivery_duration?c.delivery_duration:void 0;d.dimension18=void 0!==c.shipping_cost?c.shipping_cost.toString():void 0;d.dimension19=c.seller_id?c.seller_id:void 0;d.dimension20=c.condition?c.condition:void 0;d.dimension55=c.store_delivery?c.store_delivery:!1;var h=c.seller_id;h=\"undefined\"===\nh?\"not set\":4397641==h?\"DV\":5415711==h?\"SP\":\"MP\";d.dimension22=h;d.dimension31=a.ean;d.dimension43=c.price?c.price.toString():void 0;d.dimension46=c.uvp?c.uvp.toString():void 0;d.dimension57=a.licences?String(a.licences):\"not set\";d.metric9=c.payback}f.push(d)});return f}var b=",["escape",["macro",10],8,16],",e=",["escape",["macro",30],8,16],",m=",["escape",["macro",32],8,16],";if(\"bannerView\"==b||\"promoView\"==b){e=[];e=\"bannerView\"==b?",["escape",["macro",33],8,16],":",["escape",["macro",34],8,16],";var n=[];e.forEach(function(a){n.push({id:a.campaign_id?\n\"c\"+a.campaign_id+\":a\"+a.promotion_id:a.id,name:a.name,creative:a.promotion_name?a.promotion_name:void 0,position:a.carousel_position?a.page_position+\"_\"+a.carousel_position:a.page_position})});return{ecommerce:{promoView:{promotions:n}}}}if(\"bannerClick\"==b||\"promoClick\"==b)return b=",["escape",["macro",35],8,16],"||",["escape",["macro",36],8,16],"||",["escape",["macro",33],8,16],"[0],{ecommerce:{promoClick:{promotions:[{id:b.campaign_id?\"c\"+b.campaign_id+\":a\"+b.promotion_id:b.id,name:b.name,creative:b.promotion_name?b.promotion_name:\nvoid 0,position:b.carousel_position?b.page_position+\"_\"+b.carousel_position:b.page_position}]}}};if(\"listView\"==b||\"listView_part2\"==b){var r=[];b=",["escape",["macro",37],8,16],";b.forEach(function(a){r.push({id:a.id,name:a.name,position:a.position,category:a.category,brand:a.brand,list:a.list,price:a.price})});return{ecommerce:{impressions:b}}}if(\"listClick\"==b)return\"Search\"==",["escape",["macro",30],8,16],"\u0026\u0026\"onlineshop\"==",["escape",["macro",6],8,16],"?",["escape",["macro",40],8,16],":{ecommerce:{click:",["escape",["macro",41],8,16],"}};if(\"addToCart\"==\nb|\"removeFromCart\"==b)return p=",["escape",["macro",15],8,16],",p=\"[object Array]\"===Object.prototype.toString.call(p)?g(p):[l(p)[0]],\"addToCart\"==b?{ecommerce:{currencyCode:\"EUR\",add:{products:p}}}:{ecommerce:{remove:{products:p}}};if(\"Sale\"==b){e=",["escape",["macro",2],8,16],";var q=\"\";e.coupons\u0026\u0026e.coupons.forEach(function(a,f){q+=a.name+\" \"});b={id:String(e.id),revenue:\"efood\"==",["escape",["macro",6],8,16],"?\"0\":e.revenue.toString(),tax:e.tax.toString(),shipping:e.gmv.toString(),coupon:q};e=g(e.cart);return{ecommerce:{purchase:{actionField:b,\nproducts:e}}}}if(\"Item\"==e){if(\"pageView\"==b||void 0==b)return{ecommerce:{detail:{products:l(",["escape",["macro",15],8,16],")}}}}else if(\"Checkout\"==e){if(\"pageView\"==b)return{ecommerce:{checkout:{actionField:{step:1},products:g(",["escape",["macro",18],8,16],")}}}}else if(\"CheckoutNew\"==e){if(\"pageView\"==b\u0026\u0026\"\/onlineshop\/checkout\/delivery\"==m)return{ecommerce:{checkout:{actionField:{step:1},products:g(",["escape",["macro",18],8,16],")}}};if(\"pageView\"==b\u0026\u0026\"\/onlineshop\/checkout\/payment\"==m)return{ecommerce:{checkout:{actionField:{step:2},\nproducts:g(",["escape",["macro",18],8,16],")}}};if(\"pageView\"==b\u0026\u0026\"\/onlineshop\/checkout\/summary\"==m)return{ecommerce:{checkout:{actionField:{step:3},products:g(",["escape",["macro",18],8,16],")}}}}})();"]
+      "vtp_javascript":["template","(function(){function g(a){var f=[];try{a.forEach(function(k){f=f.concat(l(k))})}catch(k){}return f}function l(a){var f=[],k=0\u003Ca.offers.length?a.offers:[{availability:\"no offers\"}];k.forEach(function(c){var d={id:String(a.id),price:c.price?c.price.toString():void 0,dimension10:a.campaigns?String(a.campaigns):\"not set\",dimension73:a.favorite?String(a.favorite):\"false\"};c.revenue\u0026\u0026(d.metric1=c.revenue);c.amount\u0026\u0026(d.quantity=c.amount);if(\"efood\"!==",["escape",["macro",6],8,16],"){d.name=a.name;d.brand=a.brand;\nd.category=a.category.join(\"\/\");d.variant=a.variant;d.dimension8=void 0!==a.rating_average?parseFloat(a.rating_average).toFixed(1):void 0;d.dimension9=a.rating_num;d.dimension15=c.availability;d.dimension17=c.delivery_duration?c.delivery_duration:void 0;d.dimension18=void 0!==c.shipping_cost?c.shipping_cost.toString():void 0;d.dimension19=c.seller_id?c.seller_id:void 0;d.dimension20=c.condition?c.condition:void 0;d.dimension55=c.store_delivery?c.store_delivery:!1;var h=c.seller_id;h=\"undefined\"===\nh?\"not set\":4397641==h?\"DV\":5415711==h?\"SP\":\"MP\";d.dimension22=h;d.dimension31=a.ean;d.dimension43=c.price?c.price.toString():void 0;d.dimension46=c.uvp?c.uvp.toString():void 0;d.dimension57=a.licences?String(a.licences):\"not set\";d.metric9=c.payback}f.push(d)});return f}var b=",["escape",["macro",10],8,16],",e=",["escape",["macro",31],8,16],",m=",["escape",["macro",33],8,16],";if(\"bannerView\"==b||\"promoView\"==b){e=[];e=\"bannerView\"==b?",["escape",["macro",34],8,16],":",["escape",["macro",35],8,16],";var n=[];e.forEach(function(a){n.push({id:a.campaign_id?\n\"c\"+a.campaign_id+\":a\"+a.promotion_id:a.id,name:a.name,creative:a.promotion_name?a.promotion_name:void 0,position:a.carousel_position?a.page_position+\"_\"+a.carousel_position:a.page_position})});return{ecommerce:{promoView:{promotions:n}}}}if(\"bannerClick\"==b||\"promoClick\"==b)return b=",["escape",["macro",36],8,16],"||",["escape",["macro",37],8,16],"||",["escape",["macro",34],8,16],"[0],{ecommerce:{promoClick:{promotions:[{id:b.campaign_id?\"c\"+b.campaign_id+\":a\"+b.promotion_id:b.id,name:b.name,creative:b.promotion_name?b.promotion_name:\nvoid 0,position:b.carousel_position?b.page_position+\"_\"+b.carousel_position:b.page_position}]}}};if(\"listView\"==b||\"listView_part2\"==b){var r=[];b=",["escape",["macro",38],8,16],";b.forEach(function(a){r.push({id:a.id,name:a.name,position:a.position,category:a.category,brand:a.brand,list:a.list,price:a.price})});return{ecommerce:{impressions:b}}}if(\"listClick\"==b)return\"Search\"==",["escape",["macro",31],8,16],"\u0026\u0026\"onlineshop\"==",["escape",["macro",6],8,16],"?",["escape",["macro",41],8,16],":{ecommerce:{click:",["escape",["macro",42],8,16],"}};if(\"addToCart\"==\nb|\"removeFromCart\"==b)return p=",["escape",["macro",15],8,16],",p=\"[object Array]\"===Object.prototype.toString.call(p)?g(p):[l(p)[0]],\"addToCart\"==b?{ecommerce:{currencyCode:\"EUR\",add:{products:p}}}:{ecommerce:{remove:{products:p}}};if(\"Sale\"==b){e=",["escape",["macro",2],8,16],";var q=\"\";e.coupons\u0026\u0026e.coupons.forEach(function(a,f){q+=a.name+\" \"});b={id:String(e.id),revenue:\"efood\"==",["escape",["macro",6],8,16],"?\"0\":e.revenue.toString(),tax:e.tax.toString(),shipping:e.gmv.toString(),coupon:q};e=g(e.cart);return{ecommerce:{purchase:{actionField:b,\nproducts:e}}}}if(\"Item\"==e){if(\"pageView\"==b||void 0==b)return{ecommerce:{detail:{products:l(",["escape",["macro",15],8,16],")}}}}else if(\"Checkout\"==e){if(\"pageView\"==b)return{ecommerce:{checkout:{actionField:{step:1},products:g(",["escape",["macro",18],8,16],")}}}}else if(\"CheckoutNew\"==e){if(\"pageView\"==b\u0026\u0026\"\/onlineshop\/checkout\/delivery\"==m)return{ecommerce:{checkout:{actionField:{step:1},products:g(",["escape",["macro",18],8,16],")}}};if(\"pageView\"==b\u0026\u0026\"\/onlineshop\/checkout\/payment\"==m)return{ecommerce:{checkout:{actionField:{step:2},\nproducts:g(",["escape",["macro",18],8,16],")}}};if(\"pageView\"==b\u0026\u0026\"\/onlineshop\/checkout\/summary\"==m)return{ecommerce:{checkout:{actionField:{step:3},products:g(",["escape",["macro",18],8,16],")}}}}})();"]
     },{
       "function":"__jsm",
-      "vtp_javascript":["template","(function(){vt=",["escape",["macro",30],8,16],";vp=",["escape",["macro",32],8,16],";if(\"Search\"==vt\u0026\u0026-1==vp.indexOf(\"\\x26q\\x3d\"))return 0\u003Cvp.indexOf(\"?\")?vp+\"\\x26q\\x3d\"+",["escape",["macro",38],8,16],":vp+\"?q\\x3d\"+",["escape",["macro",38],8,16],";if(0\u003Cvp.indexOf(\"\/lebensmittelshop\/bestellung\/paygate\")){var a=vp.split(\"?\");return a[0]}return ",["escape",["macro",32],8,16],"})();"]
+      "vtp_javascript":["template","(function(){vt=",["escape",["macro",31],8,16],";vp=",["escape",["macro",33],8,16],";if(\"Search\"==vt\u0026\u0026-1==vp.indexOf(\"\\x26q\\x3d\"))return 0\u003Cvp.indexOf(\"?\")?vp+\"\\x26q\\x3d\"+",["escape",["macro",39],8,16],":vp+\"?q\\x3d\"+",["escape",["macro",39],8,16],";if(0\u003Cvp.indexOf(\"\/lebensmittelshop\/bestellung\/paygate\")){var a=vp.split(\"?\");return a[0]}return ",["escape",["macro",33],8,16],"})();"]
     },{
       "function":"__v",
       "vtp_dataLayerVersion":2,
@@ -191,7 +193,7 @@ data = {
       "vtp_name":"user.id"
     },{
       "function":"__jsm",
-      "vtp_javascript":["template","(function(){if(0!=",["escape",["macro",44],8,16],"\u0026\u0026\"undefined\"!==typeof ",["escape",["macro",44],8,16],"\u0026\u0026\"sellerportal\"!==",["escape",["macro",6],8,16],")return ",["escape",["macro",44],8,16],"})();"]
+      "vtp_javascript":["template","(function(){if(0!=",["escape",["macro",45],8,16],"\u0026\u0026\"undefined\"!==typeof ",["escape",["macro",45],8,16],"\u0026\u0026\"sellerportal\"!==",["escape",["macro",6],8,16],")return ",["escape",["macro",45],8,16],"})();"]
     },{
       "function":"__v",
       "vtp_dataLayerVersion":2,
@@ -207,7 +209,7 @@ data = {
       "vtp_component":"URL"
     },{
       "function":"__jsm",
-      "vtp_javascript":["template","(function(){return-1!=",["escape",["macro",48],8,16],".search(\/(real\\.de)|(sofort\\.com)|(paypal\\.com)\/)?null:\"\/lebensmittelshop\/bestellung\/bestaetigung\/\"==",["escape",["macro",32],8,16],"||\"\/onlineshop\/checkout\/thankyou\/\"==",["escape",["macro",32],8,16],"?null:",["escape",["macro",48],8,16],"})();"]
+      "vtp_javascript":["template","(function(){return-1!=",["escape",["macro",49],8,16],".search(\/(real\\.de)|(sofort\\.com)|(paypal\\.com)\/)?null:\"\/lebensmittelshop\/bestellung\/bestaetigung\/\"==",["escape",["macro",33],8,16],"||\"\/onlineshop\/checkout\/thankyou\/\"==",["escape",["macro",33],8,16],"?null:",["escape",["macro",49],8,16],"})();"]
     },{
       "function":"__jsm",
       "vtp_javascript":["template","(function(){var g=49;return function(c){var d=\"_\"+c.get(\"trackingId\")+\"_sendHitTask\",e=window[d]=window[d]||c.get(\"sendHitTask\");c.set(\"dimension61\",c.get(\"clientId\"));c.set(\"sendHitTask\",function(a){try{var h=a.get(\"hitPayload\"),b=a.get(\"hitPayload\"),f=\"\\x26cd\"+g;-1\u003Cb.indexOf(f+\"\\x3d\")?console.log(\"Google Analytics error: tried to send hit payload length in an already assigned Custom Dimension\"):(b+=f+\"\\x3d\",b+=b.length+b.length.toString().length,a.set(\"hitPayload\",b,!0));e(a)}catch(k){console.error(\"Error sending hit payload length to Google Analytics\"),\na.set(\"hitPayload\",h,!0),e(a)}})}})();"]
@@ -216,8 +218,8 @@ data = {
       "vtp_javascript":["template","(function(){return window.location.protocol+\"\/\/\"+window.location.hostname+window.location.pathname+window.location.search})();"]
     },{
       "function":"__jsm",
-      "convert_null_to":["macro",51],
-      "convert_undefined_to":["macro",51],
+      "convert_null_to":["macro",52],
+      "convert_undefined_to":["macro",52],
       "vtp_javascript":["template","(function(){if(window.Storage){var a=sessionStorage.getItem(\"ga_dl\");return a}})();"]
     },{
       "function":"__k",
@@ -225,7 +227,7 @@ data = {
       "vtp_name":"real-cookie-accept"
     },{
       "function":"__jsm",
-      "vtp_javascript":["template","(function(){return\"accepted\"==",["escape",["macro",53],8,16],"?!0:!1})();"]
+      "vtp_javascript":["template","(function(){return\"accepted\"==",["escape",["macro",54],8,16],"?!0:!1})();"]
     },{
       "function":"__jsm",
       "vtp_javascript":["template","(function(){if(\"coupons\"in ",["escape",["macro",2],8,16],"){var a=0;for(i in ",["escape",["macro",2],8,16],".coupons)\"value\"in ",["escape",["macro",2],8,16],".coupons[i]\u0026\u0026(a+=",["escape",["macro",2],8,16],".coupons[i].value);return a}})();"]
@@ -327,7 +329,7 @@ data = {
       "vtp_name":"search.pagination_start"
     },{
       "function":"__jsm",
-      "vtp_javascript":["template","(function(){var a;if(\"\/item\/search\/\"==",["escape",["macro",31],8,16],"\u0026\u0026",["escape",["macro",74],8,16],"|",["escape",["macro",75],8,16],")return a=parseInt((",["escape",["macro",74],8,16],"|",["escape",["macro",75],8,16],")\/40+1)})();"]
+      "vtp_javascript":["template","(function(){var a;if(\"\/item\/search\/\"==",["escape",["macro",32],8,16],"\u0026\u0026",["escape",["macro",75],8,16],"|",["escape",["macro",76],8,16],")return a=parseInt((",["escape",["macro",75],8,16],"|",["escape",["macro",76],8,16],")\/40+1)})();"]
     },{
       "function":"__k",
       "vtp_decodeCookie":false,
@@ -347,7 +349,7 @@ data = {
       "vtp_name":"tduid3"
     },{
       "function":"__jsm",
-      "vtp_javascript":["template","(function(){var a=!1;\"undefined\"!=typeof ",["escape",["macro",45],8,16],"\u0026\u00260!=",["escape",["macro",45],8,16],"\u0026\u0026(a=!0);return a})();"]
+      "vtp_javascript":["template","(function(){var a=!1;\"undefined\"!=typeof ",["escape",["macro",46],8,16],"\u0026\u00260!=",["escape",["macro",46],8,16],"\u0026\u0026(a=!0);return a})();"]
     },{
       "function":"__u",
       "vtp_component":"URL",
@@ -372,7 +374,7 @@ data = {
       "vtp_enableIgnoreEmptyQueryParam":false
     },{
       "function":"__jsm",
-      "vtp_javascript":["template","(function(){if(\"Item\"==",["escape",["macro",30],8,16],"\u0026\u0026\"efood\"!=",["escape",["macro",6],8,16],")try{return-1!==",["escape",["macro",86],8,16],".indexOf(\"spa_\")?",["escape",["macro",86],8,16],":!1}catch(a){}})();"]
+      "vtp_javascript":["template","(function(){if(\"Item\"==",["escape",["macro",31],8,16],"\u0026\u0026\"efood\"!=",["escape",["macro",6],8,16],")try{return-1!==",["escape",["macro",87],8,16],".indexOf(\"spa_\")?",["escape",["macro",87],8,16],":!1}catch(a){}})();"]
     },{
       "function":"__jsm",
       "vtp_javascript":["template","(function(){return parseInt(window.innerWidth)})();"]
@@ -388,7 +390,7 @@ data = {
     },{
       "function":"__remm",
       "vtp_setDefaultValue":true,
-      "vtp_input":["macro",90],
+      "vtp_input":["macro",91],
       "vtp_fullMatch":false,
       "vtp_replaceAfterMatch":false,
       "vtp_ignoreCase":true,
@@ -396,7 +398,7 @@ data = {
       "vtp_map":["list",["map","key","real.de","value","real.de"],["map","key","kaufland.de","value","kaufland.de"]]
     },{
       "function":"__jsm",
-      "vtp_javascript":["template","(function(){if(\"addToCart\"==",["escape",["macro",10],8,16],")return document.referrer.split(\"\/\/www.",["escape",["macro",91],7],"\/\")[1].split(\"?\")[0]})();"]
+      "vtp_javascript":["template","(function(){if(\"addToCart\"==",["escape",["macro",10],8,16],")return document.referrer.split(\"\/\/www.",["escape",["macro",92],7],"\/\")[1].split(\"?\")[0]})();"]
     },{
       "function":"__jsm",
       "vtp_javascript":["template","(function(){var a=JSON.parse(document.getElementById(\"06a5a104\").dataset.requestParams).title;if(\"to_be_replaced\"==a)return 1;if(\"Unsere Empfehlungen f\\u00fcr Sie\"==a)return 0})();"]
@@ -429,7 +431,7 @@ data = {
       "vtp_javascript":["template","(function(){return navigator.userAgent})();"]
     },{
       "function":"__jsm",
-      "vtp_javascript":["template","(function(){var b=",["escape",["macro",30],8,16],",a=",["escape",["macro",31],8,16],";return\"Other\"==b?\"\/rabattaktionen\/\"==a.match(\/^\\\/rabattaktionen\\\/\/)?\"CampaignHubPage\":\"\/campaigns\/\"==a.match(\/^\\\/campaigns\\\/\/)?\"Campaign\":\"\/geschenkideen\/\"==a.match(\/^\\\/geschenkideen\\\/\/)||\"\/beratung\/\"==a.match(\/^\\\/beratung\\\/\/)||\"\/weihnachten\/\"==a.match(\/^\\\/weihnachten\\\/\/)||\"\/nachhaltig-leben\/\"==a.match(\/^\\\/nachhaltig-leben\\\/\/)||\"\/kaffeewissen\/\"==a.match(\/^\\\/kaffeewissen\\\/\/)?\"Content\":\"Other\":\"Item\"==b?\"\/product-reviews\/\"==a.match(\/^\\\/product-reviews\\\/\/)?\n\"ProductReview\":\"Item\":b})();"]
+      "vtp_javascript":["template","(function(){var b=",["escape",["macro",31],8,16],",a=",["escape",["macro",32],8,16],";return\"Other\"==b?\"\/rabattaktionen\/\"==a.match(\/^\\\/rabattaktionen\\\/\/)?\"CampaignHubPage\":\"\/campaigns\/\"==a.match(\/^\\\/campaigns\\\/\/)?\"Campaign\":\"\/geschenkideen\/\"==a.match(\/^\\\/geschenkideen\\\/\/)||\"\/beratung\/\"==a.match(\/^\\\/beratung\\\/\/)||\"\/weihnachten\/\"==a.match(\/^\\\/weihnachten\\\/\/)||\"\/nachhaltig-leben\/\"==a.match(\/^\\\/nachhaltig-leben\\\/\/)||\"\/kaffeewissen\/\"==a.match(\/^\\\/kaffeewissen\\\/\/)?\"Content\":\"Other\":\"Item\"==b?\"\/product-reviews\/\"==a.match(\/^\\\/product-reviews\\\/\/)?\n\"ProductReview\":\"Item\":b})();"]
     },{
       "function":"__v",
       "vtp_dataLayerVersion":2,
@@ -440,22 +442,22 @@ data = {
       "vtp_javascript":["template","(function(){try{var d=\"-\",h=navigator.appVersion,a=navigator.userAgent,e=navigator.appName,c=\"\"+parseFloat(navigator.appVersion),k=parseInt(navigator.appVersion,10),f,b,g;-1!=(b=a.indexOf(\"Opera\"))\u0026\u0026(e=\"Opera\",c=a.substring(b+6),-1!=(b=a.indexOf(\"Version\"))\u0026\u0026(c=a.substring(b+8)));-1!=(b=a.indexOf(\"OPR\"))?(e=\"Opera\",c=a.substring(b+4)):-1!=(b=a.indexOf(\"Edge\"))?(e=\"Microsoft Edge\",c=a.substring(b+5)):-1!=(b=a.indexOf(\"MSIE\"))?(e=\"Microsoft Internet Explorer\",c=a.substring(b+5)):-1!=(b=a.indexOf(\"Chrome\"))?\n(e=\"Chrome\",c=a.substring(b+7)):-1!=(b=a.indexOf(\"Safari\"))?(e=\"Safari\",c=a.substring(b+7),-1!=(b=a.indexOf(\"Version\"))\u0026\u0026(c=a.substring(b+8))):-1!=(b=a.indexOf(\"Firefox\"))?(e=\"Firefox\",c=a.substring(b+8)):-1!=a.indexOf(\"Trident\/\")?(e=\"Microsoft Internet Explorer\",c=a.substring(a.indexOf(\"rv:\")+3)):(f=a.lastIndexOf(\" \")+1)\u003C(b=a.lastIndexOf(\"\/\"))\u0026\u0026(e=a.substring(f,b),c=a.substring(b+1),e.toLowerCase()==e.toUpperCase()\u0026\u0026(e=navigator.appName));-1!=(g=c.indexOf(\";\"))\u0026\u0026(c=c.substring(0,g));-1!=(g=c.indexOf(\" \"))\u0026\u0026\n(c=c.substring(0,g));-1!=(g=c.indexOf(\")\"))\u0026\u0026(c=c.substring(0,g));k=parseInt(\"\"+c,10);isNaN(k)\u0026\u0026(c=\"\"+parseFloat(navigator.appVersion),k=parseInt(navigator.appVersion,10));var n=\/Mobile|mini|Fennec|Android|iP(ad|od|hone)\/.test(h);f=d;b=[{s:\"Windows 10\",r:\/(Windows 10.0|Windows NT 10.0)\/},{s:\"Windows 8.1\",r:\/(Windows 8.1|Windows NT 6.3)\/},{s:\"Windows 8\",r:\/(Windows 8|Windows NT 6.2)\/},{s:\"Windows 7\",r:\/(Windows 7|Windows NT 6.1)\/},{s:\"Windows Vista\",r:\/Windows NT 6.0\/},{s:\"Windows Server 2003\",r:\/Windows NT 5.2\/},\n{s:\"Windows XP\",r:\/(Windows NT 5.1|Windows XP)\/},{s:\"Windows 2000\",r:\/(Windows NT 5.0|Windows 2000)\/},{s:\"Windows ME\",r:\/(Win 9x 4.90|Windows ME)\/},{s:\"Windows 98\",r:\/(Windows 98|Win98)\/},{s:\"Windows 95\",r:\/(Windows 95|Win95|Windows_95)\/},{s:\"Windows NT 4.0\",r:\/(Windows NT 4.0|WinNT4.0|WinNT|Windows NT)\/},{s:\"Windows CE\",r:\/Windows CE\/},{s:\"Windows 3.11\",r:\/Win16\/},{s:\"Android\",r:\/Android\/},{s:\"Open BSD\",r:\/OpenBSD\/},{s:\"Sun OS\",r:\/SunOS\/},{s:\"Chrome OS\",r:\/CrOS\/},{s:\"Linux\",r:\/(Linux|X11(?!.*CrOS))\/},\n{s:\"iOS\",r:\/(iPhone|iPad|iPod)\/},{s:\"Mac OS X\",r:\/Mac OS X\/},{s:\"Mac OS\",r:\/(MacPPC|MacIntel|Mac_PowerPC|Macintosh)\/},{s:\"QNX\",r:\/QNX\/},{s:\"UNIX\",r:\/UNIX\/},{s:\"BeOS\",r:\/BeOS\/},{s:\"OS\/2\",r:\/OS\\\/2\/},{s:\"Search Bot\",r:\/(nuhk|Googlebot|Yammybot|Openbot|Slurp|MSNBot|Ask Jeeves\\\/Teoma|ia_archiver)\/}];for(var p in b){var m=b[p];if(m.r.test(a)){f=m.s;break}}\/Windows\/.test(f)\u0026\u0026(d=\/Windows (.*)\/.exec(f)[1],f=\"Windows\");switch(f){case \"Mac OS X\":d=\/Mac OS X (10[\\._\\d]+)\/.exec(a);d=null!==d?d[1]:\"unkownOsVersion\";\nbreak;case \"Android\":d=\/Android ([\\._\\d]+)\/.exec(a);d=null!==d?d[1]:\"unkownOsVersion\";break;case \"iOS\":d=\/OS (\\d+)_(\\d+)_?(\\d+)?\/.exec(h),d=null===d?\"unkownOsVersion\":d[1]+\".\"+d[2]+\".\"+(d[3]|0)}return h={browser:e,browserVersion:c,browserMajorVersion:k,mobile:n,os:f,osVersion:d}}catch(l){h=\"undefined\"===typeof l||\"undefined\"===typeof l.message?\"Unknown error\":l.message,dataLayer.push({event:\"GAevent\",eventCategory:\"JavaScript Error\",eventAction:\"js_navigatorObj \"+h})}})();"]
     },{
       "function":"__jsm",
-      "vtp_javascript":["template","(function(){return ",["escape",["macro",104],8,16],".browser||\"not recognized\"})();"]
+      "vtp_javascript":["template","(function(){return ",["escape",["macro",105],8,16],".browser||\"not recognized\"})();"]
     },{
       "function":"__jsm",
-      "vtp_javascript":["template","(function(){return ",["escape",["macro",104],8,16],".browserVersion||\"not recognized\"})();"]
+      "vtp_javascript":["template","(function(){return ",["escape",["macro",105],8,16],".browserVersion||\"not recognized\"})();"]
     },{
       "function":"__jsm",
-      "vtp_javascript":["template","(function(){return ",["escape",["macro",104],8,16],".os||\"not recognized\"})();"]
+      "vtp_javascript":["template","(function(){return ",["escape",["macro",105],8,16],".os||\"not recognized\"})();"]
     },{
       "function":"__jsm",
-      "vtp_javascript":["template","(function(){return ",["escape",["macro",104],8,16],".osVersion||\"not recognized\"})();"]
+      "vtp_javascript":["template","(function(){return ",["escape",["macro",105],8,16],".osVersion||\"not recognized\"})();"]
     },{
       "function":"__c",
       "vtp_value":"50"
     },{
       "function":"__jsm",
-      "vtp_javascript":["template","(function(){try{var a=",["escape",["macro",98],8,16],";if(a){var e=parseInt(",["escape",["macro",109],8,16],"),b=0,c;for(c=0;c\u003Ca.length;c++){var f=a.charCodeAt(c);b=(b\u003C\u003C5)-b+f;b|=0}var g=Math.abs(b)%100;return g\u003E=e?1:0}}catch(d){a=\"undefined\"===typeof d||\"undefined\"===typeof d.toString()?\"Unknown error\":d.toString(),dataLayer.push({event:\"GAevent\",eventCategory:\"JavaScript Error\",eventAction:\"cs_shouldTrack\"+a})}})();"]
+      "vtp_javascript":["template","(function(){try{var a=",["escape",["macro",99],8,16],";if(a){var e=parseInt(",["escape",["macro",110],8,16],"),b=0,c;for(c=0;c\u003Ca.length;c++){var f=a.charCodeAt(c);b=(b\u003C\u003C5)-b+f;b|=0}var g=Math.abs(b)%100;return g\u003E=e?1:0}}catch(d){a=\"undefined\"===typeof d||\"undefined\"===typeof d.toString()?\"Unknown error\":d.toString(),dataLayer.push({event:\"GAevent\",eventCategory:\"JavaScript Error\",eventAction:\"cs_shouldTrack\"+a})}})();"]
     },{
       "function":"__c",
       "vtp_value":"UA-27218006-5"
@@ -466,15 +468,15 @@ data = {
       "vtp_decorateFormsAutoLink":false,
       "vtp_cookieDomain":"auto",
       "vtp_useEcommerceDataLayer":false,
-      "vtp_ecommerceMacroData":["macro",42],
+      "vtp_ecommerceMacroData":["macro",43],
       "vtp_doubleClick":false,
       "vtp_setTrackerName":false,
-      "vtp_fieldsToSet":["list",["map","fieldName","anonymizeIp","value","true"],["map","fieldName","page","value",["macro",43]],["map","fieldName","userId","value",["macro",45]],["map","fieldName","expId","value",["macro",46]],["map","fieldName","expVar","value",["macro",47]],["map","fieldName","referrer","value",["macro",49]],["map","fieldName","customTask","value",["macro",50]],["map","fieldName","exp","value",["macro",25]],["map","fieldName","location","value",["macro",52]],["map","fieldName","allowAdFeatures","value",["macro",54]]],
-      "vtp_metric":["list",["map","index","3","metric",["macro",55]],["map","index","4","metric",["macro",56]],["map","index","5","metric",["macro",57]],["map","index","7","metric",["macro",58]],["map","index","8","metric",["macro",59]],["map","index","10","metric",["macro",60]]],
+      "vtp_fieldsToSet":["list",["map","fieldName","anonymizeIp","value","true"],["map","fieldName","page","value",["macro",44]],["map","fieldName","userId","value",["macro",46]],["map","fieldName","expId","value",["macro",47]],["map","fieldName","expVar","value",["macro",48]],["map","fieldName","referrer","value",["macro",50]],["map","fieldName","customTask","value",["macro",51]],["map","fieldName","exp","value",["macro",25]],["map","fieldName","location","value",["macro",53]],["map","fieldName","allowAdFeatures","value",["macro",55]]],
+      "vtp_metric":["list",["map","index","3","metric",["macro",56]],["map","index","4","metric",["macro",57]],["map","index","5","metric",["macro",58]],["map","index","7","metric",["macro",59]],["map","index","8","metric",["macro",60]],["map","index","10","metric",["macro",61]]],
       "vtp_enableLinkId":false,
-      "vtp_dimension":["list",["map","index","1","dimension",["macro",6]],["map","index","2","dimension",["macro",61]],["map","index","3","dimension",["macro",62]],["map","index","4","dimension",["macro",63]],["map","index","5","dimension",["macro",64]],["map","index","7","dimension",["macro",65]],["map","index","22","dimension",["macro",57]],["map","index","24","dimension",["macro",31]],["map","index","25","dimension",["macro",66]],["map","index","26","dimension",["macro",67]],["map","index","27","dimension",["macro",68]],["map","index","29","dimension",["macro",69]],["map","index","30","dimension",["macro",49]],["map","index","32","dimension",["macro",45]],["map","index","34","dimension",["macro",70]],["map","index","35","dimension",["macro",71]],["map","index","36","dimension",["macro",72]],["map","index","38","dimension",["macro",73]],["map","index","41","dimension",["macro",76]],["map","index","48","dimension",["macro",77]],["map","index","53","dimension",["macro",78]],["map","index","54","dimension",["macro",79]],["map","index","56","dimension",["macro",80]],["map","index","59","dimension",["macro",81]],["map","index","60","dimension",["macro",82]],["map","index","62","dimension",["macro",83]],["map","index","64","dimension",["macro",84]],["map","index","66","dimension",["macro",85]],["map","index","67","dimension",["macro",87]],["map","index","68","dimension",["macro",38]],["map","index","69","dimension",["macro",88]],["map","index","71","dimension",["macro",25]],["map","index","72","dimension",["macro",89]],["map","index","74","dimension",["macro",92]],["map","index","13","dimension",["macro",93]],["map","index","76","dimension",["macro",94]],["map","index","77","dimension",["macro",95]],["map","index","78","dimension",["macro",96]],["map","index","79","dimension",["macro",97]],["map","index","81","dimension",["macro",98]],["map","index","83","dimension",["macro",99]],["map","index","84","dimension",["macro",53]],["map","index","85","dimension",["macro",100]],["map","index","82","dimension",["macro",101]],["map","index","86","dimension",["macro",102]],["map","index","28","dimension",["macro",103]],["map","index","88","dimension",["template",["macro",105]," ",["macro",106]," - ",["macro",107]," ",["macro",108]]],["map","index","89","dimension",["macro",110]]],
+      "vtp_dimension":["list",["map","index","1","dimension",["macro",6]],["map","index","2","dimension",["macro",62]],["map","index","3","dimension",["macro",63]],["map","index","4","dimension",["macro",64]],["map","index","5","dimension",["macro",65]],["map","index","7","dimension",["macro",66]],["map","index","22","dimension",["macro",58]],["map","index","24","dimension",["macro",32]],["map","index","25","dimension",["macro",67]],["map","index","26","dimension",["macro",68]],["map","index","27","dimension",["macro",69]],["map","index","29","dimension",["macro",70]],["map","index","30","dimension",["macro",50]],["map","index","32","dimension",["macro",46]],["map","index","34","dimension",["macro",71]],["map","index","35","dimension",["macro",72]],["map","index","36","dimension",["macro",73]],["map","index","38","dimension",["macro",74]],["map","index","41","dimension",["macro",77]],["map","index","48","dimension",["macro",78]],["map","index","53","dimension",["macro",79]],["map","index","54","dimension",["macro",80]],["map","index","56","dimension",["macro",81]],["map","index","59","dimension",["macro",82]],["map","index","60","dimension",["macro",83]],["map","index","62","dimension",["macro",84]],["map","index","64","dimension",["macro",85]],["map","index","66","dimension",["macro",86]],["map","index","67","dimension",["macro",88]],["map","index","68","dimension",["macro",39]],["map","index","69","dimension",["macro",89]],["map","index","71","dimension",["macro",25]],["map","index","72","dimension",["macro",90]],["map","index","74","dimension",["macro",93]],["map","index","13","dimension",["macro",94]],["map","index","76","dimension",["macro",95]],["map","index","77","dimension",["macro",96]],["map","index","78","dimension",["macro",97]],["map","index","79","dimension",["macro",98]],["map","index","81","dimension",["macro",99]],["map","index","83","dimension",["macro",100]],["map","index","84","dimension",["macro",54]],["map","index","85","dimension",["macro",101]],["map","index","82","dimension",["macro",102]],["map","index","86","dimension",["macro",103]],["map","index","28","dimension",["macro",104]],["map","index","88","dimension",["template",["macro",106]," ",["macro",107]," - ",["macro",108]," ",["macro",109]]],["map","index","89","dimension",["macro",111]]],
       "vtp_enableEcommerce":true,
-      "vtp_trackingId":["macro",111],
+      "vtp_trackingId":["macro",112],
       "vtp_enableRecaptchaOption":false,
       "vtp_enableUaRlsa":false,
       "vtp_enableUseInternalVersion":false,
@@ -495,7 +497,7 @@ data = {
       "vtp_name":"eventOrigin"
     },{
       "function":"__jsm",
-      "vtp_javascript":["template","(function(){if(-1!==[\"GAevent\",\"GAEvent\",\"listView\",\"listClick\"].indexOf(",["escape",["macro",10],8,16],"))return ",["escape",["macro",114],8,16],";if(\"Sale\"==",["escape",["macro",10],8,16],")return ",["escape",["macro",6],8,16],";if(\"addToCart\"==",["escape",["macro",10],8,16],")return ",["escape",["macro",115],8,16],"})();"]
+      "vtp_javascript":["template","(function(){if(-1!==[\"GAevent\",\"GAEvent\",\"listView\",\"listClick\"].indexOf(",["escape",["macro",10],8,16],"))return ",["escape",["macro",115],8,16],";if(\"Sale\"==",["escape",["macro",10],8,16],")return ",["escape",["macro",6],8,16],";if(\"addToCart\"==",["escape",["macro",10],8,16],")return ",["escape",["macro",116],8,16],"})();"]
     },{
       "function":"__u",
       "vtp_component":"QUERY",
@@ -504,7 +506,7 @@ data = {
       "vtp_enableIgnoreEmptyQueryParam":false
     },{
       "function":"__jsm",
-      "vtp_javascript":["template","(function(){var a=\/(idealo)|(billiger)|(preisroboter)|(guenstiger)|(schottenland)|(testberichte)|(ladenzeile)|(moebel_de)|(kaufda)|(marktjagd)|(meinprospekt)|(mydealz)\/;if(",["escape",["macro",117],8,16],"\u0026\u0026",["escape",["macro",117],8,16],".match(a))return sessionStorage.setItem(\"cs_s\",\"0\"),\"start\"})();"]
+      "vtp_javascript":["template","(function(){var a=\/(idealo)|(billiger)|(preisroboter)|(guenstiger)|(schottenland)|(testberichte)|(ladenzeile)|(moebel_de)|(kaufda)|(marktjagd)|(meinprospekt)|(mydealz)\/;if(",["escape",["macro",118],8,16],"\u0026\u0026",["escape",["macro",118],8,16],".match(a))return sessionStorage.setItem(\"cs_s\",\"0\"),\"start\"})();"]
     },{
       "function":"__jsm",
       "vtp_javascript":["template","(function(){var a=window.performance.navigation.type;if(0==a)return\"navigate\";if(1==a)return\"reload\";if(2==a)return\"back or forward\";if(255==a)return\"reserved\"})();"]
@@ -517,7 +519,7 @@ data = {
       "vtp_javascript":["template","(function(){return window.location.pathname+window.location.search+window.location.hash})();"]
     },{
       "function":"__jsm",
-      "vtp_javascript":["template","(function(){try{if(\"pageView\"===",["escape",["macro",10],8,16],"){var a=\"Item\"===",["escape",["macro",30],8,16],"||0===",["escape",["macro",32],8,16],".indexOf(\"\/onlineshop\/product\");if(a){var c=\"undefined\"!==typeof ",["escape",["macro",15],8,16],"\u0026\u0026\"undefined\"!==typeof ",["escape",["macro",15],8,16],".offers\u0026\u00260\u003C",["escape",["macro",15],8,16],".offers.length;if(c){var d=\"undefined\"!==typeof ",["escape",["macro",15],8,16],".offers[0].price;if(d){var e=\"undefined\"!==typeof ",["escape",["macro",15],8,16],".offers[0].shipping_cost?",["escape",["macro",15],8,16],".offers[0].shipping_cost:0,f=100*(",["escape",["macro",15],8,16],".offers[0].price+\ne);return Math.round(f)}}}}}catch(b){a=\"undefined\"===typeof b||\"undefined\"===typeof b.message?\"Unknown error\":b.message,window.dataLayer=window.dataLayer||[],dataLayer.push({event:\"GAevent\",eventCategory:\"JavaScript Error\",eventAction:\"js_priceOfPdpMainProduct \"+a})}})();"]
+      "vtp_javascript":["template","(function(){try{if(\"pageView\"===",["escape",["macro",10],8,16],"){var a=\"Item\"===",["escape",["macro",31],8,16],"||0===",["escape",["macro",33],8,16],".indexOf(\"\/onlineshop\/product\");if(a){var c=\"undefined\"!==typeof ",["escape",["macro",15],8,16],"\u0026\u0026\"undefined\"!==typeof ",["escape",["macro",15],8,16],".offers\u0026\u00260\u003C",["escape",["macro",15],8,16],".offers.length;if(c){var d=\"undefined\"!==typeof ",["escape",["macro",15],8,16],".offers[0].price;if(d){var e=\"undefined\"!==typeof ",["escape",["macro",15],8,16],".offers[0].shipping_cost?",["escape",["macro",15],8,16],".offers[0].shipping_cost:0,f=100*(",["escape",["macro",15],8,16],".offers[0].price+\ne);return Math.round(f)}}}}}catch(b){a=\"undefined\"===typeof b||\"undefined\"===typeof b.message?\"Unknown error\":b.message,window.dataLayer=window.dataLayer||[],dataLayer.push({event:\"GAevent\",eventCategory:\"JavaScript Error\",eventAction:\"js_priceOfPdpMainProduct \"+a})}})();"]
     },{
       "function":"__gas",
       "vtp_useDebugVersion":false,
@@ -525,15 +527,15 @@ data = {
       "vtp_decorateFormsAutoLink":false,
       "vtp_cookieDomain":"auto",
       "vtp_useEcommerceDataLayer":false,
-      "vtp_ecommerceMacroData":["macro",42],
+      "vtp_ecommerceMacroData":["macro",43],
       "vtp_doubleClick":true,
       "vtp_setTrackerName":false,
-      "vtp_fieldsToSet":["list",["map","fieldName","anonymizeIp","value","true"],["map","fieldName","page","value",["macro",43]],["map","fieldName","sessionControl","value",["macro",118]],["map","fieldName","userId","value",["macro",45]],["map","fieldName","expId","value",["macro",46]],["map","fieldName","expVar","value",["macro",47]],["map","fieldName","referrer","value",["macro",49]],["map","fieldName","customTask","value",["macro",50]],["map","fieldName","exp","value",["macro",25]],["map","fieldName","location","value",["macro",52]],["map","fieldName","allowAdFeatures","value",["macro",54]]],
-      "vtp_metric":["list",["map","index","3","metric",["macro",55]],["map","index","4","metric",["macro",56]],["map","index","5","metric",["macro",57]],["map","index","7","metric",["macro",58]],["map","index","8","metric",["macro",59]],["map","index","10","metric",["macro",60]]],
+      "vtp_fieldsToSet":["list",["map","fieldName","anonymizeIp","value","true"],["map","fieldName","page","value",["macro",44]],["map","fieldName","sessionControl","value",["macro",119]],["map","fieldName","userId","value",["macro",46]],["map","fieldName","expId","value",["macro",47]],["map","fieldName","expVar","value",["macro",48]],["map","fieldName","referrer","value",["macro",50]],["map","fieldName","customTask","value",["macro",51]],["map","fieldName","exp","value",["macro",25]],["map","fieldName","location","value",["macro",53]],["map","fieldName","allowAdFeatures","value",["macro",55]]],
+      "vtp_metric":["list",["map","index","3","metric",["macro",56]],["map","index","4","metric",["macro",57]],["map","index","5","metric",["macro",58]],["map","index","7","metric",["macro",59]],["map","index","8","metric",["macro",60]],["map","index","10","metric",["macro",61]]],
       "vtp_enableLinkId":false,
-      "vtp_dimension":["list",["map","index","1","dimension",["macro",6]],["map","index","2","dimension",["macro",61]],["map","index","3","dimension",["macro",62]],["map","index","4","dimension",["macro",63]],["map","index","5","dimension",["macro",64]],["map","index","22","dimension",["macro",57]],["map","index","24","dimension",["macro",31]],["map","index","25","dimension",["macro",66]],["map","index","26","dimension",["macro",67]],["map","index","27","dimension",["macro",68]],["map","index","29","dimension",["macro",69]],["map","index","30","dimension",["macro",49]],["map","index","32","dimension",["macro",45]],["map","index","35","dimension",["macro",71]],["map","index","36","dimension",["macro",72]],["map","index","38","dimension",["macro",73]],["map","index","41","dimension",["macro",76]],["map","index","48","dimension",["macro",77]],["map","index","53","dimension",["macro",78]],["map","index","54","dimension",["macro",79]],["map","index","56","dimension",["macro",80]],["map","index","59","dimension",["macro",81]],["map","index","60","dimension",["macro",82]],["map","index","62","dimension",["macro",83]],["map","index","64","dimension",["macro",84]],["map","index","66","dimension",["macro",85]],["map","index","67","dimension",["macro",87]],["map","index","68","dimension",["macro",38]],["map","index","69","dimension",["macro",88]],["map","index","70","dimension",["macro",119]],["map","index","71","dimension",["macro",25]],["map","index","72","dimension",["macro",89]],["map","index","81","dimension",["macro",98]],["map","index","82","dimension",["macro",101]],["map","index","84","dimension",["macro",53]],["map","index","85","dimension",["macro",100]],["map","index","86","dimension",["macro",102]],["map","index","28","dimension",["macro",103]],["map","index","87","dimension",["macro",120]],["map","index","88","dimension",["template",["macro",105]," ",["macro",106]," - ",["macro",107]," ",["macro",108]]],["map","index","89","dimension",["macro",110]],["map","index","90","dimension",["macro",121]],["map","index","91","dimension",["macro",122]]],
+      "vtp_dimension":["list",["map","index","1","dimension",["macro",6]],["map","index","2","dimension",["macro",62]],["map","index","3","dimension",["macro",63]],["map","index","4","dimension",["macro",64]],["map","index","5","dimension",["macro",65]],["map","index","22","dimension",["macro",58]],["map","index","24","dimension",["macro",32]],["map","index","25","dimension",["macro",67]],["map","index","26","dimension",["macro",68]],["map","index","27","dimension",["macro",69]],["map","index","29","dimension",["macro",70]],["map","index","30","dimension",["macro",50]],["map","index","32","dimension",["macro",46]],["map","index","35","dimension",["macro",72]],["map","index","36","dimension",["macro",73]],["map","index","38","dimension",["macro",74]],["map","index","41","dimension",["macro",77]],["map","index","48","dimension",["macro",78]],["map","index","53","dimension",["macro",79]],["map","index","54","dimension",["macro",80]],["map","index","56","dimension",["macro",81]],["map","index","59","dimension",["macro",82]],["map","index","60","dimension",["macro",83]],["map","index","62","dimension",["macro",84]],["map","index","64","dimension",["macro",85]],["map","index","66","dimension",["macro",86]],["map","index","67","dimension",["macro",88]],["map","index","68","dimension",["macro",39]],["map","index","69","dimension",["macro",89]],["map","index","70","dimension",["macro",120]],["map","index","71","dimension",["macro",25]],["map","index","72","dimension",["macro",90]],["map","index","81","dimension",["macro",99]],["map","index","82","dimension",["macro",102]],["map","index","84","dimension",["macro",54]],["map","index","85","dimension",["macro",101]],["map","index","86","dimension",["macro",103]],["map","index","28","dimension",["macro",104]],["map","index","87","dimension",["macro",121]],["map","index","88","dimension",["template",["macro",106]," ",["macro",107]," - ",["macro",108]," ",["macro",109]]],["map","index","89","dimension",["macro",111]],["map","index","90","dimension",["macro",122]],["map","index","91","dimension",["macro",123]]],
       "vtp_enableEcommerce":true,
-      "vtp_trackingId":["macro",111],
+      "vtp_trackingId":["macro",112],
       "vtp_enableRecaptchaOption":false,
       "vtp_enableUaRlsa":false,
       "vtp_enableUseInternalVersion":false,
@@ -566,7 +568,7 @@ data = {
       "vtp_dataLayerVersion":1
     },{
       "function":"__jsm",
-      "vtp_javascript":["template","(function(){try{if(-1!=document.cookie.indexOf(\"forceGA4\"))return 1;var a=",["escape",["macro",98],8,16],";if(a){var e=90,b=0,c;for(c=0;c\u003Ca.length;c++){var f=a.charCodeAt(c);b=(b\u003C\u003C5)-b+f;b|=0}var g=Math.abs(b)%100;return g\u003E=e?1:0}}catch(d){a=\"undefined\"===typeof d||\"undefined\"===typeof d.toString()?\"Unknown error\":d.toString(),dataLayer.push({event:\"GAevent\",eventCategory:\"JavaScript Error\",eventAction:\"js_GA4_shouldTrack \"+a})}})();"]
+      "vtp_javascript":["template","(function(){try{if(-1!=document.cookie.indexOf(\"forceGA4\"))return 1;var a=",["escape",["macro",99],8,16],";if(a){var e=90,b=0,c;for(c=0;c\u003Ca.length;c++){var f=a.charCodeAt(c);b=(b\u003C\u003C5)-b+f;b|=0}var g=Math.abs(b)%100;return g\u003E=e?1:0}}catch(d){a=\"undefined\"===typeof d||\"undefined\"===typeof d.toString()?\"Unknown error\":d.toString(),dataLayer.push({event:\"GAevent\",eventCategory:\"JavaScript Error\",eventAction:\"js_GA4_shouldTrack \"+a})}})();"]
     },{
       "function":"__v",
       "vtp_dataLayerVersion":2,
@@ -603,6 +605,12 @@ data = {
       "vtp_setDefaultValue":false,
       "vtp_name":"checkout.tax"
     },{
+      "function":"__jsm",
+      "vtp_javascript":["template","(function(){try{var a=new RegExp(\"^https:\/\/\"+",["escape",["macro",91],8,16],");return null===",["escape",["macro",49],8,16],".match(a)}catch(b){a=\"undefined\"===typeof b||\"undefined\"===typeof b.message?\"Unknown error\":b.message,window.dataLayer=window.dataLayer||[],dataLayer.push({event:\"GAevent\",eventCategory:\"JavaScript Error\",eventAction:\"js_isFirstPageView \"+a})}})();"]
+    },{
+      "function":"__c",
+      "vtp_value":"10000"
+    },{
       "function":"__d",
       "vtp_elementId":"ratgeber",
       "vtp_attributeName":"id",
@@ -615,10 +623,10 @@ data = {
       "vtp_javascript":["template","(function(){if(\"undefined\"!==typeof window.gtm_sessionAndLocalStorageAvailable)return window.gtm_sessionAndLocalStorageAvailable;var a=window.sessionStorage,b=window.localStorage;try{return a.setItem(\"test\",\"test\"),a.removeItem(\"test\"),b.setItem(\"test\",\"test\"),b.removeItem(\"test\"),window.gtm_sessionAndLocalStorageAvailable=!0}catch(c){return window.gtm_sessionAndLocalStorageAvailable=!1}})();"]
     },{
       "function":"__jsm",
-      "vtp_javascript":["template","(function(){if(",["escape",["macro",140],8,16],"){var a=sessionStorage.getItem(\"cs_s\");return a}})();"]
+      "vtp_javascript":["template","(function(){if(",["escape",["macro",143],8,16],"){var a=sessionStorage.getItem(\"cs_s\");return a}})();"]
     },{
       "function":"__jsm",
-      "vtp_javascript":["template","(function(){var c=",["escape",["macro",6],8,16],";var p=",["escape",["macro",31],8,16],";var vt=",["escape",["macro",30],8,16],";var re_vt=\/^brand$|^category$|^search$|^topic$\/;if(c==\"onlineshop\"\u0026\u0026re_vt.test(vt.toLowerCase())==true)return true})();"]
+      "vtp_javascript":["template","(function(){var c=",["escape",["macro",6],8,16],";var p=",["escape",["macro",32],8,16],";var vt=",["escape",["macro",31],8,16],";var re_vt=\/^brand$|^category$|^search$|^topic$\/;if(c==\"onlineshop\"\u0026\u0026re_vt.test(vt.toLowerCase())==true)return true})();"]
     },{
       "function":"__jsm",
       "vtp_javascript":["template","(function(){if(window.Storage){var a=sessionStorage.getItem(\"pb_sn\");return a}})();"]
@@ -646,13 +654,13 @@ data = {
       "vtp_name":"user"
     },{
       "function":"__jsm",
-      "vtp_javascript":["template","(function(){if(\"undefined\"!=",["escape",["macro",45],8,16],")return null!=",["escape",["macro",148],8,16],".services.find(\"newsletter\")})();"]
+      "vtp_javascript":["template","(function(){if(\"undefined\"!=",["escape",["macro",46],8,16],")return null!=",["escape",["macro",151],8,16],".services.find(\"newsletter\")})();"]
     },{
       "function":"__jsm",
-      "vtp_javascript":["template","(function(){return null!=",["escape",["macro",148],8,16],".services.match(\"payback\")})();"]
+      "vtp_javascript":["template","(function(){return null!=",["escape",["macro",151],8,16],".services.match(\"payback\")})();"]
     },{
       "function":"__jsm",
-      "vtp_javascript":["template","(function(){var a={shop:",["escape",["macro",6],8,16],"};if(\"Item\"==",["escape",["macro",30],8,16],"){try{a.brand=",["escape",["macro",15],8,16],".brand}catch(b){a.brand=\"noname\"}try{a.category=",["escape",["macro",15],8,16],".category.join(\" \/ \")+\"$\"}catch(b){}}else if(\"Category\"==",["escape",["macro",30],8,16],")try{a.category=",["escape",["macro",11],8,16],".path.join(\" \/ \")+\"$\"}catch(b){}else if(\"Brand\"==",["escape",["macro",30],8,16],")try{a.brand=",["escape",["macro",32],8,16],".replace(\"\/onlineshop\/marken\/\",\"\")}catch(b){a.brand=\"noname\"}a.user_is_newsletter=",["escape",["macro",149],8,16],";\na.user_is_seller=",["escape",["macro",72],8,16],";a.user_is_payback=",["escape",["macro",150],8,16],";a.market_name=",["escape",["macro",70],8,16],";return a})();"]
+      "vtp_javascript":["template","(function(){var a={shop:",["escape",["macro",6],8,16],"};if(\"Item\"==",["escape",["macro",31],8,16],"){try{a.brand=",["escape",["macro",15],8,16],".brand}catch(b){a.brand=\"noname\"}try{a.category=",["escape",["macro",15],8,16],".category.join(\" \/ \")+\"$\"}catch(b){}}else if(\"Category\"==",["escape",["macro",31],8,16],")try{a.category=",["escape",["macro",11],8,16],".path.join(\" \/ \")+\"$\"}catch(b){}else if(\"Brand\"==",["escape",["macro",31],8,16],")try{a.brand=",["escape",["macro",33],8,16],".replace(\"\/onlineshop\/marken\/\",\"\")}catch(b){a.brand=\"noname\"}a.user_is_newsletter=",["escape",["macro",152],8,16],";\na.user_is_seller=",["escape",["macro",73],8,16],";a.user_is_payback=",["escape",["macro",153],8,16],";a.market_name=",["escape",["macro",71],8,16],";return a})();"]
     },{
       "function":"__jsm",
       "vtp_javascript":["template","(function(){var d=[],b=[];if(\"Sale\"==",["escape",["macro",10],8,16],")b=",["escape",["macro",2],8,16],".cart;else{var a=",["escape",["macro",15],8,16],";b.push(a)}for(a=0;a\u003Cb.length;a++)for(var c=0;c\u003Cb[a].offers.length;c++)d.push({id:b[a].id,price:b[a].offers[c].price,quantity:b[a].offers[c].amount});return d})();"]
@@ -668,6 +676,17 @@ data = {
       "function":"__k",
       "vtp_decodeCookie":false,
       "vtp_name":"AB-optimizely__browser_name"
+    },{
+      "function":"__k",
+      "vtp_decodeCookie":true,
+      "vtp_name":"real-consent-level"
+    },{
+      "function":"__k",
+      "vtp_decodeCookie":false,
+      "vtp_name":"forceCookieBot"
+    },{
+      "function":"__jsm",
+      "vtp_javascript":["template","(function(){try{return-1!==document.cookie.indexOf(\"CookieConsent\\x3d\")||-1!==document.cookie.indexOf(\"real-consent-level\\x3d\")}catch(a){var b=\"undefined\"===typeof a||\"undefined\"===typeof a.message?\"Unknown error\":a.message;window.dataLayer=window.dataLayer||[];dataLayer.push({event:\"GAevent\",eventCategory:\"JavaScript Error\",eventAction:\"js_anyConsentCookieAvailable \"+b})}})();"]
     },{
       "function":"__v",
       "vtp_dataLayerVersion":2,
@@ -692,7 +711,7 @@ data = {
       "vtp_name":"product.rating_average"
     },{
       "function":"__jsm",
-      "vtp_javascript":["template","(function(){try{return ",["escape",["macro",48],8,16],".match(\/^[\\w\\d-]+:\\\/\\\/([\\w\\d-]+\\.*)+\\\/?\/)[0]}catch(a){}})();"]
+      "vtp_javascript":["template","(function(){try{return ",["escape",["macro",49],8,16],".match(\/^[\\w\\d-]+:\\\/\\\/([\\w\\d-]+\\.*)+\\\/?\/)[0]}catch(a){}})();"]
     },{
       "function":"__v",
       "vtp_dataLayerVersion":2,
@@ -734,7 +753,7 @@ data = {
       "vtp_javascript":["template","(function(){try{if(\"undefined\"!==typeof document.cookie){var a=document.cookie.match(\/(^| )_ga=GA1\\.2\\.(\\d+\\.\\d+);\/);return a?a[2]:\"not set\"}return\"not set\"}catch(b){return a=\"undefined\"===typeof b||\"undefined\"===typeof b.message?\"Unknown error\":b.message,dataLayer.push({event:\"GAevent_ni\",eventCategory:\"JavaScript Error\",eventAction:\"ga_clientId \"+a}),\"not set\"}})();"]
     },{
       "function":"__jsm",
-      "vtp_javascript":["template","(function(){if(\"\/onlineshop\/seller\/signup-marketplace\/\"==",["escape",["macro",32],8,16],"){if(document.location.href.endsWith(\"\/#\/\"))return ",["escape",["macro",32],8,16],";var a=document.location.href.split(",["escape",["macro",91],8,16],");return\"\/onlineshop\"+a[a.length-1]}})();"]
+      "vtp_javascript":["template","(function(){if(\"\/onlineshop\/seller\/signup-marketplace\/\"==",["escape",["macro",33],8,16],"){if(document.location.href.endsWith(\"\/#\/\"))return ",["escape",["macro",33],8,16],";var a=document.location.href.split(",["escape",["macro",92],8,16],");return\"\/onlineshop\"+a[a.length-1]}})();"]
     },{
       "function":"__jsm",
       "vtp_javascript":["template","(function(){return navigator.language})();"]
@@ -745,10 +764,11 @@ data = {
       "vtp_name":"isInCookieAbTest"
     },{
       "function":"__c",
-      "vtp_value":"dKJ1Ez8ITa-S2Tk0yeKDWQ"
-    },{
-      "function":"__c",
       "vtp_value":"true"
+    },{
+      "function":"__k",
+      "vtp_decodeCookie":true,
+      "vtp_name":"CookieConsent"
     },{
       "function":"__v",
       "vtp_name":"gtm.element",
@@ -839,14 +859,14 @@ data = {
       "function":"__ua",
       "metadata":["map"],
       "once_per_event":true,
-      "vtp_nonInteraction":["macro",26],
+      "vtp_nonInteraction":["macro",27],
       "vtp_overrideGaSettings":false,
-      "vtp_eventValue":["macro",28],
-      "vtp_eventCategory":["macro",29],
+      "vtp_eventValue":["macro",29],
+      "vtp_eventCategory":["macro",30],
       "vtp_trackType":"TRACK_EVENT",
-      "vtp_gaSettings":["macro",112],
-      "vtp_eventAction":["macro",113],
-      "vtp_eventLabel":["macro",116],
+      "vtp_gaSettings":["macro",113],
+      "vtp_eventAction":["macro",114],
+      "vtp_eventLabel":["macro",117],
       "vtp_enableRecaptchaOption":false,
       "vtp_enableUaRlsa":false,
       "vtp_enableUseInternalVersion":false,
@@ -858,11 +878,11 @@ data = {
       "function":"__ua",
       "metadata":["map"],
       "consent":["list"],
-      "setup_tags":["list",["tag",56,0]],
+      "setup_tags":["list",["tag",62,0]],
       "once_per_event":true,
       "vtp_overrideGaSettings":false,
       "vtp_trackType":"TRACK_PAGEVIEW",
-      "vtp_gaSettings":["macro",123],
+      "vtp_gaSettings":["macro",124],
       "vtp_enableRecaptchaOption":false,
       "vtp_enableUaRlsa":false,
       "vtp_enableUseInternalVersion":false,
@@ -893,7 +913,7 @@ data = {
       "function":"__flc",
       "metadata":["map"],
       "consent":["list"],
-      "vtp_customVariable":["list",["map","key","u17","value",["macro",124]]],
+      "vtp_customVariable":["list",["map","key","u17","value",["macro",125]]],
       "vtp_enableConversionLinker":true,
       "vtp_groupTag":"real-0",
       "vtp_useImageTag":false,
@@ -901,7 +921,7 @@ data = {
       "vtp_ordinalType":"STANDARD",
       "vtp_conversionCookiePrefix":"_gcl",
       "vtp_advertiserId":"6487026",
-      "vtp_ordinalStandard":["macro",125],
+      "vtp_ordinalStandard":["macro",126],
       "vtp_url":["macro",8],
       "vtp_enableGoogleAttributionOptions":false,
       "vtp_showConversionLinkingControls":true,
@@ -950,9 +970,9 @@ data = {
       "vtp_overrideGaSettings":false,
       "vtp_eventCategory":"engagement",
       "vtp_trackType":"TRACK_EVENT",
-      "vtp_gaSettings":["macro",112],
+      "vtp_gaSettings":["macro",113],
       "vtp_eventAction":"Youtube Video click",
-      "vtp_eventLabel":["template",["macro",127],"_",["macro",128]],
+      "vtp_eventLabel":["template",["macro",128],"_",["macro",129]],
       "vtp_enableRecaptchaOption":false,
       "vtp_enableUaRlsa":false,
       "vtp_enableUseInternalVersion":false,
@@ -969,9 +989,9 @@ data = {
       "vtp_overrideGaSettings":false,
       "vtp_eventCategory":"engagement",
       "vtp_trackType":"TRACK_EVENT",
-      "vtp_gaSettings":["macro",112],
+      "vtp_gaSettings":["macro",113],
       "vtp_eventAction":"Youtube Video Progress",
-      "vtp_eventLabel":["template",["macro",127],"_",["macro",129],"%"],
+      "vtp_eventLabel":["template",["macro",128],"_",["macro",130],"%"],
       "vtp_enableRecaptchaOption":false,
       "vtp_enableUaRlsa":false,
       "vtp_enableUseInternalVersion":false,
@@ -986,12 +1006,12 @@ data = {
       "once_per_event":true,
       "vtp_nonInteraction":true,
       "vtp_overrideGaSettings":false,
-      "vtp_eventValue":["macro",27],
+      "vtp_eventValue":["macro",28],
       "vtp_eventCategory":["macro",22],
       "vtp_trackType":"TRACK_EVENT",
-      "vtp_gaSettings":["macro",112],
+      "vtp_gaSettings":["macro",113],
       "vtp_eventAction":["macro",23],
-      "vtp_eventLabel":["macro",114],
+      "vtp_eventLabel":["macro",115],
       "vtp_enableRecaptchaOption":false,
       "vtp_enableUaRlsa":false,
       "vtp_enableUseInternalVersion":false,
@@ -1006,12 +1026,12 @@ data = {
       "once_per_event":true,
       "vtp_nonInteraction":true,
       "vtp_overrideGaSettings":false,
-      "vtp_eventValue":["macro",27],
+      "vtp_eventValue":["macro",28],
       "vtp_eventCategory":["macro",22],
       "vtp_trackType":"TRACK_EVENT",
-      "vtp_gaSettings":["macro",112],
+      "vtp_gaSettings":["macro",113],
       "vtp_eventAction":["macro",23],
-      "vtp_eventLabel":["macro",114],
+      "vtp_eventLabel":["macro",115],
       "vtp_enableRecaptchaOption":false,
       "vtp_enableUaRlsa":false,
       "vtp_enableUseInternalVersion":false,
@@ -1028,7 +1048,7 @@ data = {
       "metadata":["map"],
       "consent":["list"],
       "once_per_event":true,
-      "vtp_fieldsToSet":["list",["map","name","anonymizeIp","value","true"],["map","name","page","value",["macro",43]],["map","name","userId","value",["macro",45]],["map","name","expId","value",["macro",46]],["map","name","expVar","value",["macro",47]],["map","name","exp","value",["macro",25]],["map","name","referrer","value",["macro",49]],["map","name","location","value",["macro",52]],["map","name","allowAdFeatures","value",["macro",54]],["map","name","view_type","value",["macro",102]]],
+      "vtp_fieldsToSet":["list",["map","name","anonymizeIp","value","true"],["map","name","page","value",["macro",44]],["map","name","userId","value",["macro",46]],["map","name","expId","value",["macro",47]],["map","name","expVar","value",["macro",48]],["map","name","exp","value",["macro",25]],["map","name","referrer","value",["macro",50]],["map","name","location","value",["macro",53]],["map","name","allowAdFeatures","value",["macro",55]],["map","name","view_type","value",["macro",103]]],
       "vtp_sendPageView":true,
       "vtp_measurementId":"G-9WNMNEZ2M0",
       "vtp_enableUserProperties":true,
@@ -1039,7 +1059,7 @@ data = {
       "consent":["list"],
       "once_per_event":true,
       "vtp_eventName":"login",
-      "vtp_eventParameters":["list",["map","name","method","value",["macro",114]]],
+      "vtp_eventParameters":["list",["map","name","method","value",["macro",115]]],
       "vtp_measurementId":"G-9WNMNEZ2M0",
       "vtp_enableUserProperties":true,
       "vtp_enableMoreSettingsOption":false,
@@ -1050,7 +1070,7 @@ data = {
       "consent":["list"],
       "once_per_event":true,
       "vtp_eventName":"search",
-      "vtp_eventParameters":["list",["map","name","search_term","value",["macro",114]],["map","name","search_type","value",["macro",23]]],
+      "vtp_eventParameters":["list",["map","name","search_term","value",["macro",115]],["map","name","search_type","value",["macro",23]]],
       "vtp_measurementId":"G-9WNMNEZ2M0",
       "vtp_enableUserProperties":true,
       "vtp_enableMoreSettingsOption":false,
@@ -1061,7 +1081,7 @@ data = {
       "consent":["list"],
       "once_per_event":true,
       "vtp_eventName":"sign_up",
-      "vtp_eventParameters":["list",["map","name","user_type","value",["macro",114]]],
+      "vtp_eventParameters":["list",["map","name","user_type","value",["macro",115]]],
       "vtp_measurementId":"G-9WNMNEZ2M0",
       "vtp_enableUserProperties":true,
       "vtp_enableMoreSettingsOption":false,
@@ -1072,7 +1092,7 @@ data = {
       "consent":["list"],
       "once_per_event":true,
       "vtp_eventName":"add_to_cart",
-      "vtp_eventParameters":["list",["map","name","currency","value",["macro",131]],["map","name","items","value",["macro",132]],["map","name","category","value",["macro",133]],["map","name","brand","value",["macro",134]],["map","name","item_id","value",["macro",124]]],
+      "vtp_eventParameters":["list",["map","name","currency","value",["macro",132]],["map","name","items","value",["macro",133]],["map","name","category","value",["macro",134]],["map","name","brand","value",["macro",135]],["map","name","item_id","value",["macro",125]]],
       "vtp_measurementId":"G-9WNMNEZ2M0",
       "vtp_enableUserProperties":true,
       "vtp_enableMoreSettingsOption":false,
@@ -1083,24 +1103,43 @@ data = {
       "consent":["list"],
       "once_per_event":true,
       "vtp_eventName":"purchase",
-      "vtp_eventParameters":["list",["map","name","value","value",["macro",16]],["map","name","transaction_id","value",["macro",135]],["map","name","shipping","value",["macro",136]],["map","name","tax","value",["macro",137]],["map","name","revenue","value",["macro",4]],["map","name","payment_method","value",["macro",69]],["map","name","delivery_type","value",["macro",73]]],
+      "vtp_eventParameters":["list",["map","name","value","value",["macro",16]],["map","name","transaction_id","value",["macro",136]],["map","name","shipping","value",["macro",137]],["map","name","tax","value",["macro",138]],["map","name","revenue","value",["macro",4]],["map","name","payment_method","value",["macro",70]],["map","name","delivery_type","value",["macro",74]]],
       "vtp_measurementId":"G-9WNMNEZ2M0",
       "vtp_enableUserProperties":true,
       "vtp_enableMoreSettingsOption":false,
       "tag_id":1452
     },{
+      "function":"__ua",
+      "metadata":["map"],
+      "consent":["list"],
+      "once_per_load":true,
+      "vtp_nonInteraction":true,
+      "vtp_overrideGaSettings":false,
+      "vtp_eventCategory":"engagement",
+      "vtp_trackType":"TRACK_EVENT",
+      "vtp_gaSettings":["macro",113],
+      "vtp_eventAction":"timeOnPage",
+      "vtp_eventLabel":["template",["macro",140]," ms"],
+      "vtp_enableRecaptchaOption":false,
+      "vtp_enableUaRlsa":false,
+      "vtp_enableUseInternalVersion":false,
+      "vtp_enableFirebaseCampaignData":true,
+      "vtp_trackTypeIsEvent":true,
+      "vtp_enableGA4Schema":false,
+      "tag_id":1478
+    },{
       "function":"__zone",
       "once_per_event":true,
       "vtp_childContainers":["list",["map","publicId","GTM-M6TP8B3","nickname","ZONE _ Seller area"]],
-      "vtp_boundaries":["list",["zb","_sw",["macro",31],"\/seller\/",false,false]],
+      "vtp_boundaries":["list",["zb","_sw",["macro",32],"\/seller\/",false,false]],
       "vtp_enableTypeRestrictions":false,
-      "tag_id":1464
+      "tag_id":1479
     },{
       "function":"__cl",
-      "tag_id":1465
+      "tag_id":1480
     },{
       "function":"__jel",
-      "tag_id":1466
+      "tag_id":1481
     },{
       "function":"__ytl",
       "vtp_captureComplete":false,
@@ -1111,7 +1150,7 @@ data = {
       "vtp_captureProgress":false,
       "vtp_uniqueTriggerId":"6178770_643",
       "vtp_enableTriggerStartOption":true,
-      "tag_id":1467
+      "tag_id":1482
     },{
       "function":"__ytl",
       "vtp_progressThresholdsPercent":"25, 50, 75, 100",
@@ -1124,31 +1163,53 @@ data = {
       "vtp_captureProgress":true,
       "vtp_uniqueTriggerId":"6178770_646",
       "vtp_enableTriggerStartOption":true,
-      "tag_id":1468
+      "tag_id":1483
     },{
       "function":"__cl",
-      "tag_id":1469
+      "tag_id":1484
     },{
       "function":"__hl",
-      "tag_id":1470
+      "tag_id":1485
     },{
       "function":"__hl",
-      "tag_id":1471
+      "tag_id":1486
     },{
       "function":"__tg",
       "vtp_triggerIds":["list","6178770_1420_1419","6178770_1420_21"],
       "vtp_uniqueTriggerId":"6178770_1420",
-      "tag_id":1472
+      "tag_id":1487
     },{
       "function":"__tg",
       "vtp_isListeningTag":true,
       "vtp_firingId":"6178770_1420_1419",
-      "tag_id":1473
+      "tag_id":1488
     },{
       "function":"__tg",
       "vtp_isListeningTag":true,
       "vtp_firingId":"6178770_1420_21",
-      "tag_id":1475
+      "tag_id":1490
+    },{
+      "function":"__tl",
+      "vtp_eventName":"gtm.timer",
+      "vtp_interval":["macro",140],
+      "vtp_limit":"1",
+      "vtp_uniqueTriggerId":"6178770_1477",
+      "tag_id":1491
+    },{
+      "function":"__tg",
+      "vtp_triggerIds":["list","6178770_1490_1477","6178770_1490_21"],
+      "vtp_uniqueTriggerId":"6178770_1490",
+      "tag_id":1492
+    },{
+      "function":"__tg",
+      "vtp_isListeningTag":true,
+      "vtp_firingId":"6178770_1490_1477",
+      "tag_id":1493
+    },{
+      "function":"__tg",
+      "vtp_isListeningTag":true,
+      "vtp_firingId":"6178770_1490_21",
+      "tag_id":1495
     },{
       "function":"__html",
       "metadata":["map"],
@@ -1173,7 +1234,7 @@ data = {
       "metadata":["map"],
       "consent":["list"],
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\" id=\"gtmctagid_CS_pageview\"\u003E(function(){try{window._uxa=window._uxa||[];window._uxa.push([\"setPath\",window.location.pathname+window.location.hash.replace(\"#\",\"?__\")]);\"undefined\"!==typeof dataLayer\u0026\u0026(void 0!==",["escape",["macro",134],8,16],"\u0026\u0026window._uxa.push([\"setCustomVariable\",3,\"product_brand\",",["escape",["macro",134],8,16],",3]),void 0!==",["escape",["macro",30],8,16],"\u0026\u0026window._uxa.push([\"setCustomVariable\",5,\"view_type\",",["escape",["macro",30],8,16],",3]),void 0!==",["escape",["macro",32],8,16],"\u0026\u0026window._uxa.push([\"setCustomVariable\",6,\"virt_path\",",["escape",["macro",32],8,16],",\n3]),void 0!==",["escape",["macro",133],8,16],"\u0026\u0026window._uxa.push([\"setCustomVariable\",9,\"product_category\",String(",["escape",["macro",133],8,16],"),3]),void 0!==",["escape",["macro",38],8,16],"\u0026\u0026window._uxa.push([\"setCustomVariable\",10,\"search_term\",",["escape",["macro",38],8,16],",3]),void 0!==",["escape",["macro",70],8,16],"\u0026\u0026window._uxa.push([\"setCustomVariable\",12,\"market_name\",",["escape",["macro",70],8,16],",3]),void 0!==",["escape",["macro",58],8,16],"\u0026\u0026window._uxa.push([\"setCustomVariable\",15,\"search results\",String(",["escape",["macro",58],8,16],"),3]),void 0!==",["escape",["macro",81],8,16],"\u0026\u0026\nwindow._uxa.push([\"setCustomVariable\",16,\"logged_in_status\",String(",["escape",["macro",81],8,16],"),3]),\"null\"!==",["escape",["macro",138],8,16],"\u0026\u0026window._uxa.push([\"setCustomVariable\",18,\"js_isAdvisorPage\",",["escape",["macro",138],8,16],",3]),void 0!==",["escape",["macro",71],8,16],"\u0026\u0026window._uxa.push([\"setCustomVariable\",19,\"user.seller_id\",",["escape",["macro",71],8,16],",3]),void 0!==",["escape",["macro",79],8,16],"\u0026\u0026window._uxa.push([\"setCustomVariable\",20,\"product.seller_type\",",["escape",["macro",79],8,16],",3]),",["escape",["macro",139],8,16],"\u0026\u0026window._uxa.push([\"trackDynamicVariable\",\n{key:\"backend_abtest\",value:",["escape",["macro",139],8,16],"}]),void 0!==",["escape",["macro",89],8,16],"\u0026\u0026window._uxa.push([\"trackDynamicVariable\",{key:\"client_abtest\",value:",["escape",["macro",89],8,16],"}]),",["escape",["macro",139],8,16],"\u0026\u0026window._uxa.push([\"trackPageEvent\",",["escape",["macro",139],8,16],"]));if(\"undefined\"===typeof CS_CONF){var a=document.createElement(\"script\");a.type=\"text\/javascript\";a.async=!0;a.src=\"\/\/t.contentsquare.net\/uxa\/8fb48415ac213.js\";document.getElementsByTagName(\"head\")[0].appendChild(a)}else window._uxa.push([\"trackPageview\",\nwindow.location.pathname+window.location.hash.replace(\"#\",\"?__\")]);\"1\"!=",["escape",["macro",141],8,16],"\u0026\u0026(window._uxa.push([\"getSessionKey\",{callback:function(b){dataLayer.push({event:\"GAevent\",eventCategory:\"csSessionKey\",eventAction:b,eventLabel:void 0,eventValue:void 0})}}]),",["escape",["macro",140],8,16],"\u0026\u0026sessionStorage.setItem(\"cs_s\",\"1\"))}catch(b){a=\"undefined\"===typeof b||\"undefined\"===typeof b.message?\"Unknown error\":b.message,dataLayer.push({event:\"GAevent\",eventCategory:\"JavaScript Error\",eventAction:\"CS_PageView \"+\na})}})();\u003C\/script\u003E"],
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\" id=\"gtmctagid_CS_pageview\"\u003E(function(){try{window._uxa=window._uxa||[];window._uxa.push([\"setPath\",window.location.pathname+window.location.hash.replace(\"#\",\"?__\")]);\"undefined\"!==typeof dataLayer\u0026\u0026(void 0!==",["escape",["macro",135],8,16],"\u0026\u0026window._uxa.push([\"setCustomVariable\",3,\"product_brand\",",["escape",["macro",135],8,16],",3]),void 0!==",["escape",["macro",31],8,16],"\u0026\u0026window._uxa.push([\"setCustomVariable\",5,\"view_type\",",["escape",["macro",31],8,16],",3]),void 0!==",["escape",["macro",33],8,16],"\u0026\u0026window._uxa.push([\"setCustomVariable\",6,\"virt_path\",",["escape",["macro",33],8,16],",\n3]),void 0!==",["escape",["macro",134],8,16],"\u0026\u0026window._uxa.push([\"setCustomVariable\",9,\"product_category\",String(",["escape",["macro",134],8,16],"),3]),void 0!==",["escape",["macro",39],8,16],"\u0026\u0026window._uxa.push([\"setCustomVariable\",10,\"search_term\",",["escape",["macro",39],8,16],",3]),void 0!==",["escape",["macro",71],8,16],"\u0026\u0026window._uxa.push([\"setCustomVariable\",12,\"market_name\",",["escape",["macro",71],8,16],",3]),void 0!==",["escape",["macro",59],8,16],"\u0026\u0026window._uxa.push([\"setCustomVariable\",15,\"search results\",String(",["escape",["macro",59],8,16],"),3]),void 0!==",["escape",["macro",82],8,16],"\u0026\u0026\nwindow._uxa.push([\"setCustomVariable\",16,\"logged_in_status\",String(",["escape",["macro",82],8,16],"),3]),\"null\"!==",["escape",["macro",141],8,16],"\u0026\u0026window._uxa.push([\"setCustomVariable\",18,\"js_isAdvisorPage\",",["escape",["macro",141],8,16],",3]),void 0!==",["escape",["macro",72],8,16],"\u0026\u0026window._uxa.push([\"setCustomVariable\",19,\"user.seller_id\",",["escape",["macro",72],8,16],",3]),void 0!==",["escape",["macro",80],8,16],"\u0026\u0026window._uxa.push([\"setCustomVariable\",20,\"product.seller_type\",",["escape",["macro",80],8,16],",3]),",["escape",["macro",142],8,16],"\u0026\u0026window._uxa.push([\"trackDynamicVariable\",\n{key:\"backend_abtest\",value:",["escape",["macro",142],8,16],"}]),void 0!==",["escape",["macro",90],8,16],"\u0026\u0026window._uxa.push([\"trackDynamicVariable\",{key:\"client_abtest\",value:",["escape",["macro",90],8,16],"}]),",["escape",["macro",142],8,16],"\u0026\u0026window._uxa.push([\"trackPageEvent\",",["escape",["macro",142],8,16],"]));if(\"undefined\"===typeof CS_CONF){var a=document.createElement(\"script\");a.type=\"text\/javascript\";a.async=!0;a.src=\"\/\/t.contentsquare.net\/uxa\/8fb48415ac213.js\";document.getElementsByTagName(\"head\")[0].appendChild(a)}else window._uxa.push([\"trackPageview\",\nwindow.location.pathname+window.location.hash.replace(\"#\",\"?__\")]);\"1\"!=",["escape",["macro",144],8,16],"\u0026\u0026(window._uxa.push([\"getSessionKey\",{callback:function(b){dataLayer.push({event:\"GAevent\",eventCategory:\"csSessionKey\",eventAction:b,eventLabel:void 0,eventValue:void 0})}}]),",["escape",["macro",143],8,16],"\u0026\u0026sessionStorage.setItem(\"cs_s\",\"1\"))}catch(b){a=\"undefined\"===typeof b||\"undefined\"===typeof b.message?\"Unknown error\":b.message,dataLayer.push({event:\"GAevent\",eventCategory:\"JavaScript Error\",eventAction:\"CS_PageView \"+\na})}})();\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
@@ -1191,7 +1252,7 @@ data = {
       "function":"__html",
       "metadata":["map"],
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\" id=\"gtmctagid_payback_campaign\"\u003Efunction pb_ck(c,d,a){a*=1E3;var b=new Date,e=b.getTime();b.setTime(e+a);a=b.toUTCString();document.cookie=c+\"\\x3d\"+d+\"; expires\\x3d\"+a+\"; path\\x3d\/; domain\\x3d.\"+location.hostname.replace(\/^www\\.\/i,\"\")}var re=\/(?=.*?\\butm_source=payback\\b)(?=.*?\\butm_medium=paid\\b)(?=.*?\\btduid=\\b)(?=(.*?\\butm_campaign=payback%20page\\b))^.*$\/;\nwindow.Storage\u0026\u0026(1==re.test(",["escape",["macro",82],8,16],")\u0026\u0026\"0\"!=",["escape",["macro",80],8,16],"?pb_ck(\"tduid3\",",["escape",["macro",144],8,16],",2592E3):",["escape",["macro",82],8,16],".match(\/(utm_.*=)|(gclid=)\/)\u0026\u00260==re.test(",["escape",["macro",82],8,16],")?pb_ck(\"tduid3\",0,2592E3):(0!=re.test(",["escape",["macro",82],8,16],")||\"0\"!=",["escape",["macro",80],8,16],"\u0026\u0026void 0!=",["escape",["macro",80],8,16],"||\"1\"==sessionStorage.getItem(\"pb_sn\")||pb_ck(\"tduid3\",0,2592E3),sessionStorage.setItem(\"pb_sn\",\"1\")));\n",["escape",["macro",80],8,16],"\u0026\u0026\"0\"!=",["escape",["macro",80],8,16],"\u0026\u0026\"Sale\"==",["escape",["macro",10],8,16],"\u0026\u0026(dataLayer.push({event:\"GAevent\",eventCategory:\"Enhanced Ecommerce\",eventAction:\"pb campaign sale\",eventLabel:",["escape",["macro",3],8,16],",eventValue:",["escape",["macro",4],8,16],"}),pb_ck(\"tduid3\",0,0));\u003C\/script\u003E\n"],
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\" id=\"gtmctagid_payback_campaign\"\u003Efunction pb_ck(c,d,a){a*=1E3;var b=new Date,e=b.getTime();b.setTime(e+a);a=b.toUTCString();document.cookie=c+\"\\x3d\"+d+\"; expires\\x3d\"+a+\"; path\\x3d\/; domain\\x3d.\"+location.hostname.replace(\/^www\\.\/i,\"\")}var re=\/(?=.*?\\butm_source=payback\\b)(?=.*?\\butm_medium=paid\\b)(?=.*?\\btduid=\\b)(?=(.*?\\butm_campaign=payback%20page\\b))^.*$\/;\nwindow.Storage\u0026\u0026(1==re.test(",["escape",["macro",83],8,16],")\u0026\u0026\"0\"!=",["escape",["macro",81],8,16],"?pb_ck(\"tduid3\",",["escape",["macro",147],8,16],",2592E3):",["escape",["macro",83],8,16],".match(\/(utm_.*=)|(gclid=)\/)\u0026\u00260==re.test(",["escape",["macro",83],8,16],")?pb_ck(\"tduid3\",0,2592E3):(0!=re.test(",["escape",["macro",83],8,16],")||\"0\"!=",["escape",["macro",81],8,16],"\u0026\u0026void 0!=",["escape",["macro",81],8,16],"||\"1\"==sessionStorage.getItem(\"pb_sn\")||pb_ck(\"tduid3\",0,2592E3),sessionStorage.setItem(\"pb_sn\",\"1\")));\n",["escape",["macro",81],8,16],"\u0026\u0026\"0\"!=",["escape",["macro",81],8,16],"\u0026\u0026\"Sale\"==",["escape",["macro",10],8,16],"\u0026\u0026(dataLayer.push({event:\"GAevent\",eventCategory:\"Enhanced Ecommerce\",eventAction:\"pb campaign sale\",eventLabel:",["escape",["macro",3],8,16],",eventValue:",["escape",["macro",4],8,16],"}),pb_ck(\"tduid3\",0,0));\u003C\/script\u003E\n"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
@@ -1201,7 +1262,7 @@ data = {
       "metadata":["map"],
       "consent":["list"],
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003E(function(){try{if(\"onlineshop\"==",["escape",["macro",6],8,16],"\u0026\u0026\"Search\"==",["escape",["macro",30],8,16],"){for(var c=20,d=[],b=0;b\u003C",["escape",["macro",13],8,16],".length;b++){var a=",["escape",["macro",13],8,16],"[b],f=\"undefined\"!==typeof a.offers\u0026\u0026\"undefined\"!==typeof a.offers[0]\u0026\u0026\"undefined\"!==typeof a.offers[0].price?a.offers[0].price:a.price;d.push({id:a.id,name:a.name,position:a.position,category:a.category,brand:a.brand,list:a.list,price:f})}for(b=0;b*c\u003Cd.length;b++){var g=d.slice(b*c,(b+1)*c);dataLayer.push({event:\"listView\",channel:\"onlineshop\",\ncurrencyCode:\"EUR\",impressions:g});(b+1)*c\u003Cd.length\u0026\u0026dataLayer.push({impressions:void 0})}}}catch(e){c=\"undefined\"===typeof e||\"undefined\"===typeof e.message?\"Unknown error\":e.message,dataLayer.push({event:\"GAevent\",eventCategory:\"JavaScript Error\",eventAction:\"GaSearchResultList_OS \"+c})}})();\u003C\/script\u003E"],
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003E(function(){try{if(\"onlineshop\"==",["escape",["macro",6],8,16],"\u0026\u0026\"Search\"==",["escape",["macro",31],8,16],"){for(var c=20,d=[],b=0;b\u003C",["escape",["macro",13],8,16],".length;b++){var a=",["escape",["macro",13],8,16],"[b],f=\"undefined\"!==typeof a.offers\u0026\u0026\"undefined\"!==typeof a.offers[0]\u0026\u0026\"undefined\"!==typeof a.offers[0].price?a.offers[0].price:a.price;d.push({id:a.id,name:a.name,position:a.position,category:a.category,brand:a.brand,list:a.list,price:f})}for(b=0;b*c\u003Cd.length;b++){var g=d.slice(b*c,(b+1)*c);dataLayer.push({event:\"listView\",channel:\"onlineshop\",\ncurrencyCode:\"EUR\",impressions:g});(b+1)*c\u003Cd.length\u0026\u0026dataLayer.push({impressions:void 0})}}}catch(e){c=\"undefined\"===typeof e||\"undefined\"===typeof e.message?\"Unknown error\":e.message,dataLayer.push({event:\"GAevent\",eventCategory:\"JavaScript Error\",eventAction:\"GaSearchResultList_OS \"+c})}})();\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
@@ -1210,7 +1271,7 @@ data = {
       "function":"__html",
       "metadata":["map"],
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\" id=\"gtmctagid_moebel_sale\"\u003Evar _mo=_mo||[];_mo.push([\"_key\",\"21e55062-f619-458f-9eb6-9e7c5eb9b17c\"]);_mo.push([\"_umsatz\",\"",["escape",["macro",146],7],"\"]);_mo.push([\"_versandkosten\",\"\"]);_mo.push([\"_artikelliste\",\"\"]);(function(){var a=document.createElement(\"script\");a.type=\"text\/javascript\";a.async=!0;a.src=\"https:\/\/sales1.moebel.de\/asyndic.js\";var b=document.getElementsByTagName(\"script\")[0];b.parentNode.insertBefore(a,b)})();\u003C\/script\u003E"],
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\" id=\"gtmctagid_moebel_sale\"\u003Evar _mo=_mo||[];_mo.push([\"_key\",\"21e55062-f619-458f-9eb6-9e7c5eb9b17c\"]);_mo.push([\"_umsatz\",\"",["escape",["macro",149],7],"\"]);_mo.push([\"_versandkosten\",\"\"]);_mo.push([\"_artikelliste\",\"\"]);(function(){var a=document.createElement(\"script\");a.type=\"text\/javascript\";a.async=!0;a.src=\"https:\/\/sales1.moebel.de\/asyndic.js\";var b=document.getElementsByTagName(\"script\")[0];b.parentNode.insertBefore(a,b)})();\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
@@ -1219,7 +1280,7 @@ data = {
       "function":"__html",
       "metadata":["map"],
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript id=\"gtmctagid_moebel_setCookie\" type=\"text\/gtmscript\"\u003Eif(\"moebel_de\"==",["escape",["macro",117],8,16],"){var cookieName=\"coopPartner\",cookieValue=\"moebel.de\",expirationTime=604800;expirationTime*=1E3;var date=new Date,dateTimeNow=date.getTime();date.setTime(dateTimeNow+expirationTime);date=date.toUTCString();document.cookie=cookieName+\"\\x3d\"+cookieValue+\"; expires\\x3d\"+date+\"; path\\x3d\/; domain\\x3d.\"+location.hostname.replace(\/^www\\.\/i,\"\")};\u003C\/script\u003E"],
+      "vtp_html":["template","\u003Cscript id=\"gtmctagid_moebel_setCookie\" type=\"text\/gtmscript\"\u003Eif(\"moebel_de\"==",["escape",["macro",118],8,16],"){var cookieName=\"coopPartner\",cookieValue=\"moebel.de\",expirationTime=604800;expirationTime*=1E3;var date=new Date,dateTimeNow=date.getTime();date.setTime(dateTimeNow+expirationTime);date=date.toUTCString();document.cookie=cookieName+\"\\x3d\"+cookieValue+\"; expires\\x3d\"+date+\"; path\\x3d\/; domain\\x3d.\"+location.hostname.replace(\/^www\\.\/i,\"\")};\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
@@ -1238,7 +1299,7 @@ data = {
       "function":"__html",
       "metadata":["map"],
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\" id=\"gtmctagid_documentlocationsaver\"\u003EsessionStorage.setItem(\"ga_dl\",",["escape",["macro",51],8,16],");\u003C\/script\u003E\n"],
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\" id=\"gtmctagid_documentlocationsaver\"\u003EsessionStorage.setItem(\"ga_dl\",",["escape",["macro",52],8,16],");\u003C\/script\u003E\n"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
@@ -1246,9 +1307,9 @@ data = {
     },{
       "function":"__html",
       "metadata":["map"],
-      "setup_tags":["list",["tag",57,0]],
+      "setup_tags":["list",["tag",63,0]],
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\" id=\"gtmctagid_fbatc\"\u003E(function(){var a=",["escape",["macro",151],8,16],";a.content_type=\"product\";a.currency=\"EUR\";try{a.contents=",["escape",["macro",152],8,16],"}catch(b){}try{a.content_ids=[",["escape",["macro",15],8,16],".id]}catch(b){}try{a.value=",["escape",["macro",15],8,16],".offers[0].price}catch(b){a.value=0}fbq(\"track\",\"AddToCart\",a)})();\u003C\/script\u003E"],
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\" id=\"gtmctagid_fbatc\"\u003E(function(){var a=",["escape",["macro",154],8,16],";a.content_type=\"product\";a.currency=\"EUR\";try{a.contents=",["escape",["macro",155],8,16],"}catch(b){}try{a.content_ids=[",["escape",["macro",15],8,16],".id]}catch(b){}try{a.value=",["escape",["macro",15],8,16],".offers[0].price}catch(b){a.value=0}fbq(\"track\",\"AddToCart\",a)})();\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
@@ -1257,9 +1318,9 @@ data = {
       "function":"__html",
       "metadata":["map"],
       "consent":["list"],
-      "setup_tags":["list",["tag",57,0]],
+      "setup_tags":["list",["tag",63,0]],
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\" id=\"gtmctagid_fbpv\"\u003E(function(){fbq(\"track\",\"PageView\",",["escape",["macro",151],8,16],");var a=",["escape",["macro",30],8,16],";if(\"Item\"==a){a=",["escape",["macro",151],8,16],";a.content_category=",["escape",["macro",6],8,16],";a.content_type=\"product\";a.currency=\"EUR\";try{a.contents=",["escape",["macro",152],8,16],"}catch(b){}try{a.content_ids=[",["escape",["macro",15],8,16],".id]}catch(b){}try{a.value=",["escape",["macro",15],8,16],".offers[0].price}catch(b){a.value=0}fbq(\"track\",\"ViewContent\",a)}else\"Checkout\"==a\u0026\u0026fbq(\"track\",\"InitiateCheckout\")})();\u003C\/script\u003E\n"],
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\" id=\"gtmctagid_fbpv\"\u003E(function(){fbq(\"track\",\"PageView\",",["escape",["macro",154],8,16],");var a=",["escape",["macro",31],8,16],";if(\"Item\"==a){a=",["escape",["macro",154],8,16],";a.content_category=",["escape",["macro",6],8,16],";a.content_type=\"product\";a.currency=\"EUR\";try{a.contents=",["escape",["macro",155],8,16],"}catch(b){}try{a.content_ids=[",["escape",["macro",15],8,16],".id]}catch(b){}try{a.value=",["escape",["macro",15],8,16],".offers[0].price}catch(b){a.value=0}fbq(\"track\",\"ViewContent\",a)}else\"Checkout\"==a\u0026\u0026fbq(\"track\",\"InitiateCheckout\")})();\u003C\/script\u003E\n"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
@@ -1267,9 +1328,9 @@ data = {
     },{
       "function":"__html",
       "metadata":["map"],
-      "setup_tags":["list",["tag",57,0]],
+      "setup_tags":["list",["tag",63,0]],
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\" id=\"gtmctagid_fbs\"\u003E(function(){var a=",["escape",["macro",151],8,16],";a.content_type=\"product\";a.currency=\"EUR\";a.payment_method=",["escape",["macro",69],8,16],";try{a.contents=",["escape",["macro",152],8,16],"}catch(b){}a.content_ids=",["escape",["macro",17],8,16],";a.value=Math.max(0,",["escape",["macro",2],8,16],".revenue)||0;fbq(\"track\",\"Purchase\",a)})();\u003C\/script\u003E\n"],
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\" id=\"gtmctagid_fbs\"\u003E(function(){var a=",["escape",["macro",154],8,16],";a.content_type=\"product\";a.currency=\"EUR\";a.payment_method=",["escape",["macro",70],8,16],";try{a.contents=",["escape",["macro",155],8,16],"}catch(b){}a.content_ids=",["escape",["macro",17],8,16],";a.value=Math.max(0,",["escape",["macro",2],8,16],".revenue)||0;fbq(\"track\",\"Purchase\",a)})();\u003C\/script\u003E\n"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
@@ -1278,9 +1339,9 @@ data = {
       "function":"__html",
       "metadata":["map"],
       "consent":["list"],
-      "setup_tags":["list",["tag",55,0]],
+      "setup_tags":["list",["tag",61,0]],
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\" id=\"gtmctagid_pintpv\"\u003E(function(){\"pageView\"==",["escape",["macro",10],8,16],"\u0026\u0026\"Category\"==",["escape",["macro",30],8,16],"?pintrk(\"track\",\"viewcategory\"):\"Item\"==",["escape",["macro",30],8,16],"?pintrk(\"track\",\"pagevisit\"):\"pageView\"==",["escape",["macro",10],8,16],"\u0026\u0026\"Search\"==",["escape",["macro",30],8,16],"\u0026\u0026pintrk(\"track\",\"search\",{search_query:\"",["escape",["macro",38],7],"\"})})();\u003C\/script\u003E"],
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\" id=\"gtmctagid_pintpv\"\u003E(function(){\"pageView\"==",["escape",["macro",10],8,16],"\u0026\u0026\"Category\"==",["escape",["macro",31],8,16],"?pintrk(\"track\",\"viewcategory\"):\"Item\"==",["escape",["macro",31],8,16],"?pintrk(\"track\",\"pagevisit\"):\"pageView\"==",["escape",["macro",10],8,16],"\u0026\u0026\"Search\"==",["escape",["macro",31],8,16],"\u0026\u0026pintrk(\"track\",\"search\",{search_query:\"",["escape",["macro",39],7],"\"})})();\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
@@ -1288,7 +1349,7 @@ data = {
     },{
       "function":"__html",
       "metadata":["map"],
-      "setup_tags":["list",["tag",55,0]],
+      "setup_tags":["list",["tag",61,0]],
       "once_per_event":true,
       "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\" id=\"gtmctagid_pints\"\u003E(function(){function e(a){for(var b=0,c=0;c\u003Ca.length;c++)b+=a[c].offers[0].amount*a[c].offers[0].price;return b}function f(a){for(var b=0,c=0;c\u003Ca.length;c++)b+=a[c].offers[0].amount;return b}if(\"Sale\"==",["escape",["macro",10],8,16],"){for(var a=",["escape",["macro",2],8,16],".cart,d=[],b=0;b\u003Ca.length;b++)d.push({product_name:a[b].name,product_id:a[b].ean,product_price:a[b].offers[0].price,product_quantity:a[b].offers[0].amount});a={value:e(a),order_quantity:f(a),currency:\"EUR\",line_items:d};pintrk(\"track\",\"checkout\",\na)}})();\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
@@ -1298,7 +1359,7 @@ data = {
     },{
       "function":"__html",
       "metadata":["map"],
-      "setup_tags":["list",["tag",55,0]],
+      "setup_tags":["list",["tag",61,0]],
       "once_per_event":true,
       "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\" id=\"gtmctagid_pintatc\"\u003E(function(){\"addToCart\"==",["escape",["macro",10],8,16],"\u0026\u0026pintrk(\"track\",\"AddToCart\",{value:",["escape",["macro",15],8,16],".offers[0].price,order_quantity:",["escape",["macro",15],8,16],".offers[0].amount,currency:\"EUR\"})})();\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
@@ -1310,7 +1371,7 @@ data = {
       "metadata":["map"],
       "consent":["list"],
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003Etry{0===window.location.href.indexOf(\"https:\/\/www.",["escape",["macro",91],7],"\")\u0026\u0026\"undefined\"!==typeof window.screen\u0026\u0026\"undefined\"!==typeof window.screen.width\u0026\u0026(document.cookie=\"real_screenWidthInPxs\\x3d\"+parseInt(screen.width)+\";path\\x3d\/;Secure;SameSite\\x3dLax;domain\\x3d.",["escape",["macro",91],7],"\")}catch(a){var errMsg=\"undefined\"===typeof a||\"undefined\"===typeof a.message?\"Unknown error\":a.message;dataLayer.push({event:\"GAevent\",eventCategory:\"JavaScript Error\",eventAction:\"tmpCookieScreenWidth \"+errMsg})};\u003C\/script\u003E"],
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003Etry{0===window.location.href.indexOf(\"https:\/\/www.",["escape",["macro",92],7],"\")\u0026\u0026\"undefined\"!==typeof window.screen\u0026\u0026\"undefined\"!==typeof window.screen.width\u0026\u0026(document.cookie=\"real_screenWidthInPxs\\x3d\"+parseInt(screen.width)+\";path\\x3d\/;Secure;SameSite\\x3dLax;domain\\x3d.",["escape",["macro",92],7],"\")}catch(a){var errMsg=\"undefined\"===typeof a||\"undefined\"===typeof a.message?\"Unknown error\":a.message;dataLayer.push({event:\"GAevent\",eventCategory:\"JavaScript Error\",eventAction:\"tmpCookieScreenWidth \"+errMsg})};\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
@@ -1320,7 +1381,7 @@ data = {
       "metadata":["map"],
       "consent":["list"],
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003Etry{window._uxa=window._uxa||[],window._uxa.push([\"trackDynamicVariable\",{key:\"backend_abtest\",value:",["escape",["macro",139],8,16],"}])}catch(a){var errMsg=\"undefined\"===typeof a||\"undefined\"===typeof a.message?\"Unknown error\":a.message;dataLayer.push({event:\"GAevent\",eventCategory:\"JavaScript Error\",eventAction:\"CS_Optimizely_link_dynamicVar \"+errMsg})};\u003C\/script\u003E"],
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003Etry{window._uxa=window._uxa||[],window._uxa.push([\"trackDynamicVariable\",{key:\"backend_abtest\",value:",["escape",["macro",142],8,16],"}])}catch(a){var errMsg=\"undefined\"===typeof a||\"undefined\"===typeof a.message?\"Unknown error\":a.message;dataLayer.push({event:\"GAevent\",eventCategory:\"JavaScript Error\",eventAction:\"CS_Optimizely_link_dynamicVar \"+errMsg})};\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
@@ -1330,7 +1391,7 @@ data = {
       "metadata":["map"],
       "consent":["list"],
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003Efunction clonedEventDispatcher(){return{dispatchEvent:function(a,b){a.url=\"https:\/\/optmzly-lgx.cloud.",["escape",["macro",91],7],"\/v1\/events\";window.optimizelySdk.eventDispatcher.dispatchEvent(a,b)}}}function sendErroToGa(a){try{var b=\"undefined\"===typeof a||\"undefined\"===typeof a.message?\"Unknown error\":a.message;dataLayer.push({event:\"GAevent\",eventCategory:\"JavaScript Error\",eventAction:\"tmpInspireTrackBannerClicks \"+b});debug(a)}catch(d){}}function debug(a){}\nfunction checkForOptimizely(){try{if(\"undefined\"!==typeof optimizelyDatafile\u0026\u0026\"undefined\"!==typeof optimizelySdk)return debug(\"opt JS found\"),!0;if(200\u003Cwindow.tmp_inspire_countOptimizelyCheck)return debug(\"opt JS timed out\"),!1;debug(\"opt JS waiting\");return++window.tmp_inspire_countOptimizelyCheck}catch(a){sendErroToGa(a)}}\nfunction getBannerType_oldHP(a){try{return\"homepage_top_campaign_banner_small\"===a?\"campaign_teaser_aktuelle_rabatte_click\":\"homepage_brochure\"===a?\"campaign_teaser_prospektangebote_click\":\"homepage_top_campaign_banner\"===a?\"homepage_top_campaign_banner_click\":0===a.indexOf(\"homepage_campaign_teaser_\")?\"campaign_teaser_promotion_slider_aktuelle_themen_click\":!1}catch(b){sendErroToGa(b)}}\nfunction getBannerType_newHP(a){try{return\"homepage_sales_teaser_1\"===a?\"campaign_teaser_aktuelle_rabatte_click\":\"homepage_sales_teaser_2\"===a?\"campaign_teaser_prospektangebote_click\":\"homepage_teaser_1\"===a?\"homepage_top_campaign_banner_click\":\/homepage_teaser_(2|3|4)\/.test(a)?\"campaign_teaser_promotion_slider_aktuelle_themen_click\":!1}catch(b){sendErroToGa(b)}}\nfunction main(a,b){try{var d=checkForOptimizely(),f={environment:",["escape",["macro",153],8,16],",device_type:",["escape",["macro",154],8,16],",browser_name:",["escape",["macro",155],8,16],"};debug(f);if(!0===d||window.tmp_inspire_optInstance){if(window.tmp_inspire_optInstance=window.tmp_inspire_optInstance||optimizelySdk.createInstance({datafile:optimizelyDatafile,eventDispatcher:clonedEventDispatcher()}),debug(a),debug(b),\"undefined\"!==typeof b\u0026\u0026\"undefined\"!==typeof b[0]\u0026\u0026\"string\"===typeof b[0].page_position\u0026\u0026\"string\"===typeof b[0].name){var e=\nb[0].page_position;if(\/^homepage_(sales_)?teaser_\\d\/.test(e)){debug(\"newHP\");var c=getBannerType_newHP(e)}else debug(\"oldHP\"),c=getBannerType_oldHP(e);c\u0026\u0026(debug(\"looking to track \"+c),tmp_inspire_optInstance.track(c,",["escape",["macro",98],8,16],",f))}}else if(!1!==d)return debug(\"optimizely JS polling \"+window.tmp_inspire_countOptimizelyCheck),window.setTimeout(main.bind(null,a,b),100)}catch(g){sendErroToGa(g)}}window.tmp_inspire_countOptimizelyCheck=0;main(",["escape",["macro",10],8,16],",",["escape",["macro",33],8,16],");\u003C\/script\u003E"],
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003Efunction clonedEventDispatcher(){return{dispatchEvent:function(a,b){a.url=\"https:\/\/optmzly-lgx.cloud.",["escape",["macro",92],7],"\/v1\/events\";window.optimizelySdk.eventDispatcher.dispatchEvent(a,b)}}}function sendErroToGa(a){try{var b=\"undefined\"===typeof a||\"undefined\"===typeof a.message?\"Unknown error\":a.message;dataLayer.push({event:\"GAevent\",eventCategory:\"JavaScript Error\",eventAction:\"tmpInspireTrackBannerClicks \"+b});debug(a)}catch(d){}}function debug(a){}\nfunction checkForOptimizely(){try{if(\"undefined\"!==typeof optimizelyDatafile\u0026\u0026\"undefined\"!==typeof optimizelySdk)return debug(\"opt JS found\"),!0;if(200\u003Cwindow.tmp_inspire_countOptimizelyCheck)return debug(\"opt JS timed out\"),!1;debug(\"opt JS waiting\");return++window.tmp_inspire_countOptimizelyCheck}catch(a){sendErroToGa(a)}}\nfunction getBannerType_oldHP(a){try{return\"homepage_top_campaign_banner_small\"===a?\"campaign_teaser_aktuelle_rabatte_click\":\"homepage_brochure\"===a?\"campaign_teaser_prospektangebote_click\":\"homepage_top_campaign_banner\"===a?\"homepage_top_campaign_banner_click\":0===a.indexOf(\"homepage_campaign_teaser_\")?\"campaign_teaser_promotion_slider_aktuelle_themen_click\":!1}catch(b){sendErroToGa(b)}}\nfunction getBannerType_newHP(a){try{return\"homepage_sales_teaser_1\"===a?\"campaign_teaser_aktuelle_rabatte_click\":\"homepage_sales_teaser_2\"===a?\"campaign_teaser_prospektangebote_click\":\"homepage_teaser_1\"===a?\"homepage_top_campaign_banner_click\":\/homepage_teaser_(2|3|4)\/.test(a)?\"campaign_teaser_promotion_slider_aktuelle_themen_click\":!1}catch(b){sendErroToGa(b)}}\nfunction main(a,b){try{var d=checkForOptimizely(),f={environment:",["escape",["macro",156],8,16],",device_type:",["escape",["macro",157],8,16],",browser_name:",["escape",["macro",158],8,16],"};debug(f);if(!0===d||window.tmp_inspire_optInstance){if(window.tmp_inspire_optInstance=window.tmp_inspire_optInstance||optimizelySdk.createInstance({datafile:optimizelyDatafile,eventDispatcher:clonedEventDispatcher()}),debug(a),debug(b),\"undefined\"!==typeof b\u0026\u0026\"undefined\"!==typeof b[0]\u0026\u0026\"string\"===typeof b[0].page_position\u0026\u0026\"string\"===typeof b[0].name){var e=\nb[0].page_position;if(\/^homepage_(sales_)?teaser_\\d\/.test(e)){debug(\"newHP\");var c=getBannerType_newHP(e)}else debug(\"oldHP\"),c=getBannerType_oldHP(e);c\u0026\u0026(debug(\"looking to track \"+c),tmp_inspire_optInstance.track(c,",["escape",["macro",99],8,16],",f))}}else if(!1!==d)return debug(\"optimizely JS polling \"+window.tmp_inspire_countOptimizelyCheck),window.setTimeout(main.bind(null,a,b),100)}catch(g){sendErroToGa(g)}}window.tmp_inspire_countOptimizelyCheck=0;main(",["escape",["macro",10],8,16],",",["escape",["macro",34],8,16],");\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
@@ -1340,7 +1401,7 @@ data = {
       "metadata":["map"],
       "consent":["list"],
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003Ewindow.sendGaError=window.sendGaError||function(a,c){var b=\"undefined\"===typeof a||\"undefined\"===typeof a.message?\"Unknown error\":a.message;b=c?c+\": \"+b:b;var d=\"\";if(\"undefined\"!==typeof a\u0026\u0026\"undefined\"!==typeof a.stack)try{d=a.stack.toString()}catch(e){d=\"error stack not stringable\"}else d=\"no error stack\";window.dataLayer=window.dataLayer||[];dataLayer.push({event:\"GAevent_ni\",eventCategory:\"JavaScript Error\",eventAction:\"consent \"+b,eventLabel:d});-1!==document.cookie.indexOf(\"debugGtm\")\u0026\u0026(console.log(a),\nconsole.log(c))};window.tryCatchWrap=function(a){return function(){try{return a.apply(this,arguments)}catch(c){return sendGaError(c,a.name),!1}}};\nvar removeConsentLayoutEventListeners=tryCatchWrap(function(){window.removeEventListener(\"scroll\",makeOverlayCoverAll);window.removeEventListener(\"resize\",makeOverlayCoverAll)}),addConsentLayoutEventListeners=tryCatchWrap(function(){window.addEventListener(\"scroll\",makeOverlayCoverAll);window.addEventListener(\"resize\",makeOverlayCoverAll)}),allowBodyScrolling=tryCatchWrap(function(){document.documentElement.style.overflow=\"scroll\";document.body.scroll=\"yes\"}),disableBodyScrolling=tryCatchWrap(function(){document.documentElement.style.overflow=\n\"hidden\";document.body.scroll=\"no\"}),setCookieNameValue=tryCatchWrap(function(a,c){var b=new Date;b.setTime(b.getTime()+31536E6);b=\"expires\\x3d\"+b.toUTCString();document.cookie=a+\"\\x3d\"+c+\"; SameSite\\x3dLax; Secure; \"+b+\";path\\x3d\/; domain\\x3d",["escape",["macro",91],7],";\"}),pushConsentToDl=tryCatchWrap(function(a,c,b){b?pushStandardDlGaEvent(\"consentSubmit\",a):pushTelemetryEvent(\"consentSubmit\",a);c\u0026\u0026b?pushStandardDlGaEvent(\"consentGiven\",a):c\u0026\u0026!b?pushTelemetryEvent(\"consentGiven\",a):pushTelemetryEvent(\"consentRejected\",\na)});window.pushStandardDlGaEvent=tryCatchWrap(function(a,c,b){var d=!1;if(!d\u0026\u0026b)return!1;b=b?\"GAevent_ni_telemetry\":\"GAevent\";window.dataLayer=window.dataLayer||[];dataLayer.push({event:b,eventCategory:\"cookieConsent\",eventAction:a,eventLabel:c})});window.pushTelemetryEvent=tryCatchWrap(function(a,c){pushStandardDlGaEvent(a,c,!0)});\nvar repushDataLayer=tryCatchWrap(function(){if(\"undefined\"===typeof window||\"undefined\"===typeof window.tmpDataLayer)return!1;for(var a=JSON.parse(window.tmpDataLayer),c=0;c\u003Ca.length;c++){var b=a[c];b\u0026\u0026\"undefined\"!==typeof b.event\u0026\u0026\"GAevent_ni\"===b.event\u0026\u0026\"undefined\"!==b.eventCategory\u0026\u0026\"cookieConsent\"===b.eventCategory||(b\u0026\u0026\"undefined\"!==typeof b[\"gtm.uniqueEventId\"]\u0026\u0026delete b[\"gtm.uniqueEventId\"],dataLayer.push(b))}}),saveDataLayerState=tryCatchWrap(function(){window.tmpDataLayer=\"undefined\"!==typeof WeakSet?\nJSON.stringify(dataLayer,getCircularReplacer()):JSON.stringify(dataLayer)});window.toggleConsentDetails=tryCatchWrap(function(){document.getElementById(\"consentDetails\").style.display=\"block\";document.getElementById(\"showDetailsToggle\").style.display=\"none\";window.consentDetailsSeen=!0;pushTelemetryEvent(\"consentClick_showDetails\")});\nwindow.checkIfIsChecked=tryCatchWrap(function(a){a=document.getElementById(\"label_for_\"+a);a=a.getAttribute(\"class\");return!window.consentDetailsSeen||null!==a\u0026\u0026-1!==a.indexOf(\"checked\")});window.consentPolyRemove=tryCatchWrap(function(a){if(!a)return!1;\"remove\"in Element.prototype||(Element.prototype.remove=tryCatchWrap(function(){this.parentNode\u0026\u0026this.parentNode.removeChild(this)}));a.remove()});\nvar makeOverlayCoverAll=tryCatchWrap(function(){var a=document.getElementById(\"consentOverlay\");if(!a)return!1;document.body.clientWidth?(a.style.width=document.body.clientWidth+\"px\",a.style.height=document.body.clientHeight+\"px\"):(a.style.width=window.innerWidth+\"px\",a.style.height=window.innerHeight+\"px\")});\nwindow.toggleConsentCheckbox=tryCatchWrap(function(a){var c=document.getElementById(\"label_for_\"+a),b=c.getAttribute(\"class\"),d=\"\";null===b||-1===b.indexOf(\"checked\")?(d=\"on\",null===b?c.setAttribute(\"class\",\"checked\"):c.setAttribute(\"class\",b+\" checked\")):-1!==b.indexOf(\"checked\")\u0026\u0026(d=\"off\",c.setAttribute(\"class\",b.replace(\"checked\",\"\")));pushTelemetryEvent(\"checkboxToggled_\"+a+\"_\"+d)});\nvar addClickListenersForInfoLinks=tryCatchWrap(function(){for(var a=document.querySelectorAll(\"#consentInner .consentMoreInfoLink\"),c=0;c\u003Ca.length;c++)a[c].addEventListener(\"click\",tryCatchWrap(function(b){pushTelemetryEvent(\"clickOnInfoLink\",b.target.attributes.href.textContent)}))}),addHtml=tryCatchWrap(function(){var a=\"Bevor es weitergeht: Kurz zur Verarbeitung Ihrer Daten\",c=\"https:\/\/www.",["escape",["macro",91],7],"\/rechtliches\/datenschutz\/#1\",b=\"https:\/\/www.",["escape",["macro",91],7],"\/rechtliches\/impressum\/\",\nd=\"https:\/\/www.",["escape",["macro",91],7],"\/rechtliches\/datenschutz\/\";c='\\x3ca class\\x3d\"consentMoreInfoLink\" href\\x3d\"'+c+'\"\\x3eWir\\x3c\/a\\x3e verwenden auf unserer Webseite verschiedene Techniken, um Ihnen ein optimales Erlebnis bieten zu k\\u00f6nnen. Dazu geh\\u00f6ren Datenverarbeitungen, die f\\u00fcr die Bereitstellung der Webseite und ihrer Funktionalit\\u00e4ten technisch notwendig sind, sowie weitere Techniken, die f\\u00fcr komfortable Webseiteneinstellungen, zur Erstellung anonymer Statistiken oder f\\u00fcr die Anzeige personalisierter (Werbe-) Inhalte verwendet werden. Sie k\\u00f6nnen unter \\u201eDetailauswahl\\u201c jederzeit freiwillig entscheiden, welche Verwendungen Sie zulassen m\\u00f6chten. Weitere Informationen, auch zu Ihrem jederzeitigen \\x3ca href\\x3d\"'+\nd+'\" class\\x3d\"consentMoreInfoLink\"\\x3eWiderrufsrecht\\x3c\/a\\x3e, finden Sie in unseren \\x3ca href\\x3d\"'+d+'\" class\\x3d\"consentMoreInfoLink\"\\x3eDatenschutzgrunds\\u00e4tzen\\x3c\/a\\x3e. Unser Impressum finden Sie \\x3ca href\\x3d\"'+b+'\" class\\x3d\"consentMoreInfoLink\"\\x3ehier\\x3c\/a\\x3e.';a='\\x3cdiv id\\x3d\"consentWrapper\"\\x3e\\x3ch2\\x3e'+a+'\\x3c\/h2\\x3e\\x3cdiv id\\x3d\"consentInner\"\\x3e\\x3cp\\x3e'+c+'\\x3c\/p\\x3e\\x3cdiv id\\x3d\"consentDetailsWrapper\"\\x3e\\x3cdiv id\\x3d\"consentDetails\"\\x3e\\x3clabel for\\x3d\"consent_chkbx_necessary\" id\\x3d\"label_for_necessary\" class\\x3d\"checked disabled\"\\x3eNotwendig\\x3c\/label\\x3e\\x3clabel id\\x3d\"label_for_analytics\" onclick\\x3d\"window.toggleConsentCheckbox(\\'analytics\\')\" for\\x3d\"consent_chkbx_analytics\"\\x3eStatistik\\x3c\/label\\x3e\\x3clabel id\\x3d\"label_for_marketing\" onclick\\x3d\"window.toggleConsentCheckbox(\\'marketing\\')\" for\\x3d\"consent_chkbx_marketing\"\\x3eMarketing\\x3c\/label\\x3e\\x3c\/div\\x3e\\x3cinput type\\x3d\"submit\" id\\x3d\"consentSubmit\" onclick\\x3d\"cookieConsent_sendConsent()\" value\\x3d\"Zustimmen\"\\x3e\\x3c\/div\\x3e\\x3ca id\\x3d\"showDetailsToggle\" onclick\\x3d\"toggleConsentDetails()\"\\x3eDetails zeigen\\x3c\/a\\x3e\\x3c\/div\\x3e';\nc=document.createElement(\"div\");c.id=\"consentOverlay\";c.style.width=\"100%\";c.style.height=\"100%\";c.style.backgroundColor=\"rgba(0, 0, 0, 0.8)\";c.style.position=\"absolute\";c.style.top=\"0px\";c.style.left=\"0px\";c.style.zIndex=\"2147483647\";c.innerHTML=a;document.body.appendChild(c)}),addCss=tryCatchWrap(function(){var a=document.createElement(\"style\");a.id=\"consentCss\";consCss=\"\";consCss+='#consentWrapper {overflow: hidden; width: 90%; max-width: 615px; background-color: rgba(255,255,255,1); border-radius: 0px; padding: 20px; margin-left: -300px; position: fixed; top: 15%; left: 50%; font-family: \"Open Sans\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif;}';\nconsCss+=\"@media screen and (max-width: 666px) {#consentWrapper { left: 5%; margin-left: 0px; top: 7.5%}}\";consCss+=\"@media screen and (max-width: 320px) { #consentWrapper {padding: 8px; width: 95%; left: 2.5%; }}\";consCss+=\"@media screen and (max-height: 380px) { #consentWrapper {top:5%;}}\";consCss+=\"#consentWrapper h2 {margin: 0px; color: #404040; font-weight: 400; line-height: 26.88px; font-size: 22.4px;}\";consCss+=\"@media screen and (max-width: 500px) { #consentWrapper h2 {font-size:18px;}}\";\nconsCss+=\"@media screen and (max-width: 250px) { #consentWrapper h2 {font-size:14px;}}\";consCss+=\"#consentImage { max-width: 60px; float: left; margin-right: 7px; }\";consCss+=\"@media screen and (max-width: 750px) { #consentImage { max-width: 39px;}}\";consCss+=\"@media screen and (max-width: 666px) { #consentImage { display: none;}}\";consCss+=\"#consentInner p {margin: 0.5em 0 1em; line-height: 28.8px}\";consCss+=\"@media screen and (max-width: 750px) { #consentInner p {font-size:14px; line-height: 22px; margin: 0.5em 0.5em 0.5em 0; }}\";\nconsCss+=\"@media screen and (max-width: 500px) { #consentInner p {font-size:12px; line-height: 19px; margin: 0.25em 0.25em 0.25em 0; }}\";consCss+=\"@media screen and (orientation: landscape) and (max-height: 300px) { #consentInner p {font-size:12px; line-height: 19px; margin: 0.25em 0.25em 0.25em 0; }}\";consCss+=\"@media screen and (max-width: 250px) { #consentInner p {font-size:10px; line-height: 19px; margin: 0.25em 0.25em 0.25em 0; }}\";consCss+=\"#consentDetailsWrapper {position: relative; min-height: 12px; margin-top: 8px;}\";\nconsCss+=\"@media screen and (max-width: 320px) {#consentDetailsWrapper { min-height: 18px;}}\";consCss+=\"#consentDetails {display:none;}\";consCss+=\"#consentInner #showDetailsToggle { position: relative; top: -8px; border-bottom: 0px solid blue; color: #404040;}\";consCss+=\"@media screen and (max-width: 500px) { #showDetailsToggle { font-size: 15px;}}\";consCss+=\"#consentWrapper a {color: #003a70; border-bottom: .1rem solid #f2f2f2; padding-bottom: .2rem; text-decoration:none; cursor:pointer; transition: all 275ms ease-out; -webkit-transition: all 275ms ease-out; }\";\nconsCss+=\"#consentDetails input {display:none;}\";consCss+=\"#consentDetails label { box-sizing:border-box; color:rgb(64, 64, 64); cursor:pointer; display:block; height:24px; line-height:24px; margin: 15px 0; padding-left:36px; width:560px; position: relative; font-weight: normal; }\";consCss+=\"@media screen and (max-width: 500px) {#consentDetails label { height: 20px; line-height: 20px; font-size: 14px; margin: 8px 0;}}\";consCss+=\"@media screen and (max-width: 750px) {#consentDetails label { height: 22px; line-height: 22px; font-size: 15px; margin: 11px 0;}}\";\nconsCss+='#consentDetails label::before {border-radius:2px; border:1px solid rgb(217, 217, 217); box-sizing:border-box; content:\"\"; display:block; height:24px; left:0px; position:absolute; top:0px; transition-delay:0s; transition-duration:0s; transition-property:border-color; transition-timing-function:ease; width:24px;}';consCss+=\"@media screen and (max-width: 500px) {#consentDetails label::before { height:20px; width:20px;}}\";consCss+=\"#consentDetails label.checked::before {border-color: #2d9b55;}\";\nconsCss+=\"#consentDetails label.disabled::before {background-color:rgb(242, 242, 242); border: 2px solid rgb(217, 217, 217);}\";consCss+=\"#consentDetails label.checked::after { position: absolute; width: 5px; height: 10px; top: 6px; left: 10px; border-right: 2px solid #2d9b55; border-bottom: 2px solid #2d9b55; -webkit-transform: rotate(35deg); -ms-transform: rotate(35deg); transform: rotate(35deg); content: '';}\";consCss+=\"@media screen and (max-width: 500px) {#consentDetails label.checked::after { top:4px; left:8px;}}\";\nconsCss+=\"#consentDetails label.checked.disabled::after { border-color: #737373;}\";consCss+=\"#consentSubmit {color: white; font-weight:normal; position: absolute; top: 0px; right: 0px; background-color: #424242; border-radius: 0px; border-width: 0px; padding: 10px; cursor: pointer;}\";consCss+=\"#consentSubmit:hover {background-color: #70d159;}\";consCss+=\"@media screen and (max-width: 500px) {#consentSubmit {font-size: 14px;}}\";consCss+=\"@media screen and (min-width: 1400px) {#consentSubmit {font-size: 18px;}}\";\na.innerHTML=consCss;var c=document.head||document.getElementsByTagName(\"head\")[0];c.appendChild(a)}),checkIfIsVisitorIsBot=tryCatchWrap(function(){for(var a=\"^Mozilla\\\\\/5\\\\.0 \\\\(compatible; Googlebot\\\\\/2\\\\.1; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.google\\\\.com\\\\\/bot\\\\.html\\\\)${^Googlebot\\\\\/2\\\\.1 \\\\(\\\\+http\\\\:\\\\\/\\\\\/www\\\\.google\\\\.com\\\\\/bot\\\\.html\\\\)${^Mozilla\\\\\/5\\\\.0 \\\\(Linux; Android 6\\\\.0\\\\.1; Nexus 5X Build\\\\\/MMB29P\\\\) AppleWebKit\\\\\/537\\\\.36 \\\\(KHTML, like Gecko\\\\) Chrome\\\\\/41\\\\.0\\\\.2272\\\\.96 Mobile Safari\\\\\/537\\\\.36 \\\\(compatible; Googlebot\\\\\/2\\\\.1; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.google\\\\.com\\\\\/bot\\\\.html\\\\)${^SAMSUNG\\\\-SGH\\\\-E250\\\\\/1\\\\.0 Profile\\\\\/MIDP\\\\-2\\\\.0 Configuration\\\\\/CLDC\\\\-1\\\\.1 UP\\\\.Browser\\\\\/6\\\\.2\\\\.3\\\\.3\\\\.c\\\\.1\\\\.101 \\\\(GUI\\\\) MMP\\\\\/2\\\\.0 \\\\(compatible; Googlebot\\\\-Mobile\\\\\/2\\\\.1; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.google\\\\.com\\\\\/bot\\\\.html\\\\)${^Googlebot\\\\-Image\\\\\/1\\\\.0${^Googlebot\\\\-Video\\\\\/1\\\\.0${^Mediapartners\\\\-Google${^Mozilla\\\\\/5\\\\.0 \\\\(Linux; Android 5\\\\.0; SM\\\\-G920A\\\\) AppleWebKit \\\\(KHTML, like Gecko\\\\) Chrome Mobile Safari \\\\(compatible; AdsBot\\\\-Google\\\\-Mobile; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.google\\\\.com\\\\\/mobile\\\\\/adsbot\\\\.html\\\\)${^Mozilla\\\\\/5\\\\.0 \\\\(iPhone; CPU iPhone OS 9_1 like Mac OS X\\\\) AppleWebKit\\\\\/601\\\\.1\\\\.46 \\\\(KHTML, like Gecko\\\\) Version\\\\\/9\\\\.0 Mobile\\\\\/13B143 Safari\\\\\/601\\\\.1 \\\\(compatible; AdsBot\\\\-Google\\\\-Mobile; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.google\\\\.com\\\\\/mobile\\\\\/adsbot\\\\.html\\\\)${^\\\\(compatible; Mediapartners\\\\-Google\\\\\/2\\\\.1; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.google\\\\.com\\\\\/bot\\\\.html\\\\)${^AdsBot\\\\-Google \\\\(\\\\+http\\\\:\\\\\/\\\\\/www\\\\.google\\\\.com\\\\\/adsbot\\\\.html\\\\)${^AdsBot\\\\-Google\\\\-Mobile\\\\-Apps${^Mozilla\\\\\/5\\\\.0 \\\\(compatible; bingbot\\\\\/2\\\\.0; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.bing\\\\.com\\\\\/bingbot\\\\.htm\\\\)${^Mozilla\\\\\/5\\\\.0 \\\\(compatible; bingbot\\\\\/2\\\\.0 \\\\+https\\\\:\\\\\/\\\\\/www\\\\.bing\\\\.com\\\\\/bingbot\\\\.htm\\\\)${^msnbot\\\\\/2\\\\.0b \\\\(\\\\+http\\\\:\\\\\/\\\\\/search\\\\.msn\\\\.com\\\\\/msnbot\\\\.htm\\\\)${^Mozilla\\\\\/5\\\\.0 \\\\(iPhone; CPU iPhone OS 7_0 like Mac OS X\\\\) AppleWebKit\\\\\/537\\\\.51\\\\.1 \\\\(KHTML, like Gecko\\\\) Version\\\\\/7\\\\.0 Mobile\\\\\/11A465 Safari\\\\\/9537\\\\.53 \\\\(compatible; bingbot\\\\\/2\\\\.0; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.bing\\\\.com\\\\\/bingbot\\\\.htm\\\\)${^Mozilla\\\\\/5\\\\.0 \\\\(Windows Phone 8\\\\.1; ARM; Trident\\\\\/7\\\\.0; Touch; rv\\\\:11\\\\.0; IEMobile\\\\\/11\\\\.0; NOKIA; Lumia 530\\\\) like Gecko \\\\(compatible; bingbot\\\\\/2\\\\.0; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.bing\\\\.com\\\\\/bingbot\\\\.htm\\\\)${^msnbot\\\\-media\\\\\/1\\\\.1 \\\\(\\\\+http\\\\:\\\\\/\\\\\/search\\\\.msn\\\\.com\\\\\/msnbot\\\\.htm\\\\)${^Mozilla\\\\\/5\\\\.0 \\\\(compatible; adidxbot\\\\\/2\\\\.0; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.bing\\\\.com\\\\\/bingbot\\\\.htm\\\\)${^Mozilla\\\\\/5\\\\.0 \\\\(iPhone; CPU iPhone OS 7_0 like Mac OS X\\\\) AppleWebKit\\\\\/537\\\\.51\\\\.1 \\\\(KHTML, like Gecko\\\\) Version\\\\\/7\\\\.0 Mobile\\\\\/11A465 Safari\\\\\/9537\\\\.53 \\\\(compatible; adidxbot\\\\\/2\\\\.0; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.bing\\\\.com\\\\\/bingbot\\\\.htm\\\\)${^Mozilla\\\\\/5\\\\.0 \\\\(Windows Phone 8\\\\.1; ARM; Trident\\\\\/7\\\\.0; Touch; rv\\\\:11\\\\.0; IEMobile\\\\\/11\\\\.0; NOKIA; Lumia 530\\\\) like Gecko \\\\(compatible; adidxbot\\\\\/2\\\\.0; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.bing\\\\.com\\\\\/bingbot\\\\.htm\\\\)${^Mozilla\\\\\/5\\\\.0 \\\\(Windows NT 6\\\\.1; WOW64\\\\) AppleWebKit\\\\\/534\\\\+ \\\\(KHTML, like Gecko\\\\) BingPreview\\\\\/1\\\\.0b${^Mozilla\\\\\/5\\\\.0 \\\\(Windows Phone 8\\\\.1; ARM; Trident\\\\\/7\\\\.0; Touch; rv\\\\:11\\\\.0; IEMobile\\\\\/11\\\\.0; NOKIA; Lumia 530\\\\) like Gecko BingPreview\\\\\/1\\\\.0b${^Mozilla\\\\\/5\\\\.0 \\\\(compatible; MJ12bot\\\\\/v1\\\\.4\\\\.7; http\\\\:\\\\\/\\\\\/mj12bot\\\\.com\\\\\/\\\\)${^Mozilla\\\\\/5\\\\.0 \\\\(compatible; MJ12bot\\\\\/v1\\\\.4\\\\.8; http\\\\:\\\\\/\\\\\/mj12bot\\\\.com\\\\\/\\\\)${^audisto\\\\.com full crawler .* \\\\(refer to in robots\\\\.txt as audisto, see https\\\\:\\\\\/\\\\\/audisto\\\\.com\\\\\/bot\\\\)${^audisto\\\\.com essential crawler .* \\\\(refer to in robots\\\\.txt as audisto\\\\-essentials, see https\\\\:\\\\\/\\\\\/audisto\\\\.com\\\\\/bot\\\\)${^audisto\\\\.com full crawler\\\\\/phone .* \\\\(refer to in robots\\\\.txt as audisto, see https\\\\:\\\\\/\\\\\/audisto\\\\.com\\\\\/bot\\\\)${^audisto\\\\.com full crawler\\\\\/tablet .* \\\\(refer to in robots\\\\.txt as audisto, see https\\\\:\\\\\/\\\\\/audisto\\\\.com\\\\\/bot\\\\)${^Mozilla\\\\\/.* \\\\(compatible; AhrefsBot\\\\\/.*; \\\\+http\\\\:\\\\\/\\\\\/ahrefs\\\\.com\\\\\/robot\\\\\/\\\\)${^Mozilla\\\\\/5\\\\.0 \\\\(compatible; ResearchBot\\\\\/0\\\\.7\\\\)${HM_SEO_MAN{Pingdom{Datadog Agent{^Mozilla\\\\\/5\\\\.0 \\\\(Linux; Android 6\\\\.0\\\\.1; Nexus 5X Build\\\\\/MMB29P\\\\) AppleWebKit\\\\\/537\\\\.36 \\\\(KHTML, like Gecko\\\\) Chrome\\\\\/[0-9]+\\\\.[0-9]+\\\\.[0-9]+\\\\.[0-9]+ Mobile Safari\\\\\/537\\\\.36 \\\\(compatible; Googlebot\\\\\/2\\\\.1; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.google\\\\.com\\\\\/bot\\\\.html\\\\)${^Mozilla\\\\\/5\\\\.0 AppleWebKit\\\\\/537\\\\.36 \\\\(KHTML, like Gecko; compatible; Googlebot\\\\\/2\\\\.1; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.google\\\\.com\\\\\/bot\\\\.html\\\\) Chrome\\\\\/[0-9]+\\\\.[0-9]+\\\\.[0-9]+\\\\.[0-9]+ Safari\\\\\/537\\\\.36${^Mozilla\\\\\/5\\\\.0 AppleWebKit\\\\\/537\\\\.36 \\\\(KHTML, like Gecko; compatible; Googlebot\\\\\/2\\\\.1; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.google\\\\.com\\\\\/bot\\\\.html\\\\) Safari\\\\\/537\\\\.36$\".split(\"{\"),\nc=!1,b=0;b\u003Ca.length;b++){var d=new RegExp(a[b]);if(d.test(navigator.userAgent)){c=!0;break}}return c}),checkIfPageWithNoMessage=tryCatchWrap(function(){var a=\/^\\\/rechtliches\\\/(datenschutz|impressum)\\\/?$\/;return a.test(window.location.pathname)});\nfunction getTypeofPolyfill(){window._typeof=\"function\"===typeof Symbol\u0026\u0026\"undefined\"!==typeof Symbol.iterator\u0026\u0026\"symbol\"===Symbol.iterator?tryCatchWrap(function(a){return typeof a}):tryCatchWrap(function(a){return a\u0026\u0026\"function\"===typeof Symbol\u0026\u0026a.constructor===Symbol\u0026\u0026a!==Symbol.prototype?\"symbol\":typeof a})}function getCircularReplacer(){var a=new WeakSet;return tryCatchWrap(function(c,b){if(\"object\"===_typeof(b)\u0026\u0026null!==b){if(a.has(b))return;a.add(b)}return b})}\nvar removeOldConsentOnceItShowsUp=tryCatchWrap(function(){-1===document.cookie.indexOf(\"real-cookie-accept\")\u0026\u0026(pushTelemetryEvent(\"userSeeingOldConsent\"),pollForOldCookieConsent=window.setInterval(tryCatchWrap(function c(){var b=document.getElementById(\"cookie-message\");b\u0026\u0026(consentPolyRemove(b),pushTelemetryEvent(\"oldConsentRemoved\"),clearInterval(c))}),100))});\nwindow.cookieConsent_sendConsent=tryCatchWrap(function(){clearInterval(intervalToMakeOverlayCoverAll);var a=checkIfIsChecked(\"analytics\"),c=checkIfIsChecked(\"marketing\"),b=\"necessary\";b+=a?\"|analytics\":\"\";b+=c?\"|marketing\":\"\";saveDataLayerState();setCookieNameValue(\"real-consent-level\",b);consentPolyRemove(document.getElementById(\"consentOverlay\"));var d=c?\"accepted\":\"rejected\";setCookieNameValue(\"real-cookie-accept\",d);(d=document.getElementById(\"cookie-message\"))\u0026\u0026consentPolyRemove(d);allowBodyScrolling();\npushConsentToDl(b,c,a);repushDataLayer()});\ntryCatchWrap(function(){pushTelemetryEvent(\"newConsentTriggered\");checkIfIsVisitorIsBot()||checkIfPageWithNoMessage()?checkIfIsVisitorIsBot()?pushTelemetryEvent(\"newConsentIsBot\"):checkIfPageWithNoMessage()?(pushTelemetryEvent(\"newConsentPageWithNoMessage\"),removeOldConsentOnceItShowsUp()):pushTelemetryEvent(\"newConsentNoActionFound\"):(pushTelemetryEvent(\"newConsentExecuting\"),removeOldConsentOnceItShowsUp(),getTypeofPolyfill(),window.dataLayer=window.dataLayer||[],window.consentDetailsSeen=!1,pushTelemetryEvent(\"consentSeen_overlay_v4_kaufland_align\"),\naddHtml(),addCss(),addClickListenersForInfoLinks(),intervalToMakeOverlayCoverAll=window.setInterval(makeOverlayCoverAll,100),disableBodyScrolling())})();\u003C\/script\u003E"],
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003Ewindow.sendGaError=window.sendGaError||function(a,c){var b=\"undefined\"===typeof a||\"undefined\"===typeof a.message?\"Unknown error\":a.message;b=c?c+\": \"+b:b;var d=\"\";if(\"undefined\"!==typeof a\u0026\u0026\"undefined\"!==typeof a.stack)try{d=a.stack.toString()}catch(e){d=\"error stack not stringable\"}else d=\"no error stack\";window.dataLayer=window.dataLayer||[];dataLayer.push({event:\"GAevent_ni\",eventCategory:\"JavaScript Error\",eventAction:\"consent \"+b,eventLabel:d});-1!==document.cookie.indexOf(\"debugGtm\")\u0026\u0026(console.log(a),\nconsole.log(c))};window.tryCatchWrap=function(a){return function(){try{return a.apply(this,arguments)}catch(c){return sendGaError(c,a.name),!1}}};\nvar removeConsentLayoutEventListeners=tryCatchWrap(function(){window.removeEventListener(\"scroll\",makeOverlayCoverAll);window.removeEventListener(\"resize\",makeOverlayCoverAll)}),addConsentLayoutEventListeners=tryCatchWrap(function(){window.addEventListener(\"scroll\",makeOverlayCoverAll);window.addEventListener(\"resize\",makeOverlayCoverAll)}),allowBodyScrolling=tryCatchWrap(function(){document.documentElement.style.overflow=\"scroll\";document.body.scroll=\"yes\"}),disableBodyScrolling=tryCatchWrap(function(){document.documentElement.style.overflow=\n\"hidden\";document.body.scroll=\"no\"}),setCookieNameValue=tryCatchWrap(function(a,c){var b=new Date;b.setTime(b.getTime()+31536E6);b=\"expires\\x3d\"+b.toUTCString();document.cookie=a+\"\\x3d\"+c+\"; SameSite\\x3dLax; Secure; \"+b+\";path\\x3d\/; domain\\x3d",["escape",["macro",92],7],";\"}),pushConsentToDl=tryCatchWrap(function(a,c,b){b?pushStandardDlGaEvent(\"consentSubmit\",a):pushTelemetryEvent(\"consentSubmit\",a);c\u0026\u0026b?pushStandardDlGaEvent(\"consentGiven\",a):c\u0026\u0026!b?pushTelemetryEvent(\"consentGiven\",a):pushTelemetryEvent(\"consentRejected\",\na)});window.pushStandardDlGaEvent=tryCatchWrap(function(a,c,b){var d=!1;if(!d\u0026\u0026b)return!1;b=b?\"GAevent_ni_telemetry\":\"GAevent\";window.dataLayer=window.dataLayer||[];dataLayer.push({event:b,eventCategory:\"cookieConsent\",eventAction:a,eventLabel:c})});window.pushTelemetryEvent=tryCatchWrap(function(a,c){pushStandardDlGaEvent(a,c,!0)});\nvar repushDataLayer=tryCatchWrap(function(){if(\"undefined\"===typeof window||\"undefined\"===typeof window.tmpDataLayer)return!1;for(var a=JSON.parse(window.tmpDataLayer),c=0;c\u003Ca.length;c++){var b=a[c];b\u0026\u0026\"undefined\"!==typeof b.event\u0026\u0026\"GAevent_ni\"===b.event\u0026\u0026\"undefined\"!==b.eventCategory\u0026\u0026\"cookieConsent\"===b.eventCategory||(b\u0026\u0026\"undefined\"!==typeof b[\"gtm.uniqueEventId\"]\u0026\u0026delete b[\"gtm.uniqueEventId\"],dataLayer.push(b))}}),saveDataLayerState=tryCatchWrap(function(){window.tmpDataLayer=\"undefined\"!==typeof WeakSet?\nJSON.stringify(dataLayer,getCircularReplacer()):JSON.stringify(dataLayer)});window.toggleConsentDetails=tryCatchWrap(function(){document.getElementById(\"consentDetails\").style.display=\"block\";document.getElementById(\"showDetailsToggle\").style.display=\"none\";window.consentDetailsSeen=!0;pushTelemetryEvent(\"consentClick_showDetails\")});\nwindow.checkIfIsChecked=tryCatchWrap(function(a){a=document.getElementById(\"label_for_\"+a);a=a.getAttribute(\"class\");return!window.consentDetailsSeen||null!==a\u0026\u0026-1!==a.indexOf(\"checked\")});window.consentPolyRemove=tryCatchWrap(function(a){if(!a)return!1;\"remove\"in Element.prototype||(Element.prototype.remove=tryCatchWrap(function(){this.parentNode\u0026\u0026this.parentNode.removeChild(this)}));a.remove()});\nvar makeOverlayCoverAll=tryCatchWrap(function(){var a=document.getElementById(\"consentOverlay\");if(!a)return!1;document.body.clientWidth?(a.style.width=document.body.clientWidth+\"px\",a.style.height=document.body.clientHeight+\"px\"):(a.style.width=window.innerWidth+\"px\",a.style.height=window.innerHeight+\"px\")});\nwindow.toggleConsentCheckbox=tryCatchWrap(function(a){var c=document.getElementById(\"label_for_\"+a),b=c.getAttribute(\"class\"),d=\"\";null===b||-1===b.indexOf(\"checked\")?(d=\"on\",null===b?c.setAttribute(\"class\",\"checked\"):c.setAttribute(\"class\",b+\" checked\")):-1!==b.indexOf(\"checked\")\u0026\u0026(d=\"off\",c.setAttribute(\"class\",b.replace(\"checked\",\"\")));pushTelemetryEvent(\"checkboxToggled_\"+a+\"_\"+d)});\nvar addClickListenersForInfoLinks=tryCatchWrap(function(){for(var a=document.querySelectorAll(\"#consentInner .consentMoreInfoLink\"),c=0;c\u003Ca.length;c++)a[c].addEventListener(\"click\",tryCatchWrap(function(b){pushTelemetryEvent(\"clickOnInfoLink\",b.target.attributes.href.textContent)}))}),addHtml=tryCatchWrap(function(){var a=\"Bevor es weitergeht: Kurz zur Verarbeitung Ihrer Daten\",c=\"https:\/\/www.",["escape",["macro",92],7],"\/rechtliches\/datenschutz\/#1\",b=\"https:\/\/www.",["escape",["macro",92],7],"\/rechtliches\/impressum\/\",\nd=\"https:\/\/www.",["escape",["macro",92],7],"\/rechtliches\/datenschutz\/\";c='\\x3ca class\\x3d\"consentMoreInfoLink\" href\\x3d\"'+c+'\"\\x3eWir\\x3c\/a\\x3e verwenden auf unserer Webseite verschiedene Techniken, um Ihnen ein optimales Erlebnis bieten zu k\\u00f6nnen. Dazu geh\\u00f6ren Datenverarbeitungen, die f\\u00fcr die Bereitstellung der Webseite und ihrer Funktionalit\\u00e4ten technisch notwendig sind, sowie weitere Techniken, die f\\u00fcr komfortable Webseiteneinstellungen, zur Erstellung anonymer Statistiken oder f\\u00fcr die Anzeige personalisierter (Werbe-) Inhalte verwendet werden. Sie k\\u00f6nnen unter \\u201eDetailauswahl\\u201c jederzeit freiwillig entscheiden, welche Verwendungen Sie zulassen m\\u00f6chten. Weitere Informationen, auch zu Ihrem jederzeitigen \\x3ca href\\x3d\"'+\nd+'\" class\\x3d\"consentMoreInfoLink\"\\x3eWiderrufsrecht\\x3c\/a\\x3e, finden Sie in unseren \\x3ca href\\x3d\"'+d+'\" class\\x3d\"consentMoreInfoLink\"\\x3eDatenschutzgrunds\\u00e4tzen\\x3c\/a\\x3e. Unser Impressum finden Sie \\x3ca href\\x3d\"'+b+'\" class\\x3d\"consentMoreInfoLink\"\\x3ehier\\x3c\/a\\x3e.';a='\\x3cdiv id\\x3d\"consentWrapper\"\\x3e\\x3ch2\\x3e'+a+'\\x3c\/h2\\x3e\\x3cdiv id\\x3d\"consentInner\"\\x3e\\x3cp\\x3e'+c+'\\x3c\/p\\x3e\\x3cdiv id\\x3d\"consentDetailsWrapper\"\\x3e\\x3cdiv id\\x3d\"consentDetails\"\\x3e\\x3clabel for\\x3d\"consent_chkbx_necessary\" id\\x3d\"label_for_necessary\" class\\x3d\"checked disabled\"\\x3eNotwendig\\x3c\/label\\x3e\\x3clabel id\\x3d\"label_for_analytics\" onclick\\x3d\"window.toggleConsentCheckbox(\\'analytics\\')\" for\\x3d\"consent_chkbx_analytics\"\\x3eStatistik\\x3c\/label\\x3e\\x3clabel id\\x3d\"label_for_marketing\" onclick\\x3d\"window.toggleConsentCheckbox(\\'marketing\\')\" for\\x3d\"consent_chkbx_marketing\"\\x3eMarketing\\x3c\/label\\x3e\\x3c\/div\\x3e\\x3cinput type\\x3d\"submit\" id\\x3d\"consentSubmit\" onclick\\x3d\"cookieConsent_sendConsent()\" value\\x3d\"Zustimmen\"\\x3e\\x3c\/div\\x3e\\x3ca id\\x3d\"showDetailsToggle\" onclick\\x3d\"toggleConsentDetails()\"\\x3eDetails zeigen\\x3c\/a\\x3e\\x3c\/div\\x3e';\nc=document.createElement(\"div\");c.id=\"consentOverlay\";c.style.width=\"100%\";c.style.height=\"100%\";c.style.backgroundColor=\"rgba(0, 0, 0, 0.8)\";c.style.position=\"absolute\";c.style.top=\"0px\";c.style.left=\"0px\";c.style.zIndex=\"2147483647\";c.innerHTML=a;document.body.appendChild(c)}),addCss=tryCatchWrap(function(){var a=document.createElement(\"style\");a.id=\"consentCss\";consCss=\"\";consCss+='#consentWrapper {overflow: hidden; width: 90%; max-width: 615px; background-color: rgba(255,255,255,1); border-radius: 0px; padding: 20px; margin-left: -300px; position: fixed; top: 15%; left: 50%; font-family: \"Open Sans\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif;}';\nconsCss+=\"@media screen and (max-width: 666px) {#consentWrapper { left: 5%; margin-left: 0px; top: 7.5%}}\";consCss+=\"@media screen and (max-width: 320px) { #consentWrapper {padding: 8px; width: 95%; left: 2.5%; }}\";consCss+=\"@media screen and (max-height: 380px) { #consentWrapper {top:5%;}}\";consCss+=\"#consentWrapper h2 {margin: 0px; color: #404040; font-weight: 400; line-height: 26.88px; font-size: 22.4px;}\";consCss+=\"@media screen and (max-width: 500px) { #consentWrapper h2 {font-size:18px;}}\";\nconsCss+=\"@media screen and (max-width: 250px) { #consentWrapper h2 {font-size:14px;}}\";consCss+=\"#consentImage { max-width: 60px; float: left; margin-right: 7px; }\";consCss+=\"@media screen and (max-width: 750px) { #consentImage { max-width: 39px;}}\";consCss+=\"@media screen and (max-width: 666px) { #consentImage { display: none;}}\";consCss+=\"#consentInner p {margin: 0.5em 0 1em; line-height: 28.8px}\";consCss+=\"@media screen and (max-width: 750px) { #consentInner p {font-size:14px; line-height: 22px; margin: 0.5em 0.5em 0.5em 0; }}\";\nconsCss+=\"@media screen and (max-width: 500px) { #consentInner p {font-size:12px; line-height: 19px; margin: 0.25em 0.25em 0.25em 0; }}\";consCss+=\"@media screen and (orientation: landscape) and (max-height: 300px) { #consentInner p {font-size:12px; line-height: 19px; margin: 0.25em 0.25em 0.25em 0; }}\";consCss+=\"@media screen and (max-width: 250px) { #consentInner p {font-size:10px; line-height: 19px; margin: 0.25em 0.25em 0.25em 0; }}\";consCss+=\"#consentDetailsWrapper {position: relative; min-height: 12px; margin-top: 8px;}\";\nconsCss+=\"@media screen and (max-width: 320px) {#consentDetailsWrapper { min-height: 18px;}}\";consCss+=\"#consentDetails {display:none;}\";consCss+=\"#consentInner #showDetailsToggle { position: relative; top: -8px; border-bottom: 0px solid blue; color: #404040;}\";consCss+=\"@media screen and (max-width: 500px) { #showDetailsToggle { font-size: 15px;}}\";consCss+=\"#consentWrapper a {color: #003a70; border-bottom: .1rem solid #f2f2f2; padding-bottom: .2rem; text-decoration:none; cursor:pointer; transition: all 275ms ease-out; -webkit-transition: all 275ms ease-out; }\";\nconsCss+=\"#consentDetails input {display:none;}\";consCss+=\"#consentDetails label { box-sizing:border-box; color:rgb(64, 64, 64); cursor:pointer; display:block; height:24px; line-height:24px; margin: 15px 0; padding-left:36px; width:560px; position: relative; font-weight: normal; }\";consCss+=\"@media screen and (max-width: 500px) {#consentDetails label { height: 20px; line-height: 20px; font-size: 14px; margin: 8px 0;}}\";consCss+=\"@media screen and (max-width: 750px) {#consentDetails label { height: 22px; line-height: 22px; font-size: 15px; margin: 11px 0;}}\";\nconsCss+='#consentDetails label::before {border-radius:2px; border:1px solid rgb(217, 217, 217); box-sizing:border-box; content:\"\"; display:block; height:24px; left:0px; position:absolute; top:0px; transition-delay:0s; transition-duration:0s; transition-property:border-color; transition-timing-function:ease; width:24px;}';consCss+=\"@media screen and (max-width: 500px) {#consentDetails label::before { height:20px; width:20px;}}\";consCss+=\"#consentDetails label.checked::before {border-color: #2d9b55;}\";\nconsCss+=\"#consentDetails label.disabled::before {background-color:rgb(242, 242, 242); border: 2px solid rgb(217, 217, 217);}\";consCss+=\"#consentDetails label.checked::after { position: absolute; width: 5px; height: 10px; top: 6px; left: 10px; border-right: 2px solid #2d9b55; border-bottom: 2px solid #2d9b55; -webkit-transform: rotate(35deg); -ms-transform: rotate(35deg); transform: rotate(35deg); content: '';}\";consCss+=\"@media screen and (max-width: 500px) {#consentDetails label.checked::after { top:4px; left:8px;}}\";\nconsCss+=\"#consentDetails label.checked.disabled::after { border-color: #737373;}\";consCss+=\"#consentSubmit {color: white; font-weight:normal; position: absolute; top: 0px; right: 0px; background-color: #424242; border-radius: 0px; border-width: 0px; padding: 10px; cursor: pointer;}\";consCss+=\"#consentSubmit:hover {background-color: #70d159;}\";consCss+=\"@media screen and (max-width: 500px) {#consentSubmit {font-size: 14px;}}\";consCss+=\"@media screen and (min-width: 1400px) {#consentSubmit {font-size: 18px;}}\";\na.innerHTML=consCss;var c=document.head||document.getElementsByTagName(\"head\")[0];c.appendChild(a)}),checkIfIsVisitorIsBot=tryCatchWrap(function(){for(var a=\"^Mozilla\\\\\/5\\\\.0 \\\\(compatible; Googlebot\\\\\/2\\\\.1; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.google\\\\.com\\\\\/bot\\\\.html\\\\)${^Googlebot\\\\\/2\\\\.1 \\\\(\\\\+http\\\\:\\\\\/\\\\\/www\\\\.google\\\\.com\\\\\/bot\\\\.html\\\\)${^Mozilla\\\\\/5\\\\.0 \\\\(Linux; Android 6\\\\.0\\\\.1; Nexus 5X Build\\\\\/MMB29P\\\\) AppleWebKit\\\\\/537\\\\.36 \\\\(KHTML, like Gecko\\\\) Chrome\\\\\/41\\\\.0\\\\.2272\\\\.96 Mobile Safari\\\\\/537\\\\.36 \\\\(compatible; Googlebot\\\\\/2\\\\.1; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.google\\\\.com\\\\\/bot\\\\.html\\\\)${^SAMSUNG\\\\-SGH\\\\-E250\\\\\/1\\\\.0 Profile\\\\\/MIDP\\\\-2\\\\.0 Configuration\\\\\/CLDC\\\\-1\\\\.1 UP\\\\.Browser\\\\\/6\\\\.2\\\\.3\\\\.3\\\\.c\\\\.1\\\\.101 \\\\(GUI\\\\) MMP\\\\\/2\\\\.0 \\\\(compatible; Googlebot\\\\-Mobile\\\\\/2\\\\.1; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.google\\\\.com\\\\\/bot\\\\.html\\\\)${^Googlebot\\\\-Image\\\\\/1\\\\.0${^Googlebot\\\\-Video\\\\\/1\\\\.0${^Mediapartners\\\\-Google${^Mozilla\\\\\/5\\\\.0 \\\\(Linux; Android 5\\\\.0; SM\\\\-G920A\\\\) AppleWebKit \\\\(KHTML, like Gecko\\\\) Chrome Mobile Safari \\\\(compatible; AdsBot\\\\-Google\\\\-Mobile; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.google\\\\.com\\\\\/mobile\\\\\/adsbot\\\\.html\\\\)${^Mozilla\\\\\/5\\\\.0 \\\\(iPhone; CPU iPhone OS 9_1 like Mac OS X\\\\) AppleWebKit\\\\\/601\\\\.1\\\\.46 \\\\(KHTML, like Gecko\\\\) Version\\\\\/9\\\\.0 Mobile\\\\\/13B143 Safari\\\\\/601\\\\.1 \\\\(compatible; AdsBot\\\\-Google\\\\-Mobile; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.google\\\\.com\\\\\/mobile\\\\\/adsbot\\\\.html\\\\)${^\\\\(compatible; Mediapartners\\\\-Google\\\\\/2\\\\.1; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.google\\\\.com\\\\\/bot\\\\.html\\\\)${^AdsBot\\\\-Google \\\\(\\\\+http\\\\:\\\\\/\\\\\/www\\\\.google\\\\.com\\\\\/adsbot\\\\.html\\\\)${^AdsBot\\\\-Google\\\\-Mobile\\\\-Apps${^Mozilla\\\\\/5\\\\.0 \\\\(compatible; bingbot\\\\\/2\\\\.0; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.bing\\\\.com\\\\\/bingbot\\\\.htm\\\\)${^Mozilla\\\\\/5\\\\.0 \\\\(compatible; bingbot\\\\\/2\\\\.0 \\\\+https\\\\:\\\\\/\\\\\/www\\\\.bing\\\\.com\\\\\/bingbot\\\\.htm\\\\)${^msnbot\\\\\/2\\\\.0b \\\\(\\\\+http\\\\:\\\\\/\\\\\/search\\\\.msn\\\\.com\\\\\/msnbot\\\\.htm\\\\)${^Mozilla\\\\\/5\\\\.0 \\\\(iPhone; CPU iPhone OS 7_0 like Mac OS X\\\\) AppleWebKit\\\\\/537\\\\.51\\\\.1 \\\\(KHTML, like Gecko\\\\) Version\\\\\/7\\\\.0 Mobile\\\\\/11A465 Safari\\\\\/9537\\\\.53 \\\\(compatible; bingbot\\\\\/2\\\\.0; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.bing\\\\.com\\\\\/bingbot\\\\.htm\\\\)${^Mozilla\\\\\/5\\\\.0 \\\\(Windows Phone 8\\\\.1; ARM; Trident\\\\\/7\\\\.0; Touch; rv\\\\:11\\\\.0; IEMobile\\\\\/11\\\\.0; NOKIA; Lumia 530\\\\) like Gecko \\\\(compatible; bingbot\\\\\/2\\\\.0; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.bing\\\\.com\\\\\/bingbot\\\\.htm\\\\)${^msnbot\\\\-media\\\\\/1\\\\.1 \\\\(\\\\+http\\\\:\\\\\/\\\\\/search\\\\.msn\\\\.com\\\\\/msnbot\\\\.htm\\\\)${^Mozilla\\\\\/5\\\\.0 \\\\(compatible; adidxbot\\\\\/2\\\\.0; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.bing\\\\.com\\\\\/bingbot\\\\.htm\\\\)${^Mozilla\\\\\/5\\\\.0 \\\\(iPhone; CPU iPhone OS 7_0 like Mac OS X\\\\) AppleWebKit\\\\\/537\\\\.51\\\\.1 \\\\(KHTML, like Gecko\\\\) Version\\\\\/7\\\\.0 Mobile\\\\\/11A465 Safari\\\\\/9537\\\\.53 \\\\(compatible; adidxbot\\\\\/2\\\\.0; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.bing\\\\.com\\\\\/bingbot\\\\.htm\\\\)${^Mozilla\\\\\/5\\\\.0 \\\\(Windows Phone 8\\\\.1; ARM; Trident\\\\\/7\\\\.0; Touch; rv\\\\:11\\\\.0; IEMobile\\\\\/11\\\\.0; NOKIA; Lumia 530\\\\) like Gecko \\\\(compatible; adidxbot\\\\\/2\\\\.0; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.bing\\\\.com\\\\\/bingbot\\\\.htm\\\\)${^Mozilla\\\\\/5\\\\.0 \\\\(Windows NT 6\\\\.1; WOW64\\\\) AppleWebKit\\\\\/534\\\\+ \\\\(KHTML, like Gecko\\\\) BingPreview\\\\\/1\\\\.0b${^Mozilla\\\\\/5\\\\.0 \\\\(Windows Phone 8\\\\.1; ARM; Trident\\\\\/7\\\\.0; Touch; rv\\\\:11\\\\.0; IEMobile\\\\\/11\\\\.0; NOKIA; Lumia 530\\\\) like Gecko BingPreview\\\\\/1\\\\.0b${^Mozilla\\\\\/5\\\\.0 \\\\(compatible; MJ12bot\\\\\/v1\\\\.4\\\\.7; http\\\\:\\\\\/\\\\\/mj12bot\\\\.com\\\\\/\\\\)${^Mozilla\\\\\/5\\\\.0 \\\\(compatible; MJ12bot\\\\\/v1\\\\.4\\\\.8; http\\\\:\\\\\/\\\\\/mj12bot\\\\.com\\\\\/\\\\)${^audisto\\\\.com full crawler .* \\\\(refer to in robots\\\\.txt as audisto, see https\\\\:\\\\\/\\\\\/audisto\\\\.com\\\\\/bot\\\\)${^audisto\\\\.com essential crawler .* \\\\(refer to in robots\\\\.txt as audisto\\\\-essentials, see https\\\\:\\\\\/\\\\\/audisto\\\\.com\\\\\/bot\\\\)${^audisto\\\\.com full crawler\\\\\/phone .* \\\\(refer to in robots\\\\.txt as audisto, see https\\\\:\\\\\/\\\\\/audisto\\\\.com\\\\\/bot\\\\)${^audisto\\\\.com full crawler\\\\\/tablet .* \\\\(refer to in robots\\\\.txt as audisto, see https\\\\:\\\\\/\\\\\/audisto\\\\.com\\\\\/bot\\\\)${^Mozilla\\\\\/.* \\\\(compatible; AhrefsBot\\\\\/.*; \\\\+http\\\\:\\\\\/\\\\\/ahrefs\\\\.com\\\\\/robot\\\\\/\\\\)${^Mozilla\\\\\/5\\\\.0 \\\\(compatible; ResearchBot\\\\\/0\\\\.7\\\\)${HM_SEO_MAN{Pingdom{Datadog Agent{^Mozilla\\\\\/5\\\\.0 \\\\(Linux; Android 6\\\\.0\\\\.1; Nexus 5X Build\\\\\/MMB29P\\\\) AppleWebKit\\\\\/537\\\\.36 \\\\(KHTML, like Gecko\\\\) Chrome\\\\\/[0-9]+\\\\.[0-9]+\\\\.[0-9]+\\\\.[0-9]+ Mobile Safari\\\\\/537\\\\.36 \\\\(compatible; Googlebot\\\\\/2\\\\.1; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.google\\\\.com\\\\\/bot\\\\.html\\\\)${^Mozilla\\\\\/5\\\\.0 AppleWebKit\\\\\/537\\\\.36 \\\\(KHTML, like Gecko; compatible; Googlebot\\\\\/2\\\\.1; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.google\\\\.com\\\\\/bot\\\\.html\\\\) Chrome\\\\\/[0-9]+\\\\.[0-9]+\\\\.[0-9]+\\\\.[0-9]+ Safari\\\\\/537\\\\.36${^Mozilla\\\\\/5\\\\.0 AppleWebKit\\\\\/537\\\\.36 \\\\(KHTML, like Gecko; compatible; Googlebot\\\\\/2\\\\.1; \\\\+http\\\\:\\\\\/\\\\\/www\\\\.google\\\\.com\\\\\/bot\\\\.html\\\\) Safari\\\\\/537\\\\.36$\".split(\"{\"),\nc=!1,b=0;b\u003Ca.length;b++){var d=new RegExp(a[b]);if(d.test(navigator.userAgent)){c=!0;break}}return c}),checkIfPageWithNoMessage=tryCatchWrap(function(){var a=\/^\\\/rechtliches\\\/(datenschutz|impressum)\\\/?$\/;return a.test(window.location.pathname)});\nfunction getTypeofPolyfill(){window._typeof=\"function\"===typeof Symbol\u0026\u0026\"undefined\"!==typeof Symbol.iterator\u0026\u0026\"symbol\"===Symbol.iterator?tryCatchWrap(function(a){return typeof a}):tryCatchWrap(function(a){return a\u0026\u0026\"function\"===typeof Symbol\u0026\u0026a.constructor===Symbol\u0026\u0026a!==Symbol.prototype?\"symbol\":typeof a})}function getCircularReplacer(){var a=new WeakSet;return tryCatchWrap(function(c,b){if(\"object\"===_typeof(b)\u0026\u0026null!==b){if(a.has(b))return;a.add(b)}return b})}\nvar removeOldConsentOnceItShowsUp=tryCatchWrap(function(){-1===document.cookie.indexOf(\"real-cookie-accept\")\u0026\u0026(pushTelemetryEvent(\"userSeeingOldConsent\"),pollForOldCookieConsent=window.setInterval(tryCatchWrap(function c(){var b=document.getElementById(\"cookie-message\");b\u0026\u0026(consentPolyRemove(b),pushTelemetryEvent(\"oldConsentRemoved\"),clearInterval(c))}),100))});\nwindow.cookieConsent_sendConsent=tryCatchWrap(function(){clearInterval(intervalToMakeOverlayCoverAll);var a=checkIfIsChecked(\"analytics\"),c=checkIfIsChecked(\"marketing\"),b=\"necessary\";b+=a?\"|analytics\":\"\";b+=c?\"|marketing\":\"\";saveDataLayerState();setCookieNameValue(\"real-consent-level\",b);consentPolyRemove(document.getElementById(\"consentOverlay\"));var d=c?\"accepted\":\"rejected\";setCookieNameValue(\"real-cookie-accept\",d);(d=document.getElementById(\"cookie-message\"))\u0026\u0026consentPolyRemove(d);allowBodyScrolling();\npushConsentToDl(b,c,a);repushDataLayer()});\ntryCatchWrap(function(){pushTelemetryEvent(\"newConsentTriggered\");checkIfIsVisitorIsBot()||checkIfPageWithNoMessage()?checkIfIsVisitorIsBot()?pushTelemetryEvent(\"newConsentIsBot\"):checkIfPageWithNoMessage()?(pushTelemetryEvent(\"newConsentPageWithNoMessage\"),removeOldConsentOnceItShowsUp()):pushTelemetryEvent(\"newConsentNoActionFound\"):(pushTelemetryEvent(\"newConsentExecuting\"),removeOldConsentOnceItShowsUp(),getTypeofPolyfill(),window.dataLayer=window.dataLayer||[],window.consentDetailsSeen=!1,pushTelemetryEvent(\"consentSeen_overlay_v4_kaufland_align\"),\naddHtml(),addCss(),addClickListenersForInfoLinks(),intervalToMakeOverlayCoverAll=window.setInterval(makeOverlayCoverAll,100),disableBodyScrolling())})();\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
@@ -1360,7 +1421,7 @@ data = {
       "metadata":["map"],
       "consent":["list"],
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003Etry{window._uxa=window._uxa||[],window._uxa.push([\"trackPageEvent\",",["escape",["macro",139],8,16],"])}catch(a){var errMsg=\"undefined\"===typeof a||\"undefined\"===typeof a.message?\"Unknown error\":a.message;dataLayer.push({event:\"GAevent\",eventCategory:\"JavaScript Error\",eventAction:\"CS_Optimizely_link_pageEvent \"+errMsg})};\u003C\/script\u003E"],
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003Etry{window._uxa=window._uxa||[],window._uxa.push([\"trackPageEvent\",",["escape",["macro",142],8,16],"])}catch(a){var errMsg=\"undefined\"===typeof a||\"undefined\"===typeof a.message?\"Unknown error\":a.message;dataLayer.push({event:\"GAevent\",eventCategory:\"JavaScript Error\",eventAction:\"CS_Optimizely_link_pageEvent \"+errMsg})};\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
@@ -1385,6 +1446,16 @@ data = {
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
       "tag_id":1463
+    },{
+      "function":"__html",
+      "metadata":["map"],
+      "consent":["list"],
+      "once_per_event":true,
+      "vtp_html":"\u003Cscript type=\"text\/gtmscript\"\u003Etry{var cbScript=document.createElement(\"script\");cbScript.id=\"Cookiebot\";cbScript.src=\"https:\/\/consent.cookiebot.com\/uc.js\";cbScript.setAttribute(\"data-cbid\",\"cfb32391-6023-494d-8dba-3f65d7233603\");cbScript.setAttribute(\"async\",\"\");document.head.appendChild(cbScript)}catch(a){var evtAction=\"undefined\"===typeof a||\"undefined\"===typeof a.message?\"Unknown error\":a.message;window.dataLayer=window.dataLayer||[];dataLayer.push({event:\"GAevent\",eventCategory:\"JavaScript Error\",eventAction:\"cookieBotConsentBanner \"+\nevtAction})};\u003C\/script\u003E",
+      "vtp_supportDocumentWrite":false,
+      "vtp_enableIframeMode":false,
+      "vtp_enableEditJsMacroBehavior":false,
+      "tag_id":1471
     },{
       "function":"__html",
       "metadata":["map"],
@@ -1418,9 +1489,9 @@ data = {
       "arg0":["macro",0],
       "arg1":"Sale"
     },{
-      "function":"_cn",
+      "function":"_eq",
       "arg0":["macro",1],
-      "arg1":"marketing"
+      "arg1":"true"
     },{
       "function":"_re",
       "arg0":["macro",0],
@@ -1470,12 +1541,12 @@ data = {
       "arg0":["macro",0],
       "arg1":"GAevent"
     },{
-      "function":"_cn",
-      "arg0":["macro",1],
-      "arg1":"analytics"
+      "function":"_eq",
+      "arg0":["macro",26],
+      "arg1":"true"
     },{
       "function":"_sw",
-      "arg0":["macro",32],
+      "arg0":["macro",33],
       "arg1":"\/onlineshop\/seller\/signup-marketplace\/"
     },{
       "function":"_eq",
@@ -1483,7 +1554,7 @@ data = {
       "arg1":"gtm.historyChange"
     },{
       "function":"_sw",
-      "arg0":["macro",32],
+      "arg0":["macro",33],
       "arg1":"\/onlineshop\/item\/reviews\/"
     },{
       "function":"_eq",
@@ -1491,7 +1562,7 @@ data = {
       "arg1":"onlineshop"
     },{
       "function":"_eq",
-      "arg0":["macro",30],
+      "arg0":["macro",31],
       "arg1":"Item"
     },{
       "function":"_eq",
@@ -1499,11 +1570,11 @@ data = {
       "arg1":"gtm.video"
     },{
       "function":"_re",
-      "arg0":["macro",126],
+      "arg0":["macro",127],
       "arg1":"(^$|((^|,)6178770_643($|,)))"
     },{
       "function":"_re",
-      "arg0":["macro",126],
+      "arg0":["macro",127],
       "arg1":"(^$|((^|,)6178770_646($|,)))"
     },{
       "function":"_eq",
@@ -1515,7 +1586,7 @@ data = {
       "arg1":"GAevent_ni_telemetry"
     },{
       "function":"_eq",
-      "arg0":["macro",130],
+      "arg0":["macro",131],
       "arg1":"0"
     },{
       "function":"_eq",
@@ -1535,6 +1606,18 @@ data = {
       "arg1":"register"
     },{
       "function":"_eq",
+      "arg0":["macro",139],
+      "arg1":"true"
+    },{
+      "function":"_eq",
+      "arg0":["macro",0],
+      "arg1":"gtm.triggerGroup"
+    },{
+      "function":"_re",
+      "arg0":["macro",127],
+      "arg1":"(^$|((^|,)6178770_1490($|,)))"
+    },{
+      "function":"_eq",
       "arg0":["macro",0],
       "arg1":"gtm.js"
     },{
@@ -1543,15 +1626,27 @@ data = {
       "arg1":"gtm.dom"
     },{
       "function":"_eq",
-      "arg0":["macro",31],
+      "arg0":["macro",32],
       "arg1":"\/"
     },{
       "function":"_eq",
       "arg0":["macro",0],
       "arg1":"gtm.load"
     },{
+      "function":"_re",
+      "arg0":["macro",32],
+      "arg1":".*"
+    },{
       "function":"_eq",
-      "arg0":["macro",110],
+      "arg0":["macro",0],
+      "arg1":"gtm.timer"
+    },{
+      "function":"_re",
+      "arg0":["macro",127],
+      "arg1":"(^$|((^|,)6178770_1477($|,)))"
+    },{
+      "function":"_eq",
+      "arg0":["macro",111],
       "arg1":"0"
     },{
       "function":"_eq",
@@ -1563,55 +1658,55 @@ data = {
       "arg1":"pageView"
     },{
       "function":"_sw",
-      "arg0":["macro",32],
+      "arg0":["macro",33],
       "arg1":"\/onlineshop\/product\/"
     },{
       "function":"_eq",
-      "arg0":["macro",30],
+      "arg0":["macro",31],
       "arg1":"CheckoutNew"
     },{
       "function":"_eq",
-      "arg0":["macro",32],
+      "arg0":["macro",33],
       "arg1":"\/checkout\/"
     },{
       "function":"_sw",
-      "arg0":["macro",31],
+      "arg0":["macro",32],
       "arg1":"\/product\/"
     },{
       "function":"_sw",
-      "arg0":["macro",31],
+      "arg0":["macro",32],
       "arg1":"\/konto\/"
     },{
       "function":"_sw",
-      "arg0":["macro",32],
+      "arg0":["macro",33],
       "arg1":"\/checkout\/"
     },{
       "function":"_eq",
-      "arg0":["macro",142],
+      "arg0":["macro",145],
       "arg1":"true"
     },{
       "function":"_eq",
-      "arg0":["macro",143],
+      "arg0":["macro",146],
       "arg1":"1"
     },{
       "function":"_eq",
-      "arg0":["macro",30],
+      "arg0":["macro",31],
       "arg1":"Search"
     },{
       "function":"_eq",
-      "arg0":["macro",145],
+      "arg0":["macro",148],
       "arg1":"moebel.de"
     },{
       "function":"_eq",
-      "arg0":["macro",117],
+      "arg0":["macro",118],
       "arg1":"moebel_de"
     },{
       "function":"_eq",
-      "arg0":["macro",145],
+      "arg0":["macro",148],
       "arg1":"undefined"
     },{
       "function":"_cn",
-      "arg0":["macro",147],
+      "arg0":["macro",150],
       "arg1":"payment_method"
     },{
       "function":"_eq",
@@ -1619,7 +1714,7 @@ data = {
       "arg1":"gtm.click"
     },{
       "function":"_eq",
-      "arg0":["macro",119],
+      "arg0":["macro",120],
       "arg1":"reload"
     },{
       "function":"_eq",
@@ -1627,7 +1722,11 @@ data = {
       "arg1":"bannerClick"
     },{
       "function":"_eq",
-      "arg0":["macro",1],
+      "arg0":["macro",159],
+      "arg1":"undefined"
+    },{
+      "function":"_eq",
+      "arg0":["macro",160],
       "arg1":"undefined"
     },{
       "function":"_eq",
@@ -1639,23 +1738,23 @@ data = {
       "arg1":"product reviews"
     },{
       "function":"_ew",
-      "arg0":["macro",114],
+      "arg0":["macro",115],
       "arg1":"-star"
     },{
       "function":"_eq",
-      "arg0":["macro",156],
-      "arg1":"false"
-    },{
-      "function":"_eq",
-      "arg0":["macro",157],
+      "arg0":["macro",161],
       "arg1":"true"
     },{
       "function":"_eq",
-      "arg0":["macro",0],
-      "arg1":"gtm.triggerGroup"
+      "arg0":["macro",162],
+      "arg1":"false"
+    },{
+      "function":"_eq",
+      "arg0":["macro",163],
+      "arg1":"true"
     },{
       "function":"_re",
-      "arg0":["macro",126],
+      "arg0":["macro",127],
       "arg1":"(^$|((^|,)6178770_1420($|,)))"
     },{
       "function":"_eq",
@@ -1671,19 +1770,19 @@ data = {
       "arg1":"customerContact"
     },{
       "function":"_sw",
-      "arg0":["macro",114],
+      "arg0":["macro",115],
       "arg1":"form submitted"
     }],
   "rules":[
-    [["if",0],["add",0,1,6,19,31,35,43]],
-    [["if",3],["add",1,18,41]],
+    [["if",0],["add",0,1,6,19,36,40,48]],
+    [["if",3],["add",1,18,46]],
     [["if",4],["add",1]],
-    [["if",5],["add",1,3,7,8,13,14,30,42]],
+    [["if",5],["add",1,3,7,8,13,14,31,35,47]],
     [["if",6],["add",2]],
     [["if",7,8,9,10],["add",2]],
-    [["if",15,16],["add",3,33]],
-    [["if",16,17],["add",3,33]],
-    [["if",0,18],["add",4,32,45]],
+    [["if",15,16],["add",3,38]],
+    [["if",16,17],["add",3,38]],
+    [["if",0,18],["add",4,37,50]],
     [["if",5,19],["add",5]],
     [["if",20,21],["add",9]],
     [["if",20,22],["add",10]],
@@ -1692,35 +1791,39 @@ data = {
     [["if",13,26,27],["add",15]],
     [["if",13,28],["add",16]],
     [["if",13,27,29],["add",17]],
-    [["if",30],["add",20,21,22,25,26,27,28]],
-    [["if",31],["add",23,24,33]],
-    [["if",32,33],["add",29]],
-    [["if",5,18],["add",32,44,47]],
-    [["if",35,36],["add",32]],
-    [["if",0,35],["add",32]],
-    [["if",33,37],["add",33]],
-    [["if",5,38],["unless",39],["add",33]],
-    [["if",5,43],["add",34]],
-    [["if",5],["unless",44],["add",35]],
-    [["if",5,18,45],["add",36]],
-    [["if",0,18,46],["add",37]],
-    [["if",5,18,47,48],["add",38]],
-    [["if",49,50],["add",39]],
-    [["if",31,43],["unless",51],["add",40]],
-    [["if",3,9],["add",46]],
-    [["if",12,13],["unless",11],["add",48,52]],
-    [["if",32,52],["add",49]],
-    [["if",30,53],["add",50]],
-    [["if",13,54,55,56],["add",51]],
-    [["if",32,57,58,59,60],["unless",53],["add",53]],
-    [["if",13,61,62],["add",54]],
-    [["if",13,62,63,64],["add",54]],
-    [["if",2],["unless",1],["block",0,1,4,5,6,7,8,41,42,43,44,45,46]],
+    [["if",30,31,32],["add",20]],
+    [["if",33],["add",21,22,23,26,27,28,29,33]],
+    [["if",34],["add",24,25,38]],
+    [["if",35,36],["add",30]],
+    [["if",33,37],["add",32]],
+    [["if",38,39],["add",34]],
+    [["if",5,18],["add",37,49,52]],
+    [["if",41,42],["add",37]],
+    [["if",0,41],["add",37]],
+    [["if",36,43],["add",38]],
+    [["if",5,44],["unless",45],["add",38]],
+    [["if",5,49],["add",39]],
+    [["if",5],["unless",50],["add",40]],
+    [["if",5,18,51],["add",41]],
+    [["if",0,18,52],["add",42]],
+    [["if",5,18,53,54],["add",43]],
+    [["if",55,56],["add",44]],
+    [["if",34,49],["unless",57],["add",45]],
+    [["if",3,9],["add",51]],
+    [["if",12,13],["unless",11],["add",53,57]],
+    [["if",35,58],["add",54]],
+    [["if",33,59],["add",55]],
+    [["if",13,61,62,63],["add",56]],
+    [["if",31,35,64,65,66,67],["add",58]],
+    [["if",13,68,69],["add",59]],
+    [["if",13,69,70,71],["add",59]],
+    [["if",33],["unless",60],["add",60],["block",55]],
+    [["if",2],["unless",1],["block",0,1,4,5,6,7,8,46,47,48,49,50,51]],
     [["if",11,12,13],["block",2]],
-    [["if",2],["unless",14],["block",2,3,9,10,11,13,14,15,16,17,18,19,31,33,36,39,48,51,52,54]],
+    [["if",2],["unless",14],["block",2,3,9,10,11,13,14,15,16,17,18,19,20,36,38,41,44,53,56,57,59]],
     [["if",2,25],["block",13,14,15,16,17,18,19]],
-    [["if",2,34],["block",31,33,48,52]],
-    [["if",31,40],["block",33]],
-    [["if",31,41],["block",33]],
-    [["if",31,42],["block",33]]]
+    [["if",2,40],["block",36,38,53,57]],
+    [["if",34,46],["block",38]],
+    [["if",34,47],["block",38]],
+    [["if",34,48],["block",38]]]
 }
