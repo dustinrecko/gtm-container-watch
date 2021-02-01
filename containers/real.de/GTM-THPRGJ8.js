@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"757",
+  "version":"758",
   
   "macros":[{
       "function":"__e"
@@ -878,7 +878,7 @@ data = {
       "function":"__ua",
       "metadata":["map"],
       "consent":["list"],
-      "setup_tags":["list",["tag",62,0]],
+      "setup_tags":["list",["tag",61,0]],
       "once_per_event":true,
       "vtp_overrideGaSettings":false,
       "vtp_trackType":"TRACK_PAGEVIEW",
@@ -1138,9 +1138,6 @@ data = {
       "function":"__cl",
       "tag_id":1480
     },{
-      "function":"__jel",
-      "tag_id":1481
-    },{
       "function":"__ytl",
       "vtp_captureComplete":false,
       "vtp_captureStart":true,
@@ -1150,7 +1147,7 @@ data = {
       "vtp_captureProgress":false,
       "vtp_uniqueTriggerId":"6178770_643",
       "vtp_enableTriggerStartOption":true,
-      "tag_id":1482
+      "tag_id":1481
     },{
       "function":"__ytl",
       "vtp_progressThresholdsPercent":"25, 50, 75, 100",
@@ -1163,53 +1160,53 @@ data = {
       "vtp_captureProgress":true,
       "vtp_uniqueTriggerId":"6178770_646",
       "vtp_enableTriggerStartOption":true,
-      "tag_id":1483
+      "tag_id":1482
     },{
       "function":"__cl",
+      "tag_id":1483
+    },{
+      "function":"__hl",
       "tag_id":1484
     },{
       "function":"__hl",
       "tag_id":1485
     },{
-      "function":"__hl",
-      "tag_id":1486
-    },{
       "function":"__tg",
       "vtp_triggerIds":["list","6178770_1420_1419","6178770_1420_21"],
       "vtp_uniqueTriggerId":"6178770_1420",
-      "tag_id":1487
+      "tag_id":1486
     },{
       "function":"__tg",
       "vtp_isListeningTag":true,
       "vtp_firingId":"6178770_1420_1419",
-      "tag_id":1488
+      "tag_id":1487
     },{
       "function":"__tg",
       "vtp_isListeningTag":true,
       "vtp_firingId":"6178770_1420_21",
-      "tag_id":1490
+      "tag_id":1489
     },{
       "function":"__tl",
       "vtp_eventName":"gtm.timer",
       "vtp_interval":["macro",140],
       "vtp_limit":"1",
       "vtp_uniqueTriggerId":"6178770_1477",
-      "tag_id":1491
+      "tag_id":1490
     },{
       "function":"__tg",
       "vtp_triggerIds":["list","6178770_1490_1477","6178770_1490_21"],
       "vtp_uniqueTriggerId":"6178770_1490",
-      "tag_id":1492
+      "tag_id":1491
     },{
       "function":"__tg",
       "vtp_isListeningTag":true,
       "vtp_firingId":"6178770_1490_1477",
-      "tag_id":1493
+      "tag_id":1492
     },{
       "function":"__tg",
       "vtp_isListeningTag":true,
       "vtp_firingId":"6178770_1490_21",
-      "tag_id":1495
+      "tag_id":1494
     },{
       "function":"__html",
       "metadata":["map"],
@@ -1307,7 +1304,7 @@ data = {
     },{
       "function":"__html",
       "metadata":["map"],
-      "setup_tags":["list",["tag",63,0]],
+      "setup_tags":["list",["tag",62,0]],
       "once_per_event":true,
       "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\" id=\"gtmctagid_fbatc\"\u003E(function(){var a=",["escape",["macro",154],8,16],";a.content_type=\"product\";a.currency=\"EUR\";try{a.contents=",["escape",["macro",155],8,16],"}catch(b){}try{a.content_ids=[",["escape",["macro",15],8,16],".id]}catch(b){}try{a.value=",["escape",["macro",15],8,16],".offers[0].price}catch(b){a.value=0}fbq(\"track\",\"AddToCart\",a)})();\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
@@ -1318,7 +1315,7 @@ data = {
       "function":"__html",
       "metadata":["map"],
       "consent":["list"],
-      "setup_tags":["list",["tag",63,0]],
+      "setup_tags":["list",["tag",62,0]],
       "once_per_event":true,
       "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\" id=\"gtmctagid_fbpv\"\u003E(function(){fbq(\"track\",\"PageView\",",["escape",["macro",154],8,16],");var a=",["escape",["macro",31],8,16],";if(\"Item\"==a){a=",["escape",["macro",154],8,16],";a.content_category=",["escape",["macro",6],8,16],";a.content_type=\"product\";a.currency=\"EUR\";try{a.contents=",["escape",["macro",155],8,16],"}catch(b){}try{a.content_ids=[",["escape",["macro",15],8,16],".id]}catch(b){}try{a.value=",["escape",["macro",15],8,16],".offers[0].price}catch(b){a.value=0}fbq(\"track\",\"ViewContent\",a)}else\"Checkout\"==a\u0026\u0026fbq(\"track\",\"InitiateCheckout\")})();\u003C\/script\u003E\n"],
       "vtp_supportDocumentWrite":false,
@@ -1328,7 +1325,7 @@ data = {
     },{
       "function":"__html",
       "metadata":["map"],
-      "setup_tags":["list",["tag",63,0]],
+      "setup_tags":["list",["tag",62,0]],
       "once_per_event":true,
       "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\" id=\"gtmctagid_fbs\"\u003E(function(){var a=",["escape",["macro",154],8,16],";a.content_type=\"product\";a.currency=\"EUR\";a.payment_method=",["escape",["macro",70],8,16],";try{a.contents=",["escape",["macro",155],8,16],"}catch(b){}a.content_ids=",["escape",["macro",17],8,16],";a.value=Math.max(0,",["escape",["macro",2],8,16],".revenue)||0;fbq(\"track\",\"Purchase\",a)})();\u003C\/script\u003E\n"],
       "vtp_supportDocumentWrite":false,
@@ -1339,7 +1336,7 @@ data = {
       "function":"__html",
       "metadata":["map"],
       "consent":["list"],
-      "setup_tags":["list",["tag",61,0]],
+      "setup_tags":["list",["tag",60,0]],
       "once_per_event":true,
       "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\" id=\"gtmctagid_pintpv\"\u003E(function(){\"pageView\"==",["escape",["macro",10],8,16],"\u0026\u0026\"Category\"==",["escape",["macro",31],8,16],"?pintrk(\"track\",\"viewcategory\"):\"Item\"==",["escape",["macro",31],8,16],"?pintrk(\"track\",\"pagevisit\"):\"pageView\"==",["escape",["macro",10],8,16],"\u0026\u0026\"Search\"==",["escape",["macro",31],8,16],"\u0026\u0026pintrk(\"track\",\"search\",{search_query:\"",["escape",["macro",39],7],"\"})})();\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
@@ -1349,7 +1346,7 @@ data = {
     },{
       "function":"__html",
       "metadata":["map"],
-      "setup_tags":["list",["tag",61,0]],
+      "setup_tags":["list",["tag",60,0]],
       "once_per_event":true,
       "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\" id=\"gtmctagid_pints\"\u003E(function(){function e(a){for(var b=0,c=0;c\u003Ca.length;c++)b+=a[c].offers[0].amount*a[c].offers[0].price;return b}function f(a){for(var b=0,c=0;c\u003Ca.length;c++)b+=a[c].offers[0].amount;return b}if(\"Sale\"==",["escape",["macro",10],8,16],"){for(var a=",["escape",["macro",2],8,16],".cart,d=[],b=0;b\u003Ca.length;b++)d.push({product_name:a[b].name,product_id:a[b].ean,product_price:a[b].offers[0].price,product_quantity:a[b].offers[0].amount});a={value:e(a),order_quantity:f(a),currency:\"EUR\",line_items:d};pintrk(\"track\",\"checkout\",\na)}})();\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
@@ -1359,7 +1356,7 @@ data = {
     },{
       "function":"__html",
       "metadata":["map"],
-      "setup_tags":["list",["tag",61,0]],
+      "setup_tags":["list",["tag",60,0]],
       "once_per_event":true,
       "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\" id=\"gtmctagid_pintatc\"\u003E(function(){\"addToCart\"==",["escape",["macro",10],8,16],"\u0026\u0026pintrk(\"track\",\"AddToCart\",{value:",["escape",["macro",15],8,16],".offers[0].price,order_quantity:",["escape",["macro",15],8,16],".offers[0].amount,currency:\"EUR\"})})();\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
@@ -1774,15 +1771,15 @@ data = {
       "arg1":"form submitted"
     }],
   "rules":[
-    [["if",0],["add",0,1,6,19,36,40,48]],
-    [["if",3],["add",1,18,46]],
+    [["if",0],["add",0,1,6,19,35,39,47]],
+    [["if",3],["add",1,18,45]],
     [["if",4],["add",1]],
-    [["if",5],["add",1,3,7,8,13,14,31,35,47]],
+    [["if",5],["add",1,3,7,8,13,14,30,34,46]],
     [["if",6],["add",2]],
     [["if",7,8,9,10],["add",2]],
-    [["if",15,16],["add",3,38]],
-    [["if",16,17],["add",3,38]],
-    [["if",0,18],["add",4,37,50]],
+    [["if",15,16],["add",3,37]],
+    [["if",16,17],["add",3,37]],
+    [["if",0,18],["add",4,36,49]],
     [["if",5,19],["add",5]],
     [["if",20,21],["add",9]],
     [["if",20,22],["add",10]],
@@ -1792,38 +1789,38 @@ data = {
     [["if",13,28],["add",16]],
     [["if",13,27,29],["add",17]],
     [["if",30,31,32],["add",20]],
-    [["if",33],["add",21,22,23,26,27,28,29,33]],
-    [["if",34],["add",24,25,38]],
-    [["if",35,36],["add",30]],
-    [["if",33,37],["add",32]],
-    [["if",38,39],["add",34]],
-    [["if",5,18],["add",37,49,52]],
-    [["if",41,42],["add",37]],
-    [["if",0,41],["add",37]],
-    [["if",36,43],["add",38]],
-    [["if",5,44],["unless",45],["add",38]],
-    [["if",5,49],["add",39]],
-    [["if",5],["unless",50],["add",40]],
-    [["if",5,18,51],["add",41]],
-    [["if",0,18,52],["add",42]],
-    [["if",5,18,53,54],["add",43]],
-    [["if",55,56],["add",44]],
-    [["if",34,49],["unless",57],["add",45]],
-    [["if",3,9],["add",51]],
-    [["if",12,13],["unless",11],["add",53,57]],
-    [["if",35,58],["add",54]],
-    [["if",33,59],["add",55]],
-    [["if",13,61,62,63],["add",56]],
-    [["if",31,35,64,65,66,67],["add",58]],
-    [["if",13,68,69],["add",59]],
-    [["if",13,69,70,71],["add",59]],
-    [["if",33],["unless",60],["add",60],["block",55]],
-    [["if",2],["unless",1],["block",0,1,4,5,6,7,8,46,47,48,49,50,51]],
+    [["if",33],["add",21,22,25,26,27,28,32]],
+    [["if",34],["add",23,24,37]],
+    [["if",35,36],["add",29]],
+    [["if",33,37],["add",31]],
+    [["if",38,39],["add",33]],
+    [["if",5,18],["add",36,48,51]],
+    [["if",41,42],["add",36]],
+    [["if",0,41],["add",36]],
+    [["if",36,43],["add",37]],
+    [["if",5,44],["unless",45],["add",37]],
+    [["if",5,49],["add",38]],
+    [["if",5],["unless",50],["add",39]],
+    [["if",5,18,51],["add",40]],
+    [["if",0,18,52],["add",41]],
+    [["if",5,18,53,54],["add",42]],
+    [["if",55,56],["add",43]],
+    [["if",34,49],["unless",57],["add",44]],
+    [["if",3,9],["add",50]],
+    [["if",12,13],["unless",11],["add",52,56]],
+    [["if",35,58],["add",53]],
+    [["if",33,59],["add",54]],
+    [["if",13,61,62,63],["add",55]],
+    [["if",31,35,64,65,66,67],["add",57]],
+    [["if",13,68,69],["add",58]],
+    [["if",13,69,70,71],["add",58]],
+    [["if",33],["unless",60],["add",59],["block",54]],
+    [["if",2],["unless",1],["block",0,1,4,5,6,7,8,45,46,47,48,49,50]],
     [["if",11,12,13],["block",2]],
-    [["if",2],["unless",14],["block",2,3,9,10,11,13,14,15,16,17,18,19,20,36,38,41,44,53,56,57,59]],
+    [["if",2],["unless",14],["block",2,3,9,10,11,13,14,15,16,17,18,19,20,35,37,40,43,52,55,56,58]],
     [["if",2,25],["block",13,14,15,16,17,18,19]],
-    [["if",2,40],["block",36,38,53,57]],
-    [["if",34,46],["block",38]],
-    [["if",34,47],["block",38]],
-    [["if",34,48],["block",38]]]
+    [["if",2,40],["block",35,37,52,56]],
+    [["if",34,46],["block",37]],
+    [["if",34,47],["block",37]],
+    [["if",34,48],["block",37]]]
 }
