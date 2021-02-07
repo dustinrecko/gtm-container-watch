@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"210",
+  "version":"212",
   
   "macros":[{
       "function":"__cvt_903835_490"
@@ -1250,6 +1250,7 @@ data = {
       "metadata":["map"],
       "consent":["list"],
       "once_per_event":true,
+      "vtp_userProperties":["list",["map","name","Touchpoint","value",["macro",160]]],
       "vtp_eventName":"purchase",
       "vtp_eventParameters":["list",["map","name","transaction_id","value",["macro",162]],["map","name","affiliation","value",["macro",160]],["map","name","value","value",["macro",163]],["map","name","tax","value",["macro",164]],["map","name","shipping","value",["macro",165]],["map","name","currency","value","EUR"],["map","name","items","value",["macro",166]]],
       "vtp_measurementId":"G-KLG795LVQQ",
@@ -1814,6 +1815,6 @@ data = {
     [["if",2,3],["block",1,2,4,5,6,7,10,11,13,40]],
     [["if",2,5],["block",3]],
     [["if",3,11],["block",4]],
-    [["if",25,26],["block",7]],
+    [["if",25,26],["block",7,16]],
     [["if",3,55],["block",40]]]
 }
