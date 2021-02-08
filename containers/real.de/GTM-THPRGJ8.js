@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"764",
+  "version":"769",
   
   "macros":[{
       "function":"__e"
@@ -457,7 +457,7 @@ data = {
       "vtp_value":"50"
     },{
       "function":"__jsm",
-      "vtp_javascript":["template","(function(){try{if(-1!=document.cookie.indexOf(\"forceContentsquare\"))return 1;var a=",["escape",["macro",99],8,16],";if(!a||\"undefined\"==a)return 0;var e=parseInt(",["escape",["macro",110],8,16],"),b=0,c;for(c=0;c\u003Ca.length;c++){var f=a.charCodeAt(c);b=(b\u003C\u003C5)-b+f;b|=0}var g=Math.abs(b)%100;return g\u003E=e?1:0}catch(d){a=\"undefined\"===typeof d||\"undefined\"===typeof d.toString()?\"Unknown error\":d.toString(),dataLayer.push({event:\"GAevent\",eventCategory:\"JavaScript Error\",eventAction:\"cs_shouldTrack \"+a})}})();"]
+      "vtp_javascript":["template","(function(){try{if(-1!=document.cookie.indexOf(\"forceContentsquare\"))return 1;var a=\"AB-optimizely_user\",f=document.cookie.match(new RegExp(\"(^| )\"+a+\"\\x3d([^;]+)\")),b=f?f[2]:\"\";if(!b)return 0;var d=parseInt(",["escape",["macro",110],8,16],");if(!d||\"undefined\"===d)return 0;a=0;var c;for(c=0;c\u003Cb.length;c++){var g=b.charCodeAt(c);a=(a\u003C\u003C5)-a+g;a|=0}var h=Math.abs(a)%100;return h\u003E=d?1:0}catch(e){b=\"undefined\"===typeof e||\"undefined\"===typeof e.toString()?\"Unknown error\":e.toString(),dataLayer.push({event:\"GAevent\",\neventCategory:\"JavaScript Error\",eventAction:\"cs_shouldTrack \"+b})}})();"]
     },{
       "function":"__c",
       "vtp_value":"UA-27218006-5"
@@ -1048,7 +1048,7 @@ data = {
       "metadata":["map"],
       "consent":["list"],
       "once_per_event":true,
-      "vtp_fieldsToSet":["list",["map","name","anonymizeIp","value","true"],["map","name","page","value",["macro",44]],["map","name","userId","value",["macro",46]],["map","name","expId","value",["macro",47]],["map","name","expVar","value",["macro",48]],["map","name","exp","value",["macro",25]],["map","name","referrer","value",["macro",50]],["map","name","location","value",["macro",53]],["map","name","allowAdFeatures","value",["macro",55]],["map","name","view_type","value",["macro",103]]],
+      "vtp_fieldsToSet":["list",["map","name","anonymizeIp","value","true"],["map","name","page","value",["macro",44]],["map","name","userId","value",["macro",46]],["map","name","expId","value",["macro",47]],["map","name","expVar","value",["macro",48]],["map","name","exp","value",["macro",25]],["map","name","referrer","value",["macro",50]],["map","name","location","value",["macro",53]],["map","name","allowAdFeatures","value",["macro",55]],["map","name","view_type","value",["macro",103]],["map","name","screen_name","value",["macro",103]]],
       "vtp_sendPageView":true,
       "vtp_measurementId":"G-9WNMNEZ2M0",
       "vtp_enableUserProperties":true,
