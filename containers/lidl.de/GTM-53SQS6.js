@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"212",
+  "version":"213",
   
   "macros":[{
       "function":"__cvt_903835_490"
@@ -769,7 +769,7 @@ data = {
     },{
       "function":"__smm",
       "vtp_setDefaultValue":true,
-      "vtp_input":["macro",2],
+      "vtp_input":["macro",6],
       "vtp_defaultValue":"DE_Web",
       "vtp_map":["list",["map","key","App","value","DE_Shop_App_Checkout"]]
     },{
