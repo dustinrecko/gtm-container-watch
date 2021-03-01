@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"214",
+  "version":"215",
   
   "macros":[{
       "function":"__cvt_903835_490"
@@ -1477,6 +1477,7 @@ data = {
     },{
       "function":"__html",
       "metadata":["map"],
+      "consent":["list"],
       "once_per_event":true,
       "vtp_html":"\u003Cscript type=\"text\/gtmscript\"\u003Efunction defer(b,c,a){a=null==a?200:Math.min(5E3,1.1*a);b()?c():setTimeout(function(){defer(b,c,a)},a)}\ntry{defer(function(){return\"function\"==typeof $},function(){defer(function(){return null!=getCookie(\"ychoosecookie\")},function(){var b=getCookie(\"ychoosecookie\"),c=getCookie(\"ychoosecookie_dedup\");if(null!=c\u0026\u0026c!=b)setCookie(\"ychoosecookie\",c,365);else if(null==c)try{$.ajax({url:\"https:\/\/event.yoochoose.net\/api\/1\/click\/\"+b+\"\/1\/0?feedback\",timeout:2E3,method:\"GET\"}).done(function(a){defer(function(){return\"function\"==typeof ga},function(){ga.getAll()[0].send({hitType:\"event\",eventCategory:\"User logins\",\neventAction:\"New\",eventLabel:\"Yoochoose\",dimension26:a[0].hashedUserId});setCookie(\"ychoosecookie_dedup\",b,365)})})}catch(a){}},500)})}catch(b){};\u003C\/script\u003E",
       "vtp_supportDocumentWrite":false,
@@ -1763,13 +1764,17 @@ data = {
       "arg1":"(^$|((^|,)903835_272($|,)))"
     },{
       "function":"_eq",
+      "arg0":["macro",1],
+      "arg1":"cookie_consent_marketing"
+    },{
+      "function":"_eq",
       "arg0":["macro",173],
       "arg1":"App"
     }],
   "rules":[
     [["if",0,1],["add",1]],
     [["if",4],["add",2]],
-    [["if",0,5],["add",3,4,9,39,42,45]],
+    [["if",0,5],["add",3,4,9,39,42]],
     [["if",0,6],["add",4]],
     [["if",0,7,8],["add",4]],
     [["if",3,9],["add",4]],
@@ -1808,10 +1813,12 @@ data = {
     [["if",0,5,56],["add",41]],
     [["if",0,5,57],["add",41]],
     [["if",0,5,58],["add",41]],
-    [["if",0,49,59],["add",42,45,48]],
+    [["if",0,49,59],["add",42,48]],
     [["if",0,5,60],["add",43]],
     [["if",0,37,39,40,61],["add",44]],
-    [["if",5,62],["add",0]],
+    [["if",45,59,62],["add",45]],
+    [["if",5,45],["add",45]],
+    [["if",5,63],["add",0]],
     [["if",2,3],["block",1,2,4,5,6,7,10,11,13,40]],
     [["if",2,5],["block",3]],
     [["if",3,11],["block",4]],
