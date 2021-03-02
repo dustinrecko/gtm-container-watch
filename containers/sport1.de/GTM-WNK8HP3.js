@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"96",
+  "version":"97",
   
   "macros":[{
       "function":"__e"
@@ -1152,7 +1152,7 @@ data = {
       "metadata":["map"],
       "consent":["list"],
       "once_per_event":true,
-      "vtp_html":"\u003Cscript type=\"text\/gtmscript\"\u003Ewindow.S1_CMP_HAS_CONSENT=function(b,a){if(\/bingbot|chrome-lighthouse|facebookexternalhit|facebot|google \\(\\+https:\\\/\\\/developers\\.google.com\\\/\\+\\\/web\\\/snippet\\\/\\)|googlebot|mediapartners-google|msnbot|taboolabot|twitterbot|yahoocachesystem|ysearch\/.test(navigator.userAgent.toLowerCase()))return a();__tcfapi(\"getCustomVendorConsents\",2,function(c,d){d\u0026\u0026c.grants[b].vendorGrant\u0026\u0026a()})};\u003C\/script\u003E",
+      "vtp_html":"\u003Cscript type=\"text\/gtmscript\"\u003Ewindow.S1_CMP_HAS_CONSENT=function(b,a){if(\/bingbot|chrome-lighthouse|facebookexternalhit|facebot|google \\(\\+https:\\\/\\\/developers\\.google.com\\\/\\+\\\/web\\\/snippet\\\/\\)|googlebot|mediapartners-google|msnbot|taboolabot|twitterbot|yahoocachesystem|ysearch\/.test(navigator.userAgent.toLowerCase())||\"__USER__AGENT__CYPRESS__\"===navigator.userAgent)return a();__tcfapi(\"getCustomVendorConsents\",2,function(c,d){d\u0026\u0026c.grants[b].vendorGrant\u0026\u0026a()})};\u003C\/script\u003E",
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
