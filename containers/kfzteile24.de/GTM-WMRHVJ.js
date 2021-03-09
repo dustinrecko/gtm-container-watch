@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"611",
+  "version":"612",
   
   "macros":[{
       "function":"__v",
@@ -2027,7 +2027,7 @@ data = {
       "function":"__ua",
       "metadata":["map"],
       "consent":["list"],
-      "teardown_tags":["list",["tag",156,0]],
+      "teardown_tags":["list",["tag",157,0]],
       "unlimited":true,
       "vtp_nonInteraction":false,
       "vtp_useDebugVersion":false,
@@ -3151,6 +3151,16 @@ data = {
       "metadata":["map"],
       "consent":["list"],
       "once_per_event":true,
+      "vtp_html":"\u003Cscript type=\"text\/gtmscript\"\u003Efunction docReady(a){\"complete\"===document.readyState||\"interactive\"===document.readyState?setTimeout(a,1):document.addEventListener(\"DOMContentLoaded\",a)}docReady(function(){var a=document.createElement(\"script\");a.async=!0;a.type=\"text\/javascript\";a.src=\"https:\/\/ai.trk42.net\/\";var b=document.getElementsByTagName(\"body\");b\u0026\u0026b[0]\u0026\u0026b[0].appendChild(a)});\u003C\/script\u003E",
+      "vtp_supportDocumentWrite":false,
+      "vtp_enableIframeMode":false,
+      "vtp_enableEditJsMacroBehavior":false,
+      "tag_id":1543
+    },{
+      "function":"__html",
+      "metadata":["map"],
+      "consent":["list"],
+      "once_per_event":true,
       "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003E",["escape",["macro",231],8,16],"(\"tmc_scu\",\"\/\",",["escape",["macro",90],8,16],");\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
@@ -4050,7 +4060,7 @@ data = {
     [["if",73,92],["add",40]],
     [["if",93],["add",40]],
     [["if",94],["add",40]],
-    [["if",73,95],["add",41,76,94,101,104,107,108,125,130,135,141,142,143]],
+    [["if",73,95],["add",41,76,94,101,104,107,108,125,130,135,141,142,143,156]],
     [["if",74,95],["add",41,101,108,130,142,143]],
     [["if",96],["add",42]],
     [["if",97],["add",43]],
