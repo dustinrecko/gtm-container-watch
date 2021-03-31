@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"215",
+  "version":"216",
   
   "macros":[{
       "function":"__cvt_903835_490"
@@ -808,6 +808,26 @@ data = {
       "vtp_setDefaultValue":false,
       "vtp_name":"ecommerce.add.products"
     },{
+      "function":"__v",
+      "vtp_dataLayerVersion":2,
+      "vtp_setDefaultValue":false,
+      "vtp_name":"gtm.elementUrl"
+    },{
+      "function":"__v",
+      "vtp_name":"gtm.videoStatus",
+      "vtp_dataLayerVersion":1
+    },{
+      "function":"__v",
+      "vtp_name":"gtm.videoPercent",
+      "vtp_dataLayerVersion":1
+    },{
+      "function":"__jsm",
+      "vtp_javascript":["template","(function(){var a=",["escape",["macro",169],8,16],";switch(a){case \"start\":return\"Play\";case \"pause\":return\"Pause\";case \"seek\":return\"Seeking\";case \"progress\":return+",["escape",["macro",170],8,16],"+\"% Watched\";case \"complete\":return\"100% Watched\"}})();"]
+    },{
+      "function":"__v",
+      "vtp_name":"gtm.videoTitle",
+      "vtp_dataLayerVersion":1
+    },{
       "function":"__jsm",
       "vtp_javascript":["template","(function(){return window.CookieConsent.changed||!1})();"]
     },{
@@ -816,8 +836,8 @@ data = {
     },{
       "function":"__smm",
       "vtp_setDefaultValue":true,
-      "vtp_input":["macro",169],
-      "vtp_defaultValue":["macro",169],
+      "vtp_input":["macro",174],
+      "vtp_defaultValue":["macro",174],
       "vtp_map":["list",["map","key","Damenmode - Lidl.de","value","Damenmode \u0026 Damenkleidung günstig online kaufen - lidl.de"],["map","key","Kostüme - Lidl.de","value","Große Auswahl an Kostümen günstig online kaufen - lidl.de"],["map","key","Mode - Lidl.de","value","Mode \u0026 Kleidung online kaufen - Mode Online Shop - lidl.de"],["map","key","Bettwäsche - Lidl.de","value","Bettwäsche günstig online kaufen, traumhaft weich - lidl.de"],["map","key","Möbel \u0026 Einrichtung - Lidl.de","value","Möbel \u0026 Einrichtung online kaufen - Möbel Shop - lidl.de"],["map","key","Kindermode - Lidl.de","value","Kindermode \u0026 Kinderkleidung günstig online kaufen - lidl.de"],["map","key","Haushalt \u0026 Küche - Lidl.de","value","Alles zum Thema Haushalt \u0026 Küche günstig online kaufen - lidl.de"],["map","key","Baumarkt - Lidl.de","value","Alles zum Thema Baumarkt günstig online kaufen - lidl.de"],["map","key","Damen Shirts \u0026 Tops  Lidl.de","value","Damen Shirts \u0026 Tops günstig online kaufen - lidl.de"],["map","key","Kinderwelt - Lidl.de","value","Kinderwelt - Shoppen was Kinder glücklich macht - lidl.de"],["map","key","Babykleidung (2-24 Monate) - Lidl.de","value","Babykleidung \u0026 Babymode günstig online kaufen - lidl.de"],["map","key","Damen Hosen - Lidl.de","value","Hosen \u0026 Jeans für Damen günstig online kaufen - lidl.de"],["map","key","Hobby \u0026 Freizeit - Lidl.de","value","Alles zum Thema Hobby \u0026 Freizeit online kaufen - lidl.de"],["map","key","Multimedia \u0026 Technik - Lidl.de","value","Große Auswahl an Multimedia \u0026 Technik günstig online kaufen - lidl.de"],["map","key","Sport - Lidl.de","value","Sportkleidung \u0026 Sportausrüstung günstig online kaufen - lidl.de"],["map","key","Damen Sport-Hosen \u0026 Röcke - Lidl.de","value","Sporthosen für Damen bequem und günstig online kaufen - lidl.de"],["map","key","Gartenmöbel - Lidl.de","value","Robuste Gartenmöbel günstig online kaufen - lidl.de"],["map","key","Damen Unterwäsche - Lidl.de","value","Bequeme Damen Unterwäsche günstig online kaufen - lidl.de"],["map","key","Damen Pullover, Sweatshirts \u0026 Sweatjacken - Lidl.de","value","Pullover, Sweatshirts \u0026 Jacken für Damen günstig kaufen - lidl.de"],["map","key","Kleinkinder Mädchenkleidung (2-6 Jahre) - Lidl.de","value","Mädchenkleidung für Kleinkinder günstig online kaufen - lidl.de"],["map","key","Kleinkinder Jungenkleidung (2-6 Jahre) - Lidl.de","value","Jungenkleidung für Kleinkinder günstig online kaufen - lid.de"],["map","key","Damenschuhe - Lidl.de","value","Schicke Damenschuhe günstig online kaufen - lidl.de"],["map","key","Matratzen - Lidl.de","value","Hochwertige Matratzen günstig online kaufen - lidl.de"],["map","key","Wintersport Bekleidung \u0026 Ausstattung - Lidl.de","value","Wintersport Bekleidung \u0026 Ausstattung günstig online kaufen - lidl.de"],["map","key","Damen Röcke \u0026 Kleider - Lidl.de","value","Röcke \u0026 Kleider für Damen günstig online kaufen - lidl.de"],["map","key","Baby- \u0026 Kleinkind-Spielzeug - Lidl.de","value","Baby- \u0026 Kleinkind-Spielzeug günstig online kaufen - lidl.de"],["map","key","Sportbekleidung - Lidl.de","value","Sportbekleidung, bequem und schick, günstig online kaufen - lidl.de"],["map","key","Weine - Lidl.de","value","Qualitätsweine günstig online kaufen - Wein Shop - lidl.de"],["map","key","Bohrmaschinen \u0026 Zubehör - Lidl.de","value","Bohrmaschinen \u0026 Zubehör günstig online kaufen - lidl.de"],["map","key","Damen Blusen \u0026 Tuniken - Lidl.de","value","Blusen \u0026 Tuniken für Damen günstig online kaufen - lidl.de"],["map","key","Trachten - Lidl.de","value","Zünftige Trachten günstig online kaufen - Trachten Shop - lidl.de"],["map","key","Herrenmode - Lidl.de","value","Herrenmode \u0026 Herrenkleidung günstig online kaufen - lidl.de"],["map","key","Damen Sport-Shirts \u0026 Tops - Lidl.de","value","Sport-Shirts \u0026 Tops für Damen günstig online kaufen - lidl.de"],["map","key","Kinderschuhe - Lidl.de","value","Robuste Kinderschuhe günstig online kaufen - lidl.de"],["map","key","Kinder Mädchenkleidung (7-12 Jahre) - Lidl.de","value","Mädchenkleidung günstig online kaufen - lidl.de"],["map","key","Baby Nacht- \u0026 Unterwäsche, Bodies \u0026 Strampler - Lidl.de","value","Nacht- \u0026 Unterwäsche, Bodies \u0026 Strampler für Babys kaufen - lidl.de"],["map","key","Elektrowerkzeuge - Lidl.de","value","Leistungsfähige Elektrowerkzeuge günstig online kaufen - lidl.de"],["map","key","Küchenkleingeräte - Lidl.de","value","Praktische Küchenkleingeräte günstig online kaufen - lidl.de"],["map","key","CRIVIT PRO Sportwelt - Lidl.de","value","In der CRIVIT PRO Sportwelt Kleidung \u0026 Ausrüstung kaufen - lidl.de"],["map","key","Damen Nachtwäsche \u0026 Bademäntel - Lidl.de","value","Damen Nachtwäsche \u0026 Bademäntel günstig online kaufen - lidl.de"],["map","key","Damen Jacken, Westen \u0026 Mäntel - lidl.de","value","Damen Jacken, Westen \u0026 Mäntel günstig online kaufen - lidl.de"],["map","key","Kleinkinder Jungen Hosen - Lidl.de","value","Jungen Hosen für Kleinkinder günstig online kaufen - lidl.de"],["map","key","Kinder Stiefel \u0026 Boots - Lidl.de","value","Stiefel \u0026 Boots für Kinder günstig online kaufen - lidl.de"],["map","key","Gartenmöbel-Sets - Lidl.de","value","Gartenmöbel-Sets günstig online kaufen - lidl.de"],["map","key","Kleinkinder Mädchen Kleider, Hosen \u0026 Röcke - Lidl.de","value","Kleider, Hosen und Röcke für Mädchen günstig online kaufen - lidl.de"],["map","key","Küchenmaschinen - Lidl.de","value","Vielseitige Küchenmaschinen günstig online kaufen - lidl.de"],["map","key","Kaffeemaschinen - Lidl.de","value","Kaffeemaschinen günstig online kaufen - lidl.de"],["map","key","PARKSIDE X 20 V TEAM - Lidl.de","value","Parkside Elektrowerkzeuge günstig online kaufen - lidl.de"],["map","key","Damen Sportbekleidung - Lidl.de","value","Bequeme Sportbekleidung für Damen günstig online kaufen - lidl.de"],["map","key","Betten - Lidl.de","value","Große Auswahl an Betten günstig online kaufen - lidl.de"],["map","key","Spielzeug - Lidl.de","value","Spielzeug für Kinder günstig online kaufen- lidl.de"],["map","key","Kinder Jungenkleidung (7-12 Jahre) - Lidl.de","value","Jungen Kleidung für Kinder (7-12 Jahre) günstig online kaufen"],["map","key","Baby Overalls \u0026 Anzüge - Lidl.de","value","Anzüge und Overalls für Babys günstig online kaufen - lidl.de"],["map","key","Fahrräder - Lidl.de","value","Große Auswahl an Fahrrädern günstig online kaufen - lidl.de"],["map","key","Spannbettlaken - Lidl.de","value","Spannbettlaken günstig online kaufen - lidl.de"],["map","key","Herren Hosen - Lidl.de","value","Hosen \u0026 Jeans für Herren günstig online kaufen - lidl.de"],["map","key","Kaltschaummatratzen - Lidl.de","value","Bequeme Kaltschaummatratzen günstig online kaufen - lidl.de"],["map","key","Baby Hosen - Lidl.de","value","Hosen für Babys günstig online kaufen - lidl.de"],["map","key","Backformen \u0026 Zubehör - Lidl.de","value","Backformen \u0026 Zubehör günstig online kaufen - lidl.de"],["map","key","Kinder Sneaker, Ballerinas \u0026 Halbschuhe - Lidl.de","value","Sneaker, Ballerinas und Halbschuhe für Kinder online kaufen - lidl.de"],["map","key","Baby Shirts - Lidl.de","value","Shirts für Babys günstig online kaufen - lidl.de"],["map","key","Baby Pullover, Sweatshirts \u0026 Sweatjacken - Lidl.de","value","Pullover, Sweatshirts \u0026 Jacken für Babys online kaufen - lidl.de"],["map","key","Monsieur Cuisine èdition plus - Lidl.de","value","Monsieur Cuisine Küchengerät online kaufen - lidl.de"],["map","key","Taschenfederkernmatratzen - Lidl.de","value","Bequeme Taschenfederkernmatratzen günstig online kaufen - lidl.de"],["map","key","Outdoor- \u0026 Campingausrüstung - Lidl.de","value","Outdoor- \u0026 Campingausrüstung günstig online kaufen - lidl.de"],["map","key","Damen Unterwäsche \u0026 Strümpfe - Lidl.de","value","Unterwäsche \u0026 Strümpfe für Damen günstig online kaufen - lidl.de"],["map","key","Schlafzimmermöbel \u0026 Co. - Lidl.de","value","Hochwertige Schlafzimmermöbel günstig online kaufen - lidl.de"],["map","key","Kleinkinder Mädchen Shirts - Lidl.de","value","Mädchen Shirts für Kleinkinder günstig online kaufen - lidl.de"],["map","key","Kleinkinder Mädchen Jacken - Lidl.de","value","Mädchen Jacken für Kleinkinder günstig online kaufen - lidl.de"],["map","key","Smartphones \/ Outdoor-Handys \/ Großtasten-Handys - Lidl.de","value","Handys \u0026 Smartphones günstig online kaufen - lidl.de"],["map","key","Damen Sportbekleidung - Lidl.de","value","Sportbekleidung für Damen günstig online kaufen - lidl.de"],["map","key","Baby Strumpfhosen, Strümpfe \u0026 Socken - Lidl.de","value","Strumpfhosen, Strümpfe und Socken für Babys online kaufen - lidl.de"],["map","key","Jugend- \u0026 Kinderbetten - Lidl.de","value","Jugend- \u0026 Kinderbetten günstig online kaufen - lidl.de"],["map","key","Spirituosen - Lidl.de","value","Große Auswahl an Spirituosen günstig online kaufen - lidl.de"],["map","key","Herren Sportbekleidung - Lidl.de","value","Sportbekleidung für Herren günstig online kaufen - lidl.de"],["map","key","Matratzenauflagen, Topper - Lidl.de","value","Topper \u0026 Matratzenauflagen günstig online kaufen - lidl.de"],["map","key","Lampen \u0026 Leuchten - Lidl.de","value","Lampen \u0026 Leuchten günstig online kaufen - lidl.de"],["map","key","Kleinkinder Jungen Nacht- \u0026 Unterwäsche - Lidl.de","value","Nacht- \u0026 Unterwäsche für Jungen günstig online kaufen - lidl.de"],["map","key","Kleinkinder Jungen Shirts - Lidl.de","value","Jungen Shirts für Kleinkinder günstig online kaufen - lidl.de"],["map","key","Damen Sport-Jacken \u0026 Westen - Lidl.de","value","Sportjacken \u0026 Sportwesten für Damen günstig online kaufen - lidl.de"],["map","key","Badeinrichtung - Lidl.de","value","Hochwertige Badeinrichtung günstig online kaufen - lidl.de"],["map","key","Sonnensegel \u0026 Sonnenschirme - Lidl.de","value","Sonnenschirme \u0026 Sonnensegel günstig online kaufen - lidl.de"],["map","key","Baby Jacken - Lidl.de","value","Tolle Jacken für Babys günstig online kaufen - lidl.de"],["map","key","E-Bikes - Lidl.de","value","Leistungsfähige E-Bikes und Elektrofahrräder online kaufen - lidl.de"],["map","key","Schuhe - Lidl.de","value","Schuhe online kaufen - Schuhe Online Shop - lidl.de"],["map","key","Deckenleuchten - Lidl.de","value","Dekorative Deckenleuchten günstig online kaufen - lidl.de"],["map","key","Damen Stiefeletten - Lidl.de","value","Schicke Stiefeletten für Damen günstig online kaufen - lidl.de"],["map","key","Kleinkinder Mädchen Nacht- \u0026 Unterwäsche - Lidl.de","value","Nacht- \u0026 Unterwäsche für Mädchen günstig online kaufen - lidl.de"],["map","key","Klemmfix - Lidl.de","value","Praktische Klemmfix Rollos günstig online kaufen - lidl.de"],["map","key","Bettwaren - Lidl.de","value","Bettwaren Shop - Bettwaren günstig online kaufen - lidl.de"],["map","key","Damen Sandalen \u0026 Sandaletten - Lidl.de","value","Sandalen \u0026 Sandaletten für Damen günstig online kaufen - lidl.de"],["map","key","Damen Sport-Unterwäsche \u0026 Strümpfe - Lidl.de","value","Sportunterwäsche \u0026 Sportstrümpfe für Damen online kaufen - lidl.de"],["map","key","Kopfkissen - Lidl.de","value","Kuschelweiche Kopfkissen günstig online kaufen - lidl.de"],["map","key","Sportgeräte - Lidl.de","value","Hochwertige Sportgeräte günstig online kaufen - lidl.de"],["map","key","Wasserkocher \u0026 Teekocher - Lidl.de","value","Wasserkocher \u0026 Teekocher günstig online kaufen - lidl.de"],["map","key","Küchenzubehör - Lidl.de","value","Hochwertiges Küchenzubehör günstig online kaufen - lidl.de"],["map","key","Kleinkinder Jungen Jacken - Lidl.de","value","Jungen Jacken für Kleinkinder günstig online kaufen - lidl.de"],["map","key","Damen Homewear - Lidl.de","value","Bequeme Homewear für Damen günstig online kaufen - lidl.de"],["map","key","Kleinkinder Mädchen Leggings, Strumpfhosen \u0026 Strümpfe - Lidl.de","value","Leggings, Strumphosen \u0026 Strümpfe für Mädchen online kaufen - lidl.de"],["map","key","Rollos \u0026 Jalousien - Lidl.de","value","Rollos \u0026 Jalousien günstig online kaufen - lidl.de"],["map","key","Kleinkinder Mädchen Pullover \u0026 Sweatshirts - Lidl.de","value","Pullover \u0026 Sweatshirts für Mädchen günstig online kaufen - lidl.de"],["map","key","Gartentische - Lidl.de","value","Robuste Gartentische günstig online kaufen - lidl.de"],["map","key","Gartenstühle - Lidl.de","value","Robuste Gartenstühle günstig online kaufen - lidl.de"],["map","key","Wohnzimmermöbel \u0026 Co. - Lidl.de","value","Hochwertige Wohnzimmermöbel günstig online kaufen - lidl.de"],["map","key","Holzspielzeug - Lidl.de","value","Hochwertiges Holzspielzeug günstig online kaufen - lidl.de"],["map","key","Kleinkinder Jungen Pullover, Sweatjacken \u0026 Sweatshirts - Lidl.de","value","Pullover, Sweatjacken \u0026 Sweatshirts für Jungen online kaufen - lidl.de"],["map","key","Kinder Jungen Hosen - Lidl.de","value","Jungen Hosen günstig online kaufen - lidl.de"],["map","key","Kinder Mädchen Hosen - Lidl.de","value","Mädchen Hosen günstig online kaufen - lidl.de"],["map","key","Küchenzeilen - Lidl.de","value","Hochwertige Küchenzeilen günstig online kaufen - lidl.de"],["map","key","Fahrradbekleidung - Lidl.de","value","Fahrradbekleidung für Sie und Ihn günstig online kaufen - lidl.de"],["map","key","Werkstatteinrichtung - Lidl.de","value","Hochwertige Werkstatteinrichtung günstig online kaufen - lidl.de"],["map","key","Damen Sneaker \u0026 Halbschuhe - Lidl.de","value","Sneaker und Halbschuhe für Damen günstig online kaufen - lidl.de"],["map","key","Herren Unterwäsche - Lidl.de","value","Bequeme Unterwäsche für Herren günstig online kaufen - lidl.de"],["map","key","Akkuschrauber - Lidl.de","value","Leistungsfähige Akkuschrauber günstig online kaufen - lidl.de"],["map","key","Mikrowellen - Lidl.de","value","Mikrowellen günstig online kaufen - lidl.de"],["map","key","Herren Pullover, Sweatshirts \u0026 Sweatjacken - Lidl.de","value","Pullover, Sweatshirts \u0026 Sweatjacken für Herren online kaufen - lidl.de"],["map","key","Schleifmaschinen \u0026 Zubehör - Lidl.de","value","Schleifmaschinen \u0026 Zubehör günstig online kaufen - lidl.de"],["map","key","Badmöbel - Lidl.de","value","Hochwertige Badmöbel günstig online kaufen - lidl.de"],["map","key","Damen Ballerinas, Slipper \u0026 Pumps - Lidl.de","value","Ballerinas, Slipper \u0026 Pumps für Damen günstig online kaufen - lidl.de"],["map","key","Kinder Sportbekleidung - Lidl.de","value","Sportbekleidung für Kinder günstig online laufen - lidl.de"],["map","key","Sitzauflagen - Lidl.de","value","Bequeme Sitzauflagen günstig online kaufen - lidl.de"],["map","key","Onlineshop - Lidl.de","value","Lidl Onlineshop - Über 30.000 Produkte online bestellen - Lidl lohnt sich"],["map","key","Pavillons \u0026 Überdachung - Lidl.de","value","Pavillons \u0026 Überdachungen günstig online kaufen - lidl.de"],["map","key","Herren Sporthosen - Lidl.de","value","Herren Sporthosen günstig online kaufen - lidl.de"],["map","key","Lidl Connect - Lidl.de","value","Lidl Connect Starterpaket SIM-Karten online bestellen - lidl.de"],["map","key","Tierwelt - Lidl.de","value","Alles für Ihr Tier günstig online kaufen - lidl.de"],["map","key","Monsieur Cuisine èdition plus - Lidl.de","value","Monsieur Cuisine Küchengerät günstig online kaufen - lidl.de"],["map","key","Bademode für Damen - Lidl.de","value","Damen Bademode günstig online kaufen - lidl.de"],["map","key","Werkzeugsets \u0026 -koffer - Lidl.de","value","Werkzeugkoffer \u0026 -sets günstig online kaufen - lidl.de"],["map","key","Pflanzen \u0026 Pflanzenschutz - Lidl.de","value","Pflanzen \u0026 Pflanzenschutz günstig online kaufen - lidl.de"],["map","key","Mal- \u0026 Bastelbedarf - Lidl.de","value","Mal- \u0026 Bastelbedarf günstig online kaufen - lidl.de"],["map","key","Fahrradzubehör - Lidl.de","value","Fahrradzubehör günstig online kaufen - lidl.de"],["map","key","Weitere Babyausstattung - Lidl.de","value","Babyausstattung günstig online kaufen - lidl.de"],["map","key","Loungegruppen - Lidl.de","value","Loungegruppen und Loungemöbel günstig online kaufen - lidl.de"],["map","key","Gartenleuchten - Lidl.de","value","Garten- und Außenleuchten günstig online kaufen - lidl.de"],["map","key","Wohnaccessoires - Lidl.de","value","Dekorative Wohnaccessoires günstig online kaufen - lidl.de"],["map","key","Damen Accessoires - Lidl.de","value","Hübsche Damen Accessoires günstig online kaufen - lidl.de"],["map","key","Damen Sport-Sweatshirts \u0026 Sweatjacken - Lidl.de","value","Damen Sport-Sweatshirts \u0026 Sweatjacken günstig online kaufen - lidl.de"],["map","key","Heimkino \u0026 Home Entertainment - Lidl Deutschland - Lidl.de","value","Heimkino- \u0026 Entertainmentausstattung günstig online kaufen - lidl.de"],["map","key","Damenmode - Lidl Deutschland - Lidl.de","value","Angesagte Damenmode günstig online kaufen - lidl.de"],["map","key","Geschirr \u0026 Tischaccessoires - Lidl.de","value","Geschirr \u0026 Tischaccessoires günstig online kaufen - lidl.de"],["map","key","Herren Hemden - Lidl.de","value","Modische Herren Hemden günstig online kaufen - lidl.de"],["map","key","Fritteusen - Lidl.de","value","Fritteusen günstig online kaufen - lidl.de"],["map","key","Töpfe - Lidl.de","value","Große Auswahl an Töpfen günstig online kaufen - lidl.de"],["map","key","Gartenliegen - Lidl.de","value","Bequeme Gartenliegen günstig online kaufen - lidl.de"],["map","key","Küchenzeile mit Einbaugeräten - Lidl.de","value","Küchenzeile mit Einbaugeräten günstig online kaufen - lidl.de"],["map","key","Heimtextilien - Lidl.de","value","Heimtextilien aller Art günstig online kaufen - lidl.de"],["map","key","Kleinkinder Jungen Strumpfhosen, Strümpfe \u0026 Socken - Lidl.de","value","Kleinkinder Jungen Strumpfhosen, Strümpfe \u0026 Socken kaufen - lidl.de"],["map","key","Babyartikel \u0026 Babyausstattung - Lidl.de","value","Babyartikel \u0026 Babyausstattung günstig online kaufen - lidl.de"],["map","key","Garten \u0026 Grillen - Lidl.de","value","Gartenzubehör \u0026 Grills günstig online kaufen - lidl.de"],["map","key","Teppiche - Lidl.de","value","Hochwertige Teppiche günstig online kaufen - lidl.de"],["map","key","Gartenwerkzeuge - Lidl.de","value","Gartenwerkzeuge günstig online kaufen - lidl.de"],["map","key","Blumenkästen \u0026 -Kübel - Lidl.de","value","Blumenkästen \u0026 Blumentöpfe günstig online kaufen - lidl.de"],["map","key","Kinder Sandalen \u0026 Badeschuhe - Lidl.de","value","Kinder Sandalen \u0026 Badeschuhe günstig online kaufen - lidl.de"],["map","key","Zelte - Lidl.de","value","Hochwertige Zelte günstig online kaufen - lidl.de"],["map","key","Gartenhäuser - Lidl.de","value","Robuste Gartenhäuser günstig online kaufen - lidl.de"],["map","key","Herren T-Shirts - Lidl.de","value","Herren T-Shirts günstig online kaufen - lidl.de"],["map","key","Kinder Mädchen Kleider \u0026 Röcke - Lidl.de","value","Kleider \u0026 Röcke für Mädchen günstig online kaufen - lidl.de"],["map","key","Insektenschutz - Lidl.de","value","Effektiven Insektenschutz günstig online kaufen - lidl.de"],["map","key","Daunendecken \u0026 Federbetten - Lidl.de","value","Daunendecken \u0026 Federbetten günstig online kaufen - lidl.de"],["map","key","Kinder Mädchen Nacht- \u0026 Unterwäsche - Lidl.de","value","Nacht- \u0026 Unterwäsche für Mädchen günstig online kaufen - lidl.de"],["map","key","Nähmaschinen - Lidl.de","value","Nähmaschinen günstig online kaufen - lidl.de"],["map","key","Kinder Mädchen Shirts - Lidl.de","value","Schicke Mädchen Shirts günstig online kaufen - lidl.de"],["map","key","Kühlschränke - Lidl.de","value","Sparsame Kühlschränke günstig online kaufen - lidl.de"],["map","key","Kinder Mädchen Jacken - Lidl.de","value","Mädchen Jacken günstig online kaufen - lidl.de"],["map","key","Baby Kleider \u0026 Röcke - Lidl.de","value","Baby Kleider \u0026 Röcke günstig online kaufen - lidl.de"],["map","key","Puppen \u0026 Zubehör - Lidl.de","value","Puppen \u0026 Zubehör günstig online kaufen - lidl.de"],["map","key","Damen Strumpfhosen \u0026 Leggings - Lidl Deutschland - Lidl.de","value","Damen Strumpfhosen \u0026 Leggings günstig online kaufen lidl.de"],["map","key","Microfaserdecken - Lidl.de","value","Microfaserdecken günstig online kaufen - lidl.de"],["map","key","Herren Sport Jacken \u0026 Westen - Lidl.de","value","Herren Sport Jacken \u0026 Westen günstig online kaufen - lidl.de"],["map","key","Dekoartikel - Lidl.de","value","Dekoartikel günstig online kaufen - lidl.de"],["map","key","Angelausrüstung - Lidl.de","value","Angelausrüstung günstig online kaufen - lidl.de"],["map","key","Kinderzimmermöbel \u0026 Co. - Lidl.de","value","Kinderzimmermöbel \u0026 Co. günstig online kaufen - lidl.de"],["map","key","Damen Stiefel - Lidl.de","value","Schicke Damen Stiefel günstig online kaufen - lidl.de"],["map","key","Kinder Mädchen Pullover \u0026 Sweatshirts - Lidl.de","value","Mädchen Pullover \u0026 Sweatshirts günstig online kaufen - lidl.de"],["map","key","Herrenschuhe - Lidl.de","value","Herrenschuhe für jeden Anlass günstig online kaufen - lidl.de"],["map","key","Stehleuchten - Lidl.de","value","Dekorative Stehleuchten günstig online kaufen - lidl.de"],["map","key","Herren Sport Shirts - Lidl.de","value","Herren Sport Shirts günstig online kaufen - lidl.de"],["map","key","Wintersport - Lidl.de","value","Alles zum Thema Wintersport günstig online kaufen - lidl.de"],["map","key","Koffer \u0026 Taschen - Lidl.de","value","Koffer \u0026 Taschen günstig online kaufen - lidl.de"],["map","key","Gardinen - Lidl.de","value","Wohnliche Gardinen günstig online kaufen - lidl.de"],["map","key","Backen \u0026 Backgeräte - Lidl.de","value","Backgeräte und Backzubehör günstig online kaufen - lidl.de"],["map","key","Komfortschaummatratzen - Lidl.de","value","Komfortschaummatratzen günstig online kaufen - lidl.de"],["map","key","Herren Jacken, Westen \u0026 Mäntel - Lidl.de","value","Herren Jacken, Westen \u0026 Mäntel günstig online kaufen - lidl.de"],["map","key","Kinder Jungen Shirts \u0026 Hemden - Lidl.de","value","Schicke Jungen Shirts \u0026 Hemden günstig online kaufen - lidl.de"],["map","key","Ferngesteuerte Autos - Lidl.de","value","Ferngesteuerte Autos günstig online kaufen - lidl.de"],["map","key","Nähmaschinen \u0026 Handarbeitsbedarf - Lidl.de","value","Nähmaschinen \u0026 Handarbeitsbedarf günstig online kaufen - lidl.de"],["map","key","Kücheneinrichtung - Lidl.de","value","Kücheneinrichtung günstig online kaufen - lidl.de"],["map","key","Accessoires für Kinder - Lidl.de","value","Accessoires für Kinder günstig online kaufen - lidl.de"],["map","key","Bestseller Kinderwelt - Lidl.de","value","Bestseller Kinderwelt günstig online kaufen - lidl.de"],["map","key","Große Größen - Lidl.de","value","Große Größen günstig online kaufen - lidl.de"],["map","key","Musikinstrumente - Lidl.de","value","Musikinstrumente günstig online kaufen - lidl.de"],["map","key","Navigationsgeräte - Lidl.de","value","Navigationsgeräte günstig online kaufen - lidl.de"],["map","key","GELATELLI - Lidl.de","value","GELATELLI - Eis bei Lidl - lidl.de"],["map","key","Ratgeber Baumarkt - Lidl.de","value","Online-Ratgeber Baumarkt - Lidl.de"],["map","key","Ratgeber Elektrowerkzeuge - Lidl.de","value","Online-Ratgeber Elektrowerkzeuge - Lidl.de"],["map","key","Ratgeber Garten - Lidl.de","value","Online-Ratgeber Garten - Lidl.de"],["map","key","Ratgeber Sicherheitstechnik - Lidl.de","value","Online-Ratgeber Sicherheitstechnik - Lidl.de"],["map","key","Nike Herren Sneaker »Air Max Zero«, mit Mesh-Einsätzen, Schaumstoffsohle, leichte Dämpfung - Lidl.de","value","Nike Herren Sneaker ▷ Air Max Zero | LIDL"],["map","key","Nike T-Shirt Damen aus Baumwolle, Rundhalsausschnitt mit Nike-Symbol - Lidl.de","value","Nike T-Shirt Damen ▷ 100 % Baumwolle | LIDL"],["map","key","Reebok Socken, Unisex, knöchelhoch, mit Rippenstruktur, 6 Paar - Lidl.de","value","Reebok Socken Unisex ▷ 6 Paar | LIDL"],["map","key","Gant Sweatshirt Herren »Shield Hoodie«, mit Tunnelzug-Kapuze, GANT-Wappen - Lidl.de","value","GANT Sweatshirt Herren ▷ Shield Hoodie | LIDL"],["map","key","Gant Pullover Herren, aus reiner Baumwolle, mit V-Ausschnitt - Lidl.de","value","GANT Pullover Herren ▷ Reine Baumwolle mit V-Neck | LIDL"],["map","key","MEXX Boxershorts Herren, angenehmer Tragekomfort, 2 Stück - Lidl.de","value","MEXX Boxershorts Herren  ▷ 2er Pack | LIDL"],["map","key","Christopeit Sport Ergometer »ET 6« Heimtrainer, LCD-Display, Belastbarkeit 150 kg - Lidl.de","value","CHRISTOPEIT SPORT Ergometer »ET 6« Heimtrainer, LCD-Display│LIDL"],["map","key","SILVIO design Kratzbaum »Merlin«, mit Höhle, Spielrollen, Liegemulden und Liegeplatten - Lidl.de","value","SILVIO design Kratzbaum »Merlin« ▷ Mit Höhle und Hängematte│LIDL"],["map","key","HIGH PEAK Tunnelzelt »Kimberly 5«, Camping, für 5 Personen, Familienzelt - Lidl.de","value","HIGH PEAK Tunnelzelt »Kimberly 5« ▷ Camping, Familienzelt│LIDL"],["map","key","EUFAB Fahrradträger Anhängerkupplung »Amber IV«, 4 Fahrräder, Befestigung an der Kupplung - Lidl.de","value","EUFAB Fahrradträger Anhängerkupplung »Amber IV« ▷ für 4 Fahrräder│LIDL"],["map","key","Nova Motors Elektromobil »Bendi«, dreirädriges Seniorenmobil, Elektroantrieb, Gel-Batterien - Lidl.de","value","Nova Motors Elektromobil »Bendi« ▷ Seniorenmobil│LIDL"],["map","key","Bergsteiger Klapprad »Windsor«, 20 Zoll, Faltrad mit Quick-Fold-System - Lidl.de","value","Bergsteiger Klapprad »Windsor« ▷ Faltrad Quick-Fold-System│LIDL"],["map","key","TOPMOVE® Rucksack, Schulrucksack, ideale in der Freizeit, auf Reisen oder in der Schule - Lidl.de","value","TOPMOVE® Rucksack ▷ Passt sich der Köpergröße an│LIDL"],["map","key","Biberna Spannbettlaken, Elasthan-Jersey, für hohe Matratzen und bis 220cm Länge geeignet - Lidl.de","value","Biberna Spannbettlaken ▷ Für hohe Matratzen|LIDL"],["map","key","Dobnig Feinbiber Bettwäsche «Hirsch silber», reine Baumwolle, angeraute Oberfläche, warm - Lidl.de","value","Dobnig Feinbiberbettwäsche »Hirsch silber« ▷ reine Baumwolle│LIDL"],["map","key","CYBEX Kinderautositz «Pallasfix M-Fix SL», Gruppe I-III, 9-36kg, Isofix - Lidl.de","value","CYBEX Autokindersitz »PALLASFIX M-FIX SL«  ▷ Gruppe I-III │ LIDL"],["map","key","MERADISO® Feinbiber Wendebettwäsche, 135 x 200 cm, verdeckte Knopfleiste - Lidl.de","value","MERADISO® Feinbiber-Wendebettwäsche ▷ 135 x 200 cm │LIDL"],["map","key","POWERFIX® Insektenschutzfenster, Fliegengitter, Aluminium, flache Einbautiefe - Lidl.de","value","POWERFIX® Fliegengitter ▷ Insektenschutz für Fenster | LIDL"],["map","key","f.a.n. 7-Zonen-Premium-Lattenrost »Venus K«, verstellbar - Lidl.de","value","f.a.n. Lattenrost »Venus K« ▷ 7-Zonen-Premium | LIDL"],["map","key","f.a.n. Topper »BIG KOMFORT«, 7-Zonen Kaltschaum, Füllung aus Polyester, mit Lüftungsband - Lidl.de","value","f.a.n Matratzen Topper ▷ 7-Zonen Kaltschaum | LIDL"],["map","key","Balette Daunenbettdecke »Premium Selection 100%«, Kassettenbettdecke, extra warm - Lidl.de","value","Balette Daunendecke ▷ Kassettenbettdecke-Premium Selection | LIDL"],["map","key","SMOBY Supermarktkasse XL, elektronisch, ab 3 Jahren - Lidl.de","value","SMOBY  Supermarktkasse ▷ Mit 27 Zubehörteilen | LIDL"],["map","key","PLAYTIVE® JUNIOR Kaufladen, stabile Holzkonstruktion, ab 3 Jahren - Lidl.de","value","PLAYTIVE® JUNIOR Kaufladen ▷ Stabile Holzkonstruktion | LIDL"],["map","key","PLAYTIVE® JUNIOR Puppenhaus, XXL, stabile Holzkonstruktion, ab  3 Jahren - Lidl.de","value","PLAYTIVE® JUNIOR Puppenhaus ▷ Stabile XXL-Holzkonstruktion | LIDL"],["map","key","PLAYTIVE® JUNIOR Eisenbahn Kinder, 60-teilig, ab 3 Jahren - Lidl.de","value","PLAYTIVE® JUNIOR Eisenbahn ▷ Umfangreiche Ausstattung | LIDL"],["map","key","PLAYTIVE® JUNIOR, Fern-\/App-gesteuerte Eisenbahn, Licht- und Soundeffekten, kostenlose App - Lidl.de","value","PLAYTIVE® JUNIOR Fern-\/App-gesteuerte Eisenbahn ▷ Effekte │LIDL"],["map","key","PLAYTIVE® JUNIOR, Spielküche aus Holz, Set mit viel Zubehör und Licht- und Soundfunktion - Lidl.de","value","PLAYTIVE® JUNIOR Spielküche ▷ mit viel Zubehör │LIDL"],["map","key","PLAYTIVE® JUNIOR, XXL-Set Bahnhof \/ Logistikzentrum, Echtholzkonstruktion, viele Funktionen - Lidl.de","value","PLAYTIVE® JUNIOR XXL-Set Bahnhof \/ Logistikzentrum ▷ Zubehör │LIDL"],["map","key","LIDL Connect Starterpaket SMART S - Lidl.de","value","LIDL Connect Handy-Tarif SMART S ▷ Flatrate bis zu 3 GB | LIDL"],["map","key","exquisit Gefrierschrank »GS235-4«, mit 6 Gefrierschubladen, 147 Liter Nutzinhalt, A++ EEK - Lidl.de","value","exquisit Gefrierschrank »GS235-4» ▷ 6 Schubladen│LIDL"],["map","key","FMD Winkel-Schreibtischkombination »LEX«, ergonomische Höhe, flexible Aufbauvarianten - Lidl.de","value","FMD Winkel-Schreibtischkombination »LEX« ▷ variabel aufbaubar │LIDL"],["map","key","Express Möbel Schwebetürenschrank »Bianco«, 2-türig, verschiedene Breiten, mit Spiegel - Lidl.de","value","Express Möbel Schwebetürenschrank »Bianco« ▷ zwei Schiebetüren │LIDL"],["map","key","Comfee Kühl-\/Gefrierkombination »SBSIB 502.1 NFA+«, Side-by-Side, mit Barfach \u0026 Eisspender - Lidl.de","value","Comfee Kühl-\/Gefrierkombination »SBSIB 502.1 NFA+«│LIDL"],["map","key","respekta Küchenzeile, Doppelblock, 320 cm, mit Elektrogeräten, Geschirrspüler, Kühlschrank - Lidl.de","value","respekta Küchenzeile ▷ Doppelblock und mit Elektrogeräten│LIDL"],["map","key","BOSCH Waschmaschine »WAN28170«, A+++ Energieeffizienz, 7 kg Füllmenge, EcoSilence Drive™ - Lidl.de","value","BOSCH Waschmaschine »WAN28170« ▷ A+++ Energieeffizienz │LIDL"],["map","key","SILVERCREST® Heizkörperthermostat, voreingestellte Programme und Frostwächterfunktion - Lidl.de","value","SILVERCREST® Heizkörperthermostat ▷ voreingestellte Programme │LIDL"],["map","key","Inter Link Funktionsbett »Claas« oder »Till«, 2 integrierten Nachtkonsolen und Lattenroste - Lidl.de","value","Inter Link Funktionsbett ▷Regalfächer und Unterbettkommoden│LIDL"]]
     },{
       "function":"__v",
@@ -944,7 +964,7 @@ data = {
     },{
       "function":"__remm",
       "vtp_setDefaultValue":false,
-      "vtp_input":["macro",200],
+      "vtp_input":["macro",205],
       "vtp_fullMatch":true,
       "vtp_replaceAfterMatch":true,
       "vtp_ignoreCase":true,
@@ -973,7 +993,7 @@ data = {
       "priority":999,
       "metadata":["map"],
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003E(function(){document.cookie=\"gaDataSource\\x3d",["escape",["macro",173],7],"; domain\\x3d",["escape",["macro",174],7],"; path\\x3d\/\"})();\u003C\/script\u003E"],
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003E(function(){document.cookie=\"gaDataSource\\x3d",["escape",["macro",178],7],"; domain\\x3d",["escape",["macro",179],7],"; path\\x3d\/\"})();\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
@@ -981,7 +1001,6 @@ data = {
     },{
       "function":"__ua",
       "metadata":["map"],
-      "consent":["list"],
       "once_per_event":true,
       "vtp_nonInteraction":false,
       "vtp_useDebugVersion":false,
@@ -1015,7 +1034,6 @@ data = {
     },{
       "function":"__ua",
       "metadata":["map"],
-      "consent":["list"],
       "once_per_event":true,
       "vtp_useEcommerceDataLayer":false,
       "vtp_overrideGaSettings":true,
@@ -1079,7 +1097,6 @@ data = {
     },{
       "function":"__ua",
       "metadata":["map"],
-      "consent":["list"],
       "vtp_nonInteraction":["macro",80],
       "vtp_useEcommerceDataLayer":true,
       "vtp_overrideGaSettings":true,
@@ -1228,7 +1245,6 @@ data = {
     },{
       "function":"__gaawc",
       "metadata":["map"],
-      "consent":["list"],
       "once_per_event":true,
       "vtp_userProperties":["list",["map","name","Touchpoint","value",["macro",160]],["map","name","Sales_Channel","value",["macro",4]],["map","name","User_Type","value",["macro",28]]],
       "vtp_sendPageView":true,
@@ -1248,7 +1264,6 @@ data = {
     },{
       "function":"__gaawe",
       "metadata":["map"],
-      "consent":["list"],
       "once_per_event":true,
       "vtp_userProperties":["list",["map","name","Touchpoint","value",["macro",160]]],
       "vtp_eventName":"purchase",
@@ -1268,75 +1283,101 @@ data = {
       "vtp_enableMoreSettingsOption":false,
       "tag_id":647
     },{
+      "function":"__ua",
+      "metadata":["map"],
+      "once_per_event":true,
+      "vtp_nonInteraction":false,
+      "vtp_useDebugVersion":false,
+      "vtp_eventCategory":"Videos",
+      "vtp_trackType":"TRACK_EVENT",
+      "vtp_gaSettings":["macro",14],
+      "vtp_eventAction":["macro",171],
+      "vtp_eventLabel":["macro",172],
+      "vtp_overrideGaSettings":true,
+      "vtp_doubleClick":true,
+      "vtp_setTrackerName":false,
+      "vtp_fieldsToSet":["list",["map","fieldName","\u0026uid","value",["macro",18]],["map","fieldName","anonymizeIp","value",["macro",10]]],
+      "vtp_enableLinkId":false,
+      "vtp_dimension":["list",["map","index","1","dimension",["macro",29]],["map","index","2","dimension",["macro",4]],["map","index","3","dimension",["macro",28]],["map","index","4","dimension",["macro",27]],["map","index","5","dimension",["macro",33]],["map","index","6","dimension",["macro",32]],["map","index","7","dimension",["macro",31]],["map","index","8","dimension",["macro",30]],["map","index","9","dimension",["macro",18]]],
+      "vtp_enableEcommerce":false,
+      "vtp_trackingId":["macro",7],
+      "vtp_enableRecaptchaOption":false,
+      "vtp_enableUaRlsa":false,
+      "vtp_enableUseInternalVersion":false,
+      "vtp_enableFirebaseCampaignData":true,
+      "vtp_trackTypeIsEvent":true,
+      "vtp_enableGA4Schema":false,
+      "tag_id":676
+    },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_checkValidation":true,
       "vtp_waitForTagsTimeout":"2000",
       "vtp_uniqueTriggerId":"903835_83",
-      "tag_id":650
+      "tag_id":677
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_checkValidation":true,
       "vtp_waitForTagsTimeout":"2000",
       "vtp_uniqueTriggerId":"903835_84",
-      "tag_id":651
+      "tag_id":678
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_checkValidation":true,
       "vtp_waitForTagsTimeout":"2000",
       "vtp_uniqueTriggerId":"903835_107",
-      "tag_id":652
+      "tag_id":679
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_checkValidation":true,
       "vtp_waitForTagsTimeout":"2000",
       "vtp_uniqueTriggerId":"903835_110",
-      "tag_id":653
+      "tag_id":680
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_checkValidation":true,
       "vtp_waitForTagsTimeout":"2000",
       "vtp_uniqueTriggerId":"903835_117",
-      "tag_id":654
+      "tag_id":681
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_checkValidation":true,
       "vtp_waitForTagsTimeout":"2000",
       "vtp_uniqueTriggerId":"903835_123",
-      "tag_id":655
+      "tag_id":682
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_checkValidation":true,
       "vtp_waitForTagsTimeout":"2000",
       "vtp_uniqueTriggerId":"903835_129",
-      "tag_id":656
+      "tag_id":683
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_checkValidation":true,
       "vtp_waitForTagsTimeout":"2000",
       "vtp_uniqueTriggerId":"903835_146",
-      "tag_id":657
+      "tag_id":684
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_checkValidation":true,
       "vtp_waitForTagsTimeout":"2000",
       "vtp_uniqueTriggerId":"903835_153",
-      "tag_id":658
+      "tag_id":685
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_checkValidation":true,
       "vtp_waitForTagsTimeout":"2000",
       "vtp_uniqueTriggerId":"903835_171",
-      "tag_id":659
+      "tag_id":686
     },{
       "function":"__sdl",
       "vtp_verticalThresholdUnits":"PERCENT",
@@ -1345,7 +1386,7 @@ data = {
       "vtp_horizontalThresholdOn":false,
       "vtp_uniqueTriggerId":"903835_178",
       "vtp_enableTriggerStartOption":true,
-      "tag_id":660
+      "tag_id":687
     },{
       "function":"__sdl",
       "vtp_verticalThresholdUnits":"PERCENT",
@@ -1354,7 +1395,7 @@ data = {
       "vtp_horizontalThresholdOn":false,
       "vtp_uniqueTriggerId":"903835_193",
       "vtp_enableTriggerStartOption":true,
-      "tag_id":661
+      "tag_id":688
     },{
       "function":"__sdl",
       "vtp_verticalThresholdUnits":"PERCENT",
@@ -1363,17 +1404,17 @@ data = {
       "vtp_horizontalThresholdOn":false,
       "vtp_uniqueTriggerId":"903835_194",
       "vtp_enableTriggerStartOption":true,
-      "tag_id":662
+      "tag_id":689
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_checkValidation":true,
       "vtp_waitForTagsTimeout":"2000",
       "vtp_uniqueTriggerId":"903835_205",
-      "tag_id":663
+      "tag_id":690
     },{
       "function":"__hl",
-      "tag_id":664
+      "tag_id":691
     },{
       "function":"__sdl",
       "vtp_verticalThresholdUnits":"PERCENT",
@@ -1382,7 +1423,7 @@ data = {
       "vtp_horizontalThresholdOn":false,
       "vtp_uniqueTriggerId":"903835_237",
       "vtp_enableTriggerStartOption":true,
-      "tag_id":665
+      "tag_id":692
     },{
       "function":"__sdl",
       "vtp_verticalThresholdUnits":"PERCENT",
@@ -1391,7 +1432,7 @@ data = {
       "vtp_horizontalThresholdOn":false,
       "vtp_uniqueTriggerId":"903835_245",
       "vtp_enableTriggerStartOption":true,
-      "tag_id":666
+      "tag_id":693
     },{
       "function":"__sdl",
       "vtp_verticalThresholdUnits":"PERCENT",
@@ -1401,7 +1442,7 @@ data = {
       "vtp_horizontalThresholdOn":false,
       "vtp_uniqueTriggerId":"903835_270",
       "vtp_enableTriggerStartOption":true,
-      "tag_id":667
+      "tag_id":694
     },{
       "function":"__sdl",
       "vtp_verticalThresholdUnits":"PERCENT",
@@ -1411,7 +1452,7 @@ data = {
       "vtp_horizontalThresholdOn":false,
       "vtp_uniqueTriggerId":"903835_271",
       "vtp_enableTriggerStartOption":true,
-      "tag_id":668
+      "tag_id":695
     },{
       "function":"__sdl",
       "vtp_verticalThresholdUnits":"PERCENT",
@@ -1421,10 +1462,23 @@ data = {
       "vtp_horizontalThresholdOn":false,
       "vtp_uniqueTriggerId":"903835_272",
       "vtp_enableTriggerStartOption":true,
-      "tag_id":669
+      "tag_id":696
     },{
       "function":"__hl",
-      "tag_id":670
+      "tag_id":697
+    },{
+      "function":"__ytl",
+      "vtp_progressThresholdsPercent":"25,50,75",
+      "vtp_captureComplete":true,
+      "vtp_captureStart":true,
+      "vtp_fixMissingApi":true,
+      "vtp_triggerStartOption":"DOM_READY",
+      "vtp_radioButtonGroup1":"PERCENTAGE",
+      "vtp_capturePause":true,
+      "vtp_captureProgress":true,
+      "vtp_uniqueTriggerId":"903835_673",
+      "vtp_enableTriggerStartOption":true,
+      "tag_id":698
     },{
       "function":"__html",
       "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003Evar disableStr=\"ga-disable-\"+",["escape",["macro",7],8,16],";\nfunction gaOptout(){document.cookie=disableStr+\"\\x3dtrue; expires\\x3dThu, 31 Dec 2099 23:59:59 UTC; path\\x3d\/\";window[disableStr]=!0;document.cookie=\"_ga\\x3d; expires\\x3dThu, 01 Jan 1970 00:00:00 UTC; domain\\x3d.lidl.de; path\\x3d\/\";document.cookie=\"_gat_UA-47225043-4\\x3d; expires\\x3dThu, 01 Jan 1970 00:00:00 UTC; domain\\x3d.lidl.de; path\\x3d\/\";document.cookie=\"_dc_gtm_UA-47225043-4\\x3d; expires\\x3dThu, 01 Jan 1970 00:00:00 UTC; domain\\x3d.lidl.de; path\\x3d\/\";alert(\"Opt Out Cookie wurde erfolgreich gesetzt\")}\n;\u003C\/script\u003E"],
@@ -1433,14 +1487,6 @@ data = {
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
       "tag_id":47
-    },{
-      "function":"__html",
-      "once_per_event":true,
-      "vtp_html":"\u003Cscript type=\"text\/gtmscript\"\u003E\/*\n TrakkVideo YouTube GTM direct\n http:\/\/www.trakken.de\/\n\n Version 0.2\n\n Direct implementation via Custom HTML Tag in GTM.\n Use Fire Rule DOM Ready! event equals gtm.dom\n\n Copyright 2014, Trakken Web Services GmbH\n Matthias Gutenkunst\n*\/\nvar step=15,gtmEvent=\"ga_event\",debug=!1,playerArray=[],dataLayer=window.dataLayer||[];function enableJSAPI(){for(var a=document.getElementsByTagName(\"iframe\"),b=a.length;b--;)\/youtube.com\\\/embed\/.test(a[b].src)\u0026\u0026-1===a[b].src.indexOf(\"enablejsapi\\x3d\")\u0026\u0026(a[b].src+=(-1===a[b].src.indexOf(\"?\")?\"?\":\"\\x26\")+\"enablejsapi\\x3d1\")}enableJSAPI();\nfunction onYouTubeIframeAPIReady(){for(var a=document.getElementsByTagName(\"iframe\"),b=a.length;b--;)\/youtube.com\\\/embed\/.test(a[b].src)\u0026\u0026playerArray.push(new YT.Player(a[b],{events:{onStateChange:onPlayerStateChange}}))}var _pauseFlag=!1;\nfunction onPlayerStateChange(a){var b=a.target.getVideoData();b=b.video_id+\":\"+b.title;a.data==YT.PlayerState.PLAYING\u0026\u0026(gaHandleEvent(\"Videos\",\"Play\",b),trakkProgress(a),_pauseFlag=!1);a.data==YT.PlayerState.ENDED\u0026\u0026gaHandleEvent(\"Videos\",\"Watch to End\",b);a.data==YT.PlayerState.PAUSED\u0026\u00260==_pauseFlag\u0026\u0026(gaHandleEvent(\"Videos\",\"Pause\",b),_pauseFlag=!0);a.data==YT.PlayerState.BUFFERING\u0026\u0026gaHandleEvent(\"Videos\",\"Buffering\",b);a.data==YT.PlayerState.CUED\u0026\u0026gaHandleEvent(\"Videos\",\"Cueing\",b)}\nfunction trakkProgress(a){function b(){d.getPlayerState()!=YT.PlayerState.PLAYING||100\u003C=c?window.clearInterval(e):(playerPercent=getPlayerPercent(d),log(\"playerPercent: \"+playerPercent),currentStep=Math.floor(playerPercent\/step),0!=currentStep\u0026\u0026currentStep\u003Ec\u0026\u0026(c=currentStep,gaHandleEvent(\"Videos\",\"Progress \"+currentStep*step+\"%\",f)))}var c=0,d=a.target;a=a.target.getVideoData();var f=a.title;a=1E3;100\u003Ed.getDuration()\u0026\u0026(a=Math.floor(d.getDuration()\/100*1E3),log(\"intervalStep: \"+a));var e=window.setInterval(b,\na)}function getPlayerPercent(a){playerPos=parseInt(a.getCurrentTime(),10);return parseInt(playerPos\/a.getDuration()*100,10)}function gaHandleEvent(a,b,c){dataLayer.push({event:gtmEvent,eventCategory:a,eventAction:b,eventLabel:c,eventValue:0})}var log=function(a){debug\u0026\u0026console\u0026\u0026console.log\u0026\u0026console.log(\"TrakkVideo: \"+a)},tag=document.createElement(\"script\");tag.src=\"\/\/www.youtube.com\/iframe_api\";var firstScriptTag=document.getElementsByTagName(\"script\")[0];\nfirstScriptTag.parentNode.insertBefore(tag,firstScriptTag);\u003C\/script\u003E",
-      "vtp_supportDocumentWrite":false,
-      "vtp_enableIframeMode":false,
-      "vtp_enableEditJsMacroBehavior":false,
-      "tag_id":51
     },{
       "function":"__html",
       "once_per_event":true,
@@ -1461,7 +1507,7 @@ data = {
     },{
       "function":"__html",
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003EjQuery(\"title\").html(",["escape",["macro",170],8,16],");\u003C\/script\u003E"],
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003EjQuery(\"title\").html(",["escape",["macro",175],8,16],");\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
@@ -1477,7 +1523,6 @@ data = {
     },{
       "function":"__html",
       "metadata":["map"],
-      "consent":["list"],
       "once_per_event":true,
       "vtp_html":"\u003Cscript type=\"text\/gtmscript\"\u003Efunction defer(b,c,a){a=null==a?200:Math.min(5E3,1.1*a);b()?c():setTimeout(function(){defer(b,c,a)},a)}\ntry{defer(function(){return\"function\"==typeof $},function(){defer(function(){return null!=getCookie(\"ychoosecookie\")},function(){var b=getCookie(\"ychoosecookie\"),c=getCookie(\"ychoosecookie_dedup\");if(null!=c\u0026\u0026c!=b)setCookie(\"ychoosecookie\",c,365);else if(null==c)try{$.ajax({url:\"https:\/\/event.yoochoose.net\/api\/1\/click\/\"+b+\"\/1\/0?feedback\",timeout:2E3,method:\"GET\"}).done(function(a){defer(function(){return\"function\"==typeof ga},function(){ga.getAll()[0].send({hitType:\"event\",eventCategory:\"User logins\",\neventAction:\"New\",eventLabel:\"Yoochoose\",dimension26:a[0].hashedUserId});setCookie(\"ychoosecookie_dedup\",b,365)})})}catch(a){}},500)})}catch(b){};\u003C\/script\u003E",
       "vtp_supportDocumentWrite":false,
@@ -1488,7 +1533,7 @@ data = {
       "function":"__html",
       "metadata":["map"],
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003Etry{Kameleoon.API.Goals.processConversion(187414,",["escape",["macro",171],8,16],")}catch(a){console.warn(a)};\u003C\/script\u003E"],
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003Etry{Kameleoon.API.Goals.processConversion(187414,",["escape",["macro",176],8,16],")}catch(a){console.warn(a)};\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
@@ -1497,7 +1542,7 @@ data = {
       "function":"__html",
       "metadata":["map"],
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003Etry{Kameleoon.API.Goals.processConversion(213449,",["escape",["macro",172],8,16],")}catch(a){console.warn(a)};\u003C\/script\u003E"],
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003Etry{Kameleoon.API.Goals.processConversion(213449,",["escape",["macro",177],8,16],")}catch(a){console.warn(a)};\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
@@ -1506,7 +1551,7 @@ data = {
       "function":"__html",
       "metadata":["map"],
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003E(function(){var b=!!",["escape",["macro",175],8,16],";if(b){b=!1;for(var c=window.dataLayer||[],e=JSON.parse(JSON.stringify(c))||[],d=0;d\u003Ce.length;d++){var a=e[d];a.event\u0026\u0026\"EECproductDetailView\"==a.event?(a[\"gtm.uniqueEventId\"]=void 0,a.event=\"virtPath\",c.push(a),b=!0):a.event\u0026\u0026a.event.includes(\"EEC\")\u0026\u0026(a[\"gtm.uniqueEventId\"]=void 0,c.push(a))}b||c.push({event:\"virtPath\"})}})();\u003C\/script\u003E"],
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003E(function(){var b=!!",["escape",["macro",180],8,16],";if(b){b=!1;for(var c=window.dataLayer||[],e=JSON.parse(JSON.stringify(c))||[],d=0;d\u003Ce.length;d++){var a=e[d];a.event\u0026\u0026\"EECproductDetailView\"==a.event?(a[\"gtm.uniqueEventId\"]=void 0,a.event=\"virtPath\",c.push(a),b=!0):a.event\u0026\u0026a.event.includes(\"EEC\")\u0026\u0026(a[\"gtm.uniqueEventId\"]=void 0,c.push(a))}b||c.push({event:\"virtPath\"})}})();\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
@@ -1717,6 +1762,18 @@ data = {
       "arg0":["macro",20],
       "arg1":".*p[0-9]{4}"
     },{
+      "function":"_cn",
+      "arg0":["macro",168],
+      "arg1":"autoplay=1"
+    },{
+      "function":"_eq",
+      "arg0":["macro",1],
+      "arg1":"gtm.video"
+    },{
+      "function":"_re",
+      "arg0":["macro",147],
+      "arg1":"(^$|((^|,)903835_673($|,)))"
+    },{
       "function":"_re",
       "arg0":["macro",50],
       "arg1":".*"
@@ -1735,10 +1792,6 @@ data = {
       "arg1":"gtm.load"
     },{
       "function":"_re",
-      "arg0":["macro",6],
-      "arg1":"App|GeschenkeApp"
-    },{
-      "function":"_re",
       "arg0":["macro",50],
       "arg1":"c23389|c23390|c23388|c23387|s7377586|s7378248|c20855|c21000|c21003|c21002|c20855|c20966|c20971|c21003|c20972|c20995|c20964|b10513|b1850|c22276|c22277|c22278|c22280|c22279|c22281|c22282|c22283|c22285|c22284|c22286|c22287|c22288|c22289|c22290"
     },{
@@ -1752,7 +1805,7 @@ data = {
       "arg1":"c21418|c21355|c21373|c21357|c21423|c21374|c21375|c21419|c21376"
     },{
       "function":"_eq",
-      "arg0":["macro",168],
+      "arg0":["macro",173],
       "arg1":"true"
     },{
       "function":"_re",
@@ -1768,27 +1821,27 @@ data = {
       "arg1":"cookie_consent_marketing"
     },{
       "function":"_eq",
-      "arg0":["macro",173],
+      "arg0":["macro",178],
       "arg1":"App"
     }],
   "rules":[
     [["if",0,1],["add",1]],
     [["if",4],["add",2]],
-    [["if",0,5],["add",3,4,9,39,42]],
+    [["if",0,5],["add",3,4,9,41,43]],
     [["if",0,6],["add",4]],
     [["if",0,7,8],["add",4]],
     [["if",3,9],["add",4]],
     [["if",7,8,10],["add",4]],
     [["if",0,12],["add",5]],
     [["if",0,13],["add",6]],
-    [["if",0,3,14],["add",7,17,46]],
+    [["if",0,3,14],["add",7,17,47]],
     [["if",0,3,15],["add",7]],
     [["if",0,3,16],["add",7]],
     [["if",0,3,17],["add",7]],
     [["if",0,3,18],["add",7]],
     [["if",3,19],["add",7]],
     [["if",0,3,20],["add",7]],
-    [["if",0,3,21],["add",7,16,47]],
+    [["if",0,3,21],["add",7,16,48]],
     [["if",0,3,22],["add",7]],
     [["if",0,3,23],["add",7]],
     [["if",3,9,21],["add",7,16]],
@@ -1802,26 +1855,27 @@ data = {
     [["if",0,37,40,42],["unless",39],["add",11]],
     [["if",0,43,44],["add",12]],
     [["if",45,46],["add",13]],
-    [["if",0,47],["add",14,40]],
+    [["if",0,47],["add",14]],
     [["if",0,48,49],["add",14]],
     [["if",0,47,50],["add",15]],
-    [["if",5,51],["add",18,19,20,22,23,24,25,26,31]],
-    [["if",5,52],["add",21]],
-    [["if",5,53],["add",27]],
-    [["if",5],["add",28,29,30,32,33,34,38]],
-    [["if",54],["add",35,36,37]],
-    [["if",0,5,56],["add",41]],
-    [["if",0,5,57],["add",41]],
-    [["if",0,5,58],["add",41]],
-    [["if",0,49,59],["add",42,48]],
-    [["if",0,5,60],["add",43]],
-    [["if",0,37,39,40,61],["add",44]],
-    [["if",45,59,62],["add",45]],
-    [["if",5,45],["add",45]],
-    [["if",5,63],["add",0]],
-    [["if",2,3],["block",1,2,4,5,6,7,10,11,13,40]],
+    [["if",52,53],["unless",51],["add",18]],
+    [["if",5,54],["add",19,20,21,23,24,25,26,27,32]],
+    [["if",5,55],["add",22]],
+    [["if",5,56],["add",28]],
+    [["if",5],["add",29,30,31,33,34,35,39]],
+    [["if",57],["add",36,37,38]],
+    [["if",47],["add",40]],
+    [["if",0,5,58],["add",42]],
+    [["if",0,5,59],["add",42]],
+    [["if",0,5,60],["add",42]],
+    [["if",0,49,61],["add",43,49]],
+    [["if",0,5,62],["add",44]],
+    [["if",0,37,39,40,63],["add",45]],
+    [["if",45,61,64],["add",46]],
+    [["if",5,45],["add",46]],
+    [["if",5,65],["add",0]],
+    [["if",2,3],["block",1,2,4,5,6,7,10,11,13,18]],
     [["if",2,5],["block",3]],
     [["if",3,11],["block",4]],
-    [["if",25,26],["block",7,16]],
-    [["if",3,55],["block",40]]]
+    [["if",25,26],["block",7,16]]]
 }
