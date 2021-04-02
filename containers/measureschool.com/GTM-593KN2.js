@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"280",
+  "version":"281",
   
   "macros":[{
       "function":"__e"
@@ -430,10 +430,11 @@ data = {
       "vtp_enableGA4Schema":false,
       "tag_id":283
     },{
-      "function":"__cvt_1927886_302",
+      "function":"__cvt_1927886_303",
       "metadata":["map"],
       "once_per_event":true,
-      "vtp_text":["template","Page: ",["macro",7],"\nReferrer: ",["macro",14]],
+      "vtp_textMessage":["template","Page: ",["macro",7],"\nReferrer: ",["macro",14]],
+      "vtp_enableAdvanced":false,
       "vtp_webhookUrl":"https:\/\/hooks.slack.com\/services\/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",
       "tag_id":285
     },{
@@ -677,10 +678,6 @@ data = {
       "arg0":["macro",14],
       "arg1":"wp-admin"
     },{
-      "function":"_cn",
-      "arg0":["macro",14],
-      "arg1":"appspot.com"
-    },{
       "function":"_eq",
       "arg0":["macro",0],
       "arg1":"404"
@@ -809,26 +806,26 @@ data = {
     [["if",0],["add",2,8,12,17,20,0,27,36,18]],
     [["if",1],["add",3,11,16,21,29]],
     [["if",0,2],["add",4,9,22]],
-    [["if",5],["unless",3,4],["add",5,14,15]],
-    [["if",6],["add",6]],
-    [["if",7],["add",7]],
-    [["if",8,9],["add",10]],
-    [["if",10],["add",13]],
-    [["if",0,11],["add",19]],
-    [["if",12],["add",22]],
-    [["if",0,13],["add",23]],
-    [["if",0,14],["unless",15],["add",24]],
-    [["if",0],["unless",16],["add",25]],
-    [["if",0],["unless",17],["add",26]],
-    [["if",11,18,19],["add",28]],
-    [["if",0,20],["add",30]],
-    [["if",22],["unless",21],["add",31]],
-    [["if",23,25],["unless",24],["add",32]],
-    [["if",0,26],["add",1,33]],
+    [["if",4],["unless",3],["add",5,14,15]],
+    [["if",5],["add",6]],
+    [["if",6],["add",7]],
+    [["if",7,8],["add",10]],
+    [["if",9],["add",13]],
+    [["if",0,10],["add",19]],
+    [["if",11],["add",22]],
+    [["if",0,12],["add",23]],
+    [["if",0,13],["unless",14],["add",24]],
+    [["if",0],["unless",15],["add",25]],
+    [["if",0],["unless",16],["add",26]],
+    [["if",10,17,18],["add",28]],
+    [["if",0,19],["add",30]],
+    [["if",21],["unless",20],["add",31]],
+    [["if",22,24],["unless",23],["add",32]],
+    [["if",0,25],["add",1,33]],
+    [["if",0,26],["add",33]],
     [["if",0,27],["add",33]],
-    [["if",0,28],["add",33]],
-    [["if",0,29,30],["add",34]],
-    [["if",0,31],["unless",32],["add",35]],
-    [["if",13,23,25],["add",37]],
-    [["if",33,34,35],["add",38]]]
+    [["if",0,28,29],["add",34]],
+    [["if",0,30],["unless",31],["add",35]],
+    [["if",12,22,24],["add",37]],
+    [["if",32,33,34],["add",38]]]
 }
