@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"281",
+  "version":"282",
   
   "macros":[{
       "function":"__e"
@@ -430,7 +430,7 @@ data = {
       "vtp_enableGA4Schema":false,
       "tag_id":283
     },{
-      "function":"__cvt_1927886_303",
+      "function":"__cvt_1927886_304",
       "metadata":["map"],
       "once_per_event":true,
       "vtp_textMessage":["template","Page: ",["macro",7],"\nReferrer: ",["macro",14]],
