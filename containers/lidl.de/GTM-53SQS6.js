@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"216",
+  "version":"217",
   
   "macros":[{
       "function":"__cvt_903835_490"
@@ -74,7 +74,7 @@ data = {
       "vtp_enableRecaptchaOption":false,
       "vtp_enableUaRlsa":false,
       "vtp_enableUseInternalVersion":false,
-      "vtp_enableGA4Schema":false
+      "vtp_enableGA4Schema":true
     },{
       "function":"__v",
       "vtp_name":"eventAction",
@@ -1022,7 +1022,7 @@ data = {
       "vtp_enableUseInternalVersion":false,
       "vtp_enableFirebaseCampaignData":true,
       "vtp_trackTypeIsEvent":true,
-      "vtp_enableGA4Schema":false,
+      "vtp_enableGA4Schema":true,
       "tag_id":43
     },{
       "function":"__paused",
@@ -1050,7 +1050,7 @@ data = {
       "vtp_enableUseInternalVersion":false,
       "vtp_enableFirebaseCampaignData":true,
       "vtp_ecommerceIsEnabled":true,
-      "vtp_enableGA4Schema":false,
+      "vtp_enableGA4Schema":true,
       "tag_id":46
     },{
       "function":"__ua",
@@ -1071,7 +1071,7 @@ data = {
       "vtp_enableUseInternalVersion":false,
       "vtp_enableFirebaseCampaignData":true,
       "vtp_trackTypeIsSocial":true,
-      "vtp_enableGA4Schema":false,
+      "vtp_enableGA4Schema":true,
       "tag_id":48
     },{
       "function":"__ua",
@@ -1092,7 +1092,7 @@ data = {
       "vtp_enableUseInternalVersion":false,
       "vtp_enableFirebaseCampaignData":true,
       "vtp_trackTypeIsTiming":true,
-      "vtp_enableGA4Schema":false,
+      "vtp_enableGA4Schema":true,
       "tag_id":50
     },{
       "function":"__ua",
@@ -1114,7 +1114,7 @@ data = {
       "vtp_enableFirebaseCampaignData":true,
       "vtp_ecommerceIsEnabled":true,
       "vtp_trackTypeIsEvent":true,
-      "vtp_enableGA4Schema":false,
+      "vtp_enableGA4Schema":true,
       "tag_id":52
     },{
       "function":"__ua",
@@ -1137,7 +1137,7 @@ data = {
       "vtp_enableUseInternalVersion":false,
       "vtp_enableFirebaseCampaignData":true,
       "vtp_trackTypeIsEvent":true,
-      "vtp_enableGA4Schema":false,
+      "vtp_enableGA4Schema":true,
       "tag_id":70
     },{
       "function":"__gclidw",
@@ -1172,7 +1172,7 @@ data = {
       "vtp_enableUseInternalVersion":false,
       "vtp_enableFirebaseCampaignData":true,
       "vtp_trackTypeIsEvent":true,
-      "vtp_enableGA4Schema":false,
+      "vtp_enableGA4Schema":true,
       "tag_id":81
     },{
       "function":"__ua",
@@ -1197,7 +1197,7 @@ data = {
       "vtp_enableUseInternalVersion":false,
       "vtp_enableFirebaseCampaignData":true,
       "vtp_trackTypeIsEvent":true,
-      "vtp_enableGA4Schema":false,
+      "vtp_enableGA4Schema":true,
       "tag_id":82
     },{
       "function":"__ua",
@@ -1214,7 +1214,7 @@ data = {
       "vtp_enableUseInternalVersion":false,
       "vtp_enableFirebaseCampaignData":true,
       "vtp_trackTypeIsEvent":true,
-      "vtp_enableGA4Schema":false,
+      "vtp_enableGA4Schema":true,
       "tag_id":122
     },{
       "function":"__ua",
@@ -1240,7 +1240,7 @@ data = {
       "vtp_enableUseInternalVersion":false,
       "vtp_enableFirebaseCampaignData":true,
       "vtp_trackTypeIsEvent":true,
-      "vtp_enableGA4Schema":false,
+      "vtp_enableGA4Schema":true,
       "tag_id":581
     },{
       "function":"__gaawc",
@@ -1259,7 +1259,7 @@ data = {
       "vtp_eventParameters":["list",["map","name","items","value",["macro",161]]],
       "vtp_measurementId":"G-KLG795LVQQ",
       "vtp_enableUserProperties":true,
-      "vtp_enableMoreSettingsOption":false,
+      "vtp_enableMoreSettingsOption":true,
       "tag_id":643
     },{
       "function":"__gaawe",
@@ -1270,7 +1270,7 @@ data = {
       "vtp_eventParameters":["list",["map","name","transaction_id","value",["macro",162]],["map","name","affiliation","value",["macro",160]],["map","name","value","value",["macro",163]],["map","name","tax","value",["macro",164]],["map","name","shipping","value",["macro",165]],["map","name","currency","value","EUR"],["map","name","items","value",["macro",166]]],
       "vtp_measurementId":"G-KLG795LVQQ",
       "vtp_enableUserProperties":true,
-      "vtp_enableMoreSettingsOption":false,
+      "vtp_enableMoreSettingsOption":true,
       "tag_id":646
     },{
       "function":"__gaawe",
@@ -1280,7 +1280,7 @@ data = {
       "vtp_eventParameters":["list",["map","name","items","value",["macro",167]]],
       "vtp_measurementId":"G-KLG795LVQQ",
       "vtp_enableUserProperties":true,
-      "vtp_enableMoreSettingsOption":false,
+      "vtp_enableMoreSettingsOption":true,
       "tag_id":647
     },{
       "function":"__ua",
@@ -1306,7 +1306,7 @@ data = {
       "vtp_enableUseInternalVersion":false,
       "vtp_enableFirebaseCampaignData":true,
       "vtp_trackTypeIsEvent":true,
-      "vtp_enableGA4Schema":false,
+      "vtp_enableGA4Schema":true,
       "tag_id":676
     },{
       "function":"__lcl",
