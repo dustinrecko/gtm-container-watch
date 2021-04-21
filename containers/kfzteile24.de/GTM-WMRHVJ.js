@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"615",
+  "version":"616",
   
   "macros":[{
       "function":"__v",
@@ -2906,7 +2906,7 @@ data = {
       "function":"__html",
       "metadata":["map"],
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003Evar AWIN={Tracking:{}};AWIN.Tracking.Sale={};AWIN.Tracking.Sale.amount=\"",["escape",["macro",32],7],"\";AWIN.Tracking.Sale.channel=\"aw\";AWIN.Tracking.Sale.orderRef=\"",["escape",["macro",3],7],"\";AWIN.Tracking.Sale.parts=\"",["escape",["macro",227],7],":",["escape",["macro",32],7],"\";AWIN.Tracking.Sale.currency=\"EUR\";AWIN.Tracking.Sale.test=\"0\";\u003C\/script\u003E\n\n\u003Cimg border=\"0\" height=\"0\" src=\"https:\/\/www.awin1.com\/sread.img?tt=ns\u0026amp;tv=2\u0026amp;merchant=13928\u0026amp;amount=",["escape",["macro",32],12],"\u0026amp;ch=aw\u0026amp;parts=",["escape",["macro",227],12],":",["escape",["macro",32],12],"\u0026amp;ref=",["escape",["macro",3],12],"\u0026amp;cr=EUR\u0026amp;testmode=0\" style=\"display: none;\" width=\"0\"\u003E"],
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003Evar AWIN={Tracking:{}};AWIN.Tracking.Sale={};AWIN.Tracking.Sale.amount=\"",["escape",["macro",32],7],"\";AWIN.Tracking.Sale.channel=\"aw\";AWIN.Tracking.Sale.orderRef=\"",["escape",["macro",3],7],"\";AWIN.Tracking.Sale.parts=\"",["escape",["macro",227],7],":",["escape",["macro",32],7],"\";AWIN.Tracking.Sale.currency=\"EUR\";AWIN.Tracking.Sale.test=\"0\";AWIN.Tracking.Sale.voucher=\"",["escape",["macro",148],7],"\";\u003C\/script\u003E\n\n\u003Cimg border=\"0\" height=\"0\" src=\"https:\/\/www.awin1.com\/sread.img?tt=ns\u0026amp;tv=2\u0026amp;merchant=13928\u0026amp;amount=",["escape",["macro",32],12],"\u0026amp;ch=aw\u0026amp;parts=",["escape",["macro",227],12],":",["escape",["macro",32],12],"\u0026amp;ref=",["escape",["macro",3],12],"\u0026amp;cr=EUR\u0026amp;testmode=0\" style=\"display: none;\" width=\"0\"\u003E"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
