@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"101",
+  "version":"102",
   
   "macros":[{
       "function":"__e"
@@ -1142,7 +1142,7 @@ data = {
       "function":"__html",
       "metadata":["map"],
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003E(function loop(){location.hostname.includes(\"tv.\")\u0026\u0026(window.iom?iom.c({co:",["escape",["macro",86],8,16],",cp:",["escape",["macro",17],8,16],",st:",["escape",["macro",87],8,16],",sv:",["escape",["macro",88],8,16],",sc:",["escape",["macro",89],8,16],"},1):setTimeout(loop,250))})();\u003C\/script\u003E\n"],
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003E(function loop(){if(location.hostname.includes(\"tv.\")||location.pathname.startsWith(\"\/tv\"))window.iom?iom.c({co:",["escape",["macro",86],8,16],",cp:",["escape",["macro",17],8,16],",st:",["escape",["macro",87],8,16],",sv:",["escape",["macro",88],8,16],",sc:",["escape",["macro",89],8,16],"},1):setTimeout(loop,250)})();\u003C\/script\u003E\n"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
