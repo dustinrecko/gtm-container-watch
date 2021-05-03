@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"287",
+  "version":"288",
   
   "macros":[{
       "function":"__e"
@@ -395,7 +395,7 @@ data = {
       "vtp_enableEnhancedConversionVariable":false,
       "vtp_enableRdpCheckbox":true,
       "vtp_enableTransportUrl":false,
-      "vtp_enableShoppingQualitySettings":false,
+      "vtp_enableShoppingQualitySettings":true,
       "tag_id":234
     },{
       "function":"__gclidw",
@@ -406,7 +406,6 @@ data = {
       "vtp_enableCrossDomainFeature":true,
       "vtp_enableCookieUpdateFeature":false,
       "vtp_enableCookieFlagsFeature":false,
-      "vtp_enableUrlPassthroughFeature":true,
       "tag_id":235
     },{
       "function":"__paused",
@@ -468,6 +467,10 @@ data = {
       "function":"__paused",
       "vtp_originalTagType":"html",
       "tag_id":298
+    },{
+      "function":"__paused",
+      "vtp_originalTagType":"html",
+      "tag_id":305
     },{
       "function":"__evl",
       "vtp_elementId":"gform_confirmation_message_2",
@@ -651,15 +654,6 @@ data = {
       "vtp_usePostscribe":true,
       "tag_id":296
     },{
-      "function":"__html",
-      "metadata":["map"],
-      "once_per_event":true,
-      "vtp_html":"\n\u003Cscript type=\"text\/gtmscript\"\u003E(function(a,c,e,f,d,b){a.hj=a.hj||function(){(a.hj.q=a.hj.q||[]).push(arguments)};a._hjSettings={hjid:78276,hjsv:6};d=c.getElementsByTagName(\"head\")[0];b=c.createElement(\"script\");b.async=1;b.src=e+a._hjSettings.hjid+f+a._hjSettings.hjsv;d.appendChild(b)})(window,document,\"https:\/\/static.hotjar.com\/c\/hotjar-\",\".js?sv\\x3d\");\u003C\/script\u003E",
-      "vtp_supportDocumentWrite":false,
-      "vtp_enableIframeMode":false,
-      "vtp_enableEditJsMacroBehavior":false,
-      "tag_id":305
-    },{
       "function":"__opt",
       "metadata":["map"],
       "once_per_load":true,
@@ -810,9 +804,9 @@ data = {
       "arg1":"gtm.load"
     }],
   "rules":[
-    [["if",0],["add",2,8,12,18,21,0,28,36,39,19]],
-    [["if",1],["add",3,11,17,22,30]],
-    [["if",0,2],["add",4,9,23]],
+    [["if",0],["add",2,8,12,18,19,22,0,29,37,20]],
+    [["if",1],["add",3,11,17,23,31]],
+    [["if",0,2],["add",4,9,24]],
     [["if",4],["unless",3],["add",5,15,16]],
     [["if",5],["add",6]],
     [["if",6],["add",7]],
@@ -821,18 +815,18 @@ data = {
     [["if",0,10],["add",13]],
     [["if",0,11],["add",13]],
     [["if",12],["add",14]],
-    [["if",0,13],["add",20]],
-    [["if",14],["add",23]],
-    [["if",0,15],["add",24]],
-    [["if",0,16],["unless",17],["add",25]],
-    [["if",0],["unless",18],["add",26]],
-    [["if",0],["unless",19],["add",27]],
-    [["if",13,20,21],["add",29]],
-    [["if",0,22],["add",31]],
-    [["if",24],["unless",23],["add",32]],
-    [["if",25,27],["unless",26],["add",33]],
-    [["if",0,28,29],["add",34]],
-    [["if",0,30],["unless",31],["add",35]],
-    [["if",15,25,27],["add",37]],
-    [["if",32,33,34],["add",38]]]
+    [["if",0,13],["add",21]],
+    [["if",14],["add",24]],
+    [["if",0,15],["add",25]],
+    [["if",0,16],["unless",17],["add",26]],
+    [["if",0],["unless",18],["add",27]],
+    [["if",0],["unless",19],["add",28]],
+    [["if",13,20,21],["add",30]],
+    [["if",0,22],["add",32]],
+    [["if",24],["unless",23],["add",33]],
+    [["if",25,27],["unless",26],["add",34]],
+    [["if",0,28,29],["add",35]],
+    [["if",0,30],["unless",31],["add",36]],
+    [["if",15,25,27],["add",38]],
+    [["if",32,33,34],["add",39]]]
 }
