@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"616",
+  "version":"617",
   
   "macros":[{
       "function":"__v",
@@ -2030,7 +2030,6 @@ data = {
       "vtp_enableCrossDomainFeature":true,
       "vtp_enableCookieUpdateFeature":false,
       "vtp_enableCookieFlagsFeature":false,
-      "vtp_enableUrlPassthroughFeature":true,
       "tag_id":220
     },{
       "function":"__ua",
@@ -2493,7 +2492,7 @@ data = {
       "function":"__html",
       "metadata":["map"],
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003Evar ttConversionOptions=ttConversionOptions||[],ttType=",["escape",["macro",27],8,16],",ttCountryCode=",["escape",["macro",29],8,16],",ttPid=",["escape",["macro",163],8,16],",ttCid=",["escape",["macro",28],8,16],",ttTransId=",["escape",["macro",3],8,16],",ttTransAmount=",["escape",["macro",32],8,16],",ttDescr=",["escape",["macro",35],8,16],",ttCurrency=\"EUR\";ttConversionOptions.push({type:ttType,campaignID:ttCid,productID:ttPid,transactionID:ttTransId,transactionAmount:ttTransAmount,quantity:\"1\",email:\"\",descrMerchant:ttCountryCode,descrAffiliate:ttDescr,currency:ttCurrency});\u003C\/script\u003E\n\u003Cnoscript\u003E\n \u003Cimg src=\"\/\/ts.tradetracker.net\/?cid=ttCid\u0026amp;pid=ttPid\u0026amp;tid=ttTransId\u0026amp;tam=ttTransAmount\u0026amp;data=\u0026amp;qty=1\u0026amp;eml=\u0026amp;descrMerchant=ttCountryCode\u0026amp;descrAffiliate=ttDesrc\u0026amp;event=ttType\u0026amp;currency=ttCurrency\" alt=\"\"\u003E\n\u003C\/noscript\u003E\n\u003Cscript type=\"text\/gtmscript\"\u003E(function(a){var b=\"campaignID\"in a?a.campaignID:\"length\"in a\u0026\u0026a.length?a[0].campaignID:null;a=document.createElement(\"script\");a.type=\"text\/javascript\";a.async=!0;a.src=\"\/\/tm.tradetracker.net\/conversion?s\\x3d\"+encodeURIComponent(b)+\"\\x26t\\x3dm\";b=document.getElementsByTagName(\"script\");b=b[b.length-1];b.parentNode.insertBefore(a,b)})(ttConversionOptions);\u003C\/script\u003E"],
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003Evar ttConversionOptions=ttConversionOptions||[],ttType=",["escape",["macro",27],8,16],",ttCountryCode=",["escape",["macro",29],8,16],",ttPid=",["escape",["macro",163],8,16],",ttCid=",["escape",["macro",28],8,16],",ttTransId=",["escape",["macro",3],8,16],",ttTransAmount=",["escape",["macro",32],8,16],",ttDescr=",["escape",["macro",35],8,16],",ttCurrency=\"EUR\";ttVC=",["escape",["macro",148],8,16],";\nttConversionOptions.push({type:ttType,campaignID:ttCid,productID:ttPid,transactionID:ttTransId,transactionAmount:ttTransAmount,quantity:\"1\",email:\"\",descrMerchant:ttCountryCode,descrAffiliate:ttDescr,currency:ttCurrency,vc:ttVC});\u003C\/script\u003E\n\u003Cnoscript\u003E\n \u003Cimg src=\"\/\/ts.tradetracker.net\/?cid=ttCid\u0026amp;pid=ttPid\u0026amp;tid=ttTransId\u0026amp;tam=ttTransAmount\u0026amp;data=\u0026amp;qty=1\u0026amp;eml=\u0026amp;descrMerchant=ttCountryCode\u0026amp;descrAffiliate=ttDesrc\u0026amp;event=ttType\u0026amp;currency=ttCurrency\u0026amp;vc=ttVC\" alt=\"\"\u003E\n\u003C\/noscript\u003E\n\u003Cscript type=\"text\/gtmscript\"\u003E(function(a){var b=\"campaignID\"in a?a.campaignID:\"length\"in a\u0026\u0026a.length?a[0].campaignID:null;a=document.createElement(\"script\");a.type=\"text\/javascript\";a.async=!0;a.src=\"\/\/tm.tradetracker.net\/conversion?s\\x3d\"+encodeURIComponent(b)+\"\\x26t\\x3dm\";b=document.getElementsByTagName(\"script\");b=b[b.length-1];b.parentNode.insertBefore(a,b)})(ttConversionOptions);\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
