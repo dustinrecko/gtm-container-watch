@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"219",
+  "version":"220",
   
   "macros":[{
       "function":"__cvt_903835_490"
@@ -1318,75 +1318,99 @@ data = {
       "vtp_enableGA4Schema":true,
       "tag_id":676
     },{
-      "function":"__lcl",
-      "vtp_waitForTags":true,
-      "vtp_checkValidation":true,
-      "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"903835_83",
-      "tag_id":683
-    },{
-      "function":"__lcl",
-      "vtp_waitForTags":true,
-      "vtp_checkValidation":true,
-      "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"903835_84",
+      "function":"__ua",
+      "metadata":["map"],
+      "once_per_event":true,
+      "vtp_nonInteraction":true,
+      "vtp_useDebugVersion":false,
+      "vtp_eventCategory":"Timer",
+      "vtp_trackType":"TRACK_EVENT",
+      "vtp_gaSettings":["macro",14],
+      "vtp_eventAction":"30s",
+      "vtp_overrideGaSettings":true,
+      "vtp_setTrackerName":false,
+      "vtp_doubleClick":true,
+      "vtp_fieldsToSet":["list",["map","fieldName","\u0026uid","value",["macro",18]],["map","fieldName","clientId","value",["macro",19]],["map","fieldName","page","value",["macro",23]],["map","fieldName","title","value",["macro",24]],["map","fieldName","referrer","value",["macro",26]]],
+      "vtp_enableLinkId":false,
+      "vtp_dimension":["list",["map","index","4","dimension",["macro",27]],["map","index","3","dimension",["macro",28]],["map","index","2","dimension",["macro",4]],["map","index","1","dimension",["macro",29]],["map","index","8","dimension",["macro",30]],["map","index","7","dimension",["macro",31]],["map","index","6","dimension",["macro",32]],["map","index","5","dimension",["macro",33]],["map","index","9","dimension",["macro",18]],["map","index","10","dimension",["macro",34]],["map","index","117","dimension",["macro",40]],["map","index","118","dimension",["macro",41]],["map","index","119","dimension",["macro",46]],["map","index","111","dimension",["macro",47]],["map","index","112","dimension",["macro",48]]],
+      "vtp_enableEcommerce":false,
+      "vtp_enableRecaptchaOption":false,
+      "vtp_enableUaRlsa":false,
+      "vtp_enableUseInternalVersion":false,
+      "vtp_enableFirebaseCampaignData":true,
+      "vtp_trackTypeIsEvent":true,
+      "vtp_enableGA4Schema":true,
       "tag_id":684
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_checkValidation":true,
       "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"903835_107",
+      "vtp_uniqueTriggerId":"903835_83",
       "tag_id":685
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_checkValidation":true,
       "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"903835_110",
+      "vtp_uniqueTriggerId":"903835_84",
       "tag_id":686
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_checkValidation":true,
       "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"903835_117",
+      "vtp_uniqueTriggerId":"903835_107",
       "tag_id":687
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_checkValidation":true,
       "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"903835_123",
+      "vtp_uniqueTriggerId":"903835_110",
       "tag_id":688
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_checkValidation":true,
       "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"903835_129",
+      "vtp_uniqueTriggerId":"903835_117",
       "tag_id":689
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_checkValidation":true,
       "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"903835_146",
+      "vtp_uniqueTriggerId":"903835_123",
       "tag_id":690
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_checkValidation":true,
       "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"903835_153",
+      "vtp_uniqueTriggerId":"903835_129",
       "tag_id":691
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_checkValidation":true,
       "vtp_waitForTagsTimeout":"2000",
-      "vtp_uniqueTriggerId":"903835_171",
+      "vtp_uniqueTriggerId":"903835_146",
       "tag_id":692
+    },{
+      "function":"__lcl",
+      "vtp_waitForTags":true,
+      "vtp_checkValidation":true,
+      "vtp_waitForTagsTimeout":"2000",
+      "vtp_uniqueTriggerId":"903835_153",
+      "tag_id":693
+    },{
+      "function":"__lcl",
+      "vtp_waitForTags":true,
+      "vtp_checkValidation":true,
+      "vtp_waitForTagsTimeout":"2000",
+      "vtp_uniqueTriggerId":"903835_171",
+      "tag_id":694
     },{
       "function":"__sdl",
       "vtp_verticalThresholdUnits":"PERCENT",
@@ -1395,7 +1419,7 @@ data = {
       "vtp_horizontalThresholdOn":false,
       "vtp_uniqueTriggerId":"903835_178",
       "vtp_enableTriggerStartOption":true,
-      "tag_id":693
+      "tag_id":695
     },{
       "function":"__sdl",
       "vtp_verticalThresholdUnits":"PERCENT",
@@ -1404,7 +1428,7 @@ data = {
       "vtp_horizontalThresholdOn":false,
       "vtp_uniqueTriggerId":"903835_193",
       "vtp_enableTriggerStartOption":true,
-      "tag_id":694
+      "tag_id":696
     },{
       "function":"__sdl",
       "vtp_verticalThresholdUnits":"PERCENT",
@@ -1413,17 +1437,17 @@ data = {
       "vtp_horizontalThresholdOn":false,
       "vtp_uniqueTriggerId":"903835_194",
       "vtp_enableTriggerStartOption":true,
-      "tag_id":695
+      "tag_id":697
     },{
       "function":"__lcl",
       "vtp_waitForTags":true,
       "vtp_checkValidation":true,
       "vtp_waitForTagsTimeout":"2000",
       "vtp_uniqueTriggerId":"903835_205",
-      "tag_id":696
+      "tag_id":698
     },{
       "function":"__hl",
-      "tag_id":697
+      "tag_id":699
     },{
       "function":"__sdl",
       "vtp_verticalThresholdUnits":"PERCENT",
@@ -1432,7 +1456,7 @@ data = {
       "vtp_horizontalThresholdOn":false,
       "vtp_uniqueTriggerId":"903835_237",
       "vtp_enableTriggerStartOption":true,
-      "tag_id":698
+      "tag_id":700
     },{
       "function":"__sdl",
       "vtp_verticalThresholdUnits":"PERCENT",
@@ -1441,7 +1465,7 @@ data = {
       "vtp_horizontalThresholdOn":false,
       "vtp_uniqueTriggerId":"903835_245",
       "vtp_enableTriggerStartOption":true,
-      "tag_id":699
+      "tag_id":701
     },{
       "function":"__sdl",
       "vtp_verticalThresholdUnits":"PERCENT",
@@ -1451,7 +1475,7 @@ data = {
       "vtp_horizontalThresholdOn":false,
       "vtp_uniqueTriggerId":"903835_270",
       "vtp_enableTriggerStartOption":true,
-      "tag_id":700
+      "tag_id":702
     },{
       "function":"__sdl",
       "vtp_verticalThresholdUnits":"PERCENT",
@@ -1461,7 +1485,7 @@ data = {
       "vtp_horizontalThresholdOn":false,
       "vtp_uniqueTriggerId":"903835_271",
       "vtp_enableTriggerStartOption":true,
-      "tag_id":701
+      "tag_id":703
     },{
       "function":"__sdl",
       "vtp_verticalThresholdUnits":"PERCENT",
@@ -1471,10 +1495,10 @@ data = {
       "vtp_horizontalThresholdOn":false,
       "vtp_uniqueTriggerId":"903835_272",
       "vtp_enableTriggerStartOption":true,
-      "tag_id":702
+      "tag_id":704
     },{
       "function":"__hl",
-      "tag_id":703
+      "tag_id":705
     },{
       "function":"__ytl",
       "vtp_progressThresholdsPercent":"25,50,75",
@@ -1487,7 +1511,14 @@ data = {
       "vtp_captureProgress":true,
       "vtp_uniqueTriggerId":"903835_673",
       "vtp_enableTriggerStartOption":true,
-      "tag_id":704
+      "tag_id":706
+    },{
+      "function":"__tl",
+      "vtp_eventName":"gtm.timer",
+      "vtp_interval":"30000",
+      "vtp_limit":"1",
+      "vtp_uniqueTriggerId":"903835_683",
+      "tag_id":707
     },{
       "function":"__html",
       "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003Evar disableStr=\"ga-disable-\"+",["escape",["macro",7],8,16],";\nfunction gaOptout(){document.cookie=disableStr+\"\\x3dtrue; expires\\x3dThu, 31 Dec 2099 23:59:59 UTC; path\\x3d\/\";window[disableStr]=!0;document.cookie=\"_ga\\x3d; expires\\x3dThu, 01 Jan 1970 00:00:00 UTC; domain\\x3d.lidl.de; path\\x3d\/\";document.cookie=\"_gat_UA-47225043-4\\x3d; expires\\x3dThu, 01 Jan 1970 00:00:00 UTC; domain\\x3d.lidl.de; path\\x3d\/\";document.cookie=\"_dc_gtm_UA-47225043-4\\x3d; expires\\x3dThu, 01 Jan 1970 00:00:00 UTC; domain\\x3d.lidl.de; path\\x3d\/\";alert(\"Opt Out Cookie wurde erfolgreich gesetzt\")}\n;\u003C\/script\u003E"],
@@ -1792,6 +1823,14 @@ data = {
       "arg0":["macro",147],
       "arg1":"(^$|((^|,)903835_673($|,)))"
     },{
+      "function":"_eq",
+      "arg0":["macro",1],
+      "arg1":"gtm.timer"
+    },{
+      "function":"_re",
+      "arg0":["macro",147],
+      "arg1":"(^$|((^|,)903835_683($|,)))"
+    },{
       "function":"_re",
       "arg0":["macro",50],
       "arg1":".*"
@@ -1808,6 +1847,14 @@ data = {
       "function":"_eq",
       "arg0":["macro",1],
       "arg1":"gtm.load"
+    },{
+      "function":"_cn",
+      "arg0":["macro",0],
+      "arg1":"statistic"
+    },{
+      "function":"_re",
+      "arg0":["macro",11],
+      "arg1":"lidl-inspiration\/c30582|baumarkt\/c10140|haushalt-kueche\/c5858|schlafzimmermoebel-co\/c5865|kinderwelt\/c6236|damenmode\/c8900"
     },{
       "function":"_re",
       "arg0":["macro",50],
@@ -1853,21 +1900,21 @@ data = {
   "rules":[
     [["if",0,1],["add",1]],
     [["if",4],["add",2]],
-    [["if",0,5],["add",3,4,9,41,43]],
+    [["if",0,5],["add",3,4,9,43,45]],
     [["if",0,6],["add",4]],
     [["if",0,7,8],["add",4]],
     [["if",3,9],["add",4]],
     [["if",7,8,10],["add",4]],
     [["if",0,12],["add",5]],
     [["if",0,13],["add",6]],
-    [["if",0,3,14],["add",7,17,47]],
+    [["if",0,3,14],["add",7,17,49]],
     [["if",0,3,15],["add",7]],
     [["if",0,3,16],["add",7]],
     [["if",0,3,17],["add",7]],
     [["if",0,3,18],["add",7]],
     [["if",3,19],["add",7]],
     [["if",0,3,20],["add",7]],
-    [["if",0,3,21],["add",7,16,48]],
+    [["if",0,3,21],["add",7,16,50]],
     [["if",0,3,22],["add",7]],
     [["if",0,3,23],["add",7]],
     [["if",3,9,21],["add",7,16]],
@@ -1885,23 +1932,25 @@ data = {
     [["if",0,48,49],["add",14]],
     [["if",0,47,50],["add",15]],
     [["if",52,53],["unless",51],["add",18]],
-    [["if",5,54],["add",19,20,21,23,24,25,26,27,32]],
-    [["if",5,55],["add",22]],
-    [["if",5,56],["add",28]],
-    [["if",5],["add",29,30,31,33,34,35,39]],
-    [["if",57],["add",36,37,38]],
-    [["if",47],["add",40]],
-    [["if",0,5,58],["add",42]],
-    [["if",0,5,59],["add",42]],
-    [["if",0,5,60],["add",42]],
-    [["if",0,49,61],["add",43,49]],
+    [["if",54,55],["add",19]],
+    [["if",5,56],["add",20,21,22,24,25,26,27,28,33]],
+    [["if",5,57],["add",23]],
+    [["if",5,58],["add",29]],
+    [["if",5],["add",30,31,32,34,35,36,40]],
+    [["if",59],["add",37,38,39]],
+    [["if",47],["add",41]],
+    [["if",5,60,61],["add",42]],
     [["if",0,5,62],["add",44]],
-    [["if",0,37,39,40,63],["add",45]],
-    [["if",45,61,64],["add",46]],
-    [["if",5,45],["add",46]],
-    [["if",5,65],["add",0]],
-    [["if",45,66,67],["add",50]],
-    [["if",2,3],["block",1,2,4,5,6,7,10,11,13,18]],
+    [["if",0,5,63],["add",44]],
+    [["if",0,5,64],["add",44]],
+    [["if",0,49,65],["add",45,51]],
+    [["if",0,5,66],["add",46]],
+    [["if",0,37,39,40,67],["add",47]],
+    [["if",45,65,68],["add",48]],
+    [["if",5,45],["add",48]],
+    [["if",5,69],["add",0]],
+    [["if",45,70,71],["add",52]],
+    [["if",2,3],["block",1,2,4,5,6,7,10,11,13,18,19]],
     [["if",2,5],["block",3]],
     [["if",3,11],["block",4]],
     [["if",25,26],["block",7,16]]]
