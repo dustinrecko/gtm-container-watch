@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"220",
+  "version":"221",
   
   "macros":[{
       "function":"__cvt_903835_490"
@@ -1600,7 +1600,7 @@ data = {
       "function":"__html",
       "metadata":["map"],
       "once_per_event":true,
-      "vtp_html":["template"," \u003Cscript type=\"text\/gtmscript\"\u003Egtag(\"event\",\"conversion\",{send_to:\"AW-987086507\/T802CJP9qJICEKv91tYD\",value:10,currency:\"EUR\",transaction_id:\"",["escape",["macro",162],7],"\"});\u003C\/script\u003E "],
+      "vtp_html":["template"," \n\n\u003Cscript type=\"text\/gtmscript\"\u003Egtag(\"event\",\"conversion\",{send_to:\"AW-987086507\/T802CJP9qJICEKv91tYD\",value:10,currency:\"EUR\",transaction_id:\"",["escape",["macro",162],7],"\"});\u003C\/script\u003E "],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
@@ -1891,7 +1891,7 @@ data = {
     },{
       "function":"_re",
       "arg0":["macro",181],
-      "arg1":"Lidl Connect"
+      "arg1":"Connect"
     },{
       "function":"_re",
       "arg0":["macro",1],
