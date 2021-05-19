@@ -1,11 +1,21 @@
 data = {
 "resource": {
-  "version":"288",
+  "version":"289",
   
   "macros":[{
       "function":"__e"
     },{
       "function":"__dbg"
+    },{
+      "function":"__v",
+      "vtp_dataLayerVersion":2,
+      "vtp_setDefaultValue":false,
+      "vtp_name":"part"
+    },{
+      "function":"__v",
+      "vtp_dataLayerVersion":2,
+      "vtp_setDefaultValue":false,
+      "vtp_name":"type"
     },{
       "function":"__v",
       "vtp_dataLayerVersion":2,
@@ -26,7 +36,7 @@ data = {
       "vtp_name":"cid"
     },{
       "function":"__jsm",
-      "vtp_javascript":["template","(function(){var a=",["escape",["macro",2],8,16],"||",["escape",["macro",3],8,16],";if(a)return ",["escape",["macro",4],8,16],"(\"cid\",a,2592E6,\"\/\"),a;if(",["escape",["macro",5],8,16],")return ",["escape",["macro",5],8,16],"})();"]
+      "vtp_javascript":["template","(function(){var a=",["escape",["macro",4],8,16],"||",["escape",["macro",5],8,16],";if(a)return ",["escape",["macro",6],8,16],"(\"cid\",a,2592E6,\"\/\"),a;if(",["escape",["macro",7],8,16],")return ",["escape",["macro",7],8,16],"})();"]
     },{
       "function":"__u",
       "vtp_component":"PATH",
@@ -39,22 +49,23 @@ data = {
       "vtp_enableIgnoreEmptyQueryParam":false
     },{
       "function":"__jsm",
-      "vtp_javascript":["template","(function(){var a=",["escape",["macro",8],8,16],".length?\"\\x26\"+",["escape",["macro",8],8,16],":\"\";a=a.length?\"?\"+a.replace(\/\u0026[^\u0026@]+@[^\u0026]+\/g,\"\").substring(1):\"\";return 1\u003E=a.length?\"\":a})();"]
+      "vtp_javascript":["template","(function(){var a=",["escape",["macro",10],8,16],".length?\"\\x26\"+",["escape",["macro",10],8,16],":\"\";a=a.length?\"?\"+a.replace(\/\u0026[^\u0026@]+@[^\u0026]+\/g,\"\").substring(1):\"\";return 1\u003E=a.length?\"\":a})();"]
     },{
       "function":"__jsm",
       "vtp_javascript":["template","(function(){var a={selector:\"iframe#acuityscheduling\",attempts:10,intervalMs:1E3,useAnchor:!1},e=\"_ga_originalSendHitTask\";return function(c){window[e]=window[e]||c.get(\"sendHitTask\");var b;if(\"object\"===typeof a\u0026\u0026\"string\"===typeof a.selector\u0026\u0026\"number\"===typeof a.attempts\u0026\u0026\"number\"===typeof a.intervalMs){var f=0;var g=window[window.GoogleAnalyticsObject];var h=g.getByName(c.get(\"name\"));c=function(){b=document.querySelector(a.selector);null!==b\u0026\u0026\/[?\u0026]_ga=\/.test(b.src)?window.clearInterval(d):null===\nb?(f+=1,f===a.attempts\u0026\u0026window.clearInterval(d)):(window.clearInterval(d),b.src=(new window.gaplugins.Linker(h)).decorate(b.src,a.useAnchor))};var d=window.setInterval(c,a.intervalMs)}}})();"]
     },{
       "function":"__gas",
+      "vtp_useDebugVersion":["macro",1],
+      "vtp_useHashAutoLink":false,
+      "vtp_contentGroup":["list",["map","index","1","group",["macro",2]],["map","index","2","group",["macro",3]]],
+      "vtp_autoLinkDomains":"measure.school",
+      "vtp_decorateFormsAutoLink":true,
       "vtp_cookieDomain":"auto",
       "vtp_doubleClick":false,
       "vtp_setTrackerName":false,
-      "vtp_useDebugVersion":["macro",1],
-      "vtp_fieldsToSet":["list",["map","fieldName","userId","value",["macro",6]],["map","fieldName","page","value",["template",["macro",7],["macro",9]]],["map","fieldName","customTask","value",["macro",10]]],
-      "vtp_useHashAutoLink":false,
-      "vtp_autoLinkDomains":"measure.school",
-      "vtp_decorateFormsAutoLink":true,
+      "vtp_fieldsToSet":["list",["map","fieldName","userId","value",["macro",8]],["map","fieldName","page","value",["template",["macro",9],["macro",11]]],["map","fieldName","customTask","value",["macro",12]]],
       "vtp_enableLinkId":false,
-      "vtp_dimension":["list",["map","index","1","dimension",["macro",6]]],
+      "vtp_dimension":["list",["map","index","1","dimension",["macro",8]]],
       "vtp_enableEcommerce":false,
       "vtp_trackingId":"UA-58541733-2",
       "vtp_enableRecaptchaOption":false,
@@ -162,7 +173,7 @@ data = {
       "vtp_enableIgnoreEmptyQueryParam":false
     },{
       "function":"__jsm",
-      "vtp_javascript":["template","(function(){var a=",["escape",["macro",29],8,16],"||",["escape",["macro",30],8,16],";return a})();"]
+      "vtp_javascript":["template","(function(){var a=",["escape",["macro",31],8,16],"||",["escape",["macro",32],8,16],";return a})();"]
     },{
       "function":"__jsm",
       "vtp_javascript":["template","(function(){return location.search})();"]
@@ -250,7 +261,7 @@ data = {
       "once_per_event":true,
       "vtp_overrideGaSettings":false,
       "vtp_trackType":"TRACK_PAGEVIEW",
-      "vtp_gaSettings":["macro",11],
+      "vtp_gaSettings":["macro",13],
       "vtp_enableRecaptchaOption":false,
       "vtp_enableUaRlsa":false,
       "vtp_enableUseInternalVersion":false,
@@ -263,10 +274,10 @@ data = {
       "vtp_nonInteraction":false,
       "vtp_overrideGaSettings":true,
       "vtp_useEcommerceDataLayer":false,
-      "vtp_ecommerceMacroData":["macro",12],
+      "vtp_ecommerceMacroData":["macro",14],
       "vtp_eventCategory":"EE",
       "vtp_trackType":"TRACK_EVENT",
-      "vtp_gaSettings":["macro",11],
+      "vtp_gaSettings":["macro",13],
       "vtp_eventAction":"Transaction",
       "vtp_eventLabel":"Purchase",
       "vtp_enableEcommerce":true,
@@ -289,9 +300,9 @@ data = {
       "vtp_eventCategory":"Signup",
       "vtp_trackType":"TRACK_EVENT",
       "vtp_enableLinkId":false,
-      "vtp_gaSettings":["macro",11],
+      "vtp_gaSettings":["macro",13],
       "vtp_eventAction":"Email Signup",
-      "vtp_eventLabel":["macro",13],
+      "vtp_eventLabel":["macro",15],
       "vtp_enableEcommerce":false,
       "vtp_enableRecaptchaOption":false,
       "vtp_enableUaRlsa":false,
@@ -307,9 +318,9 @@ data = {
       "vtp_overrideGaSettings":false,
       "vtp_eventCategory":"404 Error",
       "vtp_trackType":"TRACK_EVENT",
-      "vtp_gaSettings":["macro",11],
-      "vtp_eventAction":["macro",7],
-      "vtp_eventLabel":["macro",14],
+      "vtp_gaSettings":["macro",13],
+      "vtp_eventAction":["macro",9],
+      "vtp_eventLabel":["macro",16],
       "vtp_enableRecaptchaOption":false,
       "vtp_enableUaRlsa":false,
       "vtp_enableUseInternalVersion":false,
@@ -326,7 +337,7 @@ data = {
       "vtp_useEcommerceDataLayer":true,
       "vtp_eventCategory":"EE",
       "vtp_trackType":"TRACK_EVENT",
-      "vtp_gaSettings":["macro",11],
+      "vtp_gaSettings":["macro",13],
       "vtp_eventLabel":"Add to Cart",
       "vtp_enableEcommerce":true,
       "vtp_enableRecaptchaOption":false,
@@ -345,20 +356,23 @@ data = {
       "function":"__gaawc",
       "metadata":["map"],
       "once_per_event":true,
-      "vtp_fieldsToSet":["list",["map","name","user_id","value",["macro",6]]],
+      "vtp_fieldsToSet":["list",["map","name","user_id","value",["macro",8]]],
       "vtp_sendPageView":true,
       "vtp_measurementId":"G-QG5JR71SF7",
       "vtp_enableUserProperties":true,
+      "vtp_enableMoreSettings":false,
+      "vtp_enableEuid":false,
       "tag_id":70
     },{
       "function":"__gaawe",
       "metadata":["map"],
       "once_per_event":true,
       "vtp_eventName":"Newsletter sign up",
-      "vtp_eventParameters":["list",["map","name","optinpage","value",["macro",15]],["map","name","acid","value",["macro",16]]],
+      "vtp_eventParameters":["list",["map","name","optinpage","value",["macro",17]],["map","name","acid","value",["macro",18]]],
       "vtp_measurementId":"G-QG5JR71SF7",
       "vtp_enableUserProperties":true,
       "vtp_enableMoreSettingsOption":false,
+      "vtp_enableEuid":false,
       "tag_id":71
     },{
       "function":"__ua",
@@ -368,7 +382,7 @@ data = {
       "vtp_overrideGaSettings":false,
       "vtp_eventCategory":"Form Submit",
       "vtp_trackType":"TRACK_EVENT",
-      "vtp_gaSettings":["macro",11],
+      "vtp_gaSettings":["macro",13],
       "vtp_eventAction":"Analytics Service Request",
       "vtp_enableRecaptchaOption":false,
       "vtp_enableUaRlsa":false,
@@ -383,12 +397,12 @@ data = {
       "once_per_event":true,
       "vtp_enableConversionLinker":true,
       "vtp_enableProductReporting":false,
-      "vtp_orderId":["macro",18],
-      "vtp_conversionValue":["macro",19],
+      "vtp_orderId":["macro",20],
+      "vtp_conversionValue":["macro",21],
       "vtp_conversionCookiePrefix":"_gcl",
       "vtp_conversionId":"886077671",
       "vtp_conversionLabel":"dEDqCKKUrcQBEOfxwaYD",
-      "vtp_url":["macro",20],
+      "vtp_url":["macro",22],
       "vtp_enableProductReportingCheckbox":true,
       "vtp_enableNewCustomerReportingCheckbox":true,
       "vtp_enableEnhancedConversionsCheckbox":false,
@@ -405,7 +419,7 @@ data = {
       "vtp_enableCookieOverrides":false,
       "vtp_enableCrossDomainFeature":true,
       "vtp_enableCookieUpdateFeature":false,
-      "vtp_enableCookieFlagsFeature":false,
+      "vtp_enableCookieFlagsFeature":true,
       "tag_id":235
     },{
       "function":"__paused",
@@ -417,17 +431,17 @@ data = {
       "once_per_event":true,
       "vtp_nonInteraction":false,
       "vtp_useDebugVersion":["macro",1],
-      "vtp_eventCategory":["macro",22],
+      "vtp_eventCategory":["macro",24],
       "vtp_trackType":"TRACK_EVENT",
-      "vtp_eventAction":["macro",23],
-      "vtp_eventLabel":["macro",24],
+      "vtp_eventAction":["macro",25],
+      "vtp_eventLabel":["macro",26],
       "vtp_overrideGaSettings":true,
       "vtp_setTrackerName":false,
       "vtp_doubleClick":false,
       "vtp_fieldsToSet":["list",["map","fieldName","cookieDomain","value","auto"]],
       "vtp_enableLinkId":false,
       "vtp_enableEcommerce":false,
-      "vtp_trackingId":["macro",11],
+      "vtp_trackingId":["macro",13],
       "vtp_enableRecaptchaOption":false,
       "vtp_enableUaRlsa":false,
       "vtp_enableUseInternalVersion":false,
@@ -439,7 +453,7 @@ data = {
       "function":"__cvt_1927886_304",
       "metadata":["map"],
       "once_per_event":true,
-      "vtp_textMessage":["template","Page: ",["macro",7],"\nReferrer: ",["macro",14],"\nURL: ",["macro",21]],
+      "vtp_textMessage":["template","Page: ",["macro",9],"\nReferrer: ",["macro",16],"\nURL: ",["macro",23]],
       "vtp_enableAdvanced":false,
       "vtp_webhookUrl":"https:\/\/hooks.slack.com\/services\/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",
       "tag_id":285
@@ -448,20 +462,22 @@ data = {
       "metadata":["map"],
       "once_per_event":true,
       "vtp_eventName":"error",
-      "vtp_eventParameters":["list",["map","name","page","value",["macro",7]],["map","name","referrer","value",["macro",14]]],
+      "vtp_eventParameters":["list",["map","name","page","value",["macro",9]],["map","name","referrer","value",["macro",16]]],
       "vtp_measurementId":"G-QG5JR71SF7",
       "vtp_enableUserProperties":true,
       "vtp_enableMoreSettingsOption":false,
+      "vtp_enableEuid":false,
       "tag_id":286
     },{
       "function":"__gaawe",
       "metadata":["map"],
       "once_per_event":true,
-      "vtp_eventName":["macro",25],
-      "vtp_eventParameters":["list",["map","name","items","value",["macro",26]],["map","name","value","value",["macro",19]],["map","name","transaction_id","value",["macro",18]],["map","name","currency","value","USD"]],
+      "vtp_eventName":["macro",27],
+      "vtp_eventParameters":["list",["map","name","items","value",["macro",28]],["map","name","value","value",["macro",21]],["map","name","transaction_id","value",["macro",20]],["map","name","currency","value","USD"]],
       "vtp_measurementId":"G-QG5JR71SF7",
       "vtp_enableUserProperties":true,
       "vtp_enableMoreSettingsOption":false,
+      "vtp_enableEuid":false,
       "tag_id":292
     },{
       "function":"__paused",
@@ -501,7 +517,7 @@ data = {
       "function":"__html",
       "setup_tags":["list",["tag",0,0]],
       "once_per_event":true,
-      "vtp_html":["template","\n\u003Cscript type=\"text\/gtmscript\"\u003E-1==document.location.href.search(\"appspot.com\")\u0026\u0026fbq(\"track\",\"Purchase\",{value:\"",["escape",["macro",19],7],"\",currency:\"USD\"});\u003C\/script\u003E\n\n"],
+      "vtp_html":["template","\n\u003Cscript type=\"text\/gtmscript\"\u003E-1==document.location.href.search(\"appspot.com\")\u0026\u0026fbq(\"track\",\"Purchase\",{value:\"",["escape",["macro",21],7],"\",currency:\"USD\"});\u003C\/script\u003E\n\n"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
@@ -536,7 +552,7 @@ data = {
     },{
       "function":"__html",
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003E",["escape",["macro",4],8,16],"(\"tc_affiliate_measureschool\",",["escape",["macro",28],8,16],",2592E6,\"\/\",\".measureschool.com\");\u003C\/script\u003E"],
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003E",["escape",["macro",6],8,16],"(\"tc_affiliate_measureschool\",",["escape",["macro",30],8,16],",2592E6,\"\/\",\".measureschool.com\");\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
@@ -545,7 +561,7 @@ data = {
       "function":"__html",
       "metadata":["map"],
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003E(function(){function e(){function k(a,d){var b=new XMLHttpRequest;b.onreadystatechange=function(){4==b.readyState\u0026\u0026200==b.status\u0026\u0026d(b.responseText)};b.open(\"GET\",a,!0);b.send(null)}var l=\"https:\/\/script.google.com\/macros\/s\/AKfycbwSiaFHdKqTFVQgO6b8iuRObRD4m8MNs0_P5yh3JVnCweXr-W_x\/exec\",m=",["escape",["macro",29],8,16],"||",["escape",["macro",30],8,16],";try{k(l+\"?acid\\x3d\"+m,function(a){a=JSON.parse(a);a.timer=a.fields[\"53\"].val;var d=[\"tags\",\"timer\",\"id\",\"email\",\"name\"],b;for(b in a)-1===d.indexOf(b)\u0026\u0026delete a[b];a.event=\n\"acUser\";a.time=f;dataLayer.push(a);window.localStorage.setItem(\"acUser\",JSON.stringify(a));console.log(\"retrieved new data from API\")})}catch(a){return a}}var g=",["escape",["macro",30],8,16],",n=",["escape",["macro",29],8,16],",f=(new Date).valueOf(),c=localStorage.getItem(\"acUser\");if(c\u0026\u0026!g){console.log(\"local storage found\");c=JSON.parse(c);var h=(f-c.time)\/1E3\/60;60\u003C=h?(console.log(\"cache expired, fetching new data\"),e()):(console.log(\"using cached data - time elapsed: \"+h),dataLayer.push(c))}else e();n||(console.log(\"setting new cookie\"),\n",["escape",["macro",4],8,16],"(\"mbr\",g,999999999999,\"\/\",\"measureschool.com\"))})();\u003C\/script\u003E"],
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003E(function(){function e(){function k(a,d){var b=new XMLHttpRequest;b.onreadystatechange=function(){4==b.readyState\u0026\u0026200==b.status\u0026\u0026d(b.responseText)};b.open(\"GET\",a,!0);b.send(null)}var l=\"https:\/\/script.google.com\/macros\/s\/AKfycbwSiaFHdKqTFVQgO6b8iuRObRD4m8MNs0_P5yh3JVnCweXr-W_x\/exec\",m=",["escape",["macro",31],8,16],"||",["escape",["macro",32],8,16],";try{k(l+\"?acid\\x3d\"+m,function(a){a=JSON.parse(a);a.timer=a.fields[\"53\"].val;var d=[\"tags\",\"timer\",\"id\",\"email\",\"name\"],b;for(b in a)-1===d.indexOf(b)\u0026\u0026delete a[b];a.event=\n\"acUser\";a.time=f;dataLayer.push(a);window.localStorage.setItem(\"acUser\",JSON.stringify(a));console.log(\"retrieved new data from API\")})}catch(a){return a}}var g=",["escape",["macro",32],8,16],",n=",["escape",["macro",31],8,16],",f=(new Date).valueOf(),c=localStorage.getItem(\"acUser\");if(c\u0026\u0026!g){console.log(\"local storage found\");c=JSON.parse(c);var h=(f-c.time)\/1E3\/60;60\u003C=h?(console.log(\"cache expired, fetching new data\"),e()):(console.log(\"using cached data - time elapsed: \"+h),dataLayer.push(c))}else e();n||(console.log(\"setting new cookie\"),\n",["escape",["macro",6],8,16],"(\"mbr\",g,999999999999,\"\/\",\"measureschool.com\"))})();\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
@@ -581,7 +597,7 @@ data = {
       "function":"__html",
       "metadata":["map"],
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003E",["escape",["macro",4],8,16],"(\"query\",",["escape",["macro",32],8,16],",99999);\u003C\/script\u003E"],
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003E",["escape",["macro",6],8,16],"(\"query\",",["escape",["macro",34],8,16],",99999);\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
@@ -590,7 +606,7 @@ data = {
       "function":"__html",
       "metadata":["map"],
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003Evar value=",["escape",["macro",32],8,16],"||",["escape",["macro",34],8,16],";value\u0026\u0026(document.querySelector('input[name\\x3d\"field[12]\"').value=",["escape",["macro",34],8,16],");\u003C\/script\u003E"],
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003Evar value=",["escape",["macro",34],8,16],"||",["escape",["macro",36],8,16],";value\u0026\u0026(document.querySelector('input[name\\x3d\"field[12]\"').value=",["escape",["macro",36],8,16],");\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
@@ -599,7 +615,7 @@ data = {
       "function":"__html",
       "metadata":["map"],
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003E(function(){document.querySelector('input[name\\x3d\"fullname\"]').value=\"",["escape",["macro",37],7],"\";document.querySelector('input[name\\x3d\"email\"]').value=\"",["escape",["macro",35],7],"\"})();\u003C\/script\u003E"],
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003E(function(){document.querySelector('input[name\\x3d\"fullname\"]').value=\"",["escape",["macro",39],7],"\";document.querySelector('input[name\\x3d\"email\"]').value=\"",["escape",["macro",37],7],"\"})();\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
@@ -638,7 +654,7 @@ data = {
       "function":"__html",
       "metadata":["map"],
       "once_per_event":true,
-      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003E(function(){document.querySelector(\"input[name\\x3d'customer.email']\").value=\"",["escape",["macro",35],7],"\";document.querySelector(\"input[name\\x3d'customer.name']\").value=\"",["escape",["macro",37],7],"\"})();\u003C\/script\u003E"],
+      "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003E(function(){document.querySelector(\"input[name\\x3d'customer.email']\").value=\"",["escape",["macro",37],7],"\";document.querySelector(\"input[name\\x3d'customer.name']\").value=\"",["escape",["macro",39],7],"\"})();\u003C\/script\u003E"],
       "vtp_supportDocumentWrite":false,
       "vtp_enableIframeMode":false,
       "vtp_enableEditJsMacroBehavior":false,
@@ -659,7 +675,7 @@ data = {
       "once_per_load":true,
       "vtp_overrideGaSettings":false,
       "vtp_optimizeContainerId":"OPT-WFL2FXP",
-      "vtp_gaSettings":["macro",11],
+      "vtp_gaSettings":["macro",13],
       "tag_id":268
     }],
   "predicates":[{
@@ -672,11 +688,11 @@ data = {
       "arg1":"purchase"
     },{
       "function":"_re",
-      "arg0":["macro",7],
+      "arg0":["macro",9],
       "arg1":"(you-are-now-signed-up|you-are-now-signed-up-resource|data-layer-workshop-success)"
     },{
       "function":"_cn",
-      "arg0":["macro",14],
+      "arg0":["macro",16],
       "arg1":"wp-admin"
     },{
       "function":"_eq",
@@ -696,19 +712,19 @@ data = {
       "arg1":"gtm.elementVisibility"
     },{
       "function":"_re",
-      "arg0":["macro",17],
+      "arg0":["macro",19],
       "arg1":"(^$|((^|,)1927886_231($|,)))"
     },{
       "function":"_cn",
-      "arg0":["macro",21],
+      "arg0":["macro",23],
       "arg1":"\/go"
     },{
       "function":"_cn",
-      "arg0":["macro",7],
+      "arg0":["macro",9],
       "arg1":"\/products"
     },{
       "function":"_cn",
-      "arg0":["macro",7],
+      "arg0":["macro",9],
       "arg1":"\/lp\/"
     },{
       "function":"_eq",
@@ -716,7 +732,7 @@ data = {
       "arg1":"video"
     },{
       "function":"_re",
-      "arg0":["macro",7],
+      "arg0":["macro",9],
       "arg1":"(products|services|black-friday-checkout)"
     },{
       "function":"_eq",
@@ -724,23 +740,23 @@ data = {
       "arg1":"membersignup"
     },{
       "function":"_cn",
-      "arg0":["macro",27],
+      "arg0":["macro",29],
       "arg1":"checkout"
     },{
       "function":"_cn",
-      "arg0":["macro",21],
+      "arg0":["macro",23],
       "arg1":"acid="
     },{
       "function":"_cn",
-      "arg0":["macro",21],
+      "arg0":["macro",23],
       "arg1":"you-are-now-signed-up"
     },{
       "function":"_eq",
-      "arg0":["macro",28],
+      "arg0":["macro",30],
       "arg1":"undefined"
     },{
       "function":"_eq",
-      "arg0":["macro",31],
+      "arg0":["macro",33],
       "arg1":"undefined"
     },{
       "function":"_eq",
@@ -748,15 +764,15 @@ data = {
       "arg1":"gtm.timer"
     },{
       "function":"_re",
-      "arg0":["macro",17],
+      "arg0":["macro",19],
       "arg1":"(^$|((^|,)1927886_293($|,)))"
     },{
       "function":"_re",
-      "arg0":["macro",32],
+      "arg0":["macro",34],
       "arg1":"utm|gclid"
     },{
       "function":"_re",
-      "arg0":["macro",33],
+      "arg0":["macro",35],
       "arg1":"(undefined|null)"
     },{
       "function":"_eq",
@@ -764,11 +780,11 @@ data = {
       "arg1":"gtm.dom"
     },{
       "function":"_cn",
-      "arg0":["macro",35],
+      "arg0":["macro",37],
       "arg1":"@"
     },{
       "function":"_eq",
-      "arg0":["macro",36],
+      "arg0":["macro",38],
       "arg1":"undefined"
     },{
       "function":"_eq",
@@ -776,27 +792,27 @@ data = {
       "arg1":"acUser"
     },{
       "function":"_cn",
-      "arg0":["macro",21],
+      "arg0":["macro",23],
       "arg1":"\/replay-15"
     },{
       "function":"_cn",
-      "arg0":["macro",23],
+      "arg0":["macro",25],
       "arg1":"65%"
     },{
       "function":"_cn",
-      "arg0":["macro",21],
+      "arg0":["macro",23],
       "arg1":"\/replay"
     },{
       "function":"_cn",
-      "arg0":["macro",21],
+      "arg0":["macro",23],
       "arg1":"-1"
     },{
       "function":"_cn",
-      "arg0":["macro",38],
+      "arg0":["macro",40],
       "arg1":"GTM BTB \u003E MM Banner"
     },{
       "function":"_cn",
-      "arg0":["macro",21],
+      "arg0":["macro",23],
       "arg1":"https:\/\/measureschool.com\/products\/measuremasters-btb-offer\/"
     },{
       "function":"_eq",
