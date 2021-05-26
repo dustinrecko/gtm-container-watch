@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"224",
+  "version":"226",
   
   "macros":[{
       "function":"__cvt_903835_490"
@@ -828,10 +828,8 @@ data = {
       "vtp_name":"gtm.videoTitle",
       "vtp_dataLayerVersion":1
     },{
-      "function":"__v",
-      "vtp_dataLayerVersion":2,
-      "vtp_setDefaultValue":false,
-      "vtp_name":"ecommerce.purchase.products.category"
+      "function":"__jsm",
+      "vtp_javascript":["template","(function(){var b=",["escape",["macro",166],8,16],",a=\"\";b.forEach(function(c){a+=c.category+\"|\"});return a.slice(0,-1)})();"]
     },{
       "function":"__u",
       "vtp_enableMultiQueryKeys":false,
@@ -1351,10 +1349,13 @@ data = {
       "once_per_event":true,
       "vtp_enableNewCustomerReporting":false,
       "vtp_enableConversionLinker":true,
+      "vtp_orderId":["macro",162],
       "vtp_enableProductReporting":false,
+      "vtp_conversionValue":"10.0",
       "vtp_conversionCookiePrefix":"_gcl",
       "vtp_enableShippingData":false,
       "vtp_conversionId":"987086507",
+      "vtp_currencyCode":"EUR",
       "vtp_conversionLabel":"T802CJP9qJICEKv91tYD",
       "vtp_rdp":false,
       "vtp_url":["macro",174],
@@ -1857,7 +1858,7 @@ data = {
     },{
       "function":"_re",
       "arg0":["macro",1],
-      "arg1":"EECpurchase"
+      "arg1":"EECpurchase|EECPurchase"
     },{
       "function":"_re",
       "arg0":["macro",50],
