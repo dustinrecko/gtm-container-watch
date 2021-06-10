@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"226",
+  "version":"227",
   
   "macros":[{
       "function":"__cvt_903835_490"
@@ -1249,6 +1249,12 @@ data = {
       "vtp_enableGA4Schema":true,
       "tag_id":581
     },{
+      "function":"__gcs",
+      "metadata":["map"],
+      "once_per_event":true,
+      "vtp_siteId":"jym5andqpedix3ocohkppu5u6a",
+      "tag_id":617
+    },{
       "function":"__gaawc",
       "metadata":["map"],
       "once_per_event":true,
@@ -1546,6 +1552,13 @@ data = {
       "vtp_uniqueTriggerId":"903835_683",
       "tag_id":709
     },{
+      "function":"__tl",
+      "vtp_eventName":"gtm.timer",
+      "vtp_interval":"15000",
+      "vtp_limit":"1",
+      "vtp_uniqueTriggerId":"903835_688",
+      "tag_id":710
+    },{
       "function":"__html",
       "vtp_html":["template","\u003Cscript type=\"text\/gtmscript\"\u003Evar disableStr=\"ga-disable-\"+",["escape",["macro",7],8,16],";\nfunction gaOptout(){document.cookie=disableStr+\"\\x3dtrue; expires\\x3dThu, 31 Dec 2099 23:59:59 UTC; path\\x3d\/\";window[disableStr]=!0;document.cookie=\"_ga\\x3d; expires\\x3dThu, 01 Jan 1970 00:00:00 UTC; domain\\x3d.lidl.de; path\\x3d\/\";document.cookie=\"_gat_UA-47225043-4\\x3d; expires\\x3dThu, 01 Jan 1970 00:00:00 UTC; domain\\x3d.lidl.de; path\\x3d\/\";document.cookie=\"_dc_gtm_UA-47225043-4\\x3d; expires\\x3dThu, 01 Jan 1970 00:00:00 UTC; domain\\x3d.lidl.de; path\\x3d\/\";alert(\"Opt Out Cookie wurde erfolgreich gesetzt\")}\n;\u003C\/script\u003E"],
       "vtp_convertJsValuesToExpressions":true,
@@ -1817,6 +1830,18 @@ data = {
       "arg1":"EECproductImpression|EECproductDetailView|EECcheckout|EECpurchase"
     },{
       "function":"_eq",
+      "arg0":["macro",50],
+      "arg1":"https:\/\/www.lidl.de\/de\/empfehlungen-fuer-dich\/s7382545"
+    },{
+      "function":"_eq",
+      "arg0":["macro",1],
+      "arg1":"gtm.timer"
+    },{
+      "function":"_re",
+      "arg0":["macro",147],
+      "arg1":"(^$|((^|,)903835_688($|,)))"
+    },{
+      "function":"_eq",
       "arg0":["macro",1],
       "arg1":"gtm.dom"
     },{
@@ -1843,10 +1868,6 @@ data = {
       "function":"_re",
       "arg0":["macro",147],
       "arg1":"(^$|((^|,)903835_673($|,)))"
-    },{
-      "function":"_eq",
-      "arg0":["macro",1],
-      "arg1":"gtm.timer"
     },{
       "function":"_re",
       "arg0":["macro",147],
@@ -1885,6 +1906,10 @@ data = {
       "arg0":["macro",11],
       "arg1":"lidl-inspiration\/c30582|baumarkt\/c10140|haushalt-kueche\/c5858|schlafzimmermoebel-co\/c5865|kinderwelt\/c6236|damenmode\/c8900"
     },{
+      "function":"_cn",
+      "arg0":["macro",20],
+      "arg1":"\/empfehlungen-fuer-dich\/s7382545"
+    },{
       "function":"_re",
       "arg0":["macro",50],
       "arg1":"c23389|c23390|c23388|c23387|s7377586|s7378248|c20855|c21000|c21003|c21002|c20855|c20966|c20971|c21003|c20972|c20995|c20964|b10513|b1850|c22276|c22277|c22278|c22280|c22279|c22281|c22282|c22283|c22285|c22284|c22286|c22287|c22288|c22289|c22290"
@@ -1921,24 +1946,24 @@ data = {
   "rules":[
     [["if",0,1],["add",1]],
     [["if",4],["add",2]],
-    [["if",0,5],["add",3,4,9,44,46]],
+    [["if",0,5],["add",3,4,9,46,48]],
     [["if",0,6],["add",4]],
     [["if",0,7,8],["add",4]],
     [["if",9,10],["add",4]],
     [["if",7,8,11],["add",4]],
     [["if",0,13],["add",5]],
     [["if",0,14],["add",6]],
-    [["if",0,3,15],["add",7,17,50]],
+    [["if",0,3,15],["add",7,18,52]],
     [["if",0,3,16],["add",7]],
     [["if",0,3,17],["add",7]],
     [["if",0,3,18],["add",7]],
     [["if",0,3,19],["add",7]],
     [["if",3,20],["add",7]],
     [["if",0,3,21],["add",7]],
-    [["if",0,3,22],["add",7,16,51]],
+    [["if",0,3,22],["add",7,17,53]],
     [["if",0,3,23],["add",7]],
     [["if",0,3,24],["add",7]],
-    [["if",3,9,22],["add",7,16]],
+    [["if",3,9,22],["add",7,17]],
     [["if",3,22,25],["add",7]],
     [["if",28,30,31],["unless",29],["add",8]],
     [["if",30,32,33],["add",8]],
@@ -1949,30 +1974,33 @@ data = {
     [["if",0,38,41,43],["unless",40],["add",11]],
     [["if",0,44,45],["add",12]],
     [["if",46,47],["add",13]],
-    [["if",0,48],["add",14]],
-    [["if",0,49,50],["add",14]],
-    [["if",0,48,51],["add",15]],
-    [["if",53,54],["unless",52],["add",18]],
-    [["if",55,56],["add",19]],
-    [["if",46,57,58],["add",20]],
-    [["if",5,59],["add",21,22,23,25,26,27,28,29,34]],
-    [["if",5,60],["add",24]],
-    [["if",5,61],["add",30]],
-    [["if",5],["add",31,32,33,35,36,37,41]],
-    [["if",62],["add",38,39,40]],
-    [["if",48],["add",42]],
-    [["if",5,63,64],["add",43]],
-    [["if",0,5,65],["add",45]],
-    [["if",0,5,66],["add",45]],
-    [["if",0,5,67],["add",45]],
-    [["if",0,50,68],["add",46,52]],
+    [["if",5,48],["add",14]],
+    [["if",49,50],["add",14]],
+    [["if",0,51],["add",15]],
+    [["if",0,52,53],["add",15]],
+    [["if",0,51,54],["add",16]],
+    [["if",56,57],["unless",55],["add",19]],
+    [["if",49,58],["add",20]],
+    [["if",46,59,60],["add",21]],
+    [["if",5,61],["add",22,23,24,26,27,28,29,30,35]],
+    [["if",5,62],["add",25]],
+    [["if",5,63],["add",31]],
+    [["if",5],["add",32,33,34,36,37,38,42]],
+    [["if",64],["add",39,40,41]],
+    [["if",51],["add",43]],
+    [["if",5,65,66],["add",44]],
+    [["if",5,67],["add",45]],
+    [["if",0,5,68],["add",47]],
     [["if",0,5,69],["add",47]],
-    [["if",0,38,40,41,70],["add",48]],
-    [["if",46,68,71],["add",49]],
-    [["if",5,46],["add",49]],
-    [["if",5,72],["add",0]],
-    [["if",2,3],["block",1,2,4,5,6,7,10,11,13,18,19]],
+    [["if",0,5,70],["add",47]],
+    [["if",0,53,71],["add",48,54]],
+    [["if",0,5,72],["add",49]],
+    [["if",0,38,40,41,73],["add",50]],
+    [["if",46,71,74],["add",51]],
+    [["if",5,46],["add",51]],
+    [["if",5,75],["add",0]],
+    [["if",2,3],["block",1,2,4,5,6,7,10,11,13,19,20]],
     [["if",2,5],["block",3]],
     [["if",3,12],["block",4]],
-    [["if",26,27],["block",7,16]]]
+    [["if",26,27],["block",7,17]]]
 }
