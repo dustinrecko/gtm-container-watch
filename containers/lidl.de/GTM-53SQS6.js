@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"227",
+  "version":"228",
   
   "macros":[{
       "function":"__cvt_903835_490"
@@ -762,8 +762,6 @@ data = {
       "function":"__jsm",
       "vtp_javascript":["template","(function(){var a=",["escape",["macro",51],8,16],"[",["escape",["macro",155],8,16],"].products,d=",["escape",["macro",156],8,16],",c=",["escape",["macro",155],8,16],",b=[];if(a\u0026\u0026\"impressions\"!==c)return(a=a.map(function(e){return e.id}).join(\",\"))||void 0;if(\"impressions\"==c){for(a=0;6\u003Ea;a++)b+=d[a].id+\",\";return b.substring(0,b.length-1)}})();"]
     },{
-      "function":"__t"
-    },{
       "function":"__jsm",
       "vtp_javascript":["template","(function(){return window.CookieConsent.changed||!1})();"]
     },{
@@ -808,6 +806,8 @@ data = {
       "vtp_setDefaultValue":false,
       "vtp_name":"ecommerce.add.products"
     },{
+      "function":"__t"
+    },{
       "function":"__v",
       "vtp_dataLayerVersion":2,
       "vtp_setDefaultValue":false,
@@ -829,7 +829,7 @@ data = {
       "vtp_dataLayerVersion":1
     },{
       "function":"__jsm",
-      "vtp_javascript":["template","(function(){var b=",["escape",["macro",166],8,16],",a=\"\";b.forEach(function(c){a+=c.category+\"|\"});return a.slice(0,-1)})();"]
+      "vtp_javascript":["template","(function(){var b=",["escape",["macro",165],8,16],",a=\"\";b.forEach(function(c){a+=c.category+\"|\"});return a.slice(0,-1)})();"]
     },{
       "function":"__u",
       "vtp_enableMultiQueryKeys":false,
@@ -1249,16 +1249,14 @@ data = {
       "vtp_enableGA4Schema":true,
       "tag_id":581
     },{
-      "function":"__gcs",
-      "metadata":["map"],
-      "once_per_event":true,
-      "vtp_siteId":"jym5andqpedix3ocohkppu5u6a",
+      "function":"__paused",
+      "vtp_originalTagType":"gcs",
       "tag_id":617
     },{
       "function":"__gaawc",
       "metadata":["map"],
       "once_per_event":true,
-      "vtp_userProperties":["list",["map","name","Touchpoint","value",["macro",160]],["map","name","Sales_Channel","value",["macro",4]],["map","name","User_Type","value",["macro",28]]],
+      "vtp_userProperties":["list",["map","name","Touchpoint","value",["macro",159]],["map","name","Sales_Channel","value",["macro",4]],["map","name","User_Type","value",["macro",28]]],
       "vtp_sendPageView":true,
       "vtp_measurementId":"G-KLG795LVQQ",
       "vtp_enableUserProperties":true,
@@ -1270,7 +1268,7 @@ data = {
       "metadata":["map"],
       "once_per_event":true,
       "vtp_eventName":"view_item",
-      "vtp_eventParameters":["list",["map","name","items","value",["macro",161]]],
+      "vtp_eventParameters":["list",["map","name","items","value",["macro",160]]],
       "vtp_measurementId":"G-KLG795LVQQ",
       "vtp_enableUserProperties":true,
       "vtp_enableMoreSettingsOption":true,
@@ -1280,9 +1278,9 @@ data = {
       "function":"__gaawe",
       "metadata":["map"],
       "once_per_event":true,
-      "vtp_userProperties":["list",["map","name","Touchpoint","value",["macro",160]]],
+      "vtp_userProperties":["list",["map","name","Touchpoint","value",["macro",159]]],
       "vtp_eventName":"purchase",
-      "vtp_eventParameters":["list",["map","name","transaction_id","value",["macro",162]],["map","name","affiliation","value",["macro",160]],["map","name","value","value",["macro",163]],["map","name","tax","value",["macro",164]],["map","name","shipping","value",["macro",165]],["map","name","currency","value","EUR"],["map","name","items","value",["macro",166]]],
+      "vtp_eventParameters":["list",["map","name","transaction_id","value",["macro",161]],["map","name","affiliation","value",["macro",159]],["map","name","value","value",["macro",162]],["map","name","tax","value",["macro",163]],["map","name","shipping","value",["macro",164]],["map","name","currency","value","EUR"],["map","name","items","value",["macro",165]]],
       "vtp_measurementId":"G-KLG795LVQQ",
       "vtp_enableUserProperties":true,
       "vtp_enableMoreSettingsOption":true,
@@ -1293,7 +1291,7 @@ data = {
       "metadata":["map"],
       "once_per_event":true,
       "vtp_eventName":"add_to_cart",
-      "vtp_eventParameters":["list",["map","name","items","value",["macro",167]]],
+      "vtp_eventParameters":["list",["map","name","items","value",["macro",166]]],
       "vtp_measurementId":"G-KLG795LVQQ",
       "vtp_enableUserProperties":true,
       "vtp_enableMoreSettingsOption":true,
@@ -1355,7 +1353,7 @@ data = {
       "once_per_event":true,
       "vtp_enableNewCustomerReporting":false,
       "vtp_enableConversionLinker":true,
-      "vtp_orderId":["macro",162],
+      "vtp_orderId":["macro",161],
       "vtp_enableProductReporting":false,
       "vtp_conversionValue":"10.0",
       "vtp_conversionCookiePrefix":"_gcl",
@@ -1846,7 +1844,7 @@ data = {
       "arg1":"gtm.dom"
     },{
       "function":"_cn",
-      "arg0":["macro",159],
+      "arg0":["macro",158],
       "arg1":"true"
     },{
       "function":"_eq",
