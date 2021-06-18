@@ -1,6 +1,6 @@
 data = {
 "resource": {
-  "version":"229",
+  "version":"230",
   
   "macros":[{
       "function":"__cvt_903835_490"
@@ -736,7 +736,7 @@ data = {
       "vtp_replaceAfterMatch":true,
       "vtp_defaultValue":["macro",11],
       "vtp_ignoreCase":true,
-      "vtp_map":["list",["map","key",".*p[0-9]{6}|.*p[0-9]{5}","value","scrolltracking"],["map","key","c4921|c10843|c12095|c7061|c23207|c23198|c6158|c16775|c11202|c7636|c5004|c9357|c9842 |c6737|c16482|c9588|c5005|c16482|c9588|c5005|c16482|c23396|c9628|c23478|c8899|c7365|c7306|c9953|c9976|c9957|c5858|c5865|c6236|c8900","value","scrolltracking"],["map","key",".*(-ab-[0-9]).*","value","scrolltracking"],["map","key","^\/$","value","scrolltracking"],["map","key",".*s[0-9]{6}|.*s[0-9]{5}|.*s[0-9]{4}","value","scrolltracking"],["map","key",".*c[0-9]{6}|.*c[0-9]{5}","value","scrolltracking"],["map","key",".*b[0-9]{4}|.*b[0-9]{3}|.*b[0-9]{2}|.*b[0-9]{1}","value","scrolltracking"]]
+      "vtp_map":["list",["map","key",".*p[0-9]{6}|.*p[0-9]{5}","value","scrolltracking"],["map","key",".*(-ab-[0-9]).*","value","scrolltracking"],["map","key","^\/$","value","scrolltracking"],["map","key",".*s[0-9]{6}|.*s[0-9]{5}|.*s[0-9]{4}","value","scrolltracking"],["map","key",".*c[0-9]{6}|.*c[0-9]{5}|.*c[0-9]{4}","value","scrolltracking"],["map","key",".*b[0-9]{4}|.*b[0-9]{3}|.*b[0-9]{2}|.*b[0-9]{1}","value","scrolltracking"]]
     },{
       "function":"__jsm",
       "vtp_javascript":["template","(function(){var a=window,b=\"onbeforeunload\",c=b in a;c||(a.setAttribute||(a=document.createElement(\"div\")),a.setAttribute\u0026\u0026a.removeAttribute\u0026\u0026(a.setAttribute(b,\"\"),c=\"function\"==typeof a[b],\"undefined\"!=typeof a[b]\u0026\u0026(a[b]=undef),a.removeAttribute(b)));return c})();"]
