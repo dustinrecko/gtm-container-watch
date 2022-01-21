@@ -11,16 +11,16 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node -e 'require(\"./index\").gtmWatch()'"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dustinrecko/gtm-container-watch.git"
+    "url": "git+https://github.com/ThirtyMadison/gtm-container-watch.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dustinrecko/gtm-container-watch/issues"
+    "url": "https://github.com/ThirtyMadison/gtm-container-watch/issues"
   },
-  "homepage": "https://github.com/dustinrecko/gtm-container-watch#readme"
+  "homepage": "https://github.com/ThirtyMadison/gtm-container-watch#readme"
 }
