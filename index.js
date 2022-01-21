@@ -2,6 +2,7 @@ const config = require('./config.json')
 const Octokit = require('@octokit/rest')
 const fetch = require('node-fetch')
 const URL = require('url').URL;
+require('dotenv').config()
 
 /**
  * Fetch a URL and try to grab the GTM ID assuming the standard implementation snippet
@@ -11,7 +12,7 @@ const getContainerId = async url => {
 
     const response = await fetch(url)
     const body = await response.text()
-    const gtmId = body.match(/window,document,'script','dataLayer','(GTM\-[^']+)'/i)[1]
+    const gtmId = body.match(/{ 'optimize_id': '(GTM\-[^']+)'}/i)[1]
     if(!gtmId) throw ('GTM ID not found')
     return gtmId
 
@@ -41,7 +42,7 @@ const githubCreateOrUpdate = async (data,host) => {
 
     const file = Buffer.from(data.data).toString('base64')
     const github = new Octokit({
-        auth: 'token '+process.env.GITHUB_AUTH
+        auth: process.env.GITHUB_AUTH
     })
     const githubObj = {
         owner: config.GITHUB_OWNER,
